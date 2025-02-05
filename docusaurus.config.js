@@ -38,12 +38,21 @@ const config = {
           routeBasePath: "/",
           sidebarPath: "./sidebars.js",
           editUrl: "https://github.com/eStreamSoftware/docs-sqlacc/edit/master/",
+          exclude: ['**/advanced/**']
         },
         theme: {
           customCss: [require.resolve("./static/css/custom.css")],
         },
       }),
     ],
+  ],
+
+  scripts: [
+    {
+      src:
+        '/js/blockzoom.js',
+      async: false,
+    },
   ],
 
   themeConfig:
