@@ -10,7 +10,7 @@ tags: ["SQL Account", "Usage", "Purchase"]
 
 Example of sales process work flow aligned with SQL Account flow:
 
-![27](../../static/img/getting-started/user-guide/27.png)
+![27](../../../static/img/getting-started/user-guide/27.png)
 
 ## Purchase Order
 
@@ -32,13 +32,13 @@ Example of sales process work flow aligned with SQL Account flow:
 
    3c. If you want to key in for a discount amount, you may tick the discount field by following step 3b and update the discount field. You can key in multiple levels of discount as shown by the picture attached.
 
-   ![28](../../static/img/getting-started/user-guide/28.png)
+   ![28](../../../static/img/getting-started/user-guide/28.png)
 
 4. After updating, click **Save**
 
 5. To preview the report, you may click on the preview button and select the format you wish to print.
 
-   ![29](../../static/img/getting-started/user-guide/29.png)
+   ![29](../../../static/img/getting-started/user-guide/29.png)
 
 ## Purchase Goods Received
 
@@ -50,7 +50,7 @@ Example of sales process work flow aligned with SQL Account flow:
 
 4. **Save** the Goods Received Note
 
-   ![30](../../static/img/getting-started/user-guide/30.png)
+   ![30](../../../static/img/getting-started/user-guide/30.png)
 
 ## Purchase Invoice
 
@@ -62,4 +62,4 @@ Example of sales process work flow aligned with SQL Account flow:
 
 4. **Save** the Purchase Invoice
 
-   ![31](../../static/img/getting-started/user-guide/31.png)
+   ![31](../../../static/img/getting-started/user-guide/31.png)
