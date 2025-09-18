@@ -305,22 +305,184 @@ You can key in the purchase invoice after your purchase order has been approved 
 
 1. **Purchase | Purchase Invoice | New**
 
+2. **Select Supplier Code**
+
+3. **Right Click on Purchase Invoice title**, select Transfer from Goods Received, tick the document that you wish to transfer
+
+4. **Save** the Purchase Invoice
+
+![41](../../../static/img/getting-started/user-guide/purchase/jj41.png)
+
 ## Cash Purchase
 
+You can key in cash purchase after your purchase order has been approved and after you have received your goods.
 
+Cash purchases are used for purchases that are paid for with cash and have no outstanding payment.
+
+![56](../../../static/img/getting-started/user-guide/purchase/jj56.png)
+
+### Data Entry
+
+1. **Purchase | Cash Purchase | New**
+
+![57](../../../static/img/getting-started/user-guide/purchase/jj57.png)
+
+2. **Select Supplier Code**
+
+3. **Insert Item**
+
+   3a. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+
+   :::note
+
+      You can navigate the search column by using the "TAB" button on your keyboard. It will apply to all drop down tables.
+
+   :::
+
+   ![58](../../../static/img/getting-started/user-guide/purchase/jj58.png)
+
+4. Write a description to explain your cash purchase
+
+5. Click the **Save** button once you are done.
+
+![59](../../../static/img/getting-started/user-guide/purchase/jj59.png)
+
+### Transfer From
+
+You can transfer your existing Purchase Order, Goods Receive Note, or Purchase Request to your Cash Sales.
+
+All you have to do is RIGHT-CLICK at the "Cash Purchase" title
+
+![60](../../../static/img/getting-started/user-guide/purchase/jj60.png)
+
+### Payment Paid
+
+For cash purchases, you can select the payment method. and key in the payment amount.
+
+![61](../../../static/img/getting-started/user-guide/purchase/jj61.png)
+
+![62](../../../static/img/getting-started/user-guide/purchase/jj62.png)
+
+You can also key in the Cheque No. and Bank Charges if there are any .
+
+Once you have **SAVED** your "Cash Purchase", The system will have created a Supplier payment document for you.
+
+![63](../../../static/img/getting-started/user-guide/purchase/jj63.png)
 
 ## Extra Goods Receive
 
+Extra Goods received is usually used by businesses where Invoices are issued before Goods Received.
 
+You would need an Invoice -> DO module in order to issue Extra Goods Received Note.
+
+![69](../../../static/img/getting-started/user-guide/purchase/jj69.png)
+
+### Data Entry
+
+1. **Purchase | Extra Goods Receive | New**
+
+2. **Select Supplier Code**
+
+3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+
+4. **Write a description to explain your extra goods receive**
+
+![72](../../../static/img/getting-started/user-guide/purchase/jj72.png)
+
+5. **Click the Save button once you are done.**
+
+### Transfer From
+
+You can transfer your existing Purchase invoice or Cash Purchase
+
+All you have to do is RIGHT-CLICK at the "Extra Goods Received" title
+
+![73](../../../static/img/getting-started/user-guide/purchase/jj73.png)
 
 ## Purchase Debit Note
 
+Purchase Debit note is used to increase your expense amount.
 
+Or to increase the amount of credit that you owe your supplier
+
+![79](../../../static/img/getting-started/user-guide/purchase/jj79.png)
+
+1. **Purchase | Purchase Debit Note | New**
+
+2. **Select Supplier Code**
+
+3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+
+4. **Write a description to explain your purchase debit note**
+
+![80](../../../static/img/getting-started/user-guide/purchase/jj80.png)
+
+5. **Click the Save button once you are done. Below is the example of the entry created:**
+
+![82](../../../static/img/getting-started/user-guide/purchase/jj82.png)
+
+### Transfer From
+
+Instead of keying in a new document, you can transfer it from an existing Purchase Request or Purchase Order or Goods Received document.
+
+All you have to do is RIGHT-CLICK at the "Purchase Debit Note" title
+
+![83](../../../static/img/getting-started/user-guide/purchase/jj83.png)
 
 ## Purchase Returned
 
+Purchase return document is created when you return purchased goods back to the supplier.
 
+![89](../../../static/img/getting-started/user-guide/purchase/jj89.png)
+
+### Data Entry
+
+1. **Purchase | Purchase Returned | New**
+
+2. **Select Supplier Code**
+
+3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+
+4. **Write a description to explain your purchase debit note**
+
+![90](../../../static/img/getting-started/user-guide/purchase/jj90.png)
+
+5. **Click the Save button once you are done. Below is the example of the entry created:**
+
+![92](../../../static/img/getting-started/user-guide/purchase/jj92.png)
+
+### Transfer From
+
+Instead of keying in a new document, you can transfer it from an existing Purchase Invoice or Cash Purchase document.
+
+All you have to do is RIGHT-CLICK at the "Purchase Return" title
+
+![93](../../../static/img/getting-started/user-guide/purchase/jj93.png)
 
 ## Purchase Cancelled Note
 
+You can key in the purchase cancelled note to remove any outstanding documents at purchase order.
 
+![99](../../../static/img/getting-started/user-guide/purchase/jj99.png)
+
+### Data Entry
+
+1. **Purchase | Purchase Cancelled Note | New**
+
+2. **Select Supplier Code**
+
+3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+
+4. **Write a description to explain your purchase debit note**
+
+![100](../../../static/img/getting-started/user-guide/purchase/jj100.png)
+
+5. **Click the Save button once you are done.**
+
+### Transfer From
+
+Instead of keying in a new document, you can transfer it from an existing Purchase Invoice or Cash Purchase document.
+
+All you have to do is RIGHT-CLICK at the "Purchase Cancelled Note" title
+
+![102](../../../static/img/getting-started/user-guide/purchase/jj102.png)
