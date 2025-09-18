@@ -37,6 +37,16 @@ tags: ["SQL Account", "Additional Module"]
 
    ![2](../../static/img/additional-module/myttx/yc2-ttx.jpg)
 
+*Source from Royal Malaysian Customs Department official page*
+
+List of Guidance about MYTTx :
+1. [General Guide on Tourism Tax [Panduan Am Cukai Pelancongan]](https://www.myttx.customs.gov.my/wp-content/uploads/2024/12/Panduan-Am-Cukai-Pelancongan-V2-06122024.pdf)
+2. [Guide on Registration](https://www.myttx.customs.gov.my/wp-content/uploads/2022/05/APPENDIX-B-Panduan-Pendaftaran-Cukai-Pelancongan.pdf)
+3. [Guideline to fill up Form TTx-01 [Panduan Mengisi Borang TTx-01]](https://www.myttx.customs.gov.my/wp-content/uploads/2022/05/APPENDIX-C-Panduan-Mengisi-Borang-TTx-01.pdf)
+4. [Guide on Return, Payment and Refund](https://www.myttx.customs.gov.my/wp-content/uploads/2022/05/APPENDIX-D-Panduan-Pengemukaan-Penyata-dan-Pembayaran-PUBLIC.pdf)
+5. [Guideline to fill up Form TTx-03 [Panduan Mengisi Borang TTx-03]](https://www.myttx.customs.gov.my/wp-content/uploads/2022/05/APPENDIX-E-Panduan-Mengisi-Borang-TTx-03.pdf)
+6. [Guideline to fill up Form TTx-04 [Panduan Mengisi Borang TTx-04]](https://www.myttx.customs.gov.my/wp-content/uploads/2022/05/APPENDIX-F-Panduan-Mengisi-Borang-TTx-04.pdf)
+
 ## Modules Require
 
 1. SQL Accounting (S&P)
@@ -50,7 +60,7 @@ tags: ["SQL Account", "Additional Module"]
    2. MYTTx preset setting ready.
    3. TTx-03 form.
 2. Click on the link below and get the backup file for MYTTx database structure:
-   1. MYTTx-Testing Company
+   1. [MYTTx-Testing Company](http://www.sql.com.my/document/MYTTx_TestingCompany-%5bTTx-01Sept2017%5d-2017-09-18-sqlacc.zip)
 3. Restore this backup.
 4. Enter the user ID and password with “ADMIN” to login.
 
@@ -188,3 +198,105 @@ Go to **[Sales | Invoice...]**
 
    9. To confirm the Invoice, click on Save.
    10. You can preview/print the Tax Invoice or Invoice.
+
+### Sample of Full Tax Invoice (For GST Registered Person)
+
+1. Full Tax Invoice requires the following information for operators **registered with GST**:
+   1. the word ‘tax invoice’ in a prominent place;
+   2. the tax invoice serial number;
+   3. the date of issuance of the tax invoice;
+   4. the name, address and identification number of the supplier;
+   5. the name and address of the person to whom the goods or services are supplied;
+   6. a description sufficient to identify the goods or services supplied;
+   7. for each description, distinguish the type of supply for zero rate, standard rate and exempt, the quantity of the goods or the extent of the services supplied and the amount payable, excluding tax;
+   8. any discount offered;
+   9. the total amount payable excluding tax, the rate of tax and the total tax chargeable to be shown separately;
+2. The **additional details** required in the tax invoices are as follows:
+   1. the Tourism Tax Identification Number of the operator; and
+   2. the rate and amount of TTx payable, separately from the charges for the accommodation provided by the operator.
+
+![22](../../static/img/additional-module/myttx/yc22.jpg)
+
+### Sample of Invoice (For Non-GST Registered Person)
+
+For operators **not registered for GST**, details to be include in the invoice, receipt or other document to the tourist are as follows:
+   1. The invoice serial number.
+   2. The date of the invoice.
+   3. The name, address and the Tourism Tax Identification Number of the operator.
+   4. The name and address of the person to whom the accommodation premises are provided.
+   5. The rate and amount of TTx payable, separately from the charges for the accommodation provided by the operator.
+
+![23](../../static/img/additional-module/myttx/yc23.jpg)
+
+## Adjustment Using Debit/Credit Note
+
+### Credit Note
+
+Go to **[Sales | Credit Note | New...]**
+
+1. Select a customer (guest).
+2. Right click on the **Credit Note** title. See the screenshot below.
+
+![24](../../static/img/additional-module/myttx/yc24.jpg)
+
+4. Select the tax invoice/invoice to transfer for CN adjustment.
+5. State the reason at the document description. See the screenshot below.
+
+![25](../../static/img/additional-module/myttx/yc25.jpg)
+
+### Debit Note
+
+Go to **[Sales | Debit Note | New...]**
+
+1. Select a customer (guest).
+2. Select a Tax Invoice/Invoice at **From Doc**. See the screenshot below.
+
+![26](../../static/img/additional-module/myttx/yc26.jpg)
+
+3. State the reason at the document description.
+
+## Print TTX-03 Form
+
+Go to **[Sales | Print Sales Price History...]**
+
+1. Select the **date range (Taxable Period)**.
+2. Tick the following document types:
+   1. Invoice
+   2. Cash Sale
+   3. Debit Note (adjustment)
+   4. Credit Note (adjustment)
+3. Click **Apply**.
+4. Preview / print the **TTx-03** form.
+
+![27](../../static/img/additional-module/myttx/yc27.jpg)
+
+### Sample of TTx-03 generated from SQL Account
+Page 1
+
+![28](../../static/img/additional-module/myttx/yc28.jpg)
+
+Page 2
+
+![29](../../static/img/additional-module/myttx/yc29.jpg)
+
+### TTx-03 Part A - Detail of Operator
+
+Go to **[File | Company Profile...]**
+
+1. Click **Edit** the Company Profile.
+2. Click to the **More** tab.
+3. Enter the **Tourism Tax Identification number** in ATS/ATMS Permit No.
+
+![30](../../static/img/additional-module/myttx/yc30.jpg)
+
+### TTx-03 Part D - Declaration Part
+
+Go to **[User | Maintain User...]**
+
+Under **Misc** tab, you can update the following info as required in TTx-03 form.
+   1. IC (New)
+   2. IC (Old)
+   3. Passport
+   4. Nationality
+
+![31](../../static/img/additional-module/myttx/yc31.jpg)
