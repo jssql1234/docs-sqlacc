@@ -8,12 +8,6 @@ tags: ["SQL Account", "Usage", "Purchase", "Report"]
 
 ## Print Purchase Document Listing
 
-### Introduction
-
-Print Purchase Document Listing can be used for you to see all the purchase transactions that you have keyed into this system
-
-You can see purchase request listing, purchase order listing, good received listing, purchase invoice listing, cash purchase listing, and many more.
-
 ### How to Print Purchase Document Listing
 
 1. Go to Purchase and click Print Purchase Document Listing
@@ -72,12 +66,6 @@ Here is an example of the report
 
 ## Print Outstanding Purchase Document Listing
 
-### Introduction
-
-Print Outstanding Purchase Document Listing is a report to list which document is still not yet transfer
-
-You can see outstanding purchase request listing, outstanding purchase order listing, outstanding good received listing, outstanding purchase invoice listing, outstanding cash purchase listing.
-
 ### How to Print Outstanding Purchase Document Listing
 
 ![12](../../../static/img/getting-started/user-guide/purchase/report/jj12.png)
@@ -129,12 +117,6 @@ Here is an example of the outstanding purchase report:
 ![21](../../../static/img/getting-started/user-guide/purchase/report/jj21.png)
 
 ## Print Purchase Price History
-
-### Introduction
-
-Print Purchase Price History can be used for you to review past purchase price histories, observe price movements, and analyze price breakdowns.
-
-![22](../../../static/img/getting-started/user-guide/purchase/report/jj22.png)
 
 ### How to Print Purchase Price History
 
@@ -203,12 +185,6 @@ Here is an example of the price history report:
 
 ## Print Purchase Analysis by Document
 
-### Introduction
-
-Print Purchase Analysis by Document can be used for you to view total invoice purchases, cash purchases, credit notes, and debit notes categorized by document.
-
-![36](../../../static/img/getting-started/user-guide/purchase/report/jj36.png)
-
 ### How to Print Purchase Analysis by Document
 
 ![37](../../../static/img/getting-started/user-guide/purchase/report/jj37.png)
@@ -242,10 +218,6 @@ You can use the Group by/Sort by table to choose how you want to group your repo
 ## Print Yearly Purchase Analysis
 
 ### Introduction
-
-Print Yearly Purchase Analysis can be used for you to generate report displaying monthly data for yearly purchase analysis.
-
-![43](../../../static/img/getting-started/user-guide/purchase/report/jj43.png)
 
 ### How to Print Yearly Purchase Analysis
 
