@@ -32,6 +32,42 @@ Watch tutorial video here:  [Sales Quotation](http://www.sql.com.my/video/sqlacc
 
    ![34](../../static/img/getting-started/user-guide/34.png)
 
+### Project
+
+There are 2 types of project you need to be take note.
+
+1. Document Project. For document project, you need to point to **MORE** section (on the **left side bar**).
+
+2. Detail Project. For detail project, you have to **insert the project column out from Field Chooser**.
+
+![229](../../static/img/getting-started/user-guide/yc1-project.png)
+
+### Attachment
+
+You can use this feature to attach external PDF, excel, word documents and image files.
+
+1. Go to the left of the screen and click "**Attachment**"
+
+2. Click the first icon
+
+3. Then choose the file from your computer that you want to attach
+
+![230](../../static/img/getting-started/user-guide/yc1-attachment.png)
+
+### Note
+
+1. Click on the Note section (on the LEFT side bar).
+
+2. **RIGHT click** it, you will see the Rich Text Editor pop-up.
+
+3. You can start key-in the note. See the example screenshot below.
+
+4. Click on **X** button (top right corner) to save and exit the Rich Text Editor.
+
+5. You will get prompted the Save changes? message. Click YES to save it.
+
+![231](../../static/img/getting-started/user-guide/yc1-note.png)
+
 ## Sales Order
 
 :::info
