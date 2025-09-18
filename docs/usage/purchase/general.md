@@ -6,6 +6,12 @@ slug: /usage/purchase/general
 tags: ["SQL Account", "Usage", "Purchase", "General"]
 ---
 
+## Purchase Work Flow
+
+Example of sales process work flow aligned with SQL Account flow:
+
+![0](../../../static/img/getting-started/user-guide/purchase/jj0.png)
+
 ## Purchase Request
 
 Purchase Request is an internal document used within a company between departments to request for purchase or a product
