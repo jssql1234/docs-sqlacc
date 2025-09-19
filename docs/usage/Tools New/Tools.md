@@ -690,9 +690,9 @@ end;
 
 | Field Name   | Explanation & Properties |
 |--------------|---------------------------|
-| **Code**     | - Input the new Agent code <br> - Field type: Alphanumerical <br> - Length: 10 |
-| **Description** | - Input the Agent Name <br> - Field type: Alphanumerical <br> - Length: 80 |
-| **Active**   | - Checked = Active <br> - Unchecked = Inactive |
+| **Code**     | - Input the new Agent code - Field type: Alphanumerical - Length: 10 |
+| **Description** | - Input the Agent Name - Field type: Alphanumerical - Length: 80 |
+| **Active**   | - Checked = Active - Unchecked = Inactive |
 
 
 ## Maintain Area
@@ -749,9 +749,9 @@ Menu: Tools | Maintain Company Category...
 
 | Field Name  | Explanation & Properties                         |
 |-------------|--------------------------------------------------|
-| **Code**    | Input the new Company Category code <br> *Field type:* Alphanumerical <br> *Length:* 10 |
-| **Description** | Input the Company Category Name. <br> *Field type:* Alphanumerical <br> *Length:* 80 |
-| **Active**  | Checked = Active <br> Unchecked = Inactive        |
+| **Code**    | Input the new Company Category code  *Field type:* Alphanumerical  *Length:* 10 |
+| **Description** | Input the Company Category Name.  *Field type:* Alphanumerical  *Length:* 80 |
+| **Active**  | Checked = Active  Unchecked = Inactive        |
 
 ### Use of Company Category
 
@@ -764,7 +764,7 @@ Reports by Company Category
 1. You can apply the following reports by Company Category.
 
 <details>
-  <summary><b>Customer</b></summary>
+  <summary>Customer</summary>
 
   - a. Print Customer Document Listing...
   - b. Print Customer Balance Report...
@@ -815,4 +815,174 @@ Reports by Company Category
   - d. Print Purchase Analysis by Document...
   - e. Print Yearly Purchase Analysis...
 </details>
+
+2. Example of Print Customer Aging Report screenshot.
+
+![ch71](../../../static/img/getting-started/user-guide/ch71.jpg)
+
+## Maintain Shipper
+
+Menu: Tools | Maintain Shipper...
+
+1. To maintain the shipper profile such as **name**, **address**, **phone**, **account**, etc. It is easy to trace the shipper name who ship the goods or service.
+2. Sometimes, you can use as "**Global Delivery**" where you can apply to both sales / purchase documents.
+
+![ch72](../../../static/img/getting-started/user-guide/ch72.jpg)
+
+### Create New Shipper
+
+![ch73](../../../static/img/getting-started/user-guide/ch73.jpg)
+
+<details>
+  <summary><b>Shipper Fields</b></summary>
+
+  | **Field Name** | **Explanation** | **Properties** |
+  |----------------|-----------------|----------------|
+  | Code          | Input the new Shipper code | Alphanumerical, Length: 30 |
+  | Description   | Input the Shipper name | Alphanumerical, Length: 160 |
+  | Address       | Input the Shipper Address | Alphanumerical, Length: 60 per line |
+  | Phone         | Input the Shipper Phone | Alphanumerical, Length: 20 per line |
+  | Account       | Input the Shipper Account | Alphanumerical, Length: 40 |
+  | Remark 1      | Input any remark (free field) | Alphanumerical, Length: 200 |
+  | Remark 2      | Input any remark (free field) | Alphanumerical, Length: 200 |
+  | Description   | Input the Shipper name | Alphanumerical, Length: 160 |
+  | Active        | Checked = Active, Unchecked = Inactive | Boolean |
+</details>
+
+### Use of Shipper 
+
+1. Both Sales / Purchase documents, you can select the shipper by clicking on the **MORE** tab (LEFT side bar)
+2. Example of Sales Delivery Order screenshot
+
+![ch74](../../../static/img/getting-started/user-guide/ch74.jpg)
+
+### Report by Shipper
+
+1. You can apply the Sales report by Shipper, especially the reports from **Sales | Print Sales Price History**.
+2. Example of Sales Price History report screenshot
+
+![ch75](../../../static/img/getting-started/user-guide/ch75.jpg)
+
+## Maintain Tariff
+
+Menu: Tools | Maintain Tariff...
+
+* Tariff classification is a complex yet extremely important aspect of **cross-border trading**.
+* **Goods imported** from or to Malaysia are classified by the Harmonized Tariff Schedule (HTS) or commonly referred to as **HS Codes**.
+* The codes, created by World Customs Organization (WCO), categorize up to 5,000 commodity
+HS Codes are made of **6-digit numbers** that are recognized internationally, although different countries can extend the numbers by two or four digits to define commodities at a more detailed level.
+Click [here](https://ezhs.customs.gov.my/) to search the tariff code list from Kastam system.
+
+### Create New Tariff
+
+![ch76](../../../static/img/getting-started/user-guide/ch76.jpg)
+
+| **Field Name** | **Explanation** | **Properties** |
+  |----------------|-----------------|----------------|
+  | Code          | Input the new Tariff Code | Alphanumerical, Length: 20 |
+  | Description   | Input the Tariff Description | Alphanumerical, Length: 160 |
+  | Active        | Checked = Active, Unchecked = Inactive | Boolean |
+
+  ## Print Audit Trail
+
+* Menu: Tools | Print Audit Trail...
+
+> All questions regarding who created, edited, or deleted the data, and when, can be answered through the Print Audit Trails. 
+
+![ch77](../../../static/img/getting-started/user-guide/ch77.jpg)
+
+| Field Name | Explanation & Properties |
+|------------|---------------------------|
+| Date       | Input the date range to be audited. |
+| User       | Select the user to be audited. |
+| Event      | Insert = Check who/when the data was created.Edit = Check who/when the data was modified.Delete = Check who/when the data was deleted. |
+| Where      | Tick the modules to be audited. |
+| Find Text  | Input the specific keyword to be audited, e.g., invoice no., customer code, etc. |
+
+
+  ### Advanced Options
+
+  > If you wish to audit the Sales/Purchase/Stock documents details, you must enable this "Post Audit Trail for Stock/Sales/Purchase Detail". See below screenshot:
+
+  ![ch78](../../../static/img/getting-started/user-guide/ch78.jpg)
+
+  ## Analyse Data Integrity
+
+  Menu: Tools | Analyse Data Integrity...
+
+:::Warning NOTE:
+RUN Analyse Data Integrity ONLY when you have at least 1-3 hours for operations in company and SQL Account to be fully stop...
+:::
+
+  To analyse the data integrity check. It is recommended to perform this action **weekly** or **monthly**  
+  > (before month end closing).
+
+Reason to run this may due to the following unpredictable matters:
+
+> 1. malfunction/glitch from hardware such as network switch, computer, server, etc.
+>2. Network stability, such as wireless lost connection.
+>3. Power failure
+>4. Operating System failure
+>
+
+<details>
+  <summary>Analyse Data Integrity</summary>
+
+There are 3 parts of analyse data integrity :
+
+a. Regular Data Integrity (Default)
+
+* Check AP Knock Off Integrity
+* Check AR Knock Off Integrity
+* Update Customer Outstanding
+* Check Document Integrity
+* Check Document Transfer Integrity
+* Check Delivery Order/Invoice/Cash Sales to Credit Note Posting Date
+* Check Production Document Transfer Integrity
+* Check GL Opening Balance
+* Check GST DO -> IV Posting Integrity
+* Repost Stock Transactions
+* Calculate Stock Costing
+* Compress Stock Item Pictures
+* Update Stock Balance Quantity
+* Update Supplier Outstanding
+* Resequence Table Fields
+* Regenerate Views
+* Remove Temporary Table
+
+b. Reposting (Optional)
+
+* Repost AR Documents
+* Repost AP Documents
+* Repost GL Documents
+* Repost PH Documents
+* Repost SL Documents
+
+</details>
+
+:::success NOTE:
+1. Reposting might took longer time to perform repost for the documents selected.
+2. Recommended to run at the server side.
+:::
+
+  ![ch79](../../../static/img/getting-started/user-guide/ch79.jpg)
+
+  ### To Start Analyse
+
+1. Tick the Analyse Items required to analyse, otherwise skip this step 1.
+2. Click on Start Analyse.
+
+![ch80](../../../static/img/getting-started/user-guide/ch80.jpg)
+
+3. Prompt the message to inform you the total tasks ticked has analyse completed.
+
+![ch81](../../../static/img/getting-started/user-guide/ch81.jpg)
+
+4. You can copy the analyse log detail by click on Copy to Clipboard.
+
+![ch82](../../../static/img/getting-started/user-guide/ch82.jpg)
+
+5. Open notepad or Microsoft Words. Paste it.
+
+![ch83](../../../static/img/getting-started/user-guide/ch83.jpg)
 
