@@ -8,7 +8,6 @@ img {
 .markdown table {
   font-size: 13px;
   width: 100%;
-  /*margin: 0 auto;*/
   margin-left: 0;
   border-collapse: collapse;
   margin-bottom:15px;
@@ -16,7 +15,7 @@ img {
 
 .markdown table th,
 .markdown table td {
-  padding: 3px;
+  padding: 4px;
   border: 1px solid #ccc;
 }
 
@@ -50,5 +49,9 @@ img {
 .table-small td {
   padding: 6px;
   border: 1px solid #ccc;
+}
+
+.pos-table {
+  margin: 0 auto;
 }
 */
