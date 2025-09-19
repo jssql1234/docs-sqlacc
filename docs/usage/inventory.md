@@ -5,7 +5,7 @@ description: Stock management
 slug: /usage/inventory
 tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 ---
-
+sdasdsadasdd
 ## Stock Received
 
 Allows user to increase stock quantity without purchasing. It is normally used when you have assembled or manufactured finished goods. Just key-in the item code, quantity IN and cost that you want.
