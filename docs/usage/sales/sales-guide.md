@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 title: Sales
 description: Sales work flow
-slug: /usage/sales
+slug: /usage/sales/sales
 tags: ["SQL Account", "Usage", "Sales"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["SQL Account", "Usage", "Sales"]
 
 Example of sales process work flow aligned with SQL Account flow:
 
-![32](../../static/img/getting-started/user-guide/32.png)
+![32](../../../static/img/getting-started/user-guide/32.png)
 
 ## Sales Quotation
 
@@ -24,13 +24,13 @@ Watch tutorial video here:  [Sales Quotation](http://www.sql.com.my/video/sqlacc
 
 3. Insert the item that is requested by the customer, and you can estimate your profit & loss in this transaction by checking on **Profit Estimator**
 
-   ![33](../../static/img/getting-started/user-guide/33.png)
+   ![33](../../../static/img/getting-started/user-guide/33.png)
 
 4. After everything is keyed in correctly, save the **Sales Quotation**
 
 5. **Preview** the report and you can **print** or **export** it into PDF/ Email/ RTF(Microsoft Word)/Excel or others.
 
-   ![34](../../static/img/getting-started/user-guide/34.png)
+   ![34](../../../static/img/getting-started/user-guide/34.png)
 
 ### Project
 
@@ -40,7 +40,7 @@ There are 2 types of project you need to be take note.
 
 2. Detail Project. For detail project, you have to **insert the project column out from Field Chooser**.
 
-![229](../../static/img/getting-started/user-guide/yc1-project.png)
+![229](../../../static/img/getting-started/user-guide/yc1-project.png)
 
 ### Attachment
 
@@ -52,7 +52,7 @@ You can use this feature to attach external PDF, excel, word documents and image
 
 3. Then choose the file from your computer that you want to attach
 
-![230](../../static/img/getting-started/user-guide/yc1-attachment.png)
+![230](../../../static/img/getting-started/user-guide/yc1-attachment.png)
 
 ### Note
 
@@ -66,7 +66,7 @@ You can use this feature to attach external PDF, excel, word documents and image
 
 5. You will get prompted the Save changes? message. Click YES to save it.
 
-![231](../../static/img/getting-started/user-guide/yc1-note.png)
+![231](../../../static/img/getting-started/user-guide/yc1-note.png)
 
 ## Sales Order
 
@@ -80,7 +80,7 @@ Watch tutorial video here: [Sales Invoicing Sales Order](https://www.youtube.com
 
 3. **Right Click on Sales Order title**, select **Transfer from Quotation**. You can either transfer the whole quotation or only part of the quotation document (*Partial Delivery Module requested)
 
-   ![35](../../static/img/getting-started/user-guide/35.png)
+   ![35](../../../static/img/getting-started/user-guide/35.png)
 
 4. Save the **Sales Order**.
 
@@ -128,11 +128,11 @@ Watch tutorial video here: [Sales Invoicing Sales Invoice](https://www.youtube.c
 
 1. After you save then invoice then you can press on keyboard short cut key “ Ctrl + O” to get the show double entry result.
 
-   ![36](../../static/img/getting-started/user-guide/36.png)
+   ![36](../../../static/img/getting-started/user-guide/36.png)
 
 2. After you save the invoice, you may right click on the wording of Invoice then select “Show Double Entry”.
 
-   ![37](../../static/img/getting-started/user-guide/37.png)
+   ![37](../../../static/img/getting-started/user-guide/37.png)
 
 ## Cash Sales
 
@@ -144,9 +144,9 @@ Watch tutorial video here: [Sales Invoicing Sales Invoice](https://www.youtube.c
 
 4. When saving, the system will prompt a **Payment/ Change** dialog box
 
-   ![38](../../static/img/getting-started/user-guide/38.png)
+   ![38](../../../static/img/getting-started/user-guide/38.png)
 
-   ![39](../../static/img/getting-started/user-guide/39.png)
+   ![39](../../../static/img/getting-started/user-guide/39.png)
 
 ## Sales Credit Note
 
@@ -162,7 +162,7 @@ Watch tutorial video here: [Sales Invoicing Sales Credit Note](https://www.youtu
 
 4. **Save** the Credit Note.
 
-   ![40](../../static/img/getting-started/user-guide/40.png)
+   ![40](../../../static/img/getting-started/user-guide/40.png)
 
 ## Sales Cancelled Note (required partial delivery module)
 
@@ -172,10 +172,10 @@ Sales Cancelled Note is used for the cancelling of any outstanding Sales Order.
 
 2. **Right Click on the Cancelled Note title**, select **Transfer from Sales Order**; (in Sales Cancelled Note, items can only be inserted by transferring from Sales Order)
 
-   ![41](../../static/img/getting-started/user-guide/41.png)
+   ![41](../../../static/img/getting-started/user-guide/41.png)
 
 3. You can choose to transfer the sales order either by the whole document or partially.
 
-   ![41b](../../static/img/getting-started/user-guide/41b.png)
+   ![41b](../../../static/img/getting-started/user-guide/41b.png)
 
 4. **Save** the Cancelled Note.
