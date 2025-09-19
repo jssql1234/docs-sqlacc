@@ -637,15 +637,13 @@ GL | Print Journal of Transaction Listing...See below screenshot :
 
 Browse mode in Maintain Style. See the below screenshot:
 
-![ch60](../../../static/img/getting-started/user-guide/ch60.png)
+![ch60](../../../static/img/getting-started/user-guide/ch60.jpg)
 
 ### Create New Commission Script
 
-![ch60](../../../static/img/getting-started/user-guide/ch60.png)
-
 1. Click on NEW. See the below screemshot.
 
-![ch61](../../../static/img/getting-started/user-guide/ch61.png)
+![ch62](../../../static/img/getting-started/user-guide/ch62.png)
 
 | Field Name   | Explanation                              |
 |--------------|------------------------------------------|
@@ -684,4 +682,137 @@ end;
 2. It is very useful when you are trying to apply the reports by an Agent.
 3. You can create/edit the agent or sales person code here.
 
-![ch62](../../../static/img/getting-started/user-guide/ch62.png)
+![ch63](../../../static/img/getting-started/user-guide/ch63.png)
+
+### Create New Agent 
+
+![ch64](../../../static/img/getting-started/user-guide/ch64.jpg)
+
+| Field Name   | Explanation & Properties |
+|--------------|---------------------------|
+| **Code**     | - Input the new Agent code <br> - Field type: Alphanumerical <br> - Length: 10 |
+| **Description** | - Input the Agent Name <br> - Field type: Alphanumerical <br> - Length: 80 |
+| **Active**   | - Checked = Active <br> - Unchecked = Inactive |
+
+
+## Maintain Area
+
+* Menu: Tools | Maintain Area...
+
+>1. Area can be the state, country or regions.
+>2. It is very useful when you are try to apply the reports by Area.
+>3. You can create/edit the area or country code here.
+>
+
+![ch65](../../../static/img/getting-started/user-guide/ch65.jpg)
+
+### Create New Area
+
+* Below is Area entry form 
+
+![ch66](../../../static/img/getting-started/user-guide/ch66.jpg)
+
+## Maintain Withholding Tax
+
+Menu : Tools | Maintain Withholding Tax...
+
+### Create Withholding Tax Code
+
+1. Click New.
+2. Input the following data:
+
+| Field Name        | Explanation                                  | Remark                                                                 |
+|-------------------|----------------------------------------------|------------------------------------------------------------------------|
+| **Code**          | Set a code                                   | WTH-TAX15                                                              |
+| **Description**   | Describe the meaning/usage of this code       | Withholding Tax 15%                                                    |
+| **Tax Rate**      | Withholding Tax Rate                         | 15%                                                                    |
+| **Tax Account (DR)** | Set to Withholding Tax Expense account       | At GL\Maintain Account, create the Withholding Tax Expense account under **Expenses** |
+| **Tax Account (CR)** | Set to Withholding Tax Payable account       | At GL\Maintain Account, create the Withholding Tax Payable account under **Current Liabilities** |
+
+![ch67](../../../static/img/getting-started/user-guide/ch67.jpg)
+3. Click on Save.
+
+## Maintain Company Category
+Menu: Tools | Maintain Company Category...
+
+1. Company Category usually use to categorize the customer/supplier. For example, 3rd Parties-Domestic, 3rd Parties-Export, Intercompany, etc.
+2. It is very useful when you are try to apply the reports by Company Category.
+3. You can create/edit the Company Category or sales person code here.
+
+![ch68](../../../static/img/getting-started/user-guide/ch68.jpg)
+
+### Create New Company CAtegory
+
+* Screenshot below is the Company Category entry form.
+
+![ch69](../../../static/img/getting-started/user-guide/ch69.jpg)
+
+| Field Name  | Explanation & Properties                         |
+|-------------|--------------------------------------------------|
+| **Code**    | Input the new Company Category code <br> *Field type:* Alphanumerical <br> *Length:* 10 |
+| **Description** | Input the Company Category Name. <br> *Field type:* Alphanumerical <br> *Length:* 80 |
+| **Active**  | Checked = Active <br> Unchecked = Inactive        |
+
+### Use of Company Category
+
+* You can link the Company Category to the Customer or Supplier.
+
+![ch70](../../../static/img/getting-started/user-guide/ch70.jpg)
+
+Reports by Company Category 
+
+1. You can apply the following reports by Company Category.
+
+<details>
+  <summary><b>Customer</b></summary>
+
+  - a. Print Customer Document Listing...
+  - b. Print Customer Balance Report...
+  - c. Print Customer Due Document...
+  - d. Print Customer Aging Report...
+  - e. Print Customer Statement...
+  - f. Print Customer Post Dated Cheque Listing...
+  - g. Print Customer Analysis By Document...
+  - h. Print Customer Sales and Collection Analysis...
+</details>
+
+---
+
+<details>
+  <summary><b>Supplier</b></summary>
+
+  - a. Print Supplier Document Listing...
+  - b. Print Supplier Balance Report...
+  - c. Print Supplier Due Document...
+  - d. Print Supplier Aging Report...
+  - e. Print Supplier Statement...
+  - f. Print Supplier Post Dated Cheque Listing...
+  - g. Print Supplier Analysis By Document...
+  - h. Print Supplier Sales and Collection Analysis...
+</details>
+
+---
+
+<details>
+  <summary><b>Sales</b></summary>
+
+  - a. Print Sales Document Listing...
+  - b. Print Outstanding Sales Document Listing...
+  - c. Print Sales Price History...
+  - d. Print Profit & Loss by Document...
+  - e. Print Sales Analysis by Document...
+  - f. Print Yearly Sales Analysis...
+</details>
+
+---
+
+<details>
+  <summary><b>Purchase</b></summary>
+
+  - a. Print Purchase Document Listing...
+  - b. Print Outstanding Purchase Document Listing...
+  - c. Print Purchase Price History...
+  - d. Print Purchase Analysis by Document...
+  - e. Print Yearly Purchase Analysis...
+</details>
+
