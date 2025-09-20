@@ -52,7 +52,7 @@ Allows user to **decrease stock quantity without selling**. It is normally used 
 
 ![296](../../../static/img/getting-started/user-guide/67jt.png)
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>No.</th>
