@@ -166,7 +166,7 @@ Total components quantity requirement to meet the total output.
 
    ii. Select the Customer
 
-   ![12](../../../static/img/getting-started/user-guide/production/jj12.png)
+   ![11](../../../static/img/getting-started/user-guide/production/jj11.png)
 
 2. JO Transfer From SO
    
@@ -174,7 +174,7 @@ Total components quantity requirement to meet the total output.
 
    ii.  Click on Transfer From Sales Order in the menu
 
-   ![13](../../../static/img/getting-started/user-guide/production/jj13.png)
+   ![12](../../../static/img/getting-started/user-guide/production/jj12.png)
 
 3. Document Transfer (SO --> JO)
 
@@ -184,7 +184,7 @@ Total components quantity requirement to meet the total output.
 
    iii. Click OK to proceed
 
-   ![14](../../../static/img/getting-started/user-guide/production/jj14.png)
+   ![13](../../../static/img/getting-started/user-guide/production/jj13.png)
 
 4. Show Multilevel BOM in Flat Mode
 
@@ -206,8 +206,158 @@ This function enables it to drill down to the flatten level of the multilevel BO
 
 Before FLAT MODE, BOM components show at **LEVEL 1**.
 
-![15](../../../static/img/getting-started/user-guide/production/jj15.png)
+![14](../../../static/img/getting-started/user-guide/production/jj14.png)
 
 Click on Show Multilevel BOM in Flat Mode button.
 
 It will prompt the below message.
+
+![15](../../../static/img/getting-started/user-guide/production/jj15.png)
+
+Press NO to keep the BOM components at **LEVEL 1**.
+
+Press YES to continue flatten the multilevel BOM to **LEVEL 3**.
+
+After FLAT MODE, BOM components show at **LEVEL 3**.
+
+![16](../../../static/img/getting-started/user-guide/production/jj16.png)
+
+5. Save the JO Document
+
+Click on the SAVE button
+
+![17](../../../static/img/getting-started/user-guide/production/jj17.png)
+
+6. JO Check the Available Stock Balance
+
+You can press F11 (Available Stock Balance) on the item code highlighted.
+
+Below is component “FRAME” stock available balance.
+
+![18](../../../static/img/getting-started/user-guide/production/jj18.png)
+
+:::note
+
+**Result for component "FRAME" Item:**
+
+SO Qty = 0.00
+
+PO Qty = 0.00
+
+JO Qty = -6.00
+
+Qty (On Hand) = 0.00
+
+Available Qty = -6.00
+
+:::
+
+Below is component “WHEEL” stock available balance.
+
+![19](../../../static/img/getting-started/user-guide/production/jj19.png)
+
+:::note
+
+**Result for component "WHEEL" Item:**
+
+SO Qty = -100.00
+
+PO Qty = +35.00
+
+JO Qty = -24.00
+
+Qty (On Hand) = 0.00
+
+Available Qty = -89.00
+
+:::
+
+Below is component “WHEEL” stock available balance.
+
+![20](../../../static/img/getting-started/user-guide/production/jj20.png)
+
+:::note
+
+**Result for component "ENGINE" Item:**
+
+SO Qty = 0.00
+
+PO Qty = 0.00
+
+JO Qty = -6.00
+
+Qty (On Hand) = 0.00
+
+Available Qty = -6.00
+
+:::
+
+## Offset Qty
+
+### Offset Qty In Sales Order
+
+What is the purpose of the OFFSET Qty in Sales Order? You will see a new column named “OffSet Qty”. It allows you to input a value to increase/reduce the original QTY to be transferred to Purchase Order and Job Order.
+
+![21](../../../static/img/getting-started/user-guide/production/jj21.png)
+
+1. Positive Offset Qty
+
+REDUCE the Transferable QTY to PO and JO.
+
+For example,
+
+|**SO Original Qty**|**Offset Qty**|**Transferable to PO/JO**|
+|---|---|---|
+|100.00 | 0.00 (default) | 100.00 |
+|100.00 | +15.00 | 85.00 |
+
+2. Negative Offset Qty
+
+INCREASE the Transferable QTY to PO and JO.
+
+For example,
+
+|**SO Original Qty**|**Offset Qty**|**Transferable to PO/JO**|
+|---|---|---|
+|100.00 | 0.00 (default) | 100.00 |
+|100.00 | -15.00 | 115.00 |
+
+## Split to X Process
+
+1. With this field, users are able to assign a number of processes/machines in one Job Order/Stock Item Assembly to produce the same End Products using the same range of BOM components.
+
+![22](../../../static/img/getting-started/user-guide/production/jj22.png)
+
+2. For example, To make a cup of MILO KAO KAO, it needs - MILO Powder x 5 spoons - Sugar x 0.5 spoon - Water x 100ml
+
+In order to make 100 cups of milo from one Job Order created, we need 10 persons to make it more efficient. Therefore, we have to input "Split to 10 process(s)", it means 10 persons processing. Job Order will be break the BOM components into 10 processes like below:
+
+|**No of process(s)** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10** | **TOTAL** |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+|MILO POWDER | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 500 spoons |
+|Sugar | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 50 spoons |
+|Water | 1000 | 1000 | 1000 | 1000 | 1000 | 1000 | 1000 | 1000 | 1000 | 1000 | 10000 ml |
+
+NOTE: Preview and select the standard report name "Job Order 2 with Multiplier - 30 Columns (without cost)".
+
+## BOM Tree Entry
+
+1. Some manufacturing companies need to modify and overwrite the standard BOM structure during the entry stage. This button helps to add/remove the components to overwrite the BOM structure.
+
+2. Click the "BOM Tree Entry" button.
+
+![23](../../../static/img/getting-started/user-guide/production/jj23.png)
+
+3. You can drill down all the BOM structures.
+
+4. Tick the components in the tree you wish to insert into the Job Order/Stock Assembly/Disassembly.
+
+5. Press OK to confirm.
+
+![24](../../../static/img/getting-started/user-guide/production/jj24.png)
+
+|**Button**|**Function**|
+|---|---|
+|Add | To add new components at LEVEL 1 ONLY |
+|Add Child | To add new child components start from LEVEL 2 onwards |
+|Delete | To remove the components at all LEVEL 1, 2, 3, 4, ... |
