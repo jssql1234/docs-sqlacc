@@ -33,7 +33,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![301](../../../static/img/getting-started/user-guide/72jt.png)
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>Field Name</th>
@@ -100,7 +100,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![310](../../../static/img/getting-started/user-guide/81jt.png)
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>Field Name</th>

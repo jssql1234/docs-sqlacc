@@ -4,8 +4,16 @@ img {
   height: auto;
 } 
 
-/* replace here for the table size */
+/* replace here for the table size 
 .markdown table {
+  font-size: 13px;
+  width: 100%;
+  margin-left: 0;
+  border-collapse: collapse;
+  margin-bottom:15px;
+}*/
+
+.table-small {
   font-size: 13px;
   width: 100%;
   margin-left: 0;
@@ -13,9 +21,19 @@ img {
   margin-bottom:15px;
 }
 
+.pos-table {
+  margin: 0 60px;          
+  font-size: 13px;
+  width: 80%;              
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  text-align: left;        
+}
+
+
 .markdown table th,
 .markdown table td {
-  padding: 4px;
+  padding: 10px;
   border: 1px solid #ccc;
 }
 

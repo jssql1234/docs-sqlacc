@@ -391,7 +391,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ![247](../../../static/img/getting-started/user-guide/19jt.png)
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>Field Name</th>
@@ -433,7 +433,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ![249](../../../static/img/getting-started/user-guide/21jt.png)
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>Field Name</th>
@@ -508,7 +508,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 ![257](../../../static/img/getting-started/user-guide/28jt.png)
 
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>Field Name</th>
@@ -599,7 +599,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 5. Matrix setting:-
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>Matrix</th>
@@ -703,7 +703,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ![269](../../../static/img/getting-started/user-guide/40jt.png)
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>Field Name</th>
@@ -884,7 +884,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ![271](../../../static/img/getting-started/user-guide/42jt.png)
 
-<table>
+<table class="table-small">
   <thead>
     <tr>
       <th>Field Name</th>
