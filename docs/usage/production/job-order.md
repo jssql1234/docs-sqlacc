@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
-title: General
+title: Job Order
 description: Production Job Order
-slug: /usage/production/general
-tags: ["SQL Account", "Usage", "Production", "General"]
+slug: /usage/production/job-order
+tags: ["SQL Account", "Usage", "Production", "Job Order"]
 ---
 
 ## Overview Workflow
@@ -80,37 +80,37 @@ It is required the SO -> PO and Job Order module. For more information about pri
        
        Go to Purchase | Purchase Order
 
-       i.  Click on the NEW button to start with a new PO
+       1.  Click on the NEW button to start with a new PO
 
-       ii. Select the Supplier
+       2. Select the Supplier
 
        ![6](../../../static/img/getting-started/user-guide/production/jj6.png)
 
     2. PO Transfer From SO
 
-       i.  Right click on P/Oder (Title)
+       1.  Right click on P/Oder (Title)
 
-       ii. Click on Transfer From Sales Order in the menu
+       2. Click on Transfer From Sales Order in the menu
 
        ![7](../../../static/img/getting-started/user-guide/production/jj7.png)
 
     3. Document Transfer (SO -> PO)
 
-       i.   Pick the Item from the SO list
+       1.   Pick the Item from the SO list
 
-       ii.  Input X/F Qty to transfer over PO
+       2.  Input X/F Qty to transfer over PO
 
-       iii. Click OK to proceed
+       3. Click OK to proceed
 
             ![8](../../../static/img/getting-started/user-guide/production/jj8.png)
 
-       iv.  Save the PO Document
+       4.  Save the PO Document
 
             Click on the SAVE button
 
             ![9](../../../static/img/getting-started/user-guide/production/jj9.png)
 
-       v.   PO Check the Available Stock Balance
+       5.   PO Check the Available Stock Balance
             
             You can press F11 (Available Stock Balance) on the item code highlighted.
 
@@ -162,27 +162,27 @@ Total components quantity requirement to meet the total output.
 
    Go to **Production | Job Order...**
 
-   i. Click on the NEW button to start with a new JO
+   1. Click on the NEW button to start with a new JO
 
-   ii. Select the Customer
+   2. Select the Customer
 
    ![11](../../../static/img/getting-started/user-guide/production/jj11.png)
 
 2. JO Transfer From SO
    
-   i.   Right click on Job Order (Title)
+   1.   Right click on Job Order (Title)
 
-   ii.  Click on Transfer From Sales Order in the menu
+   2.  Click on Transfer From Sales Order in the menu
 
    ![12](../../../static/img/getting-started/user-guide/production/jj12.png)
 
 3. Document Transfer (SO --> JO)
 
-   i.   Pick the Item from the SO list
+   1.   Pick the Item from the SO list
 
-   ii.  Input X/F Qty to transfer over JO
+   2.  Input X/F Qty to transfer over JO
 
-   iii. Click OK to proceed
+   3. Click OK to proceed
 
    ![13](../../../static/img/getting-started/user-guide/production/jj13.png)
 
@@ -361,3 +361,37 @@ NOTE: Preview and select the standard report name "Job Order 2 with Multiplier -
 |Add | To add new components at LEVEL 1 ONLY |
 |Add Child | To add new child components start from LEVEL 2 onwards |
 |Delete | To remove the components at all LEVEL 1, 2, 3, 4, ... |
+
+## Stock Batch
+
+:::info
+
+Watch tutorial video here: [Stock Maintain Batch](https://youtu.be/QUlp-Js_cnk)
+
+:::
+
+This module commonly used in food manufacturing, pharmaceutical, cosmetic/skin care product. It helps to trace the expiry date of the products. It can set the manufacturing date for label print purposes and easy to identify the stock expired to write off using stock adjustment.
+
+1. **Stock** > **Maintain Batch** > **New**
+
+   Insert the code, description, Expiry date, Manufacturing date & items that will expire on this expiry date.
+
+   ![40](../../../static/img/getting-started/user-guide/production/jj40.png)
+
+2. **Purchase** > **Purchase Invoice** > **New**
+
+   You can enable Batch column from the hidden bar and assign your stock batch during purchase for every individual item.
+
+   ![41](../../../static/img/getting-started/user-guide/production/jj41.png)
+
+3. **Sales** > **Sales Invoice** > **New**
+
+   In Sales Invoice, you can select the item issue out from which batch (expiry date), system will also show the expiry day & quantity available.
+
+   ![42](../../../static/img/getting-started/user-guide/production/jj42.png)
+
+4. **Stock** > **Print Stock Batch Expiry**
+
+   You can also check the listing of your product that will be expire soon as well as you can trace the product manufacture date.
+
+   ![43](../../../static/img/getting-started/user-guide/production/jj43.png)
