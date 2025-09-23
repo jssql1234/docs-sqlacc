@@ -6,7 +6,7 @@ slug: /usage/stock/FAQ
 tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 ---
 
-## Barcode Setup
+## How to Setup Barcode 
 
 ### 1. Setup
 
@@ -79,7 +79,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 
 ![8](../../../static/img/stock/barcode/2jt.png)
 
-## Print Barcode (Direct Printer)
+## How to Print Barcode (Direct Printer)
 - To print the bar code label using Special Bar Code Printer for the items created in Maintain Stock Item.
 ### 1. Barcode Printer Setting
 
@@ -97,7 +97,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 
 ![9](../../../static/img/stock/barcode/5jt.png)
 
-## Print Barcode (Winodws Printer)
+## How to Print Barcode (Winodws Printer)
 - To print the bar code label using Windows Printer for the items created in Maintain Stock Item.
 
 ![10](../../../static/img/stock/barcode/6jt.png)
@@ -232,7 +232,7 @@ Items default output tax previously ZRL are **successfully changed to SR**.
 
 ![8](../../../static/img/stock/batch-edit-value-stock-item/8.png)
 
-## Costing Method Setup
+## How to Setup Costing Method 
 1. Go to Stock > Maintain Stock Group
 
     ![1](../../../static/img/stock/costing-method/1.png)
@@ -254,7 +254,7 @@ Items default output tax previously ZRL are **successfully changed to SR**.
    method cost….
    :::
 
- ## Multi Location Module
+ ## How to Use Multi Location Module
  - This module is to manage mulitple warehouse, inter-branch transfer, consignment, van-sales, etc.
 
 ### 1. Multiple Warehouse
@@ -297,7 +297,7 @@ A batch of goods is consigned to your customer side for selling without billing 
 
 From the stock card report, you can see the item is sold out from your customer location (Batu Caves) after you make the billing.
 
-## Stock Adjustment & Stock Take
+## How to Use Stock Adjustment & Stock Take
 - Allow user to key-in quantity in and out from the system, just like combination of stock received and stock issue, normally use it for stock take purpose. (Stock > Stock Adjustment > New)
 
 ### 1. How SQL System can help during Stock Take ?
@@ -338,7 +338,7 @@ From the stock card report, you can see the item is sold out from your customer 
 **Qty** = Variant between Physical and Book Quantity, system will auto adjust then update accordingly.( Physical Qty – Book Qty )
 :::
 
-## Stock Price Tag Module
+## How to Use Stock Price Tag Module
 - This module mainly to set different pricing groups from different customer and supplier, normally is use to setcdifferent customer category with different pricing. In order to do individual customer then you can group your customer into different price groups.
 
 ### 1. Steps and Instructions
@@ -377,7 +377,7 @@ From the stock card report, you can see the item is sold out from your customer 
 
 5. **Repeat** the same step on Supplier if you want apply on the **Supplier Price**.
 
-## Maintain Stock Item - Reorder Lvl & Qty
+## How to Maintain Stock Item - Reorder Lvl & Qty
 
 ![1](../../../static/img/stock/stock-reorder/1.png)
 
@@ -434,7 +434,7 @@ Step :
 1. After get the appropriate result of Reoder Advise > Click on First Item > Press Shift Key(Keyboard) > Click on Last Item
 2. New PO > Select Supplier > Drag from Reorder Advise to PO Itemize (As per picture). PO Qty = Reorder Qty
 
-## Serial No Module
+## How to Use Serial No Module
 
 ### 1. Control Serial Number
 
