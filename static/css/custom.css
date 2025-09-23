@@ -20,3 +20,7 @@ img {
 .theme-doc-toc-desktop .table-of-contents li li {
   margin-top: 4px;
 }
+
+[id] {
+  scroll-margin-top: 80px; /* adjust to your navbar height */
+}

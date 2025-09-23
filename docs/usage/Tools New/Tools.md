@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Tools
 description: Maintenance
-slug: /usage/Tools New/Tools
+slug: /usage/Tools-New/Tools
 tags: ["SQL Account", "Usage", "Tools"]
 ---
 
@@ -39,6 +39,65 @@ Not every user is going to have the same access rights as ADMIN, and ADMIN user 
 3. You need to check the transactions / functions (row), compare with the user (column) and **tick = Allowed** or **untick = Disallowed**, the action for a particular user for particular transactions. For example, base on the setting in the following images, the user is not allowed to delete Customers or to view Customer Payments.
 
    ![112](../../../static/img/getting-started/user-guide/111.png)
+
+## Bar Navigator
+
+*Tools | Maintain User... | More | Bar Navigator*
+
+This function is to allow user to **customize** the buttons at the Main Application by user.
+
+![ch300](../../../static/img/getting-started/user-guide/ch300.jpg)
+
+| **Field Name**   | **Properties**                                      |
+|------------------|-----------------------------------------------------|
+| **Description**  | Definition: Navigator Full Description; Field Type: Alphanumerical; Length: 160 |
+| **Reset Button** | To restore to Default Layout                        |
+
+
+01. Right Click here
+
+![ch301](../../../static/img/getting-started/user-guide/ch301.jpg)
+
+02. Select Customize...
+
+![ch302](../../../static/img/getting-started/user-guide/ch302.jpg)
+
+| **Field Name**   | **Properties**                       |
+|------------------|---------------------------------------|
+| **Toolbars**     | Show list of available Toolbars       |
+| **New... button**| Create New Toolbar                    |
+| **Rename...button** | Rename the highlighted Toolbar     |
+| **Delete**       | Delete highlighted Toolbar            |
+
+03. Select Commands tab
+
+![ch303](../../../static/img/getting-started/user-guide/ch303.jpg)
+
+| **Field Name** | **Properties**                                   |
+|----------------|--------------------------------------------------|
+| **Categories** | List of Available Buttons Category               |
+| **Commands**   | List of Available Buttons on the Selected Category |
+
+![ch304](../../../static/img/getting-started/user-guide/ch304.jpg)
+
+4. Select Categories (eg Sales)
+5. Select Commands (eg Invoice...)
+6. Drag from Step 5 to here
+7. Click Close
+8. Click Save
+9. Click Browse
+10. Click More | Navigator vs User
+
+![ch305](../../../static/img/getting-started/user-guide/ch305.jpg)
+
+| **Options** | **Properties**                                |
+|-------------|-----------------------------------------------|
+| –           | No setting is set                             |
+| **Default** | Set the setting                               |
+| **Deny**    | Not allowed to use (Not used in this function) |
+
+11. Set the User to use the Toolbar.
+12. Click Save (Blue Disc Icon button)
 
 ## Maintain Document Number
 
@@ -655,10 +714,10 @@ Browse mode in Maintain Style. See the below screenshot:
 
    a. Script 1
 
-<details open>
-<summary>Commission Script</summary>
+<details>
+   <summary>Commission Script</summary>
 
-<pre style={{maxHeight: '320px', overflow: 'auto', padding: '12px', whiteSpace: 'pre'}}>
+```pascal
 procedure CalculateCommission(AKODocAmt, AAge: variant; var Value: variant);
 begin
   if AAge < 10 then
@@ -670,8 +729,7 @@ begin
   else
     Value := AKODocAmt * 0.005;
 end;
-</pre>
-
+```
 </details>
 
 ## Maintain Agent
@@ -926,7 +984,7 @@ Reason to run this may due to the following unpredictable matters:
 >
 
 <details>
-  <summary>Analyse Data Integrity</summary>
+  <summary>Parts of Analyse Data Integrity - click to expand</summary>
 
 There are 3 parts of analyse data integrity :
 
@@ -986,3 +1044,1241 @@ b. Reposting (Optional)
 
 ![ch83](../../../static/img/getting-started/user-guide/ch83.jpg)
 
+## Print Bar Code (Direct Printer)
+
+*Menu: Tools | Print Bar Code (Direct Printer)*
+
+* To print the bar code label using Special Bar Code Printer for the items created in Maintain Stock Item.
+
+![ch164](../../../static/img/getting-started/user-guide/ch164.jpg)
+
+### Bar Code Printer Setting 
+
+*Menu: Tools | Options...(BarCode)*
+
+1. Insert the new barcode printer setting and template.
+
+![ch165](../../../static/img/getting-started/user-guide/ch165.jpg)
+
+2. Click on OK to exit.
+
+### Print the Bar Code Label
+
+1. Click on the arrow key-down beside the Print button. See the screenshot below.
+2. You can choose either Print to Printer (barcode printer) or Print To File (output as text file).
+
+![ch166](../../../static/img/getting-started/user-guide/ch166.jpg)
+
+## Print Bar Code (Windows Printer)
+
+*Menu: Tools | Print Bar Code (Windows Printer)*
+
+* To print the bar code label using Windows Printer for the items created in Maintain Stock Item.
+
+![ch167](../../../static/img/getting-started/user-guide/ch167.jpg)
+
+### Update Item Bar Code Listing 
+
+1. At first, you can update the item bar code in the Maintain Stock Item.
+
+![ch168](../../../static/img/getting-started/user-guide/ch168.jpg)
+
+2. Click on + button to insert the items. See the screenshot below.
+
+![ch169](../../../static/img/getting-started/user-guide/ch169.jpg)
+
+3. Click the SAVE button to save the item bar code listing. Type a file name (eg. BarCode_Items_31122015) to save. See the screenshot below.
+
+![ch170](../../../static/img/getting-started/user-guide/ch170.jpg)
+
+4. Message prompted. Click OK.
+
+![ch171](../../../static/img/getting-started/user-guide/ch171.jpg)
+
+### Load the Previous Item Bar Code Listing 
+
+1. Click on a Carbinet button to load from the previous file for item bar code listing (eg.BarCode_Items_31122015). Click on OPEN.
+
+![ch172](../../../static/img/getting-started/user-guide/ch172.jpg)
+
+2. Confirmation message prompted. Click on OK to load it. Click on NO' to cancel it.
+
+![ch173](../../../static/img/getting-started/user-guide/ch173.jpg)
+
+3. Message Load success prompted. Click on OK to proceed.
+
+![ch174](../../../static/img/getting-started/user-guide/ch174.jpg)
+
+### Preview/Print the Bar Code Level
+
+1. Click on Preview or Printer (to skip the preview).
+
+![ch175](../../../static/img/getting-started/user-guide/ch175.jpg)
+
+2. After the preview, click on Printer button to print.
+
+### How to Change the Label Size (mm) Measurement for the Bar Code Label
+
+1. Click on the Report Name. See the screenshot below.
+
+![ch176](../../../static/img/getting-started/user-guide/ch176.jpg)
+
+2. To change the paper unit measurement. Click on Report | Units, choose to Millimeters.
+
+![ch177](../../../static/img/getting-started/user-guide/ch177.jpg)
+
+3. To change the paper size. Click on **File | Page Setup...**
+
+![ch178](../../../static/img/getting-started/user-guide/ch178.jpg)
+
+4. Click on Paper Size tab, change the Width and Height to 35 and 25 respectively (mm), eg. the label paper size is 35mm x 25mm.
+
+![ch179](../../../static/img/getting-started/user-guide/ch179.jpg)
+
+5. Check the Layout tab to make sure the Columns set to value = 1.
+
+![ch180](../../../static/img/getting-started/user-guide/ch180.jpg)
+
+6. Check the Margin tab as well to make sure all (Top, Bottom, Left, Right) are set to value = 0 . Click OK to exit Page Setup.
+
+![ch181](../../../static/img/getting-started/user-guide/ch181.jpg)
+
+7. To fix label each page contains 1 barcode of an item. Right click on Detail band, select Position.
+
+![ch182](../../../static/img/getting-started/user-guide/ch182.jpg)
+
+8. Set Print Count to value = 1. Click OK to confirm.
+
+![ch183](../../../static/img/getting-started/user-guide/ch183.jpg)
+
+9. Save the report with **another name**.
+
+## Options 
+
+<details>
+   <summary>Options (Acc) - click to expand</summary>
+
+*Menu: Tools | Options...*
+
+Settings for the following:
+1. General
+2. BarCode
+3. Miscellaneous
+4. Unit Price
+5. General Ledger
+6. Customer
+7. Supplier
+
+![ch184](../../../static/img/getting-started/user-guide/ch184.png)
+
+
+### General
+ * Automation Server Registration - Use to register/communicate to the external application via Windows platform.
+
+ ![ch185](../../../static/img/getting-started/user-guide/ch185.jpg)
+
+### Bar Code
+* To define the cash drawer setting with a compatible device, eg. cash drawer.
+
+![ch186](../../../static/img/getting-started/user-guide/ch186.jpg)
+
+* To define the barcode setting with a compatible device, eg. barcode printer.
+
+![ch187](../../../static/img/getting-started/user-guide/ch187.jpg)
+
+### Miscellaneous
+
+Others setting.
+
+![ch188](../../../static/img/getting-started/user-guide/ch188.jpg)
+
+#### To set the display format
+   - To understand the display format. See the below picture:
+
+![ch189](../../../static/img/getting-started/user-guide/ch189.jpg)
+
+| Numbering Type              | Display Format     | Example |
+|-----------------------------|--------------------|---------|
+| Accounting Value            | #,0.00;(#,0.00)   | <div>Amount/DR/CR display format<br/>Positive value = 1,000.00<br/>Negative value = (1,000.00)</div> |
+| Currency Rate               | #,0.0000          | <div>Exchange Rate display format, e.g. 1 USD = 4.2334 MYR</div> |
+| Stock Quantity              | #,0.00;-#,0.00    | <div>Qty display format<br/>Qty In = 2.00 units<br/>Qty Out = -2.00 units</div> |
+| Item Selling Price          | #,0.00;-#,0.00    | <div>Sales Unit Price display format, e.g. unit selling price = 25.53</div> |
+| Item Purchase Price / Costing | #,0.00;-#,0.00  | <div>Purchase Unit Price and Total Cost display format, e.g. unit purchase price = 15.33</div> |
+
+
+#### Merge Same Item Code
+
+1. Tick this option to merge same items quantity and amount when you print the documents, eg. sales invoice, cash sales, etc.
+2. Conditions:
+- a. Same item Code;
+- b. Same UOM;
+- c. Same Unit Price;
+- d. Sames Disc;
+- e. Same Tax Code.
+
+![ch190](../../../static/img/getting-started/user-guide/ch190.jpg)
+
+#### Prompt Negative Stock Quantity Dialog Box
+
+* Tick this option the system will prompt alert message if the stock below quantity on hand or below re-order level or below minimum quantity in the sales documents.
+
+![ch191](../../../static/img/getting-started/user-guide/ch191.jpg)
+
+#### Show Document Project
+
+1. Tick this option to enable to select the document project.
+2. See the example in the screenshot below.
+
+![ch192](../../../static/img/getting-started/user-guide/ch192.jpg)
+
+#### Runtime Stock Costing Calculation for Stock Document
+
+1. To enable to execute the costing calculation when print the stock documents reports (report name ended with Actual Cost) in the Stock Issue, Stock Adjustment and Stock Transfer (available in multiple warehouse module).
+2. See the example of stock issue as shown in the screenshot below.
+
+![ch193](../../../static/img/getting-started/user-guide/ch193.jpg)
+
+#### Prompt Duplicate Cheque Number
+
+ - To alert a message if duplicate cheque number are try to save in Payment Voucher/Official Receipt.
+
+ ![ch194](../../../static/img/getting-started/user-guide/ch194.jpg)
+
+ #### Use Doc Date For Acceptable Transactions Date Checking
+
+ 1. System will use document date instead of post date to check and allow to save the document based on the allow date set in Maintain Acceptable Transaction Date.
+2. For instance, the document date = 01/01/2016 and post date = 17/02/2016. System will not allow to save this document fall outside the acceptable transaction date (ie. 01/02/2016 - 29/02/2016). See the screenshot below.
+
+ ![ch195](../../../static/img/getting-started/user-guide/ch195.jpg)
+
+### Post Audit Trail for Stock/Sales/Purchase Detail
+   - To audit log the changes has been made in Sales and Purchase detail.
+
+![ch196](../../../static/img/getting-started/user-guide/ch196.jpg)
+
+### Default UOM
+
+- Default the base UOM when create new item in Maintain Stock Item.
+
+![ch197](../../../static/img/getting-started/user-guide/ch197.jpg)
+
+
+### Unit Price
+
+* To set the unit price priority apply to the sales/purchase/stock documents when select the item code for a customer/supplier.
+
+- Sales
+![ch198](../../../static/img/getting-started/user-guide/ch198.jpg)
+
+- Purchase
+![ch199](../../../static/img/getting-started/user-guide/ch199.jpg)
+
+- Stock
+![ch200](../../../static/img/getting-started/user-guide/ch200.jpg)
+
+ - Cash Sales
+![ch201](../../../static/img/getting-started/user-guide/ch201.jpg)
+
+- Cash Purchase
+![ch202](../../../static/img/getting-started/user-guide/ch202.jpg)
+
+### General Ledger (GL)
+
+ * It is important to define the setting correctly in the new database created.
+
+![ch203](../../../static/img/getting-started/user-guide/ch203.jpg)
+
+**Financial Start Period**
+   To define the company Financial Start Date, eg. 01/01/2016 (system will be notified New Financial Start Date at 1st January every year).
+
+
+**System Conversation Date**
+   System conversation date from other system or new company database setup.
+
+
+**Default Account**
+   Default account use to auto posting by the system.
+
+| Default Account                      | Account   | Explanation                                                                 |
+|--------------------------------------|-----------|-----------------------------------------------------------------------------|
+| Foreign Exchange Rate Gain Account   | 530-000   | Foreign Exchange Rate Gain auto posting from Customer and Supplier Payment. |
+| Foreign Exchange Rate Loss Account   | 980-000   | Foreign Exchange Rate Loss auto posting from Customer and Supplier Payment. |
+| Bank Charge Account                  | 902-000   | Bank charge auto posting from GL Cash Book Entry, Customer and Supplier Payment if entered in the bank charge field. |
+| Contra Account                       | 450-000   | Applicable to Customer and Supplier Contra.                                 |
+| Sales Account                        | 500-000   | Default sales account in Sales Invoice and Debit Note if empty item code.   |
+| Cash Sales Account                   | 500-000   | Default cash sales account in Sales Cash Sales if empty item code.          |
+| Sales Returns Account                | 510-000   | Default sales returns account in Sales Credit Note if empty item code.      |
+| GST-Output Tax Prepaid               | GST-103   | Applicable to 21 Days Rules and Non-Refundable Deposit.                     |
+| GST-Sales Deferred Tax               | GST-202   | Applicable to Bad Debt Relief and Bad Debt Recovered related to Customer.   |
+| Purchase Account                     | 610-000   | Default purchase account in Purchase Invoice and Debit Note if empty item code. |
+| Cash Purchase Account                | 610-000   | Default cash purchase account in Purchase Cash Purchase if empty item code. |
+| Purchase Return Account              | 612-000   | Default purchase returns account in Purchase Returns if empty item code.    |
+| GST-Purchase Deferred Tax            | GST-102   | Applicable to Bad Debt Relief and Bad Debt Recovered related to Supplier.   |
+| GST-Payable (Kastam)                 | GST-KASTAM| RMCD accounts.                                                              |
+| Unclaimable GST Account              | GST-301   | Applicable to Mixed Supplies only.                                          |
+
+**Default Journal**
+
+1. To classify the transactions into the Journal created in Maintain Journal. Usually leave it as default.
+2. It is very useful for applying the Journal of Transactions Listing and Summary report.
+
+![ch204](../../../static/img/getting-started/user-guide/ch204.jpg)
+
+3. Below is the default journal list:-
+
+| Default Journal                  | Journal   |
+|----------------------------------|-----------|
+| Bank Journal                     | BANK      |
+| Cash Journal                     | CASH      |
+| Journal Entry                    | GENERAL   |
+| Foreign Bank Adjustment          | BANK      |
+| Foreign Exchange Rate Gain/Loss  | GENERAL   |
+| Customer/Supplier Contra         | GENERAL   |
+| Customer Invoice                 | SALES     |
+| Customer Cash Sales              | SALES     |
+| Customer Credit Note             | SALES     |
+| Customer Debit Note              | SALES     |
+| Supplier Invoice                 | PURCHASE  |
+| Supplier Cash Purchase           | PURCHASE  |
+| Supplier Credit Note             | PURCHASE  |
+| Supplier Debit Note              | PURCHASE  |
+
+### Customer 
+* It is important to define the Customer setting in the new database created.
+![ch205](../../../static/img/getting-started/user-guide/ch205.jpg)
+
+**Default Control Account**
+   Default control account when create new customer in Maintain Customer.
+![ch206](../../../static/img/getting-started/user-guide/ch206.jpg)
+
+**Default Credit Terms**
+   Default credit terms when create new customer in Maintain Customer.
+![ch207](../../../static/img/getting-started/user-guide/ch207.jpg)
+
+**Default Credit Limit**
+   Default credit limit value when create new customer in Maintain Customer.
+![ch208](../../../static/img/getting-started/user-guide/ch208.jpg)
+
+**Default Output Tax**
+   Default output tax code when create new customer/sales documents entry, eg. customer invoice, customer debit note, etc.
+![ch209](../../../static/img/getting-started/user-guide/ch209.jpg)
+
+ #### **Customer Account Code Format**
+   1. To Define the customer code format.
+   2. Format explanation as per below.
+![ch210](../../../static/img/getting-started/user-guide/ch210.jpg)
+
+| Ref | Code Format | Explanation                                                        |
+|-----|-------------|--------------------------------------------------------------------|
+| A   | %.3s-       | First number of digits from Customer Control Account code.         |
+| B   | %.1s        | First character from Customer Name.                                |
+| C   | %.4d        | Sequence running number.                                           |
+
+**Example 1:**
+   a. Customer Control Account = 300-000
+   b. Customer Name = ALI BABA SDN BHD
+
+| Code Format | Result |
+|-------------|--------|
+| %.3s-       | 300-   |
+| %.1s        | A      |
+| %.4d        | 0001   |
+   c. Customer Code = 300-A0001
+
+**Example 2:**
+   a. Customer Control Account = 3001-0000
+   b. Customer Name = ALI BABA SDN BHD
+
+| Code Format | Result |
+|-------------|--------|
+| %.4s/       | 3001/  |
+| %.2s        | AL     |
+| %.2d        | 01     |
+   c. Customer Code = 3001-AL01
+
+#### **Exceptional Customer Code Format (Regular Expression)**
+
+1. Copy and paste the below regular express line into Customer Format field (see the screenshot below).
+
+```pascal
+"%.3s"-"(?i)\b(?!sykt\b|persatuan\b)(?![-.,\s]).{1,1}""%.4d"
+```
+
+![ch211](../../../static/img/getting-started/user-guide/ch211.jpg)
+
+**Example 1:**
+   a. Customer Name: SYKT ALI
+   b. Keyword excluded: sykt (non-case sensitive)
+   c. Customer Code= 300-A0001
+
+**Example 2:**
+   a. Customer Name: PERSATUAN KLANG
+   b. Keyword excluded: persatuan (non-case sensitive)
+   c. Customer Code= 300-K0001
+
+
+**Default Customer Aging Format**
+
+1. Set a default customer aging format to show the aging result at **Inquiry | Account Inquiry (Customer)**.
+
+2. Customer aging format list:
+   a. Cust-Multi-F1-06 Mths Statement-Current,1 Mth,...
+   b. Cust-Multi-F2-06 Mths Statement-Current,1 Mth,...
+   c. Cust-Multi-F1-12 Mths Statement-Current,1 Mth,...
+   d. Cust-Multi-F2-12 Mths Statement-Current,1 Mth,...
+
+![ch212](../../../static/img/getting-started/user-guide/ch212.jpg)
+
+**Use Cash Sales No. for Payment Received**
+   Use Cash Sales No as the official receipt no for cash sales only.
+![ch213](../../../static/img/getting-started/user-guide/ch213.jpg)
+
+**Perform Tax / Local Amount Rounding**
+1. Choose a method to calculate the tax amount consistently.
+2. By default, it is always **untick**.
+   A. Once Cent Different: Untick (by Default)
+
+      It is **total of tax amount from each detail amount** multiply by GST 6%.
+      **Total Tax Amount** = 20.00 + 24.62 + 0.73 + 7.39 +1.94 = 54.68
+
+      | Items  | Amount | Tax | Tax Amount | Total  |
+|--------|--------|-----|------------|--------|
+| Item 1 | 333.33 | SR  | 20.00      | 353.33 |
+| **Item 2** | **410.37** | **SR**  | **24.62**      | **434.99** |
+| Item 3 | 12.13  | SR  | 0.73       | 12.86  |
+| Item 4 | 123.15 | SR  | 7.39       | 130.54 |
+| Item 5 | 32.26  | SR  | 1.94       | 34.20  |
+| **Total** | **911.24** |     | **54.68**   | **965.92** |
+
+B. One Cent Different: Tick
+   It is based on **total document amount** to multiply with GST 6%.
+   **Total Tax Amount based on itemized** = 20.00 + 24.62 + 0.73 + 7.39 + 1.94 = **54.68**
+   **Total Tax Amount based on total amount** = 911.24 x 6% = 54.67
+   Differences = 54.68 - 54.67 = **0.01**
+   Therefore, the system will perform **auto rounding mechanism** to the largest value (ie. item 2 = 24.62-0.01 = **24.61**).
+
+| Items     | Amount  | Tax | Tax Amount | Total   |
+|-----------|---------|-----|------------|---------|
+| Item 1    | 333.33  | SR  | 20.00      | 353.33  |
+| **Item 2** | **410.37** | **SR** | **24.61**    | **434.98** |
+| Item 3    | 12.13   | SR  | 0.73       | 12.86   |
+| Item 4    | 123.15  | SR  | 7.39       | 130.54  |
+| Item 5    | 32.26   | SR  | 1.94       | 34.20   |
+| **Total** | **911.24** |     | **54.67**   | **965.91** |
+
+**5 Cents Rounding (Sales Invoice)**
+   This option will auto insert an items code **RTN5Cents** to adjust the total invoice amount if found the total amount not in simple rounding.
+
+![ch214](../../../static/img/getting-started/user-guide/ch214.jpg)
+
+**5 Cents Rounding (Cash Sales)**
+   This option will auto insert an items code **RTN5Cents** to adjust the total cash sales amount if found the total amount not in simple rounding.
+![ch215](../../../static/img/getting-started/user-guide/ch215.jpg)
+
+<details>
+   <summary>Supplier - click to expand</summary>
+
+- It is important to define the Supplier setting in the new database created.
+![ch216](../../../static/img/getting-started/user-guide/ch216.jpg)
+
+**Default Control Account**
+   Default control account when create new supplier in Maintain Supplier.
+![ch217](../../../static/img/getting-started/user-guide/ch217.jpg)
+
+**Default Credit Terms**
+   Default credit terms when create new supplier in Maintain Supplier.
+![ch218](../../../static/img/getting-started/user-guide/ch218.jpg)
+
+**Default Credit Limit**
+   Default credit limit value when create new supplier in Maintain Supplier.
+![ch219](../../../static/img/getting-started/user-guide/ch219.jpg)
+
+**Default Input Tax**
+   Default input tax code when create new supplier/purchase documents entry, eg. supplier invoice, supplier debit note, etc.
+![ch220](../../../static/img/getting-started/user-guide/ch220.jpg)
+
+### **Supplier Account Code Format**
+   1. To Define the supplier code format.
+   2. Format explanation as per below.
+![ch221](../../../static/img/getting-started/user-guide/ch221.jpg)
+| Ref | Code Format | Explanation                                                  |
+|-----|-------------|--------------------------------------------------------------|
+| A   | %.3s-       | First number of digit from **Supplier Control Account code**.    |
+| B   | %.1s        | First number of characters from **Supplier Name**.               |
+| C   | %.4d        | Sequence running number.                                     |
+
+**Example 1:**
+a. Supplier Control Account = **400-000**
+b. Supplier Name = **ALI BABA SDN BHD**
+
+| Code Format | Result |
+|-------------|--------|
+| %.3s-       | 400-   |
+| %.1s        | A      |
+| %.4d        | 0001   |
+c. Supplier Code = **400-A0001**
+
+Example 2:
+a. Supplier Control Account = **4001-0000**
+b. Supplier Name = **ALI BABA SDN BHD**
+
+| Code Format | Result |
+|-------------|--------|
+| %.4s/       | 4001/  |
+| %.2s        | AL     |
+| %.2d        | 01     |
+c. Supplier Code = **4001-AL01**
+
+**Exceptional Supplier Code Format (Regular Expression)**
+   1. Copy and paste the below regular express line into Supplier Format field (see the screenshot below).
+
+   ```pascal
+   "%.3s"-"(?i)\b(?!sykt\b|persatuan\b)(?![-.,\s]).{1,1}""%.4d"
+   ```
+
+![ch222](../../../static/img/getting-started/user-guide/ch222.jpg)
+
+Example 1:
+a. Supplier Name: SYKT TAN & SON
+b. Keyword excluded: **sykt** (non-case sensitive)
+c. Supplier Code= **400-T0001**
+
+
+Example 2:
+a. Supplier Name: PERSATUAN BOLA SEPAK
+b. Keyword excluded: persatuan (non-case sensitive)
+c. Supplier Code= **400-B0001**
+
+**Default Supplier Aging Format**
+1. Set a default supplier aging format to show the aging result at **Inquiry | Account Inquiry (Supplier)**.
+2. Supplier aging format list:
+a. Supp-Multi-F1-06 Mths Statement-Current,1 Mth,...
+b. Supp-Multi-F2-06 Mths Statement-Current,1 Mth,...
+c. Supp-Multi-F1-12 Mths Statement-Current,1 Mth,...
+d. Supp-Multi-F2-12 Mths Statement-Current,1 Mth,...
+
+![ch223](../../../static/img/getting-started/user-guide/ch223.jpg)
+
+**Use Cash Purchase No. for Payment Paid**
+   Use Cash Purchase No as the payment voucher no for cash purchase only.
+![ch224](../../../static/img/getting-started/user-guide/ch224.jpg)
+
+</details>
+
+</details>
+
+## Maintain DIY
+
+*Menu: Tools | DIY | Maintain DIY...*
+
+This Additional Module(DIY Fields & DIY Script Module)
+
+![ch225](../../../static/img/getting-started/user-guide/ch225.jpg)
+
+| Function            | Description                                                       |
+|---------------------|-------------------------------------------------------------------|
+| Field and Quick Form | User can Self Create new User Define Field(s) & Design the Layout |
+| Script              | Customise the Application                                         |
+| Calculation         | Override the build in Calculation (SQL Payroll ONLY)              |
+| View Template       | For Advance Form Mode                                             |
+| Report Data         | Deprecated                                                        |
+
+
+### Field and Quick Form
+
+Below is Example are doing following actions
+
+* Create UDF_JobTitle at Maintain User
+* Create New Form at Maintain User
+
+1. Right Click at User
+
+![ch226](../../../static/img/getting-started/user-guide/ch226.jpg)
+
+2. Select New Field
+
+![ch227](../../../static/img/getting-started/user-guide/ch227.jpg)
+
+3. Click **New** button
+
+![ch228](../../../static/img/getting-started/user-guide/ch228.jpg)
+
+4. Enter any Description (eg Calc-Field) in the **Description** field (Only Alphanumeric & no spacing)
+5. Click the + button to add the New UDF Field & Enter/Select the option as above picture
+6. Click Save (the Blue Disc icon) after done
+7. Close the windows.
+
+* Available Data Field Type
+
+| Field Type      | Definition                                                                                                  |
+|-----------------|-------------------------------------------------------------------------------------------------------------|
+| String          | Text data of a fixed length (up to 8192 bytes)                                                              |
+| Unicode String  | A field representing a Unicode (16 bits per character) string.                                              |
+| Boolean         | A Boolean value.                                                                                            |
+| Integer         | Whole numbers in the range of long integers (32 bits).                                                      |
+| Currency        | Currency values with the same range as the Real data type.                                                  |
+| Bcd             | Real numbers with a fixed number of digits after the decimal point.                                         |
+| Date            | A date value.                                                                                               |
+| Blob            | Binary data with no size limit (BLOB stands for binary large object). The theoretical maximum limit is 2 GB. |
+| Memo            | Text of arbitrary length.                                                                                   |
+
+:::warning  
+- Only String data can increase the field size so plan properly before add the field.
+- User can't change from 1 data type to another once it save.
+- Avoid create too many UDF field as it will reduce system performance & take longer time to save 1 data entry.
+:::
+
+![ch229](../../../static/img/getting-started/user-guide/ch229.jpg)
+
+8. Select the Item just created (eg. Calc-Field)
+9. Click Ok button
+10. Right Click at User again
+
+![ch230](../../../static/img/getting-started/user-guide/ch230.jpg)
+
+11. Select New Quick Form
+
+![ch231](../../../static/img/getting-started/user-guide/ch231.jpg)
+
+12. Click New button
+
+![ch232](../../../static/img/getting-started/user-guide/ch232.jpg)
+
+13. Enter any Description to be shown at Maintain User(eg Info) in the **Description** field (Only Alphanumeric & no spacing)
+14. Click Customize button (Icon 1)
+15. Drag the UDF Field from the **Available Items** (Icon 2) to empty space (Icon 3)
+16. Click **Close** button to **Customize** windows
+17. Click Save (Icon 4) after done
+18. Close the windows.
+
+![ch233](../../../static/img/getting-started/user-guide/ch233.jpg)
+
+19. Select the Item just created (eg. Info)
+20. Click Ok button
+
+![ch234](../../../static/img/getting-started/user-guide/ch234.jpg)
+
+21. Done.
+
+### Script
+
+> This is Additional Module(DIY Script Module) which allow user to  
+>
+> override or customise the SQL System.
+> The Language use is **Pascal**
+
+![ch235](../../../static/img/getting-started/user-guide/ch235.jpg)
+
+- Available forms to customise :
+
+| Form Type  | Example               | Description                                       |
+|------------|-----------------------|---------------------------------------------------|
+| Browse Form | ![ch236](../../../static/img/getting-started/user-guide/ch236.jpg) | Script Run/Execute when in Browse window form       |
+| Entry Form  | ![ch237](../../../static/img/getting-started/user-guide/ch237.jpg)  | Script Run/Execute when in Data Entry window form   |
+| Param Form  | ![ch238](../../../static/img/getting-started/user-guide/ch238.jpg)  | Script Run/Execute when at in Icon 1 (Seldom use)   |
+| Data Form   | ![ch239](../../../static/img/getting-started/user-guide/ch239.jpg)   | Script Run/Execute when at in Icon 2 (Frequently use) |
+
+- Available Action/Event
+
+| Action/Event     | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| OnOpenForm       | The script trigger On Open the Form (eg. On Open the Sales Invoice Form)    |
+| OnApply          | The script trigger After Click Apply button (for Data Form)                 |
+| OnBeforeOpen     | The script trigger On Before the Form Open                                  |
+| OnAfterOpen      | The script trigger On After the Form Open                                   |
+| OnNew            | The script trigger after the build-in New Button action Execute             |
+| OnBeforeEdit     | The script trigger before the build-in Edit Button action Execute           |
+| OnAfterEdit      | The script trigger after the build-in Edit Button action Execute            |
+| OnBeforeDelete   | The script trigger before the build-in Delete Button action Execute         |
+| OnAfterDelete    | The script trigger after the build-in Delete Button action Execute          |
+| OnBeforeCancel   | The script trigger before the build-in Cancel Button action Execute         |
+| OnAfterCancel    | The script trigger after the build-in Cancel Button action Execute          |
+| OnBeforeSave     | The script trigger before the build-in Save Button action Execute           |
+| OnAfterSave      | The script trigger after the build-in Save Button action Execute            |
+
+#### Example 1 - List Serial Number in Stock Physical Worksheet
+
+Below is Example are doing following actions
+
+* After apply **Stock Physical Worksheet** will auto Create New Tab
+* List all the Serial Number in the new Grid
+
+**Level : Advance**
+
+![ch240](../../../static/img/getting-started/user-guide/ch240.jpg)
+
+1. Right Click at Stock Physical Worksheet - Data Form
+
+![ch241](../../../static/img/getting-started/user-guide/ch241.jpg)
+
+2. Select New Script
+
+![ch242](../../../static/img/getting-started/user-guide/ch242.jpg)
+
+3. Select OnApply
+4. Click OK button
+
+![ch243](../../../static/img/getting-started/user-guide/ch243.jpg)
+
+5. Click New Button
+![ch244](../../../static/img/getting-started/user-guide/ch244.jpg)
+
+6. Enter any description (eg Stock_Physical_Worksheet-DataForm-OnApply) in the Description field (Only Alphanumeric & no spacing)
+7. Copy below script & paste to the Script Field
+
+<details>
+   <summary>DataForm-OnApply Script</summary>
+
+```pascal
+uses Forms, Dialogs, DataProcessor, DBClient, cxGridDBTableView, cxGrid, cxGridLevel,
+     xQuery, Math, ComObj, SysUtils, DateUtils;
+
+var M, SN     : TDataSet;
+    dsGrid    : TDatasource;
+    FcxGrid   : TcxGrid;
+    gvGrid    : TcxGridDBTableView;
+    lTime     : TDateTime;
+    cdsOutput : TClientDataset;
+    lDisplayFormat, S : String;    
+
+procedure SetNumericDisplayFormat(AClientDataSet: TClientDataSet);
+var f  : TFMTBCDField;
+    f1 : TFloatField;
+    i  : Integer;
+    DT : TFieldType;
+begin
+  for i := 0 to AClientDataSet.FieldCount - 1 do begin
+    DT := AClientDataSet.FieldDefs.Items[i].DataType; 
+    if DT = ftFMTBcd then begin
+      f := TFMTBCDField(AClientDataSet.Fields.Fields[i]);
+      if not (f = nil) then f.DisplayFormat := lDisplayFormat;
+    end;
+    if DT = ftFloat then begin
+      f1 := TFloatField(AClientDataSet.Fields.Fields[i]);
+      if not (f1 = nil) then f1.DisplayFormat := lDisplayFormat;
+    end;
+  end;
+end;
+
+procedure PrepareNewTab;
+begin
+  FcxGrid.RootLevelOptions.DetailTabsPosition := dtpTop;
+  gvGrid := FcxGrid.CreateView('TcxGridDBTableView') as TcxGridDBTableView;
+  with FcxGrid.Levels.Add do begin
+    Caption  := 'Calc';
+    GridView := TcxCustomGridView(gvGrid);
+    Active   := True;
+  end;
+ 
+  with gvGrid do begin
+    Name                             := 'Restricted_1';
+    OptionsCustomize.ColumnFiltering := True;
+    OptionsView.ColumnAutoWidth      := False;
+    OptionsView.Footer               := True;
+    OptionsView.GroupByBox           := False;
+    OptionsBehavior.IncSearch        := True;
+    DataController.DataSource        := dsGrid;
+    OptionsData.Editing              := False;
+  end;  
+end;
+
+procedure TuneGrid;
+var i : integer;
+    DT : TFieldType;
+begin
+  SetNumericDisplayFormat(cdsOutput);
+  with gvGrid.DataController do begin
+    DataSource := dsGrid;
+    CreateAllItems(False);    
+  end;
+  with gvGrid do begin
+    //Hide Columns
+    //GetColumnByFieldName('DtlKey').Visible          := False;  
+    //Rename Columns Caption
+    GetColumnByFieldName('ItemCode').Caption        :='Item Code';
+  end;
+   
+  with gvGrid.DataController.Summary do begin
+    BeginUpdate;
+    try
+      with TcxGridDBTableSummaryItem(FooterSummaryItems.Add) do begin
+        Column   := gvGrid.Columns[0];
+        Position := spFooter;
+        Kind     := skCount;
+        Format   := 'Count = #';
+      end;
+      for i := 0 to cdsOutput.FieldDefs.Count-1 do begin
+        DT := cdsOutput.FieldDefs.Items[i].DataType;
+        if (DT = ftFMTBcd) or (DT = ftFloat) then begin
+          with TcxGridDBTableSummaryItem(FooterSummaryItems.Add) do begin
+            Column   := gvGrid.Columns[i];
+            Position := spFooter;
+            Kind     := skSum;
+            Format   := lDisplayFormat;
+          end;  
+        end;
+      end;           
+      finally
+        EndUpdate;
+    end;
+  end; 
+  gvGrid.ApplyBestFit(nil, False, False);     
+end;
+
+procedure CreateXMLTable;
+begin
+  if Assigned(cdsOutput) then
+    cdsOutput.Free;
+  cdsOutput := TClientDataSet.Create(FcxGrid);
+  cdsOutput.FieldDefs.Assign(SN.FieldDefs);
+  cdsOutput.CreateDataSet;
+  dsGrid.DataSet := cdsOutput;
+end;
+
+procedure AppendData;
+var i : integer;
+begin
+  M.First;
+  while not M.Eof do begin
+    SN.DisableControls;
+    SN.First;
+    While not SN.Eof do begin
+      cdsOutput.Append;
+      for i:=0 to SN.FieldDefs.Count-1 do
+        cdsOutput.FindField(SN.FieldDefs.Items[i].Name).Value := SN.FindField(SN.FieldDefs.Items[i].Name).Value;
+      cdsOutput.Post;      
+      SN.Next;
+    end;
+    SN.EnableControls;
+    M.Next;
+  end;
+end;
+    
+begin
+  M       := Self_DataProcessor.GetDataSetByName('Main');
+  SN      := Self_DataProcessor.GetDataSetByName('SerialNumber');
+  FcxGrid := TcxGrid(Self.FindComponent('cxGrid1'));
+  dsGrid  := TDataSource.Create(M);
+  
+  lTime := now;
+  s := 'Stock Physical Worksheet';
+  lDisplayFormat := '#,0.00;-#,0.00;-';
+                                        
+  
+  try
+    Self.Caption := s + '- Prepare Tab';
+    PrepareNewTab;
+    Self.Caption := s + '- Prepare XML';
+    CreateXMLTable;
+    Self.Caption := s + '- Append Data';
+    AppendData;
+    Self.Caption := s + '- Tuning Grid';
+    TuneGrid;
+  finally
+
+    lTime := Now - lTime;
+    Self.Caption := Format(s + ' - [Elapsed Time: %s ]',[FormatDateTime ('hh:nn:ss:zzz', lTime)]);    
+  end;    
+end.
+```
+</details>
+
+8. Click Save (the Blue Disc Icon)
+9. Close the window.
+
+![ch245](../../../static/img/getting-started/user-guide/ch245.jpg)
+
+10. Select the Item just created (eg. Stock_Physical_Worksheet-DataForm-OnApply)
+11. Click OK button
+
+![ch246](../../../static/img/getting-started/user-guide/ch246.jpg)
+
+12. Click Stock | Print Stock Physical Worksheet | Apply
+
+### Example 2 - Set Default Filtering for Sales
+
+Below is Example are doing following actions
+* Filter by Agent in Sales Profit & Loss By Document
+* Disable Selection for Agent
+**Level : Basic**
+
+1. Right Click at **Sales Profit & Loss By Document - Param Form**
+2. Select **New Script**
+3. Select OnOpenForm
+4. Click OK button
+5. Click New Button
+6. Enter any description (eg SL-PnL-ParamForm-OnOpen) in the Description field (Only Alphanumeric & no spacing)
+7. Copy below script & paste to the Script Field
+
+<details>
+   <summary>Param Form - OnOpenForm Script</summary>
+
+```pascal
+uses SysUtils, Dialogs, Forms;
+
+var C, D : TControl;
+    L: TStringList;
+begin
+  C := Self.FindChildControl('edAgent_Panel') as TWinControl;
+  L := TStringList.Create;
+  try
+    if C <> nil then C.Enabled := False; // Disable Selection
+    C := TWinControl(C).FindChildControl('edAgent_Edit') as TWinControl;      
+    L.Add('NF');
+    L.Add('LF');
+    (C as TControl).SetTextBuf(L.CommaText);//For Multi Records 
+//    (C as TControl).SetTextBuf('LF');//For 1 record    
+  finally
+    L.Free;
+  end;  
+end.
+```
+</details>
+
+8. Click Save (the Blue Disc Icon)
+9. Close the window.
+10. Select the Item just created (eg. SL-PnL-ParamForm-OnOpen)
+11. Click OK button
+12. Click Sales | Print Profit & Loss By Document...
+
+### Example 3 - Drop Down List at Maintain User
+
+Below is Example are doing following actions
+* Create a drop down list of Project List at Maintain User for UDF_Project
+**Level : Advance**
+
+1. Right Click at User - Entry Form
+2. Select New Script
+3. Select OnOpenForm
+4. Click OK button
+5. Click New Button
+6. Enter any description (eg UserEntryForm-OnOpen) in the Description field (Only Alphanumeric & no spacing)
+7. Copy below script & paste to the Script Field
+
+<details>
+   <summary>Entry Form - OnOpen Script</summary>
+
+```pascal
+uses Forms, StdCtrls, DBCtrls, Dialogs, ComObj, DBClient;
+
+Var edProject     : TDBLookupComboBox;
+    btnCPassword  : Tbutton;
+    M, dsList     : TDataSource;
+    lbProject     : TComponent;
+    C             : TControl;
+    FComServer    : Variant;
+    cdsList       : TClientDataset;
+
+function ComServer: Variant;
+begin
+  if FComServer = Null then begin
+    FComServer := CreateOleObject('SQLAcc.BizApp');
+  end;
+  Result := FComServer;
+end;
+
+procedure GetList;
+var lSQL    : String;
+begin
+  FComServer := null;
+  cdsList := TClientDataset.Create(C);
+  lSQL := 'SELECT Code, Description FROM Project WHERE IsActive=''T'' ';
+  
+  try
+    cdsList.Data := ComServer.DBManager.Execute(lSQL);
+    dsList.Dataset := cdsList;
+  finally
+    FComServer := null;
+  end;
+end;
+
+begin
+  M := TDataSource(Self.FindComponent('dsMain'));
+  C := Self.FindChildControl('lbName');
+  dsList := TDataSource.Create(C);
+  GetList;
+  if Assigned(C) then begin
+    edProject   := TDBLookupComboBox.Create(C);
+    lbProject  := TLabel.Create(C);
+
+    with TLabel(lbProject) do begin
+      Parent     := C.Parent;
+      Caption    := '&1. Project :';
+      Left       := 200;
+      Top        := 68;
+      FocusControl := edProject;
+    end;
+        
+    with edProject do begin
+      Parent  := C.Parent;
+      Top     := 65;
+      Left    := 260;
+      Width   := 120;
+      Name    := 'edProject'; 
+      Datasource     := M;
+      ListSource     := dsList;
+      DataField      :='UDF_Project';
+      DropDownWidth  := 500;
+      KeyField       := 'Code';
+      ListFieldIndex := 1; //Search By Description
+      ListField      := 'Code;Description'; //Show 2 Column
+    end;
+  end;
+end.
+```
+</details>
+
+8. Click Save (the Blue Disc Icon)
+9. Close the window.
+10. Select the Item just created (eg. UserEntryForm-OnOpen)
+11. Click OK button
+12. Click Tools | Maintain User...
+
+## SQL Control Center
+*Menu: Tools | DIY | SQL Control Center...*
+
+### Create new field (DIY Fields Module)
+:::note DIY Fields
+This is a paid module.
+:::
+
+* This Additional Module(DIY Fields Module) where user can self Create new User Define Field(s)
+
+- Available Data Field Type
+
+| Field Type | Definition |
+|------------|------------|
+| String     | Text data of a fixed length (up to 8192 bytes) |
+| Boolean    | A Boolean value. |
+| Integer    | Whole numbers in the range of long integers (32 bits). |
+| Currency   | Currency values with the same range as the Real data type (Max 4 decimal point). |
+| Float      | Real numbers with a fixed number of digits after the decimal point. |
+| Date       | A date value. |
+| Picture    | A Picture Value. |
+| Memo       | Text of arbitrary length. |
+
+* For Explanation for Each Data Type may refer to
+[w3schools](http://www.w3schools.com/sql/sql_datatypes_general.asp)
+
+:::warning  
+- Avoid use Picture data if can as it will cause your database size increase very fast.
+- Only String data can increase the field size so plan properly before add the field.
+- User can't change from 1 data type to another once it save.
+- Avoid create too many UDF field as it will reduce system performance & take longer time to save 1 data entry. (Recommended Max is 30 UDF Fields)
+- Avoid Create String data with too large size. (Recommended Max is 200)
+:::
+
+- User can create DIY Fields either at Header Fields or Item Fields
+- In each Table had the below interface
+
+![ch247](../../../static/img/getting-started/user-guide/ch247.jpg)
+
+| Name          | Description |
+|---------------|-------------|
+| Name          | Field name. Only alphanumeric, no spacing. |
+| Data Type     | Type of Field. |
+| Size          | The Field Size. Only applicable for Float, Integer & String Data Type. |
+| Sub Size      | The Field Sub Size (normally the decimal point). Only applicable for Float Data Type. |
+| Caption       | Field name to be shown at user interface. |
+| Required      | The current field MUST not be empty. |
+| Default Value | Default value to insert on new record. |
+| Display Format | Set display format for Float, Currency & Integer Data Type. |
+| Load          | Reload the script from the Database (only for DIY Script). |
+| Load From File | Load Script/Fields from a text file. **Be careful**: system will delete existing field before loading. |
+| Save          | Save current Script/Field. Do not Delete, Rename & Insert at the same time (only for DIY Fields). |
+| Save To File  | Save current Script/Fields to a text file. |
+| + Button      | Add new field. |
+| - Button      | Delete selected field. |
+
+#### Header Fields
+
+Below is the example for Sales Invoice
+
+ * **Add New Fields**
+
+ ![ch248](../../../static/img/getting-started/user-guide/ch248.jpg)
+
+1. At the left panel look for **Sales Invoice | Header Fields**
+2. Click the + Button on top to add New fields as above picture
+3. Click Save button
+
+ #### **Design Layout**
+
+ They are 2 ways to creating the Layout for new fields added.
+
+ ![ch249](../../../static/img/getting-started/user-guide/ch249.jpg)
+
+ * **Advance Form Design**
+
+ This mode is only for the user who known how to use the Delphi.
+
+ * **Pros**
+ - Freely adjust & place the component.
+ * **Cons**
+ - Not Easy to design
+ - Not support Date & Picture Data Type
+
+02. Select **New Advance Form Design**
+
+ ![ch250](../../../static/img/getting-started/user-guide/ch250.jpg)
+
+3. Enter the name (eg Freight Info) this will shown in the Sales Invoice Data Entry
+4. Click OK
+5. Click the **Freight Info** (name create at **Step 3** above) on the left panel
+
+![ch251](../../../static/img/getting-started/user-guide/ch251.jpg)
+
+![ch252](../../../static/img/getting-started/user-guide/ch252.jpg)
+
+* This Standard component is just for Fixed labeling or decoration
+* The detail of each button can be refer to [delphibasics](http://www.delphibasics.co.uk/Article.asp?Name=Standard)
+
+![ch253](../../../static/img/getting-started/user-guide/ch253.jpg)
+
+* This Data Controls component is use for Variable data which can be use at Data Entry
+* Below is the detail of each button (From Left)
+
+| Component     | Purpose                                                                 |
+|---------------|-------------------------------------------------------------------------|
+| DBText        | Data-aware label that can display a field from a currently active record. |
+| DBEdit        | Data-aware edit box that can display or edit a field from a currently active record. |
+| DBMemo        | Data-aware memo box that can display or edit text BLOB data from a currently active record. |
+| DBImage       | Data-aware image box that can display, cut, or paste bitmapped BLOB images to and from a currently active record. |
+| DBListBox     | Data-aware list box that can display values from a column in a table. |
+| DBCheckBox    | Data-aware check box that can display or edit a Boolean data field from a currently active record. |
+| DBRichEdit    | Data-aware Rich Text Editor that can display or edit text BLOB data from a currently active record. |
+| cxDBSpinEdit  | Data-aware edit box that can display or edit Integer or Float data from a currently active record. |
+
+:::success  
+Normally we only use
+
+**Standard** Tab component
+- Label - For Labeling each field
+**Data Controls** Tab component
+- DBEdit - For String Data
+- DBRichEdit - For Memo Data
+- cxDBSpinEdit - For Currency, Float or Integer Data
+:::
+
+6. Click the **Standard** Tab & select Label button place on thee right panel
+7. In the **Object Inspector** look for
+
+* Caption & set to the Caption you like (eg Container Number)
+* Font & set the Size to 12 or any size you prefer
+
+![ch254](../../../static/img/getting-started/user-guide/ch254.jpg)
+
+8. Click the **Data Controls** Tab & select DBEdit button place on thee right panel
+9. In the **Object Inspector** look for
+
+* **DataField** & set to the UDF field name (normally is UDF_FieldName) (eg UDF_ContainerNo)
+* **Font** & set the **Size** to 12 or any size you prefer
+
+![ch255](../../../static/img/getting-started/user-guide/ch255.jpg)
+
+10. Continue repeat Step 6 till Step 9 for rest of the UDF field.
+11. Click Save button after done.
+
+* **Quick Form Design (Recommended)**
+
+* This mode is for the user who don't known how to use the Delphi.
+
+**Pros**
+   - Easy to Design
+
+**Cons**
+   - Unable to freely adjust & place the component.
+   - Not support Rich Text Editor.
+
+2. Select New Quick Form Design
+   ![ch256](../../../static/img/getting-started/user-guide/ch256.jpg)
+
+3. Enter the name (eg Freight Info) this will shown in the Sales Invoice Data Entry
+4. Click OK
+5. Click the **Freight Info** (name create at **Step 3** above) on the left panel
+
+![ch257](../../../static/img/getting-started/user-guide/ch257.jpg)
+
+6. Click Customise button.
+7. Drag the UDF Field from the **Available Item** dialog box & drop to Right Panel
+8. Continue repeat **Step 7** for rest of the UDF field.
+9. Click Save button after done.
+
+**Item Fields**
+   There is no layout need to be design for Item Field UDF. You can drag out all the UDF field in the Field Chooser in the data Entry
+
+* **Add New Fields**
+1. At the left panel look for Sales Invoice | Item Fields
+2. Click the + Button on top to add New fields as above picture
+3. Click Save button
+
+![ch258](../../../static/img/getting-started/user-guide/ch258.jpg)
+
+1. Drag the UDF field from the Customization Dialog
+2. Drop it the column you wanted to shown (eg In between Description Column & Qty Column)
+
+### DIY Authenticator
+
+*Tools | DIY | DIY Authenticator...*
+
+This function is use to **lock** the [Maintain DIY Module](#maintain-diy) so only **authorised person** allow to access.
+
+#### Requirements
+
+* Mobile Phone with Camera
+* QR Reader Application
+* Google Authenticator
+
+#### Setup
+
+1. Enter account name or use default name. This will be shown in Google Authenticator list.
+
+![ch306](../../../static/img/getting-started/user-guide/ch306.jpg)
+
+2. Enter a Access ID. This use by the system to pairing with the Google Authenticator.
+
+![ch307](../../../static/img/getting-started/user-guide/ch307.jpg)
+
+3. Select the Device you wanted to use to Scan with.
+
+![ch308](../../../static/img/getting-started/user-guide/ch308.jpg)
+
+4. Use the Google Authenticator to scan the QR barcode.
+5. Enter the Code generated by the Google Authenticator.
+6. Click Pair.
+
+![ch309](../../../static/img/getting-started/user-guide/ch309.jpg)
+
+7. System will prompt below dialog if successfully pairing.
+
+![ch310](../../../static/img/getting-started/user-guide/ch310.jpg)
+
+Each time user Click the [Maintain DIY](#maintain-diy) it will prompt below dialog for Verification Code.
+
+![ch311](../../../static/img/getting-started/user-guide/ch311.jpg)
+
+#### Remove Locking
+
+1. Click Tools | DIY | DIY Authenticator....
+2. Enter the Verification Code.
+
+![ch312](../../../static/img/getting-started/user-guide/ch312.jpg)
+
+3. System will prompt below option.
+4. Click Remove Access ID.
+
+![ch313](../../../static/img/getting-started/user-guide/ch313.jpg)
+
+| **Option Name**      | **Properties**                                |
+|-----------------------|-----------------------------------------------|
+| **Remove Access ID**  | To permanently unlock the Maintain DIY        |
+| **Recover Access ID** | To retrieve the current Access ID             |
+| **Reset Access ID**   | To recreate a new Access ID                   |
+
+5. System will prompt below dialog if successfully unlock
+
+![ch314](../../../static/img/getting-started/user-guide/ch314.jpg)
+
+:::warning 
+Make sure you had keep few copy of QRCode as once you lost all we not able to retrieve back the Access ID
+:::

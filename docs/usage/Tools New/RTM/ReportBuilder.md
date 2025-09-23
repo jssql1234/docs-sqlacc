@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 title: Report Builder
 description: How to do custom reports
 slug: /usage/Tools New/RTM/ReportBuilder
