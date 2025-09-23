@@ -2,13 +2,13 @@
 sidebar_position: 2
 title: FR3 FAQ
 description: How to do custom reports
-slug: /usage/Tools New/Fast Report/FR3 FAQ
+slug: /usage/Tools-New/Fast Report/FR3 FAQ
 tags: ["SQL Account", "Usage", "Tools"]
 ---
 
 ## Frequently Ask Question (FAQ)
 
-### 1. Unit price is 0, display as FOC
+### 1. When Unit price is 0, how to display as Free of Charge (FOC) ?
 
 In Memo, enter following syntax :
 
@@ -18,7 +18,7 @@ In Memo, enter following syntax :
 
 ![45](../../../../static/img/report/fastReport-basicGuide/45.png)
 
-### 2. Document Currency Description change Cents to Sens
+### 2. How to change Cents to Sens in Document Currency Description ?
 
 Syntax:
 
@@ -28,7 +28,7 @@ Syntax:
 
 ![46](../../../../static/img/report/fastReport-basicGuide/46.png)
 
-### 3. More Description convert RichTextToPlainText
+### 3. How to convert More Description into RichTextToPlainText ?
 
 Syntax :
 
@@ -46,7 +46,7 @@ File -> Page Setting ->
 
 ![49](../../../../static/img/report/fastReport-basicGuide/49.png)
 
-### 5. if Qty > 10, text color in red and in bold?
+### 5. if Qty > 10, how to change text color to red and bold?
 
 1. Double Click on Memo
 
@@ -76,7 +76,7 @@ File -> Page Setting ->
 
 Right click on Memo, **unticked Shift** and **Unticked Shift when Overlapped**
 
-### 7. Export to PDF Logo is blur
+### 7. How to Export PDF Logo that is blur ?
 
 ![53](../../../../static/img/report/fastReport-basicGuide/53.png)
 
@@ -92,7 +92,7 @@ Result :
 
 ![55](../../../../static/img/report/fastReport-basicGuide/55.png)
 
-### 9. Payslip to show AL or MC Only
+### 9. How to print Payslip to show AL or MC only ?
 
 1. Click on **SubReport3**
 
@@ -113,7 +113,7 @@ Result :
 
    ![57](../../../../static/img/report/fastReport-basicGuide/57.png)
 
-### 10. How to get Net Unit Price
+### 10. How to get Net Unit Price ?
 
  1. Click on **Memo Text**
 
@@ -133,7 +133,7 @@ Result :
 
    ![58](../../../../static/img/report/fastReport-basicGuide/58.png)
 
-### 11. UOM = UNIT, Qty display without Decimal Point, else with 2 Decimal Point
+### 11. How to do if UOM = UNIT, Qty display without Decimal Point, else with 2 Decimal Point ?
 
  1. Click On Memo Text
 
@@ -178,3 +178,390 @@ Before :
 After :
 
 ![64](../../../../static/img/report/fastReport-basicGuide/64.png)
+
+## 14. Why is it not same when preview?
+
+![ch315](../../../../static/img/report/fastReport-basicGuide/ch315.jpg)
+
+ Try Untick the Option **Shift** by right click the Memo
+
+![ch316](../../../../static/img/report/fastReport-basicGuide/ch316.jpg)
+
+
+## 15. Why my Layout in the Designer is different from the example shown?
+ 
+script ???????????
+ 
+## 16. How to rename the component I use?
+
+![ch317](../../../../static/img/report/fastReport-basicGuide/ch317.jpg)
+
+01. Click the Red A Icon.
+02. Click on the place to be print/shown
+03. At the **Object Inspector**, look for **Name** & change the Name you like (Only Alphanumeric & no spacing)
+
+## 17. How to draw line for whole report?
+
+![ch318](../../../../static/img/report/fastReport-basicGuide/ch318.jpg)
+
+01. Click at empty place of outer report.
+02. At the **Object Inspector**, look for Frame & click the + sign
+03. Under the **Frame**, look for **Typ** & set to True for ftLeft, ftRight, ftTop & ftBottom.
+
+![ch319](../../../../static/img/report/fastReport-basicGuide/ch319.jpg)
+
+:::warning
+Make sure the **Paper Margin** for Top, Bottom, Left & Right not set to 0
+:::
+
+## 18. How to add spacing between 2 records?
+
+![ch320](../../../../static/img/report/fastReport-basicGuide/ch320.jpg)
+
+01. Right Click at **DetailData**.
+
+![ch321](../../../../static/img/report/fastReport-basicGuide/ch321.jpg)
+
+02. Select **Add child band**.
+03. At the **Object Inspector**, look for **Height** & set the gap Height you wanted
+
+## 19. My More Description is very long & it shown page 1 empty & shown in page 2
+
+![ch322](../../../../static/img/report/fastReport-basicGuide/ch322.jpg)
+
+01. Right Click at **DetailData**.
+
+![ch323](../../../../static/img/report/fastReport-basicGuide/ch323.jpg)
+
+02. Select **Allow Split**.
+03. Click at **GroupFooter:GroupFooter1**.
+04. Double Click **OnBeforePrint**
+
+![ch324](../../../../static/img/report/fastReport-basicGuide/ch324.jpg)
+
+05. Remove **- 60**
+
+![ch325](../../../../static/img/report/fastReport-basicGuide/ch325.jpg)
+
+06. Click at **DetailData:DetailData1**.
+07. Double Click **OnAfterCalcHeight**
+
+![ch326](../../../../static/img/report/fastReport-basicGuide/ch326.jpg)
+
+08. Enter //
+
+
+## 20. Show Note at Header
+
+![ch327](../../../../static/img/report/fastReport-basicGuide/ch327.jpg)
+
+01. Right Click at **GroupHeader:GroupHeader1**.
+
+![ch328](../../../../static/img/report/fastReport-basicGuide/ch328.jpg)
+
+02. Select **Add Child Band** & Select **Stretch**
+03. Adjust the Child band Height as you wanted
+04. Right click at Child Band & Select **Stretch**
+05. Move all the Title to **Child:Child1**
+06. Click Blue A icon (RichText Object)
+07. Click on the place to be print/shown & set as below setting in Right Click
+
+- Stretch = True
+- Shift = False
+- Allow Expression = False
+
+08. At the **Object Inspector**, Look for & set as below
+- DataSet ==> Main
+- DataField ==> Note
+
+## 21. Show Total Qty Excluding Item Code RTN5Cents
+
+01. Click the Red A Icon.
+02. Click on the place to be print/shown
+03. Enter the below code (make sure in the report had the **AdjRound** pipeline & **GetTotal** function (refer to Sales Invoice 7 (GST 1))
+
+```pascal
+    [FormatFloat(<Option."StockQuantityDisplayFormat">,
+    IIF(Trim(<AdjRound."LocalAmount">)<>'0', 
+          GetTotal('Qty')-1,
+          GetTotal('Qty'))
+    )]
+```
+
+## 22. How to print 2 page in 1 A4?
+
+![ch329](../../../../static/img/report/fastReport-basicGuide/ch329.jpg)
+
+01. Click Margin Icon
+02. Adjust the **Height** to fit in 1 page
+03. Select **Apply to all pages**
+04. Click Ok
+05. Set the **Zoom** to <span style={{ color: "blue" }}>100%</span> and/or <span style={{ color: "blue" }}>Page Within </span>
+06. Click Print Icon
+07. Set **Print Mode** to <span style={{ color: "blue" }}> Scale</span> & **Print on Sheet** to <span style={{ color: "blue" }}> A4 </span>
+08. Click Ok to print
+
+
+## 23. How to Load Notes/More Description to TfrRichView using script?
+Just add below script on the TfrRichView OnBeforePrint
+
+```sql
+procedure Rich1OnBeforePrint(Sender: TfrxComponent);
+var slOutput : TStringList;
+    M: TMemoryStream;    
+begin
+  slOutput := TStringList.Create;
+  M := TMemoryStream.Create;
+  try
+    slOutput.Text := <plST_Item."Note">; //The Note/More Description field
+    slOutput.SaveToStream(M);
+    M.Position := 0;
+    Rich1.RichEdit.Lines.LoadFromStream(M); //eg The TfrRichView name is Rich1 
+  finally
+    slOutput.Free;
+    M.Free;  
+  end;
+end;
+```
+
+
+## 24. How to reduce the Column use when Export to Excel?
+
+Try use **Export to Excel Table (XML)** option & untick the Option **WYSIWYG**
+
+## 25. Special Display Format
+### Q1 : How if data is Zero(0) and I wanted to be printed as - and some space on the back?
+A  : Just Enter as Follow code:-
+```pascal
+[FormatFloat(',0.00;-,0.00;-   ',<Main."Amount">)]
+```
+
+### Q2 : How to set a given string as this 123456121234 to show as 123456-12-1234?
+A  : Just Enter as Follow code:-
+```pascal
+[FormatMaskText('000000-00-0000;0;',<Employee."NewIC">)]
+```
+
+### Q3 : How to set displayformat follow the option for Grand Total?
+A  : Just Enter as Follow code:-
+
+```pascal
+[FormatFloat(<Option."StockQuantityDisplayFormat">, SUM(<Main."TotalQty">,MasterData1))]
+```
+
+OR
+
+```pascal
+[FormatFloat(<Option."AccountingValueDisplayFormat">, SUM(<Main."TotalAmt">,MasterData1))]
+```
+
+### Q4 : How to set displayformat BlankWhenZero or Hide Zeros if using FormatFloat function?
+A  : Just set the display format at <span style={{ color: "blue" }}>Tools | Options | Misc</span> to
+
+```pascal
+#,0.00;-#,0.00; ;
+```
+
+OR
+
+A  : Just Enter as Follow code :-
+
+```pascal
+ [IIF(SimpleRoundTo(<Document_Detail."Qty">*<Document_Detail."UnitPrice">,-2) <> 0, 
+     FormatFloat(<Option."AccountingValueDisplayFormat">, 
+     SimpleRoundTo(<Document_Detail."Qty">*<Document_Detail."UnitPrice">,-2)), '')]
+```
+
+### Q5. How to Set Current Date Time plus/minus N?
+
+```sql
+procedure DBTxtTimeOnBeforePrint(Sender: TfrxComponent);
+var lDT : variant;
+begin
+  //Example deduct 1.5 hours
+  lDT := FormatDateTime('dd/MM/yyyy hh:mm AM/PM', Now - 0.0625); //(1.5/24)
+  DBTxtTime.Text := lDT;
+end;
+```
+
+### Q6. Page print count base on qty.
+
+```pascal
+procedure Page1OnBeforePrint(Sender: TfrxComponent);
+begin
+    Page1.PageCount := <DocDetail."Qty">;
+end;
+```
+
+## 26. How to use Line function?
+Default is system will use <span style={{ color: "blue" }}> [Line#]</span> this will result as
+
+```pascal
+Group 1
+ 1
+ 2
+ 3
+Group 2
+ 4
+ 5
+ 6
+```
+
+Use <span style={{ color: "blue" }}> [Line]</span> this will result as
+
+```pascal
+Group 1
+ 1
+ 2
+ 3
+Group 2
+ 1
+ 2
+ 3
+```
+
+01. Select **System Text**
+02. Enter as <span style={{ color: "blue" }}> Line</span> in **Text** field
+
+## 27. Can I do running Total for each footer?
+Yes just add ,<span style={{ color: "blue", fontWeight: "bold" }}>2</span> in the SUM formula
+
+:::warning
+It can't batch Printing (i.e. will keep increasing)
+:::
+
+```pascal
+[SUM(<Document_Detail."Amount">,DetailData1,2)]
+```
+
+## 28. How to combine each string lines from detail without line break added?
+For example,
+
+| Items   | Qty | Unit Price | Amount |
+|---------|-----|------------|--------|
+| RM-001  | 20  | 100        | 2000   |
+| RM-002  | 40  | 200        | 8000   |
+
+
+Expected result:
+```pascal
+RM-001,20,100,2000|RM-002,40,200,8000|
+```
+
+```sql
+var s: string;
+Begin
+  s := Items + ',' + VarToStr(Qty) + ',' + VarToStr(Amount) +'|';
+  Memo1.Text := '''Copy(Memo1.Text,1,Length(Memo1.Text)-2)''' + s;
+End;
+```
+
+### 16. How to make sure my report export to Excel as less column usage as possible?
+* Below is the guideline
+
+![ch330](../../../../static/img/report/fastReport-basicGuide/ch330.jpg)
+
+- Use align to Grid button
+
+![ch313](../../../../static/img/report/fastReport-basicGuide/ch331.jpg)
+
+- No gap between to component
+- Must Align between top & Bottom of component
+
+![ch332](../../../../static/img/report/fastReport-basicGuide/ch332.jpg)
+
+- Untick **Diagonal** when use Line
+- Avoid use Rich Text (TfrRichView)
+- Untick **Auto Width**
+- Tick **Stretch to Max Height** (for Detail)
+
+## 29. Why when I export to PDF with Chinese Word become "tofu" or box box?
+This is because default Font is Tahoma is not support Unicode Font
+- Solution : Change the Font To **Microsft YaHei** in Report Designer
+
+![ch333](../../../../static/img/report/fastReport-basicGuide/ch333.jpg)
+
+## 30. How to Maintain the QR Code Size with large Data?
+:::note  NOTE: It might unable to scan if size too small & data too large
+:::
+
+![ch334](../../../../static/img/report/fastReport-basicGuide/ch334.jpg)
+
+## 31. How to Show Even row with color?
+
+![ch335](../../../../static/img/report/fastReport-basicGuide/ch335.jpg)
+
+```sql
+if <Line#> mod 2 = 1 then
+    TfrxBrushFill(DetailData1.Fill).BackColor := clNone else
+    TfrxBrushFill(DetailData1.Fill).BackColor := clSilver;
+```
+
+## 32. How to Add QR Code for E-Invoicing?
+:::note Note : 
+Only Available in Version 852 & above
+:::
+- [Video](https://download.sql.com.my/customer/Fairy/Steps-FR-FAQ-26.gif)
+
+![ch336](../../../../static/img/report/fastReport-basicGuide/ch336.jpg)
+
+![ch337](../../../../static/img/report/fastReport-basicGuide/ch337.jpg)
+
+![ch338](../../../../static/img/report/fastReport-basicGuide/ch338.jpg)
+
+![ch339](../../../../static/img/report/fastReport-basicGuide/ch339.jpg)
+
+```sql
+procedure IRBM_QROnBeforePrint(Sender: TfrxComponent);
+var B : Boolean;
+begin
+  B := Trim(<Main."IRBM_ValidationLink">) <> '';
+  IRBM_QR.Visible   := B;
+  IRBM_QR.Printable := B;
+  IRBM_QR.Hyperlink.Value := Trim(<Main."IRBM_ValidationLink">);
+end;
+```
+:::success  
+- The measurement is in Inch
+- This guide design for is for Laser Printer only
+- For Dot Matrix Printer make sure set to 1 for Height
+:::
+
+## 33. How to show Document Number at every Page Footer?
+* Just add the script on procedure GroupHeader2OnBeforePrint
+
+```sql
+procedure GroupHeader2OnBeforePrint(Sender: TfrxComponent);
+begin
+...
+  Memo69.Text := <Main."DocNo">; //Add your script
+end;
+```
+
+## 34. How to set A5 size to print on A4 paper?
+
+![ch340](../../../../static/img/report/fastReport-basicGuide/ch340.jpg)
+
+01. Change paper size to A4
+02. Set the Margin
+03. Click ok **GroupFooter**: GroupFooter1
+04. Double Click **OnBeforePrint** Script
+
+![ch341](../../../../static/img/report/fastReport-basicGuide/ch341.jpg)
+
+05. Add the value
+
+:::warning
+Might have problem if too many knock off which more then 1 page
+Height
+:::
+
+## 35. Customise Sales Debit Note Prompt Error after upgrade
+
+* Error
+
+![ch342](../../../../static/img/report/fastReport-basicGuide/ch342.jpg)
+
+ * Solution
+
+![ch343](../../../../static/img/report/fastReport-basicGuide/ch343.jpg)
