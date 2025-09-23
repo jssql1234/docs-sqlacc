@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Report
-description: Production Job Order
+description: A guide on Production Report
 slug: /usage/production/report
 tags: ["SQL Account", "Usage", "Production", "Report"]
 ---

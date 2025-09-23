@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Stock Item Disassembly
-description: Stock Item Disassembly
+description: A guide to use Stock Item Disassembly
 slug: /usage/production/stock-item-disassembly
 tags: ["SQL Account", "Usage", "Production"]
 ---
