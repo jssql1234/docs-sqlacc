@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Job Order
-description: Production Job Order
+description: A guideline for Job Order
 slug: /usage/production/job-order
 tags: ["SQL Account", "Usage", "Production", "Job Order"]
 ---

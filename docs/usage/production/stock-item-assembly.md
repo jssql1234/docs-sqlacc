@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Stock Item Assembly
-description: Stock Item Assembly
+description: A guide to use Stock Item Assembly
 slug: /usage/production/stock-item-assembly
 tags: ["SQL Account", "Usage", "Production"]
 ---

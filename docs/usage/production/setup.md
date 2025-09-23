@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Setup
-description: Production Job Order
+description: A guide to setup production
 slug: /usage/production/setup
 tags: ["SQL Account", "Usage", "Production", "Setup"]
 ---
