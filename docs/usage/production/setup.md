@@ -6,6 +6,10 @@ slug: /usage/production/setup
 tags: ["SQL Account", "Usage", "Production", "Setup"]
 ---
 
+:::note
+This is a paid module.
+:::
+
 :::info
     Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 :::
