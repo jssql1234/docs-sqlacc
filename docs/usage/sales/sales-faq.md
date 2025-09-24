@@ -3,10 +3,10 @@ sidebar_position: 3
 title: Sales FAQ
 description: Solution for Sales
 slug: /usage/sales/sales-faq
-tags: ["SQL Account", "Sales", "FAQ", "Cash Drawer", "Kick Out"]
+tags: ["SQL Account", "Sales", "FAQ"]
 ---
 
-## Cash Drawer Kick Out
+## How to set Cash Drawer Kick Out?
 
 ### Setup
 
