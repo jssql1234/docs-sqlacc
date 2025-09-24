@@ -7,7 +7,7 @@ tags: ["SQL Account", "Usage", "Production", "Setup"]
 ---
 
 :::note
-This is a paid module.
+This is an additional module.
 :::
 
 :::info
@@ -78,9 +78,9 @@ Setup the stock item master data for all types of stock. Eg. raw materials, end 
 
     2. Create your finished goods item and assign raw materials.
 
-        i. assigned stock group, enter based UOM, ref cost and ref price.
+        1. assigned stock group, enter based UOM, ref cost and ref price.
 
-        ii. go to the BOM tab, choose this product as a BOM item, and assign all the raw materials, quantity needed.
+        2. go to the BOM tab, choose this product as a BOM item, and assign all the raw materials, quantity needed.
 
         Location is the Raw Materials kept and deducted from which warehouse.
         

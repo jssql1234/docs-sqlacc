@@ -7,7 +7,7 @@ tags: ["SQL Account", "Usage", "Production", "Job Order"]
 ---
 
 :::note
-This is a paid module.
+This is an additional module.
 :::
 
 ## Overview Workflow
@@ -120,25 +120,25 @@ It is required the SO -> PO and Job Order module. For more information about pri
 
             ![10](../../../static/img/getting-started/user-guide/production/jj10.png)
 
-    :::note
+   :::note
 
-    **Results for CAR Item:**
+   **Results for CAR Item:**
 
-    SO Qty = -100.00
+   SO Qty = -100.00
 
-    PO Qty = -35.00
+   PO Qty = -35.00
 
-    JO Qty = 0.00
+   JO Qty = 0.00
 
-    Qty (On Hand) = 0.00
+   Qty (On Hand) = 0.00
 
-    Available Qty = -65.00
-    
-    :::
+   Available Qty = -65.00
+   
+   :::
 
 ### Create New Job Order
 
-CLICK on the NEW button and SELECT the Customer
+CLICK on the NEW button and SELECT the Customer.
 
 ![11](../../../static/img/getting-started/user-guide/production/jj11.png)
 
@@ -162,7 +162,7 @@ Total components quantity requirement to meet the total output.
 
 1. Create New Job Order (JO)
 
-   Go to **Production | Job Order...**
+   Go to **Production | Job Order...**.
 
    1. Click on the NEW button to start with a new JO
 
@@ -226,7 +226,7 @@ After FLAT MODE, BOM components show at **LEVEL 3**.
 
 5. Save the JO Document
 
-Click on the SAVE button
+Click on the SAVE button.
 
 ![17](../../../static/img/getting-started/user-guide/production/jj17.png)
 
@@ -406,7 +406,7 @@ Actual components (materials) used will be deducted out from the stock balance. 
 
 1. Create New Stock Item Assembly (AS)
 
-    Go to **Production | Stock Item Assembly…**
+    Go to **Production | Stock Item Assembly…**.
 
     Click on the NEW button to start with a new AS.
 

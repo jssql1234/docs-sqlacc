@@ -26,14 +26,14 @@ tags: ["SQL Account", "Usage", "Purchase", "Report"]
 
 ![4](../../../static/img/getting-started/user-guide/purchase/report/jj4.png)
 
-● Example of customer invoices listing report
+- Example of customer invoices listing report.
 
 ![5](../../../static/img/getting-started/user-guide/purchase/report/jj5.png)
 
 
 ### Print Document Style
 
-Tick relevant check boxes
+Tick relevant check boxes.
 
 ![6](../../../static/img/getting-started/user-guide/purchase/report/jj6.png)
 
@@ -48,19 +48,19 @@ If you Tick Print Document Style , you will see that you will able able to choos
 
 ### Group/Sort By
 
-You can filter your documents based on Document, Agent, Area, Currency, Project and Company Category
+You can filter your documents based on Document, Agent, Area, Currency, Project and Company Category.
 
 ![8](../../../static/img/getting-started/user-guide/purchase/report/jj8.png)
 
-You can use the Group by/Sort by table to choose how you want to group your report listing
+You can use the Group by/Sort by table to choose how you want to group your report listing.
 
 ![9](../../../static/img/getting-started/user-guide/purchase/report/jj9.png)
 
-Select the Listing Report
+Select the Listing Report.
 
 ![10](../../../static/img/getting-started/user-guide/purchase/report/jj10.png)
 
-Here is an example of the report
+Here is an example of the report.
 
 ![11](../../../static/img/getting-started/user-guide/purchase/report/jj11.png)
 
@@ -82,7 +82,7 @@ Here is an example of the report
 
 ![15](../../../static/img/getting-started/user-guide/purchase/report/jj15.png)
 
-Example of outstanding purchase document listing report
+- Example of outstanding purchase document listing report.
 
 ![16](../../../static/img/getting-started/user-guide/purchase/report/jj16.png)
 
@@ -112,7 +112,7 @@ Select the Listing Report.
 
 ![20](../../../static/img/getting-started/user-guide/purchase/report/jj20.png)
 
-Here is an example of the outstanding purchase report:
+- Here is an example of the outstanding purchase report:
 
 ![21](../../../static/img/getting-started/user-guide/purchase/report/jj21.png)
 
@@ -140,23 +140,23 @@ Here is an example of the outstanding purchase report:
 
 ![27](../../../static/img/getting-started/user-guide/purchase/report/jj27.png)
 
-Example of purchase price history report
+- Example of purchase price history report.
 
 ![28](../../../static/img/getting-started/user-guide/purchase/report/jj28.png)
 
-Example of price history:
+- Example of price history.
 
 ![29](../../../static/img/getting-started/user-guide/purchase/report/jj29.png)
 
-Price movement :
+- Price movement.
 
 ![30](../../../static/img/getting-started/user-guide/purchase/report/jj30.png)
 
-Price/qty breakdown :
+- Price/qty breakdown.
 
 ![31](../../../static/img/getting-started/user-guide/purchase/report/jj31.png)
 
-Price book:
+- Price book.
 
 ![32](../../../static/img/getting-started/user-guide/purchase/report/jj32.png)
 
@@ -179,7 +179,7 @@ Select the Listing Report.
 
 ![34](../../../static/img/getting-started/user-guide/purchase/report/jj34.png)
 
-Here is an example of the price history report:
+- Here is an example of the price history report:
 
 ![35](../../../static/img/getting-started/user-guide/purchase/report/jj35.png)
 
@@ -203,15 +203,15 @@ Here is an example of the price history report:
 
 4. Click Preveiw & Listing Report
 
-Example of the analysis report
+- Example of the analysis report.
 
 ![41](../../../static/img/getting-started/user-guide/purchase/report/jj41.png)
 
 ### Group/Sort By
 
-You can filter your documents based on Document, Agent, Area, Currency, Project and Company Category
+You can filter your documents based on Document, Agent, Area, Currency, Project and Company Category.
 
-You can use the Group by/Sort by table to choose how you want to group your report listing
+You can use the Group by/Sort by table to choose how you want to group your report listing.
 
 ![42](../../../static/img/getting-started/user-guide/purchase/report/jj42.png)
 
@@ -241,11 +241,11 @@ You can use the Group by/Sort by table to choose how you want to group your repo
 
 5. Click Preveiw & Listing Report
 
-Example If you ticked "Qty" , your report will show yearly quantity:
+- Example If you ticked "Qty" , your report will show yearly quantity.
 
 ![49](../../../static/img/getting-started/user-guide/purchase/report/jj49.png)
 
-Example If you ticked "Amount" , your report will show yearly amount:
+- Example If you ticked "Amount" , your report will show yearly amount.
 
 ![50](../../../static/img/getting-started/user-guide/purchase/report/jj50.png)
 
