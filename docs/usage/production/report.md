@@ -6,6 +6,10 @@ slug: /usage/production/report
 tags: ["SQL Account", "Usage", "Production", "Report"]
 ---
 
+:::note
+This is a paid module.
+:::
+
 ## Print Job Order Listing
 
 ### How to Print Job Order Listing
