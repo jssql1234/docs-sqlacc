@@ -14,7 +14,7 @@ Example of sales process work flow aligned with SQL Account flow:
 
 ## Purchase Request
 
-Purchase Request is an internal document used within a company between departments to request for purchase or a product
+Purchase Request is an internal document used within a company between departments to request for purchase or a product.
 
 For example, you want to purchase more office supplies. You have to submit a purchase request to the purchasing department.
 
@@ -399,9 +399,9 @@ You would need an Invoice -> DO module in order to issue Extra Goods Received No
 
 ### Transfer From
 
-You can transfer your existing Purchase invoice or Cash Purchase
+You can transfer your existing Purchase invoice or Cash Purchase.
 
-All you have to do is RIGHT-CLICK at the "Extra Goods Received" title
+All you have to do is RIGHT-CLICK at the "Extra Goods Received" title.
 
 ![73](../../../static/img/getting-started/user-guide/purchase/jj73.png)
 
@@ -409,7 +409,7 @@ All you have to do is RIGHT-CLICK at the "Extra Goods Received" title
 
 Purchase Debit note is used to increase your expense amount.
 
-Or to increase the amount of credit that you owe your supplier
+Or to increase the amount of credit that you owe your supplier.
 
 ![79](../../../static/img/getting-started/user-guide/purchase/jj79.png)
 
@@ -431,7 +431,7 @@ Or to increase the amount of credit that you owe your supplier
 
 Instead of keying in a new document, you can transfer it from an existing Purchase Request or Purchase Order or Goods Received document.
 
-All you have to do is RIGHT-CLICK at the "Purchase Debit Note" title
+All you have to do is RIGHT-CLICK at the "Purchase Debit Note" title.
 
 ![83](../../../static/img/getting-started/user-guide/purchase/jj83.png)
 
@@ -461,7 +461,7 @@ Purchase return document is created when you return purchased goods back to the 
 
 Instead of keying in a new document, you can transfer it from an existing Purchase Invoice or Cash Purchase document.
 
-All you have to do is RIGHT-CLICK at the "Purchase Return" title
+All you have to do is RIGHT-CLICK at the "Purchase Return" title.
 
 ![93](../../../static/img/getting-started/user-guide/purchase/jj93.png)
 
@@ -489,6 +489,6 @@ You can key in the purchase cancelled note to remove any outstanding documents a
 
 Instead of keying in a new document, you can transfer it from an existing Purchase Invoice or Cash Purchase document.
 
-All you have to do is RIGHT-CLICK at the "Purchase Cancelled Note" title
+All you have to do is RIGHT-CLICK at the "Purchase Cancelled Note" title.
 
 ![102](../../../static/img/getting-started/user-guide/purchase/jj102.png)

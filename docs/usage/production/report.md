@@ -7,7 +7,7 @@ tags: ["SQL Account", "Usage", "Production", "Report"]
 ---
 
 :::note
-This is a paid module.
+This is an additional module.
 :::
 
 ## Print Job Order Listing
@@ -30,13 +30,13 @@ This is a paid module.
 
 5. Click Preview
 
-● Example of job order listing report
+- Example of job order listing report.
 
 ![4](../../../static/img/getting-started/user-guide/production/report/jj4.png)
 
 ### Print Document Style
 
-● Tick relevant check boxes
+Tick relevant check boxes.
 
 ![5](../../../static/img/getting-started/user-guide/production/report/jj5.png)
 
@@ -73,11 +73,11 @@ This is a paid module.
 
 6. Click Preview
 
-● Example of oustanding job order listing report
+- Example of oustanding job order listing report.
 
 ![9](../../../static/img/getting-started/user-guide/production/report/jj9.png)
 
-● Example of outstanding sales order listing report
+- Example of outstanding sales order listing report.
 
 ![10](../../../static/img/getting-started/user-guide/production/report/jj10.png)
 
@@ -177,6 +177,8 @@ This is a paid module.
 ![28](../../../static/img/getting-started/user-guide/production/report/jj28.png)
 
 ## Print BOM Wastage Report
+
+### How to Print BOM Wastage Report
 
 1. Go to Production -> Select the report
 
