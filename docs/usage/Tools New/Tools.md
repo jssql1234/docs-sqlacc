@@ -1583,7 +1583,6 @@ This Additional Module(DIY Fields & DIY Script Module)
 | View Template       | For Advance Form Mode                                             |
 | Report Data         | Deprecated                                                        |
 
-
 ### Field and Quick Form
 
 Below is Example are doing following actions
