@@ -1173,11 +1173,13 @@ Settings for the following:
 
 
 ### General
+
  * Automation Server Registration - Use to register/communicate to the external application via Windows platform.
 
  ![ch185](../../../static/img/getting-started/user-guide/ch185.jpg)
 
 ### Bar Code
+
 * To define the cash drawer setting with a compatible device, eg. cash drawer.
 
 ![ch186](../../../static/img/getting-started/user-guide/ch186.jpg)
@@ -1268,18 +1270,23 @@ Others setting.
 * To set the unit price priority apply to the sales/purchase/stock documents when select the item code for a customer/supplier.
 
 - Sales
+
 ![ch198](../../../static/img/getting-started/user-guide/ch198.jpg)
 
 - Purchase
+
 ![ch199](../../../static/img/getting-started/user-guide/ch199.jpg)
 
 - Stock
+
 ![ch200](../../../static/img/getting-started/user-guide/ch200.jpg)
 
  - Cash Sales
+
 ![ch201](../../../static/img/getting-started/user-guide/ch201.jpg)
 
 - Cash Purchase
+
 ![ch202](../../../static/img/getting-started/user-guide/ch202.jpg)
 
 ### General Ledger (GL)
@@ -1345,27 +1352,33 @@ Others setting.
 
 ### Customer 
 * It is important to define the Customer setting in the new database created.
+
 ![ch205](../../../static/img/getting-started/user-guide/ch205.jpg)
 
 **Default Control Account**
    Default control account when create new customer in Maintain Customer.
+
 ![ch206](../../../static/img/getting-started/user-guide/ch206.jpg)
 
 **Default Credit Terms**
    Default credit terms when create new customer in Maintain Customer.
+
 ![ch207](../../../static/img/getting-started/user-guide/ch207.jpg)
 
 **Default Credit Limit**
    Default credit limit value when create new customer in Maintain Customer.
+
 ![ch208](../../../static/img/getting-started/user-guide/ch208.jpg)
 
 **Default Output Tax**
    Default output tax code when create new customer/sales documents entry, eg. customer invoice, customer debit note, etc.
+
 ![ch209](../../../static/img/getting-started/user-guide/ch209.jpg)
 
  #### **Customer Account Code Format**
    1. To Define the customer code format.
    2. Format explanation as per below.
+
 ![ch210](../../../static/img/getting-started/user-guide/ch210.jpg)
 
 | Ref | Code Format | Explanation                                                        |
@@ -1431,6 +1444,7 @@ Others setting.
 
 **Use Cash Sales No. for Payment Received**
    Use Cash Sales No as the official receipt no for cash sales only.
+
 ![ch213](../../../static/img/getting-started/user-guide/ch213.jpg)
 
 **Perform Tax / Local Amount Rounding**
@@ -1473,34 +1487,42 @@ B. One Cent Different: Tick
 
 **5 Cents Rounding (Cash Sales)**
    This option will auto insert an items code **RTN5Cents** to adjust the total cash sales amount if found the total amount not in simple rounding.
+
 ![ch215](../../../static/img/getting-started/user-guide/ch215.jpg)
 
 <details>
    <summary>Supplier - click to expand</summary>
 
 - It is important to define the Supplier setting in the new database created.
+
 ![ch216](../../../static/img/getting-started/user-guide/ch216.jpg)
 
 **Default Control Account**
    Default control account when create new supplier in Maintain Supplier.
+
 ![ch217](../../../static/img/getting-started/user-guide/ch217.jpg)
 
 **Default Credit Terms**
    Default credit terms when create new supplier in Maintain Supplier.
+
 ![ch218](../../../static/img/getting-started/user-guide/ch218.jpg)
 
 **Default Credit Limit**
    Default credit limit value when create new supplier in Maintain Supplier.
+
 ![ch219](../../../static/img/getting-started/user-guide/ch219.jpg)
 
 **Default Input Tax**
    Default input tax code when create new supplier/purchase documents entry, eg. supplier invoice, supplier debit note, etc.
+
 ![ch220](../../../static/img/getting-started/user-guide/ch220.jpg)
 
 ### **Supplier Account Code Format**
    1. To Define the supplier code format.
    2. Format explanation as per below.
+
 ![ch221](../../../static/img/getting-started/user-guide/ch221.jpg)
+
 | Ref | Code Format | Explanation                                                  |
 |-----|-------------|--------------------------------------------------------------|
 | A   | %.3s-       | First number of digit from **Supplier Control Account code**.    |
@@ -1561,6 +1583,7 @@ d. Supp-Multi-F2-12 Mths Statement-Current,1 Mth,...
 
 **Use Cash Purchase No. for Payment Paid**
    Use Cash Purchase No as the payment voucher no for cash purchase only.
+
 ![ch224](../../../static/img/getting-started/user-guide/ch224.jpg)
 
 </details>
@@ -1720,6 +1743,7 @@ Below is Example are doing following actions
 ![ch243](../../../static/img/getting-started/user-guide/ch243.jpg)
 
 5. Click New Button
+
 ![ch244](../../../static/img/getting-started/user-guide/ch244.jpg)
 
 6. Enter any description (eg Stock_Physical_Worksheet-DataForm-OnApply) in the Description field (Only Alphanumeric & no spacing)
@@ -2130,11 +2154,13 @@ Below is the example for Sales Invoice
 ![ch252](../../../static/img/getting-started/user-guide/ch252.jpg)
 
 * This Standard component is just for Fixed labeling or decoration
+
 * The detail of each button can be refer to [delphibasics](http://www.delphibasics.co.uk/Article.asp?Name=Standard)
 
 ![ch253](../../../static/img/getting-started/user-guide/ch253.jpg)
 
 * This Data Controls component is use for Variable data which can be use at Data Entry
+
 * Below is the detail of each button (From Left)
 
 | Component     | Purpose                                                                 |
@@ -2148,9 +2174,7 @@ Below is the example for Sales Invoice
 | DBRichEdit    | Data-aware Rich Text Editor that can display or edit text BLOB data from a currently active record. |
 | cxDBSpinEdit  | Data-aware edit box that can display or edit Integer or Float data from a currently active record. |
 
-:::success  
-Normally we only use
-
+:::success Normally we only use
 **Standard** Tab component
 - Label - For Labeling each field
 **Data Controls** Tab component
@@ -2190,6 +2214,7 @@ Normally we only use
    - Not support Rich Text Editor.
 
 2. Select New Quick Form Design
+
    ![ch256](../../../static/img/getting-started/user-guide/ch256.jpg)
 
 3. Enter the name (eg Freight Info) this will shown in the Sales Invoice Data Entry
@@ -2281,3 +2306,5 @@ Each time user Click the [Maintain DIY](#maintain-diy) it will prompt below dial
 :::warning 
 Make sure you had keep few copy of QRCode as once you lost all we not able to retrieve back the Access ID
 :::
+
+> More Customisations at [SQL Control Center](/miscellaneous/sqlControlCenter)
