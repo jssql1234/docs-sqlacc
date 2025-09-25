@@ -383,21 +383,21 @@ Under the Group : Sales
 - Detail Data should Group by Stock Group/Category & TaxType (ZRL or SR) & Itemcode (if wanted import itemcode)
 - Eg. Cafe can be group by
 
-\- Food - SR
+    \- Food - SR
 
-\- Food - ZRL
+    \- Food - ZRL
 
-\- Beverage
+    \- Beverage
 
-\- Service Charges
+    \- Service Charges
 
-\- Rounding
+    \- Rounding
 
 - Eg. Today got 10 transactions
 
-\- 8 is Simplified Invoice - Group as 1 Doc No - POS-00001
+    \- 8 is Simplified Invoice - Group as 1 Doc No - POS-00001
 
-\- 2 is Full Tax Invoice/Credit Sales Invoice - 1 by 1 in - POS-00002, POS-00003
+    \- 2 is Full Tax Invoice/Credit Sales Invoice - 1 by 1 in - POS-00002, POS-00003
 
 - All can post to SL_CS & AR_PM
 - Below is example Today Total Simplified Invoice Sales is RM1000
@@ -406,13 +406,13 @@ Under the Group : Sales
 
 It will be had 4 transactions
 
-1\. RM1000 - Post to SL_CS & (P_DocNo, P_PaymentMethod field is empty & P_Amount, P_PaidAmount field is 0)
+1. RM1000 - Post to SL_CS & (P_DocNo, P_PaymentMethod field is empty & P_Amount, P_PaidAmount field is 0)
 
-&nbsp;2. RM700 by Cash - Post to AR_PM
+2. RM700 by Cash - Post to AR_PM
 
-&nbsp;3. RM200 by MasterCard - Post to AR_PM
+3. RM200 by MasterCard - Post to AR_PM
 
-&nbsp;4. RM100 by CreditCard - Post to AR_PM
+4. RM100 by CreditCard - Post to AR_PM
 
 Pros : Easy to Edit or Delete the transactions  
 Cons : Many Posting document
@@ -421,11 +421,11 @@ Cons : Many Posting document
 
 It will be had 3 transactions
 
-1\. RM700 by Cash - Post to SL_CS P_PaymentMethod field
+1. RM700 by Cash - Post to SL_CS P_PaymentMethod field
 
-&nbsp;2. RM200 by MasterCard - Post to AR_PM
+2. RM200 by MasterCard - Post to AR_PM
 
-&nbsp;3. RM100 by CreditCard - Post to AR_PM
+3. RM100 by CreditCard - Post to AR_PM
 
 Pros : Less Posting document  
 Cons :
@@ -436,41 +436,41 @@ Cons :
 - Government 5 cents Rounding Mechanism - NO Tax/GST Code
 - Deposit for Non Refundable can use Customer Payment (AR_PM) & set _NONREFUNDABLE_ field to _1_
 
-\- Default is SR
+    \- Default is SR
 
-\- Will auto reverse once it being Knock-Off
+    \- Will auto reverse once it being Knock-Off
 
 - Doc Disc should proportion by sub total amt for mix tax code (See Cash Sales POS-DocDisc)
 
-Example
+    Example
 
-\- Doc Discount = 10% of Document Discount
+    \- Doc Discount = 10% of Document Discount
 
-\- Sub Total for SR = 150.24 => Disc (150.24 \* 10%) = 15.02
+    \- Sub Total for SR = 150.24 => Disc (150.24 \* 10%) = 15.02
 
-\- Sub Total for ZR = 988.88 => Disc (988.88 \* 10%) = 98.89
+    \- Sub Total for ZR = 988.88 => Disc (988.88 \* 10%) = 98.89
 
-0r
+    0r
 
-\- Doc Discount = 113.91
+    \- Doc Discount = 113.91
 
-\- Sub Total for SR = 150.24 => Disc ((150.24/1139.12) \* 113.91) = 15.02
+    \- Sub Total for SR = 150.24 => Disc ((150.24/1139.12) \* 113.91) = 15.02
 
-\- Sub Total for ZR = 988.88 => Disc ((988.88/1139.12) \* 113.91) = 98.89
+    \- Sub Total for ZR = 988.88 => Disc ((988.88/1139.12) \* 113.91) = 98.89
 
 - Mixed Supplies Tax Code
 
-\- ES
+    \- ES
 
-\- TX-ES (Replace TX-N43)
+    \- TX-ES (Replace TX-N43)
 
-\- TX-RE
+    \- TX-RE
 
 - Realise Bad Debts Use CN as Normal
 
-\- System will contra the provision bad debts done at GST-03 by 6 mth bad debts
+    \- System will contra the provision bad debts done at GST-03 by 6 mth bad debts
 
-\- Make sure Knock the actual Bad debts Invoice
+    \- Make sure Knock the actual Bad debts Invoice
 
 - For Purchase Invoice(PI) MUST 1 by 1 post in (i.e. can't Group multi PI in 1 PI)
 
