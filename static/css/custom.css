@@ -3,24 +3,3 @@ img {
   max-width: 100%;
   height: auto;
 } 
-
-/* Style top-level TOC items (usually H2) */
-.theme-doc-toc-desktop .table-of-contents > li > a {
-  font-weight: 600;   /* bold */
-  font-size: 15px;    /* slightly larger */
-  color: #222;        /* darker for visibility */
-}
-
-/* Add spacing only between top-level items (H2) */
-.theme-doc-toc-desktop .table-of-contents > li + li {
-  margin-top: 12px;
-}
-
-/* Keep H3+ close to their parent H2 */
-.theme-doc-toc-desktop .table-of-contents li li {
-  margin-top: 4px;
-}
-
-[id] {
-  scroll-margin-top: 80px; /* adjust to your navbar height */
-}
