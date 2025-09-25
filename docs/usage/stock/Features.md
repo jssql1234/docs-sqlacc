@@ -8,7 +8,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ## Maintain Stock Group
 
-1. **Stock** > **Maintain Stock Group**
+1. **Stock** > **Maintain Stock Group**.
 
 2. It commonly use to categorize the stock based on the following points into considerations.
     - Brandings, eg. Apple, Sony, Samsung, LG, etc;
@@ -83,7 +83,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ## Maintain Stock Item
 
-1. **Stock** > **Maintain Stock Item**
+1. **Stock** > **Maintain Stock Item**.
 
 2. To setup the stock item list.
 
@@ -472,7 +472,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
   </tbody>
 </table>
 
-###  1. How To Set The Template
+### How To Set The Template
 - Use **OR** condition
 1. At the new **Maintain Category View**, click the + sign.
 2. Drag the **stock category** selected over into the blank line.
@@ -499,7 +499,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 ## Maintain Item Template
 1. It is usually use for a set or package items.  
 2. It can be create a template consists of the item selected and use in Sales/Purchase/Stock documents.  
-3. **Stock** > **Maintain Item Template**
+3. **Stock** > **Maintain Item Template**.
 
 ![256](../../../static/img/getting-started/user-guide/27jt.png)  
 
@@ -575,7 +575,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
   </tbody>
 </table>
 
-###  1. How to Use The Template
+###  How to Use The Template
   1. For example at the Sales Invoice, click on Item Template (Left Side Bar).
   2. Double click on the Item Template. See the screenshot below.  
 
@@ -588,7 +588,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ## Maintain Item Matrix Profile
 1. It commonly use to organize the coding requirement to generate the item code. Very frequent use in the following industries:
-2. **Stock** > **Maintain Stock Item Matrix Profile**
+2. **Stock** > **Maintain Stock Item Matrix Profile**.
 
 ![260](../../../static/img/getting-started/user-guide/31jt.png)
 
@@ -659,7 +659,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 > **Note:**  
 > Code length must follow as set in Matrix Settings constantly, especially the Dimension 1 (Row) and 2 (Column).
 
-###  1. How Does It Works
+### How Does It Works
   #### Generate Matrix Item Code
   1. Go to Maintain Stock Item.
   2. Right click the area below the **Detail** button.
@@ -695,7 +695,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 1. It is use for warehouse, inter-branch transfer, consignment, van-sales, etc.
 2. It is require **Multiple Location (Warehouse)** module.
-3. **Stock** > **Maintain Location**
+3. **Stock** > **Maintain Location**.
 
 ![268](../../../static/img/getting-started/user-guide/39jt.png)
 
@@ -875,7 +875,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
     - Trace the goods purchased from the suppliers;
     - Trace the returns goods come from which production batch;
     - Differentiate costing of the products;
-2. **Stock** > **Maintain Batch**
+2. **Stock** > **Maintain Batch**.
 
 
 ![270](../../../static/img/getting-started/user-guide/41jt.png)
@@ -966,10 +966,10 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ![272](../../../static/img/getting-started/user-guide/43jt.png)
 
-### 1. Copy & Paste Function
+### Copy & Paste Function
 #### Append Batch Existing Number
 1. Click on **More** (arrow key down).
-2. **Copy Stock Batch**
+2. **Copy Stock Batch**.
 
 ![273](../../../static/img/getting-started/user-guide/44jt.png)
 
@@ -1002,5 +1002,3 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 ![278](../../../static/img/getting-started/user-guide/49jt.png)
 
-## Maintain Stock Price Tag (faq)
-## Stock Take (paid?)

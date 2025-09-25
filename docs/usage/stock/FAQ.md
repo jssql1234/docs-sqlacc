@@ -8,90 +8,90 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 
 ## How to Setup Barcode 
 
-### 1. Setup
+###  Setup
 
-1. Download GRN Barcode Report Template from below link
+1. Download GRN Barcode Report Template from below link.
 
-   1. Barcode Capture from Maintain Stock Item Barcode as Barcode
+   1. Barcode Capture from Maintain Stock Item Barcode as Barcode.
       - Template: [GRN BarCode (20×40) Capture Item BarCode](https://www.sql.com.my/webstore/templates/template-detail/?id=4047)
 
-   2. Barcode Capture from Maintain Stock Item as Barcode
+   2. Barcode Capture from Maintain Stock Item as Barcode.
       - Template: [GRN BarCode (35×25) Capture Item Code](https://www.sql.com.my/webstore/templates/template-detail/?id=4058)
 
-2. Step to Import the report to SQL
+2. Step to Import the report to SQL.
 
     :::info
     Refer to this [guide](http://localhost:3000/faq/report/rtm/basic-guide#load-report-template) for details
     :::
 
-   1. Logon to SQL Account
-   2. Go to **Tools > Report Designer > Import**
-   3. Change the file type from *Fast Report(\*.fr3)* to  *SQL Reports(\*.rtm)*
-   4. Select the report downloaded from Step1.1 or 1.2
+   1. Logon to SQL Account.
+   2. Go to **Tools > Report Designer > Import**.
+   3. Change the file type from *Fast Report(\*.fr3)* to  *SQL Reports(\*.rtm)*.
+   4. Select the report downloaded from Step1.1 or 1.2.
 
-3. Purchase > Goods Received Note > Preview >
+3. Purchase > Goods Received Note > Preview.
 
     ![1](../../../static/img/stock/barcode/1.png)
 
    - Click on blue color link to enter into Report Design.
 
-4. Change the Report type to MM due to Barcode size is small
+4. Change the Report type to MM due to Barcode size is small.
 
     ![2](../../../static/img/stock/barcode/2.png)
 
-5. Change barcode size - > File > Page Setup > Paper Size >
+5. Change barcode size - > File > Page Setup > Paper Size.
 
     ![3](../../../static/img/stock/barcode/3.png)
 
-   - Currently this sample is Width = 35mm > Height = 25mm
+   - Currently this sample is Width = 35mm > Height = 25mm.
 
-6. Click on SubRptNorm : Document_Detail
+6. Click on SubRptNorm : Document_Detail.
 
     ![4](../../../static/img/stock/barcode/4.png)
 
-   - **From here you may change the Barcode layout.**
+   - **From here you may change the Barcode layout.**.
 
-7. Click on DBBarcode > Right click > Configure
+7. Click on DBBarcode > Right click > Configure.
 
     ![5](../../../static/img/stock/barcode/5.png)
 
-   1. Type : Select 128
+   1. Type : Select 128.
 
-   2. Bar Width : This is barcode width
+   2. Bar Width : This is barcode width.
 
-8. GRN Barcode Event
+8. GRN Barcode Event.
 
-   - View > Module > Click on Event Handlers > Procedure DetailBeforeDetail
+   - View > Module > Click on Event Handlers > Procedure DetailBeforeDetail.
 
    ![6](../../../static/img/stock/barcode/6.png)
 
     This step is to capture Item Qty, if Qty 10, will repeat 10 Barcode label.
 
-### 2. Cash Drawer Setting
+###  Cash Drawer Setting
 - To define the cash drawer setting with a compatible device, eg. cash drawer. 
-1. **Tools** > **Options** > **Barcode** > **Cash Drawer**
+1. **Tools** > **Options** > **Barcode** > **Cash Drawer**.
 
 ![7](../../../static/img/stock/barcode/1jt.png)
 
-### 3. Barcode Setting
+###  Barcode Setting
 - To define the barcode setting with a compatible device, eg. barcode printer.
-1. **Tools** > **Options** > **Barcode** > **Barcode**
+1. **Tools** > **Options** > **Barcode** > **Barcode**.
 
 ![8](../../../static/img/stock/barcode/2jt.png)
 
 ## How to Print Barcode (Direct Printer)
 - To print the bar code label using Special Bar Code Printer for the items created in Maintain Stock Item.
-### 1. Barcode Printer Setting
+###  Barcode Printer Setting
 
 ![8](../../../static/img/stock/barcode/3jt.png)
 
-1. **Tools** > **Options** > **Barcode** > **Barcode**
+1. **Tools** > **Options** > **Barcode** > **Barcode**.
 2. Insert the new barcode printer setting and template.
 
 ![8](../../../static/img/stock/barcode/4jt.png)
 3. Click on OK to exit.
 
-### 2. Print the Barcode Label
+### Print the Barcode Label
 1.  Click on the arrow key-down beside the Print button. See the screenshot below.
 2. You can choose either Print to Printer (barcode printer) or Print To File (output as text file).
 
@@ -102,7 +102,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 
 ![10](../../../static/img/stock/barcode/6jt.png)
 
-### 1. Update Item Barcode Listing
+###  Update Item Barcode Listing
 1. At first, you can update the item bar code in the Maintain Stock Item.
 
 ![11](../../../static/img/stock/barcode/7jt.png)
@@ -119,7 +119,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 
 ![14](../../../static/img/stock/barcode/10jt.png)
 
-### 2. Load the Previous Item Barcode Listing
+###  Load the Previous Item Barcode Listing
 1. Click on a Carbinet button to load from the previous file for item bar code listing (eg.BarCode_Items_31122015). Click on OPEN.
 
 ![15](../../../static/img/stock/barcode/11jt.png)
@@ -136,14 +136,14 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 
 ![18](../../../static/img/stock/barcode/14jt.png)
 
-### 3. Preview/Print the Barcode Label
+###  Preview/Print the Barcode Label
 1. . Click on Preview or Printer (to skip the preview).
 
 ![19](../../../static/img/stock/barcode/15jt.png)
 
 2. After the preview, click on Printer button to print.
 
-### 4. How to Changing the Label Size (mm) Measurement for the Bar Code Label
+###  How to Changing the Label Size (mm) Measurement for the Bar Code Label
 1. Click on the **Report Name**. See the screenshot below.
 
     ![10](../../../static/img/stock/change-barcode-label-size/10.png)
@@ -184,9 +184,9 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 Allow to update/edit the field value by batch.
 :::
 
-### 1. Maintain Stock Item
+###  Maintain Stock Item
 
-1. Go to **Stock > Maintain Stock Items**
+1. Go to **Stock > Maintain Stock Items**.
 
 2. For example, **change the output tax code from ZRL to SR** for ZRL items only.
 
@@ -226,24 +226,24 @@ Allow to update/edit the field value by batch.
 
     ![7](../../../static/img/stock/batch-edit-value-stock-item/7.png)
 
-### 2. Result
+###  Result
 
 Items default output tax previously ZRL are **successfully changed to SR**.
 
 ![8](../../../static/img/stock/batch-edit-value-stock-item/8.png)
 
 ## How to Setup Costing Method 
-1. Go to Stock > Maintain Stock Group
+1. Go to Stock > Maintain Stock Group.
 
     ![1](../../../static/img/stock/costing-method/1.png)
 
-2. There have 3 method let you to assign
+2. There have 3 method let you to assign.
 
    1. FIFO - cost flow assumption that the first goods purchased are also the first goods sold.
-   2. Fixed Costing –fixed cost where had maintain under maintain stock item
-   3. Weighted Average -average cost of production to a product
+   2. Fixed Costing –fixed cost where had maintain under maintain stock item.
+   3. Weighted Average -average cost of production to a product.
 
-3. If you **change** your costing method (previously with transaction existing)
+3. If you **change** your costing method (previously with transaction existing).
 
    1. Please remember must run **analyse data integrity** (tools | analyse data integrity) before you check the costing report again.
 
@@ -257,7 +257,7 @@ Items default output tax previously ZRL are **successfully changed to SR**.
  ## How to Use Multi Location Module
  - This module is to manage mulitple warehouse, inter-branch transfer, consignment, van-sales, etc.
 
-### 1. Multiple Warehouse
+###  Multiple Warehouse
 
 :::note Case studies
 HQ is helping the KL branch to order goods and goods shall be sending to KL branch warehouse.
@@ -271,13 +271,13 @@ HQ is helping the KL branch to order goods and goods shall be sending to KL bran
 
     ![2](../../../static/img/stock/multi-location/2.png)
 
-3. You will see stock in to branch warehouse (KL) and stock out from branch warehouse (KL) as well when you check your stock card report
+3. You will see stock in to branch warehouse (KL) and stock out from branch warehouse (KL) as well when you check your stock card report.
 
     ![3](../../../static/img/stock/multi-location/3.png)
 
 From the stock card report, you can see the item is store in two locations, one is default, one is KL, the stock in and out that previously u did will be in location KL.
 
-### 2. Consignment
+###  Consignment
 
 :::note Case studies
 A batch of goods is consigned to your customer side for selling without billing first, will only bill after they sell out the goods.
@@ -298,11 +298,11 @@ A batch of goods is consigned to your customer side for selling without billing 
 From the stock card report, you can see the item is sold out from your customer location (Batu Caves) after you make the billing.
 
 ## How to Use Stock Adjustment & Stock Take
-- Allow user to key-in quantity in and out from the system, just like combination of stock received and stock issue, normally use it for stock take purpose. (Stock > Stock Adjustment > New)
+- Allow user to key-in quantity in and out from the system, just like combination of stock received and stock issue, normally use it for stock take purpose. (Stock > Stock Adjustment > New).
 
-### 1. How SQL System can help during Stock Take ?
+###  How SQL System can help during Stock Take ?
 
-1. Go to **Stock > Print Stock Physical Worksheet**
+1. Go to **Stock > Print Stock Physical Worksheet**.
 
     ![1](../../../static/img/stock/stock-adjustment-take/1.png)
 
@@ -310,11 +310,11 @@ From the stock card report, you can see the item is sold out from your customer 
 
     ![2](../../../static/img/stock/stock-adjustment-take/2.png)
 
-3. Click on **Apply and Preview**
+3. Click on **Apply and Preview**.
 
     ![3](../../../static/img/stock/stock-adjustment-take/3.png)
 
-4. **Print out this stock physical worksheet -stock take sheet** for stock keeper to manually fill in the actual stock physical quantity at warehouse, so stock keeper just have to **fill in the actual quantity into the physical qty column.**
+4. **Print out this stock physical worksheet -stock take sheet** for stock keeper to manually fill in the actual stock physical quantity at warehouse, so stock keeper just have to **fill in the actual quantity into the physical qty column**.
 
 5. After complete update the stock take report, click on **Stock > Stock Adjustment > Drag Out Book Qty and Physical Qty.**
 
@@ -322,9 +322,9 @@ From the stock card report, you can see the item is sold out from your customer 
 
     ![5](../../../static/img/stock/stock-adjustment-take/5.png)
 
-6. **Repeat the Step 1 & 2** to call out the Stock Physical Worksheet again, at the same time open 2 screen, one is stock adjustment another is stock physical worksheet, then click on **Window | Tile Vertical.**
+6. **Repeat the Step 1 & 2** to call out the Stock Physical Worksheet again, at the same time open 2 screen, one is stock adjustment another is stock physical worksheet, then click on **Window | Tile Vertical**.
 
-7. Click on the first item in **Stock Physical Worksheet**, press on **Ctrl + A** on keyboard to select all items. **Then Drag & Drop into Stock Adjustment.**
+7. Click on the first item in **Stock Physical Worksheet**, press on **Ctrl + A** on keyboard to select all items. **Then Drag & Drop into Stock Adjustment**.
 
     ![6](../../../static/img/stock/stock-adjustment-take/6.png)
 
@@ -341,25 +341,25 @@ From the stock card report, you can see the item is sold out from your customer 
 ## How to Use Stock Price Tag Module
 - This module mainly to set different pricing groups from different customer and supplier, normally is use to setcdifferent customer category with different pricing. In order to do individual customer then you can group your customer into different price groups.
 
-### 1. Steps and Instructions
+###  Steps and Instructions
 
-1. Go to **Stock > Maintain Stock Price Tag.**
+1. Go to **Stock > Maintain Stock Price Tag**.
 
     ![1](../../../static/img/stock/stock-price-tag/1.png)
 
-2. **Create category** of the customer that you want
+2. **Create category** of the customer that you want.
 
     ![2](../../../static/img/stock/stock-price-tag/2.png)
 
-3. Edit Customer Price Tag
+3. Edit Customer Price Tag.
 
-   - After create the category of the customer at maintain stock price tag then click on **Customer > Maintain Customer > Edit the Price Tag and assign accordingly.**
+   - After create the category of the customer at maintain stock price tag then click on **Customer > Maintain Customer > Edit the Price Tag and assign accordingly**.
 
     ![3](../../../static/img/stock/stock-price-tag/3.png)
 
-4. Assign Customer Price Tag
+4. Assign Customer Price Tag.
 
-   - Click into **Stock > Maintain Stock Item > Edit and click in the Cust Price Tag then assign accordingly.**
+   - Click into **Stock > Maintain Stock Item > Edit and click in the Cust Price Tag then assign accordingly**.
 
     ![4](../../../static/img/stock/stock-price-tag/4.png)
 
@@ -381,7 +381,7 @@ From the stock card report, you can see the item is sold out from your customer 
 
 ![1](../../../static/img/stock/stock-reorder/1.png)
 
-### 1. Reorder Level
+###  Reorder Level
 
 :::info Definition
 Reorder level (or reorder point) is the inventory level at which a company would place a new order or start a new manufacturing run.
@@ -394,10 +394,10 @@ Reorder level (or reorder point) is the inventory level at which a company would
 - For this item, Reorder Qty = 5, when Bal Qty less than 5 unit(Which is 9-5 = 4), saving document will prompt(Dialog : Stock Quatity Control) to remind you should place an order.
 
 :::tip
-Stock Quality Control dialog can choose to Turn On (Tools > Option > Miscellaneous > Prompt Negative Stock Quantity Dialog Box > Checked it)
+Stock Quality Control dialog can choose to Turn On (Tools > Option > Miscellaneous > Prompt Negative Stock Quantity Dialog Box > Checked it).
 :::
 
-### 2. Reorder Qty
+###  Reorder Qty
 
 :::info Definition
 Reorder quantity is the point at which a business must buy more inventory as to not run out of inventory.
@@ -405,7 +405,7 @@ Reorder quantity is the point at which a business must buy more inventory as to 
 
 **How to check the stock is running out of reorder level ?**
 
-1. Stock > Print Stock Reorder Advise > Select any criteria if have > Apply
+1. Stock > Print Stock Reorder Advise > Select any criteria if have > Apply.
 
 ![3](../../../static/img/stock/stock-reorder/3.png)
 
@@ -431,71 +431,71 @@ There is a faster way to create PO with Reoder QTY. Please see below Screen :
 
 Step :
 
-1. After get the appropriate result of Reoder Advise > Click on First Item > Press Shift Key(Keyboard) > Click on Last Item
-2. New PO > Select Supplier > Drag from Reorder Advise to PO Itemize (As per picture). PO Qty = Reorder Qty
+1. After get the appropriate result of Reoder Advise > Click on First Item > Press Shift Key(Keyboard) > Click on Last Item.
+2. New PO > Select Supplier > Drag from Reorder Advise to PO Itemize (As per picture). PO Qty = Reorder Qty.
 
 ## How to Use Serial No Module
 
-### 1. Control Serial Number
+###  Control Serial Number
 
-- Please go to Stock > Maintain Stock Item > Edit > Checked Serial No if this item you would like to control serial number
+- Please go to Stock > Maintain Stock Item > Edit > Checked Serial No if this item you would like to control serial number.
 
     ![1](../../../static/img/stock/stock-serial-no/1.png)
 
-- **Purchase > Goods Received Note > New**
+- **Purchase > Goods Received Note > New**.
 
 There are 3 methods to apply serial no :
 
-### 1.1 Method 1 : Manually Enter
+### - Method 1 : Manually Enter
 
-1. Click on + (Green Icon) > Manually Enter at Empty Box
+1. Click on + (Green Icon) > Manually Enter at Empty Box.
 
     ![2](../../../static/img/stock/stock-serial-no/2.png)
 
-### 1.2 Method 2 : Import from Notepad / Word
+### - Method 2 : Import from Notepad / Word
 
 1. Enter the Serial No at the notepad.
 
     ![3](../../../static/img/stock/stock-serial-no/3.png)
 
-2. Click Import
+2. Click Import.
 
     ![4](../../../static/img/stock/stock-serial-no/4.png)
 
-3. Select Notepad where you have saved to
+3. Select Notepad where you have saved to.
 
     ![5](../../../static/img/stock/stock-serial-no/5.png)
 
-4. Click Ok
+4. Click Ok.
 
     ![6](../../../static/img/stock/stock-serial-no/6.png)
 
-### 1.3 Method 3 : Generator
+### - Method 3 : Generator
 
-1. Click on Generator
+1. Click on Generator.
 
     ![7](../../../static/img/stock/stock-serial-no/7.png)
 
-2. Format = Serial No Format
+2. Format = Serial No Format.
 
-    Start From = What number you wish to start from
+    Start From = What number you wish to start from.
 
-    Count = How many units to generate
+    Count = How many units to generate.
 
     ![8](../../../static/img/stock/stock-serial-no/8.png)
 
-3. Here the output
+3. Here the output.
 
     ![9](../../../static/img/stock/stock-serial-no/9.png)
 
-4. **Sales** > Delivery Order > Click Add
+4. **Sales** > Delivery Order > Click Add.
 
     ![10](../../../static/img/stock/stock-serial-no/10.png)
 
-    **+ (Green Color) Same method as Method 1**
-    **Import same method as Method 2**
+    **+ (Green Color) Same method as Method 1**.
+    **Import same method as Method 2**.
 
-5. Tick Serial No > Press Ok
+5. Tick Serial No > Press Ok.
 
     ![10](../../../static/img/stock/stock-serial-no/10.png)
 
@@ -503,44 +503,44 @@ There are 3 methods to apply serial no :
 Stock Adjustment does not support serial no. May using Stock Received and Stock Issue to replace .
 :::
 
-### 2. Serial No Report
+###  Serial No Report
 
-1. **Stock > Print Stock Physical Worksheet** – Will show all balance serial number haven’t use
+1. **Stock > Print Stock Physical Worksheet** – Will show all balance serial number haven’t use.
 
-2. **Stock > Print Stock Card** - Tick Calculate Serial Number before apply
+2. **Stock > Print Stock Card** - Tick Calculate Serial Number before apply.
 
     :::info Note
     *Checked Calculate Serial No > Only Report : Stock Card – Location*
     :::
 
-3. **Stock > Print Stock Month End Balance** – Tick Calculate Serial Number before apply
+3. **Stock > Print Stock Month End Balance** – Tick Calculate Serial Number before apply.
 
 4. **Stock > Print Stock Serial No Conflict**
 
     1. To check non Existent Serial No. Example : Purchase for this Item the serial number is 555666, but when stock out stock the serial number is 222333.
     2. To check duplicate Serial Number received at the same location / batch for the same item. If return in the stock with same serial number and out again will not consider conflict.
 
-5. **Stock** > Print Stock Outstanding Serial No**
+5. **Stock** > **Print Stock Outstanding Serial No**.
 
     1. For those documents Issued or Received do no applying serial no.
 
-6. **Inquiry > Print Serial No Inquiry**
+6. **Inquiry > Print Serial No Inquiry**.
 
     1. Check serial no movement.
 
-7. **Sales > S/N Profit & Loss by Document**
+7. **Sales > S/N Profit & Loss by Document**.
 
     - This Report Cost is capture exactly from Stock In Serial Number Cost.
     If DO transfer to IV, due to DO have deducted Serial number, so will not have any result for this report.
 
-### 3. Access Right for Serial No
+###  Access Right for Serial No
 
-1. **Group Stock >Always match Qty with Serial No**
+1. **Group Stock >Always match Qty with Serial No**.
 
     - which mean this access right the serial no must match with Qty key in. Eg : 2 Qty must have 2 Serial No.
     - If checked this right, Print Outstanding Serial No will no result.
 
-2. **Allow Non-Existent Serial No**
+2. **Allow Non-Existent Serial No**.
 
     - Which mean this access right control if tick which will allow out stock the serial number without match the serial number when purchase.
     Example : Purchase for this Item the serial number is 555666, but when stock out stock the serial number is 222333. If you do not allow this, may uncheck this access right.

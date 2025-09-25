@@ -44,7 +44,7 @@ Provide the following user details for registration purposes:
     - Customer's Full Name
     - Company Name
 
-:::warning
+:::warning[INFO]
 Only one(1) SQL Drive account is needed for each company.
 
 Users who already have an SQL Drive account that was previously used for SQL Payroll E-Claim may use that account to log in for SQL Account Stock Take.

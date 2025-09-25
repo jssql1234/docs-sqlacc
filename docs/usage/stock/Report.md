@@ -10,7 +10,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 - Print Stock Document Listing can be used for you to see all the stock adjustment documents that you have issued.
 - You can see Stock Received Listing, Stock Issue Listing, Stock Transfer Listing, Stock Adjustment Listing.
 
-### 1.How to Print Stock Document Listing
+### How to Print Stock Document Listing
 1. **Stock** > **Print Stock Document Listing**
 
 ![297](../../../static/img/getting-started/user-guide/68jt.png)
@@ -28,7 +28,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![300](../../../static/img/getting-started/user-guide/71jt.png)
 
-### 2.Print Document Style
+### Print Document Style
 1. Tick relevant check boxes
 
 ![301](../../../static/img/getting-started/user-guide/72jt.png)
@@ -64,7 +64,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![302](../../../static/img/getting-started/user-guide/73jt.png)
 
-### 3. Group/Sort By
+###  Group/Sort By
 1. You can filter your documents based on Project, location and Company Category
 
 ![303](../../../static/img/getting-started/user-guide/74jt.png)
@@ -80,7 +80,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 ## Print Stock Reorder Advice
 - Print Stock Reorder Advice can be used for you to check which items have quantities below the set reorder level (set in maintain stock item)
 
-### 1. How to Print Stock Reorder Advice
+###  How to Print Stock Reorder Advice
 1. **Stock** > **Print Stock Reorder Advice**
 
 ![306](../../../static/img/getting-started/user-guide/77jt.png)
@@ -95,7 +95,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![309](../../../static/img/getting-started/user-guide/80jt.png)
 
-### 2. Setting
+###  Setting
 1. Select what quantities you wish to compare against
 
 ![310](../../../static/img/getting-started/user-guide/81jt.png)
@@ -137,7 +137,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 2. After that, select the type of comparison. Will the balance quantities be compared to the Max Value, Min Value or the Reorder level . All set in Maintain Stock Item .
 
-### 3. Group/Sort By
+###  Group/Sort By
 1. You can filter your documents based on Item, Batch and Company Category
 
 ![311](../../../static/img/getting-started/user-guide/82jt.png)
@@ -193,7 +193,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 - Print Card can be used to see your stock movement and stock cost during a certain period of time.
 - You can see your stock movement based on location and batch.
 
-### 1. How to Print Stock Card
+###  How to Print Stock Card
 1. **Stock** > **Print Stock Document Listing**
 
 ![313](../../../static/img/getting-started/user-guide/84jt.png)
@@ -206,12 +206,12 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![315](../../../static/img/getting-started/user-guide/86jt.png)
 
-### 2. How to Print Stock Card Qty
+###  How to Print Stock Card Qty
 - Same as Print Stock Card the different is this report is just shown Qty
 
 ## Print Stock Month End Balance
 - Print Stock Month End Balance can be used to see your month end stock quantity and total cost .
-### 1. How to Print Stock Month End Balance
+###  How to Print Stock Month End Balance
 1. **Stock** > **Print Stock Month End Balance**
 
 ![316](../../../static/img/getting-started/user-guide/87jt.png)
@@ -235,7 +235,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![320](../../../static/img/getting-started/user-guide/91jt.png)
 
-### 1. How to Print Stock Aging
+###  How to Print Stock Aging
 1. **Stock** > **Print Stock Aging**
 2. Set your filter option and group by options
 
@@ -261,7 +261,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ## Print Stock Analysis By Document
 - Print Stock Analysis By Document can be used to see your stock movement quantity for each document type like Invoice, Cash sales, purchase invoice etc.
-### 1. How to Print Stock Analysis By Document
+###  How to Print Stock Analysis By Document
 1. **Stock** > **Print Stock Analysis By Document**
 
 ![326](../../../static/img/getting-started/user-guide/97jt.png)
@@ -277,7 +277,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ## Print Stock Batch Expiry
 - Print Stock Batch Expiry to see all the items in your batches along with their manufacturing dates and expiry dates.
-### 1. How to Print Stock Batch Expiry
+###  How to Print Stock Batch Expiry
 1. **Stock** > **Print Stock Batch Expiry**
 
 ![329](../../../static/img/getting-started/user-guide/100jt.png)
@@ -291,7 +291,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![331](../../../static/img/getting-started/user-guide/102jt.png)
 
-### 2. How to Assign Batch to Your Stock Item
+###  How to Assign Batch to Your Stock Item
 - For example, After you have created your batch codes and assigned the items at "Maintain Batch" go to Sales Invoice. Select the stock item and slect the batch
 
 ![332](../../../static/img/getting-started/user-guide/103jt.png)
@@ -306,7 +306,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![334](../../../static/img/getting-started/user-guide/105jt.png)
 
-### 1. How to Print Stock Serial Number Conflict
+###  How to Print Stock Serial Number Conflict
 1. **Stock** > **Print Stock Serial Number Conflict**
 
 ![335](../../../static/img/getting-started/user-guide/106jt.png)
@@ -320,7 +320,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![337](../../../static/img/getting-started/user-guide/108jt.png)
 
-### 2. How to Assign Serial to Your Stock Item
+###  How to Assign Serial to Your Stock Item
 1. First go to Maintain Stock Item an tick the serial number check box
 
 ![338](../../../static/img/getting-started/user-guide/109jt.png)
@@ -329,12 +329,12 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![339](../../../static/img/getting-started/user-guide/110jt.png)
 
-### 3. How to Automatically Generate Serial Number for Your Stock Item
+###  How to Automatically Generate Serial Number for Your Stock Item
 1. Click the generator button, set your number format, and press OK.
 
 ![340](../../../static/img/getting-started/user-guide/111jt.png)
 
-### 4. How to Import Serial Number for Text File for Your Stock Item
+###  How to Import Serial Number for Text File for Your Stock Item
 1. Click the import button, select your text file, and press OK.
 
 ![341](../../../static/img/getting-started/user-guide/112jt.png)
@@ -349,7 +349,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 
 ![343](../../../static/img/getting-started/user-guide/114jt.png)
 
-### 1. How to Print Stock Serial Number Outstanding
+###  How to Print Stock Serial Number Outstanding
 1. **Stock** > **Print Stock Serial Number Outstanding**
 
 ![344](../../../static/img/getting-started/user-guide/115jt.png)
