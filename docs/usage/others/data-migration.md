@@ -56,7 +56,7 @@ Account Master File ( GL, Customer, Supplier.. )--> Stock Master File ( Stock Gr
 
 ### Preparing SQL Account Before Import Master Data
 
-:::Caution
+:::caution
         Please make sure that SQL Account version is version 728 and above.
 :::
 
@@ -72,7 +72,7 @@ Directory to place UBS Backup File as below : USB Account Old Version = C:\UBSAC
 2. Download 7 Zip to extract UBS Backup file,( if you want to Import Master File Only) or else you may restore to UBS program ( For price history and current transaction ).
 Download Path for [7 Zip](https://www.7-zip.org/download.html)
 
-:::Caution
+:::caution
 * Make sure install the right one or else you cannot find 7 zip to Extract.
 :::
 
@@ -115,7 +115,7 @@ Video link may refer below : https://youtu.be/H7C14DzLyPE?t=1m26s
 
 2. Select the UBS Stock database folder.
 - Tick Stock Group, Category, Location, Price Tag.
-:::Caution
+:::caution
 Please make sure user have purchase those module before import!
 :::
 
@@ -125,7 +125,7 @@ Please make sure user have purchase those module before import!
 
 ![8](../../../static/img/getting-started/user-guide/wl54.png)
 
-:::Caution
+:::caution
 *Also pay attention to the options below where you can choose to import extra Stock Item data such as UOM with Rate < 1, Stock Opening Balance & etc.
 :::
 
@@ -133,7 +133,7 @@ Please make sure user have purchase those module before import!
 
 ![9](../../../static/img/getting-started/user-guide/wl55.png)
 
-:::Caution
+:::caution
 this feature only available in version 737 and above. 
 :::
 
@@ -182,20 +182,20 @@ The following steps are required if you are importing opening balance or current
 
 __Scenario 1__ : In UBS this accounting year = 01/01/2015 to 31/12/2015 if you want to cut off until 31/12/2015, so closing period you have to insert 12. __Scenario 2__ : In UBS this accounting year = 01/01/2015 to 31/12/2015 if you want to cut off until 30/06/2015, so closing period you have to insert 6.
 Then, go to Periodic | Year End Closing.
-:::Info
+:::info
 We strongly recommend that direct use the year end database to import instead of re-do the year end cut off at UBS.
 :::
 
-:::Info
+:::info
 We strongly recommend that direct use the year end database to import instead of re-do the year end cut off at UBS.
-:::Info
+:::info
 Video link may refer below : https://youtu.be/s0GR8MDF5J4?t=1m57s
 :::
 
 **After Year End at UBS**
 - After done the above steps, go to Tools | Options | General Ledger | to setup your Financial Start Period and System Conversion Date.
 - Next, File | Data Import | UBS Account, then select the UBS database folder. Beware of the following when selecting UBS database folder:-
- :::Caution
+:::caution
  DO NOT select the folder under the UBS database folder. E.g. "DATA2013" 
 This is because after year end cut off UBS will auto generate a new folder for old financial cut off period.
 :::
@@ -243,7 +243,7 @@ Video link may refer below : https://youtu.be/s0GR8MDF5J4?t=2m54s
 
 ![17](../../../static/img/getting-started/user-guide/wl63.png)
 
-:::Caution
+:::caution
 - Please double check all data imported into SQL Account from UBS.
 - We will appreciate if you would help report any issue encountered with detailed information
   so we can improve the data import tool.
