@@ -529,10 +529,9 @@ Repeat the same step on GL > Print Balance Sheet Statement
        ![59](../../../static/img/general-ledger/p&l-statement-appropriation-acc/5.png)
 
        ![60](../../../static/img/general-ledger/p&l-statement-appropriation-acc/6.png)
-
 ## General Ledger Report Ref1(DocNo) appear as (New)
 
-## Example
+## Example 
 
 When you see General Ledger Report `Ref1(DocNo)` appeared as `<<New>>`, use the method below to fix it.
 
