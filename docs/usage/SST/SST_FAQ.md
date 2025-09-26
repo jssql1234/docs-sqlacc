@@ -6,9 +6,9 @@ slug: /usage/SST/SST Setup/SST FAQ
 tags: ["SQL Account", "Usage", "SST"]
 ---
 
-## 1 : Can I Change the Service Tax Type to Accrual Basis?
+## Can I Change the Service Tax Type to Accrual Basis?
 
-### Solution:
+**Solution:**
 
 By Default System will use as Payment Basis for Service Tax Type  
 To change to Accrual Basis(i.e. Pay Kastam even no payment), Just Set as below  
@@ -17,25 +17,25 @@ To change to Accrual Basis(i.e. Pay Kastam even no payment), Just Set as below
 
 
 
-## 2 : Why preview my SST-02 report is no value even at screen had amount?
+## Why preview my SST-02 report is no value even at screen had amount?
 
-### Solution:
+**Solution:**
 
 Make sure you had enter your **Service Tax** and/or **Sales Tax No.** in File | Company Profile
 
 
 
-## 3: Why does the tax code (ST5) used in my sales invoices not appear in SST-02, but it shows up in the SST-02 listing?
+## Why does the tax code (ST5) used in my sales invoices not appear in SST-02, but it shows up in the SST-02 listing?
 
-### Solution:
+**Solution:**
 
 Make sure you had enter your **Sales Tax no** instead of **Service Tax** no in File | Company Profile
 
 
 
-## 4: Why Some Service Tax Transaction not shown in SST-02 even the document is fully paid?
+## Why Some Service Tax Transaction not shown in SST-02 even the document is fully paid?
 
-### Solution:
+**Solution:**
 
 Make sure you had select correct **Knock Off Date** in the Customer Payment
 
@@ -43,16 +43,16 @@ Make sure you had select correct **Knock Off Date** in the Customer Payment
 
 
 
-## 5: Why does the service invoice that was knocked off (paid) in Sept 2018 not appear in SST-02 for the period Sept–Oct 2018?
+## Why does the service invoice that was knocked off (paid) in Sept 2018 not appear in SST-02 for the period Sept–Oct 2018?
 
-### Issue:
+**Issue:**
 
 Knock-off tax date will follow the customer payment date if user has tick on an invoice.  
 Change the customer payment date (eg. from 29/05/2019 to 29/09/2018), the knock-off date will remains unchanged.  
 
 ![SST_FAQ_3](../../../static/img/getting-started/user-guide/LimYuHangSSTFAQ3.jpg)
 
-### Solution:
+**Solution:**
 
 Change the **Knock-off Tax Date** (follow the payment date)
 
@@ -60,13 +60,13 @@ Change the **Knock-off Tax Date** (follow the payment date)
 
 
 
-## 6: Can I mixed the sales tax and service tax in single invoice?
+## Can I mixed the sales tax and service tax in single invoice?
 
-### Issue: 
+**Issue:**
 
 Can I mixed the sales and service tax code in single document?
 
-### Solution:
+**Solution:**
 
 1. Customs officer has recommended the company should raise the invoice, debit note and credit note separately for sales and service invoice.  
 2. Indicate the sales and service tax registration no on the invoice letter head separately as well.  
@@ -85,13 +85,13 @@ Sales tax and service tax having different accounting basis as explained below.
 
 
 
-## 7: What circumstanaces to use tax code SV and SVA for Credit Note?
+## What circumstanaces to use tax code SV and SVA for Credit Note?
 
-### Issue: 
+**Issue:**
 
 Service tax is based on payment basis.
 
-### Solution:
+**Solution:**
 
 There will be 2 cases of service tax where credit note has taken in place:
 
@@ -110,7 +110,7 @@ There will be 2 cases of service tax where credit note has taken in place:
 
 
 
-## 8: What is Digital Service Tax
+## What is Digital Service Tax
 
 New service tax effectively come into operation on **1 January 2020**.
 
@@ -170,13 +170,13 @@ New service tax effectively come into operation on **1 January 2020**.
 
 
 
-## 9: What invoice format should I use for service tax exempted services?
+## What invoice format should I use for service tax exempted services?
 
-### Issue: 
+**Issue:**
 
 What invoice format can be use for service tax exempted
 
-### Solution:
+**Solution:**
 
 1. Download the invoice format by click to [Sales Invoice 8 SST 1 (Exempted Taxable Service)](https://www.sql.com.my/webstore/templates/template-detail/?id=4769)
 2. Go to **Tools | Report Designer**...
@@ -184,13 +184,13 @@ What invoice format can be use for service tax exempted
 
 
 
-## 10: What is the double entry for service tax invoice and CN issued using SV tax code?
+## What is the double entry for service tax invoice and CN issued using SV tax code?
 
-### Issue: 
+**Issue:**
 
 How should the double entry be recorded for a service tax invoice and credit note issued under the SV tax code?
 
-### Solution: 
+**Solution:**
 
 1. **Full Service Tax Invoice issue**
 

@@ -6,15 +6,15 @@ slug: /usage/supplier/Supplier FAQ
 tags: ["SQL Account", "Supplier", "FAQ"]
 ---
 
-## 1 : JOMPAY - How to add the Ref 2 (optional) in the bank payment file format?
+## JOMPAY - How to add the Ref 2 (optional) in the bank payment file format?
 
-### Issue:
+**Issue:**
 
 How to capture the JomPay Ref 2 (bill no) in the bank payment file format?
 
 ![Supplier_FAQ_1](../../../static/img/getting-started/user-guide/LimYuHangSupplierFAQ1.jpg)
 
-### Solution:
+**Solution:**
 
 1. Go to **Tools | DIY | SQL Control Center**...
 2. Add the JomPAY Ref2 field under **Supplier | Supplier Payment | Payment Fields**.
