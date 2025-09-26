@@ -8,14 +8,14 @@ tags: ["SQL Account", "Usage", "Purchase", "FAQ"]
 
 ## Why user still cannot view the unit price and subtotal where show cost in Purchase Goods Received Note / Invoice have granted rights
 
-### Issue
+**Issue**
 
 1. User Access control has granted to **Show Cost in Purchase Goods Received**.
 2. Purchase Goods Received still cannot view the unit price, tax amount and subtotal.
 
 ![1](../../../static/img/getting-started/user-guide/purchase/faq/jj1-01-FAQ-01.png)
 
-### Solution
+**Solution:**
 
 1. Point your mouse to any detail grid columns.
 
