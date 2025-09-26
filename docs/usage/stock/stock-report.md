@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
-title: Stock Report
+sidebar_position: 2
+title: Report
 description: Stock Report
-slug: /usage/stock/Stock Report
+slug: /usage/stock/stock-report
 tags: ["SQL Account", "Usage", "Inventory", "Stock","Report"]
 ---
 
