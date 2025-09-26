@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
 title: Cross Checking Reports
-description: Cross Checking Reports
-slug: /others/cross-checking-reports
+description: A guide about Cross Checking Reports
+slug: /usage/general/others/cross-checking-reports
 tags: ["SQL Account", "Others", "Cross Checking"]
 ---
 

@@ -1,8 +1,8 @@
 ---
 sidebar_position: 6
 title: GST Bounce Cheque
-description: GST Bounce Cheque
-slug: /others/GST-Bounce-Cheque
+description: A guide about GST Bounce Cheque
+slug: /usage/general/others/GST-Bounce-Cheque
 tags: ["SQL Account", "Others", "GST", "Bounce"]
 ---
 
@@ -28,9 +28,9 @@ At GST Period Jan 2017:
 1. DR GST-101 - GST - CLAIMABLE --> (SL-AJP-BD)
 2. CR GST-202 - GST - SALES DEFERRED TAX
 
-![1](../../static/img/others/yc1-gst-bounce.jpg)
+![1](../../../../static/img/others/yc1-gst-bounce.jpg)
 
-![2](../../static/img/others/yc2-gst-bounce.jpg)
+![2](../../../../static/img/others/yc2-gst-bounce.jpg)
 
 ### Supplier Side
 
@@ -39,6 +39,6 @@ At GST Period Jan 2017
 1. DR GST-102 - GST - PURCHASE DEFERRED TAX
 2. CR GST-201 - GST - PAYABLE --> (PH-AJS-BD)
 
-![3](../../static/img/others/yc3-gst-bounce.jpg)
+![3](../../../../static/img/others/yc3-gst-bounce.jpg)
 
-![4](../../static/img/others/yc4-gst-bounce.jpg)
+![4](../../../../static/img/others/yc4-gst-bounce.jpg)

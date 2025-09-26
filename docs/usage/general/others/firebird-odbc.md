@@ -1,8 +1,8 @@
 ---
 sidebar_position: 10
 title: Firebird ODBC
-description: Firebird ODBC
-slug: /others/firebird-odbc
+description: A guide about Firebird ODBC
+slug: /usage/general/others/firebird-odbc
 tags: ["SQL Account", "Others", "Firebird ODBC"]
 ---
 
@@ -51,13 +51,13 @@ No further support other then this but we will try our best to help.
 
 4. Click **Add** button.
 
-![1](../../static/img/others/yc1-odbc.jpg)
+![1](../../../../static/img/others/yc1-odbc.jpg)
 
 5. Select **Firebird/InterBase(r) Driver**
 
 6. Click Finish button.
 
-![2](../../static/img/others/yc2-odbc.jpg)
+![2](../../../../static/img/others/yc2-odbc.jpg)
 
 7. Under Firebird ODBC Setup, define the following info only and the rest by default :
 
@@ -76,7 +76,7 @@ No further support other then this but we will try our best to help.
     8. **Dialect**: Set to **3**
     9. **Read(default write)**: Check/Tick to make transactions read-only
 
-![3](../../static/img/others/yc3-odbc.jpg)
+![3](../../../../static/img/others/yc3-odbc.jpg)
 
 :::info
 - Make sure when click **Test Connection** is shown Connection successful! then only continue others Steps
@@ -89,7 +89,7 @@ Example:
 
 Below is example where to get the ServerName, Path & FDB
 
-![4](../../static/img/others/yc4-odbc.gif)
+![4](../../../../static/img/others/yc4-odbc.gif)
 
 ## Example Access From Microsoft Excel
 
@@ -99,38 +99,38 @@ Below example is using Microsoft Excel 2016 to get Firebird Data using ODBC
 2. Click **Data** Tab
 3. Clcik **Get External Data | From Other Source | From Microsoft Query**
 
-![5](../../static/img/others/yc5-odbc.jpg)
+![5](../../../../static/img/others/yc5-odbc.jpg)
 
 4. Select **FB\*** (The Data Source Name entered in ODBC)
 5. Click **OK** button
 
-![6](../../static/img/others/yc6-odbc.jpg)
+![6](../../../../static/img/others/yc6-odbc.jpg)
 
 6. Select the table at the Available tables and columns field
 7. Click the **>** button to select the Columns
 8. Click **Next** button till you see below dialog
 
-![7](../../static/img/others/yc7-odbc.jpg)
+![7](../../../../static/img/others/yc7-odbc.jpg)
 
 9. Select **View data or edit query** in Microsoft Query option
 10. Click **Finish** button
 
-![8](../../static/img/others/yc8-odbc.jpg)
+![8](../../../../static/img/others/yc8-odbc.jpg)
 
 11. Click SQL button to edit your Query
 12. Edit the **Query Statement here**
 13. Click **OK button** when done
 
-![9](../../static/img/others/yc9-odbc.jpg)
+![9](../../../../static/img/others/yc9-odbc.jpg)
 
 14. Click **File | Return Data to Microsoft Excel**
 
-![10](../../static/img/others/yc10-odbc.jpg)
+![10](../../../../static/img/others/yc10-odbc.jpg)
 
 15. Click **Ok** button
 
-![11](../../static/img/others/yc11-odbc.jpg)
+![11](../../../../static/img/others/yc11-odbc.jpg)
 
 16. Result
 
-![12](../../static/img/others/yc12-odbc.jpg)
+![12](../../../../static/img/others/yc12-odbc.jpg)

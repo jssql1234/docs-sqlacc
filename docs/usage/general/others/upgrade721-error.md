@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
 title: Upgrade to 721 Script Error
-description: Upgrade to 721 Script Error
-slug: /others/upgrade721-error
+description: A guide about Upgrade to 721 Script Error
+slug: /usage/general/others/upgrade721-error
 tags: ["SQL Account", "Others", "Upgrade", "Script"]
 ---
 
@@ -19,7 +19,7 @@ This due to changing SQLAccounting Coding Structure to cater future Changes in T
 
 You will get below error when you either selecting itemcode or changes value in you UDF which trigger the function.
 
-![1](../../static/img/others/yc1-upgrade.jpg)
+![1](../../../../static/img/others/yc1-upgrade.jpg)
 
 ## Solution
 
@@ -28,7 +28,7 @@ Below is example error happen at **Sales Invoice**:
 1. Click **Tools | DIY | SQL Control Center...**
 2. At the left panel look for **Sales Invoice | OnGridColumnValuechange** and/or **OnBeforeSave**
 
-![2](../../static/img/others/yc2-upgrade.jpg)
+![2](../../../../static/img/others/yc2-upgrade.jpg)
 
 3. Look for the script like **function GetTaxedValue(AValue: Variant; lTaxRate: string): Variant;**
 4. Change all to below new script
