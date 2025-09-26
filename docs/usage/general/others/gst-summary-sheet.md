@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
 title: GST Summary Sheet - MY - Detail
-description: GST Summary Sheet - MY - Detail
-slug: /others/gst-summary-sheet
+description: A guide about GST Summary Sheet - MY - Detail
+slug: /usage/general/others/gst-summary-sheet
 tags: ["SQL Account", "Others", "GST", "Summary"]
 ---
 
@@ -16,4 +16,4 @@ Below is the column detail on how the amount is arrive from base on Users and Ac
 
 ### Input Tax
 
-![1](../../static/img/others/yc1-gst-summary.png)
+![1](../../../../static/img/others/yc1-gst-summary.png)

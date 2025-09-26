@@ -1,8 +1,8 @@
 ---
 sidebar_position: 12
 title: Supercharging FirebirdSQL
-description: Supercharging FirebirdSQL
-slug: /others/supercharging-firebird-sql
+description: A guide about Supercharging FirebirdSQL
+slug: /usage/general/others/supercharging-firebird-sql
 tags: ["SQL Account", "Others", "Supercharging", "FirebirdSQL"]
 ---
 

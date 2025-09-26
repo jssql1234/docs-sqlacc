@@ -1,8 +1,8 @@
 ---
 sidebar_position: 13
 title: Loopback Adapter
-description: Loopback Adapter
-slug: /others/loopback-adapter
+description: A guide about Loopback Adapter
+slug: /usage/general/others/loopback-adapter
 tags: ["SQL Account", "Others", "Loopback", "Adapter"]
 ---
 

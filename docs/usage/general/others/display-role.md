@@ -1,8 +1,8 @@
 ---
 sidebar_position: 5
 title: Display Pole - VFD-800-U in Windows 10
-description: Display Pole - VFD-800-U in Windows 10
-slug: /others/display-role
+description: A guide about Display Pole - VFD-800-U in Windows 10
+slug: /usage/general/others/display-role
 tags: ["SQL Account", "Others", "Display Role"]
 ---
 
@@ -22,7 +22,7 @@ The problem is because the build in or Original driver provided is incompatible 
 
 When you run the USBDeview.exe you will see the above problem.
 
-![1](../../static/img/others/yc1-display.jpg)
+![1](../../../../static/img/others/yc1-display.jpg)
 
 ## Solution
 
@@ -30,11 +30,11 @@ When you run the USBDeview.exe you will see the above problem.
 2. Click **Device Manager**
 3. Right Click at the Com had problem
 
-![2](../../static/img/others/yc2-display.jpg)
+![2](../../../../static/img/others/yc2-display.jpg)
 
 4. Select Delete the driver for software for this device
 
-![3](../../static/img/others/yc3-display.jpg)
+![3](../../../../static/img/others/yc3-display.jpg)
 
 5. Click OK
 6. Install New/Update driver (May refer to the Display Pole Provider)
@@ -43,8 +43,8 @@ When you run the USBDeview.exe you will see the above problem.
 
 In **USBDeView**
 
-![4](../../static/img/others/yc4-display.jpg)
+![4](../../../../static/img/others/yc4-display.jpg)
 
 In **Device Manager**
 
-![5](../../static/img/others/yc5-display.jpg)
+![5](../../../../static/img/others/yc5-display.jpg)

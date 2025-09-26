@@ -1,8 +1,8 @@
 ---
 sidebar_position: 11
 title: SQL Diagnosis
-description: SQL Diagnosis
-slug: /others/sql-diagnosis
+description: A guide about SQL Diagnosis
+slug: /usage/general/others/sql-diagnosis
 tags: ["SQL Account", "Others", "SQL Diagnosis"]
 ---
 
@@ -10,7 +10,7 @@ tags: ["SQL Account", "Others", "SQL Diagnosis"]
 
 This is External Utility to Fixing & Managing SQL Firebird Database.
 
-![1](../../static/img/others/yc1-diagnosis.jpg)
+![1](../../../../static/img/others/yc1-diagnosis.jpg)
 
 ## Program
 
@@ -143,23 +143,23 @@ This is External Utility to Fixing & Managing SQL Firebird Database.
 1. Click **Database Patch** button (**Icon A**).
 2. Click This button to **select the SQL Firebird Database.**
 
-![2](../../static/img/others/yc2-diagnosis.jpg)
+![2](../../../../static/img/others/yc2-diagnosis.jpg)
 
 ### Scenario 1 : Patch From Estream
 
 3. Right Click Here (under Step 2)
 4. Select **Load From File 1...**
 
-![3](../../static/img/others/yc3-diagnosis.jpg)
+![3](../../../../static/img/others/yc3-diagnosis.jpg)
 
 5. Look for patch file (Norm begin with Patch-XXXX.sql2)
 6. Click **Open** button.
 
-![4](../../static/img/others/yc4-diagnosis.jpg)
+![4](../../../../static/img/others/yc4-diagnosis.jpg)
 
 7. Click **Execute...** button (In Step 3 Section).
 
-![5](../../static/img/others/yc5-diagnosis.gif)
+![5](../../../../static/img/others/yc5-diagnosis.gif)
 
 ### Scenario 2 : Build In Patch
 
@@ -214,7 +214,7 @@ A function use to fix database corrupt
 3. **Start** the **Firebird Service.**
 4. Click **Database Validate** button (Icon B).
 
-![6](../../static/img/others/yc6-diagnosis.jpg)
+![6](../../../../static/img/others/yc6-diagnosis.jpg)
 
 5. Click This button to select the **Copied** SQL Firebird Database.
 6. Click **Validate** button.
@@ -236,7 +236,7 @@ Use this option when normal backup is fail.
 1. Click the arrow down button at **Backup...** button.
 2. Select **Backup MetaData....**
 
-![7](../../static/img/others/yc7-diagnosis.jpg)
+![7](../../../../static/img/others/yc7-diagnosis.jpg)
 
 3. Click Start Copy to begin copy
     
@@ -256,7 +256,7 @@ If above happen just Restart the SQL Diagnosis
 Refer below picture after done copy using **Start Multi Copy...**
 :::
 
-![8](../../static/img/others/yc8-diagnosis.jpg)
+![8](../../../../static/img/others/yc8-diagnosis.jpg)
 
 4. Click OK when see Done message
 5. Click Close Button.
@@ -281,12 +281,12 @@ A function use to backup the database.
 2. Click This button to select the SQL Firebird Database.
 3. Click **Backup** button.
 
-![9](../../static/img/others/yc9-diagnosis.jpg)
+![9](../../../../static/img/others/yc9-diagnosis.jpg)
 
 4. Select the Backup Folder (Default will Save to Desktop).
 5. Click OK to Start Backup.
 
-![10](../../static/img/others/yc10-diagnosis.jpg)
+![10](../../../../static/img/others/yc10-diagnosis.jpg)
 
 ## Database Online
 
@@ -298,7 +298,7 @@ A function to bring back the database online when facing error "Database Shutdow
 2. Click **Database Online** button (Icon D).
 3. Click This button to select the SQL Firebird Database.
 
-![11](../../static/img/others/yc11-diagnosis.jpg)
+![11](../../../../static/img/others/yc11-diagnosis.jpg)
 
 ## Batch Backup
 
@@ -308,16 +308,16 @@ A function to 1 button to backup for all database or for Schedule backup.
 2. Click New button.
 3. Enter the Server Name/IP Address
 
-![12](../../static/img/others/yc12-diagnosis.jpg)
+![12](../../../../static/img/others/yc12-diagnosis.jpg)
 
 4. Click on 3 dot button for Target Backup Folder field
 
-![13](../../static/img/others/yc13-diagnosis.jpg)
+![13](../../../../static/img/others/yc13-diagnosis.jpg)
 
 5. Select the folder where you wanted to backup to & click OK
 6. Click on 3 dot button for Database File field
 
-![14](../../static/img/others/yc14-diagnosis.jpg)
+![14](../../../../static/img/others/yc14-diagnosis.jpg)
 
 7. Select the SQL Accounting/Payroll Database & Click Open
 8. Click Save Button.
@@ -340,28 +340,28 @@ Using Windows Schedule to Automatically run Batch Backup.
 
 1. Open Windows **Control Panel | Administrative Tools | Task Scheduler**
 
-![15](../../static/img/others/yc15-diagnosis.jpg)
+![15](../../../../static/img/others/yc15-diagnosis.jpg)
 
 2. Click Action | Create Basic Task...
 
-![16](../../static/img/others/yc16-diagnosis.jpg)
+![16](../../../../static/img/others/yc16-diagnosis.jpg)
 
 3. Enter Task Name (eg SQL Backup) & Click Next
 
-![17](../../static/img/others/yc17-diagnosis.jpg)
+![17](../../../../static/img/others/yc17-diagnosis.jpg)
 
 4. Select Daily & Click Next
 
-![18](../../static/img/others/yc18-diagnosis.jpg)
+![18](../../../../static/img/others/yc18-diagnosis.jpg)
 
 5. Set the Start Date & Time to Start
 6. Set 1 for Recur every field & Click Next
 
-![19](../../static/img/others/yc19-diagnosis.jpg)
+![19](../../../../static/img/others/yc19-diagnosis.jpg)
 
 7. Select Start a program & Click Next
 
-![20](../../static/img/others/yc20-diagnosis.jpg)
+![20](../../../../static/img/others/yc20-diagnosis.jpg)
 
 #### For Build 32 & above
 
@@ -376,25 +376,25 @@ Using Windows Schedule to Automatically run Batch Backup.
 10. Tick the option Open the Properties dialog for this task when I click Finish
 11. Click Finish
 
-![21](../../static/img/others/yc21-diagnosis.jpg)
+![21](../../../../static/img/others/yc21-diagnosis.jpg)
 
 12. Select the option Run whether user is logged on or not
 
-![22](../../static/img/others/yc22-diagnosis.jpg)
+![22](../../../../static/img/others/yc22-diagnosis.jpg)
 
 13. Click Triggers tab at top
 14. Click Edit... button
 
-![23](../../static/img/others/yc23-diagnosis.jpg)
+![23](../../../../static/img/others/yc23-diagnosis.jpg)
 
 15. Change the time to run
 
-![24](../../static/img/others/yc24-diagnosis.jpg)
+![24](../../../../static/img/others/yc24-diagnosis.jpg)
 
 16. Click OK 2 times
 17. Enter the window User Name & Password
 
-![25](../../static/img/others/yc25-diagnosis.jpg)
+![25](../../../../static/img/others/yc25-diagnosis.jpg)
 
 18. Click Ok
 

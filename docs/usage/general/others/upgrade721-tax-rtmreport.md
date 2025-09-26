@@ -1,8 +1,8 @@
 ---
 sidebar_position: 3
 title: Upgrade to 721 TaxRate Show A - RTM Report
-description: Upgrade to 721 TaxRate Show A - RTM Report
-slug: /others/upgrade721-tax-rtmreport
+description: A guide about Upgrade to 721 TaxRate Show A - RTM Report
+slug: /usage/general/others/upgrade721-tax-rtmreport
 tags: ["SQL Account", "Others", "Upgrade", "Report"]
 ---
 
@@ -16,7 +16,7 @@ This due to changing SQLAccounting Coding Structure to cater future Changes in T
 
 You will get below error when you preview the report.
 
-![1](../../static/img/others/yc3-upgrade.jpg)
+![1](../../../../static/img/others/yc3-upgrade.jpg)
 
 ## Solution
 
@@ -27,7 +27,7 @@ You will get below error when you preview the report.
 5. Scroll down & look for **SQL_6**
 6. Replace this script with below script
 
-![2](../../static/img/others/yc4-upgrade.jpg)
+![2](../../../../static/img/others/yc4-upgrade.jpg)
 
 ```pascal
 SQL_6 := 'SELECT DocKey,  Tax, TaxRate, Sum(LocalAmount) LocalAmount, Sum(Qty) Qty, '+ 
@@ -42,7 +42,7 @@ SQL_6 := 'SELECT DocKey,  Tax, TaxRate, Sum(LocalAmount) LocalAmount, Sum(Qty) Q
 9. Click on **procedure VarTaxOnCalc(var Value:Variant);**
 10. Replace this script with below script
 
-![3](../../static/img/others/yc5-upgrade.jpg)
+![3](../../../../static/img/others/yc5-upgrade.jpg)
 
 ```pascal
 procedure VarTaxOnCalc(var Value:Variant);

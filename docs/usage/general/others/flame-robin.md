@@ -1,8 +1,8 @@
 ---
 sidebar_position: 9
 title: Flame Robin
-description: Flame Robin
-slug: /others/flame-robin
+description: A guide about Flame Robin
+slug: /usage/general/others/flame-robin
 tags: ["SQL Account", "Others", "Flame Robin"]
 ---
 
@@ -38,11 +38,11 @@ Only 1 time setting for each Firebird Version
 
 1. Right Click Here
 
-![1](../../static/img/others/yc1-flamerobin.jpg)
+![1](../../../../static/img/others/yc1-flamerobin.jpg)
 
 2. Select Server registration info...
 
-![2](../../static/img/others/yc2-flamerobin.jpg)
+![2](../../../../static/img/others/yc2-flamerobin.jpg)
 
 3. Enter as following
 
@@ -50,7 +50,7 @@ Only 1 time setting for each Firebird Version
     - **Hostname**: Server Name/IP Address
     - **Port Number**: Firebird Port number (Default is **3050**)
 
-![3](../../static/img/others/yc3-flamerobin.jpg)
+![3](../../../../static/img/others/yc3-flamerobin.jpg)
 
 4. Click **Save** button
 
@@ -60,7 +60,7 @@ Can add more then 1 database if you wanted to but if can just register only 1 & 
 
 1. Click *Database | Register existing database...*
 
-![4](../../static/img/others/yc4-flamerobin.jpg)
+![4](../../../../static/img/others/yc4-flamerobin.jpg)
 
 2. Enter as following
 
@@ -79,7 +79,7 @@ Can add more then 1 database if you wanted to but if can just register only 1 & 
 
 1. Select here
 
-![5](../../static/img/others/yc5-flamerobin.jpg)
+![5](../../../../static/img/others/yc5-flamerobin.jpg)
 
 2. Click **Database | Database Registration Info...**
 3. You will see same as Steps 2 Register New Database at above
@@ -91,15 +91,15 @@ Can add more then 1 database if you wanted to but if can just register only 1 & 
 
 1. Select here
 
-![6](../../static/img/others/yc6-flamerobin.jpg)
+![6](../../../../static/img/others/yc6-flamerobin.jpg)
 
 2. Click **Database | Run a query...**
 
-![7](../../static/img/others/yc7-flamerobin.jpg)
+![7](../../../../static/img/others/yc7-flamerobin.jpg)
 
 3. You can enter/type your SQL Query here
 
-![8](../../static/img/others/yc8-flamerobin.jpg)
+![8](../../../../static/img/others/yc8-flamerobin.jpg)
 
 4. Press **F4** to Execute your Query
 5. Press **F5** to Commit your Query

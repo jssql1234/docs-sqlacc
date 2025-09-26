@@ -1,8 +1,8 @@
 ---
 sidebar_position: 7
 title: GST Gain Loss - Manual
-description: GST Gain Loss - Manual
-slug: /others/gst-gain-loss
+description: A guide about GST Gain Loss - Manual
+slug: /usage/general/others/gst-gain-loss
 tags: ["SQL Account", "Others", "GST", "Gain Loss"]
 ---
 
