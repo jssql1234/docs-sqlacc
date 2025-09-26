@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 title: FAQ
 description: Stock FAQ
-slug: /usage/stock/FAQ
+slug: /usage/stock/stock-faq
 tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
 ---
 
@@ -225,8 +225,8 @@ Allow to update/edit the field value by batch.
 13. Click **Ok**.
 
     ![7](../../../static/img/stock/batch-edit-value-stock-item/7.png)
-
-###  Result
+ 
+-   **Result**
 
 Items default output tax previously ZRL are **successfully changed to SR**.
 
@@ -548,12 +548,12 @@ Stock Adjustment does not support serial no. May using Stock Received and Stock 
 
 ## Why cannot update the GL Stock Value at Stock Month End Balance?
 
-### Issue
+- **Issue**
  - Click **Update** button at Stock Month End Balance, but no stock value has been updated to GL Maintain Stock Value.
     
 ![20](../../../static/img/stock/stock-month-end-balance/1jt.png)
 
-### Solution
+- **Solution**
 1. Ensure all the **stock group** has defined a **Stock Account**.
 
 ![21](../../../static/img/stock/stock-month-end-balance/2jt.png)
