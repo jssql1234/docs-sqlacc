@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 13
 title: Customer & Supplier
 description: Customer & supplier work flow
 slug: /usage/customer-supplier
