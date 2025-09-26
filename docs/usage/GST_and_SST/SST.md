@@ -6,7 +6,7 @@ slug: /usage/SST/SST/SST
 tags: ["SQL Account", "Usage", "SST"]
 ---
 
-## **SST Setup and Information** 
+## SST Setup and Information
 
 ## SST Introduction
 
@@ -1082,7 +1082,7 @@ Active the tax code : SVA
 
 
 
-## **SST FAQ**
+## SST FAQ
 
 ## Can I Change the Service Tax Type to Accrual Basis?
 

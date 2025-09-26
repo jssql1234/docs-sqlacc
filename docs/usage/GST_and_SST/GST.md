@@ -6,7 +6,7 @@ slug: /usage/GST/GST/GST
 tags: ["SQL Account", "Usage", "GST"]
 ---
 
-## **GST Setup and Information**
+## GST Setup and Information
 
 ## GST Count Down Timer
 
@@ -1758,7 +1758,7 @@ Made payment to RMCD, use **Cash Book Entry (PV)**.
 
 
 
-## **GST Special Treatment**
+## GST Special Treatment
 
 ## GST Margin Scheme
 
