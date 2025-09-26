@@ -384,7 +384,7 @@ Under the Group : Sales
 - Eg. Cafe can be group by
 
     \- Food - SR
-
+[]
     \- Food - ZRL
 
     \- Beverage
