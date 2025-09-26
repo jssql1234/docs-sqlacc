@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: General
+title: Guide
 description: A guideline for Purchase Data Entry
-slug: /usage/purchase/general
-tags: ["SQL Account", "Usage", "Purchase", "General"]
+slug: /usage/purchase/guide
+tags: ["SQL Account", "Usage", "Purchase", "Guide"]
 ---
 
 ## Purchase Work Flow
