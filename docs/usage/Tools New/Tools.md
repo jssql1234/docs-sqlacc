@@ -2307,4 +2307,4 @@ Each time user Click the [Maintain DIY](#maintain-diy) it will prompt below dial
 Make sure you had keep few copy of QRCode as once you lost all we not able to retrieve back the Access ID
 :::
 
-> More Customisations at [SQL Control Center](/miscellaneous/sqlControlCenter)
+> More Customisations at [SQL Control Center](/Customisation/sqlControlCenter)
