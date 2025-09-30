@@ -109,7 +109,7 @@ Leave this Screen Open as It will auto sync & update
 
 
 
-## 1. Stock Take Items List Import
+##  Stock Take Items List Import
 
 Before following the steps in the subsections below
 
@@ -151,7 +151,7 @@ Before following the steps in the subsections below
 
     * For devices with stock take share profile set, the import process will begin immediately.
 
-## 2. Sync Stock Take Result To SQL Account
+##  Sync Stock Take Result To SQL Account
 
 Sync stock take result from Stock Take app to SQL Account to perform stock adjustment on SQL Account
 
@@ -171,7 +171,7 @@ Sync stock take result from Stock Take app to SQL Account to perform stock adjus
 
    2. On Stock Take window, click on "**Refresh**" button.
 
-## 3. Reset Connection Profile
+##  Reset Connection Profile
 
 User may want to reset Stock Take share profile on Stock Take app as user would want to switch to different Stock Take share profile.
 
