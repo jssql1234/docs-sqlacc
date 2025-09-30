@@ -138,3 +138,34 @@ tags: ["SQL Account", "Getting Started", "Setup"]
 2. Email your `Activation Request` form to us along with **bank statement / any government statement like bill electricity or water / telephone bill** as the proof for company address update.
 
 3. Once you have **received the activation code** , kindly **repeat Step 8-10** in [License Activation](#license-activation) then update the activation code accordingly.
+
+## Create New Group
+
+1. Click on "**Back to Database Group**"
+
+![14](../../static/img/getting-started/install-sql/yc1-group.png)
+
+2. Click **Create Group**
+
+![15](../../static/img/getting-started/install-sql/yc2.png)
+
+3. Select the **Location** where you wanted to save for the DCF File.
+
+4. Select **Firebird Standalone Database** at Database Engine.
+
+5. Select the **Database Folder** & click Ok.
+
+:::info
+   Group: Default location is at C:\estream\SQLAccounting\Share
+   Database: Default location is at C:\estream\SQLAccounting\DB
+:::
+
+![16](../../static/img/getting-started/install-sql/yc3.png)
+
+6. Click Test Connection to make sure is **Blue** Status.
+
+7. Click OK.
+
+8. Double Click the **Firebird Icon**.
+
+9. Then can create a new database in the group.
