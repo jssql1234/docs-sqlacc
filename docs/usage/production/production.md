@@ -18,18 +18,18 @@ Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 
    2. Create finished good, raw material, WIP’s closing stock account in your balance sheet current asset account as below.
 
-      ![159a](../../static/img/getting-started/user-guide/159a.png)
-      ![159b](../../static/img/getting-started/user-guide/159b.png)
+      ![159a](../../../static/img/getting-started/user-guide/159a.png)
+      ![159b](../../../static/img/getting-started/user-guide/159b.png)
 
    3. Create Manufacturing Account under Cost of Goods Sold (Profit & Loss)
 
       1. Highlight on Cost of Goods Sold and click on NEW Button, Insert GL Code, Description and make sure tick on special Account type Manufacturing Control Account.
 
-         ![160](../../static/img/getting-started/user-guide/160.png)
+         ![160](../../../static/img/getting-started/user-guide/160.png)
 
       2. Create all your raw materials opening stock, closing stock, production overhead charges group into Manufacturing cost account under Cost of Goods Sold.
 
-         ![161](../../static/img/getting-started/user-guide/161.png)
+         ![161](../../../static/img/getting-started/user-guide/161.png)
 
 ### Stock Group
 
@@ -45,7 +45,7 @@ Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 
       \- Costing Method : FIFO
 
-      ![162](../../static/img/getting-started/user-guide/162.png)
+      ![162](../../../static/img/getting-started/user-guide/162.png)
 
    2. Water
 
@@ -53,7 +53,7 @@ Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 
       \- Costing Method : Fixed Costing
 
-      ![163](../../static/img/getting-started/user-guide/163.png)
+      ![163](../../../static/img/getting-started/user-guide/163.png)
 
    3. Finished Goods
 
@@ -61,7 +61,7 @@ Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 
       \- Costing Method : FIFO
 
-      ![164](../../static/img/getting-started/user-guide/164.png)
+      ![164](../../../static/img/getting-started/user-guide/164.png)
 
 ### Stock Item
 
@@ -71,7 +71,7 @@ Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 
    1. Create all your raw materials items and assigned stock group respectively.
 
-      ![165](../../static/img/getting-started/user-guide/165.png)
+      ![165](../../../static/img/getting-started/user-guide/165.png)
 
    2. Create your finished goods item and assign raw materials.
 
@@ -85,7 +85,7 @@ Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 
          **Assembly Cost** is a fixed cost incurred to the entire process for final products.
 
-            ![166](../../static/img/getting-started/user-guide/166.png)
+            ![166](../../../static/img/getting-started/user-guide/166.png)
 
 ### Location (Warehouse)
 
@@ -101,7 +101,7 @@ Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 
    4. Work in progress stock kept in **WIP Warehouse**.
 
-      ![167](../../static/img/getting-started/user-guide/167.png)
+      ![167](../../../static/img/getting-started/user-guide/167.png)
 
 ## Overview of Manufacturing Business Flow
 
@@ -112,9 +112,9 @@ required to meet the products ordered by customer? This question raised by the M
 
 When products produce out, you have to transfer the Job Order to Stock Assembly to commit on the stock on hand.
 
-![168](../../static/img/getting-started/user-guide/168.png)
+![168](../../../static/img/getting-started/user-guide/168.png)
 
-![169](../../static/img/getting-started/user-guide/169.png)
+![169](../../../static/img/getting-started/user-guide/169.png)
 
 ### Sales Order
 
@@ -122,11 +122,11 @@ When products produce out, you have to transfer the Job Order to Stock Assembly 
 
    1. Sales > Sales Order > New > choose your customer > enter the items orders from your customer > save.
 
-      ![170](../../static/img/getting-started/user-guide/170.png)
+      ![170](../../../static/img/getting-started/user-guide/170.png)
 
    2. : You can also press on **CTRL + F11** to check Available Stock Balance, if there is sufficient stock on hand you may directly proceed to delivery, but there is short of stock you may need to proceed to Job Order on the planning to manufacturer the items.
 
-      ![171](../../static/img/getting-started/user-guide/171.png)
+      ![171](../../../static/img/getting-started/user-guide/171.png)
 
 ### Production Job Order
 
@@ -140,13 +140,13 @@ When products produce out, you have to transfer the Job Order to Stock Assembly 
 
    4. enter the **X/F Qty** for the quantity you want to produce.
 
-      ![172](../../static/img/getting-started/user-guide/172.png)
+      ![172](../../../static/img/getting-started/user-guide/172.png)
 
    5. Save the Job Order.
 
    6. you can also click **CTRL + F11** to check all your raw material stock available balance.
 
-      ![173](../../static/img/getting-started/user-guide/173.png)
+      ![173](../../../static/img/getting-started/user-guide/173.png)
 
 ### Stock Item Assembly
 
@@ -160,11 +160,11 @@ When products produce out, you have to transfer the Job Order to Stock Assembly 
 
    3. enter the **X/F Qty** for the quantity produced.
 
-      ![174](../../static/img/getting-started/user-guide/174.png)
+      ![174](../../../static/img/getting-started/user-guide/174.png)
 
    4. Save the Stock Item Assembly.
 
-      ![175](../../static/img/getting-started/user-guide/175.png)
+      ![175](../../../static/img/getting-started/user-guide/175.png)
 
 ## Stock Batch
 
@@ -180,22 +180,22 @@ This module commonly used in food manufacturing, pharmaceutical, cosmetic/skin c
 
    Insert the code, description, Expiry date, Manufacturing date & items that will expire on this expiry date.
 
-   ![176](../../static/img/getting-started/user-guide/176.png)
+   ![176](../../../static/img/getting-started/user-guide/176.png)
 
 2. **Purchase** > **Purchase Invoice** > **New**
 
    You can enable Batch column from the hidden bar and assign your stock batch during purchase for every individual item.
 
-   ![177](../../static/img/getting-started/user-guide/177.png)
+   ![177](../../../static/img/getting-started/user-guide/177.png)
 
 3. **Sales** > **Sales Invoice** > **New**
 
    In Sales Invoice, you can select the item issue out from which batch (expiry date), system will also show the expiry day & quantity available.
 
-   ![178](../../static/img/getting-started/user-guide/178.png)
+   ![178](../../../static/img/getting-started/user-guide/178.png)
 
 4. **Stock** > **Print Stock Batch Expiry**
 
    You can also check the listing of your product that will be expire soon as well as you can trace the product manufacture date.
 
-   ![179](../../static/img/getting-started/user-guide/179.png)
+   ![179](../../../static/img/getting-started/user-guide/179.png)
