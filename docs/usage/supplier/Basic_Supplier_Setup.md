@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Basic Supplier Setup
+title: Guide
 description: Basic Supplier Setup
 slug: /usage/supplier/Basic Setup/Basic Supplier Setup
 tags: ["SQL Account", "Usage", "Supplier"]

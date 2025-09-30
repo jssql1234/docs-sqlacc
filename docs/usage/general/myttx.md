@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Malaysia Tourism Tax System (MyTTx)
 description: A guide about Malaysia Tourism Tax System (MyTTx) for SQL Account
 slug: /usage/general/myttx

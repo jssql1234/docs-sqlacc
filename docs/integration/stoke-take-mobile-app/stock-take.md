@@ -109,7 +109,7 @@ Leave this Screen Open as It will auto sync & update
 
 
 
-##  Stock Take Items List Import
+## Stock Take Items List Import
 
 Before following the steps in the subsections below
 

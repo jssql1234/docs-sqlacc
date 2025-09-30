@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Purchase Report
+title: Reports
 description: A guideline to print Purchase Report
 slug: /getting-started/user-guide/purchase/report
 tags: ["SQL Account", "Usage", "Purchase", "Report"]

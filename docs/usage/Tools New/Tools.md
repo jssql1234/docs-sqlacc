@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Tools
+title: Guide
 description: Maintenance
 slug: /usage/Tools-New/Tools
 tags: ["SQL Account", "Usage", "Tools"]

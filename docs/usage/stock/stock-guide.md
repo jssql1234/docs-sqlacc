@@ -12,7 +12,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 2. It commonly use to categorize the stock based on the following points into considerations.
     - Brandings, eg. **Apple, Sony, Samsung, LG**, etc;
-    - Different costing method;
+    - Different **costing method**;
     - Product types, eg. **raw materials, trading products, manufactured products**;
     - To report different sales/purchase account in **Profit & Loss Statement**.
 

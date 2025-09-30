@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
-title: Other
+sidebar_position: 2
+title: Tips & Tricks
 description: Other Info
-slug: /usage/other
+slug: /usage/general/tips&tricks
 tags: ["SQL Account", "Usage"]
 ---
 

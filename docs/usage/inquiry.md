@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 12
 title: Inquiry
 description: Inquiry guideline
 slug: /usage/inquiry

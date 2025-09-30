@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Report
+title: Reports
 description: General Ledger Report Info
 slug: /usage/new-general-ledger/report
 tags: ["SQL Account", "Usage"]

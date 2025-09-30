@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Customer Reports
+title: Reports
 description: All kind of customer reports and it's purpose
 slug: /usage/Customer New/Report_unsure
 tags: ["SQL Account", "Usage", "Customer"]
