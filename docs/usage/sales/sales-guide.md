@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Sales Guideline
+title: Guide
 description: Sales work flow
 slug: /usage/sales/sales
 tags: ["SQL Account", "Usage", "Sales"]

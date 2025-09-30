@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Tools FAQ
+title: FAQ
 description: Tools Related FAQ
 slug: /usage/Tools-New/ToolsFAQ
 tags: ["SQL Account", "Usage", "Tools","Currency","Module"]

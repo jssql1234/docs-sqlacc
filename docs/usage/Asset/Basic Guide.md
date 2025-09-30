@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Asset Basic Guide
+title: Guide
 description: A guide on Asset
 slug: /usage/Asset/Basic Guide
 tags: ["SQL Account", "Usage", "Submission"]

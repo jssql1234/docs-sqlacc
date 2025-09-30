@@ -1,6 +1,6 @@
 {
     "label": "Purchase",
-    "position": 3,
+    "position": 7,
     "link": {
         "type": "generated-index",
         "description": "SQL Account Purchase Guide"

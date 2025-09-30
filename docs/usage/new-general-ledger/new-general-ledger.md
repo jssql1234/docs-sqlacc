@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: General Ledger 2
+title: Guide
 description: General Ledger Info
 slug: /usage/new-general-ledger/general-ledger
 tags: ["SQL Account", "Usage"]

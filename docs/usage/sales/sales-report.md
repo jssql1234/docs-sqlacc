@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Sales Report
+title: Reports
 description: Sales Report guideline
 slug: /usage/sales/sales-report
 tags: ["SQL Account", "Sales", "Sales Report"]

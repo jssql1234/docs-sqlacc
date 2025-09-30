@@ -63,7 +63,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
 *Menu: Sales | Invoice...*
 
-[ch366](../../static/img/getting-started/user-guide/ch366.jpg)
+![ch366](../../../static/img/getting-started/user-guide/ch366.jpg)
 
 1. Select Customer Code
 2. Select Item Code
@@ -73,13 +73,13 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 6. Enter Exchange Rate (if have)
 7. Click More tab to enter extra/others Information
 
-[ch367](../../static/img/getting-started/user-guide/ch367.jpg)
+![ch367](../../../static/img/getting-started/user-guide/ch367.jpg)
 
 #### Profit & Loss By Document
 
 *Menu: Sales | Print Sales Document Listing...*
 
-[ch368](../../static/img/getting-started/user-guide/ch368.jpg)
+![ch368](../../../static/img/getting-started/user-guide/ch368.jpg)
 
 1. Select Invoice Listing & Range Date
 2. Tick Group by Customer Code
@@ -140,11 +140,11 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
 *Menu: Stock | Maintain Stock Item...*
 
-[ch369](../../static/img/getting-started/user-guide/ch369.jpg)
+![ch369](../../../static/img/getting-started/user-guide/ch369.jpg)
 
 1. Item Code to be create - Voucher => For Claim use (eg 1 point = RM 0.01)
 
-[ch370](../../static/img/getting-started/user-guide/ch370.jpg)
+![ch370](../../../static/img/getting-started/user-guide/ch370.jpg)
 
 2. For each item code enter the Voucher Rate (eg 0.5 point = RM 1)
 
@@ -167,7 +167,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
     This is the center or Ledger for all Point IN & OUT.
 
-[ch371](../../static/img/getting-started/user-guide/ch371.jpg)
+![ch371](../../../static/img/getting-started/user-guide/ch371.jpg)
 
 | **Field**       | **Description**                                                                 |
 |------------------|---------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 Below is example in Sales Invoice with Voucher Claim
 *Menu: Sales | Invoice...*
 
-[ch372](../../static/img/getting-started/user-guide/ch372.jpg)
+![ch372](../../../static/img/getting-started/user-guide/ch372.jpg)
 
 1. Enter all Information (eg Company Code, Date, ItemCode, etc) as norm for Normal Sales (i.e. Add Point).
 2. Select itemcode Voucher.
@@ -202,7 +202,7 @@ Below is example in Sales Invoice with Voucher Claim
 In here user can do adjustment for the point for each Customer.
 1. Click Update Button
 
-[ch372](../../static/img/getting-started/user-guide/ch372.jpg)
+![ch372](../../../static/img/getting-started/user-guide/ch372.jpg)
 
 2. Untick this if you wanted to Add the point
 3. Enter the Point to Add/Reduce.
@@ -213,7 +213,7 @@ In here user can do adjustment for the point for each Customer.
 
     Here is for user to print the Bonus Statement or UnClaim Voucher Listing report
 
-[ch373](../../static/img/getting-started/user-guide/ch373.jpg)
+![ch373](../../../static/img/getting-started/user-guide/ch373.jpg)
 
 1. Select Extra Delivery Order Listing & Range Date
 2. Tick Customer Code
@@ -245,49 +245,49 @@ Branch Control Setting is done to prevent branch user from selecting Customer, P
 
 - Authorising each branch users to have the accessibility to their respective branch, SQL will automatically assign transactions created by the user to a specific branch to prevent human mistakes. Account entries, stock warehouse will automatically be posted to the appropriate branch.
 
-[ch374](../../static/img/getting-started/user-guide/ch374.png)
+![ch374](../../../static/img/getting-started/user-guide/ch374.png)
 
 ### Customer List
 
 - The user can only select/access the customer information for the own branch and is not permitted to post transactions for any other branch. You can avoid information being shared to other branches at data entry staff’s level.
 
-[ch375](../../static/img/getting-started/user-guide/ch375.png)
+![ch375](../../../static/img/getting-started/user-guide/ch375.png)
 
 ### Agent / Area List
 
 - Automatically set the default agent/area code based on user login to ease the user's instead of requiring manual selection.
 
-[ch376](../../static/img/getting-started/user-guide/ch376.png)
+![ch376](../../../static/img/getting-started/user-guide/ch376.png)
 
 ### Stock Item List
 
 - The user only able to select the list of item code belong to their branch.
 
-[ch377](../../static/img/getting-started/user-guide/ch377.png)
+![ch377](../../../static/img/getting-started/user-guide/ch377.png)
 
 ### Payment Method
 
 - Restrict payment methods for each branch to prevent human error and posting to unnecessary accounts.
 
-[ch378](../../static/img/getting-started/user-guide/ch378.png)
+![ch378](../../../static/img/getting-started/user-guide/ch378.png)
 
 ### Reporting
 
 - Stay on top of your financial and operational transactions across all your branches with SQL. You can monitor all transactions happening in each branch. with this information, you can identify which branch is the most profitable and which branch that needs to monitor closely.
 
-[ch379](../../static/img/getting-started/user-guide/ch379.png)
+![ch379](../../../static/img/getting-started/user-guide/ch379.png)
 
 ### Profit & Loss Project
 
 - By consolidating headquarter accounts with branch accounts, SQL allows for the viewing of consolidated balance sheets, profit and loss accounts by authorised users to evaluate the company’s overall performance. Bosses are able to drill down to the transactions of each branch individually.
 
-[ch380](../../static/img/getting-started/user-guide/ch380.png)
+![ch380](../../../static/img/getting-started/user-guide/ch380.png)
 
 ## One Time Setting
 
 *Menu: Tools | Maintain User...*
 
-[ch381](../../static/img/getting-started/user-guide/ch381.jpg)
+![ch381](../../../static/img/getting-started/user-guide/ch381.jpg)
 
 Here are the guidelines to set **Branch Control Setting**
 1. **MUST** Logon as **ADMIN** account
@@ -324,7 +324,7 @@ The setting can only function within the range of **1 to 4**.
 Tick the **Lock Customer** Option and filtered customer list by area, enter as 1 in Filter Customers by. Enter Area code such as KL, JB, and SG in the allowable list column. User prefer to search for Customer Code, enter as 1 if would like to search Customer Column.
 :::
 
-[ch382](../../static/img/getting-started/user-guide/ch382.jpg)
+![ch382](../../../static/img/getting-started/user-guide/ch382.jpg)
 
 ### Purchase
 
@@ -355,7 +355,7 @@ The setting can only function within the range of **1 to 4**.
 Tick the Lock Supplier option and filter supplier list by agent, enter as 2 in Filter Suppliers by. Enter Agent code, such as YUKI, in the allowable list column, and user prefer to search for supplier code, enter as 1 in Search Supplier Column.
 :::
 
-[ch383](../../static/img/getting-started/user-guide/ch383.jpg)
+![ch383](../../../static/img/getting-started/user-guide/ch383.jpg)
 
 ### Item Code
 
@@ -385,7 +385,7 @@ The setting can only function within the range of **1 to 3**.
 Tick the Lock Item Code option and filter by item code. Enter item codes, such as BOM-02/Red, ER/Lamp, and ISCT, in the column, and search for item descriptions by item code.
 :::
 
-[ch384](../../static/img/getting-started/user-guide/ch384.jpg)
+![ch384](../../../static/img/getting-started/user-guide/ch384.jpg)
 
 ### General Setting
 
@@ -398,7 +398,7 @@ Tick the Lock Item Code option and filter by item code. Enter item codes, such a
 Tick the Lock Project option. Tick IsSearchProjectCode to allow searching by project code, and enter project codes, such as P1 and P2, in the column for search.
 :::
 
-[ch385](../../static/img/getting-started/user-guide/ch385.jpg)
+![ch385](../../../static/img/getting-started/user-guide/ch385.jpg)
 
 ## Assignment : To Create the Unit Price Calculation
 - Create the DIY field such as UDF_mUnitPrice in Sales documents (eg. sales invoice)

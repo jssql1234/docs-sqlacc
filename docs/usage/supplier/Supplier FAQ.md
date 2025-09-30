@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Supplier FAQ
+title: FAQ
 description: Supplier Frequently Asked Questions
 slug: /usage/supplier/Supplier FAQ
 tags: ["SQL Account", "Supplier", "FAQ"]

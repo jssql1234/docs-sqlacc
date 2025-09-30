@@ -1,8 +1,8 @@
 {
     "label": "Tools",
-    "position": 11,
+    "position": 13,
     "link": {
         "type": "generated-index",
-        "description": "Tools and maintenance"
+        "description": "SQL Account Tools"
     }
 }

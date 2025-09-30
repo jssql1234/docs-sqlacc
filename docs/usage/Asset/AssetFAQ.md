@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Asset FAQ
+title: FAQ
 description: FAQ related to Asset
 slug: /usage/Asset/AssetFAQ
 tags: ["SQL Account", "Asset", "FAQ"]
