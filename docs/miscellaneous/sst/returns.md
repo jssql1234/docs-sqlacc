@@ -10,7 +10,8 @@ tags: ["SQL Account","SST", "Returns", "SST-02"]
 
 SST tax code structures and mapping to SST-02:
 
-![207](../../../static/img/getting-started/user-guide/207.png)
+![sales-tax-code-mapping](../../../static/img/miscellaneous/sst/sales-tax-code-mapping.png)
+![service-tax-code-mapping](../../../static/img/miscellaneous/sst/service-tax-code-mapping.png)
 
 ## Example of SST-02
 
