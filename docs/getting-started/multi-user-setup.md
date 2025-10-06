@@ -82,6 +82,10 @@ For a multi-user scenario, a separated database server is recommended. It will s
 
    5. Double check your settings as below and click **OK**
 
+   :::info
+      Default Database Username is **SYSDBA**, Database Password is **MASTERKEY**
+   :::
+
       ![4](../../static/img/getting-started/network-setting/4.png)
 
 ## Client PC Setup
