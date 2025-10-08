@@ -14,15 +14,15 @@ tags: ["SQL Account", "Usage"]
     3. Check the **Special Account Type** if applicable, e.g. the account is belonging to Accumulated Deprn Account (Fixed Assets)
     4. Click **OK**. Your new account is now created.
 
-![1](../../../static/img/general-ledger/glguide/chart-step1-1.png)
+![1](../../../static/img/usage/general-ledger/glguide/chart-step1-1.png)
 
-![2](../../../static/img/general-ledger/glguide/chart-step1-2.png)
+![2](../../../static/img/usage/general-ledger/glguide/chart-step1-2.png)
 
 2. Creating a Sub Account
     1. Point to the parent account (e.g. Cash at Bank)
     2. Follow the same steps from **2.1.1 Create New Account**
 
-![3](../../../static/img/general-ledger/glguide/chart-step2-1.png)
+![3](../../../static/img/usage/general-ledger/glguide/chart-step2-1.png)
 
 *You are allowed to create an unlimited level of sub accounts. Just point to any account, and add a sub or sub-sub account to it.
 
@@ -32,11 +32,11 @@ Cash book entry is normally used for a non-customer/ supplier payment or receipt
 
 1. **GL** > **Cash Book Entry** > **New** (choose between Payment Voucher or Official Receipt)
 
-![4](../../../static/img/general-ledger/glguide/cb-entry-step1.png)
+![4](../../../static/img/usage/general-ledger/glguide/cb-entry-step1.png)
 
 2.  **Insert Payable Name** > Select **GL Code > Tax > Amount**
 
-![5](../../../static/img/general-ledger/glguide/cb-entry-step2.png)
+![5](../../../static/img/usage/general-ledger/glguide/cb-entry-step2.png)
 
 ## Journal Entry
 
@@ -44,7 +44,7 @@ Cash book entry is normally used for a non-customer/ supplier payment or receipt
 2. **Key in your double entry**
 3. **Click on Save (System will blocked in Dr and Cr are not tally)**
 
-![6](../../../static/img/general-ledger/glguide/jr-entry.png)
+![6](../../../static/img/usage/general-ledger/glguide/jr-entry.png)
 
 ## Foreign Bank Adjustment (add)
 
@@ -55,7 +55,7 @@ Purpose:
 
 Refer this ledger:
 
-![7](../../../static/img/general-ledger/glguide/f-bank-adj.png)
+![7](../../../static/img/usage/general-ledger/glguide/f-bank-adj.png)
 
 ***Local Balance is now RM 57,350 and you wish to revalue it using a monthly exchange rate of 4.50000 to get the local balance RM 56,250. What should I do?**
 
@@ -65,17 +65,17 @@ Refer this ledger:
 2. Enter the date, eg. end of the month
 3. Click on Bank Revalue button
 
-![8](../../../static/img/general-ledger/glguide/f-bank-adj-entry-step3.png)
+![8](../../../static/img/usage/general-ledger/glguide/f-bank-adj-entry-step3.png)
 
 4. **Choose the foreign bank, the system will get the bank balance from the ledger as per the date.**
 5.  **Enter the Revalue currency rate, eg. 4.5000. The system will auto calculate the unrealized FOREX gain/loss.**
 
-![9](../../../static/img/general-ledger/glguide/f-bank-adj-entry-step5.png)
+![9](../../../static/img/usage/general-ledger/glguide/f-bank-adj-entry-step5.png)
 
 6.  **Click OK to proceed.**
 7. **Click on Save**
 
-![10](../../../static/img/general-ledger/glguide/f-bank-adj-entry-step7.png)
+![10](../../../static/img/usage/general-ledger/glguide/f-bank-adj-entry-step7.png)
 
 ## Opening Balance General Ledger
 
@@ -84,7 +84,7 @@ Refer this ledger:
 3. **Insert the figure in local Dr or local Cr. Then Save.**
 4. **Make sure the Dr and Cr figures tally**
 
-![11](../../../static/img/general-ledger/glguide/o-balance.png)
+![11](../../../static/img/usage/general-ledger/glguide/o-balance.png)
 
 ## Bank Reconciliation
 
@@ -92,7 +92,7 @@ Refer this ledger:
 2. **Right click, to see Opening Bank Reconciliation**
 3. **Set the Date (before System Conversion Date)**
 
-![12](../../../static/img/general-ledger/glguide/bank-recon.png)
+![12](../../../static/img/usage/general-ledger/glguide/bank-recon.png)
 
 ## Stock Value
 
@@ -100,8 +100,8 @@ Refer this ledger:
 2. **Set the year**
 3. **Insert the Opening Balance**
 
-![13](../../../static/img/general-ledger/glguide/stock-value-step3-1.png)
-![14](../../../static/img/general-ledger/glguide/stock-value-step3-2.png)
+![13](../../../static/img/usage/general-ledger/glguide/stock-value-step3-1.png)
+![14](../../../static/img/usage/general-ledger/glguide/stock-value-step3-2.png)
 
 ## Maintain Budget (add)
 
@@ -111,4 +111,4 @@ Refer this ledger:
 - **Start input the budget value into each months.**
 - **After input finished, SAVE it.**
 
-![15](../../../static/img/general-ledger/glguide/maintain-budget.png)
+![15](../../../static/img/usage/general-ledger/glguide/maintain-budget.png)

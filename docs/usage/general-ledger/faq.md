@@ -12,14 +12,14 @@ tags: ["SQL Account", "Usage"]
 
 Year To Date DR and CR not balanced in Trial Balance because Retained Earnings account has missing.
 
-![1](../../../static/img/general-ledger/glfaq/tb-not-balance-iss.png)
+![1](../../../static/img/usage/general-ledger/glfaq/tb-not-balance-iss.png)
 
 **Solution:**
 
 1. Go to GL | Maintain Account...
 2. Restore the Retained Earning Account by drag and drop into Retained Earning group (original).
 
-![2](../../../static/img/general-ledger/glfaq/tb-not-balance-sol.png)
+![2](../../../static/img/usage/general-ledger/glfaq/tb-not-balance-sol.png)
 
 3. Apply the Trial Balance again.
 4. Retained Earning Account has restored back into Trial Balance, Year To Date DR and CR are balanced now.
@@ -29,7 +29,7 @@ Year To Date DR and CR not balanced in Trial Balance because Retained Earnings a
 
 I cannot key-in the foreign bank transactions in USD.
 
-![3](../../../static/img/general-ledger/glfaq/fb-usd-iss.png)
+![3](../../../static/img/usage/general-ledger/glfaq/fb-usd-iss.png)
 
 **Solution:**
 
@@ -43,11 +43,11 @@ Please make sure you have the following add-on modules:
 2. Edit the Foreign Bank Account.
 3. Change the currency to USD.
 
-![4](../../../static/img/general-ledger/glfaq/fb-usd-sol1.png)
+![4](../../../static/img/usage/general-ledger/glfaq/fb-usd-sol1.png)
 
 4. Foreign bank account will be value at USD currency now. See example in Supplier Payment.
 
-![5](../../../static/img/general-ledger/glfaq/fb-usd-sol2.png)
+![5](../../../static/img/usage/general-ledger/glfaq/fb-usd-sol2.png)
 
 ## Accumulated Depreciation for Fixed Asset
 ## Record accumulated depreciation for fixed asset
@@ -64,7 +64,7 @@ Please make sure you have the following add-on modules:
 
 3. Save
 
-   ![6](../../../static/img/general-ledger/glfaq/dep-fixed-asset-step1.png)
+   ![6](../../../static/img/usage/general-ledger/glfaq/dep-fixed-asset-step1.png)
 
 ## The Next Year
 
@@ -72,16 +72,16 @@ Please make sure you have the following add-on modules:
 
 2. Right click on empty space, refer picture , **Copy Journal Entry**
 
-   ![7](../../../static/img/general-ledger/glfaq/dep-fixed-asset-step2.png)
+   ![7](../../../static/img/usage/general-ledger/glfaq/dep-fixed-asset-step2.png)
 
 3. **New**
 
 4. Right click on empty space, refer picture, **Paste Journal Entry**
-   ![8](../../../static/img/general-ledger/glfaq/dep-fixed-asset-step3.png)
+   ![8](../../../static/img/usage/general-ledger/glfaq/dep-fixed-asset-step3.png)
 
 5. Edit the journal entry by changing the date, description and amount
 
-   ![9](../../../static/img/general-ledger/glfaq/dep-fixed-asset-step4.png)
+   ![9](../../../static/img/usage/general-ledger/glfaq/dep-fixed-asset-step4.png)
 
 6. Save!
 
@@ -97,13 +97,13 @@ Please make sure you have the following add-on modules:
 
 2. Click on **Option**
 
-    ![10](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/1.png)
+    ![10](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/1.png)
 
 3. Click on **Miscellaneous**
 
 4. Tick on **Auto Post GL Stock Value**
 
-    ![11](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/2.png)
+    ![11](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/2.png)
 
 ### 2. Map Balance Sheet Stock Account in Maintain Stock Group
 
@@ -111,7 +111,7 @@ Please make sure you have the following add-on modules:
 
 2. Click on **Maintain Stock Group**
 
-    ![12](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/3.png)
+    ![12](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/3.png)
 
 3. Click on **Edit**
 
@@ -119,13 +119,13 @@ Please make sure you have the following add-on modules:
 
 5. Click on **Save**
 
-    ![13](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/4.png)
+    ![13](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/4.png)
 
     :::note
     Ensure that all Stock Groups are mapped to the **Balance Sheet Account Code (A)**
     :::
 
-    ![14](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/5.png)
+    ![14](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/5.png)
 
 ### 3. Map Project Code in Maintain Location
 
@@ -133,7 +133,7 @@ Please make sure you have the following add-on modules:
 
 2. Click on **Maintain Location**
 
-    ![15](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/6.png)
+    ![15](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/6.png)
 
 3. Click on **Edit**
 
@@ -141,13 +141,13 @@ Please make sure you have the following add-on modules:
 
 5. **Save**
 
-    ![16](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/7.png)
+    ![16](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/7.png)
 
     :::info
     Ensure that all Location are mapped to the **Project Code (A)**
     :::
 
-    ![17](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/8.png)
+    ![17](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/8.png)
 
     :::info
     Note : May ignore this step if you have **only 1** Project.
@@ -161,7 +161,7 @@ Project Code : ----
 Closing Stock : 308534.22
 :::
 
-![18](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/9.png)
+![18](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/9.png)
 
 :::info Example B
 Project Code : P1
@@ -169,7 +169,7 @@ Project Code : P1
 Closing Stock : 3560.00
 :::
 
-![19](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/10.png)
+![19](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/10.png)
 
 ### 5. Apply Financial Report will auto update Stock value
 
@@ -182,7 +182,7 @@ closing Stock value to **Maintain Stock Value**.
 
 1. This is a sample of a Balance Sheet Statement report to show a **Closing Stock Value**.
 
-    ![20](../../../static/img/general-ledger/glfaq/auto-post-gl-stock-value/11.png)
+    ![20](../../../static/img/usage/general-ledger/glfaq/auto-post-gl-stock-value/11.png)
 
 :::info
 Note : When Fall Outside Maintain Acceptable Trans Date range, the system will no longer retrieve the Stock
@@ -201,11 +201,11 @@ This feature allow system auto post the stock value from Maintain Month End valu
 
 ### 1. Stock > Maintain Stock Group
 
-![21](../../../static/img/general-ledger/glfaq/auto-post-stock-month-end-value/1.png)
+![21](../../../static/img/usage/general-ledger/glfaq/auto-post-stock-month-end-value/1.png)
 
 ### 2. Stock > Stock Month End Balance Report
 
-![22](../../../static/img/general-ledger/glfaq/auto-post-stock-month-end-value/2.png)
+![22](../../../static/img/usage/general-ledger/glfaq/auto-post-stock-month-end-value/2.png)
 
 :::info Note :
 Required to fill in Balance Sheet Account in Stock Group in order able to show the update GL Stock Value.
@@ -213,7 +213,7 @@ Required to fill in Balance Sheet Account in Stock Group in order able to show t
 
 ### 3. GL > Maintain Stock Value
 
-![23](../../../static/img/general-ledger/glfaq/auto-post-stock-month-end-value/3.png)
+![23](../../../static/img/usage/general-ledger/glfaq/auto-post-stock-month-end-value/3.png)
 
 ## Auto Bank Reconciliation
 
@@ -229,27 +229,27 @@ Required to fill in Balance Sheet Account in Stock Group in order able to show t
 
 4. Click **Apply**
 
-   ![24](../../../static/img/general-ledger/glfaq/auto-recon/1.png)
+   ![24](../../../static/img/usage/general-ledger/glfaq/auto-recon/1.png)
 
 5. Click Load Statement
 
-   ![25](../../../static/img/general-ledger/glfaq/auto-recon/2.png)
+   ![25](../../../static/img/usage/general-ledger/glfaq/auto-recon/2.png)
 
 6. Select your Bank Statement (pdf / csv)
 
-   ![26](../../../static/img/general-ledger/glfaq/auto-recon/3.png)
+   ![26](../../../static/img/usage/general-ledger/glfaq/auto-recon/3.png)
 
 7. System loading
 
-   ![27](../../../static/img/general-ledger/glfaq/auto-recon/4.png)
+   ![27](../../../static/img/usage/general-ledger/glfaq/auto-recon/4.png)
 
 8. System will detect the Name of your Bank and prompt message below, Click **Yes** if it is **correct**.
 
-   ![28](../../../static/img/general-ledger/glfaq/auto-recon/5.png)
+   ![28](../../../static/img/usage/general-ledger/glfaq/auto-recon/5.png)
 
 9. Once you have loaded in your bank statement, bank closing amount will be automatically filled.
 
-   ![29](../../../static/img/general-ledger/glfaq/auto-recon/6.png)
+   ![29](../../../static/img/usage/general-ledger/glfaq/auto-recon/6.png)
 
    :::info
    Criteria to Match:
@@ -263,7 +263,7 @@ Required to fill in Balance Sheet Account in Stock Group in order able to show t
 
    But some transactions may not be able to auto match **[red box]**
 
-   ![30](../../../static/img/general-ledger/glfaq/auto-recon/7.png)
+   ![30](../../../static/img/usage/general-ledger/glfaq/auto-recon/7.png)
 
 ### 2. Step to match on unmatched transactions with bank statement
 
@@ -271,11 +271,11 @@ Required to fill in Balance Sheet Account in Stock Group in order able to show t
 
    At the bottom, search for **SAME DR/CR AMOUNT**, you will find that is a **“Match”** button or few “Match” button…(if there are few same amount, eg. 50.00)
 
-   ![31](../../../static/img/general-ledger/glfaq/auto-recon/8.png)
+   ![31](../../../static/img/usage/general-ledger/glfaq/auto-recon/8.png)
 
 2. Click on “Match” when this is the correct bank transactions for **[Salary for Ali]**
 
-   ![32](../../../static/img/general-ledger/glfaq/auto-recon/9.png)
+   ![32](../../../static/img/usage/general-ledger/glfaq/auto-recon/9.png)
 
    After click “Match”, system will auto tick the transactions and show the date and bank description at Bank Statement (Match) Column
 
@@ -293,9 +293,9 @@ A bank reconciliation is a process performed by a company to ensure that the com
 ### 1. Reconciliation Bank Transaction
 
    GL | Bank Reconciliation
-   ![33](../../../static/img/general-ledger/glfaq/bank-recon/1.png)
+   ![33](../../../static/img/usage/general-ledger/glfaq/bank-recon/1.png)
 
-   ![34](../../../static/img/general-ledger/glfaq/bank-recon/2.png)
+   ![34](../../../static/img/usage/general-ledger/glfaq/bank-recon/2.png)
 
 ### 2. Bank Reconciliation
 
@@ -308,9 +308,9 @@ A bank reconciliation is a process performed by a company to ensure that the com
 - Click Apply
 - You may tick the bank transaction reconcile with the transaction show in Bank Statement and save
 
-   ![35](../../../static/img/general-ledger/glfaq/bank-recon/3.png)
+   ![35](../../../static/img/usage/general-ledger/glfaq/bank-recon/3.png)
 
-   ![36](../../../static/img/general-ledger/glfaq/bank-recon/4.png)
+   ![36](../../../static/img/usage/general-ledger/glfaq/bank-recon/4.png)
 
    As attached bank statement is the sample, compare with the transaction, if exist then you may check as sample picture above.
 
@@ -318,7 +318,7 @@ A bank reconciliation is a process performed by a company to ensure that the com
 
 After reconciliation done, you can save and preview reconciliation report
 
-![37](../../../static/img/general-ledger/glfaq/bank-recon/5.png)
+![37](../../../static/img/usage/general-ledger/glfaq/bank-recon/5.png)
 
 :::note
 You can press F6 button for preview report.
@@ -326,7 +326,7 @@ You can press F6 button for preview report.
 
 ## Calculate P&L Percentage
 
-![38](../../../static/img/general-ledger/glfaq/cal-p&l-percent/1.png)
+![38](../../../static/img/usage/general-ledger/glfaq/cal-p&l-percent/1.png)
 
 :::note
 Formula :
@@ -367,30 +367,30 @@ Account Amount / Total Sales * 100
 
 1. Go to GL > Foreign Bank Adjustment > Create New > Click Bank Revalue
 
-    ![39](../../../static/img/general-ledger/glfaq/foreign-bank-adjustment/1.png)
+    ![39](../../../static/img/usage/general-ledger/glfaq/foreign-bank-adjustment/1.png)
 
 2. In Revalue windows > Select Bank Account Code & Date
 
-    ![40](../../../static/img/general-ledger/glfaq/foreign-bank-adjustment/2.png)
+    ![40](../../../static/img/usage/general-ledger/glfaq/foreign-bank-adjustment/2.png)
 
 3. balance USD & local amount are shown as per ledger report
 
-    ![41](../../../static/img/general-ledger/glfaq/foreign-bank-adjustment/3.png)
+    ![41](../../../static/img/usage/general-ledger/glfaq/foreign-bank-adjustment/3.png)
 
 4. Enter the Revalue to currency rate, system will auto recalculate the
 
    - new local balance amount
    - Gain/Loss Amount
 
-    ![42](../../../static/img/general-ledger/glfaq/foreign-bank-adjustment/4.png)
+    ![42](../../../static/img/usage/general-ledger/glfaq/foreign-bank-adjustment/4.png)
 
 5. Click OK
 
-    ![43](../../../static/img/general-ledger/glfaq/foreign-bank-adjustment/5.png)
+    ![43](../../../static/img/usage/general-ledger/glfaq/foreign-bank-adjustment/5.png)
 
 6. System will auto post the double entries
 
-    ![44](../../../static/img/general-ledger/glfaq/foreign-bank-adjustment/6.png)
+    ![44](../../../static/img/usage/general-ledger/glfaq/foreign-bank-adjustment/6.png)
 
 7. Click Save
 
@@ -404,7 +404,7 @@ Account Amount / Total Sales * 100
 
 2. Click on Maintain Budget
 
-    ![45](../../../static/img/general-ledger/glfaq/maintain-budget/1.png)
+    ![45](../../../static/img/usage/general-ledger/glfaq/maintain-budget/1.png)
 
 3. Select the year you want to set the budget
 
@@ -418,7 +418,7 @@ Account Amount / Total Sales * 100
 
 8. Click Save
 
-    ![46](../../../static/img/general-ledger/glfaq/maintain-budget/2.png)
+    ![46](../../../static/img/usage/general-ledger/glfaq/maintain-budget/2.png)
 
 ## Profit And Loss Statement with Budget Report
 
@@ -434,7 +434,7 @@ Account Amount / Total Sales * 100
 
     B : Year to date Vs Yearly Budget
 
-    ![47](../../../static/img/general-ledger/glfaq/maintain-budget/3.png)
+    ![47](../../../static/img/usage/general-ledger/glfaq/maintain-budget/3.png)
 
 ## Balance Sheet Statement with Budget Report
 
@@ -450,7 +450,7 @@ Account Amount / Total Sales * 100
 
     D : Year to date Vs Yearly Budget
 
-    ![48](../../../static/img/general-ledger/glfaq/maintain-budget/4.png)
+    ![48](../../../static/img/usage/general-ledger/glfaq/maintain-budget/4.png)
 
 ## P&L Statement more than 12 months
 
@@ -458,27 +458,27 @@ Account Amount / Total Sales * 100
 
 1. GL > Profit and Loss Statement
 
-    ![49](../../../static/img/general-ledger/glfaq/p&l-more-than-12/1.png)
+    ![49](../../../static/img/usage/general-ledger/glfaq/p&l-more-than-12/1.png)
 
 2. Right Click on SQL Icon > go 800 x 600 to smaller SQL Screen
 
-    ![50](../../../static/img/general-ledger/glfaq/p&l-more-than-12/2.png)
+    ![50](../../../static/img/usage/general-ledger/glfaq/p&l-more-than-12/2.png)
 
 3. Click on the report name “This year-2 Column” > click and drag it to desktop
 
-    ![51](../../../static/img/general-ledger/glfaq/p&l-more-than-12/3.png)
+    ![51](../../../static/img/usage/general-ledger/glfaq/p&l-more-than-12/3.png)
 
 4. Click on the report from desktop and drag it back into SQL
 
-    ![52](../../../static/img/general-ledger/glfaq/p&l-more-than-12/4.png)
+    ![52](../../../static/img/usage/general-ledger/glfaq/p&l-more-than-12/4.png)
 
 5. After drag in will prompt dialog above > click on OK
 
-    ![53](../../../static/img/general-ledger/glfaq/p&l-more-than-12/5.png)
+    ![53](../../../static/img/usage/general-ledger/glfaq/p&l-more-than-12/5.png)
 
 6. Double click on the report name “ this year-2Column” **(in blue colour font)**
 
-    ![54](../../../static/img/general-ledger/glfaq/p&l-more-than-12/6.png)
+    ![54](../../../static/img/usage/general-ledger/glfaq/p&l-more-than-12/6.png)
 
    1. You can enter a report name
 
@@ -490,7 +490,7 @@ Account Amount / Total Sales * 100
 
    4. Click on OK
 
-   ![55](../../../static/img/general-ledger/glfaq/p&l-more-than-12/7.png)
+   ![55](../../../static/img/usage/general-ledger/glfaq/p&l-more-than-12/7.png)
 
 :::info
 Apply the report as usual, the result will captured based on Param 1 & 2 set.
@@ -504,19 +504,19 @@ Repeat the same step on GL > Print Balance Sheet Statement
 
 1. GL > Maintain Account
 
-    ![56](../../../static/img/general-ledger/glfaq/p&l-statement-appropriation-acc/1.png)
+    ![56](../../../static/img/usage/general-ledger/glfaq/p&l-statement-appropriation-acc/1.png)
 
     1. Click on Appropriation Account
 
     2. Click on New
 
-        ![57](../../../static/img/general-ledger/glfaq/p&l-statement-appropriation-acc/2.png)
+        ![57](../../../static/img/usage/general-ledger/glfaq/p&l-statement-appropriation-acc/2.png)
 
     3. Insert **GL Code** and **GL Description** > After Done Press **OK**
 
 2. GL > Print Journal Entry > Create New
 
-    ![58](../../../static/img/general-ledger/glfaq/p&l-statement-appropriation-acc/3.png)
+    ![58](../../../static/img/usage/general-ledger/glfaq/p&l-statement-appropriation-acc/3.png)
 
     EG : Dr Dividend 2,000 Cr Bank 2,000
 
@@ -528,36 +528,36 @@ Repeat the same step on GL > Print Balance Sheet Statement
 
    3. Apply
 
-       ![59](../../../static/img/general-ledger/glfaq/p&l-statement-appropriation-acc/4.png)
+       ![59](../../../static/img/usage/general-ledger/glfaq/p&l-statement-appropriation-acc/4.png)
 
    4. Click on Preview.
 
-       ![60](../../../static/img/general-ledger/glfaq/p&l-statement-appropriation-acc/5.png)
+       ![60](../../../static/img/usage/general-ledger/glfaq/p&l-statement-appropriation-acc/5.png)
 
-       ![61](../../../static/img/general-ledger/glfaq/p&l-statement-appropriation-acc/6.png)
+       ![61](../../../static/img/usage/general-ledger/glfaq/p&l-statement-appropriation-acc/6.png)
 ## General Ledger Report Ref1(DocNo) appear as (New)
 
 ## Example 
 
 When you see General Ledger Report `Ref1(DocNo)` appeared as `<<New>>`, use the method below to fix it.
 
-![62](../../../static/img/general-ledger/glfaq/solution-gl-report-ref1-as-new/1.png)
+![62](../../../static/img/usage/general-ledger/glfaq/solution-gl-report-ref1-as-new/1.png)
 
 ## Fix
 
 1. Find out the document to check the source for this document.
 
-    ![63](../../../static/img/general-ledger/glfaq/solution-gl-report-ref1-as-new/2.png)
+    ![63](../../../static/img/usage/general-ledger/glfaq/solution-gl-report-ref1-as-new/2.png)
 
 2. Go to **Journal Entry**, look for the Date 31/03/2015 (Because Ledger Date is 31/03/15)
 
-    ![64](../../../static/img/general-ledger/glfaq/solution-gl-report-ref1-as-new/3.png)
+    ![64](../../../static/img/usage/general-ledger/glfaq/solution-gl-report-ref1-as-new/3.png)
 
 3. Press Edit and Save Button for all the Date is 31/03/2015.
 
 4. After Edit and Save, apply the Ledger to see the result.
 
-    ![65](../../../static/img/general-ledger/glfaq/solution-gl-report-ref1-as-new/4.png)
+    ![65](../../../static/img/usage/general-ledger/glfaq/solution-gl-report-ref1-as-new/4.png)
 
 5. Done
 
@@ -569,7 +569,7 @@ If you trial balance is not tally, may try running the following check.
 
 1. GL > Maintain Chart of Account
 
-    ![66](../../../static/img/general-ledger/glfaq/trial-balance-not-tally/1.png)
+    ![66](../../../static/img/usage/general-ledger/glfaq/trial-balance-not-tally/1.png)
 
 :::note
 If your Retained Earning is empty, you may create under Reserve, then only drag into Retained Earning.
@@ -583,7 +583,7 @@ If your Retained Earning is empty, you may create under Reserve, then only drag 
 
 3. Make sure Local DR and Local CR is tally. (Refer Pic2)
 
-   ![67](../../../static/img/general-ledger/glfaq/trial-balance-not-tally/2.png)
+   ![67](../../../static/img/usage/general-ledger/glfaq/trial-balance-not-tally/2.png)
 
 ## Not tally due to current transaction
 
@@ -629,7 +629,7 @@ Go to **Tools > Maintain Withholding Tax**
     |Tax Account(DR) |Expenses Account                          |**&lt;&lt;Follow document accounts>>** if leave blank here                                  |
     |Tax Account(CR) |Set to **Withholding Tax Payable** account|At GL\Maintain Account, create the Withholding Tax Payable account under Current Liabilities|
 
-    ![68](../../../static/img/general-ledger/glfaq/witholding-tax/1.png)
+    ![68](../../../static/img/usage/general-ledger/glfaq/witholding-tax/1.png)
 
     :::note
     Tax Account (DR) leave blank
@@ -654,11 +654,11 @@ Available in multiple menus:
     - WH Tax
     - WH Tax Rate
 
-    ![69](../../../static/img/general-ledger/glfaq/witholding-tax/2.png)
+    ![69](../../../static/img/usage/general-ledger/glfaq/witholding-tax/2.png)
 
 2. Select the Withholding Tax Code in **WH Tax** column.
 
-    ![70](../../../static/img/general-ledger/glfaq/witholding-tax/3.png)
+    ![70](../../../static/img/usage/general-ledger/glfaq/witholding-tax/3.png)
 
 3. System will auto post the withholding tax double entry. Press **CTRL + O** to check the double entry.
 
@@ -667,7 +667,7 @@ Available in multiple menus:
     |Expenses Account (follow the document detail GL Account)|XXX        |            |
     |Withholding Tax Payable                                 |           |  XXX       |
 
-    ![71](../../../static/img/general-ledger/glfaq/witholding-tax/4.png)
+    ![71](../../../static/img/usage/general-ledger/glfaq/witholding-tax/4.png)
 
 :::note
 Withholding tax amount will not add into the purchase invoice amount.
@@ -687,6 +687,6 @@ Withholding tax amount will not add into the purchase invoice amount.
 
 6. Enter the withholding tax amount to be paid. Save it.
 
-    ![72](../../../static/img/general-ledger/glfaq/witholding-tax/5.png)
+    ![72](../../../static/img/usage/general-ledger/glfaq/witholding-tax/5.png)
 
 7. You can check the ledger report for Withholding Tax Payable outstanding balance

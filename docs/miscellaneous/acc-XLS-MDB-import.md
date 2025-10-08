@@ -1,9 +1,9 @@
 ---
 sidebar_position: 16
-id: new-acc-XLS-MDB-import
+id: acc-XLS-MDB-import
 title: Excel Import Guide
 description: A quick guide on Excel Import Program for SQL Account
-slug: /miscellaneous/new-acc-XLS-MDB-import
+slug: /miscellaneous/acc-XLS-MDB-import
 tags: ["SQL Account", "Excel", "Import"]
 ---
 

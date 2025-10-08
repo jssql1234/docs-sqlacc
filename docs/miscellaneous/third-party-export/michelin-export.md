@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: SQL Acc Michelin Export
 description: SQL Acc Michelin Export  
-slug: /miscellaneous/export/michelin-export
+slug: /miscellaneous/third-party-export/michelin-export
 tags: ["SQL Account","Michelin" , "Export"]
 ---
 
@@ -64,11 +64,11 @@ Document Type Export (Only 1 text file)
 ### Firebird
 During Installation of Firebird make sure the option (see Below picture) is selected
 
-![1](../../../static/img/miscellaneous/export/1jt.png)
+![1](../../../static/img/miscellaneous/third-party-export/michelin-firebird.png)
 
 ### Export Program
 
-![2](../../../static/img/miscellaneous/export/2jt.png)
+![2](../../../static/img/miscellaneous/third-party-export/michelin-exp.png)
 
 01. Enter the Server Name or IP Address
 02. Click the button & select the Database to be export out.
@@ -83,59 +83,59 @@ During Installation of Firebird make sure the option (see Below picture) is sele
 ### Windows Schedule
 01. Open Windows Control Panel | Administrative Tools | Task Scheduler.
 
-![3](../../../static/img/miscellaneous/export/3jt.png)
+![3](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step1.png)
 
 02. Click Action | Create Basic Task...
 
-![4](../../../static/img/miscellaneous/export/4jt.png)
+![4](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step2.png)
 
 03. Enter Task Name (eg SQL Acc Michelin Export) & Click Next.
 
-![5](../../../static/img/miscellaneous/export/5jt.png)
+![5](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step3.png)
 
 04. Select Daily & Click Next.
 
-![6](../../../static/img/miscellaneous/export/6jt.png)
+![6](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step4.png)
 
 05. Set the Start Date & Time to Start.
 06. Set 1 for Recur every field & Click Next.
 
-![7](../../../static/img/miscellaneous/export/7jt.png)
+![7](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step6.png)
 
 07. Select Start a program & Click Next.
 
-![8](../../../static/img/miscellaneous/export/8jt.png)
+![8](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step7.png)
 
 08. Click Browse button & find the SQLAccMichelinExportSchedule.exe (Default at C:\eStream\Utilities\SQLAccMichelinExport).
 09. Set the Start in(optional) path to the Exe folder (eg. C:\eStream\Utilities\SQLAccMichelinExport) & Click Next.
 
-![9](../../../static/img/miscellaneous/export/9jt.png)
+![9](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step9.png)
 
 10. Tick the option Open the Properties dialog for this task when I click Finish.
 11. Click Finish.
 
-![10](../../../static/img/miscellaneous/export/10jt.png)
+![10](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step11.png)
 
 12. Select the option Run whether user is logged on or not.
 13. Click Triggers tab at top.
 
-![11](../../../static/img/miscellaneous/export/11jt.png)
+![11](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step13.png)
 
 14. Click Edit... button.
 
-![12](../../../static/img/miscellaneous/export/12jt.png)
+![12](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step14.png)
 
 15. Change the time to run.
 16. Click OK 2 times.
 
-![13](../../../static/img/miscellaneous/export/13jt.png)
+![13](../../../static/img/miscellaneous/third-party-export/michelin-schedule-step16.png)
 
 17. Enter the window User Name & Password.
 18. Click Ok.
 
 ### SQL Accounting
 
-![14](../../../static/img/miscellaneous/export/14jt.png)
+![14](../../../static/img/miscellaneous/third-party-export/michelin-sqlacc.png)
 
 01. Click Stock | Maintain Stock Item...
 02. Look for the Michelin Item Code.
