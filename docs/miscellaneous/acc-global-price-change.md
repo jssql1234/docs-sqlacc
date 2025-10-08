@@ -23,7 +23,7 @@ tags: ["SQL Account", "Text", "Import"]
 ## Step-By Item Code
 
 1.  Click Maintain Stock Item...
- ![1](../../static/img/miscellaneous/acc-global/wl29.png)
+ ![1](../../static/img/miscellaneous/acc-global/acc-global-price-change-step1.png)
 
 2. Select data/parameter to be update in the Steps 1 section
 |Option|Description|
@@ -31,7 +31,7 @@ tags: ["SQL Account", "Text", "Import"]
 |Grid Mode|Select this if your item list is more then 10,000 record to speed up the loading data|
 
 3. Click Get Stock Items List button
- ![2](../../static/img/miscellaneous/acc-global/wl30.png)
+ ![2](../../static/img/miscellaneous/acc-global/acc-global-price-change-step3.png)
 
 4. Enter the Value to change. It can be in Value and/or Percentage (%) except for Fixed Value only Value
   <table class="opts-table" role="table" aria-label="Options and descriptions">
@@ -97,12 +97,12 @@ Note Fields for each itemcode
 
 ## Step -By Comapny Price
 1. Click Maintain Stock Item - By Company...
- ![3](../../static/img/miscellaneous/acc-global/wl31.png)
+ ![3](../../static/img/miscellaneous/acc-global/acc-global-compare-price-step1.png)
 
 2. Select data/parameter to be update in the Steps 1 section
 3. Select Company Type
 4. Click Get Stock Items List button
- ![4](../../static/img/miscellaneous/acc-global/wl32.png)
+ ![4](../../static/img/miscellaneous/acc-global/acc-global-compare-price-step4.png)
 
 5. Enter the Value to change. It can be in Value and/or Percentage (%) except for Fixed Value only Value
 6. Click Change button.
@@ -116,4 +116,4 @@ It use Customer/Supplier Price Tag (Company Column)
 ## FAQ
 ### Can I self enter/change the price by item code?
 Yes, just enter 0 in Step 4 & Change the Value in the grid (Circle in Red)
- ![5](../../static/img/miscellaneous/acc-global/wl33.png)
+ ![5](../../static/img/miscellaneous/acc-global/acc-global-faq.png)

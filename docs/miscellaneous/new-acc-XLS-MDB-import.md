@@ -1,7 +1,7 @@
 ---
 sidebar_position: 16
 id: new-acc-XLS-MDB-import
-title: New Excel Import Guide
+title: Excel Import Guide
 description: A quick guide on Excel Import Program for SQL Account
 slug: /miscellaneous/new-acc-XLS-MDB-import
 tags: ["SQL Account", "Excel", "Import"]
@@ -272,19 +272,19 @@ It might had rounding issue after import
 - Avoid use Unicode Character for Row 1 (Header)
 - Date Format should be in dd/mm/yyyy (entry time in Excel as dd/mm/yyyy) - Updated 14 Nov 2013
 
- ![1](../../static/img/miscellaneous/XLS-MDB/1wl.png)
+ ![1](../../static/img/miscellaneous/XLS-MDB/toc1.png)
 
 - Below is the column type can/can't import
 
-![2](../../static/img/miscellaneous/XLS-MDB/2wl.png)
+![2](../../static/img/miscellaneous/XLS-MDB/toc2.png)
 
 - Try just use Alphanumeric of the **Worksheet Name**
 
-![3](../../static/img/miscellaneous/XLS-MDB/3wl.png)
+![3](../../static/img/miscellaneous/XLS-MDB/toc3.png)
 
 - Make sure the **Key of Records** is properly Sorted
 
-![4](../../static/img/miscellaneous/XLS-MDB/4wl.png)
+![4](../../static/img/miscellaneous/XLS-MDB/toc4.png)
 
 - Special Character (for csv or txt output only)
 
@@ -680,11 +680,11 @@ Below is example for import Stock Item...
 
 01. Click 1. Get File button
 02. Select the File type (eg Microsoft Excel)
-![5](../../static/img/miscellaneous/XLS-MDB/5wl.png)
+![5](../../static/img/miscellaneous/XLS-MDB/import-master-step2.png)
 
 03. Select the File file wanted to import
 04. Click **Open**
-![6](../../static/img/miscellaneous/XLS-MDB/6wl.png)
+![6](../../static/img/miscellaneous/XLS-MDB/import-master-step3.png)
 
 05. Click the combo box (Circle in Red) to select the Worksheet/Table in the file
 06. Click **2. Get Data** button to load the file.
@@ -706,12 +706,12 @@ Below is example for import Customer Invoice...
 01. Click 1. Get File button
 02. Select the File type (eg Microsoft Excel)
 
-![7](../../static/img/miscellaneous/XLS-MDB/7wl.png)
+![7](../../static/img/miscellaneous/XLS-MDB/import-trans-data-step2.png)
 
 03. Select the File file wanted to import
 04. Click Open
 
-![8](../../static/img/miscellaneous/XLS-MDB/8wl.png)
+![8](../../static/img/miscellaneous/XLS-MDB/import-trans-data-step4.png)
 
 05. Click the combo box (Icon 5) to select the Worksheet/Table in the file
 06. Click 2. Get Data button to load the file.
@@ -730,21 +730,21 @@ In the arrow there is an Option **A.Load Setting...,** this to load previously m
 - Only available in Version 4.6.3.19 & above
 
 01. Click arrow at the 1. Get File button
-![9](../../static/img/miscellaneous/XLS-MDB/9wl.png)
+![9](../../static/img/miscellaneous/XLS-MDB/import-trans-data-getfile-step1.png)
 
 02. Select Get File 3... & system will prompt 2 dialog like below
-![10](../../static/img/miscellaneous/XLS-MDB/10wl.png)
+![10](../../static/img/miscellaneous/XLS-MDB/import-trans-data-getfile-step2.png)
 
 03. Select the Excel Header File.
-![11](../../static/img/miscellaneous/XLS-MDB/11wl.png)
+![11](../../static/img/miscellaneous/XLS-MDB/import-trans-data-getfile-step3.png)
 
 04. Select the Excel Detail File.
-![12](../../static/img/miscellaneous/XLS-MDB/12wl.png)
+![12](../../static/img/miscellaneous/XLS-MDB/import-trans-data-getfile-step4.png)
 
 05. Click the combo box to select the Worksheet/Table for each Header & Detail file
 06. Click the combo box to select the Key Field to link both Header & Detail file
 07. Click **4. Get Data** button
-![13](../../static/img/miscellaneous/XLS-MDB/13wl.png)
+![13](../../static/img/miscellaneous/XLS-MDB/import-trans-data-getfile-step7.png)
 
 08. Enter the Merge File name.
 09. Click Save button.
@@ -756,24 +756,24 @@ In the arrow there is an Option **A.Load Setting...,** this to load previously m
 Menu: Tools | Check Duplicate Records...
 
 This Function is to check the duplicate records for the selected file
-01. Follow from Step 1 to 6 as above.
-![14](../../static/img/miscellaneous/XLS-MDB/14wl.png)
+01. Follow from Step [1 to 6](#transaction-data) as above.
+![14](../../static/img/miscellaneous/XLS-MDB/check-dup-rec.png)
 
 07. Tick the Column(s) to Group
 08. Click 3. Verify... button
-![15](../../static/img/miscellaneous/XLS-MDB/15wl.png)
+![15](../../static/img/miscellaneous/XLS-MDB/check-dup-rec-step8.png)
 
 ### Split Memo to Columns
 Menu: Tools | Split Memo to Columns...
 
 This option is to Split the memo (Data more then 1 row in the cell) into individual Columns.
-01. Follow from Step 1 to 6 as above.
-![16](../../static/img/miscellaneous/XLS-MDB/16wl.png)
+01. Follow from Step [1 to 6](#transaction-data) as above.
+![16](../../static/img/miscellaneous/XLS-MDB/split-memo.png)
 
 07. Set Number of Column(s) to split (Default is 4).
 08. Select the Column to be Split
 09. Click **5. Split** button.
-![17](../../static/img/miscellaneous/XLS-MDB/17wl.png)
+![17](../../static/img/miscellaneous/XLS-MDB/split-memo-step9.png)
 
 10. Scroll to the right. Highlight in Yellow is the newly Columns Created.
 11. Click 6. Export Excel(*.xls) to export out the Result.
@@ -783,13 +783,13 @@ Menu: Tools | Split String to Columns...
 
 This option is to Split the Long String into individual Columns (Max. 60 Character each Column).
 - Only available in Version 5.10.10.42 & above
-01. Follow from Step 1 to 6 as above.
-![18](../../static/img/miscellaneous/XLS-MDB/18wl.png)
+01. Follow from Step [1 to 6](#transaction-data) as above.
+![18](../../static/img/miscellaneous/XLS-MDB/split-string.png)
 
 07. Set Number of Column(s) to split (Default is 4).
 08. Select the Column to be Split
 09. Click 5. Split button.
-![19](../../static/img/miscellaneous/XLS-MDB/19wl.png)
+![19](../../static/img/miscellaneous/XLS-MDB/split-string-step9.png)
 
 10. Scroll to the right. Highlight in Yellow is the newly Columns Created.
 11. Click 6. Export Excel(*.xls) to export out the Result.
@@ -798,13 +798,13 @@ This option is to Split the Long String into individual Columns (Max. 60 Charact
 Menu: Tools | Convert Rows to Columns...
 
 Only available in Version 4.3.2.15 & above
-01. Follow from Step 1 to 6 as above.
-![20](../../static/img/miscellaneous/XLS-MDB/20wl.png)
+01. Follow from Step [1 to 6](#transaction-data) as above.
+![20](../../static/img/miscellaneous/XLS-MDB/split-rows.png)
 
 07. Set Number of Column(s) to split (Default is 4).
 08. Select the Column to be Convert
 09. Click 5. Convert button.
-![21](../../static/img/miscellaneous/XLS-MDB/21wl.png)
+![21](../../static/img/miscellaneous/XLS-MDB/split-rows-step9.png)
 
 10. Scroll to the right. Highlight in Yellow is the newly Columns Created.
 11. Click 6. Export Excel(*.xls) to export out the Result.
@@ -832,7 +832,7 @@ The empty row as "Reset/End of" Record.
 
 ### Import Setting
 Menu: File | Auto Import Settings...
-![22](../../static/img/miscellaneous/XLS-MDB/22wl.png)
+![22](../../static/img/miscellaneous/XLS-MDB/import-setting.png)
 
 01. Select SQL Accounting DCF file
 02. Select SQL Accounting Database to import & export
@@ -841,9 +841,10 @@ Menu: File | Auto Import Settings...
 05. Select/Tick to Enable With Export CSV File (available in Version Build 85 & above)
 06. Click Next
 
-![23](../../static/img/miscellaneous/XLS-MDB/23wl.png)
+![23](../../static/img/miscellaneous/XLS-MDB/import-setting-step6.png)
 
 The following Steps if Download From FTP is Enable/Tick/Selected
+
 07. Enter the Host/IP Address for FTP
 08. Enter the FTP Port No
 09. Enter the FTP User Name & Password
@@ -862,12 +863,12 @@ The following Steps if Download From FTP is Enable/Tick/Selected
 	The file will download to the Pending Folder which is set at the Last Steps
 :::
 
-![24](../../static/img/miscellaneous/XLS-MDB/24wl.png)
+![24](../../static/img/miscellaneous/XLS-MDB/import-setting-step13.png)
 
 14. Select the Biz Object Type/Document Type to Import
 15. Click Next
 
-![25](../../static/img/miscellaneous/XLS-MDB/25wl.png)
+![25](../../static/img/miscellaneous/XLS-MDB/import-setting-step15.png)
 
 16. Select the Pending folder where Excel files keep to import to SQL Accounting
 17. Select the Done folder to move after done import the Excel file
@@ -881,7 +882,7 @@ The following Steps if Download From FTP is Enable/Tick/Selected
 
 17. Click Next
 
-![26](../../static/img/miscellaneous/XLS-MDB/26wl.png)
+![26](../../static/img/miscellaneous/XLS-MDB/import-setting-step17.png)
 
 18. Select Export folder
 19. Select Last Date To
@@ -906,29 +907,29 @@ The following Steps if Download From FTP is Enable/Tick/Selected
 
 **01\. Open Windows _Control Panel | Administrative Tools | Task Scheduler_**
 
-![27](../../static/img/miscellaneous/XLS-MDB/27wl.png)
+![27](../../static/img/miscellaneous/XLS-MDB/window-sche-step1.png)
 
 **02\. Click _Action | Create Basic Task..._**
 
-![28](../../static/img/miscellaneous/XLS-MDB/28wl.png)
+![28](../../static/img/miscellaneous/XLS-MDB/window-sche-step2.png)
 
 **03\. Enter Task _Name_ (eg SQL Excel Export) & Click Next**
 
-![29](../../static/img/miscellaneous/XLS-MDB/29wl.png)
+![29](../../static/img/miscellaneous/XLS-MDB/window-sche-step3.png)
 
 **04\. Select Daily & Click Next**
 
-![30](../../static/img/miscellaneous/XLS-MDB/30wl.png)
+![30](../../static/img/miscellaneous/XLS-MDB/window-sche-step4.png)
 
 **05\. Set the _Start Date & Time_ to Start**
 
 **06\. Set 1 for _Recur every_ field & Click Next**
 
-![31](../../static/img/miscellaneous/XLS-MDB/31wl.png)
+![31](../../static/img/miscellaneous/XLS-MDB/window-sche-step6.png)
 
 **07\. Select _Start a program_ & Click Next**
 
-![32](../../static/img/miscellaneous/XLS-MDB/32wl.png)
+![32](../../static/img/miscellaneous/XLS-MDB/window-sche-step7.png)
 
 **08\. Click Browse button & find the SQLAccXLSnMDBImp.exe (Default at _C:\\eStream\\Utilities\\SQLAccXLSnMDBImp_)**
 
@@ -936,29 +937,29 @@ The following Steps if Download From FTP is Enable/Tick/Selected
 
 **10\. Set the Start in(optional) path to the Exe folder (eg. C:\\eStream\\Utilities\\SQLAccXLSnMDBImp) & Click Next**
 
-![33](../../static/img/miscellaneous/XLS-MDB/33wl.png)
+![33](../../static/img/miscellaneous/XLS-MDB/window-sche-step10.png)
 
 **11\. Tick the option _Open the Properties dialog for this task when I click Finish_**
 
 **12\. Click Finish**
 
-![34](../../static/img/miscellaneous/XLS-MDB/34wl.png)
+![34](../../static/img/miscellaneous/XLS-MDB/window-sche-step12.png)
 
 **13\. Select the option _Run whether user is logged on or not_**
 
 **14\. Click _Triggers_ tab at top**
 
-![35](../../static/img/miscellaneous/XLS-MDB/35wl.png)
+![35](../../static/img/miscellaneous/XLS-MDB/window-sche-step14.png)
 
 **15\. Click Edit... button**
 
-![36](../../static/img/miscellaneous/XLS-MDB/36wl.png)
+![36](../../static/img/miscellaneous/XLS-MDB/window-sche-step15.png)
 
 **16\. Change the time to run**
 
 **17\. Click OK 2 times**
 
-![37](../../static/img/miscellaneous/XLS-MDB/37wl.png)
+![37](../../static/img/miscellaneous/XLS-MDB/window-sche-step17.png)
 
 **18\. Enter the window User Name & Password**
 
@@ -971,9 +972,9 @@ Steps
 
 01\. Follow from **Step 1 to 4** as above
 
-![38](../../static/img/miscellaneous/XLS-MDB/38wl.png)
+![38](../../static/img/miscellaneous/XLS-MDB/data-modify-step1-1.png)
 
-![39](../../static/img/miscellaneous/XLS-MDB/39wl.gif)
+![39](../../static/img/miscellaneous/XLS-MDB/data-modify-step1-2.gif)
 
 05\. Select the column to be Modify & Right Click
 
@@ -991,14 +992,60 @@ Steps
 | Remove Others Characters... | Delete any characters given in the selected Column |
 
 ## Video
-- [Import Excel - Stock](-)
-- [Import Excel - Maintain Customer](-)
-- [Import Excel - GL Account](-)
-- [Import Excel - Transactions](-)
+- [Import Excel - Stock](https://www.youtube.com/watch?v=i-tBbE2Kh4o)
+- [Import Excel - Maintain Customer](https://www.youtube.com/watch?v=r2AXy9VJiUQ)
+- [Import Excel - GL Account](https://www.youtube.com/watch?v=-kfqNlVP0o4)
+- [Import Excel - Transactions](https://www.youtube.com/watch?v=UOo_ztOvavk)
 
 ## FAQ
 
-**Why the system take so long to Get Data from excel where in excel just few records?**
+1. [Why the system take so long to Get Data from excel where in excel just few records?](#why-the-system-take-so-long-to-get-data-from-excel-where-in-excel-just-few-records)
+2. [Prompt Error external table is not in the expected format when try Get Data from Excel.](#prompt-error-external-table-is-not-in-the-expected-format-when-try-get-data-from-excel)
+3. [My excel date format is in YYYYMMDD format, how I convert it to dd/MM/yyyy?](#my-excel-date-format-is-in-yyyymmdd-format-how-i-convert-it-to-ddmmyyyy)
+4. [My excel date format is in dd-mmm-yyyy with time format, how I convert it to dd/MM/yyyy?](#my-excel-date-format-is-in-dd-mmm-yyyy-with-time-format-how-i-convert-it-to-ddmmyyyy)
+5. [Can I import without Tax Amount (i.e. SQL Account auto Calculate the Tax Amount)?](#can-i-import-without-tax-amount-ie-sql-account-auto-calculate-the-tax-amount)
+6. [Why My Excel data shown as eg 5% but once I Get File become 0.05?](#why-my-excel-data-shown-as-eg-5-but-once-i-get-file-become-005)
+7. [How to add file link in the Attachments Fields?](#how-to-add-file-link-in-the-attachments-fields)
+8. [My Excel for Credit Note/Payment is in Negative Value, can it be import?](#my-excel-for-credit-notepayment-is-in-negative-value-can-it-be-import)
+9. [In My Excel Only had SSM or GST No. for Customer/Supplier can it be import?](#in-my-excel-only-had-ssm-or-gst-no-for-customersupplier-can-it-be-import)
+10. [What is the Company Code Search Sequence?](#what-is-the-company-code-search-sequence)
+11. [Can system Auto Set Tax code if my Excel don't had tax code column?](#can-system-auto-set-tax-code-if-my-excel-dont-had-tax-code-column)
+12. [Prompt "Error Unexpected error from external database driver (1)" when Get file from excel](#prompt-error-unexpected-error-from-external-database-driver-1-when-get-file-from-excel)
+13. [Prompt "Provider cannot be found. It may not be properly installed" when Get file from excel](#prompt-provider-cannot-be-found-it-may-not-be-properly-installed-when-get-file-from-excel)
+14. [My excel String size is longer then SQL, how I can reduce it?](#my-excel-string-size-is-longer-then-sql-how-i-can-reduce-it)
+15. [My excel Don't had account code if got ItemCode can it be import?](#my-excel-dont-had-account-code-if-got-itemcode-can-it-be-import)
+16. [My excel only had Barcode can it be import?](#my-excel-only-had-barcode-can-it-be-import)
+17. [What is the Item Code Search Sequence?](#what-is-the-item-code-search-sequence)
+18. [Why it keep only load lst 100 records even I had registered?](#why-it-keep-only-load-lst-100-records-even-i-had-registered)
+19. [My CSV data is 00123 but after get data become 123 (missing 00)?](#my-csv-data-is-00123-but-after-get-data-become-123-missing-00)
+20. [What is the Proper Steps to Import BOM?](#what-is-the-proper-steps-to-import-bom)
+21. [Can I Import Payment/Credit Note without Knock off Information?](#can-i-import-paymentcredit-note-without-knock-off-information)
+22. [Why after verify all detail Status shown ok but Header Still untick?](#why-after-verify-all-detail-status-shown-ok-but-header-still-untick)
+23. [Why After Import to the Note/Attachment/Description3 data is truncated to 286 characters?](#why-after-import-to-the-noteattachmentdescription3-data-is-truncated-to-286-characters)
+24. [Prompt "Access violation at address xxxxxx in module...." when Get file from excel](#prompt-access-violation-at-address-xxxxxx-in-module-when-get-file-from-excel)
+25. [How to prevent Import Price Tag with empty row?](#how-to-prevent-import-price-tag-with-empty-row)
+26. [How to convert the cell value so I can sum using formula in excel?](#how-to-convert-the-cell-value-so-i-can-sum-using-formula-in-excel)
+27. [Can I Reimport for Same Transactions?](#can-i-reimport-for-same-transactions)
+28. [What is alternative for FTP?](#what-is-alternative-for-ftp)
+29. [How to add Excel Import Shortcut in SQL Accounting?](#how-to-add-excel-import-shortcut-in-sql-accounting)
+30. [How to enter Multi Line for More Description in Excel?](#how-to-enter-multi-line-for-more-description-in-excel)
+31. [How to enter Multi Line for More Description in csv/txt?](#how-to-enter-multi-line-for-more-description-in-csvtxt)
+32. [How to convert Excel to CSV file?](#how-to-convert-excel-to-csv-file)
+33. [How to Load CSV file?](#how-to-load-csv-file)
+34. [I have problem to export field name with ( and ) can I ignore it?](#i-have-problem-to-export-field-name-with--and--can-i-ignore-it)
+35. [Why the Auto Mapping is not correctly map?](#why-the-auto-mapping-is-not-correctly-map)
+36. [I have more then 1 3rd party to import, can I create folder for each party?](#i-have-more-then-1-3rd-party-to-import-can-i-create-folder-for-each-party)
+37. [Can I use SQL Accounting Auto Generate DocNo?](#can-i-use-sql-accounting-auto-generate-docno)
+38. [How to Convert text number to number in Excel?](#how-to-convert-text-number-to-number-in-excel)
+39. [Can I import without UnitPrice (i.e. SQL Account auto Calculate the UnitPrice)?](#can-i-import-without-unitprice-ie-sql-account-auto-calculate-the-unitprice)
+40. [Can System Auto Knock off for Customer Payment Import?](#can-system-auto-knock-off-for-customer-payment-import)
+41. [Can I reimport Customer/Supplier by just update few fields?](#can-i-reimport-customersupplier-by-just-update-few-fields)
+42. [How to load last Save Field Mapping?](#how-to-load-last-save-field-mapping)
+43. [Why after load excel some column had no data but my excel had?](#why-after-load-excel-some-column-had-no-data-but-my-excel-had)
+44. [How to enter multi IV number for CN FromDoc field in excel?](#how-to-enter-multi-iv-number-for-cn-fromdoc-field-in-excel)
+45. [Scheduler Log show Auto Post List Had update. Please Resetup the Auto Import Settings](#scheduler-log-show-auto-post-list-had-update-please-resetup-the-auto-import-settings)
+
+#### Why the system take so long to Get Data from excel where in excel just few records?
 
 This happen when there is the problem in Excel Worksheet.
 
@@ -1016,13 +1063,17 @@ Try below steps
 
 6\. Save the Excel & Try again on New Worksheet
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Prompt Error external table is not in the expected format when try Get Data from Excel.**
+
+#### Prompt Error external table is not in the expected format when try Get Data from Excel.
 
 Try save the file to other name using **File | Save As** in Excel
 
-**My excel date format is in YYYYMMDD format, how I convert it to dd/MM/yyyy?**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### My excel date format is in YYYYMMDD format, how I convert it to dd/MM/yyyy?
 
 Can try use this formula _\=DATE(LEFT(A2,4),MID(A2,5,2),RIGHT(A2,2))_
 
@@ -1032,11 +1083,11 @@ Steps
 
 01\. Follow from **Step 1 to 4** as above
 
-![40](../../static/img/miscellaneous/XLS-MDB/40wl.png)
+![40](../../static/img/miscellaneous/XLS-MDB/faq-convert-date-step1.png)
 
 05\. Select the column to be convert & Right Click
 
-![41](../../static/img/miscellaneous/XLS-MDB/41wl.png)
+![41](../../static/img/miscellaneous/XLS-MDB/faq-convert-date-step5.png)
 
 06\. Select **Convert YYYYMMDD to DD/MM/YYYY...**
 
@@ -1044,15 +1095,17 @@ Steps
 
 08\. Done can continue norm **Step 5 to 12**
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**My excel date format is in dd-mmm-yyyy with time format, how I convert it to dd/MM/yyyy?**
+
+#### My excel date format is in dd-mmm-yyyy with time format, how I convert it to dd/MM/yyyy?
 
 Can try use this formula _\=TEXT(DATEVALUE(TEXT(A41,"dd-mmm-yyyy")),"dd/mm/yyyy")_
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Can I import without Tax Amount (i.e. SQL Account auto Calculate the Tax Amount)?**
+
+#### Can I import without Tax Amount (i.e. SQL Account auto Calculate the Tax Amount)?
 
 Yes with Version _Build 10 & above_, just  
 
@@ -1072,9 +1125,12 @@ Just Map Fields
 
 \- **Tax**
 
-![42](../../static/img/miscellaneous/XLS-MDB/42wl.png)
+![42](../../static/img/miscellaneous/XLS-MDB/faq-import-xtax.png)
 
-**Why My Excel data shown as eg 5% but once I Get File become 0.05?**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### Why My Excel data shown as eg 5% but once I Get File become 0.05?
 
 It because Excel will auto convert the 5% to 0.05 in data.
 
@@ -1088,9 +1144,10 @@ OR
 
 - _\=TEXT(E1,"0.00%")_
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to add file link in the Attachments Fields?**
+
+#### How to add file link in the Attachments Fields?
 
 Just Add _File.Your Link file_
 
@@ -1100,7 +1157,10 @@ _File._[_https://cdn.bulbagarden.net/upload/3/36/648Meloetta-Pirouette.png_](htt
 
 _File._[_https://cdn.bulbagarden.net/upload/6/63/Pokk%C3%A9n_Pikachu_Libre.png_](https://cdn.bulbagarden.net/upload/6/63/Pokk%C3%A9n_Pikachu_Libre.png)
 
-**My Excel for Credit Note/Payment is in Negative Value, can it be import?**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### My Excel for Credit Note/Payment is in Negative Value, can it be import?
 
 No you can't import the document amount with Negative Value.
 
@@ -1110,11 +1170,11 @@ Steps
 
 01\. Follow from **Step 1 to 4** as above
 
-![43](../../static/img/miscellaneous/XLS-MDB/43wl.png)
+![43](../../static/img/miscellaneous/XLS-MDB/faq-neg-value-step1.png)
 
 05\. Select the column to be convert & Right Click
 
-![44](../../static/img/miscellaneous/XLS-MDB/44wl.png)
+![44](../../static/img/miscellaneous/XLS-MDB/faq-neg-value-step5.png)
 
 06\. Select **\*-1 All Data**
 
@@ -1122,9 +1182,10 @@ Steps
 
 08\. Done can continue norm **Step 5 to 12**
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**In My Excel Only had SSM or GST No. for Customer/Supplier can it be import?**
+
+#### In My Excel Only had SSM or GST No. for Customer/Supplier can it be import?**
 
 Yes using Build 16 & above.
 
@@ -1141,7 +1202,7 @@ See below Other available Fields can map
 | Company Name 2 | 31  |
 | Note | 34  |
 
-**What is the Company Code Search Sequence?**
+#### What is the Company Code Search Sequence?
 
 It will search as following sequence (Available in Build 34 & above)
 
@@ -1155,15 +1216,19 @@ It will search as following sequence (Available in Build 34 & above)
 - Remark
 - Note
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Can system Auto Set Tax code if my Excel don't had tax code column?**
+
+#### Can system Auto Set Tax code if my Excel don't had tax code column?
 
 Yes using Version 16 & above
 
 Just make sure **Default Value** field is Empty
 
-**Prompt "Error Unexpected error from external database driver (1)" when Get file from excel**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### Prompt "Error Unexpected error from external database driver (1)" when Get file from excel
 
 This is due to Windows Security update [KB4041681](https://support.microsoft.com/en-us/help/4041681/windows-7-update-kb4041681)  
 Solution 1
@@ -1178,9 +1243,10 @@ Solution 2
 
 03\. Reboot the PC.
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Prompt "Provider cannot be found. It may not be properly installed" when Get file from excel**
+
+#### Prompt "Provider cannot be found. It may not be properly installed" when Get file from excel
 
 Solution 1
 
@@ -1192,9 +1258,10 @@ Solution 2
 
 02\. Reboot the PC.
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**My excel String size is longer then SQL, how I can reduce it?**
+
+#### My excel String size is longer then SQL, how I can reduce it?
 
 Can try use this formula _\=LEFT(A2,30)_ (eg for get 1st 30 character from A2)
 
@@ -1204,15 +1271,15 @@ Steps
 
 01\. Follow from **Step 1 to 4** as above
 
-![45](../../static/img/miscellaneous/XLS-MDB/45wl.png)
+![45](../../static/img/miscellaneous/XLS-MDB/faq-string-size-step1.png)
 
 05\. Select the column to be convert & Right Click
 
-![46](../../static/img/miscellaneous/XLS-MDB/46wl.png)
+![46](../../static/img/miscellaneous/XLS-MDB/faq-string-size-step5.png)
 
 06\. Select **Truncate String...**
 
-![47](../../static/img/miscellaneous/XLS-MDB/47wl.png)
+![47](../../static/img/miscellaneous/XLS-MDB/faq-string-size-step6.png)
 
 07\. Enter the **New size**
 
@@ -1220,19 +1287,21 @@ Steps
 
 09\. Done can continue norm **Step 5 to 12**
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**My excel Don't had account code if got ItemCode can it be import?**
 
-![48](../../static/img/miscellaneous/XLS-MDB/48wl.png)
+#### My excel Don't had account code if got ItemCode can it be import?
+
+![48](../../static/img/miscellaneous/XLS-MDB/faq-item-code1.png)
 
 Yes just make sure Empty the Default Value for **Account** field so system can Auto Get from Maintain Stock Group
 
-![49](../../static/img/miscellaneous/XLS-MDB/49wl.png)
+![49](../../static/img/miscellaneous/XLS-MDB/faq-item-code2.png)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**My excel only had Barcode can it be import?**
+
+#### My excel only had Barcode can it be import?
 
 Yes using Build 26 & above
 
@@ -1248,7 +1317,7 @@ Just map your Barcode to the **ItemCode** Field.
 | Description 2 | 31  |
 | Note | 31  |
 
-**What is the Item Code Search Sequence?**
+#### What is the Item Code Search Sequence?
 
 It will search as following sequence (Available in Build 34 & above)
 
@@ -1262,21 +1331,26 @@ It will search as following sequence (Available in Build 34 & above)
 - CompanyItemCode
 - Note
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Why it keep only load lst 100 records even I had registered?**
 
-![50](../../static/img/miscellaneous/XLS-MDB/50wl.png)
+#### Why it keep only load lst 100 records even I had registered?
+
+![50](../../static/img/miscellaneous/XLS-MDB/faq-100.png)
 
 Make sure you set the Value before you Click **Get File**
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**My CSV data is 00123 but after get data become 123 (missing 00)?**
+
+#### My CSV data is 00123 but after get data become 123 (missing 00)?
 
 Make sure you Double Quoted the value eg "00123"
 
-**What is the Proper Steps to Import BOM?**
+#### What is the Proper Steps to Import BOM?
+
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
 
 01\. Import all Finish Goods & Raw Material Item code using Stock | Maintain Stock Item...&
 
@@ -1284,19 +1358,21 @@ Make sure ItemType for Finish Goods is Set to B
 
 02\. Import using Stock | Maintain Stock Item - BOM...
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Can I Import Payment/Credit Note without Knock off Information?**
 
-![51](../../static/img/miscellaneous/XLS-MDB/51wl.png)
+#### Can I Import Payment/Credit Note without Knock off Information?
+
+![51](../../static/img/miscellaneous/XLS-MDB/faq-import-payment.png)
 
 Yes just set the column & Default Value for **DocType**, **KODocNo** & **KOAmt** to empty
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Why after verify all detail Status shown ok but Header Still untick?**
 
-![52](../../static/img/miscellaneous/XLS-MDB/52wl.png)
+#### Why after verify all detail Status shown ok but Header Still untick?
+
+![52](../../static/img/miscellaneous/XLS-MDB/faq-header.png)
 
 This happen when there is the problem in Excel Worksheet.
 
@@ -1314,40 +1390,49 @@ Try below steps
 
 6\. Save the Excel & Try again on New Worksheet
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Why After Import to the Note/Attachment/Description3 data is truncated to 286 characters?**
+
+#### Why After Import to the Note/Attachment/Description3 data is truncated to 286 characters?
 
 Make sure In Your Excel Header name is using **Note/Description3/Attachment**
 
-**Prompt "Access violation at address xxxxxx in module...." when Get file from excel**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### Prompt "Access violation at address xxxxxx in module...." when Get file from excel
 
 Open the excel try delete few column at the end of excel (see example below)
 
-![53](../../static/img/miscellaneous/XLS-MDB/53wl.png)
+![53](../../static/img/miscellaneous/XLS-MDB/faq-access-violation.png)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to prevent Import Price Tag with empty row?**
 
-![54](../../static/img/miscellaneous/XLS-MDB/54wl.png)
+#### How to prevent Import Price Tag with empty row?
+
+![54](../../static/img/miscellaneous/XLS-MDB/faq-price-tag.png)
 
 Make sure your Excel consist of
 
 - Price Tag Qty
 - Price Tag UOM (don't share same UOM for other field mapping for same Item code)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to convert the cell value so I can sum using formula in excel?**
+
+#### How to convert the cell value so I can sum using formula in excel?
 
 Can try use this formula _\=Value(A2)_
 
-**Can I Reimport for Same Transactions?**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### Can I Reimport for Same Transactions?
 
 Yes for Version 5.16.10.62 & above
 
-![55](../../static/img/miscellaneous/XLS-MDB/55wl.png)
+![55](../../static/img/miscellaneous/XLS-MDB/faq-reimport.png)
 
 01\. Right Click Here & Tick the option Auto Replace for Duplicate
 
@@ -1359,91 +1444,109 @@ Yes for Version 5.16.10.62 & above
 
 05\. Click Post To A/c
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**What is alternative for FTP?**
 
-![56](../../static/img/miscellaneous/XLS-MDB/56wl.png)
+#### What is alternative for FTP?
+
+![56](../../static/img/miscellaneous/XLS-MDB/faq-ftp.png)
 
 You can use like
 
 - [Google Drive](https://www.google.com/drive/download/)
 - [One Drive](https://www.microsoft.com/en-my/microsoft-365/onedrive/download)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to add Excel Import Shortcut in SQL Accounting?**
+
+#### How to add Excel Import Shortcut in SQL Accounting?
 
 You may refer [here](https://download.sql.com.my/customer/Fairy/Excel-Import-46.gif) for steps
 
-**How to enter Multi Line for More Description in Excel?**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-![57](../../static/img/miscellaneous/XLS-MDB/57wl.png)
+
+#### How to enter Multi Line for More Description in Excel?
+
+![57](../../static/img/miscellaneous/XLS-MDB/faq-multi-line.png)
 
 You can enter it all in 1 cell
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to enter Multi Line for More Description in csv/txt?**
+
+#### How to enter Multi Line for More Description in csv/txt?
 
 - In Version 5.19.19.87 & above you can just insert **#13** as return character
 
 eg ...|ERICSSON A10118s|Line 1#13Line 2#13Line 3|1|...
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to convert Excel to CSV file?**
 
-![58](../../static/img/miscellaneous/XLS-MDB/58wl.gif)
+#### How to convert Excel to CSV file?
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+![58](../../static/img/miscellaneous/XLS-MDB/faq-exl-to-csv.gif)
 
-**How to Load CSV file?**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-![59](../../static/img/miscellaneous/XLS-MDB/59wl.gif)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+#### How to Load CSV file?
 
-**I have problem to export field name with ( and ) can I ignore it?**
+![59](../../static/img/miscellaneous/XLS-MDB/faq-load-csv.gif)
+
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### I have problem to export field name with ( and ) can I ignore it?
 
 Yes you can just ignore the ( and )
 
 eg **Code(10)** can just export as Code10
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Why the Auto Mapping is not correctly map?**
+
+#### Why the Auto Mapping is not correctly map?
 
 Make sure the column position you export out is same as our template column position
 
-**I have more then 1 3rd party to import, can I create folder for each party?**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### I have more then 1 3rd party to import, can I create folder for each party?
 
 Yes can for Build 70 & above. Below is Example to setup 3 diff POS System
 
-![60](../../static/img/miscellaneous/XLS-MDB/60wl.png)
+![60](../../static/img/miscellaneous/XLS-MDB/faq-3party-import1.png)
 
 In the Auto Import
 
 - **Pending Folder** - Select the Root folder where have more then 1 3rd party
 - Tick/Select **Include SubFolder File(s)**
 
-![61](../../static/img/miscellaneous/XLS-MDB/61wl.png)
+![61](../../static/img/miscellaneous/XLS-MDB/faq-3party-import2.png)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Can I use SQL Accounting Auto Generate DocNo?**
+
+#### Can I use SQL Accounting Auto Generate DocNo?
 
 Yes can for Build 70 & above. Just Prefix `<New>`n in the DocNo field for each set where n is number. Example below is for 2 Invoice number
 
-![62](../../static/img/miscellaneous/XLS-MDB/62wl.png)
+![62](../../static/img/miscellaneous/XLS-MDB/faq-auto-generate.png)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to Convert text number to number in Excel?**
 
-![63](../../static/img/miscellaneous/XLS-MDB/63wl.gif)
+#### How to Convert text number to number in Excel?
 
-**Can I import without UnitPrice (i.e. SQL Account auto Calculate the UnitPrice)?**
+![63](../../static/img/miscellaneous/XLS-MDB/faq-text-num.gif)
+
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### Can I import without UnitPrice (i.e. SQL Account auto Calculate the UnitPrice)?
 
 Yes with Version _Build 79 & above_, just  
 
@@ -1459,19 +1562,21 @@ Don't Map & Set Empty For Default Value for the fields
 
 \- **Amount**
 
-![64](../../static/img/miscellaneous/XLS-MDB/64wl.png)
+![64](../../static/img/miscellaneous/XLS-MDB/faq-x-price.png)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Can System Auto Knock off for Customer Payment Import?**
+
+#### Can System Auto Knock off for Customer Payment Import?
 
 Yes with Version _Build 74 & above_, just tick the option
 
-![65](../../static/img/miscellaneous/XLS-MDB/65wl.png)
+![65](../../static/img/miscellaneous/XLS-MDB/faq-at-knockoff.png)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**Can I reimport Customer/Supplier by just update few fields?**
+
+#### Can I reimport Customer/Supplier by just update few fields?
 
 Yes using the Customer&Supplier Master_New template
 
@@ -1484,31 +1589,37 @@ Below is steps how to import for update Maintain Customer Remark Field only
 
 Click [Here](https://download.sql.com.my/customer/Fairy/Steps-Excel-Import-57.gif) for video
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to load last Save Field Mapping?**
 
-![66](../../static/img/miscellaneous/XLS-MDB/66wl.gif)
+#### How to load last Save Field Mapping?
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+![66](../../static/img/miscellaneous/XLS-MDB/faq-load-last-save.gif)
 
-**Why after load excel some column had no data but my excel had?**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### Why after load excel some column had no data but my excel had?
 
 This happen if 1 of the column is merge cell
 
-![67](../../static/img/miscellaneous/XLS-MDB/67wl.png)
+![67](../../static/img/miscellaneous/XLS-MDB/faq-load-excel.png)
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
-**How to enter multi IV number for CN FromDoc field in excel?**
 
-![68](../../static/img/miscellaneous/XLS-MDB/68wl.png)
+#### How to enter multi IV number for CN FromDoc field in excel?
 
-[\[FAQ\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#FAQ) [\[top\]](https://wiki.sql.com.my/wiki/SQL_Acc_XLS_n_MDB_Import#top)
+![68](../../static/img/miscellaneous/XLS-MDB/faq-multi-iv.png)
 
-**Scheduler Log show Auto Post List Had update. Please Resetup the Auto Import Settings**
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
+
+
+#### Scheduler Log show Auto Post List Had update. Please Resetup the Auto Import Settings
 
 May click the Reset Lit button in the Auto Import Setting...
 
-![69](../../static/img/miscellaneous/XLS-MDB/69wl.gif)
+![69](../../static/img/miscellaneous/XLS-MDB/faq-log.gif)
+
+[\[FAQ\]](#FAQ) [\[top\]](#Requirement)
 
