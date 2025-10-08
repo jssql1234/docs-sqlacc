@@ -20,7 +20,7 @@ tags: ["SQL Account", "Usage"]
     5. **Include Zero Transaction** – choose to show accounts in the report even if there are 0 transactions.
     6. **Local Currency & Foreign Currency** – If you have foreign currency transactions, you can tick the foreign currency so that the system will show the figures in foreign currency compare versus local currency.
     7. **Apply**
-![1](../../../static/img/general-ledger/glreport/ledge-rpt.png)
+![1](../../../static/img/usage/general-ledger/glreport/ledge-rpt.png)
 
 ### Balance Sheet
 
@@ -48,7 +48,7 @@ tags: ["SQL Account", "Usage"]
 
 6. **Apply**
 
-![2](../../../static/img/general-ledger/glreport/bal-sheet.png)
+![2](../../../static/img/usage/general-ledger/glreport/bal-sheet.png)
 
 ### Profit & Loss Statement
 
@@ -74,7 +74,7 @@ tags: ["SQL Account", "Usage"]
 
 5.**Apply**
 
-   ![3](../../../static/img/general-ledger/glreport/pnl-state.png)
+   ![3](../../../static/img/usage/general-ledger/glreport/pnl-state.png)
 
 ### Trial Balance
 
@@ -92,4 +92,4 @@ tags: ["SQL Account", "Usage"]
 
 5. **Apply**
 
-   ![4](../../../static/img/general-ledger/glreport/trial-bal.png)
+   ![4](../../../static/img/usage/general-ledger/glreport/trial-bal.png)

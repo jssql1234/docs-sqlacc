@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: SQL Acc DKSH Export
 description: SQL Acc DKSH Export   
-slug: /miscellaneous/export/dksh-export
+slug: /miscellaneous/third-party-export/dksh-export
 tags: ["SQL Account","DKSH" , "Export"]
 ---
 
@@ -52,11 +52,11 @@ Document Type Export
 ### Firebird
 During Installation of Firebird make sure the option (see Below picture) is selected
 
-![15](../../../static/img/miscellaneous/export/15jt.png)
+![15](../../../static/img/miscellaneous/third-party-export/dksh-firbird.png)
 
 ### Export Program
 
-![16](../../../static/img/miscellaneous/export/16jt.png)
+![16](../../../static/img/miscellaneous/third-party-export/dksh-exp.png)
 
 01. Enter the Server Name or IP Address.
 02. Click the button & select the Database to be export out.
@@ -73,7 +73,7 @@ Below steps is to export data
 ### Maintain Customer
 Menu: Customer | Maintain Customer...
 
-![17](../../../static/img/miscellaneous/export/17jt.png)
+![17](../../../static/img/miscellaneous/third-party-export/dksh-customer.png)
 
 01. Click Edit
 02. Enter the **DKSH Outlet Type** at CompanyName2
@@ -82,7 +82,7 @@ Menu: Customer | Maintain Customer...
 ### Stock Item
 Menu: Stock | Maintain Stock Item...
 
-![18](../../../static/img/miscellaneous/export/18jt.png)
+![18](../../../static/img/miscellaneous/third-party-export/dksh-item.png)
 
 01. Click Edit
 02. Enter the **DKSH Product Code** at *Description2*

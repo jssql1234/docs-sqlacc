@@ -64,26 +64,26 @@ Is External Shareware Program which to import Mamee Text or CSV file to
 ## Field Mapping - Header
 ### Produc Related - Format 1
 
-![21](../../static/img/miscellaneous/ThirdPatyImport/mamee-header-1.png)
+![21](../../static/img/miscellaneous/third-party-import/mamee-header-1.png)
  
 ### Product Related - Format 2
 
-![22](../../static/img/miscellaneous/ThirdPatyImport/mamee-header-2.png)
+![22](../../static/img/miscellaneous/third-party-import/mamee-header-2.png)
 
 ## Field Mapping - Detail
 
 ### Product Related - Format 1
 
-![23](../../static/img/miscellaneous/ThirdPatyImport/mamee-detail-1.png)
+![23](../../static/img/miscellaneous/third-party-import/mamee-detail-1.png)
 
 ### Product Related - Format 2
 
-![24](../../static/img/miscellaneous/ThirdPatyImport/mamee-detail-2.png)
+![24](../../static/img/miscellaneous/third-party-import/mamee-detail-2.png)
 
 ## Field Mapping - Header
 ### Non-Product Related
 
-![25](../../static/img/miscellaneous/ThirdPatyImport/mamee-header-xproduct.png)
+![25](../../static/img/miscellaneous/third-party-import/mamee-header-xproduct.png)
 
 ## Setting
 ### In SQL Accounting
@@ -128,7 +128,7 @@ Menu : Tools | Options...
 
 Menu : Tools | Maintain Agent...
 
-![1](../../static/img/miscellaneous/ThirdPatyImport/mamee-import1.png) 
+![1](../../static/img/miscellaneous/third-party-import/mamee-import1.png) 
 
 | Options       | Description                 |
 |---------------|-----------------------------|
@@ -141,7 +141,7 @@ Menu : Tools | Maintain Agent...
 04. Click Tick to Save
 Menu : Tools | Maintain Non-Product GL...
 
-![2](../../static/img/miscellaneous/ThirdPatyImport/mamee-import2.png)
+![2](../../static/img/miscellaneous/third-party-import/mamee-import2.png)
 
 | Options               | Description                                      |
 |-----------------------|--------------------------------------------------|
@@ -162,16 +162,16 @@ Below steps is example to import Sales Invoice
 
 01. Click **Product | Invoice...**
 
-![3](../../static/img/miscellaneous/ThirdPatyImport/mamee-pr-step1.png)
+![3](../../static/img/miscellaneous/third-party-import/mamee-pr-step1.png)
 
 02. Click **Get File** button & system will prompt 2 dialog like below
 
-![4](../../static/img/miscellaneous/ThirdPatyImport/mamee-pr-step2.png)
+![4](../../static/img/miscellaneous/third-party-import/mamee-pr-step2.png)
 
 03. Select the Mamee Invoice **Text/CSV** Header File
 04. Click **Open**
 
-![5](../../static/img/miscellaneous/ThirdPatyImport/mamee-pr-step4.png)
+![5](../../static/img/miscellaneous/third-party-import/mamee-pr-step4.png)
 
 05. Select the Mamee Invoice Text/CSV Detail File
 06. Click **Open**
@@ -187,11 +187,11 @@ Below steps is example to import Sales Credit Note
 
 01. Click **Non-Product | Credit Note...**
 
-![6](../../static/img/miscellaneous/ThirdPatyImport/mamee-npr-step1.png)
+![6](../../static/img/miscellaneous/third-party-import/mamee-npr-step1.png)
 
 02. Click **Get File** button & system will prompt dialog like below
 
-![7](../../static/img/miscellaneous/ThirdPatyImport/mamee-npr-step2.png)
+![7](../../static/img/miscellaneous/third-party-import/mamee-npr-step2.png)
 
 03. Select the Mamee Non Product Credit Note Text/CSV File
 04. Click **Open**
@@ -327,11 +327,11 @@ Export E-Invoice to F&N - Available in Build 18 & Above
 
 - As at 17 Jun 2015 - ESD soft-drink - Fixed Length Format
 
-![26](../../static/img/miscellaneous/ThirdPatyImport/fnn-detail1.png)
+![26](../../static/img/miscellaneous/third-party-import/fnn-detail1.png)
 
 - As at 15 Aug 2016 - ESD Online - CSV Format
 
-![27](../../static/img/miscellaneous/ThirdPatyImport/fnn-detail2.png)
+![27](../../static/img/miscellaneous/third-party-import/fnn-detail2.png)
 
 ## Setting
 ### In SQL Accounting
@@ -357,16 +357,16 @@ Below steps is example to import Sales Invoice
 01. Click Sales | Invoice...
 02. Click Get File button & system will prompt 2 dialog like below
 
-![8](../../static/img/miscellaneous/ThirdPatyImport/fnn-import1.png)
+![8](../../static/img/miscellaneous/third-party-import/fnn-import1.png)
 
 03. Click Files of Type & select the FnN File Format type
 04. Select the F&N Invoice Text Header File
 
-![9](../../static/img/miscellaneous/ThirdPatyImport/fnn-import2.png)
+![9](../../static/img/miscellaneous/third-party-import/fnn-import2.png)
 
 05. Select the F&N Invoice Text Detail File
 
-![10](../../static/img/miscellaneous/ThirdPatyImport/fnn-import3.png)
+![10](../../static/img/miscellaneous/third-party-import/fnn-import3.png)
 
 06. Click Verify button to check the data with SQL Accounting Data
 07. Select Project & Location (if Required)
@@ -378,7 +378,7 @@ Remember to check the data with Has Deemed Supplies column which is Tick as syst
 
 ### Export E Invoice/Credit Note
 
-![11](../../static/img/miscellaneous/ThirdPatyImport/fnn-export.png)
+![11](../../static/img/miscellaneous/third-party-import/fnn-export.png)
 
 01. Click Export E-Invoice Status...
 02. Select Range Date (E-Invoice Submission date)
@@ -541,15 +541,15 @@ Below steps is example to import Sales Invoice
 01. Click Sales | Invoice...
 02. Click Get File button & system will prompt 2 dialog like below
 
-![12](../../static/img/miscellaneous/ThirdPatyImport/unilever-import-step2.png)
+![12](../../static/img/miscellaneous/third-party-import/unilever-import-step2.png)
 
 03. Select the Unilever Invoice Text Header File
 
-![13](../../static/img/miscellaneous/ThirdPatyImport/unilever-import-step3.png)
+![13](../../static/img/miscellaneous/third-party-import/unilever-import-step3.png)
 
 04. Select the Unilever Invoice Text Detail File
 
-![14](../../static/img/miscellaneous/ThirdPatyImport/unilever-import-step4.png)
+![14](../../static/img/miscellaneous/third-party-import/unilever-import-step4.png)
 
 05. Click Verify button to check the data with SQL Accounting Data
 06. Select Project & Location (if Required)
@@ -679,12 +679,12 @@ Menu: Sales | Invoice...
 
 01. Click 1. Get File button
 
-![15](../../static/img/miscellaneous/ThirdPatyImport/dryper-so-step1.png)
+![15](../../static/img/miscellaneous/third-party-import/dryper-so-step1.png)
 
 02. Select the File file wanted to import
 03. Click Open
 
-![16](../../static/img/miscellaneous/ThirdPatyImport/dryper-so-step3.png)
+![16](../../static/img/miscellaneous/third-party-import/dryper-so-step3.png)
 
 04. Select the Excel Sheet (if more then 1)
 05. Set No of record to Load (only available for Registered user)
@@ -694,7 +694,7 @@ Menu: Sales | Invoice...
 
 ## Customer Credit Note - Export
 Menu: Customer | Customer Credit Note - Export...
-![17](../../static/img/miscellaneous/ThirdPatyImport/dryper-cn-export.png)
+![17](../../static/img/miscellaneous/third-party-import/dryper-cn-export.png)
 
 01. Enter the Distributor Code (Provided by Dryper)
 02. Enter the Branch Code (Provided by Dryper)
@@ -706,7 +706,7 @@ Menu: Customer | Customer Credit Note - Export...
 ### How it look like if Dryper had 3 level of discount?
 Once Import it will look like below
 
-![18](../../static/img/miscellaneous/ThirdPatyImport/faq-3level.png)
+![18](../../static/img/miscellaneous/third-party-import/faq-3level.png)
 
 # SLPH
 
@@ -774,7 +774,7 @@ Add Get User Guide... Option.
 ### In SLPH Import
 Menu : Tools | Maintain Tax
 
-![19](../../static/img/miscellaneous/ThirdPatyImport/slph_import.png)
+![19](../../static/img/miscellaneous/third-party-import/slph_import.png)
 
 01. Click New/Edit to Insert or update
 02. Select Sales Tax Code
@@ -785,7 +785,7 @@ Menu : Tools | Maintain Tax
 Menu : Purchase | Purchase Invoice...
 Below steps is example to import Purchase Invoice
 
-![20](../../static/img/miscellaneous/ThirdPatyImport/slph-step.png)
+![20](../../static/img/miscellaneous/third-party-import/slph-step.png)
 
 01. Click Get File button
 02. Select Supplier Code to update

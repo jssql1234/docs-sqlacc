@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: SQL Acc Samsung Export
 description: SQL Acc Samsung Export  
-slug: /miscellaneous/export/samsung-export
+slug: /miscellaneous/third-party-export/samsung-export
 tags: ["SQL Account","Samsung" , "Export"]
 ---
 ## Introduction
@@ -96,14 +96,14 @@ Document Type Export (Total 2 Text files)
 ## Settings
 ### Export Program
 
-![19](../../../static/img/miscellaneous/export/19jt.png)
+![19](../../../static/img/miscellaneous/third-party-export/samsung-exp.png)
 
 01. Select SQL Accounting DCF file.
 02. Select SQL Accounting Database to export.
 03. Click **Test Connection**.
 04. Click Next.
 
-![20](../../../static/img/miscellaneous/export/20jt.png)
+![20](../../../static/img/miscellaneous/third-party-export/samsung-exp-step4.png)
 
 | Field                | Description |
 |-----------------------|-------------|
@@ -116,7 +116,7 @@ Document Type Export (Total 2 Text files)
 06. Enter the **Samsung Code** (Provided by Samsung).
 07. Click Next.
 
-![21](../../../static/img/miscellaneous/export/21jt.png)
+![21](../../../static/img/miscellaneous/third-party-export/samsung-exp-step7.png)
 
 08. Select Output folder.
 09. Select Last Export Date.
@@ -125,28 +125,28 @@ Document Type Export (Total 2 Text files)
 ### Windows Schedule
 01. Open Windows Control Panel | Administrative Tools | Task Scheduler.
 
-![22](../../../static/img/miscellaneous/export/22jt.png)
+![22](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step1.png)
 
 02. Click Action | Create Basic Task...
 
-![23](../../../static/img/miscellaneous/export/23jt.png)
+![23](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step2.png)
 
 03. Enter Task Name (eg SQL Acc Sumsung Export) & Click Next
 
-![24](../../../static/img/miscellaneous/export/24jt.png)
+![24](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step3.png)
 
 04. Select Daily & Click Next.
 
-![25](../../../static/img/miscellaneous/export/25jt.png)
+![25](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step4.png)
 
 05. Set the Start Date & Time to Start.
 06. Set 1 for Recur every field & Click Next.
 
-![26](../../../static/img/miscellaneous/export/26jt.png)
+![26](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step6.png)
 
 07. Select Start a program & Click Next.
 
-![27](../../../static/img/miscellaneous/export/27jt.png)
+![27](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step7.png)
 
 08. Click Browse button & find the **SQLAccSumsungExportV2.exe** (Default at
 C:\eStream\Utilities\SQLAccSumsungExportV2).
@@ -154,26 +154,26 @@ C:\eStream\Utilities\SQLAccSumsungExportV2).
 10. Set the Start in(optional) path to the Exe folder (eg.
 C:\eStream\Utilities\SQLAccSumsungExportV2) & Click Next.
 
-![28](../../../static/img/miscellaneous/export/28jt.png)
+![28](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step10.png)
 
 11. Tick the option Open the Properties dialog for this task when I click Finish
 12. Click Finish
 
-![29](../../../static/img/miscellaneous/export/29jt.png)
+![29](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step12.png)
 
 13. Select the option *Run* whether user is logged on or not
 14. Click *Triggers* tab at top
 
-![30](../../../static/img/miscellaneous/export/30jt.png)
+![30](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step14.png)
 
 15. Click Edit... button
 
-![31](../../../static/img/miscellaneous/export/31jt.png)
+![31](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step15.png)
 
 16. Change the time to run
 17. Click OK 2 times
 
-![32](../../../static/img/miscellaneous/export/32jt.png)
+![32](../../../static/img/miscellaneous/third-party-export/samsung-win-sche-step17.png)
 
 18. Enter the window User Name & Password
 19. Click Ok

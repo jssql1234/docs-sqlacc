@@ -1,9 +1,9 @@
 ---
 sidebar_position: 16
-id: new-text-import-utility
+id: text-import-utility
 title: Text Import Utility Guide
 description: A quick guide on Text Import Utility for SQL Account
-slug: /miscellaneous/new-text-import-utility
+slug: /miscellaneous/text-import
 tags: ["SQL Account", "Text", "Import"]
 ---
 
