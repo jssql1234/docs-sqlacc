@@ -66,7 +66,7 @@ May refer link below :
 
 ## What or Which Transaction will be used for Setting ?
 
- ![ch344](../../../static/img/e-commerce/different/ch344.png)
+ ![ch344](../../../static/img/integration/e-commerce/different/ch344.png)
 
  | **Field**    | **Description**                                                                 |
 |--------------|---------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ This happens when user :
 
 - Below is Example Selling Mobile Phone with Power Bank :
 
-![ch345](../../../static/img/e-commerce/different/ch345.png)
+![ch345](../../../static/img/integration/e-commerce/different/ch345.png)
 
 ## Why Expired Date COlumn keep showing Wrong Date even after relogin to the platform ?
 
@@ -111,7 +111,7 @@ Its due to your pc **system date time** is not correctly set...
 - Solution :
     1. Click Windows , search Date & Time Settings
     2. Make sure You select correct **Time zone**
-    ![ch346](../../../static/img/e-commerce/different/ch346.png)
+    ![ch346](../../../static/img/integration/e-commerce/different/ch346.png)
     3. Click Sync
     4. Try Relogin the platform again in SQL Accounting
 
@@ -122,7 +122,7 @@ Its due to your pc **system date time** is not correctly set...
 
 ### How does the system post when Shipping Fees Charges is higher than Seller Paid Amount that causes the Escrow Amount becomes negative ?
 
-![ch347](../../../static/img/e-commerce/different/ch347.png)
+![ch347](../../../static/img/integration/e-commerce/different/ch347.png)
 
 System will Post to **Sales CN** and set Qty in Negative (In the **Order Tab**).
 When Load in Income statement(.xls) files into **Payment Tab**, system will auto post to **Customer Refund**.
@@ -131,7 +131,7 @@ When Load in Income statement(.xls) files into **Payment Tab**, system will auto
 
 This usually happens when Buyer is not at Home after a few attempts sent and seller decided to cancel the Order.
 
-![ch348](../../../static/img/e-commerce/different/ch348.png)
+![ch348](../../../static/img/integration/e-commerce/different/ch348.png)
 
 ### How System handle Payment Withdraw ?
 
@@ -143,7 +143,7 @@ This usually happens when Buyer is not at Home after a few attempts sent and sel
 
 Try redownload again from shopee as shopee had updated the format.
 
-![ch349](../../../static/img/e-commerce/different/ch349.png)
+![ch349](../../../static/img/integration/e-commerce/different/ch349.png)
 
 </details>
 

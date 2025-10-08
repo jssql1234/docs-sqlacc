@@ -446,17 +446,17 @@ For example : If we set Credit Limit over RM30,000 will required override
 
 1. A Dialog box will be prompted after *Save Invoice*, ***‘Do You want to override?’*** > Click ***Yes***
 
-    ![8](../../../static/img/sales/start-online-mobile-approval/8.png)
+    ![8](../../../static/img/start-online-mobile-approval/8.png)
 
 2. Click on ***Online Approval***
 
-    ![9](../../../static/img/sales/start-online-mobile-approval/9.png)
+    ![9](../../../static/img/start-online-mobile-approval/9.png)
 
    1. Tick the ID that you choose to get approval
 
    2. You can choose to send by **Whatsapp**, **Send by Email** or **Send by Whatsapp & Email**
 
-       ![10](../../../static/img/sales/start-online-mobile-approval/10.png)
+       ![10](../../../static/img/start-online-mobile-approval/10.png)
 
 3. You will receive a message at **Whatsapp** message or **email sent by system**
 
@@ -464,13 +464,13 @@ For example : If we set Credit Limit over RM30,000 will required override
 
         You will receive a message > Click the link
 
-        ![11](../../../static/img/sales/start-online-mobile-approval/11.png)
+        ![11](../../../static/img/start-online-mobile-approval/11.png)
 
    - **Senario 2 : Send By Email**
 
         You will receive an email > Click **'CLICK HERE FOR MORE ACTIONS'**
 
-        ![12](../../../static/img/sales/start-online-mobile-approval/12.png)
+        ![12](../../../static/img/start-online-mobile-approval/12.png)
 
 4. Login **Gmail Address** that you set in maintain user **Open ID (Google)**
 
@@ -481,15 +481,15 @@ For example : If we set Credit Limit over RM30,000 will required override
 
     :::
 
-    ![13](../../../static/img/sales/start-online-mobile-approval/13.png)
+    ![13](../../../static/img/start-online-mobile-approval/13.png)
 
 5. Enter your Gmail Password
 
-    ![14](../../../static/img/sales/start-online-mobile-approval/14.png)
+    ![14](../../../static/img/start-online-mobile-approval/14.png)
 
 6. After Login Gmail you will see this window
 
-    ![15](../../../static/img/sales/start-online-mobile-approval/15.png)
+    ![15](../../../static/img/start-online-mobile-approval/15.png)
 
 7. You can click on **Doc Detail** and **ScreenShot** to see the detail
 
@@ -499,7 +499,7 @@ For example : If we set Credit Limit over RM30,000 will required override
 
    3. **Reply** : You can left a message and click Approve or Reject
 
-        ![16](../../../static/img/sales/start-online-mobile-approval/16.png)
+        ![16](../../../static/img/start-online-mobile-approval/16.png)
 
     :::info[note]
     After Approve or Reject you can go back SQL Accounting, you will see below possible scenario
@@ -513,7 +513,7 @@ For example : If we set Credit Limit over RM30,000 will required override
          >
          >c. Click **OK** to save that transaction
 
-         ![17](../../../static/img/sales/start-online-mobile-approval/17.png)
+         ![17](../../../static/img/start-online-mobile-approval/17.png)
 
      - **Scenario 2 : Reject Override**
 
@@ -523,11 +523,11 @@ For example : If we set Credit Limit over RM30,000 will required override
          >
          >c. **OK** button is disabled after reject, click **Cancel**
 
-         ![18](../../../static/img/sales/start-online-mobile-approval/18.png)
+         ![18](../../../static/img/start-online-mobile-approval/18.png)
 
          After Click Cancel System will Prompt back to this dialog box :
 
-         ![19](../../../static/img/sales/start-online-mobile-approval/19.png)
+         ![19](../../../static/img/start-online-mobile-approval/19.png)
 
 ### When to use?
 
@@ -554,15 +554,15 @@ These **ALL** can use Online Approval for user :
 
 1. Tools > Maintain User
 
-    ![1](../../../static/img/sales/start-online-mobile-approval/1.png)
+    ![1](../../../static/img/start-online-mobile-approval/1.png)
 
 ### 2. Edit User
 
 1. Double click the user that you want to setting > Edit
 
-    ![2](../../../static/img/sales/start-online-mobile-approval/2.png)
+    ![2](../../../static/img/start-online-mobile-approval/2.png)
 
-    ![3](../../../static/img/sales/start-online-mobile-approval/3.png)
+    ![3](../../../static/img/start-online-mobile-approval/3.png)
 
 ### 3. Set Approval Person
 
@@ -578,7 +578,7 @@ These **ALL** can use Online Approval for user :
     If receive notification email and approve email is Gmail, do setting only at **3.OPEN ID (Google)** and leave **2.Email** column blank
     :::
 
-    ![4](../../../static/img/sales/start-online-mobile-approval/4.png)
+    ![4](../../../static/img/start-online-mobile-approval/4.png)
 
     For Example :
 
@@ -591,7 +591,7 @@ These **ALL** can use Online Approval for user :
             2. Email : **Left as blank**
             ```
 
-            ![5](../../../static/img/sales/start-online-mobile-approval/5.png)
+            ![5](../../../static/img/start-online-mobile-approval/5.png)
 
         - **Senario 2 : Use Different email to received notification and give approval**
 
@@ -603,7 +603,7 @@ These **ALL** can use Online Approval for user :
             1. Open ID (Google) : Put your gmail address XXXXXX@gmail.com
             2. Email : XXXXXX@estream.com
 
-            ![6](../../../static/img/sales/start-online-mobile-approval/6.png)
+            ![6](../../../static/img/start-online-mobile-approval/6.png)
 
 ### 4. Setting SMTP
 
@@ -627,7 +627,7 @@ These **ALL** can use Online Approval for user :
 8. Your Email Sender Name
 9. Afte done setting click Save
 
-    ![7](../../../static/img/sales/start-online-mobile-approval/7.png)
+    ![7](../../../static/img/start-online-mobile-approval/7.png)
 
 ## Maintain Journal
 

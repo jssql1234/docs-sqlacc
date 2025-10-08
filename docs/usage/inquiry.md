@@ -10,7 +10,7 @@ tags: ["SQL Account", "Usage", "Inquiry"]
 
 Quick inquiry the ledger transactions for General Ledger, Sales Ledger (Customer) and Purchase Ledger (Supplier).
 
-![1](../../static/img/getting-started/inquiry/yc1-1inquiry.jpg)
+![account-inquiry](../../static/img/usage/inquiry/account-inquiry.jpg)
 
 ### General Ledger
 
@@ -20,7 +20,7 @@ Quick inquiry the ledger transactions for General Ledger, Sales Ledger (Customer
 
 3. Click on **Apply**.
 
-![2](../../static/img/getting-started/inquiry/yc1-2.jpg)
+![general-ledger](../../static/img/usage/inquiry/general-ledger.jpg)
 
 ### Sales Ledger (Customer)
 
@@ -30,7 +30,7 @@ Quick inquiry the ledger transactions for General Ledger, Sales Ledger (Customer
 
 3. Click on **Apply**.
 
-![3](../../static/img/getting-started/inquiry/yc1-3.jpg)
+![sales-ledger](../../static/img/usage/inquiry/sales-ledger.jpg)
 
 ### Purchase Ledger (Supplier)
 
@@ -40,7 +40,7 @@ Quick inquiry the ledger transactions for General Ledger, Sales Ledger (Customer
 
 3. Click on **Apply**.
 
-![4](../../static/img/getting-started/inquiry/yc1-4.jpg)
+![purchase-ledger](../../static/img/usage/inquiry/purchase-ledger.jpg)
 
 ### Access Control in Account Inquiry
 
@@ -50,15 +50,15 @@ Go to **[Tools | Maintain User...]**
 
 2. Tick or untick Execute to:
 
-![5](../../static/img/getting-started/inquiry/yc1-5.png)
+![account-inquiry-access-control-table](../../static/img/usage/inquiry/account-inquiry-access-control-table.png)
 
-![6](../../static/img/getting-started/inquiry/yc1-6.jpg)
+![account-inquiry-access-control](../../static/img/usage/inquiry/account-inquiry-access-control.jpg)
 
 ## Cash Flow Inquiry
 
 Quick inquiry the Cash Flow for all the **bank** and **cash** account type.
 
-![7](../../static/img/getting-started/inquiry/yc2-1.jpg)
+![cash-flow-inquiry](../../static/img/usage/inquiry/cash-flow-inquiry.jpg)
 
 ## Cash Flow Forecast
 
@@ -76,7 +76,7 @@ Quick inquiry the Cash Flow for all the **bank** and **cash** account type.
     2. Example above is as as 05 Feb 2016 in GL Ledger
 :::
 
-![8](../../static/img/getting-started/inquiry/yc3-1.jpg)
+![cash-flow-forecast](../../static/img/usage/inquiry/cash-flow-forecast.jpg)
 
 ### Summary
 
@@ -91,52 +91,52 @@ Quick inquiry the Cash Flow for all the **bank** and **cash** account type.
     5. Half-Yearly
     6. Yearly
 
-![9](../../static/img/getting-started/inquiry/yc3-2.jpg)
+![cash-flow-forecast-summary](../../static/img/usage/inquiry/cash-flow-forecast-summary.jpg)
 
 ### Detail
 
 1. Highlight the **interval**.
 
-![10](../../static/img/getting-started/inquiry/yc3-3.jpg)
+![cash-flow-forecast-detail-1](../../static/img/usage/inquiry/cash-flow-forecast-detail-1.jpg)
 
 2. To check the details for the interval. Click on **Detail**.
 
-![11](../../static/img/getting-started/inquiry/yc3-4.jpg)
+![cash-flow-forecast-detail-2](../../static/img/usage/inquiry/cash-flow-forecast-detail-2.jpg)
 
 ### Graph
 
 1. Highlight the **interval**.
 
-![12](../../static/img/getting-started/inquiry/yc3-5.jpg)
+![cash-flow-forecast-graph-1](../../static/img/usage/inquiry/cash-flow-forecast-graph-1.jpg)
 
 2. To view the graph for the interval. Click on **Graph**.
 
-![13](../../static/img/getting-started/inquiry/yc3-6.jpg)
+![cash-flow-forecast-graph-2](../../static/img/usage/inquiry/cash-flow-forecast-graph-2.jpg)
 
 ## Customer Pricing Inquiry
 
 To inquire the item pricing for a customer.
 
-![14](../../static/img/getting-started/inquiry/yc4-1.jpg)
+![customer-pricing-inquiry](../../static/img/usage/inquiry/customer-pricing-inquiry.jpg)
 
 ### Customer Price Inquiry
 1. Select the **item code** to inquire the price.
 
-![15](../../static/img/getting-started/inquiry/yc4-2.jpg)
+![customer-price-inquiry-1](../../static/img/usage/inquiry/customer-price-inquiry-1.jpg)
 
 2. Select the **customer** to inquire the price.
 
-![16](../../static/img/getting-started/inquiry/yc4-3.jpg)
+![customer-price-inquiry-2](../../static/img/usage/inquiry/customer-price-inquiry-2.jpg)
 
 ### Profit Estimator
 You can enter the values (eg. quantity, UOM, Price Tag, unit price, discount, sales tax (GST) and ref.cost) to calculate the profit according to the cost of the item selected.
 
-![17](../../static/img/getting-started/inquiry/yc4-4.jpg)
+![customer-profit-estimator](../../static/img/usage/inquiry/customer-profit-estimator.jpg)
 
 ### Price Book Reference
 To check the **reference price** in different UOM from **Maintain Stock Item**.
 
-![18](../../static/img/getting-started/inquiry/yc4-5.jpg)
+![customer-price-book-reference](../../static/img/usage/inquiry/customer-price-book-reference.jpg)
 
 ### Your SQL Sales Assistant
 Quick access to:-
@@ -146,35 +146,35 @@ Quick access to:-
     4. **Customer Aging Details** - Customer | Print Customer Aging Report...
     5. **Sales & Collection Analysis** - Customer | Print Customer Sales & Collection Analysis...
 
-![19](../../static/img/getting-started/inquiry/yc4-6.jpg)
+![sql-sales-assistant](../../static/img/usage/inquiry/sql-sales-assistant.jpg)
 
 ## Supplier Pricing Inquiry
 
 To inquire the item pricing for a supplier.
 
-![20](../../static/img/getting-started/inquiry/yc5-1.jpg)
+![supplier-pricing-inquiry](../../static/img/usage/inquiry/supplier-pricing-inquiry.jpg)
 
 ### Supplier Price Inquiry
 
 1. Select the **item code** to inquire the purchase price.
 
-![21](../../static/img/getting-started/inquiry/yc5-2.jpg)
+![supplier-price-inquiry-1](../../static/img/usage/inquiry/supplier-price-inquiry-1.jpg)
 
 2. Select the **supplier** to inquire the purchase price.
 
-![22](../../static/img/getting-started/inquiry/yc5-3.jpg)
+![supplier-price-inquiry-2](../../static/img/usage/inquiry/supplier-price-inquiry-2.jpg)
 
 ### Profit Estimator
 
 You can enter the values (eg. quantity, UOM, Price Tag, unit price, discount, sales tax (GST) and ref.cost) to calculate the profit according to the reference cost of the item selected.
 
-![23](../../static/img/getting-started/inquiry/yc5-4.jpg)
+![supplier-profit-estimator](../../static/img/usage/inquiry/supplier-profit-estimator.jpg)
 
 ### Price Book Reference
 
 To check the **reference cost** in different UOM from **Maintain Stock Item**.
 
-![24](../../static/img/getting-started/inquiry/yc5-5.jpg)
+![supplier-price-book-reference](../../static/img/usage/inquiry/supplier-price-book-reference.jpg)
 
 ### Your SQL Purchase Assistant
 
@@ -185,54 +185,54 @@ Quick access to:-
     4. **Supplier Aging Details** - Supplier | Print Supplier Aging Report...
     5. **Purchase & Collection Analysis** - Supplier | Print Supplier Purchase & Payment Analysis...
 
-![25](../../static/img/getting-started/inquiry/yc5-6.jpg)
+![sql-purchase-assistant](../../static/img/usage/inquiry/sql-purchase-assistant.jpg)
 
 ## SQL Power Search
 
 A powerful search with keywords in the company database.
 
-![26](../../static/img/getting-started/inquiry/yc6-1.jpg)
+![sql-power-search](../../static/img/usage/inquiry/sql-power-search.jpg)
 
 ### Find What
 
 **Change** the search conditions.
 
-![27](../../static/img/getting-started/inquiry/yc6-2.jpg)
+![find-what](../../static/img/usage/inquiry/find-what.jpg)
 
 ### Where
 
 1. Tick the modules to search.
 
-![28](../../static/img/getting-started/inquiry/yc6-3.jpg)
+![where-1](../../static/img/usage/inquiry/where-1.jpg)
 
 2. Click on **Advance** to expand more areas in search.
 
-![29](../../static/img/getting-started/inquiry/yc6-4.jpg)
+![where-2](../../static/img/usage/inquiry/where-2.jpg)
 
 3. Click on **Find**.
 
-![30](../../static/img/getting-started/inquiry/yc6-5.jpg)
+![where-3](../../static/img/usage/inquiry/where-3.jpg)
 
 ### Example
 
 1. Let's try to search the words of **Apple** in the invoice. See the screenshot below.
 
-![31](../../static/img/getting-started/inquiry/yc6-6.jpg)
+![sql-search-example-1](../../static/img/usage/inquiry/sql-search-example-1.jpg)
 
 2. At SQL Power Search Engine, tick on **Invoice** in **Where** section.
 
-![32](../../static/img/getting-started/inquiry/yc6-7.jpg)
+![sql-search-example-2](../../static/img/usage/inquiry/sql-search-example-2.jpg)
 
 3. To ensure the search area cover the **More Description**. Click on **Advance**. See the screenshot below.
 
-![33](../../static/img/getting-started/inquiry/yc6-8.jpg)
+![sql-search-example-3](../../static/img/usage/inquiry/sql-search-example-3.jpg)
 
 4. Type the keyword **Apple** in **Find What**.
 
-![34](../../static/img/getting-started/inquiry/yc6-9.jpg)
+![sql-search-example-4](../../static/img/usage/inquiry/sql-search-example-4.jpg)
 
 5. Click on **Find** button.
 
 6. You can see the search result appear below.
 
-![35](../../static/img/getting-started/inquiry/yc6-10.jpg)
+![sql-search-example-5](../../static/img/usage/inquiry/sql-search-example-5.jpg)
