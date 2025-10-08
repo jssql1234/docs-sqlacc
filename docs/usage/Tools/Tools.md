@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Guide
 description: Maintenance
-slug: /usage/Tools-New/Tools
+slug: /usage/Tools/Tools
 tags: ["SQL Account", "Usage", "Tools"]
 ---
 
@@ -313,7 +313,7 @@ Customer Invoice **invoice billing in USD**, but **payment paid in your local RM
 :::note
 Customer Invoice **billing in USD, Payment paid in your Foreign USD Bank**
 
-*([Advance Currency](../../faq/tools/advance-currency.md) modules required)*
+*([Advance Currency](../../../usage/Tools/ToolsFAQ#advanced-currency-module) modules required)*
 :::
 
    1. Go to Tools > Maintain Payment > edit your USD Bank
@@ -324,7 +324,7 @@ Customer Invoice **billing in USD, Payment paid in your Foreign USD Bank**
 
    4. **OR & PV Number Set**: Set default running document number for the particular payment method (optional)
 
-   5. **Bank Info**: able to set Giro info & make payment thru Giro (refer [Interbank Giro](../../additional-module/interbank-giro.md) Topic for more detail)
+   5. **Bank Info**: able to set Giro info & make payment thru Giro (refer [Interbank Giro](docs/additional-module/interbank-giro.md) Topic for more detail)
 
       ![132](../../../static/img/getting-started/user-guide/132.png)
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 id: photocopier
 title: Photocopier Guide
 description: A guide to use photocopier
@@ -77,7 +77,7 @@ Fixed Unable to save Invoice if document is transfer from other Document
 * Use Doc No S-XXXX as the Setting - To avoid mix with actual use of Quotation
 * Can use same itemcode for Different Reading
 
-![ch364](../../../static/img/business-nature-industries/photocopier-meter/ch364.jpg)
+![photocopier-quotation](../../../static/img/business-nature-industries/photocopierGuide/photocopier-quotation.jpg)
 
 * Minimum UDF Fields Required (Header Fields)
 
@@ -205,7 +205,7 @@ Fixed Unable to save Invoice if document is transfer from other Document
 
 *Menu: Sales | Invoice...*
 
-![ch365](../../../static/img/business-nature-industries/photocopier-meter/ch365.jpg)
+![photocopier-invoice](../../../static/img/business-nature-industries/photocopierGuide/photocopier-invoice.jpg)
 
 1. Select Customer.
 2. Click 1. Get Price button.

@@ -14,7 +14,7 @@ __Menu: Asset | Process Depreciation...__
 
     You are allow to process Asset Opening Depreciation BEFORE System Conversation Date.
 
-![ch284](../../../static/img/getting-started/user-guide/ch284.jpg)
+![assetDepr](../../../static/img/asset/assetDepr.jpg)
 
 :::note Tips:
 A - FIRST acquire date of the asset
@@ -27,15 +27,15 @@ __Menu: Asset | Maintain Asset Item...__
 
 1. At Maintain Asset Item, click Preview button.
 
-![ch285](../../../static/img/getting-started/user-guide/ch285.jpg)
+![previewAsset](../../../static/img/asset/previewAsset.jpg)
 
 2. For instance, the **Out of Balance** result get from the comparison between Asset Opening Balance and GL Maintain Opening Balance.
 
-![ch286](../../../static/img/getting-started/user-guide/ch286.jpg)
+![Opening](../../../static/img/asset/Opening.jpg)
 
 3. With the **Asset Opening Breakdown** in the report, it helps you to ensure the asset data inputs are correctly recorded in Maintain Asset Item.
 
-![ch287](../../../static/img/getting-started/user-guide/ch287.jpg)
+![assetBreakdown](../../../static/img/asset/assetBreakdown.jpg)
 
 ## I have posted the depreciation until December 2021. How to record my new asset?
 
@@ -43,7 +43,7 @@ __Menu: Asset | Maintain Asset Item...__
 
 Maintain the Asset Item as below:
 
-![ch292](../../../static/img/getting-started/user-guide/ch292.jpg)
+![assetItem](../../../static/img/asset/assetItem.jpg)
 
 1. Key in the Cost as *Net Book Value* (as at 31/12/2021).
 2. Acquire Date, eg. 01/01/2022
@@ -58,7 +58,7 @@ Maintain the Asset Item as below:
 
 Maintain the Asset as below :
 
-![ch293](../../../static/img/getting-started/user-guide/ch293.jpg)
+![assetItem1](../../../static/img/asset/assetItem1.jpg)
 
 1. Key in the Cost as *Original Cost*
 2. Acquire Date set as *Original Purchase Date*
@@ -66,15 +66,15 @@ Maintain the Asset as below :
 4. Process Depreciation until 31/12/2021.
 
 5. Tick *Cancelled* to the Journal posted from Step 4
-![ch294](../../../static/img/getting-started/user-guide/ch294.jpg)
+![JE-cancellled](../../../static/img/asset/JE-cancellled.jpg)
 
 ## Somehow the depreciation value is different with my previous Journal, can I edit the depreciation value calculated in Maintain Asset Item?
 
 Yes, it is allowed to change the depreciation value in Maintain Asset Item (Depreciation Schedule).
 
-![ch295](../../../static/img/getting-started/user-guide/ch295.jpg)
+![assetAmount](../../../static/img/asset/assetAmount.jpg)
 
-![ch296](../../../static/img/getting-started/user-guide/ch296.jpg)
+![deprValue](../../../static/img/asset/deprValue.jpg)
 
 ## Can the amortization of Intangible Assets like license use in Asset Module?
 
@@ -107,18 +107,18 @@ Create new asset code to handle additional cost, eg.
 
 1. Copy the existing asset code.
 
-![ch297](../../../static/img/getting-started/user-guide/ch297.jpg)
+![copyAsset](../../../static/img/asset/copyAsset.jpg)
 
 2. Create new asset.
 3. Click on More | Paste Asset Item.
 
-![ch298](../../../static/img/getting-started/user-guide/ch298.jpg)
+![pasteAsset](../../../static/img/asset/pasteAsset.jpg)
 
 4. *Change the asset code* by inserted any characters to differentiate it
     - Acquire date = Date incurred additional cost
     - Cost = Additional Cost
 
-![ch299](../../../static/img/getting-started/user-guide/ch299.jpg)
+![deprRate](../../../static/img/asset/deprRate.jpg)
 
 ## Cost in Maintain Asset Item should key-in as local currency or original currency (eg. purchase in USD)?
 

@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Report Builder FAQ
 description: How to do custom reports
-slug: /usage/Tools New/RTM/ReportBuilderFAQ
+slug: /usage/Tools/RTM/ReportBuilderFAQ
 tags: ["SQL Account", "Usage", "Tools"]
 ---
 

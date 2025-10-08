@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Reports
 description: All kind of customer reports and it's purpose
-slug: /usage/Customer New/Report_unsure
+slug: /usage/Customer/Report
 tags: ["SQL Account", "Usage", "Customer"]
 ---
 
@@ -12,29 +12,29 @@ tags: ["SQL Account", "Usage", "Customer"]
 * Batch print or email documents.
 * At the bottom of the screen, you can see the payment details for each document
 
-![ch15](../../../static/img/getting-started/user-guide/ch15.png)
+![printCustDocList](../../../static/img/getting-started/user-guide/printCustDocList.png)
 
 * Select which Document listing you want to see. Follow the image
 
-![ch16](../../../static/img/getting-started/user-guide/ch16.png)
+![docListType](../../../static/img/getting-started/user-guide/docListType.png)
 
 * Press Apply Button
 
-![ch17](../../../static/img/getting-started/user-guide/ch17.png)
+![docListApply](../../../static/img/getting-started/user-guide/docListApply.png)
 
 * Click Preveiw & Listing Report
 
-![ch18](../../../static/img/getting-started/user-guide/ch18.png)
+![docListPreview](../../../static/img/getting-started/user-guide/docListPreview.png)
 
 * Example of customer invoice listing report
 
-![ch19](../../../static/img/getting-started/user-guide/ch19.png)
+![custInvoiceListReport](../../../static/img/getting-started/user-guide/custInvoiceListReport.png)
 
 ### Print Document Style 
 
 * Tick relevant check boxes
 
-![ch20](../../../static/img/getting-started/user-guide/ch20.png)
+![tickPrintDocStyle](../../../static/img/getting-started/user-guide/tickPrintDocStyle.png)
 
 | Field Name                | Explanation                                           |
 |----------------------------|-------------------------------------------------------|
@@ -43,56 +43,56 @@ tags: ["SQL Account", "Usage", "Customer"]
 
 * If you Tick Print Document Style , you will see that you will able able to choose customer invoice report format.
 
-![ch21](../../../static/img/getting-started/user-guide/ch21.png)
-![ch22](../../../static/img/getting-started/user-guide/ch22.png)
+![custInvoiceReportFormat](../../../static/img/getting-started/user-guide/custInvoiceReportFormat.png)
+![custInvoiceReportFormat2](../../../static/img/getting-started/user-guide/custInvoiceReportFormat2.png)
 
 ### Group/Sort by
 
 * You can filter your documents based on Customer, Agent, Area, Currency, Project and Company Category
 
-![ch23](../../../static/img/getting-started/user-guide/ch23.png)
+![GrpBy-which](../../../static/img/getting-started/user-guide/GrpBy-which.png)
 
 * You can use the Group by/Sort by table to choose how you want to group your report listing
 
-![ch24](../../../static/img/getting-started/user-guide/ch24.png)
+![grp-sortBy](../../../static/img/getting-started/user-guide/grp-sortBy.png)
 
 * For example. you select to group by "Customer Name"
 
-![ch25](../../../static/img/getting-started/user-guide/ch25.png)
+![grpByCustName](../../../static/img/getting-started/user-guide/grpByCustName.png)
 
 * Select the Listing Report
 
-![ch26](../../../static/img/getting-started/user-guide/ch26.png)
+![ListingReport](../../../static/img/getting-started/user-guide/ListingReport.png)
 
 * Here is an example of the report
 
-![ch27](../../../static/img/getting-started/user-guide/ch27.png)
+![custInvoiceListingreport](../../../static/img/getting-started/user-guide/custInvoiceListingreport.png)
 
 ## Print Customer Balance Report 
 
 * Print Customer Balance Report can be used for you to **see all the customer's balance**.
 
-![ch28](../../../static/img/getting-started/user-guide/ch28.png)
+![printCustBalanceReport](../../../static/img/getting-started/user-guide/printCustBalanceReport.png)
 
 * Select the date period for the balance report
 
-![ch29](../../../static/img/getting-started/user-guide/ch29.png)
+![datePeriod](../../../static/img/getting-started/user-guide/datePeriod.png)
 
 * You can filter the report selecting the customer, agent, area, project of the transaction
 
-![ch30](../../../static/img/getting-started/user-guide/ch30.png)
+![custBalanceFilter](../../../static/img/getting-started/user-guide/custBalanceFilter.png)
 
 * Example, filtering by customer name. We selected 1 company ALPHA & BETA COMPUTERS
 
-![ch31](../../../static/img/getting-started/user-guide/ch31.png)
+![custBalanceApplyFilter](../../../static/img/getting-started/user-guide/custBalanceApplyFilter.png)
 
 * You can click on the small + icon to expand the row and see the transactions details.
 
-![ch32](../../../static/img/getting-started/user-guide/ch32.png)
+![plusIconToExpand](../../../static/img/getting-started/user-guide/plusIconToExpand.png)
 
 * Press the Preview icon to preview and print the report
 
-![ch33](../../../static/img/getting-started/user-guide/ch33.png)
+![previewCustBalance](../../../static/img/getting-started/user-guide/previewCustBalance.png)
 
 ### Customer Due Document Listing
 
