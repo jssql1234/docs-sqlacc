@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: FAQ
 description: Tools Related FAQ
-slug: /usage/Tools-New/ToolsFAQ
+slug: /usage/Tools/ToolsFAQ
 tags: ["SQL Account", "Usage", "Tools","Currency","Module"]
 ---
 
@@ -100,7 +100,7 @@ You are advise to set your financial start period and system conversion date as 
   :::info
   This module is required if you are using foreign banks.
   
-  Related: [Payment from Foreign Customer](../../usage/tools.md#maintain-currency)
+  Related: [Payment from Foreign Customer](../../usage/Tools.md#maintain-currency)
   :::
   
   ### Setup Foreign Currency Payment Method
@@ -137,7 +137,7 @@ These questions goes to one solution , which is
 :::
 
 ### Can I auto-post exchange gain/loss when using foreign banks?
-Yes, via [Advanced Currency](#advanced-currency-module) Module and [Gain/Loss setup](docs/usage/Tools%20New/Tools.md#payment-from-foreign-customer)
+Yes, via [Advanced Currency](#advanced-currency-module) Module and [Gain/Loss setup](/usage/Tools/Tools#payment-from-foreign-customer)
 
 ## SQL Global Price Change
 

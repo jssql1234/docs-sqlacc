@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Basic Guide
 description: How to do custom reports 
-slug: /usage/Tools-New/Fast Report/Basic Guide
+slug: /usage/Tools/Fast Report/Basic Guide
 tags: ["SQL Account", "Usage", "Tools"]
 ---
 
@@ -144,7 +144,7 @@ tags: ["SQL Account", "Usage", "Tools"]
 
       1. Click on Text Memo
 
-            ![16](../../../../static/img/report/fastReport-basicGuide/16.png)
+          ![16](../../../../static/img/report/fastReport-basicGuide/16.png)
 
       2. Place on Report Page
 
@@ -329,22 +329,22 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 1. Below is example using Sales Invoice to get Net Unit Price (after Discount)
 
-![ch106](../../../../static/img/report/fastReport-basicGuide/ch106.jpg)
+![netUnitPrice](../../../../static/img/report/fastReport-basicGuide/netUnitPrice.jpg)
 
 1. Click the Red A Icon.
 2. Click on the place to be print/shown.
 
-![ch107](../../../../static/img/report/fastReport-basicGuide/ch107.jpg)
+![memoABC](../../../../static/img/report/fastReport-basicGuide/memoABC.jpg)
 
 3. Click the ABC Icon
 
-![ch108](../../../../static/img/report/fastReport-basicGuide/ch108.jpg)
+![DocumentDetailExpression](../../../../static/img/report/fastReport-basicGuide/DocumentDetailExpression.jpg)
 
 4. Scroll and look for Document_Detail Pipeline/Section & Double click the field to Insert (eg Amount & Qty)
 5. Change the Expression or Formula here
 6. Click Ok button.
 
-![ch109](../../../../static/img/report/fastReport-basicGuide/ch109.jpg)
+![memoFormat&Category](../../../../static/img/report/fastReport-basicGuide/memoFormat&Category.jpg)
 
 7. Click Format tab
 8. Set Category to Number & Format to 1,234.50
@@ -390,13 +390,13 @@ There are 2 ways to Get the data directly from Database
 
 * At Sales Invoice to get Shelf field from Maintain Item
 
-![ch110](../../../../static/img/report/fastReport-basicGuide/ch110.jpg)
+![fr3GetShelfField](../../../../static/img/report/fastReport-basicGuide/fr3GetShelfField.jpg)
 
 1. Click the Red A Icon.
 2. Click on the place to be print/shown.
 3. Right Click the Memo.
 
-![ch111](../../../../static/img/report/fastReport-basicGuide/ch111.jpg)
+![rightClickMemo](../../../../static/img/report/fastReport-basicGuide/rightClickMemo.jpg)
 
 4. Select Stretch
 5. Click on Events tab
@@ -418,7 +418,7 @@ begin
 end;
 ```
 
-![ch112](../../../../static/img/report/fastReport-basicGuide/ch112.jpg)
+![fr3InsertCode](../../../../static/img/report/fastReport-basicGuide/fr3InsertCode.jpg)
 
 8. Scroll up till the top of the Code
 9. Enter below script at the First line
@@ -427,7 +427,7 @@ end;
 var pST_Item : pointer;
 ```
 
-![ch113](../../../../static/img/report/fastReport-basicGuide/ch113.jpg)
+![fr3InsertCode2](../../../../static/img/report/fastReport-basicGuide/fr3InsertCode2.jpg)
 
 10. Scroll down till the end of the Code
 11. Enter below script in between begin and end.
@@ -493,7 +493,7 @@ Below is Example are doing following actions
 
 > This function only available on Version 730 & above
 
-![ch114](../../../../static/img/report/fastReport-basicGuide/ch114.jpg)
+![pictureField](../../../../static/img/report/fastReport-basicGuide/pictureField.jpg)
 
 1. Click on Picture Icon (Below Red A icon)
 2. Click on the place to be print/shown.
@@ -515,7 +515,7 @@ begin
 end;
 ```
 
-![ch115](../../../../static/img/report/fastReport-basicGuide/ch115.jpg)
+![pictureFieldInsertCode](../../../../static/img/report/fastReport-basicGuide/pictureFieldInsertCode.jpg)
 
 6. Scroll up till the top of the Code
 7. Enter below script at the First line
@@ -523,7 +523,7 @@ end;
 ```pascal
 var pST_Item : pointer;
 ```
-![ch116](../../../../static/img/report/fastReport-basicGuide/ch116.jpg)
+![pictureFieldInsertCode2](../../../../static/img/report/fastReport-basicGuide/pictureFieldInsertCode2.jpg)
 
 8. Scroll down till the end of the Code
 9. Enter below script in between begin and end.
@@ -720,7 +720,7 @@ Below is Example doing following actions
 
 * Get data information From Stock Batch
 
-![ch117](../../../../static/img/report/fastReport-basicGuide/ch117.jpg)
+![maintainBatchInsertCode](../../../../static/img/report/fastReport-basicGuide/maintainBatchInsertCode.jpg)
 
 1. Click Code tab & scroll down look for procedure SetUp
 2. Copy below script & paste it between the begin & end; in procedure SetUp
@@ -736,7 +736,7 @@ Below is Example doing following actions
 4. Click File | Exit to exit the report design
 5. Click Design again in the report designer for the file just save on Steps 3 (eg Sales Invoice 7 (GST 2)-New)
 
-![ch118](../../../../static/img/report/fastReport-basicGuide/ch118.jpg)
+![maintainBatchOptions](../../../../static/img/report/fastReport-basicGuide/maintainBatchOptions.jpg)
 
 6. Click on Red A icon & click the place to print
 
@@ -753,7 +753,7 @@ Below is Example doing following actions
 
 * Get Supplier Bank information From Maintain Supplier for Supplier Payment Voucher
 
-![ch119](../../../../static/img/report/fastReport-basicGuide/ch119.jpg)
+![supplierBankInsertCode](../../../../static/img/report/fastReport-basicGuide/supplierBankInsertCode.jpg)
 
 1. Click Code tab & scroll down look for procedure SetUp
 2. Copy below script & paste it above the procedure SetUp
@@ -883,7 +883,7 @@ end;
 5. Click File | Exit to exit the report design
 6. Click Design again in the report designer for the file just save on Steps 4 (eg GL Payment Voucher - Detail - Full (GST)-v BankInfo)
 
-![ch120](../../../../static/img/report/fastReport-basicGuide/ch120.jpg)
+![supplierBankOptions](../../../../static/img/report/fastReport-basicGuide/supplierBankOptions.jpg)
 
 7. Click on Red A icon & click the place to print
 8. Select the option for following setting
@@ -891,7 +891,7 @@ end;
 * DataField : AccNo
 9. Repeat Step 7
 
-![ch121](../../../../static/img/report/fastReport-basicGuide/ch121.jpg)
+![supplierBankInsertCodeMemo](../../../../static/img/report/fastReport-basicGuide/supplierBankInsertCodeMemo.jpg)
 
 10. Copy below script & paste it in the Memo
 
@@ -918,7 +918,7 @@ Below is Example doing following actions :
 * Get data information (Tax, Tax rate, LocalAmount, LocalTaxAmt)
 * Group the data by Tax code
 
-![ch122](../../../../static/img/report/fastReport-basicGuide/ch122.jpg)
+![showGSTSummaryInsertCode](../../../../static/img/report/fastReport-basicGuide/showGSTSummaryInsertCode.jpg)
 
 1. Click Code tab & scroll down look for procedure SetUp
 2. Copy below script & paste it between the begin & end; in procedure SetUp
@@ -939,22 +939,22 @@ SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt,
 4. Click File | Exit to exit the report design
 5. Click Design again in the report designer for the file just save on Steps 3 (eg Sales Invoice 7 (GST 2)-New)
 
-![ch123](../../../../static/img/report/fastReport-basicGuide/ch124.jpg)
+![subreportIcon-subreport](../../../../static/img/report/fastReport-basicGuide/subreportIcon-subreport.jpg)
 
 6. Click Subreport Icon
 7. Click the place to print
 
-![ch124](../../../../static/img/report/fastReport-basicGuide/ch124.jpg)
+![insertBand-MasterData](../../../../static/img/report/fastReport-basicGuide/insertBand-MasterData.jpg)
 
 8. Click Insert Band icon
 9. Select Master Data
 
-![ch125](../../../../static/img/report/fastReport-basicGuide/ch125.jpg)
+![gstAmount](../../../../static/img/report/fastReport-basicGuide/gstAmount.jpg)
 
 10. In the Dataset select the New Pipeline created at Step 2 (eg GSTAmt) & Click Ok
 11. Repeat Steps 8 to add the Header & Footer
 
-![ch126](../../../../static/img/report/fastReport-basicGuide/ch126.jpg)
+![gstAmtOptions](../../../../static/img/report/fastReport-basicGuide/gstAmtOptions.jpg)
 
 12. Click on Red A icon & click the place to print
 13. Select the option for following setting
@@ -965,7 +965,7 @@ SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt,
 14. Repeat Step 12 & 13 for other but DataField change to LocalTaxAmt
 15. Click Sum Icon & click at the Footer
 
-![ch127](../../../../static/img/report/fastReport-basicGuide/ch127.jpg)
+![aggregateValue](../../../../static/img/report/fastReport-basicGuide/aggregateValue.jpg)
 
 16. Select Aggregate value & set the option as following setting :
 
@@ -977,11 +977,11 @@ SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt,
 17. Click Ok
 18. Repeat Step 16 & 17 for other but DataField change to LocalTaxAmt
 
-![ch128](../../../../static/img/report/fastReport-basicGuide/ch128.jpg)
+![displayFormat-gstSummary](../../../../static/img/report/fastReport-basicGuide/displayFormat-gstSummary.jpg)
 
 19. Right Click & select DisplayFormat
 
-![ch129](../../../../static/img/report/fastReport-basicGuide/ch129.jpg)
+![displayFormatOptions-gstSummary](../../../../static/img/report/fastReport-basicGuide/displayFormatOptions-gstSummary.jpg)
 
 20. Set the setting for following option :
 
@@ -997,7 +997,7 @@ SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt,
 [IIF(Trim(<GSTAmt."TaxRate">)='',<GSTAmt."Tax">,<GSTAmt."Tax"> +' @ ' + <GSTAmt."TaxRate">)]
 ``` 
 
-![ch130](../../../../static/img/report/fastReport-basicGuide/ch130.jpg)
+![gstSummaryInsertCodeMemo](../../../../static/img/report/fastReport-basicGuide/gstSummaryInsertCodeMemo.jpg)
 
 25. Click OK.
 26. For Label, Click on Red A icon, click the place to print & enter the Decription
@@ -1034,7 +1034,7 @@ SQL := 'SELECT Dockey, Min(Seq) Seq, FromDocDate, FromDocNo FROM Document_Detail
 
 Below is Example will group all the Overtime by Code, Description, Rate & PayRate.
 
-![ch131](../../../../static/img/report/fastReport-basicGuide/ch131.jpg)
+![grpOvertimeInsertCode](../../../../static/img/report/fastReport-basicGuide/grpOvertimeInsertCode.jpg)
 
 1. Click Code tab & scroll look for begin & end.
 2. Copy below script & paste it above the begin & end.
@@ -1085,7 +1085,7 @@ SQL := 'SELECT DocKey, SUM(LocalAmount)*0.06 SVE FROM Document_Detail ' +
 5. Click Design again in the report designer for the file just save on Steps 3 (eg Sales Invoice 8 (SST 2)-New)
 6. Click on Red A icon & click the place to print
 
-![ch132](../../../../static/img/report/fastReport-basicGuide/ch132.jpg)
+![totalSVEInsertCode](../../../../static/img/report/fastReport-basicGuide/totalSVEInsertCode.jpg)
 
 7. Select the option for following setting
 Dataset : pl_TotSVE
@@ -1100,7 +1100,7 @@ DataField : SVE
 <details>
   <summary>Shift Relative To Simulator - click to expand</summary>
 
-  * In Fast Report there is no such function call Shit Relative To. This only available in Report Builder. So to simulate this function we had created the below script.
+  * In Fast Report there is **no** such function call Shit Relative To. This only available in Report Builder. So to **simulate** this function we had created the below script.
 
 ### Requirement
 
@@ -1109,15 +1109,15 @@ DataField : SVE
 
 1. Place all the component (eg TfrxMemoView or TfrxRichView) as following
 
-![ch133](../../../../static/img/report/fastReport-basicGuide/ch133.jpg)
+![pasteComponents](../../../../static/img/report/fastReport-basicGuide/pasteComponents.jpg)
 
 2. Only TfrxMemoView component need to select Dataset & DataField
 
-![ch134](../../../../static/img/report/fastReport-basicGuide/ch134.jpg)
+![dataSet&DataFieldSelection](../../../../static/img/report/fastReport-basicGuide/dataSet&DataFieldSelection.jpg)
 
 3. For TfrxRichView component must leave it empty for Dataset & DataField
 
-![ch135](../../../../static/img/report/fastReport-basicGuide/ch135.jpg)
+![TfrxRichView-empty](../../../../static/img/report/fastReport-basicGuide/ch135.jpg)
 
 4. For TfrxRichView double click & select the ABC icon & select the Data Field
 

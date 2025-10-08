@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 id: sample-recurring-company
 title: Sample Recurring Company
 description: sample recurring company

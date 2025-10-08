@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 id: photocopier-meter
 title: Photocopier Meter
 description: A guide to get price of photocopier meter in quotation
