@@ -1,7 +1,7 @@
 ---
 sidebar_position: 16
 id: new-import-export-guide
-title: New XML Import & Export Guide
+title: XML Import & Export Guide
 description: A quick guide on Import and Export for SQL Account
 slug: /miscellaneous/new-import-export-guide
 tags: ["SQL Account", "Export", "Import"]
