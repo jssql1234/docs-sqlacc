@@ -184,7 +184,7 @@ Tick relevant check boxes.
 
 ![29](../../../static/img/usage/production/report/navigate_bom_wastage.png)
 
-![30](../../../static/img/getting-started/user-guide/production/report/bom_wastage.png)
+![30](../../../static/img/usage/production/report/bom_wastage.png)
 
 2. Set the date period, and select if you want to se Stock Assembly or Stock disassembly
 
