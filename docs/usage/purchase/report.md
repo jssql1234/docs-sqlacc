@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Reports
 description: A guideline to print Purchase Report
-slug: /getting-started/user-guide/purchase/report
+slug: /usage/purchase/report
 tags: ["SQL Account", "Usage", "Purchase", "Report"]
 ---
 
@@ -12,30 +12,30 @@ tags: ["SQL Account", "Usage", "Purchase", "Report"]
 
 1. Go to Purchase and click Print Purchase Document Listing
 
-![1](../../../static/img/getting-started/user-guide/purchase/report/jj1.png)
+![1](../../../static/img/usage/purchase/report/navigate_purchase_document_listing.png)
 
 2. Select which Document listing you want to see. Follow the image
 
-![2](../../../static/img/getting-started/user-guide/purchase/report/jj2.png)
+![2](../../../static/img/usage/purchase/report/purchase_document_listing.png)
 
 3. Press Apply Button
 
-![3](../../../static/img/getting-started/user-guide/purchase/report/jj3.png)
+![3](../../../static/img/usage/purchase/report/purchase_document_listing_apply.png)
 
 4. Click Preview & Listing Report
 
-![4](../../../static/img/getting-started/user-guide/purchase/report/jj4.png)
+![4](../../../static/img/usage/purchase/report/purchase_document_listing_select_report.png)
 
 - Example of customer invoices listing report.
 
-![5](../../../static/img/getting-started/user-guide/purchase/report/jj5.png)
+![5](../../../static/img/usage/purchase/report/purchase_document_listing_report.png)
 
 
 ### Print Document Style
 
 Tick relevant check boxes.
 
-![6](../../../static/img/getting-started/user-guide/purchase/report/jj6.png)
+![6](../../../static/img/usage/purchase/report/purchase_document_listing_print_document_style.png)
 
 |**Field Name**| **Explanation**|
 |---|---|
@@ -44,47 +44,47 @@ Tick relevant check boxes.
 
 If you Tick Print Document Style , you will see that you will able able to choose purchase document report format.
 
-![7](../../../static/img/getting-started/user-guide/purchase/report/jj7.png)
+![7](../../../static/img/usage/purchase/report/purchase_document_listing_print_document_style_2.png)
 
 ### Group/Sort By
 
 You can filter your documents based on Document, Agent, Area, Currency, Project and Company Category.
 
-![8](../../../static/img/getting-started/user-guide/purchase/report/jj8.png)
+![8](../../../static/img/usage/purchase/report/purchase_document_listing_group_sort_by.png)
 
 You can use the Group by/Sort by table to choose how you want to group your report listing.
 
-![9](../../../static/img/getting-started/user-guide/purchase/report/jj9.png)
+![9](../../../static/img/usage/purchase/report/purchase_document_listing_group_sort_by_2.png)
 
 Select the Listing Report.
 
-![10](../../../static/img/getting-started/user-guide/purchase/report/jj10.png)
+![10](../../../static/img/usage/purchase/report/purchase_document_listing_group_sort_by_select_report.png)
 
 Here is an example of the report.
 
-![11](../../../static/img/getting-started/user-guide/purchase/report/jj11.png)
+![11](../../../static/img/usage/purchase/report/purchase_document_listing_group_sort_by_report.png)
 
 ## Print Outstanding Purchase Document Listing
 
 ### How to Print Outstanding Purchase Document Listing
 
-![12](../../../static/img/getting-started/user-guide/purchase/report/jj12.png)
+![12](../../../static/img/usage/purchase/report/navigate_outstanding_purchase_document_listing.png)
 
 1. Select which Document listing you want to see. Follow the image
 
-![13](../../../static/img/getting-started/user-guide/purchase/report/jj13.png)
+![13](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing.png)
 
 2. Press Apply Button
 
-![14](../../../static/img/getting-started/user-guide/purchase/report/jj14.png)
+![14](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing_apply.png)
 
 3. Click Preview & Listing Report
 
-![15](../../../static/img/getting-started/user-guide/purchase/report/jj15.png)
+![15](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing_select_report.png)
 
 - Example of outstanding purchase document listing report.
 
-![16](../../../static/img/getting-started/user-guide/purchase/report/jj16.png)
+![16](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing_report.png)
 
 ### Print Outstanding Item & Print Fulfilled Item
 
@@ -96,69 +96,69 @@ Here is an example of the report.
 |Calculate Outstanding SO & PO Qty| Calculate outstanding quantity in the report.|
 |Transfer Doc Date Follow Filtered Date| Display documents based on the transfer date.|
 
-![17](../../../static/img/getting-started/user-guide/purchase/report/jj17.png)
+![17](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing_print_outstanding_item_fulfilled_item.png)
 
 ### Group/Sort By
 
 You can filter your documents based on Document, Agent, Area, Currency, Project, and Company Category.
 
-![18](../../../static/img/getting-started/user-guide/purchase/report/jj18.png)
+![18](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing_group_sort_by.png)
 
 You can use the Group by/Sort by table to choose how you want to group your report listing.
 
-![19](../../../static/img/getting-started/user-guide/purchase/report/jj19.png)
+![19](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing_group_sort_by_2.png)
 
 Select the Listing Report.
 
-![20](../../../static/img/getting-started/user-guide/purchase/report/jj20.png)
+![20](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing_group_sort_by_select_report.png)
 
 - Here is an example of the outstanding purchase report:
 
-![21](../../../static/img/getting-started/user-guide/purchase/report/jj21.png)
+![21](../../../static/img/usage/purchase/report/outstanding_purchase_document_listing_group_sort_by_report.png)
 
 ## Print Purchase Price History
 
 ### How to Print Purchase Price History
 
-![23](../../../static/img/getting-started/user-guide/purchase/report/jj23.png)
+![22](../../../static/img/usage/purchase/report/navigate_purchase_price_history.png)
 
 1. Select which Document listing you want to see. Follow the image
 
 2. Filter the documents by supplier, agent, area etc
 
-![24](../../../static/img/getting-started/user-guide/purchase/report/jj24.png)
+![23](../../../static/img/usage/purchase/report/purchase_price_history.png)
 
 3. Select how many records you want to display
 
-![25](../../../static/img/getting-started/user-guide/purchase/report/jj25.png)
+![24](../../../static/img/usage/purchase/report/purchase_price_history_set_records_number.png)
 
 4. Press Apply Button
 
-![26](../../../static/img/getting-started/user-guide/purchase/report/jj26.png)
+![25](../../../static/img/usage/purchase/report/purchase_price_history_apply.png)
 
 5. Click Preview & Listing Report
 
-![27](../../../static/img/getting-started/user-guide/purchase/report/jj27.png)
+![26](../../../static/img/usage/purchase/report/purchase_price_history_select_report.png)
 
 - Example of purchase price history report.
 
-![28](../../../static/img/getting-started/user-guide/purchase/report/jj28.png)
+![27](../../../static/img/usage/purchase/report/purchase_price_history_report.png)
 
 - Example of price history.
 
-![29](../../../static/img/getting-started/user-guide/purchase/report/jj29.png)
+![28](../../../static/img/usage/purchase/report/purchase_price_history_example.png)
 
 - Price movement.
 
-![30](../../../static/img/getting-started/user-guide/purchase/report/jj30.png)
+![29](../../../static/img/usage/purchase/report/purchase_price_history_price_movement.png)
 
 - Price/qty breakdown.
 
-![31](../../../static/img/getting-started/user-guide/purchase/report/jj31.png)
+![30](../../../static/img/usage/purchase/report/purchase_price_history_price_qty_breakdown.png)
 
 - Price book.
 
-![32](../../../static/img/getting-started/user-guide/purchase/report/jj32.png)
+![31](../../../static/img/usage/purchase/report/purchase_price_history_price_book.png)
 
 |**Feature**| **Explanation**|
 |---|---|
@@ -173,39 +173,39 @@ You can filter your documents based on Document, Agent, Area, Currency, Project,
 
 You can use the Group by/Sort by table to choose how you want to group your report listing.
 
-![33](../../../static/img/getting-started/user-guide/purchase/report/jj33.png)
+![32](../../../static/img/usage/purchase/report/purchase_price_history_group_sort_by.png)
 
 Select the Listing Report.
 
-![34](../../../static/img/getting-started/user-guide/purchase/report/jj34.png)
+![33](../../../static/img/usage/purchase/report/purchase_price_history_group_sort_by_select_report.png)
 
 - Here is an example of the price history report:
 
-![35](../../../static/img/getting-started/user-guide/purchase/report/jj35.png)
+![34](../../../static/img/usage/purchase/report/purchase_price_history_group_sort_by_report.png)
 
 ## Print Purchase Analysis by Document
 
 ### How to Print Purchase Analysis by Document
 
-![37](../../../static/img/getting-started/user-guide/purchase/report/jj37.png)
+![35](../../../static/img/usage/purchase/report/navigate_purchase_analysis_by_document.png)
 
 1. Filter the documents by supplier, agent, area etc
 
-![38](../../../static/img/getting-started/user-guide/purchase/report/jj38.png)
+![36](../../../static/img/usage/purchase/report/purchase_analysis_by_document_filter.png)
 
 2. Select which documents you want to see, if you want to see RM amount or quantity , and if you want to include tax and foreign currency.
 
-![39](../../../static/img/getting-started/user-guide/purchase/report/jj39.png)
+![37](../../../static/img/usage/purchase/report/purchase_analysis_by_document_select_document.png)
 
 3. Press Apply Button
 
-![40](../../../static/img/getting-started/user-guide/purchase/report/jj40.png)
+![38](../../../static/img/usage/purchase/report/purchase_analysis_by_document_apply.png)
 
 4. Click Preveiw & Listing Report
 
 - Example of the analysis report.
 
-![41](../../../static/img/getting-started/user-guide/purchase/report/jj41.png)
+![39](../../../static/img/usage/purchase/report/purchase_analysis_by_document_report.png)
 
 ### Group/Sort By
 
@@ -213,39 +213,36 @@ You can filter your documents based on Document, Agent, Area, Currency, Project 
 
 You can use the Group by/Sort by table to choose how you want to group your report listing.
 
-![42](../../../static/img/getting-started/user-guide/purchase/report/jj42.png)
+![40](../../../static/img/usage/purchase/report/purchase_analysis_by_document_group_sort_by.png)
 
 ## Print Yearly Purchase Analysis
 
-### Introduction
-
 ### How to Print Yearly Purchase Analysis
 
-![44](../../../static/img/getting-started/user-guide/purchase/report/jj44.png)
+![41](../../../static/img/usage/purchase/report/navigate_yearly_purchase_analysis.png)
 
 1. Filter the documents by supplier, agent, area etc
 
-![45](../../../static/img/getting-started/user-guide/purchase/report/jj45.png)
+![42](../../../static/img/usage/purchase/report/yearly_purchase_analysis_filter.png)
 
 2. Set how you want to group the report by going to group by / sort by
 
-![46](../../../static/img/getting-started/user-guide/purchase/report/jj46.png)
+![43](../../../static/img/usage/purchase/report/yearly_purchase_analysis_sort_group_by.png)
 
 3. Select if you want to see the yearly amount or yearly quantity of your purchase
 
-![47](../../../static/img/getting-started/user-guide/purchase/report/jj47.png)
+![44](../../../static/img/usage/purchase/report/yearly_purchase_analysis_amount_quantity.png)
 
 4. Press Apply Button
 
-![48](../../../static/img/getting-started/user-guide/purchase/report/jj48.png)
+![45](../../../static/img/usage/purchase/report/yearly_purchase_analysis_apply.png)
 
 5. Click Preveiw & Listing Report
 
 - Example If you ticked "Qty" , your report will show yearly quantity.
 
-![49](../../../static/img/getting-started/user-guide/purchase/report/jj49.png)
+![46](../../../static/img/usage/purchase/report/yearly_purchase_analysis_qty_report.png)
 
 - Example If you ticked "Amount" , your report will show yearly amount.
 
-![50](../../../static/img/getting-started/user-guide/purchase/report/jj50.png)
-
+![47](../../../static/img/usage/purchase/report/yearly_purchase_analysis_amount_report.png)
