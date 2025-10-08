@@ -12,7 +12,7 @@ tags: ["SQL Account", "Supplier", "FAQ"]
 
 How to capture the JomPay Ref 2 (bill no) in the bank payment file format?
 
-![Supplier_FAQ_1](../../../static/img/getting-started/user-guide/LimYuHangSupplierFAQ1.jpg)
+![Supplier_FAQ_1](../../../static/img/usage/supplier/supplier-faq-images/SupplierFAQ-AddRef2-1.jpg)
 
 **Solution:**
 
@@ -23,19 +23,19 @@ How to capture the JomPay Ref 2 (bill no) in the bank payment file format?
 |-------------|-----------|------|
 | JomPAY_Ref2 | String    | 30   |
 
-![Supplier_FAQ_2](../../../static/img/getting-started/user-guide/LimYuHangSupplierFAQ2.jpg)
+![Supplier_FAQ_2](../../../static/img/usage/supplier/supplier-faq-images/SupplierFAQ-AddRef2-2.jpg)
 
 3. Create **Quick Form** and add the UDF_JomPay_Ref2.
 
-![Supplier_FAQ_3](../../../static/img/getting-started/user-guide/LimYuHangSupplierFAQ3.jpg)
+![Supplier_FAQ_3](../../../static/img/usage/supplier/supplier-faq-images/SupplierFAQ-AddRef2-3.jpg)
 
 4. At **Supplier Payment**, key-in the bill no into UDF_JomPAY_Ref2 under JOMPAY tab.
 
-![Supplier_FAQ_4](../../../static/img/getting-started/user-guide/LimYuHangSupplierFAQ4.jpg)
+![Supplier_FAQ_4](../../../static/img/usage/supplier/supplier-faq-images/SupplierFAQ-AddRef2-4.jpg)
 
 5. JomPAY Ref 2 will be captured in the bank JomPAY payment format.
 
-![Supplier_FAQ_5](../../../static/img/getting-started/user-guide/LimYuHangSupplierFAQ5.jpg)
+![Supplier_FAQ_5](../../../static/img/usage/supplier/supplier-faq-images/SupplierFAQ-AddRef2-5.jpg)
 
 :::note NOTE:
 The above solution is using SQL Account version 784 and above. Modules required:
