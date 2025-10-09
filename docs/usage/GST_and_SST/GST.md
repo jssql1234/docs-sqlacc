@@ -140,6 +140,7 @@ To avoid to tick the documents manually for GST Registered company, please go to
 | LPA for Partial Exemption             | Boolean        | Longer period adjustment (LPA) for partial exemption (Mixed Supplies).          |
 | De-register                           | Boolean        | Ticked if the taxable period has de-register date.                              |
 | Amendment                             | Boolean        | To show the GST Return has ticked this option.                                  |
+|                                       |                | Refer to :[GST GUIDE ON AMENDMENT RETURN (GST-03)](https://sites.google.com/site/sqlestream/sql-financial-accounting/9-good-and-service-tax-gst---malaysia/9-22-gst-03-item-detail) |
 | C/F Refund for GST                    | Boolean        | To show the GST Return has ticked this option.                                  |
 | Process Net Realised Exchange Gain/Loss | Boolean      | No longer use because system auto handles this option.                          |
 | Tax Year                              | Boolean        | Tax Year point.                                                                 |
@@ -592,6 +593,9 @@ See example of the **GST Process Lookup** screenshot below.
 
 ### GST - 03 Item Details
 
+Original source from RMCD website:
+[GST-03 Guidelines from RMCD website](https://mydlv.customs.gov.my/www/admin/files/JKDM/resources/assets/pdf/Panduan_Mengisi_Borang%20GST-03.pdf)
+
 #### PART A : DETAILS OF REGISTERED PERSON
 
 | Item No. | Description        | Guidelines                                   |
@@ -655,6 +659,7 @@ Column with (*) is a mandatory field.
 ## Generate GST Audit File (GAF)
 
 To generate the GST Audit File (GAF) upon RMCD request.
+Source from: [RMCD - GAF Guilde](https://mysst.customs.gov.my/assets/document/Specific%20Guides/Guide%20Customs%20Ruling%2002DIS2019_v4.pdf)
 
 ### GST Audit File (GAF)
 
@@ -1406,6 +1411,7 @@ This refer to the following types according to **GST (Exempt Supplies) Order 201
 2. **Financial Services (IES):-**
    1. Interest income from deposits placed with a financial institution in Malaysia
    2. Interest received from loans provided to employees (factoring receivables)
+   3. [Realized foreign exchange gains](/usage/GST/GST/GST#gst-03-item-12-es--ies--how-to-compare-the-total-value-of-exempt-supplies-between-gst-03-and-ledger)
 
 3. **Goods (ES):-**
    1. Residential properties
@@ -1427,7 +1433,7 @@ This refer to the following types according to **GST (Exempt Supplies) Order 201
 
 **B. GST-03**
 
-1. To quick do amendment before submit the GST-03 to RMCD.
+1. To quick do amendment before submit the GST-03 to RMCD. [Click here](/usage/GST/GST/GST#gst---gst-03-amendment) to learn more about the **GST amendment**.
 2. Double click on the item 12 in GST-03.
 
 ![GST_avoid_error_4](../../../static/img/usage/gst-and-sst/gst/AvoidGSTCost-CheckTransactionsEnteredCorrect-GST03-1.jpg)
@@ -1529,7 +1535,7 @@ With this **GST-Ledger-Vs-GST-03** report, you can very easy identify out the re
 
 ### Foreign Currency Exchange Rate
 
-1. Always update the currency exchange rate at Tools | Maintain Currency.
+1. Always update the currency exchange rate at Tools | [Maintain Currency](/usage/Tools-New/Tools#maintain-currency).
 2. Critical cost on output tax if bill in foreign currency to local customer:
 
 | Currency | Status     | Exchange Rate | Amount   | Local Amount | Output Tax |
@@ -1785,7 +1791,7 @@ See below the overview of Margin Scheme process flow:
 
 Last Customisation Update : **13 Sep 2016**
 
-1. Get the NEW database structure for Margin Scheme (in backup format) from this link [NEW COMPANY (For Margin Scheme)](#)  
+1. Get the NEW database structure for Margin Scheme (in backup format) from this link [NEW COMPANY (For Margin Scheme)](http://www.sql.com.my/document/NEW%20COMPANY%20(For%20Margin%20Scheme)%20-%20%5bGST-MS.09.11.2016%5d%20-%202016-11-10%20-%20sqlacc.zip)  
 2. Restore this backup.  
 3. Enter the user ID and password with “ADMIN” to login.  
 
@@ -1797,7 +1803,7 @@ Last Customisation Update : **13 Sep 2016**
 
 **Last Customisation Update : 20 Feb 2016**
 - Empty item code (eg. repairs) will not update the Project - Purchase Details.  
-- Run the **SQL Accounting Diagnosis - DB Patch** and apply the patch files can be download from [Patch-Margin Scheme-20160220.zip](#)  
+- Run the **SQL Accounting Diagnosis - DB Patch** and apply the patch files can be download from [Patch-Margin Scheme-20160220.zip](http://www.sql.com.my/downloadfile/Fairy/Patch-MarginScheme-20160220.zip)  
 
     1. Select the database file (eg.ACC-XXXXX.FDB).  
     2. Drag the patch filename **Patch-MarginScheme1**.  
@@ -1806,7 +1812,7 @@ Last Customisation Update : **13 Sep 2016**
 
 **Last Customisation Update : 08 Mar 2016**
 - Tax amount not equal to zero. Will prompt message "Cost will be tax excluded for GST Margin purpose" after save the purchase invoice.  
-- Run the **SQL Accounting Diagnosis - DB Patch** and apply the patch files can be download from [Patch-MarginScheme-20160308.zip](#)
+- Run the **SQL Accounting Diagnosis - DB Patch** and apply the patch files can be download from [Patch-MarginScheme-20160308.zip](http://www.sql.com.my/document/Patch-MarginScheme-20160308.zip)
 
     1. Select the database file (eg.ACC-XXXXX.FDB).
     2. Unzip the patch file downloaded.
@@ -2284,7 +2290,7 @@ GST-03 item 16 Capital Goods Acquired = Rm75,000.
 | Machinery        | 63,000.00 |           |
 | Oversea supplier |           | 63,000.00 |
 
-2. When it comes to the forwarder bill after declaring the import goods, you must follow our GST Import Goods guideline. Refer to this link [1](#).
+2. When it comes to the forwarder bill after declaring the import goods, you must follow our GST Import Goods guideline. Refer to this link [1](/usage/GST/GST/GST#gst-treatment-import-goods-im).
 
 3. You just have to select Fixed Asset Account at the item line updated from the GST Imports screen. (**Don't worry, Rm75,000 fixed asset will not post into your account book**). See the screenshot attached.
 
@@ -2299,7 +2305,7 @@ For GST-03 purpose, this is to report into item 16 Capital Goods Acquired for th
 ## GST Treatment: Free Industrial Zone(FIZ) and Licensed Manufacturing Warehouse(LMW)
 
 This guide will teach you the way to key-in the data entry related to GST treatment on FIZ and LMW.  
-Under GST system, a person operating in a FIZ or having LMW status is treated as any person carrying out a business in Malaysia where normal rules of GST apply. This means that acquisition of goods locally or imported by the person operating in a FIZ or having LMW status is subject to GST. However, the person operating in a FIZ or having LMW status is eligible to apply for Approved Trader Scheme (ATS) to allow the Director General to suspend the payment of GST on imported goods at the time of importation. For further details, please refer to the guide on Approved Trader Scheme (ATS) and [SQL Accounting on ATS](#)
+Under GST system, a person operating in a FIZ or having LMW status is treated as any person carrying out a business in Malaysia where normal rules of GST apply. This means that acquisition of goods locally or imported by the person operating in a FIZ or having LMW status is subject to GST. However, the person operating in a FIZ or having LMW status is eligible to apply for Approved Trader Scheme (ATS) to allow the Director General to suspend the payment of GST on imported goods at the time of importation. For further details, please refer to the guide on Approved Trader Scheme (ATS) and [SQL Accounting on ATS](http://www.sql.com.my/document/sqlacc_docs/PDF/GST36-Input_Entry_for_ATS.pdf)
 
 Subject to GST:
 1. Based on **transaction value**. GST = transaction value x (SR or ZR) %:

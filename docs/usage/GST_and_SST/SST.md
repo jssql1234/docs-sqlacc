@@ -943,19 +943,19 @@ Applicable to same service provider under:
 - Goods imported from or to Malaysia are classified by the Harmonized Tariff Schedule (HTS) or commonly referred to as HS Codes.  
 - The codes, created by World Customs Organization (WCO), categorize up to 5,000 commodity  
 - HS Codes are made of 6-digit numbers that are recognized internationally, though different countries can extend the numbers by two or four digits to define commodities at a more detailed level.  
-- Click here to search the tariff code list from Kastam system.  
+- Click [here](https://ezhs.customs.gov.my/) to search the tariff code list from Kastam system.  
 
 ### Quick Setup for Tariff Code
 
-1. Create the tariff code applicable to your product at Maintain Tariff.
+1. Create the tariff code applicable to your product at [Maintain Tariff](/usage/Tools-New/Tools#maintain-tariff).
 
 ![SST_Tariff_Code_1](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-1.jpg)
 
-2. Pick a tariff code for an items at Maintain Stock Item.
+2. Pick a tariff code for an items at [Maintain Stock Item](/usage/stock/stock-guide#maintain-stock-item).
 
 ![SST_Tariff_Code_2](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-2.jpg)
 
-3. For exemption certificate case (under Schedule A, B, C), a tariff and tax code (SEA, SEB, SEC1, SEC2, SEC3, SEC4, SEC5) should set in Maintain Customer and Maintain Supplier (Tariff code setting under Tax Tab).
+3. For exemption certificate case (under Schedule A, B, C), a tariff and tax code (SEA, SEB, SEC1, SEC2, SEC3, SEC4, SEC5) should set in [Maintain Customer](/usage/Customer%20New/Customer#maintain-customer) and [Maintain Supplier](/usage/supplier/Basic%20Setup/Basic%20Supplier%20Setup#maintain-supplier) (Tariff code setting under Tax Tab).
 
 ![SST_Tariff_Code_3](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-3.jpg)
 

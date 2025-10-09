@@ -95,8 +95,8 @@ This setting set the supplier who has supply the taxable goods under the Sales T
 | **Field Name** | **Explanation & Properties** |
 |----------------|-------------------------------|
 | Tariff         | • Add tariff code of taxable goods to be sold in exemption.  |
-|                | • Lookup: Maintain Tariff  |
-|                | • Related Topic: Maintain Stock Item → Main Header |
+|                | • Lookup: [Maintain Tariff](/usage/Tools-New/Tools#maintain-tariff)  |
+|                | • Related Topic: [Maintain Stock Item → Main Header](/usage/stock/stock-guide#maintain-stock-item) |
 | Tax            | • Select an appropriate tax code that falls under the Person Exempted in **Schedule C ONLY** (must be declared in SST-02). |
 |                | • Schedule C tax code: PEC1, PEC2, PEC3, PEC4, PEC5 |
 |                | • Lookup: [Maintain Tax](/usage/GST/GST/GST#maintain-tax) |
@@ -674,7 +674,7 @@ Sample of supplier statement screenshot below.
 
 ### Basic Entry
 
-Assume that you have create the **Customer Contra**. You will found the same contra no. appeared in the Supplier Contra.
+Assume that you have create the [Customer Contra](/usage/Customer%20New/Customer#customer-contra). You will found the same contra no. appeared in the Supplier Contra.
 1. Highlight the Contra No to edit. Click on Edit button.
 2. See the Supplier Contra entry form screenshot below.
 
@@ -692,6 +692,12 @@ Assume that you have create the **Customer Contra**. You will found the same con
 |--------------------------|-------------|-------------|
 | Supplier Control Acc     | 1,500.00    |             |
 | Contra Acc               |             | 1,500.00    |
+
+:::note TIPS
+
+To ensure the contra account has set properly. [Contra Account](/usage/Tools-New/Tools#options)
+
+:::
 
 ### Knock-off
 
