@@ -21,7 +21,8 @@ Therefore, we have designed a database structure specially for business which ha
 
 
 See below the overview of Margin Scheme process flow:
-![1](../../../../static/img/contorl-center/wl01.png)
+
+![1](../../../../static/img/usage/general/case-study/gst-margin-scheme/gst-process-flow.png)
 
 #### Setup Margin Scheme Database
 **Last Customisation Update : 13 Sep 2016**
@@ -75,22 +76,28 @@ See below the overview of Margin Scheme process flow:
 - Add new field name MS in Maintain Project.
 1. Go to Tools | DIY | SQL Control Center...
 2. Browse to Business Objects | Miscellaneous | Project | Project Fields
-![2](../../../../static/img/contorl-center/wl02.png)
+
+![2](../../../../static/img/usage/general/case-study/gst-margin-scheme/sep-step2.png)
 
 3. Add new field name MS and the Data Type, Size, Sub Size, Caption, etc must follow the screenshot below. Click to Save button.
-![3](../../../../static/img/contorl-center/wl03.png)
+
+![3](../../../../static/img/usage/general/case-study/gst-margin-scheme/sep-step3.png)
 
 4. Next, click on the existing Margin Scheme form. See the screenshot below.
-![4](../../../../static/img/contorl-center/wl04.png)
+
+![4](../../../../static/img/usage/general/case-study/gst-margin-scheme/sep-step4.png)
 
 5. Click on Customize button.
-![5](../../../../static/img/contorl-center/wl05.png)
+
+![5](../../../../static/img/usage/general/case-study/gst-margin-scheme/sep-step5.png)
 
 6. Drag the Margin Scheme from Available Item list and drop under Purchase Details. See screenshow below.
-![6](../../../../static/img/contorl-center/wl06.png)
+
+![6](../../../../static/img/usage/general/case-study/gst-margin-scheme/sep-step6.png)
 
 7. Lastly, click to Save button.
-![7](../../../../static/img/contorl-center/wl07.png)
+
+![7](../../../../static/img/usage/general/case-study/gst-margin-scheme/sep-step7.png)
 
 :::info Note
 Patch files are applicable to old margin scheme database.
@@ -105,26 +112,34 @@ Patch files are applicable to old margin scheme database.
 3. Drag the patch filename DELETE_PHPI_OnAfterSave_2016.11.09.
 4. Click Execute.
 5. Repeat step 2 - 4 and apply with another patch filename INSERT_PHPI_OnAfterSave_2016.11.09.
+
 - Add new field name StkBookNo in Maintain Project.
 1. Go to Tools | DIY | SQL Control Center...
-![8](../../../../static/img/contorl-center/wl08.png)
+
+![8](../../../../static/img/usage/general/case-study/gst-margin-scheme/nov-step1.png)
 2. Browse to Business Objects | Miscellaneous | Project | Project Fields
-![9](../../../../static/img/contorl-center/wl09.png)
+
+![9](../../../../static/img/usage/general/case-study/gst-margin-scheme/nov-step2.png)
 
 3. Add new field name StkBookNo and the Data Type, Size, Sub Size, Caption, etc must follow the screenshot below. Click to Save button.
-![10](../../../../static/img/contorl-center/wl10.png)
+
+![10](../../../../static/img/usage/general/case-study/gst-margin-scheme/nov-step3.png)
 
 4. Next, click on the existing Margin Scheme form. See the screenshot below.
-![11](../../../../static/img/contorl-center/wl11.png)
+
+![11](../../../../static/img/usage/general/case-study/gst-margin-scheme/nov-step4.png)
 
 5. Click on Customize button.
-![12](../../../../static/img/contorl-center/wl12.png)
+
+![12](../../../../static/img/usage/general/case-study/gst-margin-scheme/nov-step5.png)
 
 6. Drag the Stock Book No from Available Item list and drop under Purchase Details. See screenshow below.
-![13](../../../../static/img/contorl-center/wl13.png)
+
+![13](../../../../static/img/usage/general/case-study/gst-margin-scheme/nov-step6.png)
 
 7. Lastly, click to Save button.
-![14](../../../../static/img/contorl-center/wl14.png)
+
+![14](../../../../static/img/usage/general/case-study/gst-margin-scheme/nov-step7.png)
 
 :::info Note
 Patch files are applicable to old margin scheme database.
@@ -136,7 +151,8 @@ Patch files are applicable to old margin scheme database.
 
 1. Create new buyer name (eg. company name or person name).
 2. Click on Tax tab to input the GST No (if applicable).
-![15](../../../../static/img/contorl-center/wl15.png)
+
+![15](../../../../static/img/usage/general/case-study/gst-margin-scheme/set-md-cust.png)
 
 3. Click on extra tab. You can enter the road tax, inspection and insurance reminder date for reference.
 
@@ -145,27 +161,32 @@ Patch files are applicable to old margin scheme database.
 
 1. Create new seller name (eg. company name or person name).
 2. Click on Tax tab to input the GST No (if applicable).
-![16](../../../../static/img/contorl-center/wl16.png)
+
+![16](../../../../static/img/usage/general/case-study/gst-margin-scheme/set-md-supp.png)
 
 #### Maintain Stock Item
 [Stock | Maintain Stock Item…]
 
 1. Create the car model at Maintain Stock Item. For example, TOYOTA VIOS 1.5G(AT)
 2. Click on Vehicle tab to define this item is a "Vehicle".
-![17](../../../../static/img/contorl-center/wl17.png)
+
+![17](../../../../static/img/usage/general/case-study/gst-margin-scheme/set-md-item.png)
 
 #### Maintain Project
 [Tools | Maintain Project…]
 
 1. Create the second car plate number in Maintain Project.
 2. Update the Vehicle detail.
-![18](../../../../static/img/contorl-center/wl18.png)
+
+![18](../../../../static/img/usage/general/case-study/gst-margin-scheme/set-md-project-step2.png)
 
 3. Tick on Margin Scheme if it is a second hand car plate number.
-![19](../../../../static/img/contorl-center/wl19.png)
+
+![19](../../../../static/img/usage/general/case-study/gst-margin-scheme/set-md-project-step3.png)
 
 4. Leave BLANK to Purchase Invoice Date, Purchase Invoice No and Cost. It will auto update when you are select the project code and save at the Purchase Invoice.
-![20](../../../../static/img/contorl-center/wl20.png)
+
+![20](../../../../static/img/usage/general/case-study/gst-margin-scheme/set-md-project-step4.png)
 
 
 ### Record Purchase of Second Hand Car Value
@@ -184,7 +205,7 @@ Patch files are applicable to old margin scheme database.
 | AR/AP Current Transactions | 30-40 Mins | 1.5-2 Hours |
 | GL Current Transactions | 10-15 Mins | 25-40 Mins |
 
-![21](../../../../static/img/contorl-center/wl21.png)
+![21](../../../../static/img/usage/general/case-study/gst-margin-scheme/record-2nd-hand-car.png)
 
 :::info Note
 1. This information is required to show in Lampiran 07 -Monthly Report for Relief for Secondhand Goods or Margin Scheme (MS).
@@ -203,25 +224,33 @@ Patch files are applicable to old margin scheme database.
     2. Purchase Cost = 30,000.00
     3. Margin = 90,113.69 – 30,000.00 = 60,113.69
     4. Tax amount = 60,113.69 x 6/106 = 3,402.66
-![22](../../../../static/img/contorl-center/wl22.png)
+
+![22](../../../../static/img/usage/general/case-study/gst-margin-scheme/margin-scheme.png)
 
 6. Invoice no, invoice date, selling price, margin, and margin tax amount will be shown in Lampiran 07 -Monthly Report for Relief for Secondhand Goods or Margin Scheme (MS)
 #### Other Information
 1. Customer Particular tab.
-![23](../../../../static/img/contorl-center/wl23.png)
+
+![23](../../../../static/img/usage/general/case-study/gst-margin-scheme/other-step1.png)
 
 
 2. Deposit Info (For record purpose, no posting to account).
-![24](../../../../static/img/contorl-center/wl24.png)
+
+![24](../../../../static/img/usage/general/case-study/gst-margin-scheme/other-step2.png)
 
 3. Vehichle Detail (Auto retrieve from Vehicle Detail in Maintain Project).
-![25](../../../../static/img/contorl-center/wl25.png)
+
+![25](../../../../static/img/usage/general/case-study/gst-margin-scheme/other-step3.png)
 
 ### Print for GST Lampiran 07 (Lampiran B0-Penyata=Pemantauan-SM-Syrikat)
 [Sales | Print Sales Document Listing…]
 
 1. Select document to “Invoice Listing” and click APPLY.
-![26](../../../../static/img/contorl-center/wl26.png)
+
+![26](../../../../static/img/usage/general/case-study/gst-margin-scheme/lampiran-step1.png)
 
 2. Click on preview or print. Select the report name “Lampiran B0-Penyata-Pemantauan-SM-Syarikat”.
-![27](../../../../static/img/contorl-center/wl27.png)
+
+![27](../../../../static/img/usage/general/case-study/gst-margin-scheme/lampiran-step2.png)
+
+static/img/usage/general/case-study/gst-margin-scheme/
