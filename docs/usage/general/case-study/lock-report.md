@@ -42,7 +42,8 @@ Last Customisation Update : 07 Nov 2015
 
 For instance, apply the below script into Sales Profit & Loss By Document - Param Form.
 
-![1](../../../../static/img/contorl-center/wl28.png)
+![1](../../../../static/img/usage/general/case-study/lock-report/reporting.png)
+
 
 ```pascal
  uses SysUtils, Dialogs, Forms, ComObj, DBClient;
