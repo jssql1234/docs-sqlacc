@@ -16,7 +16,7 @@ Introduced in September 2018, SST replaced the former 6% Goods and Services Tax 
 
 Sales and Service Tax model are structured as below:
 
-![180](../../../static/img/getting-started/user-guide/180.png)
+![180](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-1.png)
 
 ## Open SST Return
 
@@ -24,7 +24,7 @@ Sales and Service Tax model are structured as below:
 
 SST tax code structures and mapping to SST-02:
 
-![207](../../../static/img/getting-started/user-guide/207.png)
+![207](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-TaxCodeAndSST02Mapping-1.png)
 
 ### Example of SST-02
 
@@ -34,7 +34,7 @@ SQL Account process SST02 step : [Youtube](https://youtu.be/laLjRJWh2j8)
 
 1. Process SST Return from SST | New SST Return
 
-   ![208](../../../static/img/getting-started/user-guide/208.png)
+   ![208](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-ExampleOfSST02-1.png)
 
 2. Enter your taxable period
 
@@ -42,15 +42,15 @@ SQL Account process SST02 step : [Youtube](https://youtu.be/laLjRJWh2j8)
 
 4. click on Process
 
-   ![209](../../../static/img/getting-started/user-guide/209.png)
+   ![209](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-ExampleOfSST02-2.png)
 
 5. click on SST-02
 
-   ![210](../../../static/img/getting-started/user-guide/210.png)
+   ![210](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-ExampleOfSST02-3.png)
 
-   ![211](../../../static/img/getting-started/user-guide/211.png)
+   ![211](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-ExampleOfSST02-4.png)
 
-   ![212](../../../static/img/getting-started/user-guide/212.png)
+   ![212](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-ExampleOfSST02-5.png)
 
 :::info
 Understand SST02 27 Column : [Video](https://www.facebook.com/SQLEstream/videos/2216806511940307/)
@@ -60,35 +60,35 @@ Understand SST02 27 Column : [Video](https://www.facebook.com/SQLEstream/videos/
 
 1. Part A
 
-   ![213](../../../static/img/getting-started/user-guide/213.png)
+   ![213](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-2ndExampleOfSST02-1.png)
 
 2. Part B1
 
-   ![214](../../../static/img/getting-started/user-guide/214.png)
+   ![214](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-2ndExampleOfSST02-2.png)
 
 3. Part B2
 
-   ![215](../../../static/img/getting-started/user-guide/215.png)
+   ![215](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-2ndExampleOfSST02-3.png)
 
 4. Part C
 
-   ![216](../../../static/img/getting-started/user-guide/216.png)
+   ![216](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-2ndExampleOfSST02-4.png)
 
 5. Part D
 
-   ![217](../../../static/img/getting-started/user-guide/217.png)
+   ![217](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-2ndExampleOfSST02-5.png)
 
 6. Part E
 
-   ![218](../../../static/img/getting-started/user-guide/218.png)
+   ![218](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-2ndExampleOfSST02-6.png)
 
 7. Part F
 
-   ![219](../../../static/img/getting-started/user-guide/219.png)
+   ![219](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-2ndExampleOfSST02-7.png)
 
 8. Part G
 
-   ![220](../../../static/img/getting-started/user-guide/220.png)
+   ![220](../../../static/img/usage/gst-and-sst/sst/SSTIntroduction-2ndExampleOfSST02-8.png)
 
 
 
@@ -96,7 +96,7 @@ Understand SST02 27 Column : [Video](https://www.facebook.com/SQLEstream/videos/
 
 To process and close the SST returns period. You can generate the SST-02.
 
-![new_SST_Return_1](../../../static/img/getting-started/user-guide/LimYuHangSST1.png)
+![new_SST_Return_1](../../../static/img/usage/gst-and-sst/sst/NewSSTReturn-1.png)
 
 | Field Name          | Field Type | Explanation                                                                                  |
 |--------------------|------------|----------------------------------------------------------------------------------------------|
@@ -114,11 +114,11 @@ You are able to draft the SST-02 before the final SST-02 submission by process a
 1. Click on the arrow key down at the Process button (Y).
 2. See below screenshot.
 
-![new_SST_Return_2](../../../static/img/getting-started/user-guide/LimYuHangSST2.png)
+![new_SST_Return_2](../../../static/img/usage/gst-and-sst/sst/SSTReturn-1.png)
 
 3. **DRAFT** Status showed for the SST Returns period.
 
-![new_SST_Return_3](../../../static/img/getting-started/user-guide/LimYuHangSST3.png)
+![new_SST_Return_3](../../../static/img/usage/gst-and-sst/sst/SSTReturn-2.png)
 
 :::note Note:
 You still can amend the documents where the DRAFT SST return has generated. You can draft as many before FINAL process the SST Returns for the period.
@@ -129,11 +129,11 @@ You still can amend the documents where the DRAFT SST return has generated. You 
 1. Click on the Process button.
 2. See below screenshot.
 
-![new_SST_Return_2](../../../static/img/getting-started/user-guide/LimYuHangSST2.png)
+![new_SST_Return_2](../../../static/img/usage/gst-and-sst/sst/SSTReturn-1.png)
 
 3. Final SST Return will not show the word DRAFT in the status column.
 
-![new_SST_Return_3](../../../static/img/getting-started/user-guide/LimYuHangSST3.png)
+![new_SST_Return_3](../../../static/img/usage/gst-and-sst/sst/SSTReturn-2.png)
 
 :::note Note:
 You cannot amend the documents anymore where the FINAL SST return has generated.
@@ -143,37 +143,37 @@ You cannot amend the documents anymore where the FINAL SST return has generated.
 
 1. Sales Tax (Accrual Basis)
 
-   ![221](../../../static/img/getting-started/user-guide/221.png)
+   ![221](../../../static/img/usage/gst-and-sst/sst/SST-Posting-1.png)
 
 2. Service Tax (Payment Basis)
 
    In SST 2.0, the service tax is due and payable when payment is received for any taxable service.
 
-      ![222](../../../static/img/getting-started/user-guide/222.png)
+      ![222](../../../static/img/usage/gst-and-sst/sst/SST-Posting-2.png)
 
    1. Issue sales invoice with service tax 6%, date 31/10/2018, Amount RM 1,000.00 & Tax Amount RM 60.00.
 
-      ![223](../../../static/img/getting-started/user-guide/223.png)
+      ![223](../../../static/img/usage/gst-and-sst/sst/SST-Posting-3.png)
 
    2. Process SST Return from 01/09/2018 to 31/10/2018. Total Tax Payable is RM 0. Due to no payment is receive for the invoices issued.
 
-      ![224](../../../static/img/getting-started/user-guide/224.png)
+      ![224](../../../static/img/usage/gst-and-sst/sst/SST-Posting-4.png)
 
    3. Payment is received on 05/11/2018, knocked-off on IV-00111.
 
-      ![225](../../../static/img/getting-started/user-guide/225.png)
+      ![225](../../../static/img/usage/gst-and-sst/sst/SST-Posting-5.png)
 
    4. Process second cycle of taxable period, the tax payable will be capture as payment is received.
 
-      ![226](../../../static/img/getting-started/user-guide/226.png)
+      ![226](../../../static/img/usage/gst-and-sst/sst/SST-Posting-6.png)
 
    5. SQL Account will auto Credit to SST- Deferred Tax account during invoice issue but no payment. Once payment is received, a Debit will be auto reversed at SST-Deferred Tax Account.
 
-      ![227](../../../static/img/getting-started/user-guide/227.png)
+      ![227](../../../static/img/usage/gst-and-sst/sst/SST-Posting-7.png)
 
    6. the taxable amount of RM 1,000.00 and Tax Amount of RM 60.00 will also capture in SST-02 Part B2, number 11c.
 
-      ![228](../../../static/img/getting-started/user-guide/228.png)
+      ![228](../../../static/img/usage/gst-and-sst/sst/SST-Posting-8.png)
 
 
 
@@ -224,7 +224,7 @@ Sales Tax is a tax charged and levied -
 
 ◆ Goods means all kind of movable property.
 
-◆ Taxable goods means goods of a class or kind not exempted from sales tax; i.e goods which are not listed in Sales Tax (Goods Exempted From Sales Tax) Order 2018).
+◆ Taxable goods means goods of a class or kind not exempted from sales tax; i.e goods which are not listed in Sales Tax (Goods Exempted From Sales Tax) Order 2018.
 
 ◆ Sales includes barter, disposal of goods with a right of purchase or on terms providing that the seller retains an interest in the goods, and delivery of goods under any conditions as to future payment.
 
@@ -242,7 +242,7 @@ Malaysia excludes designated area (DA) and special area (SA).
 
 Overview of Sales Tax flow chart:-
 
-![181](../../../static/img/getting-started/user-guide/181.png)
+![181](../../../static/img/usage/gst-and-sst/sst/SalesTaxMechanism-1.png)
 
 ## Meaning of Manufacture
 
@@ -278,15 +278,15 @@ For goods other than petroleum
 
 1. By conversion
 
-   ![182](../../../static/img/getting-started/user-guide/182.png)
+   ![182](../../../static/img/usage/gst-and-sst/sst/MeaningOfManufacture-1.png)
 
 2. The assembly
 
-   ![183](../../../static/img/getting-started/user-guide/183.png)
+   ![183](../../../static/img/usage/gst-and-sst/sst/MeaningOfManufacture-2.png)
 
 3. For petroleum
 
-   ![184](../../../static/img/getting-started/user-guide/184.png)
+   ![184](../../../static/img/usage/gst-and-sst/sst/MeaningOfManufacture-3.png)
 
 ## Meaning of Taxable Person
 
@@ -383,7 +383,7 @@ In another words, goods which are not listed in **Sales Tax (Goods Exempted From
 
 Example of taxable goods are:
 
-![185](../../../static/img/getting-started/user-guide/185.png)
+![185](../../../static/img/usage/gst-and-sst/sst/TaxableGoods-1.png)
 
 It is chargeable with a tax rate of
 
@@ -399,7 +399,7 @@ It is chargeable with a tax rate of
 
 How to determine the rate of sales tax for goods?
 
-![186](../../../static/img/getting-started/user-guide/186.png)
+![186](../../../static/img/usage/gst-and-sst/sst/TaxableGoods-2.png)
 
 ### Exempted Goods
 
@@ -407,7 +407,7 @@ How to determine the rate of sales tax for goods?
 
    Example of exempted goods are:
 
-   ![187](../../../static/img/getting-started/user-guide/187.png)
+   ![187](../../../static/img/usage/gst-and-sst/sst/ExemptedGoods-1.png)
 
 ## Value of Taxable Goods
 
@@ -435,7 +435,7 @@ Transaction value of the goods,
 
 ## Responsibility of Registered Manufacturer
 
-   ![188](../../../static/img/getting-started/user-guide/188.png)
+   ![188](../../../static/img/usage/gst-and-sst/sst/ResponsibilityOfRegisteredManufacturer-1.png)
 
 ## Exemption and Facilities
 
@@ -473,7 +473,7 @@ Person refer to Sales Tax (Person Exempted From Sales Tax) Order 2018.
 
 ### Treatment in Designated Area (DA)
 
-![189](../../../static/img/getting-started/user-guide/189.png)
+![189](../../../static/img/usage/gst-and-sst/sst/TreatmentInDesignedArea-1.png)
 
 :::note
 SA = Special Area, e.g. Free Zone (FZ), Licensed Warehouse, Licensed Manufacturing Warehouse (LMW) and Joint Development Area (JDA).
@@ -483,7 +483,7 @@ PCA = Principal Customs Area
 
 ### Treatment in Special Area (SA)
 
-![190](../../../static/img/getting-started/user-guide/190.png)
+![190](../../../static/img/usage/gst-and-sst/sst/TreatementInSpecialArea-1.png)
 
 ## Accounting of Tax
 
@@ -571,7 +571,7 @@ Registered manufacturer may apply for taxable period other than the default taxa
 
 In summary,
 
-![191](../../../static/img/getting-started/user-guide/191.png)
+![191](../../../static/img/usage/gst-and-sst/sst/SST-TaxablePeriod-1.png)
 
 ## Furnishing Sales Tax (SST-02) Return & Payment of Tax
 
@@ -623,13 +623,13 @@ Submission to sales tax office at applicants’ place of business.
 
 Illustration:
 
-![192](../../../static/img/getting-started/user-guide/192.png)
+![192](../../../static/img/usage/gst-and-sst/sst/SST-Drawback-1.png)
 
 ### Penalty for late payment of tax
 
 Late payment penalty on the amount of sales tax not paid as shown in the table below.
 
-![193](../../../static/img/getting-started/user-guide/193.png)
+![193](../../../static/img/usage/gst-and-sst/sst/SST-PenaltyForLatePaymentOfTax-1.png)
 
 ### Other penalty for offences
 
@@ -705,7 +705,7 @@ Service tax is not chargeable on:
 
 Overview of Service Tax flow chart:-
 
-![194](../../../static/img/getting-started/user-guide/194.png)
+![194](../../../static/img/usage/gst-and-sst/sst/SST-ServiceTaxMechanism-1.png)
 
 ## Meaning of Taxable Person
 
@@ -719,13 +719,13 @@ Value of taxable service provided by a service provider for a period of 12 month
 
 - Credit card / charge card (no threshold)
 
-![195](../../../static/img/getting-started/user-guide/195.png)
+![195](../../../static/img/usage/gst-and-sst/sst/SST-TaxableServices-1.png)
 
-![196](../../../static/img/getting-started/user-guide/196.png)
+![196](../../../static/img/usage/gst-and-sst/sst/SST-TaxableServices-2.png)
 
-![197](../../../static/img/getting-started/user-guide/197.png)
+![197](../../../static/img/usage/gst-and-sst/sst/SST-TaxableServices-3.png)
 
-![198](../../../static/img/getting-started/user-guide/198.png)
+![198](../../../static/img/usage/gst-and-sst/sst/SST-TaxableServices-4.png)
 
 ## Rate of Services
 
@@ -735,7 +735,7 @@ All taxable services are fixed charged at a rate of 6%, except the provision of 
 
 ### Types of Registration list
 
-![199](../../../static/img/getting-started/user-guide/199.png)
+![199](../../../static/img/usage/gst-and-sst/sst/SST-TypesOfRegistrationList-1.png)
 
 ### Determination of Taxable Turnover
 
@@ -769,7 +769,7 @@ Registered person is allowed to deduct service tax in his return for any cancell
 
 ### Treatment in Designated Area (DA)
 
-![200](../../../static/img/getting-started/user-guide/200.png)
+![200](../../../static/img/usage/gst-and-sst/sst/SST-SpecialRule-TreatementInDesignatedArea-1.png)
 
 :::note
 
@@ -781,7 +781,7 @@ Registered person is allowed to deduct service tax in his return for any cancell
 
 ### Treatment in Special Area (SA)
 
-![201](../../../static/img/getting-started/user-guide/201.png)
+![201](../../../static/img/usage/gst-and-sst/sst/SST-SpecialRule-TreatementInSpecialArea-1.png)
 
 ## Accounting
 
@@ -833,7 +833,7 @@ Registered person may apply for taxable period other than the default taxable pe
 
 In summary,
 
-![202](../../../static/img/getting-started/user-guide/202.png)
+![202](../../../static/img/usage/gst-and-sst/sst/SST-AccountingBasis-TaxablePeriod-1.png)
 
 ## Furnishing Service Tax (SST-02) Return & Payment of Tax
 
@@ -857,7 +857,7 @@ Explain the importance and usage of SST Tax Code reflect to SST-02.
 
 SST tax code mapping to SST-02.
 
-![SST_Tax_Code_1](../../../static/img/getting-started/user-guide/LimYuHangSSTA1.jpg)
+![SST_Tax_Code_1](../../../static/img/usage/gst-and-sst/sst/SST-SStTaxCode-1.jpg)
 
 ### Sales Tax Code
 
@@ -943,21 +943,21 @@ Applicable to same service provider under:
 - Goods imported from or to Malaysia are classified by the Harmonized Tariff Schedule (HTS) or commonly referred to as HS Codes.  
 - The codes, created by World Customs Organization (WCO), categorize up to 5,000 commodity  
 - HS Codes are made of 6-digit numbers that are recognized internationally, though different countries can extend the numbers by two or four digits to define commodities at a more detailed level.  
-- Click here to search the tariff code list from Kastam system.  
+- Click [here](https://ezhs.customs.gov.my/) to search the tariff code list from Kastam system.  
 
 ### Quick Setup for Tariff Code
 
-1. Create the tariff code applicable to your product at Maintain Tariff.
+1. Create the tariff code applicable to your product at [Maintain Tariff](/usage/Tools-New/Tools#maintain-tariff).
 
-![SST_Tariff_Code_1](../../../static/img/getting-started/user-guide/LimYuHangSSTB1.jpg)
+![SST_Tariff_Code_1](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-1.jpg)
 
-2. Pick a tariff code for an items at Maintain Stock Item.
+2. Pick a tariff code for an items at [Maintain Stock Item](/usage/stock/stock-guide#maintain-stock-item).
 
-![SST_Tariff_Code_2](../../../static/img/getting-started/user-guide/LimYuHangSSTB2.jpg)
+![SST_Tariff_Code_2](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-2.jpg)
 
-3. For exemption certificate case (under Schedule A, B, C), a tariff and tax code (SEA, SEB, SEC1, SEC2, SEC3, SEC4, SEC5) should set in Maintain Customer and Maintain Supplier (Tariff code setting under Tax Tab).
+3. For exemption certificate case (under Schedule A, B, C), a tariff and tax code (SEA, SEB, SEC1, SEC2, SEC3, SEC4, SEC5) should set in [Maintain Customer](/usage/Customer%20New/Customer#maintain-customer) and [Maintain Supplier](/usage/supplier/Basic%20Setup/Basic%20Supplier%20Setup#maintain-supplier) (Tariff code setting under Tax Tab).
 
-![SST_Tariff_Code_3](../../../static/img/getting-started/user-guide/LimYuHangSSTB3.jpg)
+![SST_Tariff_Code_3](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-3.jpg)
 
 
 
@@ -973,7 +973,7 @@ Purchase service from oversea by any companies in Malaysia and it is subject to 
 - Enter at **Cash Book Entry (PV)** or at **Supplier/Purchase Invoice**. See the illustration below.  
 - use Tax code : **IMSV**  
 
-![SST_Imported_Services_1](../../../static/img/getting-started/user-guide/LimYuHangSSTC1.jpg)
+![SST_Imported_Services_1](../../../static/img/usage/gst-and-sst/sst/SSTImporttedService-ImportedServiceTax-1.jpg)
 
 ### Imported Service Tax Exempted (IMSVE)
 
@@ -983,14 +983,14 @@ Any company in Malaysia who acquires taxable services of Group G item (a), (b), 
 - Enter at **Cash Book Entry (PV)** or at **Supplier/Purchase Invoice**. See the illustration below.  
 - use Tax code : **IMSVE**  
 
-![SST_Imported_Services_2](../../../static/img/getting-started/user-guide/LimYuHangSSTC2.jpg)
+![SST_Imported_Services_2](../../../static/img/usage/gst-and-sst/sst/SSTImporttedService-ImportedServiceTaxExempted-1.jpg)
 
 ### How to get print SST-02A
 
 1. Go to **File | Company Profile**...
 2. Make sure the **Service Tax No** field is **BLANK**.
 
-![SST_Imported_Services_3](../../../static/img/getting-started/user-guide/LimYuHangSSTC3.jpg)
+![SST_Imported_Services_3](../../../static/img/usage/gst-and-sst/sst/SSTImporttedService-HowToPrintSST02A-1.jpg)
 
 :::note Note:
 For **Service Tax Registered company**, it is declare together with other service tax in SST-02
@@ -1000,7 +1000,7 @@ For **Service Tax Registered company**, it is declare together with other servic
 4. Logout and login again.
 5. Go to menu : **SST/GST | Print SST-02A**...
 
-![SST_Imported_Services_4](../../../static/img/getting-started/user-guide/LimYuHangSSTC4.jpg)
+![SST_Imported_Services_4](../../../static/img/usage/gst-and-sst/sst/SSTImporttedService-HowToPrintSST02A-2.jpg)
 
 
 
@@ -1008,7 +1008,7 @@ For **Service Tax Registered company**, it is declare together with other servic
 
 Service Tax required to be accounted if on the day following period of 12 month when any whole or part of the payment is not received from the date of the invoice for the taxable service provided.
 
-![SST_Pending_Service_1](../../../static/img/getting-started/user-guide/LimYuHangSSTD1.jpg)
+![SST_Pending_Service_1](../../../static/img/usage/gst-and-sst/sst/SSTAccountForPendingServiceTaxOver12Months-1.jpg)
 
 ### Journal Entry Adjustment
 
@@ -1016,7 +1016,7 @@ Service Tax required to be accounted if on the day following period of 12 month 
 
 1. For first time, create the following GL Account.
 
-![SST_Pending_Service_2](../../../static/img/getting-started/user-guide/LimYuHangSSTD2.jpg)
+![SST_Pending_Service_2](../../../static/img/usage/gst-and-sst/sst/SST-JournalEntryAdjustment-1.jpg)
 
 | GL Acc  | Description                          | Account Type    |
 |---------|--------------------------------------|-----------------|
@@ -1025,19 +1025,19 @@ Service Tax required to be accounted if on the day following period of 12 month 
 2. Process SST Return, system will prompt the **Pending Service Tax > 12 months** if have found the outstanding service invoices has over 12 months.
 3. Follow the Service Tax rules, click Pay Pending Service Tax button.
 
-![SST_Pending_Service_3](../../../static/img/getting-started/user-guide/LimYuHangSSTD3.jpg)
+![SST_Pending_Service_3](../../../static/img/usage/gst-and-sst/sst/SST-JournalEntryAdjustment-2.jpg)
 
 4. Right click on the grid column, select Print Grid.
 
-![SST_Pending_Service_4](../../../static/img/getting-started/user-guide/LimYuHangSSTD4.jpg)
+![SST_Pending_Service_4](../../../static/img/usage/gst-and-sst/sst/SST-JournalEntryAdjustment-3.jpg)
 
 5. Print out the list of outstanding service invoices for record purpose.
 
-![SST_Pending_Service_5](../../../static/img/getting-started/user-guide/LimYuHangSSTD5.jpg)
+![SST_Pending_Service_5](../../../static/img/usage/gst-and-sst/sst/SST-JournalEntryAdjustment-4.jpg)
 
 6. Post the journal entry and follow the double entry below to account the service tax pending over 12 months to be paid.
 
-![SST_Pending_Service_6](../../../static/img/getting-started/user-guide/LimYuHangSSTD6.jpg)
+![SST_Pending_Service_6](../../../static/img/usage/gst-and-sst/sst/SST-JournalEntryAdjustment-5.jpg)
 
 | GL Code | GL Description                     | Tax | Local DR  | Local CR | Tax Amount | Local DR (Tax) | Local CR (Tax) |
 |---------|------------------------------------|-----|-----------|----------|------------|----------------|----------------|
@@ -1062,13 +1062,13 @@ Active the tax code : SVA
 1. Under the **payment tab**, system will list out the prepayment service invoice which has been paid when process SST return.
 2. If you have follow the Service Tax rules, click Pay Pending Service Tax button.
 
-![SST_Pending_Service_7](../../../static/img/getting-started/user-guide/LimYuHangSSTD7.jpg)
+![SST_Pending_Service_7](../../../static/img/usage/gst-and-sst/sst/SST-RecoveryFromPayment-1.jpg)
 
 3. Right click on the grid column, select Print Grid.
 4. Print out the list of the prepayment service invoice which has been paid for record purpose.
 5. Post the journal entry and follow the double entry below to recover the service has been paid.
 
-![SST_Pending_Service_8](../../../static/img/getting-started/user-guide/LimYuHangSSTD8.jpg)
+![SST_Pending_Service_8](../../../static/img/usage/gst-and-sst/sst/SST-RecoveryFromPayment-2.jpg)
 
 | GL Code | GL Description                    | Tax | Local DR | Local CR | Tax Amount | Local DR (Tax) | Local CR (Tax) |
 |---------|-----------------------------------|-----|----------|----------|------------|----------------|----------------|
@@ -1078,7 +1078,7 @@ Active the tax code : SVA
 6. Next, go to New SST Return. Click Process.
 7. At this time, click Continue SST-02.
 
-![SST_Pending_Service_9](../../../static/img/getting-started/user-guide/LimYuHangSSTD9.jpg)
+![SST_Pending_Service_9](../../../static/img/usage/gst-and-sst/sst/SST-RecoveryFromPayment-3.jpg)
 
 
 
@@ -1091,7 +1091,7 @@ Active the tax code : SVA
 By Default System will use as Payment Basis for Service Tax Type  
 To change to Accrual Basis(i.e. Pay Kastam even no payment), Just Set as below  
 
-![SST_FAQ_1](../../../static/img/getting-started/user-guide/LimYuHangSSTFAQ1.jpg)
+![SST_FAQ_1](../../../static/img/usage/gst-and-sst/sst/SSTFAQ-ChangeTheServiceTaxTypetoAccrualBasis-1.jpg)
 
 
 
@@ -1117,7 +1117,7 @@ Make sure you had enter your **Sales Tax no** instead of **Service Tax** no in F
 
 Make sure you had select correct **Knock Off Date** in the Customer Payment
 
-![SST_FAQ_2](../../../static/img/getting-started/user-guide/LimYuHangSSTFAQ2.jpg)
+![SST_FAQ_2](../../../static/img/usage/gst-and-sst/sst/SSTFAQ-ServiceTaxTransactionNotShownInSST02-1.jpg)
 
 
 
@@ -1128,13 +1128,13 @@ Make sure you had select correct **Knock Off Date** in the Customer Payment
 Knock-off tax date will follow the customer payment date if user has tick on an invoice.  
 Change the customer payment date (eg. from 29/05/2019 to 29/09/2018), the knock-off date will remains unchanged.  
 
-![SST_FAQ_3](../../../static/img/getting-started/user-guide/LimYuHangSSTFAQ3.jpg)
+![SST_FAQ_3](../../../static/img/usage/gst-and-sst/sst/SSTFAQ-ServiceInvoiceKnockOffNotAppearInSST02-1.jpg)
 
 **Solution:**
 
 Change the **Knock-off Tax Date** (follow the payment date)
 
-![SST_FAQ_4](../../../static/img/getting-started/user-guide/LimYuHangSSTFAQ4.jpg)
+![SST_FAQ_4](../../../static/img/usage/gst-and-sst/sst/SSTFAQ-ServiceInvoiceKnockOffNotAppearInSST02-2.jpg)
 
 
 

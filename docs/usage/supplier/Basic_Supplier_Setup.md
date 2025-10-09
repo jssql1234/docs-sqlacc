@@ -11,17 +11,17 @@ tags: ["SQL Account", "Usage", "Supplier"]
 To keep the Supplier profile data such as addresses, telephone, fax, email, contact person, credit limits, credit
 terms, etc. In other words, it is your supplier contacts list.
 
-![Maintain-Supplier1](../../../static/img/getting-started/user-guide/LimYuHang1.jpg)
+![Maintain-Supplier1](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-1.jpg)
 
 ### New Supplier
 
 To create NEW supplier, CLICK on NEW button. See screenshot below.
 
-![Maintain-Supplier2](../../../static/img/getting-started/user-guide/LimYuHang2.jpg)
+![Maintain-Supplier2](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-NewSupplier-1.jpg)
 
 You will get a blank form to be fill-in with the supplier data.
 
-![Maintain-Supplier3](../../../static/img/getting-started/user-guide/LimYuHang3.jpg)
+![Maintain-Supplier3](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-NewSupplier-2.jpg)
 
 You may start input the following fields:
 
@@ -35,7 +35,7 @@ You may start input the following fields:
 
 #### General
 
-![Maintain-Supplier4](../../../static/img/getting-started/user-guide/LimYuHang4.jpg)
+![Maintain-Supplier4](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-General-1.jpg)
 
 | **Field Name**  | **Field Type**                               | **Length**              | **Explanation**                                                                 |
 |------------------|----------------------------------------------|-------------------------|---------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ You may start input the following fields:
 
 #### Note
 
-![Maintain-Supplier5](../../../static/img/getting-started/user-guide/LimYuHang5.jpg)
+![Maintain-Supplier5](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-Note-1.jpg)
 
 | **Field Name**      | **Field Type**   | **Length**  | **Explanation**                                                                 |
 |----------------------|------------------|-------------|---------------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ You may start input the following fields:
 
 #### Tax
 
-![Maintain-Supplier6](../../../static/img/getting-started/user-guide/LimYuHang6.jpg)
+![Maintain-Supplier6](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-Tax-1.jpg)
 
 | **Field Name**  | **Explanation & Properties**                                                                 |
 |------------------|-----------------------------------------------------------------------------------------------|
@@ -95,15 +95,15 @@ This setting set the supplier who has supply the taxable goods under the Sales T
 | **Field Name** | **Explanation & Properties** |
 |----------------|-------------------------------|
 | Tariff         | • Add tariff code of taxable goods to be sold in exemption.  |
-|                | • Lookup: Maintain Tariff  |
-|                | • Related Topic: Maintain Stock Item → Main Header |
+|                | • Lookup: [Maintain Tariff](/usage/Tools-New/Tools#maintain-tariff)  |
+|                | • Related Topic: [Maintain Stock Item → Main Header](/usage/stock/stock-guide#maintain-stock-item) |
 | Tax            | • Select an appropriate tax code that falls under the Person Exempted in **Schedule C ONLY** (must be declared in SST-02). |
 |                | • Schedule C tax code: PEC1, PEC2, PEC3, PEC4, PEC5 |
-|                | • Lookup: Maintain Tax |
+|                | • Lookup: [Maintain Tax](/usage/GST/GST/GST#maintain-tax) |
 
 #### Bank Account
 
-![Maintain-Supplier7](../../../static/img/getting-started/user-guide/LimYuHang7.jpg)
+![Maintain-Supplier7](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-BankAccount-1.jpg)
 
 | **Field Name** | **Explanation & Properties** |
 |----------------|-------------------------------|
@@ -119,7 +119,7 @@ This setting set the supplier who has supply the taxable goods under the Sales T
 
 You can EDIT the supplier, CLICK on EDIT button. See screenshot below.
 
-![Maintain-Supplier8](../../../static/img/getting-started/user-guide/LimYuHang8.jpg)
+![Maintain-Supplier8](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-EditSupplier-1.jpg)
 
 :::note
  
@@ -132,13 +132,13 @@ You can EDIT the supplier, CLICK on EDIT button. See screenshot below.
 
 You have to SAVE the supplier data before can be used. See screenshot below.
 
-![Maintain-Supplier9](../../../static/img/getting-started/user-guide/LimYuHang9.jpg)
+![Maintain-Supplier9](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-SaveSupplier-1.jpg)
 
 ### Delete Supplier
 
 You can DELETE the unwanted supplier data. See screenshot below.
 
-![Maintain-Supplier10](../../../static/img/getting-started/user-guide/LimYuHang10.jpg)
+![Maintain-Supplier10](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-DeleteSupplier-1.jpg)
 
 :::note  
  1. User able to DELETE the supplier data depends on the user access rights granted.
@@ -148,7 +148,7 @@ You can DELETE the unwanted supplier data. See screenshot below.
 
 Supplier code can be AUTO generate or overwrite it manually. See screenshot below.
 
-![Maintain-Supplier11](../../../static/img/getting-started/user-guide/LimYuHang11.jpg)
+![Maintain-Supplier11](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-SupplierCodeFormat-1.jpg)
 
 :::note Important
  1. Every supplier code is unique. 
@@ -157,11 +157,11 @@ Supplier code can be AUTO generate or overwrite it manually. See screenshot belo
 
 You can set the supplier code format via Tools | Options...(Supplier). See screenshot below.
 
-![Maintain-Supplier12](../../../static/img/getting-started/user-guide/LimYuHang12.jpg)
+![Maintain-Supplier12](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-SupplierCodeFormat-2.jpg)
 
 Explanation of the Supplier Code Format:
 
-![Maintain-Supplier13](../../../static/img/getting-started/user-guide/LimYuHang13.jpg)
+![Maintain-Supplier13](../../../static/img/usage/supplier/supplier-guide-images/MaintainSupplier-SupplierCodeFormat-3.jpg)
 
 For example,
 
@@ -179,20 +179,20 @@ For example,
 - General invoice received from supplies likes purchase of service, insurance, stationery or any non-stock control billing.
 - Besides that, you can check the invoices status such as outstanding and payment history.
 
-![Supplier-Invoice1](../../../static/img/getting-started/user-guide/LimYuHangA1.jpg)
+![Supplier-Invoice1](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-1.jpg)
 
 ### Basic Entry
   
 1. Click on New button.
 2. See the New Supplier Invoice entry form screenshot below.
 
-![Supplier-Invoice2](../../../static/img/getting-started/user-guide/LimYuHangA2.jpg)
+![Supplier-Invoice2](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-Entry-1.jpg)
 
 3. Select the Supplier Code. You direct key-in and search by either supplier code or name.
 4. Input the Purchase A/c and amount to be debit.
 5. Below is the example of the entry created:
 
-![Supplier-Invoice3](../../../static/img/getting-started/user-guide/LimYuHangA3.jpg)
+![Supplier-Invoice3](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-Entry-2.jpg)
 
 | Account                  | DR (RM)  | CR (RM)  |
 |---------------------------|----------|----------|
@@ -207,7 +207,7 @@ For example,
 - For document project, you need to point to MORE section (on the left side bar).
 - For detail project, you have to insert the project column out from Field Chooser.
 
-![Supplier-Invoice4](../../../static/img/getting-started/user-guide/LimYuHangA4.jpg)
+![Supplier-Invoice4](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-Project-1.jpg)
 
 | **Label** | **Types**          | **Explanation**                                             |
 |-----------|--------------------|-------------------------------------------------------------|
@@ -219,13 +219,13 @@ For example,
 - It is very useful to attach any supporting documents to an invoice.
 - In future, you able to retrieve and refer the attachment file easily.
 
-![Supplier-Invoice5](../../../static/img/getting-started/user-guide/LimYuHangA5.jpg)
+![Supplier-Invoice5](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-Attachment-1.jpg)
 
 1) You have to point to the attachment section.
 2) Click on ( + ) button to insert the filename path.
 3) See the sample screenshot below.
 
-![Supplier-Invoice6](../../../static/img/getting-started/user-guide/LimYuHangA6.jpg)
+![Supplier-Invoice6](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-Attachment-2.jpg)
 
 ### Note
 
@@ -234,21 +234,21 @@ For example,
 3. You can start key-in the note. See the example screenshot below.
 4. Click on X button to save and exit the Rich Text Editor.
 
-![Supplier-Invoice7](../../../static/img/getting-started/user-guide/LimYuHangA7.jpg)
+![Supplier-Invoice7](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-Note-1.jpg)
 
 5. You will get prompted the Save changes? message. Click YES to save it.
 
-![Supplier-Invoice8](../../../static/img/getting-started/user-guide/LimYuHangA8.jpg)
+![Supplier-Invoice8](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-Note-2.jpg)
 
 ### Invoice description
 
 1. To show the document description in Supplier Statement, eg. Purchase-Stationery April 2015.
 
-![Supplier-Invoice9](../../../static/img/getting-started/user-guide/LimYuHangA9.jpg)
+![Supplier-Invoice9](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-InvoiceDescription-1.jpg)
 
 2. Sample of supplier statement screenshot below.
 
-![Supplier-Invoice10](../../../static/img/getting-started/user-guide/LimYuHangA10.jpg)
+![Supplier-Invoice10](../../../static/img/usage/supplier/supplier-guide-images/SupplierInvoice-InvoiceDescription-2.jpg)
 
 
 
@@ -257,21 +257,21 @@ For example,
 - To record the payment amount to Suppliers.
 - To off-set against the outstanding supplier invoices.
 
-![Supplier-Payment1](../../../static/img/getting-started/user-guide/LimYuHangB1.jpg)
+![Supplier-Payment1](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-1.jpg)
 
 ### Basic Entry
 
 1. Click on New button.
 2. See the New Supplier Payment entry form screenshot below.
 
-![Supplier-Payment2](../../../static/img/getting-started/user-guide/LimYuHangB2.jpg)
+![Supplier-Payment2](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Entry-1.jpg)
 
 3. Select the Supplier Code. Direct key-in and search by either Supplier code or name.
 4. Select the Payment Method (bank or cash account) in Payment By.
 5. Enter the Paid Amount (follow the bank account currency).
 6. Below is the example of the entry created:
 
-![Supplier-Payment3](../../../static/img/getting-started/user-guide/LimYuHangB3.jpg)
+![Supplier-Payment3](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Entry-2.jpg)
 
 **Double Entry will be:-**
 
@@ -282,7 +282,7 @@ For example,
 
 7. Enter Bank Charges if there is a bank charges.
 
-![Supplier-Payment4](../../../static/img/getting-started/user-guide/LimYuHangB4.jpg)
+![Supplier-Payment4](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Entry-3.jpg)
 
 8. It will auto post the following double entry:-
 
@@ -293,7 +293,7 @@ For example,
 
 9. Enter the cheque number, cash or TT into Cheque No. field.
 
-![Supplier-Payment5](../../../static/img/getting-started/user-guide/LimYuHangB5.jpg)
+![Supplier-Payment5](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Entry-4.jpg)
 
 ### Knock-Off
 
@@ -307,21 +307,21 @@ Purpose to knock-off the invoices:
 1. You can enter the knock-off amount into Pay column (auto tick).
 2. Unapplied Amt will be reduced by the knock-off amount entered.
 
-![Supplier-Payment6](../../../static/img/getting-started/user-guide/LimYuHangB6.jpg)
+![Supplier-Payment6](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-PartialKnockOff-1.jpg)
 
 #### Document Knock-Off
 
 1. You can tick on the outstanding documents.
 2. Unapplied Amt will be reduced by the knock-off amount ticked.
 
-![Supplier-Payment7](../../../static/img/getting-started/user-guide/LimYuHangB7.jpg)
+![Supplier-Payment7](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-DocumentKnockOff-1.jpg)
 
 #### Random Knock-Off
 
 1. You can click on the Pay column. It will auto tick on the outstanding documents.
 2. Unapplied Amt will be reduced according to the outstanding balance.
 
-![Supplier-Payment8](../../../static/img/getting-started/user-guide/LimYuHangB8.jpg)
+![Supplier-Payment8](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-RandomKnockOff-1.jpg)
 
 :::note
  Unapplied amount shows the Supplier payment amount not allocated/knock-off against any outstanding invoices and debit note.
@@ -332,39 +332,39 @@ Purpose to knock-off the invoices:
 - It is very useful to attach any supporting documents.
 - In future, you able to retrieve and refer the attachment file easily.
 
-![Supplier-Payment9](../../../static/img/getting-started/user-guide/LimYuHangB9.jpg)
+![Supplier-Payment9](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Attachment-1.jpg)
 
 1. You have to point to the attachment section.
 2. Click on ( + ) button to insert the filename path.
 3. See the sample screenshot below.
 
-![Supplier-Payment10](../../../static/img/getting-started/user-guide/LimYuHangB10.jpg)
+![Supplier-Payment10](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Attachment-2.jpg)
 
 ### Note
 
 1. Click on the Note section (on the LEFT side bar).
 2. RIGHT click it, you will see the Rich Text Editor pop-up.
 
-![Supplier-Payment11](../../../static/img/getting-started/user-guide/LimYuHangB11.jpg)
+![Supplier-Payment11](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Note-1.jpg)
 
 3. You can start key-in the note. See the example screenshot below.
 4. Click on X button to save and exit the Rich Text Editor.
 
-![Supplier-Payment12](../../../static/img/getting-started/user-guide/LimYuHangB12.jpg)
+![Supplier-Payment12](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Note-2.jpg)
 
 5. You will get prompted the Save changes? message. Click YES to save it.
 
-![Supplier-Payment13](../../../static/img/getting-started/user-guide/LimYuHangB13.jpg)
+![Supplier-Payment13](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Note-3.jpg)
 
 ### Description
 
 To show the Supplier payment description in the Supplier Statement, eg. Payment For Jan & Feb 2016.
 
-![Supplier-Payment14](../../../static/img/getting-started/user-guide/LimYuHangB14.jpg)
+![Supplier-Payment14](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Description-1.jpg)
 
 Sample of Supplier statement screenshot below.
 
-![Supplier-Payment15](../../../static/img/getting-started/user-guide/LimYuHangB15.jpg)
+![Supplier-Payment15](../../../static/img/usage/supplier/supplier-guide-images/SupplierPayment-Description-2.jpg)
 
 
 
@@ -373,20 +373,20 @@ Sample of Supplier statement screenshot below.
 - General debit note received from Supplier likes the adjustment for undercharged to purchase of stationery, services, insurance, or any non-stock control billing.
 - Besides that, you can check the debit note status such as outstanding and payment history.
 
-![Supplier-Debit-Note1](../../../static/img/getting-started/user-guide/LimYuHangC1.jpg)
+![Supplier-Debit-Note1](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-1.jpg)
 
 ### Basic Entry
 
 1. Click on New button.
 2. See the New Supplier Debit Note entry form screenshot below.
 
-![Supplier-Debit-Note2](../../../static/img/getting-started/user-guide/LimYuHangC2.jpg)
+![Supplier-Debit-Note2](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-Entry-1.jpg)
 
 3. Select the Supplier Code. You direct key-in and search by either supplier code or name.
 4. Input the Purchase A/c and amount to be debit.
 5. Below is the example of the entry created:
 
-![Supplier-Debit-Note3](../../../static/img/getting-started/user-guide/LimYuHangC3.jpg)
+![Supplier-Debit-Note3](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-Entry-2.jpg)
 
 **Double Entry will be:-**
 
@@ -403,7 +403,7 @@ Sample of Supplier statement screenshot below.
 - For document project, you need to point to MORE section (on the left side bar).  
 - For detail project, you have to insert the project column out from Field Chooser.  
 
-![Supplier-Debit-Note4](../../../static/img/getting-started/user-guide/LimYuHangC4.jpg)
+![Supplier-Debit-Note4](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-Project-1.jpg)
 
 | **Label** | **Types**        | **Explanation**                                                  |
 |-----------|------------------|------------------------------------------------------------------|
@@ -415,13 +415,13 @@ Sample of Supplier statement screenshot below.
 - It is very useful to attach any supporting documents to a debit note.
 - In future, you able to retrieve and refer the attachment file easily.
 
-![Supplier-Debit-Note5](../../../static/img/getting-started/user-guide/LimYuHangC5.jpg)
+![Supplier-Debit-Note5](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-Attachment-1.jpg)
 
 1. You have to point to the attachment section.
 2. Click on ( + ) button to insert the filename path.
 3. See the sample screenshot below.
 
-![Supplier-Debit-Note6](../../../static/img/getting-started/user-guide/LimYuHangC6.jpg)
+![Supplier-Debit-Note6](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-Attachment-2.jpg)
 
 ### Note
 
@@ -430,21 +430,21 @@ Sample of Supplier statement screenshot below.
 3. You can start key-in the note. See the example screenshot below.
 4. Click on X button to save and exit the Rich Text Editor.
 
-![Supplier-Debit-Note7](../../../static/img/getting-started/user-guide/LimYuHangC7.jpg)
+![Supplier-Debit-Note7](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-Note-1.jpg)
 
 5. You will get prompted the Save changes? message. Click YES to save it.
 
-![Supplier-Debit-Note8](../../../static/img/getting-started/user-guide/LimYuHangC8.jpg)
+![Supplier-Debit-Note8](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-Note-2.jpg)
 
 ### D/N Description
 
 1. To show the document description in Supplier Statement, eg. Undercharged-Stationery April 2015.
 
-![Supplier-Debit-Note9](../../../static/img/getting-started/user-guide/LimYuHangC9.jpg)
+![Supplier-Debit-Note9](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-DNDescription-1.jpg)
 
 2. Sample of supplier statement screenshot below.
 
-![Supplier-Debit-Note10](../../../static/img/getting-started/user-guide/LimYuHangC10.jpg)
+![Supplier-Debit-Note10](../../../static/img/usage/supplier/supplier-guide-images/SupplierDebitNote-DNDescription-2.jpg)
 
 
 
@@ -454,20 +454,20 @@ Sample of Supplier statement screenshot below.
 - For those Credit Note created from Purchase module, you are require to offset against the outstanding Invoices/Debit Note here.
 - You can check any unapplied amount for a credit note. Unapplied amount meaning the credit note amount must find the invoice / debit note to knock-off.
 
-![Supplier-Crebit-Note1](../../../static/img/getting-started/user-guide/LimYuHangD1.jpg)
+![Supplier-Crebit-Note1](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-1.jpg)
 
 ### Basic Entry
 
 1. Click on New button.
 2. See the New Supplier Credit Note entry form screenshot below.
 
-![Supplier-Crebit-Note2](../../../static/img/getting-started/user-guide/LimYuHangD2.jpg)
+![Supplier-Crebit-Note2](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-Entry-1.jpg)
 
 3. Select the Supplier Code. You direct key-in and search by either supplier code or name.
 4. Input the Purchase A/c and amount to be credit.
 5. Below is the example of the entry created:
 
-![Supplier-Crebit-Note3](../../../static/img/getting-started/user-guide/LimYuHangD3.jpg)
+![Supplier-Crebit-Note3](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-Entry-2.jpg)
 
 **Double Entry will be:-**
 
@@ -481,14 +481,14 @@ Sample of Supplier statement screenshot below.
 - Unapplied amount shows the credit note amount not allocated/knock-off against any outstanding invoices and debit note.
 - It will remains in supplier aging report show as negative amount (-).
 
-![Supplier-Crebit-Note4](../../../static/img/getting-started/user-guide/LimYuHangD4.jpg)
+![Supplier-Crebit-Note4](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-UnappliedAmount-1.jpg)
 
 ### Knock-Off Outstanding
 
 - To knock-off the outstanding invoice/debit note, TICK the checkbox beside the pay column.
 - You can direct input the pay amount into pay column.
 
-![Supplier-Crebit-Note5](../../../static/img/getting-started/user-guide/LimYuHangD5.jpg)
+![Supplier-Crebit-Note5](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-KnockOffOutstanding-1.jpg)
 
 ### Project
 
@@ -498,7 +498,7 @@ Sample of Supplier statement screenshot below.
 - For document project, you need to point to MORE section (on the left side bar).
 - For detail project, you have to insert the project column out from Field Chooser.
 
-![Supplier-Crebit-Note6](../../../static/img/getting-started/user-guide/LimYuHangD6.jpg)
+![Supplier-Crebit-Note6](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-Project-1.jpg)
 
 | **Label** | **Types**        | **Explanation**                                                  |
 |-----------|------------------|------------------------------------------------------------------|
@@ -510,13 +510,13 @@ Sample of Supplier statement screenshot below.
 - It is very useful to attach any supporting documents to a credit note.
 - In future, you able to retrieve and refer the attachment file easily.
 
-![Supplier-Crebit-Note7](../../../static/img/getting-started/user-guide/LimYuHangD7.jpg)
+![Supplier-Crebit-Note7](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-Attachment-1.jpg)
 
 1. You have to point to the attachment section.  
 2. Click on ( + ) button to insert the filename path.  
 3. See the sample screenshot below.  
 
-![Supplier-Crebit-Note8](../../../static/img/getting-started/user-guide/LimYuHangD8.jpg)
+![Supplier-Crebit-Note8](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-Attachment-2.jpg)
 
 ### Note
 
@@ -525,28 +525,28 @@ Sample of Supplier statement screenshot below.
 3. You can start key-in the note. See the example screenshot below.  
 4. Click on X button to save and exit the Rich Text Editor.  
 
-![Supplier-Crebit-Note9](../../../static/img/getting-started/user-guide/LimYuHangD9.jpg)
+![Supplier-Crebit-Note9](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-Note-1.jpg)
 
 5. You will get prompted the Save changes? message. Click YES to save it.  
 
-![Supplier-Crebit-Note10](../../../static/img/getting-started/user-guide/LimYuHangD10.jpg)
+![Supplier-Crebit-Note10](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-Note-2.jpg)
 
 ### C/N Description
 
 1. To show the document description in Supplier Statement, eg. Overcharged-Stationery April 2015.  
 
-![Supplier-Crebit-Note11](../../../static/img/getting-started/user-guide/LimYuHangD11.jpg)
+![Supplier-Crebit-Note11](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-CNDescription-1.jpg)
 
 2. Sample of supplier statement screenshot below.  
 
-![Supplier-Crebit-Note12](../../../static/img/getting-started/user-guide/LimYuHangD12.jpg)
+![Supplier-Crebit-Note12](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-CNDescription-2.jpg)
 
 ### Foreign Exchange Currency Gain/Loss
 
 - Difference in the foreign currency exchange rate will AUTO post the FOREX Gain/Loss entry into GL.
 - Posting date can be changed to reflect the FOREX Gain/Loss for a month.
 
-![Supplier-Crebit-Note13](../../../static/img/getting-started/user-guide/LimYuHangD13.jpg)
+![Supplier-Crebit-Note13](../../../static/img/usage/supplier/supplier-guide-images/SupplierCreditNote-GainLoss-1.jpg)
 
 
 
@@ -555,21 +555,21 @@ Sample of Supplier statement screenshot below.
 - To receive the refund for the amount over paid to supplier.
 - To off-set against the unapplied amount for Supplier Payment and Credit Note.
 
-![Supplier-Refund1](../../../static/img/getting-started/user-guide/LimYuHangE1.jpg)
+![Supplier-Refund1](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-1.jpg)
 
 ### Basic Entry
 
 1. Click on New button.
 2. See the New Supplier Refund entry form screenshot below.
 
-![Supplier-Refund2](../../../static/img/getting-started/user-guide/LimYuHangE2.jpg)
+![Supplier-Refund2](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Entry-1.jpg)
 
 3. Select the Supplier Code. Direct key-in and search by either Supplier code or name.
 4. Select the Payment Method (bank or cash account) in Received In.
 5. Enter the Refund Amount (follow the bank account currency).
 6. Below is the example of the entry created:
 
-![Supplier-Refund3](../../../static/img/getting-started/user-guide/LimYuHangE3.jpg)
+![Supplier-Refund3](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Entry-2.jpg)
 
 **Double Entry will be:-**
 
@@ -580,7 +580,7 @@ Sample of Supplier statement screenshot below.
 
 7. Enter Bank Charges if there is a bank charges.
 
-![Supplier-Refund4](../../../static/img/getting-started/user-guide/LimYuHangE4.jpg)
+![Supplier-Refund4](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Entry-3.jpg)
 
 8. Lets said the bank charges = Rm2.00, therefore the double entry posting will be:-
 
@@ -591,7 +591,7 @@ Sample of Supplier statement screenshot below.
 
 9. Enter the cheque number, cash or TT into Cheque No. field.
 
-![Supplier-Refund5](../../../static/img/getting-started/user-guide/LimYuHangE5.jpg)
+![Supplier-Refund5](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Entry-4.jpg)
 
 ### Knock-off
 
@@ -604,21 +604,21 @@ Purpose to knock-off the invoices:
 1. You can enter the knock-off amount into Pay column (auto tick).
 2. Unapplied Amt will be reduced by the knock-off amount entered.
 
-![Supplier-Refund6](../../../static/img/getting-started/user-guide/LimYuHangE6.jpg)
+![Supplier-Refund6](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-PartialKnockOff-1.jpg)
 
 #### Document Knock-Off
 
 1. You can tick on the outstanding documents.
 2. Unapplied Amt will be reduced by the knock-off amount ticked.
 
-![Supplier-Refund7](../../../static/img/getting-started/user-guide/LimYuHangE7.jpg)
+![Supplier-Refund7](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-DocumentKnockOff-1.jpg)
 
 #### Random Knock 0ff
 
 1. You can click on the Pay column. It will auto tick on the outstanding documents.
 2. Unapplied Amt will be reduced according to the outstanding balance.
 
-![Supplier-Refund8](../../../static/img/getting-started/user-guide/LimYuHangE8.jpg)
+![Supplier-Refund8](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-RandomKnockOff-1.jpg)
 
 :::note
  Refund Unapplied amount shows the supplier refund amount not allocated/knock-off against any unapplied amount in supplier payment and credit note.
@@ -629,39 +629,39 @@ Purpose to knock-off the invoices:
 - It is very useful to attach any supporting documents.
 - In future, you able to retrieve and refer the attachment file easily.
 
-![Supplier-Refund9](../../../static/img/getting-started/user-guide/LimYuHangE9.jpg)
+![Supplier-Refund9](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Attachment-1.jpg)
 
 1. You have to point to the attachment section.
 2. Click on ( + ) button to insert the filename path.
 3. See the sample screenshot below.
 
-![Supplier-Refund10](../../../static/img/getting-started/user-guide/LimYuHangE10.jpg)
+![Supplier-Refund10](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Attachment-2.jpg)
 
 ### Note
 
 1. Click on the Note section (on the LEFT side bar).
 2. RIGHT click it, you will see the Rich Text Editor pop-up.
 
-![Supplier-Refund11](../../../static/img/getting-started/user-guide/LimYuHangE11.jpg)
+![Supplier-Refund11](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Note-1.jpg)
 
 3. You can start key-in the note. See the example screenshot below.
 4. Click on X button to save and exit the Rich Text Editor.
 
-![Supplier-Refund12](../../../static/img/getting-started/user-guide/LimYuHangE12.jpg)
+![Supplier-Refund12](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Note-2.jpg)
 
 5. You will get prompted the Save changes? message. Click YES to save it.
 
-![Supplier-Refund13](../../../static/img/getting-started/user-guide/LimYuHangE13.jpg)
+![Supplier-Refund13](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Note-3.jpg)
 
 ### Description
 
 To show the supplier refund description in the Supplier Statement, eg. Refund For SC-00002 & PV-00004..
 
-![Supplier-Refund14](../../../static/img/getting-started/user-guide/LimYuHangE14.jpg)
+![Supplier-Refund14](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Description-1.jpg)
 
 Sample of supplier statement screenshot below.
 
-![Supplier-Refund15](../../../static/img/getting-started/user-guide/LimYuHangE15.jpg)
+![Supplier-Refund15](../../../static/img/usage/supplier/supplier-guide-images/SupplierRefund-Description-2.jpg)
 
 
 
@@ -670,21 +670,21 @@ Sample of supplier statement screenshot below.
 - To make settlement of the outstanding between both supplier and customer accounts without any monetary transactions.
 - It will use an intermediate accounts known as Contra Account. This account balance must be ZERO.
 
-![Supplier-Contra1](../../../static/img/getting-started/user-guide/LimYuHangF1.jpg)
+![Supplier-Contra1](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-1.jpg)
 
 ### Basic Entry
 
-Assume that you have create the **Customer Contra**. You will found the same contra no. appeared in the Supplier Contra.
+Assume that you have create the [Customer Contra](/usage/Customer%20New/Customer#customer-contra). You will found the same contra no. appeared in the Supplier Contra.
 1. Highlight the Contra No to edit. Click on Edit button.
 2. See the Supplier Contra entry form screenshot below.
 
-![Supplier-Contra2](../../../static/img/getting-started/user-guide/LimYuHangF2.jpg)
+![Supplier-Contra2](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Entry-1.jpg)
 
 3. Select the Supplier Code. Direct key-in and search by either supplier code or name.
 4. Enter the Contra Amount (follow the supplier currency).
 5. Below is the example of the entry created:
 
-![Supplier-Contra3](../../../static/img/getting-started/user-guide/LimYuHangF3.jpg)
+![Supplier-Contra3](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Entry-2.jpg)
 
 **Double Entry will be:-**
 
@@ -692,6 +692,12 @@ Assume that you have create the **Customer Contra**. You will found the same con
 |--------------------------|-------------|-------------|
 | Supplier Control Acc     | 1,500.00    |             |
 | Contra Acc               |             | 1,500.00    |
+
+:::note TIPS
+
+To ensure the contra account has set properly. [Contra Account](/usage/Tools-New/Tools#options)
+
+:::
 
 ### Knock-off
 
@@ -704,21 +710,21 @@ Purpose to knock-off the invoices:
 1. You can enter the knock-off amount into Pay column (auto tick).
 2. Unapplied Amt will be reduced by the knock-off amount entered.
 
-![Supplier-Contra4](../../../static/img/getting-started/user-guide/LimYuHangF4.jpg)
+![Supplier-Contra4](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-PartialKnockOff-1.jpg)
 
 #### Document Knock-Off
 
 1. You can tick on the outstanding documents.
 2. Unapplied Amt will be reduced by the knock-off amount ticked.
 
-![Supplier-Contra5](../../../static/img/getting-started/user-guide/LimYuHangF5.jpg)
+![Supplier-Contra5](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-DocumentKnockOff-1.jpg)
 
 #### Random Knock-Off
 
 1. You can click on the Pay column. It will auto tick on the outstanding documents.
 2. Unapplied Amt will be reduced according to the outstanding balance.
 
-![Supplier-Contra6](../../../static/img/getting-started/user-guide/LimYuHangF6.jpg)
+![Supplier-Contra6](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-RandomKnockOff-1.jpg)
 
 :::note
  Refund unapplied amount shows the supplier contra amount not allocated/knock-off against any outstanding supplier invoices and debit note.
@@ -729,39 +735,39 @@ Purpose to knock-off the invoices:
 - It is very useful to attach any supporting documents.
 - In future, you able to retrieve and refer the attachment file easily.
 
-![Supplier-Contra7](../../../static/img/getting-started/user-guide/LimYuHangF7.jpg)
+![Supplier-Contra7](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Attachment-1.jpg)
 
 1. You have to point to the attachment section.
 2. Click on ( + ) button to insert the filename path.
 3. See the sample screenshot below.
 
-![Supplier-Contra8](../../../static/img/getting-started/user-guide/LimYuHangF8.jpg)
+![Supplier-Contra8](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Attachment-2.jpg)
 
 ### Note
 
 1. Click on the Note section (on the LEFT side bar).
 2. RIGHT click it, you will see the Rich Text Editor pop-up.
 
-![Supplier-Contra9](../../../static/img/getting-started/user-guide/LimYuHangF9.jpg)
+![Supplier-Contra9](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Note-1.jpg)
 
 3. You can start key-in the note. See the example screenshot below.
 4. Click on X button to save and exit the Rich Text Editor.
 
-![Supplier-Contra10](../../../static/img/getting-started/user-guide/LimYuHangF10.jpg)
+![Supplier-Contra10](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Note-2.jpg)
 
 5. You will get prompted the Save changes? message. Click YES to save it.
 
-![Supplier-Contra11](../../../static/img/getting-started/user-guide/LimYuHangF11.jpg)
+![Supplier-Contra11](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Note-3.jpg)
 
 ### Description
 
 To show the supplier contra description in the Supplier Statement, eg. Contra IV-00005 .
 
-![Supplier-Contra12](../../../static/img/getting-started/user-guide/LimYuHangF12.jpg)
+![Supplier-Contra12](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Description-1.jpg)
 
 Sample of supplier statement screenshot below.
 
-![Supplier-Contra13](../../../static/img/getting-started/user-guide/LimYuHangF13.jpg)
+![Supplier-Contra13](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-Description-2.jpg)
 
 ### GL Ledger - Contra Account
 
@@ -771,4 +777,4 @@ Sample of supplier statement screenshot below.
 4. Click Apply button.
 5. Example of the Contra Account ledger as shown below.
 
-![Supplier-Contra14](../../../static/img/getting-started/user-guide/LimYuHangF14.jpg)
+![Supplier-Contra14](../../../static/img/usage/supplier/supplier-guide-images/SupplierContra-ContraAccount-1.jpg)
