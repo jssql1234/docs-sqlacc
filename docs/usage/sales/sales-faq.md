@@ -14,7 +14,7 @@ tags: ["SQL Account", "Sales", "FAQ"]
 
     - **Option 1 : Direct Kick Out** -> Cash Drawer direct connects to your PC.
 
-        ![1](../../../static/img/sales/cash-drawer-kick-out/1.png)
+        ![1](../../../static/img/usage/sales/sales-faq/cash-drawer-kick-out/1.png)
 
         :::tip[tip]
         Select the correct *Port No* and then click on **Kick Out** button to test whether the *Cash Drawer* success kicks out, if the port no did not showing in list, may manually type in your *Port No*.
@@ -22,7 +22,7 @@ tags: ["SQL Account", "Sales", "FAQ"]
 
     - **Option 2**: Printer Kick Out -> Cash Drawer direct connect to Printer
 
-        ![2](../../../static/img/sales/cash-drawer-kick-out/2.png)
+        ![2](../../../static/img/usage/sales/sales-faq/cash-drawer-kick-out/2.png)
 
         :::tip[tip]
         Select your Printer Name and then click on **Kick Out** button to test whether the *Cash Drawer* success kicks out
@@ -53,7 +53,7 @@ tags: ["SQL Account", "Sales", "FAQ"]
 
 2. Don't have big currency value like Indonesia country.
 
-![3](../../../static/img/sales/error-msg-sales-price-history/yc1-sales-price-history.jpg)
+![sales-price-history-issue](../../../static/img/usage/sales/sales-faq/error-msg-sales-price-history/sales-price-history-issue.jpg)
 
 ### Solution
 
@@ -63,4 +63,4 @@ tags: ["SQL Account", "Sales", "FAQ"]
 
 3. Change the **Currency Rate** the display format to **#,0.0000** (represent 4 decimals).
 
-![4](../../../static/img/sales/error-msg-sales-price-history/yc2-sales-price-history.jpg)
+![sales-price-history-solution](../../../static/img/usage/sales/sales-faq/error-msg-sales-price-history/sales-price-history-solution.jpg)

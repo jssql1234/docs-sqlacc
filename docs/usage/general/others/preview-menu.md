@@ -10,8 +10,8 @@ tags: ["SQL Account", "Others", "Preview", "Menu"]
 
 On each report grid output (after click apply) there is small arrow on the Preview Button on the right which can see a list of some function as shown below.
 
-![23](../../../../static/img/getting-started/general/yc23-general.jpg)
+![menu-list](../../../../static/img/usage/general/others/preview-menu/menu-list.jpg)
 
 Below is the detail of each function (From Top)
 
-![24](../../../../static/img/getting-started/general/yc24-general.png)
+![menu-detail](../../../../static/img/usage/general/others/preview-menu/menu-detail.png)

@@ -6,7 +6,7 @@ slug: /integration/pos/introduction
 tags: ["SQL Account", "POS"]
 ---
 
-![1](../../../static/img/pos/intro/1jt.png)
+![1](../../../static/img/integration/pos/intro/1jt.png)
 
 Cash collection, Inventory Management and Business Intelligence - all in one place. Seamless integration make it easy to sell you products and accept multiple payments. Inventory, orders and customer data are automatically updated. SQL Pos covers a wide range of industries - Mini Markets, Book Stores, Hardware Stores, Pharmacies Medical Sore and many more.
 
@@ -42,7 +42,7 @@ The following requirements are needed in order to run SQL Pos
 
 ### 1. System - System
 
-![2](../../../static/img/pos/intro/2jt.png)
+![2](../../../static/img/integration/pos/intro/2jt.png)
 
 ### 2. GST
 
@@ -454,7 +454,7 @@ This Option is to determine what date to post to SQL Accounting
 ### 11. Theme
 This function is allow user to change the Application Skin/Theme to suit the user. From form till grid & label
 
-![3](../../../static/img/pos/intro/3jt.png)
+![3](../../../static/img/integration/pos/intro/3jt.png)
 
 
 
@@ -463,5 +463,5 @@ This Page is to:
 - Register the SQL Pos
 - Design the Receipt
 
-![4](../../../static/img/pos/intro/4jt.png)
+![4](../../../static/img/integration/pos/intro/4jt.png)
 

@@ -16,4 +16,4 @@ Below is the column detail on how the amount is arrive from base on Users and Ac
 
 ### Input Tax
 
-![1](../../../../static/img/others/yc1-gst-summary.png)
+![gst-summary](../../../../static/img/usage/general/others/gst-summary-sheet/gst-summary.png)
