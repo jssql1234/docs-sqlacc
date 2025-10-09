@@ -18,13 +18,13 @@ This function is enabled to view the sales/purchase price history data in chart 
 
 2\. Highlight the data in the grids.
 
-![1](../../../static/img/getting-started/user-guide/wl11.png)
+![1](../../../static/img/usage/general/tips-tricks/show-chart-step2.png)
 
 3\. Click on View | Show Chart.
 
 4\. 3 different chart types (Bar Chart, Line Chart, Pie Chart) will be prompted. Seet the screenshot below.
 
-![2](../../../static/img/getting-started/user-guide/wl12.png)
+![2](../../../static/img/usage/general/tips-tricks/show-chart-step4.png)
 
 Data transform into the chart depends on the data highlighted in the Sales/Purchase Price History grid.
 
@@ -40,19 +40,19 @@ This function is to quick check on the sales price history during the sales, pur
 
 2\. Press Shift + Ctrl + S to check theSales Price History... for the item.
 
-![3](../../../static/img/getting-started/user-guide/wl13.png)
+![3](../../../static/img/usage/general/tips-tricks/sales-ph-step2.png)
 
 3\. Insert a Company Name column to compare the sales price history by company.
 
-![4](../../../static/img/getting-started/user-guide/wl14.png)
+![4](../../../static/img/usage/general/tips-tricks/sales-ph-step3.png)
 
 4\. Set the latest number of records to be displayed for each sales document type (QT, SO, DO, IV, CS, CN, DN).
 
-![5](../../../static/img/getting-started/user-guide/wl15.png)
+![5](../../../static/img/usage/general/tips-tricks/sales-ph-step4.png)
 
 5\. Click on Sales to exclude the sales document types.
 
-![6](../../../static/img/getting-started/user-guide/wl16.png)
+![6](../../../static/img/usage/general/tips-tricks/sales-ph-step5.png)
 
 Sales Price History always turns-on to quickly inquire the price history for customers.
 
@@ -68,19 +68,19 @@ This function is to quickly check on the purchase price history during the sales
 
 2\. Press Shift + Ctrl + P to check thePurchase Price History... for the item.
 
-![7](../../../static/img/getting-started/user-guide/wl17.png)
+![7](../../../static/img/usage/general/tips-tricks/purchase-ph-step2.png)
 
 3\. Insert a Company Name column to compare the Purchase price history by company.
 
-![8](../../../static/img/getting-started/user-guide/wl18.png)
+![8](../../../static/img/usage/general/tips-tricks/purchase-ph-step3.png)
 
 4\. Set the latest number of records to be display for each purchase document types (PQ, PO, GR, PI, CP, SC, SD).
 
-![9](../../../static/img/getting-started/user-guide/wl19.png)
+![9](../../../static/img/usage/general/tips-tricks/purchase-ph-step4.png)
 
 5\. Click on Purchase to exclude the purchase document types.
 
-![10](../../../static/img/getting-started/user-guide/wl20.png)
+![10](../../../static/img/usage/general/tips-tricks/purchase-ph-step5.png)
 
 Purchase Price History always turns-on to quickly inquire the price history for suppliers.
 
@@ -96,7 +96,7 @@ This function is to quick check on the stock status during the sales, purchase, 
 
 2\. Press Ctrl+F11 - Available Stock Balance....
 
-![11](../../../static/img/getting-started/user-guide/wl21.png)
+![11](../../../static/img/usage/general/tips-tricks/stock-bal-step2.png)
 
 ### Stock Card Qty By Location
 
@@ -104,7 +104,7 @@ This function is to quick check on the stock status during the sales, purchase, 
 
 2\. See the screenshot below.
 
-![12](../../../static/img/getting-started/user-guide/wl22.png)
+![12](../../../static/img/usage/general/tips-tricks/stock-card-qty-step2.png)
 
 | Column Name | Explanation |
 | --- | --- |
@@ -122,14 +122,14 @@ This function is to quick check on the stock status during the sales, purchase, 
 1. To check the S.O.Qty, P.O.Qty and J.O.Qty in detail.
 2. Click on Back Order Detail tab. See the screenshot below.
 
-![13](../../../static/img/getting-started/user-guide/wl23.png)
+![13](../../../static/img/usage/general/tips-tricks/back-order-detail.png)
 
 ### Alternative Stock Item
 
 1. Click on the Alternative Stock Item tab to check the alternative item code.
 2. See the screenshot below.
 
-![14](../../../static/img/getting-started/user-guide/wl24.png)
+![14](../../../static/img/usage/general/tips-tricks/alternative-stock-item.png)
 
 Available Stock Balance always turn-on to quickly inquire about the stock status.
 
@@ -144,7 +144,7 @@ This function is to quickly check on the Price Tag set for the item.
 1. As long you are highlight the item code, eg. at Maintain Stock Item or during the sales/purchase documents creation.
 2. Press Ctrl + T to check the Price Tag... for the item.
 
-![15](../../../static/img/getting-started/user-guide/wl25.png)
+![15](../../../static/img/usage/general/tips-tricks/price-tag.png)
 
 Price Tag always turns-on to quickly inquire the price tag info for the item.
 
@@ -159,7 +159,7 @@ This function is to quickly view the picture of the stock item selected.
 1. As long you are highlight the item code, eg. at Maintain Stock Item or during the sales/purchase documents creation.
 2. Click on View | Stock Item Picture.
 
-![16](../../../static/img/getting-started/user-guide/wl26.png)
+![16](../../../static/img/usage/general/tips-tricks/stock-item-price.png)
 
 Stock Item Picture always turns-on to quickly view the picture of the stock item.
 
@@ -169,25 +169,25 @@ _View | Stock Item Search_
 
 This function is to quickly search for the items by entering a keyword. It is easy to apply the item found into the sales/purchase/stock documents.
 
-![17](../../../static/img/getting-started/user-guide/wl27.png)
+![17](../../../static/img/usage/general/tips-tricks/stock-item-search.png)
 
 - F9
 
 1. Enter a keyword to search the item out.
 
-![18](../../../static/img/getting-started/user-guide/wl28.png)
+![18](../../../static/img/usage/general/tips-tricks/stock-item-search-step1.png)
 
 2. You can highlight multiple items.
 
-![19](../../../static/img/getting-started/user-guide/wl29.png)
+![19](../../../static/img/usage/general/tips-tricks/stock-item-search-step2.png)
 
 3. Drag and drop the items highlighted into the invoice detail grid.
 
-![20](../../../static/img/getting-started/user-guide/wl30.png)
+![20](../../../static/img/usage/general/tips-tricks/stock-item-search-step3.png)
 
 4. Items will be inserted into the invoice detail grid. See the screenshot below.
 
-![21](../../../static/img/getting-started/user-guide/wl31.png)
+![21](../../../static/img/usage/general/tips-tricks/stock-item-search-step4.png)
 
 Item Search always turns-on to search the item when creating the next document.
 
@@ -199,7 +199,7 @@ This function is to find record by selected field(s) and parameters....
 
 - Ctrl + F
 
-![22](../../../static/img/getting-started/user-guide/wl32.png)
+![22](../../../static/img/usage/general/tips-tricks/advance-search.png)
 
 | Field Name | Properties |
 | --- | --- |
@@ -229,7 +229,7 @@ We had 4 Methods to Integrate/Link to SQL Accounting
 - [SQL XML Import](https://wiki.sql.com.my/wiki/SQL_XML_Import) - XML File
 - [SQL Text Import](https://wiki.sql.com.my/wiki/SQL_Text_Import) - CSV/TXT File (Format 1 - Semi Comma (;) Only)
 
-![23](../../../static/img/getting-started/user-guide/wl33.png)
+![23](../../../static/img/usage/general/tips-tricks/accounting-linking.png)
 
 **Choosing Method**
 
