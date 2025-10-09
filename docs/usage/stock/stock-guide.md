@@ -16,11 +16,11 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
     - Product types, eg. **raw materials, trading products, manufactured products**;
     - To report different sales/purchase account in **Profit & Loss Statement**.
 
-![229](../../../static/img/getting-started/user-guide/jt1.png)
+![mtn-stock-grp-list](../../../static/img/usage/stock/stock-guide/mtn-stock-grp-list.png)
 
 3. Maintain Stock Group form as shown the screenshot below.
 
-![230](../../../static/img/getting-started/user-guide/jt2.png)
+![mtn-stock-grp](../../../static/img/usage/stock/stock-guide/mtn-stock-grp.png)
 
 <table class="table-small">
   <thead>
@@ -87,12 +87,12 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 2. To setup the stock item list.
 
-![231](../../../static/img/getting-started/user-guide/jt3.png)
+![mtn-stock-item-list](../../../static/img/usage/stock/stock-guide/mtn-stock-item-list.png)
 
 ### 1.Main Header
 1. Maintain Stock Item entry form as shown the screenshot below.
 
-![232](../../../static/img/getting-started/user-guide/jt4.png)
+![mtn-stock-item-main-header](../../../static/img/usage/stock/stock-guide/mtn-stock-item-main-header.png)
 
 <table class="table-small">
   <thead>
@@ -223,7 +223,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 2. Beside that, you can set the default UOM for Sales, Purchase and Stock entry form.
 3. See the screenshot below.
 
-![233](../../../static/img/getting-started/user-guide/jt5.png)
+![mtn-stock-item-uom](../../../static/img/usage/stock/stock-guide/mtn-stock-item-uom.png)
 
 ### 3. Cust.Price
 1. Allow to set **multiple pricing/contract price** for customer.
@@ -231,7 +231,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 3. It is required **multiple pricing** module.
 4. See the screenshot below.
 
-![234](../../../static/img/getting-started/user-guide/jt6.png)
+![mtn-stock-item-cust-price](../../../static/img/usage/stock/stock-guide/mtn-stock-item-cust-price.png)
 
 ### 4. Supp.Price
 1. Allow to set **multiple pricing/contract** price for supplier.
@@ -239,7 +239,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 3. It is required **multiple pricing** module.
 4. See the screenshot below.
 
-![235](../../../static/img/getting-started/user-guide/jt7.png)
+![mtn-stock-item-supp-price](../../../static/img/usage/stock/stock-guide/mtn-stock-item-supp-price.png)
 
 - Related Topic : [How is the Price Tag work?](https://sites.google.com/site/sqlestream/sql-financial-accounting/7-system-setting/7-20-how-is-the-price-tag-work)
 
@@ -248,54 +248,54 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 2. It is required **Bill of Materials** module.
 3. See the screenshot below.
 
-![236](../../../static/img/getting-started/user-guide/8jt.png)
+![mtn-stock-item-bom](../../../static/img/usage/stock/stock-guide/mtn-stock-item-bom.png)
 
 ### 6. More Desc.
 1. Enter the product details or specifications.
 2. See the screenshot below.
 
-![237](../../../static/img/getting-started/user-guide/9jt.png)
+![mtn-stock-item-more-desc](../../../static/img/usage/stock/stock-guide/mtn-stock-item-more-desc.png)
 
 > **Tips:**  
 > Example view from Sales Tax Invoice:
 
-![238](../../../static/img/getting-started/user-guide/10jt.png)
+![mtn-stock-item-more-desc1](../../../static/img/usage/stock/stock-guide/mtn-stock-item-more-desc1.png)
 
 ### 7. Opn Bal.
 1. To enter the Opening Stock qty and value balances.
 
-![239](../../../static/img/getting-started/user-guide/11jt.png)
+![mtn-stock-item-opn-bal](../../../static/img/usage/stock/stock-guide/mtn-stock-item-opn-bal.png)
 
 ### 8. Category
 1. To set the multiple stock category for reporting purpose, eg. country origins, brands, etc.
 2. See the screenshot below.
 
-![240](../../../static/img/getting-started/user-guide/12jt.png)
+![mtn-stock-item-category](../../../static/img/usage/stock/stock-guide/mtn-stock-item-category.png)
 
 ### 9. Alternative
 1. Enable to identify the alternative items to replace.
 
-![241](../../../static/img/getting-started/user-guide/13jt.png)
+![mtn-stock-item-alternative](../../../static/img/usage/stock/stock-guide/mtn-stock-item-alternative.png)
 
 ### 10. Cust. Item
 1. To enter the **customer item code** and **description**.
 2. Purpose is to search or print the customer item code and description in tax invoice instead of using the original item description.
 
-![242](../../../static/img/getting-started/user-guide/14jt.png)
+![mtn-stock-item-cust-item](../../../static/img/usage/stock/stock-guide/mtn-stock-item-cust-item.png)
 
 
 ### 11. Supp. Item
 1. To enter the **supplier item code** and **description**.
 2. Purpose is to search or print the supplier item code and description in purchase invoice instead of using the original item description.
 
-![243](../../../static/img/getting-started/user-guide/15jt.png)
+![mtn-stock-item-supp-item](../../../static/img/usage/stock/stock-guide/mtn-stock-item-supp-item.png)
 
 
 ### 12. Barcode
 1. To enter the barcode for different UOM.
 2. See the screenshot below.
 
-![244](../../../static/img/getting-started/user-guide/16jt.png)
+![mtn-stock-item-barcode](../../../static/img/usage/stock/stock-guide/mtn-stock-item-barcode.png)
 
 
 ### 13. Note
@@ -370,7 +370,7 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 2. See the screenshot below.
 
-![245](../../../static/img/getting-started/user-guide/17jt.png)
+![mtn-stock-item-note](../../../static/img/usage/stock/stock-guide/mtn-stock-item-note.png)
 
 > **Note:**  
 > Do not load the picture size more than 16kb. This is to avoid the database size growth bigger.
@@ -385,11 +385,11 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
     3. Product types, eg. raw materials, trading products, manufactured products;
 4. **Stock** > **Maintain Stock Category.**
 
-![246](../../../static/img/getting-started/user-guide/18jt.png)
+![mtn-stock-category](../../../static/img/usage/stock/stock-guide/mtn-stock-category.png)
 
 5. Maintain Stock Category form as shown the screenshot below.
 
-![247](../../../static/img/getting-started/user-guide/19jt.png)
+![mtn-stock-category1](../../../static/img/usage/stock/stock-guide/mtn-stock-category1.png)
 
 <table class="table-small">
   <thead>
@@ -427,11 +427,11 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 2. It allows to set the conditions in **AND** or **OR** for stock category.
 3. **Stock** > **Maintain Stock Category Template.**
 
-![248](../../../static/img/getting-started/user-guide/20jt.png)
+![mtn-stock-category-template](../../../static/img/usage/stock/stock-guide/mtn-stock-category-template.png)
 
 4. Maintain Stock Category Template form as shown the screenshot below.
 
-![249](../../../static/img/getting-started/user-guide/21jt.png)
+![mtn-stock-category-template1](../../../static/img/usage/stock/stock-guide/mtn-stock-category-template1.png)
 
 <table class="table-small">
   <thead>
@@ -477,35 +477,35 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 1. At the new **Maintain Category View**, click the + sign.
 2. Drag the **stock category** selected over into the blank line.
 
- ![250](../../../static/img/getting-started/user-guide/22jt.png)
+![mtn-stock-category-template2](../../../static/img/usage/stock/stock-guide/mtn-stock-category-template2.png)
 
 3. You will see the stock category added in the template list as per the screenshot below.'
 
- ![251](../../../static/img/getting-started/user-guide/23jt.png)
+![mtn-stock-category-template3](../../../static/img/usage/stock/stock-guide/mtn-stock-category-template3.png)
 
 - Use **AND** condition
 1. At the new **Maintain Category View**, click the **+** sign.
 2. Select multiple stock category (**Hold CTRL** + click on **stock category**).
 3. Drag the **stock category** selected over into the **blank** line.
 
-  ![252](../../../static/img/getting-started/user-guide/24jt.png)
+![mtn-stock-category-template4](../../../static/img/usage/stock/stock-guide/mtn-stock-category-template4.png)
 
 4. You will see the stock category added in the template list as per the screenshot below.
 
-  ![253](../../../static/img/getting-started/user-guide/25jt.png)
+![mtn-stock-category-template5](../../../static/img/usage/stock/stock-guide/mtn-stock-category-template5.png)
 
-  ![255](../../../static/img/getting-started/user-guide/26jt.png)
+![mtn-stock-category-template6](../../../static/img/usage/stock/stock-guide/mtn-stock-category-template6.png)
 
 ## Maintain Item Template
 1. It is usually use for a set or package items.  
 2. It can be create a template consists of the item selected and use in Sales/Purchase/Stock documents.  
 3. **Stock** > **Maintain Item Template**.
-
-![256](../../../static/img/getting-started/user-guide/27jt.png)  
+mtn-item-template
+![mtn-item-template](../../../static/img/usage/stock/stock-guide/mtn-item-template.png)
 
 4. Maintain Item Template form as shown the screenshot below.  
 
-![257](../../../static/img/getting-started/user-guide/28jt.png)
+![mtn-item-template1](../../../static/img/usage/stock/stock-guide/mtn-item-template1.png)
 
 
 <table class="table-small">
@@ -579,23 +579,23 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
   1. For example at the Sales Invoice, click on Item Template (Left Side Bar).
   2. Double click on the Item Template. See the screenshot below.  
 
-  ![258](../../../static/img/getting-started/user-guide/29jt.png)
+![mtn-item-template2](../../../static/img/usage/stock/stock-guide/mtn-item-template2.png)
 
   3. List of items updated into the Sales Invoice detail. See the screenshot below.
 
-  ![259](../../../static/img/getting-started/user-guide/30jt.png)
+![mtn-item-template3](../../../static/img/usage/stock/stock-guide/mtn-item-template3.png)
 
 
 ## Maintain Item Matrix Profile
 1. It commonly use to organize the coding requirement to generate the item code. Very frequent use in the following industries:
 2. **Stock** > **Maintain Stock Item Matrix Profile**.
 
-![260](../../../static/img/getting-started/user-guide/31jt.png)
+![mtn-item-matrix-profile](../../../static/img/usage/stock/stock-guide/mtn-item-matrix-profile.png)
 
 3. Example of the stock item matrix settings to generate the T-Shirt code with different sizes and colors.
 4. See the requirement setting as shown in the screenshot below.
 
-![261](../../../static/img/getting-started/user-guide/32jt.png)
+![mtn-item-matrix-profile1](../../../static/img/usage/stock/stock-guide/mtn-item-matrix-profile1.png)
 
 5. Matrix setting:-
 
@@ -665,31 +665,31 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
   2. Right click the area below the **Detail** button.
   3. Click on **Generate Item Code**. See the screenshot below.
 
-![262](../../../static/img/getting-started/user-guide/33jt.png)
+![mtn-item-matrix-profile2](../../../static/img/usage/stock/stock-guide/mtn-item-matrix-profile2.png)
 
   4. Select the **Matrix Profile**,eg. **SHIRT**.
   5. Enter a **Prefix**,eg. **CROC**.
   6. Select an **Item Group**,eg. **T-Shirt**.
   7. Press **Ok** to start generate.
 
-![263](../../../static/img/getting-started/user-guide/34jt.png)
+![mtn-item-matrix-profile3](../../../static/img/usage/stock/stock-guide/mtn-item-matrix-profile3.png)
 
   8. List of CROC item code created in Maintain Stock Item.
 
-![264](../../../static/img/getting-started/user-guide/35jt.png)
+![mtn-item-matrix-profile4](../../../static/img/usage/stock/stock-guide/mtn-item-matrix-profile4.png)
 
  #### Generate Invoice Using Matrix
  1. At Sales Invoice, select one of the prefix item code, eg. **CROC**.
 
-![265](../../../static/img/getting-started/user-guide/36jt.png)
+![mtn-item-matrix-profile5](../../../static/img/usage/stock/stock-guide/mtn-item-matrix-profile5.png)
 
 2. Click on **Matrix** tab. You can start enter the quantity in the dimension row and column.
 
-![266](../../../static/img/getting-started/user-guide/37jt.png)
+![mtn-item-matrix-profile6](../../../static/img/usage/stock/stock-guide/mtn-item-matrix-profile6.png)
 
 3. Click back to Invoice tab. Item code will be inserted automatically.
 
-![267](../../../static/img/getting-started/user-guide/38jt.png)
+![mtn-item-matrix-profile7](../../../static/img/usage/stock/stock-guide/mtn-item-matrix-profile7.png)
 
 ## Maintain Location 
 
@@ -697,11 +697,11 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 2. It is require **Multiple Location (Warehouse)** module.
 3. **Stock** > **Maintain Location**.
 
-![268](../../../static/img/getting-started/user-guide/39jt.png)
+![mtn-location](../../../static/img/usage/stock/stock-guide/mtn-location.png)
 
 4. Maintain Location form as shown the screenshot below.
 
-![269](../../../static/img/getting-started/user-guide/40jt.png)
+![mtn-location1](../../../static/img/usage/stock/stock-guide/mtn-location1.png)
 
 <table class="table-small">
   <thead>
@@ -878,11 +878,11 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 2. **Stock** > **Maintain Batch**.
 
 
-![270](../../../static/img/getting-started/user-guide/41jt.png)
+![mtn-batch](../../../static/img/usage/stock/stock-guide/mtn-batch.png)
 
 3. Fill-in the batch details. See the screenshot below.
 
-![271](../../../static/img/getting-started/user-guide/42jt.png)
+![mtn-batch1](../../../static/img/usage/stock/stock-guide/mtn-batch1.png)
 
 <table class="table-small">
   <thead>
@@ -964,43 +964,43 @@ tags: ["SQL Account", "Usage", "Inventory", "Stock"]
 
 4. You can choose to lock the stock item to the batch number. Purpose is to avoid other user assign wrong batch number to an item code.
 
-![272](../../../static/img/getting-started/user-guide/43jt.png)
+![mtn-batch2](../../../static/img/usage/stock/stock-guide/mtn-batch2.png)
 
 ### Copy & Paste Function
 #### Append Batch Existing Number
 1. Click on **More** (arrow key down).
 2. **Copy Stock Batch**.
 
-![273](../../../static/img/getting-started/user-guide/44jt.png)
+![mtn-batch3](../../../static/img/usage/stock/stock-guide/mtn-batch3.png)
 
 3. Click on **New**.
 4. Click on **More** (arrow key down).
 5. **Paste Stock Batch**.
 
-![274](../../../static/img/getting-started/user-guide/45jt.png)
+![mtn-batch4](../../../static/img/usage/stock/stock-guide/mtn-batch4.png)
 
 6. **Batch code** copied and will paste into new batch code as well.
 7. Append the batch code and save it.
 
-![275](../../../static/img/getting-started/user-guide/46jt.png)
+![mtn-batch5](../../../static/img/usage/stock/stock-guide/mtn-batch5.png)
 
 #### New Batch Number
 1. Click on **More** (arrow key down).
 2. **Copy Stock Batch**.
 
-![276](../../../static/img/getting-started/user-guide/47jt.png)
+![mtn-batch6](../../../static/img/usage/stock/stock-guide/mtn-batch6.png)
 
 3. Click on **New**.
 4. Click on **More** (arrow key down).
 5. **Paste Stock Batch**.
 
-![277](../../../static/img/getting-started/user-guide/48jt.png)
+![mtn-batch7](../../../static/img/usage/stock/stock-guide/mtn-batch7.png)
 
 6. **Batch code** copied and will paste into new batch code as well.
 7. Remove the batch number.
 8. Click on Save. System will assign a new batch number automatically.
 
-![278](../../../static/img/getting-started/user-guide/49jt.png)
+![mtn-batch8](../../../static/img/usage/stock/stock-guide/mtn-batch8.png)
 
 ## Stock Received
 
@@ -1008,7 +1008,7 @@ Allows user to increase stock quantity without purchasing. It is normally used w
 
 1. **Stock** > **Stock Received** > **New**.
 
-   ![68](../../../static/img/getting-started/user-guide/67.png)
+   ![68](../../../static/img/usage/stock/stock-guide/67.png)
 
 ## Stock Issue
 
@@ -1016,7 +1016,7 @@ Allows user to **decrease stock quantity without selling**. It is normally used 
 
 1. **Stock** > **Stock Issue** > **New**.
 
-   ![69](../../../static/img/getting-started/user-guide/68.png)
+   ![69](../../../static/img/usage/stock/stock-guide/68.png)
 
 ## Stock Transfer 
 **Stock Transfer** is an entry to handle the stock movement from one location to another location, **eg. location A to B**. Commonly use for:
@@ -1025,28 +1025,28 @@ Allows user to **decrease stock quantity without selling**. It is normally used 
 - Inter branch transfer;
 - Goods in transit;
 
-![292](../../../static/img/getting-started/user-guide/63jt.png)
+![stock-transfer](../../../static/img/usage/stock/stock-guide/stock-transfer.png)
 
 1. Click on **New**.
 
-![293](../../../static/img/getting-started/user-guide/64jt.png)
+![stock-transfer1](../../../static/img/usage/stock/stock-guide/stock-transfer1.png)
 
 2. Enter the **Description** to describe the stock transfer entry, eg. "Stock Transfer from BALAKONG TO BATU CAVE".
 3. Add the items to be transfer.
 4. You may enter the **reason, remark and authorised by** for future reference.
 
-![294](../../../static/img/getting-started/user-guide/65jt.png)
+![stock-transfer2](../../../static/img/usage/stock/stock-guide/stock-transfer2.png)
 
 5. Click on **Save** to commit the stock movement between the locations.
 6. For some circumstances, it is required to select the customer code and enter the unit price, tax code, tax amount and subtotal for consignment sales.
 
-![295](../../../static/img/getting-started/user-guide/66jt.png)
+![stock-transfer3](../../../static/img/usage/stock/stock-guide/stock-transfer3.png)
 
 ### Update Cost
 1. You update the unit cost by click on **Update Cost** button.
 2. System will based on the update cost method to retrieve the unit cost for each items. There are:
 
-![296](../../../static/img/getting-started/user-guide/67jt.png)
+![stock-transfer4](../../../static/img/usage/stock/stock-guide/stock-transfer4.png)
 
 <table class="table-small">
   <thead>
@@ -1094,29 +1094,29 @@ Watch tutorial video here: [Youtube](https://www.youtube.com/watch?v=uEbCRAftQ4A
 
 3. **Filter** by date, stock group or others **information** that you want to do for the stock take, please **make sure that you choose the correct location and batch if you have these two modules**.
 
-   ![70](../../../static/img/getting-started/user-guide/69.png)
+   ![70](../../../static/img/usage/stock/stock-guide/69.png)
 
 4. lick on Preview & choose your report format.
 
-   ![71](../../../static/img/getting-started/user-guide/70.png)
+   ![71](../../../static/img/usage/stock/stock-guide/70.png)
 
 5. **Print out the “Stock Take Sheet”** for stock keeper.
 
    The stock keeper should manually **fill in the actual quantity into the “physical qty” column**.
 
-   ![72](../../../static/img/getting-started/user-guide/71.png)
+   ![72](../../../static/img/usage/stock/stock-guide/71.png)
 
 6. After complete updating the stock take report by your stock-keeper, do your stock adjustment in system from **Stock** > **Stock Adjustment** > **and drag out Book Qty and Physical Qty**.
 
-   ![73](../../../static/img/getting-started/user-guide/72.png)
+   ![73](../../../static/img/usage/stock/stock-guide/72.png)
 
-   ![74](../../../static/img/getting-started/user-guide/73.png)
+   ![74](../../../static/img/usage/stock/stock-guide/73.png)
 
 7. Click on the first item in **Stock Physical Worksheet**, press on **Ctrl + A** on the keyboard to select all items.
 
    **Then Drag & Drop into Stock Adjustment**.
 
-   ![75](../../../static/img/getting-started/user-guide/74.png)
+   ![75](../../../static/img/usage/stock/stock-guide/74.png)
 
 8. Based on the stock keeper’s Stock Take Report, **fill in the actual physical quantity** in your warehouse into the Stock Adjustment **Physical Qty column**, the system will calculate the variance based on the Book Qty and apply a correction to the Qty column.
 

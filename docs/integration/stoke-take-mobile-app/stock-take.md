@@ -54,11 +54,11 @@ Users who already have an SQL Drive account that was previously used for SQL Pay
 ### SQL Accounting
 01. Stock | **Stock Take**
 
-   ![1](../../../static/img/stoke-take-mobile-app/1jt.png)
+   ![1](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take.png)
 
 Click **Allow Access** if Windows Prompt the above warning
 
-   ![2](../../../static/img/stoke-take-mobile-app/2jt.png)
+   ![2](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take1.png)
 
 Leave this Screen Open as It will auto sync & update
 
@@ -66,7 +66,7 @@ Leave this Screen Open as It will auto sync & update
 
 09. Click Calculate Stock Take (System will compare with Month End As At Posted)
 
-   ![3](../../../static/img/stoke-take-mobile-app/3jt.png)
+   ![3](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take2.png)
 
 10. Click **Post Stock Adjustments**
 
@@ -80,32 +80,32 @@ Leave this Screen Open as It will auto sync & update
 | **Post Stock Adjustments** | • To Post Grid Result to Stock Adjustment |
 
 ### Stoke Take(Mobile App)
-   ![4](../../../static/img/stoke-take-mobile-app/4jt.png)
-   ![12](../../../static/img/stoke-take-mobile-app/12jt.png)
+   ![4](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take3.png)
+   ![12](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take4.png)
 
 02. When to Sync Data
 
-   ![5](../../../static/img/stoke-take-mobile-app/5jt.png)
+   ![5](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take5.png)
 
 
 03. After Done Sycn, Click Stock Take
 
-   ![13](../../../static/img/stoke-take-mobile-app/13jt.png)
-   ![6](../../../static/img/stoke-take-mobile-app/6jt.png)
+   ![13](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take6.png)
+   ![6](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take7.png)
 
 04. Click Scan to begin Scan
 
-   ![7](../../../static/img/stoke-take-mobile-app/7jt.png)
+   ![7](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take8.png)
 
 05. If the Item Code Had More then 1 UOM it will prompt as Above.
 06. Select the UOM & Click Select to Confirm
 
-   ![8](../../../static/img/stoke-take-mobile-app/8jt.png)
+   ![8](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take9.png)
 
 07. Here User can Adjust the Quantity Field (Optional)
 08. Click Stop to End Scanning
 
-   ![9](../../../static/img/stoke-take-mobile-app/9jt.png)
+   ![9](../../../static/img/integration/stoke-take-mobile-app/stoke-take/stoke-take10.png)
 
 
 
