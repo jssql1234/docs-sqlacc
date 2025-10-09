@@ -3,7 +3,7 @@ sidebar_position: 1
 id: photocopier
 title: Photocopier Guide
 description: A guide to use photocopier
-slug: /business-nature-industries/PhotocopierGuide
+slug: /miscellaneous/business-nature-industries/PhotocopierGuide
 tags: ["Photocopier Meter"]
 ---
 
@@ -77,7 +77,7 @@ Fixed Unable to save Invoice if document is transfer from other Document
 * Use Doc No S-XXXX as the Setting - To avoid mix with actual use of Quotation
 * Can use same itemcode for Different Reading
 
-![photocopier-quotation](../../../static/img/business-nature-industries/photocopierGuide/photocopier-quotation.jpg)
+![photocopier-quotation](../../../static/img/miscellaneous/business-nature-industries/photocopierGuide/photocopier-quotation.jpg)
 
 * Minimum UDF Fields Required (Header Fields)
 
@@ -205,7 +205,7 @@ Fixed Unable to save Invoice if document is transfer from other Document
 
 *Menu: Sales | Invoice...*
 
-![photocopier-invoice](../../../static/img/business-nature-industries/photocopierGuide/photocopier-invoice.jpg)
+![photocopier-invoice](../../../static/img/miscellaneous/business-nature-industries/photocopierGuide/photocopier-invoice.jpg)
 
 1. Select Customer.
 2. Click 1. Get Price button.

@@ -25,7 +25,7 @@ Yes. You can set your first financial period for more than 12 months (e.g., from
 2. Open The Advance form [Advance form](#design-layout)
 3. Design as usual except need to select **DataSource**
 
-![ch259](../../../static/img/getting-started/user-guide/ch259.jpg)
+![main-form](../../../static/img/usage/tools/tools-faq/main-form.jpg)
 
 4. Select the XXXXX.YYYYY.dsDocDetail
 
@@ -38,7 +38,7 @@ Steps
 03. Design as usual for Label
 04. For the UDF you wanted to have option
 
-![ch260](../../../static/img/getting-started/user-guide/ch260.jpg)
+![componentpalette-datacontrols](../../../static/img/usage/tools/tools-faq/componentpalette-datacontrols.jpg)
 
 </details>
 
@@ -62,23 +62,23 @@ You are advise to set your financial start period and system conversion date as 
 
    - Setting your financial start period and system conversion date as 1/1/2014, so in the following year, you do not need to run year end to set again your financial start period & System conversion date.
 
-    ![1](../../../static/img/tools/first-year-acc-more-than-12/1.png)
+    ![1](../../../static/img/usage/tools/tools-faq/1.png)
 
 2. Setting profit & loss statement print in 18 months
 
-    ![2](../../../static/img/tools/first-year-acc-more-than-12/2.png)
+    ![2](../../../static/img/usage/tools/tools-faq/2.png)
 
    1. Right click as pointed
 
    2. Select 640 x 480 to smaller your SQL Screen
 
    3. Highlight report name “this year-2column” click and drag it to desktop
-       ![3](../../../static/img/tools/first-year-acc-more-than-12/3.png)
+       ![3](../../../static/img/usage/tools/tools-faq/3.png)
 
    4. From desktop click the report “This Year-2Column” drag it back to SQL report section.
 
    5. Click ok
-       ![4](../../../static/img/tools/first-year-acc-more-than-12/4.png)
+       ![4](../../../static/img/usage/tools/tools-faq/4.png)
 
    6. Double click on the new report name “ This year 2 column” in blue color.
 
@@ -100,7 +100,7 @@ You are advise to set your financial start period and system conversion date as 
   :::info
   This module is required if you are using foreign banks.
   
-  Related: [Payment from Foreign Customer](../../usage/Tools.md#maintain-currency)
+  Related: [Payment from Foreign Customer](/usage/Tools/Tools#maintain-currency)
   :::
   
   ### Setup Foreign Currency Payment Method
@@ -109,15 +109,15 @@ You are advise to set your financial start period and system conversion date as 
 
    1. GL > Maintain Account
   
-  ![1](../../../static/img/tools/advance-currency/1.png)
+  ![1](../../../static/img/usage/tools/tools-faq/1a.png)
   
    2. Create your bank respectively
   
-  ![2](../../../static/img/tools/advance-currency/2.png)
+  ![2](../../../static/img/usage/tools/tools-faq/2a.png)
   
    3. Tools > Maintain Payment Method
   
-  ![3](../../../static/img/tools/advance-currency/3.png)
+  ![3](../../../static/img/usage/tools/tools-faq/3a.png)
 
 </details>
 
@@ -149,7 +149,7 @@ SQL Global Price Change will help you mark down price for all items with few cli
 This is a **paid module**. Contact your SQL Service to get this standalone application.
 :::
 
-![3](../../../static/img/tools/global-price-change/3.png)
+![3](../../../static/img/usage/tools/tools-faq/3b.png)
 
 ## Setup
 
@@ -159,7 +159,7 @@ This is a **paid module**. Contact your SQL Service to get this standalone appli
    2. You can also choose only active item
    3. Once your group of item selected, click on Get Stock Items List
 
-    ![4](../../../static/img/tools/global-price-change/4.png)
+    ![4](../../../static/img/usage/tools/tools-faq/4b.png)
 
 2. Setting on value to be adjust
 
@@ -167,7 +167,7 @@ This is a **paid module**. Contact your SQL Service to get this standalone appli
     Scenario: You are trying to reduce price due to removal of GST (6% > 0%)
     :::
 
-    ![5](../../../static/img/tools/global-price-change/5.png)
+    ![5](../../../static/img/usage/tools/tools-faq/5b.png)
 
     - Rounding Method (Assuming Round Decimal is 2)
       1. Normal : Example : 0.1234 => 0.12
@@ -197,7 +197,7 @@ This is a **paid module**. Contact your SQL Service to get this standalone appli
 
 3. Select fields to be update
 
-    ![6](../../../static/img/tools/global-price-change/6.png)
+    ![6](../../../static/img/usage/tools/tools-faq/6b.png)
 
     - Tick on which option you want to adjust / update eg : Reference Price
     - You can also tick Record change history then system will update this changes history in your note
@@ -205,9 +205,9 @@ This is a **paid module**. Contact your SQL Service to get this standalone appli
 
 ### 4. Check & Post
 
-![7](../../../static/img/tools/global-price-change/7.png)
+![7](../../../static/img/usage/tools/tools-faq/7b.png)
 
-![8](../../../static/img/tools/global-price-change/8.png)
+![8](../../../static/img/usage/tools/tools-faq/8b.png)
 
 
 **What is SQL Global Price Change and when should I use it?** → [SQL Global Price Change](#sql-global-price-change)
@@ -222,7 +222,7 @@ One Cent (0.01$) difference Rounding(Local Currency Fields) for all AR/SL(Subsid
 
 1. Go to Tools > Option > Customer
 
-    ![1](../../../static/img/tools/one-cent-rounding/1.png)
+    ![1](../../../static/img/usage/tools/tools-faq/1c.png)
 
     1. Tick One Cent Different Rounding (Local Currency Fields) for all /AR/SL Documents **(Recommend)**
 
@@ -230,14 +230,14 @@ One Cent (0.01$) difference Rounding(Local Currency Fields) for all AR/SL(Subsid
 
 2. Sales Invoice > New > Refer below screen
 
-    ![2](../../../static/img/tools/one-cent-rounding/2.png)
+    ![2](../../../static/img/usage/tools/tools-faq/2c.png)
 
     :::caution
     But once you save you will notice the first line of the Tax Amount will be different, this is because system
     using Total Amount of IV to calculate 6%. Refer below Screen:
     :::
 
-    ![3](../../../static/img/tools/one-cent-rounding/3.png)
+    ![3](../../../static/img/usage/tools/tools-faq/3c.png)
 
     Formula: Sum up SubTotal with Tax, Multiple with 6% **(Note : system will exclude the Subtotal if the Tax Rate is 0%)**
 
@@ -253,7 +253,7 @@ One Cent (0.01$) difference Rounding(Local Currency Fields) for all AR/SL(Subsid
 
 Go to menu : **Tools > Options…** click on **Password Policy**.
 
-    ![1](../../../static/img/tools/pw-policy-2step-verify/1.png)
+ ![1](../../../static/img/usage/tools/tools-faq/1d.png)
 
 2. You can choose the following password requirement:
 
@@ -272,11 +272,11 @@ Go to menu : **Tools > Options…** click on **Password Policy**.
 
 2. Click on More (arrow key down), click **Reset Password**.
 
-    ![2](../../../static/img/tools/pw-policy-2step-verify/2.png)
+    ![2](../../../static/img/usage/tools/tools-faq/2d.png)
 
 3. New password auto generated.
 
-    ![3](../../../static/img/tools/pw-policy-2step-verify/3.png)
+    ![3](../../../static/img/usage/tools/tools-faq/3d.png)
 
 4. Press **Yes** (Copy password to clipboard = Tick).
 
@@ -286,19 +286,19 @@ Go to menu : **Tools > Options…** click on **Password Policy**.
 
 1. Go to menu : **File > 2-Steps Verification**.
 
-    ![4](../../../static/img/tools/pw-policy-2step-verify/4.png)
+    ![4](../../../static/img/usage/tools/tools-faq/4d.png)
 
 2. Enter your current password, press **Ok** to proceed.
 
 3. Choose an Authenticator device.
 
-    ![5](../../../static/img/tools/pw-policy-2step-verify/5.png)
+    ![5](../../../static/img/usage/tools/tools-faq/5d.png)
 
 4. Follow the instructions to install and setup the Authenticator in your hand-phone.
 
 5. Each time login, you will require to enter the verification code generated from the Authenticator in your mobile phone.
 
-    ![6](../../../static/img/tools/pw-policy-2step-verify/6.png)
+    ![6](../../../static/img/usage/tools/tools-faq/6d.png)
 
 
 ## How to set Running Document Number by Date/Year Format ?
@@ -317,7 +317,7 @@ Tools > Maintain Document No
 
 Create New or amend from the existing
 
-![1](../../../static/img/tools/running-no-date-year-format/1.png)
+![1](../../../static/img/usage/tools/tools-faq/1e.png)
 
  :::caution
 make sure the format is follow the sample attached
@@ -325,9 +325,9 @@ make sure the format is follow the sample attached
 
  **Step 3**
 
-![2](../../../static/img/tools/running-no-date-year-format/2.png)
+![2](../../../static/img/usage/tools/tools-faq/2e.png)
 
-![3](../../../static/img/tools/running-no-date-year-format/3.png)
+![3](../../../static/img/usage/tools/tools-faq/3e.png)
 
 :::info
 We can also set default running no at for default payment method
@@ -337,9 +337,9 @@ We can also set default running no at for default payment method
 
 Go to tools > Maintain Payment Method
 
-![4](../../../static/img/tools/running-no-date-year-format/4.png)
+![4](../../../static/img/usage/tools/tools-faq/4e.png)
 
-![5](../../../static/img/tools/running-no-date-year-format/5.png)
+![5](../../../static/img/usage/tools/tools-faq/5e.png)
 
 :::note
 vice versa for Official Receipt

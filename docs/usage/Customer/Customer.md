@@ -12,13 +12,13 @@ tags: ["SQL Account", "Usage", "Customer"]
 
 Example of **customer (AR)** process work flow aligned with SQL Account flow:
 
-![42](../../../static/img/getting-started/user-guide/42.png)
+![42](../../../static/img/usage/customer/customerBasicGuide/42.png)
 
 AR = Account Receivable
 
 * To keep the customer profile data such as addresses, telephone, fax, email, contact person, credit limits, credit terms, etc. In other words, it is your customer contacts list.
 
-![maintainCust](../../../static/img/getting-started/user-guide/maintainCust.png)
+![maintainCust](../../../static/img/usage/customer/customerBasicGuide/maintain-cust.png)
 
 ### Create New Customer
 * Click the 'NEW' button.
@@ -27,11 +27,11 @@ AR = Account Receivable
 
 2. Enter the customer’s name and other information accordingly.
 
-![newCust](../../../static/img/getting-started/user-guide/newCust.png)
+![newCust](../../../static/img/usage/customer/customerBasicGuide/new-cust.png)
 
 * Key in your customer's details
 
-![custEntry](../../../static/img/getting-started/user-guide/custEntry.png)
+![custEntry](../../../static/img/usage/customer/customerBasicGuide/cust-entry.png)
 
 * You may input the following fields:
 
@@ -96,7 +96,7 @@ AR = Account Receivable
 
 ### General
 
-![custGeneral](../../../static/img/getting-started/user-guide/custGeneral.png)
+![custGeneral](../../../static/img/usage/customer/customerBasicGuide/cust-general.png)
 
 <table>
   <tr>
@@ -251,7 +251,7 @@ AR = Account Receivable
 
 1. You can categorize your customers into different groups, e.g. Category, agents, area How do you create your new agent/ area? Refer to the step below:
 
-![custGroup](../../../static/img/getting-started/user-guide/custGroup.png)
+![custGroup](../../../static/img/usage/customer/customerBasicGuide/cust-group.png)
 
 2. You can also insert more than one billing / delivery addresses (unlimited)
 
@@ -270,7 +270,7 @@ Open Item: Detail Statement
 
 ### Note 
 
-![custNote](../../../static/img/getting-started/user-guide/custNote.png)
+![custNote](../../../static/img/usage/customer/customerBasicGuide/cust-note.png)
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
@@ -359,7 +359,7 @@ Open Item: Detail Statement
 
 ### Tax
 
-![custTax](../../../static/img/getting-started/user-guide/custTax.png)
+![custTax](../../../static/img/usage/customer/customerBasicGuide/cust-tax.png)
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
@@ -463,7 +463,7 @@ Open Item: Detail Statement
 
 After Saving, you should see all your customer's information on this screen
 
-![custAfterSave](../../../static/img/getting-started/user-guide/custAfterSave.png)
+![custAfterSave](../../../static/img/usage/customer/customerBasicGuide/cust-after-save.png)
 
 ## Customer Code Format
 
@@ -475,15 +475,15 @@ After Saving, you should see all your customer's information on this screen
 >See screenshot below.
 >
 
-![custDuplicatedCode](../../../static/img/getting-started/user-guide/custDuplicatedCode.png)
+![custDuplicatedCode](../../../static/img/usage/customer/customerBasicGuide/cust-duplicated-code.png)
 
 * You can set the customer code format via Tools | Options...(Customer). See screenshot below.
 
-![custCodeFormat](../../../static/img/getting-started/user-guide/custCodeFormat.png)
+![custCodeFormat](../../../static/img/usage/customer/customerBasicGuide/cust-code-format.png)
 
 * Explanation of the Customer Code Format:
 
-![custCodeFormatExplain](../../../static/img/getting-started/user-guide/custCodeFormatExplain.png)
+![custCodeFormatExplain](../../../static/img/usage/customer/customerBasicGuide/cust-code-format-explain.png)
 
 * For Example
 
@@ -501,7 +501,7 @@ After Saving, you should see all your customer's information on this screen
 
 * Credit Control use to control the customer outstanding within the specific overdue and credit limit given. See screenshot below.
 
-![custCreditControl](../../../static/img/getting-started/user-guide/custCreditControl.png)
+![custCreditControl](../../../static/img/usage/customer/customerBasicGuide/cust-credit-control.png)
 
 >IMPORTANT : 
 >1. Depends on the user access rights to the Customer Credit Control.
@@ -529,7 +529,7 @@ Can be applied to the following document types:
 
 * You have to tick "Apply To" in order to set the further action (eg. unblock, block or override) to control the exceed credit and overdue limit. See screenshot below:
 
-![credContAction](../../../static/img/getting-started/user-guide/credContAction.png)
+![credContAction](../../../static/img/usage/customer/customerBasicGuide/cred-cont-action.png)
 
 | Control Type          | Action   | ALLOW EXCEED        |
 |-----------------------|----------|---------------------|
@@ -554,7 +554,7 @@ Can be applied to the following document types:
 * You have to tick "Apply To" any document type in order to tick the SUSPENDED.
 * At the same times, you can input the suspended message to prompt to the user when they try to save the documents. See screenshot below:
 
-![suspend-CreditControl](../../../static/img/getting-started/user-guide/suspend-CreditControl.png)
+![suspend-CreditControl](../../../static/img/usage/customer/customerBasicGuide/suspend-credit-control.png)
 
 ## Customer Invoice
 
@@ -566,7 +566,7 @@ The difference between Customer Invoice and Sales Invoice:
 |---|---|
 |shows only the accounts code and does not show Qty / Unit Price.| linked to the stock and account modules. Hence, we advise users who need to key in stock items to use Sales Invoice. Once the information in the Sales Invoice is updated, the information in the Customer Invoice will automatically be updated by the system.|
 
-![custInvoiceEntry](../../../static/img/getting-started/user-guide/custInvoiceEntry.png)
+![custInvoiceEntry](../../../static/img/usage/customer/customerBasicGuide/cust-invoice-entry.png)
 
 ### Create a new Customer Invoice
 
@@ -576,7 +576,7 @@ The difference between Customer Invoice and Sales Invoice:
 
    3. **Save**
 
-        ![saveCustInvoiceEntry](../../../static/img/getting-started/user-guide/saveCustInvoiceEntry.png)
+        ![saveCustInvoiceEntry](../../../static/img/usage/customer/customerBasicGuide/save-cust-invoice-entry.png)
 
 ## Customer Payment
 
@@ -596,27 +596,27 @@ The difference between Customer Invoice and Sales Invoice:
 
    5. **Tick the corresponding invoice/debit note to be knocked off**
 
-    ![45](../../../static/img/getting-started/user-guide/45.png)
+    ![45](../../../static/img/usage/customer/customerBasicGuide/45.png)
 
 ### Post Dated Cheque
 
    1. Search for the payment that you want to edit, click on **Edit**, right click on Customer Payment, you will see **Set Posting Date**
 
-   ![46](../../../static/img/getting-started/user-guide/46.png)
+   ![46](../../../static/img/usage/customer/customerBasicGuide/46.png)
 
-   ![47](../../../static/img/getting-started/user-guide/47.png)
+   ![47](../../../static/img/usage/customer/customerBasicGuide/47.png)
 
 ### Bounced Cheque
 
    1. Search for the payment that you want to edit, click on **Edit**, right click on Customer Payment, you will see **Bounced Status**
 
-      ![48](../../../static/img/getting-started/user-guide/48.png)
+      ![48](../../../static/img/usage/customer/customerBasicGuide/48.png)
 
-      ![49](../../../static/img/getting-started/user-guide/49.png)
+      ![49](../../../static/img/usage/customer/customerBasicGuide/49.png)
 
       After bounced, system will auto revert the payment out, you can view your ledger.
 
-      ![50](../../../static/img/getting-started/user-guide/50.png)
+      ![50](../../../static/img/usage/customer/customerBasicGuide/50.png)
 
 ## Customer Credit Note
 
@@ -628,7 +628,7 @@ If the situation involves return stock from customer, please do Sales Credit Not
 
 3. **Knocked off accordingly**.
 
-   ![51](../../../static/img/getting-started/user-guide/51.png)
+   ![51](../../../static/img/usage/customer/customerBasicGuide/51.png)
 
    If it does not involve with returned stock, e.g. discount given with
 
@@ -638,7 +638,7 @@ If the situation involves return stock from customer, please do Sales Credit Not
 
    3. **Knocked off accordingly**.
 
-   ![52](../../../static/img/getting-started/user-guide/52.png)
+   ![52](../../../static/img/usage/customer/customerBasicGuide/52.png)
 
 ## Customer Refund
 
@@ -650,7 +650,7 @@ You can use this document to refund a customer. You can knock off with Customer 
 
 3. **Knock off the payment or credit note and save**.
 
-    ![54](../../../static/img/getting-started/user-guide/54.png)
+    ![54](../../../static/img/usage/customer/customerBasicGuide/54.png)
 
 ## Customer Contra
 
@@ -664,21 +664,21 @@ If you have a customer who is also a supplier, you may want to offset the outsta
 
 1. Tools | Options
 
-    ![1](../../../static/img/customer/contra/1.png)
+    ![1](../../../static/img/usage/customer/customerBasicGuide/1.png)
 
 2. General Ledger | make sure you had chosen a valid Contra Account
 
-    ![2](../../../static/img/customer/contra/2.png)
+    ![2](../../../static/img/usage/customer/customerBasicGuide/2.png)
 
 ### Contra Entry
 
    1. Go Customer | Customer Contra
 
-    ![3](../../../static/img/customer/contra/3.png)
+    ![3](../../../static/img/usage/customer/customerBasicGuide/3.png)
 
    2. Press on NEW
 
-    ![4](../../../static/img/customer/contra/4.png)
+    ![4](../../../static/img/usage/customer/customerBasicGuide/4.png)
 
         2a. Select your Customer Code
 
@@ -688,15 +688,15 @@ If you have a customer who is also a supplier, you may want to offset the outsta
 
         2d. Press on SAVE Button
 
-        ![5](../../../static/img/customer/contra/5.png)
+        ![5](../../../static/img/usage/customer/customerBasicGuide/5.png)
 
    3. System will auto generated a Contra Number, jot down the number and go **Supplier | Supplier Contra** to edit it.
 
-    ![6](../../../static/img/customer/contra/6.png)
+    ![6](../../../static/img/usage/customer/customerBasicGuide/6.png)
 
    4. Look for the Same Contra Number (refer step 2e), EDIT it.
 
-    ![7](../../../static/img/customer/contra/7.png)
+    ![7](../../../static/img/usage/customer/customerBasicGuide/7.png)
 
       4a. Select your Supplier
 
@@ -706,7 +706,7 @@ If you have a customer who is also a supplier, you may want to offset the outsta
 
       4d. Press on SAVE Button
 
-        ![8](../../../static/img/customer/contra/8.png)
+      ![8](../../../static/img/usage/customer/customerBasicGuide/8.png)
 
 After you post the contra entry:
 
