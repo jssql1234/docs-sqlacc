@@ -28,7 +28,7 @@ By default firebird not fully utilies the RAM. Using this new function user can 
     5. Enter the Size you wanted or Click Use recommended page buffers setting (Default is 300 MB)
     6. Click OK
 
-![25](../../../../static/img/getting-started/general/yc25-general.jpg)
+![properties-detail](../../../../static/img/usage/general/others/properties/properties-detail.jpg)
 
 :::info
     Things to take note when you have untick - Write data to hard disc immediately:
@@ -37,4 +37,4 @@ By default firebird not fully utilies the RAM. Using this new function user can 
     3. Operating System must at least minimum is Win7, Windows Server 2012 and above.
 :::
 
-![26](../../../../static/img/getting-started/general/yc26-general.png)
+![properties-description](../../../../static/img/usage/general/others/properties/properties-description.png)

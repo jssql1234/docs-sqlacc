@@ -28,9 +28,9 @@ At GST Period Jan 2017:
 1. DR GST-101 - GST - CLAIMABLE --> (SL-AJP-BD)
 2. CR GST-202 - GST - SALES DEFERRED TAX
 
-![1](../../../../static/img/others/yc1-gst-bounce.jpg)
+![customer-side-1](../../../../static/img/usage/general/others/gst-bounce-cheque/customer-side-1.jpg)
 
-![2](../../../../static/img/others/yc2-gst-bounce.jpg)
+![customer-side-2](../../../../static/img/usage/general/others/gst-bounce-cheque/customer-side-2.jpg)
 
 ### Supplier Side
 
@@ -39,6 +39,6 @@ At GST Period Jan 2017
 1. DR GST-102 - GST - PURCHASE DEFERRED TAX
 2. CR GST-201 - GST - PAYABLE --> (PH-AJS-BD)
 
-![3](../../../../static/img/others/yc3-gst-bounce.jpg)
+![supplier-side-1](../../../../static/img/usage/general/others/gst-bounce-cheque/supplier-side-1.jpg)
 
-![4](../../../../static/img/others/yc4-gst-bounce.jpg)
+![supplier-side-2](../../../../static/img/usage/general/others/gst-bounce-cheque/supplier-side-2.jpg)

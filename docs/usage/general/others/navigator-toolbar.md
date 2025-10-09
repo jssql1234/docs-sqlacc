@@ -12,18 +12,18 @@ On top of every Grid Data entry user will see a list of some function buttons sh
 
 ### Type 1
 
-![18](../../../../static/img/getting-started/general/yc18-general.jpg)
+![type1-bar](../../../../static/img/usage/general/others/navigator-toolbar/type1-bar.jpg)
 
 Below is the detail of each button (From Left)
 
-![19](../../../../static/img/getting-started/general/yc19-general.png)
+![type1-detail](../../../../static/img/usage/general/others/navigator-toolbar/type1-detail.png)
 
-![20](../../../../static/img/getting-started/general/yc20-general.jpg)
+![type1-result](../../../../static/img/usage/general/others/navigator-toolbar/type1-result.jpg)
 
 ### Type 2
 
-![21](../../../../static/img/getting-started/general/yc21-general.jpg)
+![type2-bar](../../../../static/img/usage/general/others/navigator-toolbar/type2-bar.jpg)
 
 Below is the detail of each button (From Left)
 
-![22](../../../../static/img/getting-started/general/yc22-general.png)
+![type2-detail](../../../../static/img/usage/general/others/navigator-toolbar/type2-detail.png)

@@ -34,11 +34,11 @@ tags: ["SQL Account", "Additional Module"]
 
 8. **Exemption from TTx** are:
 
-   ![1](../../../static/img/additional-module/myttx/yc1-ttx-exemption.png)
+   ![ttx-exemption-table](../../../static/img/usage/general/myttx/ttx-exemption-table.png)
 
    Therefore, we have designed a database structure specially for business which has provide accommodation to tourists.
 
-   ![2](../../../static/img/additional-module/myttx/yc2-ttx.jpg)
+   ![ttx-flow](../../../static/img/usage/general/myttx/ttx-flow.jpg)
 
 *Source from Royal Malaysian Customs Department official page*
 
@@ -79,7 +79,7 @@ Go to **[GL | Maintain Account...]**, under **Current Liabilities**, create a ne
 
 Go to **[Stock | Maintain Stock Group... | New]** and setting like this:
 
-![3](../../../static/img/additional-module/myttx/yc3.jpg)
+![basic-setting-stock-grp](../../../static/img/usage/general/myttx/basic-setting-stock-grp.jpg)
 
 ### MyTTx - Maintain Stock Item
 
@@ -87,7 +87,7 @@ Go to **[Stock | Maintain Stock Item... | New]**
 
 MyTTx list settings are compulsory to follow :
 
-![4](../../../static/img/additional-module/myttx/yc4.png)
+![basic-setting-stock-item-table](../../../static/img/usage/general/myttx/basic-setting-stock-item-table.png)
 
 :::info
    1. For GST registered person, output tax must set to NS.
@@ -95,7 +95,7 @@ MyTTx list settings are compulsory to follow :
    2. For Non-GST registered person, output tax must LEAVE IT BLANK.
 :::
 
-![5](../../../static/img/additional-module/myttx/yc5.jpg)
+![basic-setting-stock-item](../../../static/img/usage/general/myttx/basic-setting-stock-item.jpg)
 
 ## Room Settings
 
@@ -107,7 +107,7 @@ Go to **[GL | Maintain Account...]** and make sure **GL Account 500-000** is set
 
 Go to **[Stock | Maintain Stock Group... | New]** and setting like this:
 
-![6](../../../static/img/additional-module/myttx/yc6.jpg)
+![room-setting-stock-grp](../../../static/img/usage/general/myttx/room-setting-stock-grp.jpg)
 
 ### Room - Maintain Stock Item
 :::info
@@ -119,9 +119,9 @@ Go to **[Stock | Maintain Stock Item... | New]**
    1. You can create different room types as different item code.
    2. Example of the room types settings list are:
 
-![7](../../../static/img/additional-module/myttx/yc7.png)
+![room-setting-stock-item-table](../../../static/img/usage/general/myttx/room-setting-stock-item-table.png)
 
-![8](../../../static/img/additional-module/myttx/yc8.jpg)
+![room-setting-stock-item](../../../static/img/usage/general/myttx/room-setting-stock-item.jpg)
 
 ## Service Charge Settings
 
@@ -133,7 +133,7 @@ Go to **[GL | Maintain Account...]**, under **Revenue**, create a new GL Account
 
 Go to **[Stock | Maintain Stock Group... | New]** and setting like this:
 
-![9](../../../static/img/additional-module/myttx/yc9.jpg)
+![service-setting-stock-grp](../../../static/img/usage/general/myttx/service-setting-stock-grp.jpg)
 
 ### Service Charge - Maintain Stock Item
 
@@ -143,21 +143,21 @@ Go to **[Stock | Maintain Stock Group... | New]** and setting like this:
 
 Go to **[Stock | Maintain Stock Item... | New]**
 
-![10](../../../static/img/additional-module/myttx/yc10.jpg)
+![service-setting-stock-item-1](../../../static/img/usage/general/myttx/service-setting-stock-item-1.jpg)
 
    1. Example of the Service Charge setting:
 
-   ![11](../../../static/img/additional-module/myttx/yc11.png)
+   ![service-setting-stock-item-2](../../../static/img/usage/general/myttx/service-setting-stock-item-2.png)
 
    2. **UOM Tab** can be use to preset the types of room rate.
 
-   ![12](../../../static/img/additional-module/myttx/yc12.png)
+   ![service-setting-stock-item-3](../../../static/img/usage/general/myttx/service-setting-stock-item-3.png)
 
    3. SERVICE SETTINGS
       1. Tick to confirm this is Service Charge code.
       2. Enter a service rate %. Example the screenshot below is 10%.
 
-   ![13](../../../static/img/additional-module/myttx/yc13.jpg)
+   ![service-setting-stock-item-4](../../../static/img/usage/general/myttx/service-setting-stock-item-4.jpg)
 
 ## New Guest Details
 
@@ -166,11 +166,11 @@ Go to **[Customer | Maintain Customer...]**
    1. You can maintain all the guest particular details at Maintain Customer.
    2. Record the **passport no** at company name 2. See the screenshot below.
 
-   ![14](../../../static/img/additional-module/myttx/yc14.jpg)
+   ![new-guest-details-1](../../../static/img/usage/general/myttx/new-guest-details-1.jpg)
 
    3. Tick on TTX Payable checkbox if he/she is NOT a Malaysian national or a permanent resident who holds MyPR card.
 
-   ![15](../../../static/img/additional-module/myttx/yc15.jpg)
+   ![new-guest-details-2](../../../static/img/usage/general/myttx/new-guest-details-2.jpg)
 
 ## Record of Tax Invoice / Invoice
 
@@ -181,25 +181,25 @@ Go to **[Sales | Invoice...]**
    3. Select an agent (eg. front desk agent).
    4. Enter the room, service charges, date stay, TTx at the details parts.
 
-![16](../../../static/img/additional-module/myttx/yc16.png)
+![record-tax-inv-table](../../../static/img/usage/general/myttx/record-tax-inv-table.png)
 
-![17](../../../static/img/additional-module/myttx/yc17-Record.jpg)
+![record-tax-inv-step1](../../../static/img/usage/general/myttx/record-tax-inv-step1.jpg)
 
    5. Select the room, service charges and TTx at Item Code column.
 
-![18](../../../static/img/additional-module/myttx/yc18.jpg)
+![record-tax-inv-step2](../../../static/img/usage/general/myttx/record-tax-inv-step2.jpg)
 
    6. Enter the number of rooms to be stay at No of Room column.
 
-![19](../../../static/img/additional-module/myttx/yc19.jpg)
+![record-tax-inv-step3](../../../static/img/usage/general/myttx/record-tax-inv-step3.jpg)
 
    7. For **service charges**, select the **types of the room** (eg. room normal or executive) to calculate the service charge % on the room type rate.
 
-![20](../../../static/img/additional-module/myttx/yc20.jpg)
+![record-tax-inv-step4](../../../static/img/usage/general/myttx/record-tax-inv-step4.jpg)
 
    8. Enter the Date Stay.
 
-![21](../../../static/img/additional-module/myttx/yc21.jpg)
+![record-tax-inv-step5](../../../static/img/usage/general/myttx/record-tax-inv-step5.jpg)
 
    9. To confirm the Invoice, click on Save.
    10. You can preview/print the Tax Invoice or Invoice.
@@ -220,7 +220,7 @@ Go to **[Sales | Invoice...]**
    1. the Tourism Tax Identification Number of the operator; and
    2. the rate and amount of TTx payable, separately from the charges for the accommodation provided by the operator.
 
-![22](../../../static/img/additional-module/myttx/yc22.jpg)
+![full-tax-inv-sample](../../../static/img/usage/general/myttx/full-tax-inv-sample.jpg)
 
 ### Sample of Invoice (For Non-GST Registered Person)
 
@@ -231,7 +231,7 @@ For operators **not registered for GST**, details to be include in the invoice, 
    4. The name and address of the person to whom the accommodation premises are provided.
    5. The rate and amount of TTx payable, separately from the charges for the accommodation provided by the operator.
 
-![23](../../../static/img/additional-module/myttx/yc23.jpg)
+![inv-sample](../../../static/img/usage/general/myttx/inv-sample.jpg)
 
 ## Adjustment Using Debit/Credit Note
 
@@ -242,12 +242,12 @@ Go to **[Sales | Credit Note | New...]**
 1. Select a customer (guest).
 2. Right click on the **Credit Note** title. See the screenshot below.
 
-![24](../../../static/img/additional-module/myttx/yc24.jpg)
+![adjustment-credit-note](../../../static/img/usage/general/myttx/adjustment-credit-note.jpg)
 
 4. Select the tax invoice/invoice to transfer for CN adjustment.
 5. State the reason at the document description. See the screenshot below.
 
-![25](../../../static/img/additional-module/myttx/yc25.jpg)
+![adjustment-credit-note-2](../../../static/img/usage/general/myttx/adjustment-credit-note-2.jpg)
 
 ### Debit Note
 
@@ -256,7 +256,7 @@ Go to **[Sales | Debit Note | New...]**
 1. Select a customer (guest).
 2. Select a Tax Invoice/Invoice at **From Doc**. See the screenshot below.
 
-![26](../../../static/img/additional-module/myttx/yc26.jpg)
+![adjustment-debit-note](../../../static/img/usage/general/myttx/adjustment-debit-note.jpg)
 
 3. State the reason at the document description.
 
@@ -273,16 +273,16 @@ Go to **[Sales | Print Sales Price History...]**
 3. Click **Apply**.
 4. Preview / print the **TTx-03** form.
 
-![27](../../../static/img/additional-module/myttx/yc27.jpg)
+![print-ttx-form](../../../static/img/usage/general/myttx/print-ttx-form.jpg)
 
 ### Sample of TTx-03 generated from SQL Account
 Page 1
 
-![28](../../../static/img/additional-module/myttx/yc28.jpg)
+![sample-ttx-1](../../../static/img/usage/general/myttx/sample-ttx-1.jpg)
 
 Page 2
 
-![29](../../../static/img/additional-module/myttx/yc29.jpg)
+![sample-ttx-2](../../../static/img/usage/general/myttx/sample-ttx-2.jpg)
 
 ### TTx-03 Part A - Detail of Operator
 
@@ -292,7 +292,7 @@ Go to **[File | Company Profile...]**
 2. Click to the **More** tab.
 3. Enter the **Tourism Tax Identification number** in ATS/ATMS Permit No.
 
-![30](../../../static/img/additional-module/myttx/yc30.jpg)
+![ttx-part-a](../../../static/img/usage/general/myttx/ttx-part-a.jpg)
 
 ### TTx-03 Part D - Declaration Part
 
@@ -304,4 +304,4 @@ Under **Misc** tab, you can update the following info as required in TTx-03 form
    3. Passport
    4. Nationality
 
-![31](../../../static/img/additional-module/myttx/yc31.jpg)
+![ttx-part-d](../../../static/img/usage/general/myttx/ttx-part-d.jpg)
