@@ -8,7 +8,7 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 ## How to rename the component I use?
 
-![ch101](../../../../static/img/getting-started/user-guide/ch101.jpg)
+![rename-component](../../../../static/img/report/rtm-faq/rename-component.jpg)
 
 1. Click Icon here (eg DBText)
 2. Click on the place to be print/shown
@@ -16,7 +16,7 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 ## Why when Export to PDF format the Company Logo look "ugly"?
 
-![ch102](../../../../static/img/getting-started/user-guide/ch102.jpg)
+![image-compression-level-1](../../../../static/img/report/rtm-faq/image-compression-level-1.jpg)
 
 1. In the report designer set the setting
 - ImageCompressionLevel to 1
@@ -29,7 +29,7 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 ## Why when Export to PDF format the the file size so large?
 
-![ch103](../../../../static/img/getting-started/user-guide/ch103.jpg)
+![compression-level-clmax](../../../../static/img/report/rtm-faq/compression-level-clmax.jpg)
 
 1. In the report designer set the setting look for PDFSettings
 - CompressionLevel to clMax
@@ -204,7 +204,7 @@ end;
 It might unable to scan if size too small & data too large
 :::
 
-![ch104](../../../../static/img/getting-started/user-guide/ch104.jpg)
+![qrcode-autosize](../../../../static/img/report/rtm-faq/qrcode-autosize.jpg)
 
 ## How to Add QR Code for E-Invoicing?
 
@@ -212,7 +212,7 @@ It might unable to scan if size too small & data too large
 Only Available in Version 852 & above
 :::
 
-![ch105](../../../../static/img/getting-started/user-guide/ch105.jpg)
+![qrcode-settings](../../../../static/img/report/rtm-faq/qrcode-settings.jpg)
 
 * The measurement is in Inch
 * This guide design for is for Laser Printer only
@@ -220,19 +220,19 @@ Only Available in Version 852 & above
 
 ## How to Add FromDocNo and FromDocDate Variable in Report Design ?
 
-1. Go in Report Design | Click on ![1](../../../../static/img/report/add-fromDocNo-fromDocDate/1.png) then place at the grid – refer below Pic
+1. Go in Report Design | Click on ![1](../../../../static/img/report/rtm-faq/1.png) then place at the grid – refer below Pic
 
-   ![2](../../../../static/img/report/add-fromDocNo-fromDocDate/2.png)
+   ![2](../../../../static/img/report/rtm-faq/2.png)
 
    1. Right Click on Variable2 | Select Calculation |
 
-      ![3](../../../../static/img/report/add-fromDocNo-fromDocDate/3.png)
+      ![3](../../../../static/img/report/rtm-faq/3.png)
 
       After Done press OK
 
 2. If the date is not appearing in report preview
 
-   ![4](../../../../static/img/report/add-fromDocNo-fromDocDate/4.png)
+   ![4](../../../../static/img/report/rtm-faq/4.png)
 
    1. Click on **Calc Tab**
 
@@ -250,7 +250,7 @@ Only Available in Version 852 & above
 
 ## How to Create SUM Variable for TAX Column ?
 
-![1](../../../../static/img/report/crtSUMforTaxCol/1.png)
+![1](../../../../static/img/report/rtm-faq/11.png)
 
 1. Click on the variable icon
 
@@ -296,19 +296,19 @@ Only Available in Version 852 & above
 
 1. If you had deleted any field in report designer with Query, then u will get the below message, click **OK**
 
-   ![1](../../../../static/img/report/disbQryinRpt/1.png)
+   ![1](../../../../static/img/report/rtm-faq/111.png)
 
 2. Click on the blue colour report name to enter in report designer page
 
-   ![2](../../../../static/img/report/disbQryinRpt/2.png)
+   ![2](../../../../static/img/report/rtm-faq/22.png)
 
 3. Click on the field, the field name will be shown at the left bottom of the application as shown below. If you had deleted the field, refer to step 4.
 
-   ![3](../../../../static/img/report/disbQryinRpt/3.png)
+   ![3](../../../../static/img/report/rtm-faq/33.png)
 
 4. Click on **CALC**, go View > Modules
 
-   ![4](../../../../static/img/report/disbQryinRpt/4.png)
+   ![4](../../../../static/img/report/rtm-faq/44.png)
 
 5. Follow the steps below:
 
@@ -318,11 +318,11 @@ Only Available in Version 852 & above
 
    3. An error will be shown at the bottom, double click on it, and the system will redirect to the row with the error
 
-   ![5](../../../../static/img/report/disbQryinRpt/5.png)
+   ![5](../../../../static/img/report/rtm-faq/5.png)
 
 6. Enter '//' as in the image below :
 
-   ![6](../../../../static/img/report/disbQryinRpt/6.png)
+   ![6](../../../../static/img/report/rtm-faq/6.png)
 
 7. Right click and compile , make sure no error > save > close the preview screen and try preview again.
 
@@ -334,13 +334,13 @@ You can also refer to the guidance video at [HERE](https://www.sql.com.my/) rega
 
 ### Part A : Custom | Maintain Customer
 
-![1](../../../../static/img/report/displayExmpNoExpDateInv/1.png)
+![1](../../../../static/img/report/rtm-faq/1111.png)
 
 ### Part B : Report Format add customer exemption Number
 
 1. Go to Sales | Sales Invoice | Select any of your invoice | Preview | choose your invoice format template | click on the bottom blue color report name to go into report designer page
 
-   ![2](../../../../static/img/report/displayExmpNoExpDateInv/2.png)
+   ![2](../../../../static/img/report/rtm-faq/2222.png)
 
 2. Insert **Exemption Number** label
 
@@ -348,7 +348,7 @@ You can also refer to the guidance video at [HERE](https://www.sql.com.my/) rega
    2. click on the area that you want to locate the field
    3. rename the label
 
-   ![3](../../../../static/img/report/displayExmpNoExpDateInv/3.png)
+   ![3](../../../../static/img/report/rtm-faq/3333.png)
 
 3. Insert **Tax Exemption Number** DBText
 
@@ -356,7 +356,7 @@ You can also refer to the guidance video at [HERE](https://www.sql.com.my/) rega
    2. click on the are that you want to located the field
    3. select Document Company & TaxExemptNo
 
-   ![4](../../../../static/img/report/displayExmpNoExpDateInv/4.png)
+   ![4](../../../../static/img/report/rtm-faq/4444.png)
 
 4. Insert **Expiry Date** label
 
@@ -364,7 +364,7 @@ You can also refer to the guidance video at [HERE](https://www.sql.com.my/) rega
    2. click on the area that you want to locate the field
    3. rename the label
 
-   ![5](../../../../static/img/report/displayExmpNoExpDateInv/5.png)
+   ![5](../../../../static/img/report/rtm-faq/5555.png)
 
 5. Insert **Tax Expiry Date** DBText
 
@@ -372,21 +372,21 @@ You can also refer to the guidance video at [HERE](https://www.sql.com.my/) rega
    2. click on the are that you want to located the field
    3. select Document Company & TaxExpDate
 
-   ![6](../../../../static/img/report/displayExmpNoExpDateInv/6.png)
+   ![6](../../../../static/img/report/rtm-faq/6666.png)
 
 ### Part C: Save as a new report name & preview the new format
 
 1. Once you complete, go file | save as | enter a new report name | Save
 
-   ![7](../../../../static/img/report/displayExmpNoExpDateInv/7.png)
+   ![7](../../../../static/img/report/rtm-faq/7777.png)
 
 2. Preview your new report
 
-   ![8](../../../../static/img/report/displayExmpNoExpDateInv/8.png)
+   ![8](../../../../static/img/report/rtm-faq/8888.png)
 
 3. The exemption number & expiry date added
 
-   ![9](../../../../static/img/report/displayExmpNoExpDateInv/9.png)
+   ![9](../../../../static/img/report/rtm-faq/9999.png)
 
 ## How to Drag XML Report into SQL ?
 
@@ -398,11 +398,11 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
 
 1. Open the XML Report & also Customer Aging, drag the XML Report into the Report Name field
 
-   ![1](../../../../static/img/report/dragXMLRpt/1.png)
+   ![1](../../../../static/img/report/rtm-faq/12.png)
 
 2. Double Click on the new report template in blue color.
 
-   ![2](../../../../static/img/report/dragXMLRpt/2.png)
+   ![2](../../../../static/img/report/rtm-faq/21.png)
 
 3. Click on the arrow down key to choose the right template
 
@@ -418,108 +418,31 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
      - 06 = 06 Month
      - 12 = 12 Month
 
-## How to Fix Report Tax Rate show A instead of 6% ?
-
-![1](../../../../static/img/report/fastReport-taxShwA/1.png)
-
-1. Preview the Report format, Click on blue color link and enter into Report Design.
-
-   ![2](../../../../static/img/report/fastReport-taxShwA/2.png)
-
-2. Check GST Summary using which Pipeline | This Report using plSQL_7.
-
-   ![3](../../../../static/img/report/fastReport-taxShwA/3.png)
-
-3. Click on Calc Tab.
-
-   ![4](../../../../static/img/report/fastReport-taxShwA/4.png)
-
-4. Click on Menu View | Select Module
-
-   ![5](../../../../static/img/report/fastReport-taxShwA/5.png)
-
-5. Click on Events | Click on Main:plSQL_0 | Look for SQL_7(Refer Step 2 to see which pipeline) | Insert TaxRate
-
-   ![6](../../../../static/img/report/fastReport-taxShwA/6.png)
-
-   Query:
-
-    ```sql
-    SQL_7 := 'SELECT DocKey, Tax, TaxRate, Sum(LocalAmount) LocalAmount, Sum(Qty) Qty, Sum(LocalTaxAmt) localTaxAmt, Description '+
-        'FROM Document_Detail ' +
-        'Where Tax &lt;> ''''' +
-        'GROUP BY Dockey, Tax, TaxRate';
-   ```
-
-6. Click on Event Handler | Select Procedure ReportBeforePrint | Look for Pipeline SQL_7 | Insert TaxRate
-
-    ![7](../../../../static/img/report/fastReport-taxShwA/7.png)
-
-    Query:
-
-    ```pascal
-    LocalSQL_SELECT(plSQL_7, SQL_7, 'Dockey;Tax;TaxRate');
-    ```
-
-7. Click on SubReport1:plSQL_7 Tab
-
-    ![8](../../../../static/img/report/fastReport-taxShwA/8.png)
-
-8. Click on VarTax | Right Click | Select Calculation
-
-   ![9](../../../../static/img/report/fastReport-taxShwA/9.png)
-
-9. Amend the Query | Press OK
-
-   - Before Amend:
-
-        ![10](../../../../static/img/report/fastReport-taxShwA/10.png)
-
-   - After Amend:
-
-        ![11](../../../../static/img/report/fastReport-taxShwA/11.png)
-
-   Query:
-
-    ```pascal
-    Value := plsql_7.getfieldvalue('Tax') + ' @ ' + plsql_7.getfieldvalue('TaxRate');
-    ```
-
-10. File | Save
-
-    ![12](../../../../static/img/report/fastReport-taxShwA/12.png)
-
-11. Close the report builder
-
-12. Preview again the same report format.
-
-    ![13](../../../../static/img/report/fastReport-taxShwA/13.png)
-
 ## How to Make Official Receipt Format Set Knock Off Grid to Show Full Width ?
 
 1. Go to **subreport1 : Document_KnockOff**
 
-    ![1](../../../../static/img/report/ORSetKnockOffGridToShwFullWidth/1.png)
+    ![1](../../../../static/img/report/rtm-faq/11111.png)
 
 2. Go to **Report**, click on **Title**
 
-    ![2](../../../../static/img/report/ORSetKnockOffGridToShwFullWidth/2.png)
+    ![2](../../../../static/img/report/rtm-faq/22222.png)
 
 3. Move all field in Column Header to **Title**
 
-    ![3](../../../../static/img/report/ORSetKnockOffGridToShwFullWidth/3.png)
+    ![3](../../../../static/img/report/rtm-faq/33333.png)
 
 4. Go to **File** > **Page Setup...**
 
-    ![4](../../../../static/img/report/ORSetKnockOffGridToShwFullWidth/4.png)
+    ![4](../../../../static/img/report/rtm-faq/44444.png)
 
 5. Go to **Layout**, change the **column** to ***1***
 
-    ![5](../../../../static/img/report/ORSetKnockOffGridToShwFullWidth/5.png)
+    ![5](../../../../static/img/report/rtm-faq/55555.png)
 
 6. Now, it expands to full page, you can adjust all your column as your wish.
 
-    ![6](../../../../static/img/report/ORSetKnockOffGridToShwFullWidth/6.png)
+    ![6](../../../../static/img/report/rtm-faq/66666.png)
 
 7. Once you done adjust, go file > save as, key a new report name.
 
@@ -529,10 +452,10 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
 
 **Sample Invoice with Rounding RM0.02 :**
 
-![1](../../../../static/img/report/roundingRpt/1.png)
+![1](../../../../static/img/report/rtm-faq/1a.png)
 
 1. Using Tax Invoice format 06-Tax-Invoice
-   ![2](../../../../static/img/report/roundingRpt/2.png)
+   ![2](../../../../static/img/report/rtm-faq/2a.png)
 
    :::info[note]
    Click on blue color link - **06-Tax-Invoice**
@@ -540,19 +463,19 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
 
 2. Click on **Calc** Tab
 
-   ![3](../../../../static/img/report/roundingRpt/3.png)
+   ![3](../../../../static/img/report/rtm-faq/3a.png)
 
 3. Right Click select **Module**
 
-   ![4](../../../../static/img/report/roundingRpt/4.png)
+   ![4](../../../../static/img/report/rtm-faq/4a.png)
 
 4. Click on **Declarations**
 
-   ![5](../../../../static/img/report/roundingRpt/5.png)
+   ![5](../../../../static/img/report/rtm-faq/5a.png)
 
 5. Declare **SQL_Rounding** under **Variable**
 
-   ![6](../../../../static/img/report/roundingRpt/6.png)
+   ![6](../../../../static/img/report/rtm-faq/6a.png)
 
 6. Click on Events | On Create | Procedure GlobalOnCreate insert syntax as below :
 
@@ -565,12 +488,12 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
 
     **Refer Picture below :**
 
-   ![7](../../../../static/img/report/roundingRpt/7.png)
+   ![7](../../../../static/img/report/rtm-faq/7a.png)
 
     :::info[Optional]
     Add additional syntax in plSQL_4 – Refer below, only if Total Amount beforeGST you want to exclude rounding amount.
 
-   ![8](../../../../static/img/report/roundingRpt/8.png)
+   ![8](../../../../static/img/report/rtm-faq/8a.png)
 
     ```pascal
     SQL_4 := 'SELECT DocKey, Sum(Amount) Amount, Description '+
@@ -590,13 +513,13 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
     SetDataPipelineFieldLink(Main, plSQL_Rounding, 'DocKey', 'DocKey');
     ```
 
-   ![9](../../../../static/img/report/roundingRpt/9.png)
+   ![9](../../../../static/img/report/rtm-faq/9a.png)
 
 8. File | Save | Exit from report design and go in to Report Design again.
 
 9. Insert DBText | and place at the place you want.
 
-   ![10](../../../../static/img/report/roundingRpt/10.png)
+   ![10](../../../../static/img/report/rtm-faq/10a.png)
 
    1. Click on DBText
 
@@ -608,17 +531,17 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
 
    Here is the output :
 
-   ![11](../../../../static/img/report/roundingRpt/11.png)
+   ![11](../../../../static/img/report/rtm-faq/11a.png)
 
    After adjust the position :
 
-   ![12](../../../../static/img/report/roundingRpt/12.png)
+   ![12](../../../../static/img/report/rtm-faq/12a.png)
 
     **Item Detail hide Item Code RTN5Cents to be appearing, refer step as below :**
 
 10. Click on Document_Detail Tab as below | Click on Calc | Event Handlers | Procedure RdiscOnPrint
 
-    ![13](../../../../static/img/report/roundingRpt/13.png)
+    ![13](../../../../static/img/report/rtm-faq/13a.png)
 
     - Syntax:
 
@@ -629,41 +552,41 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
 
     - Output :
 
-        ![14](../../../../static/img/report/roundingRpt/14.png)
+     ![14](../../../../static/img/report/rtm-faq/14a.png)
 
         **How to do if the report never create the region before?**
 
 11. Right click tick all the Toolbars
 
-    ![15](../../../../static/img/report/roundingRpt/15.png)
+    ![15](../../../../static/img/report/rtm-faq/15a.png)
 
 12. Click on Region component
 
-    ![16](../../../../static/img/report/roundingRpt/16.png)
+    ![16](../../../../static/img/report/rtm-faq/16a.png)
 
 13. Place at the design grid | Click at the region | Select no Fill
 
-    ![17](../../../../static/img/report/roundingRpt/17.png)
+    ![17](../../../../static/img/report/rtm-faq/17a.png)
 
 14. Select No Line
 
-    ![18](../../../../static/img/report/roundingRpt/18.png)
+    ![18](../../../../static/img/report/rtm-faq/18a.png)
 
 15. Place all the DBtext/DBRichText inside the Region.
 
-    ![19](../../../../static/img/report/roundingRpt/19.png)
+    ![19](../../../../static/img/report/rtm-faq/19a.png)
 
 16. Click on Region to check the object name :
 
-    ![20](../../../../static/img/report/roundingRpt/20.png)
+    ![20](../../../../static/img/report/rtm-faq/20a.png)
 
 17. Click on Calc tab | Right Click select Events
 
-    ![21](../../../../static/img/report/roundingRpt/21.png)
+    ![21](../../../../static/img/report/rtm-faq/21a.png)
 
 18. Look for RDisc | Select OnOnPrint | Place the syntax inside bottom box
 
-    ![22](../../../../static/img/report/roundingRpt/22.png)
+    ![22](../../../../static/img/report/rtm-faq/22a.png)
 
     Syntax :
 
@@ -692,13 +615,13 @@ SQL Account system build in report format will automatic detect your Tax Rate ba
 
 1. Click on your report name to enter into report designer page.
 
-   ![1](../../../../static/img/report/RTM-6to0/1.png)
+   ![1](../../../../static/img/report/rtm-faq/1b.png)
 
 2. Follow the steps below:
 
    1. Go to **Calc**, click on **View** > select **Module**
 
-      ![2](../../../../static/img/report/RTM-6to0/2.png)
+      ![2](../../../../static/img/report/rtm-faq/2b.png)
 
    2. Go **Event Handlers**
 
@@ -720,17 +643,17 @@ SQL Account system build in report format will automatic detect your Tax Rate ba
     end;
     ```
 
-   ![3](../../../../static/img/report/RTM-6to0/3.png)
+   ![3](../../../../static/img/report/rtm-faq/3b.png)
 
 To Display Tax as 0.00 Instead of Blank:
 
    1. Click on your report name to enter into report designer page.
 
-      ![4](../../../../static/img/report/RTM-6to0/4.png)
+      ![4](../../../../static/img/report/rtm-faq/4b.png)
 
    2. Go to **Calc**, click on **View** and select **Events**
 
-      ![5](../../../../static/img/report/RTM-6to0/5.png)
+      ![5](../../../../static/img/report/rtm-faq/5b.png)
 
    3. Find **DBTxtTax**and select **OnGetText**, then paste the script as below:
 
@@ -741,6 +664,6 @@ To Display Tax as 0.00 Instead of Blank:
        end;
        ```
 
-      ![6](../../../../static/img/report/RTM-6to0/6.png)
+      ![6](../../../../static/img/report/rtm-faq/6b.png)
 
    Once you completed, save the report and exit, then you may preview again your format outcome.

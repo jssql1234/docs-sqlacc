@@ -16,7 +16,7 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 3. Click on **More** Options and look for **Change Password**
 
-   ![110](../../../static/img/getting-started/user-guide/110.png)
+   ![110](../../../static/img/usage/tools/tools-basic-guide/110.png)
 
 4. Click Save. Your new user account is now created.
 
@@ -38,7 +38,7 @@ Not every user is going to have the same access rights as ADMIN, and ADMIN user 
 
 3. You need to check the transactions / functions (row), compare with the user (column) and **tick = Allowed** or **untick = Disallowed**, the action for a particular user for particular transactions. For example, base on the setting in the following images, the user is not allowed to delete Customers or to view Customer Payments.
 
-   ![112](../../../static/img/getting-started/user-guide/111.png)
+   ![112](../../../static/img/usage/tools/tools-basic-guide/111.png)
 
 ## Bar Navigator
 
@@ -46,7 +46,7 @@ Not every user is going to have the same access rights as ADMIN, and ADMIN user 
 
 This function is to allow user to **customize** the buttons at the Main Application by user.
 
-![ch300](../../../static/img/getting-started/user-guide/ch300.jpg)
+![bar-navigator](../../../static/img/usage/tools/tools-basic-guide/bar-navigator.jpg)
 
 | **Field Name**   | **Properties**                                      |
 |------------------|-----------------------------------------------------|
@@ -56,11 +56,11 @@ This function is to allow user to **customize** the buttons at the Main Applicat
 
 01. Right Click here
 
-![ch301](../../../static/img/getting-started/user-guide/ch301.jpg)
+![customise](../../../static/img/usage/tools/tools-basic-guide/customise.jpg)
 
 02. Select Customize...
 
-![ch302](../../../static/img/getting-started/user-guide/ch302.jpg)
+![customise-toolbars](../../../static/img/usage/tools/tools-basic-guide/customise-toolbars.jpg)
 
 | **Field Name**   | **Properties**                       |
 |------------------|---------------------------------------|
@@ -71,14 +71,14 @@ This function is to allow user to **customize** the buttons at the Main Applicat
 
 03. Select Commands tab
 
-![ch303](../../../static/img/getting-started/user-guide/ch303.jpg)
+![customise-commands](../../../static/img/usage/tools/tools-basic-guide/customise-commands.jpg)
 
 | **Field Name** | **Properties**                                   |
 |----------------|--------------------------------------------------|
 | **Categories** | List of Available Buttons Category               |
 | **Commands**   | List of Available Buttons on the Selected Category |
 
-![ch304](../../../static/img/getting-started/user-guide/ch304.jpg)
+![customise-commands-barnavigator](../../../static/img/usage/tools/tools-basic-guide/customise-commands-barnavigator.jpg)
 
 4. Select Categories (eg Sales)
 5. Select Commands (eg Invoice...)
@@ -88,7 +88,7 @@ This function is to allow user to **customize** the buttons at the Main Applicat
 9. Click Browse
 10. Click More | Navigator vs User
 
-![ch305](../../../static/img/getting-started/user-guide/ch305.jpg)
+![navigator-vs-user](../../../static/img/usage/tools/tools-basic-guide/navigator-vs-user.jpg)
 
 | **Options** | **Properties**                                |
 |-------------|-----------------------------------------------|
@@ -113,13 +113,13 @@ Watch tutorial video here: [Youtube](https://www.youtube.com/watch?v=hFR6TfqxnRU
 
 3. The system’s defaults is the **Format** %.5d, where “%” is the formula which allows the function to auto-run for the document number while 5d stands for 5 digits.
 
-   ![112a](../../../static/img/getting-started/user-guide/111a.png)
+   ![112a](../../../static/img/usage/tools/tools-basic-guide/111a.png)
 
 4. You can select the **Frequency** option as Never Reset or others.
 
 5. Set the **Next Number** for this document.
 
-   ![113](../../../static/img/getting-started/user-guide/112.png)
+   ![113](../../../static/img/usage/tools/tools-basic-guide/112.png)
 
 ## Maintain Acceptable Transaction Date
 
@@ -137,23 +137,23 @@ Maintain Acceptable Transaction Date allows you to control which documents you a
 
 1. **Tools** > **Maintain Acceptable Transaction Date**
 
-    ![1](../../../static/img/tools/acceptable-transaction-date/1.png)
+    ![1](../../../static/img/usage/tools/tools-basic-guide/1.png)
 
 2. Click on **Append** (Icon with + symbol)
 
-    ![2](../../../static/img/tools/acceptable-transaction-date/2.png)
+    ![2](../../../static/img/usage/tools/tools-basic-guide/2.png)
 
 3. Choose the period which you want to **allow transactions**
 
 4. **Save**.
 
-    ![3](../../../static/img/tools/acceptable-transaction-date/3.png)
+    ![3](../../../static/img/usage/tools/tools-basic-guide/3.png)
 
 5. Result:
 
     It will show the message if users try to save a document that are not in acceptable transaction period
 
-    ![4](../../../static/img/tools/acceptable-transaction-date/4.png)
+    ![4](../../../static/img/usage/tools/tools-basic-guide/4.png)
 
     If the user click "**Yes**" a dialogue box will request override permission by ID/PW with rights to override it.
 
@@ -167,16 +167,17 @@ Maintain Acceptable Transaction Date allows you to control which documents you a
 
    1. **Tool** > **Maintain User**. Double click on the user that you want to **edit**.
 
-        ![5](../../../static/img/tools/acceptable-transaction-date/5.png)
+     ![5](../../../static/img/usage/tools/tools-basic-guide/5.png)
 
    2. Click on **More** > **Access Control**
-        ![6](../../../static/img/tools/acceptable-transaction-date/6.png)
+
+       ![6](../../../static/img/usage/tools/tools-basic-guide/6.png)
 
    3. Under **Group Tools**, tick or untick the option of **Override Acceptable Transaction Date** to allow or deny the user from having the overriding right to save a document out of the acceptable transaction period.
 
    4. **Save** the access right.
 
-      ![115](../../../static/img/getting-started/user-guide/114.png)
+      ![115](../../../static/img/usage/tools/tools-basic-guide/114.png)
 
     5. Result:
 
@@ -185,9 +186,9 @@ Maintain Acceptable Transaction Date allows you to control which documents you a
         - **OK = cancel saving**
         - **Override = Enter user the ID and password of a user who can override then save the transaction.**
 
-        ![115b](../../../static/img/getting-started/user-guide/115.png)
+        ![115b](../../../static/img/usage/tools/tools-basic-guide/115.png)
 
-        ![116](../../../static/img/getting-started/user-guide/116.png)
+        ![116](../../../static/img/usage/tools/tools-basic-guide/116.png)
 
 ## Maintain Form Mode
 
@@ -203,29 +204,29 @@ Watch tutorial video here: [Youtube](https://www.youtube.com/watch?v=bqSDZlAhM5I
 
 2. **Enter Code & Select the document** form that you want to filter, e.g. Invoice
 
-   ![117](../../../static/img/getting-started/user-guide/117.png)
+   ![117](../../../static/img/usage/tools/tools-basic-guide/117.png)
 
 3. Click on the **Customize Filter** and then click on the **press the button to add a new condition**.
 
-   ![118](../../../static/img/getting-started/user-guide/118.png)
+   ![118](../../../static/img/usage/tools/tools-basic-guide/118.png)
 
 4. Change the **“SL_IV.DOCKEY” to “SL_IV.Agent”** because right now I need to filter based on sales invoice agent field, then change **the “= equals” to “like”** after that **enter the agent code** that you want to filter and click on **OK**.
 
-   ![119](../../../static/img/getting-started/user-guide/119.png)
+   ![119](../../../static/img/usage/tools/tools-basic-guide/119.png)
 
 5. Make sure the info is updated correctly then you can **Save**.
 
-   ![120](../../../static/img/getting-started/user-guide/120.png)
+   ![120](../../../static/img/usage/tools/tools-basic-guide/120.png)
 
 6. Other optional setting:
 
-   ![121](../../../static/img/getting-started/user-guide/121.png)
+   ![121](../../../static/img/usage/tools/tools-basic-guide/121.png)
 
-   ![122](../../../static/img/getting-started/user-guide/122.png)
+   ![122](../../../static/img/usage/tools/tools-basic-guide/122.png)
 
 7. If you have set **more than 1 form mode**, once you click **Sales** > **Invoice** > you will get the prompt browse mode to choose which form mode that you want to apply.
 
-   ![123](../../../static/img/getting-started/user-guide/123.png)
+   ![123](../../../static/img/usage/tools/tools-basic-guide/123.png)
 
 ### Form Mode VS User
 
@@ -239,7 +240,7 @@ Watch tutorial video here: [Youtube](https://www.youtube.com/watch?v=bqSDZlAhM5I
 
    4. Tick to apply the **form mode**, e.g. tick **form mode: IV-LF** and click Save
 
-      ![124](../../../static/img/getting-started/user-guide/124.png)
+      ![124](../../../static/img/usage/tools/tools-basic-guide/124.png)
 
 ## Maintain Terms
 
@@ -248,15 +249,15 @@ Maintain Terms allows the user to maintain their Customer and Supplier terms. In
 1. **Tools** > **Maintain Terms** > **New**
 
 2. **Insert Code, Description and allocated Term Type.**
-   ![125](../../../static/img/getting-started/user-guide/125.png)
+   ![125](../../../static/img/usage/tools/tools-basic-guide/125.png)
 
    - **Due in number of days** – Means how many days until document is due, e.g. if you set 30 days then the document will be due on the 30th day from the document date.
 
-   ![126](../../../static/img/getting-started/user-guide/126.png)
+   ![126](../../../static/img/usage/tools/tools-basic-guide/126.png)
 
    - **Due on specific day of the month** – Means how many months and which day the document is due, e.g. if you set it as 1 Month 6 Days the document will be due on the 6th of the next month.
 
-   ![127](../../../static/img/getting-started/user-guide/127.png)
+   ![127](../../../static/img/usage/tools/tools-basic-guide/127.png)
 
    - **Due in the month end** – Means how many months until the document is due at the end of the final month, e.g. if you set it as 2 months, the document will be due at the end of 2nd month.
 
@@ -272,11 +273,11 @@ You can bill overseas customers & suppliers in foreign currencies e.g. USD, SGD,
 
 1. **Tools** > **Maintain Currency** > **New**
 
-   ![128](../../../static/img/getting-started/user-guide/128.png)
+   ![128](../../../static/img/usage/tools/tools-basic-guide/128.png)
 
 2. **Maintain Customer / Supplier to assign the currency**
 
-   ![129](../../../static/img/getting-started/user-guide/129.png)
+   ![129](../../../static/img/usage/tools/tools-basic-guide/129.png)
 
 3. Sales document, select the customer, sample as below:
 
@@ -286,7 +287,7 @@ You can bill overseas customers & suppliers in foreign currencies e.g. USD, SGD,
 
    3. system will auto converted into default currency RM on right bottom Local Net Total column.
 
-      ![130](../../../static/img/getting-started/user-guide/130.png)
+      ![130](../../../static/img/usage/tools/tools-basic-guide/130.png)
 
 ### Payment from Foreign Customer
 
@@ -306,7 +307,7 @@ Customer Invoice **invoice billing in USD**, but **payment paid in your local RM
 
    5. Knock off the invoice and the rate will be update automatically by system. Foreign gain loss will be auto calculated and post to account accordingly. (you can call out Rate & Gain Loss column from the hidden field).
 
-      ![131](../../../static/img/getting-started/user-guide/131.png)
+      ![131](../../../static/img/usage/tools/tools-basic-guide/131.png)
 
 #### Scenario 2
 
@@ -326,11 +327,11 @@ Customer Invoice **billing in USD, Payment paid in your Foreign USD Bank**
 
    5. **Bank Info**: able to set Giro info & make payment thru Giro (refer [Interbank Giro](docs/additional-module/interbank-giro.md) Topic for more detail)
 
-      ![132](../../../static/img/getting-started/user-guide/132.png)
+      ![132](../../../static/img/usage/tools/tools-basic-guide/132.png)
 
       Select your payment received in your **Foreign USD Bank**, enter your **paid Amount in USD, Enter your USD Rate** & Knock off the invoice, foreign gain loss will be auto calculated by system.
 
-      ![133](../../../static/img/getting-started/user-guide/133.png)
+      ![133](../../../static/img/usage/tools/tools-basic-guide/133.png)
 
 #### Scenario 3
 
@@ -344,7 +345,7 @@ Customer Invoice **billing in USD**, but **payment in others currency** eg SGD /
 
    3. USD rate will be auto calculated & foreign gain loss will auto calculated and posting to account accordingly
 
-      ![134](../../../static/img/getting-started/user-guide/134.png)
+      ![134](../../../static/img/usage/tools/tools-basic-guide/134.png)
 
 ## Maintain Project (Required Project Module)
 
@@ -356,33 +357,33 @@ This module allows the user to maintain the project accounting on a branch or de
 
 1. Click on **Tools** > **Maintain Project**.
 
-   ![135](../../../static/img/getting-started/user-guide/135.png)
+   ![135](../../../static/img/usage/tools/tools-basic-guide/135.png)
 
 2. Insert **Project Code & Description**. Project Value and Project Cost is not compulsory fields to fill in, if you have filled in then it is for remark purpose.
 
-   ![136](../../../static/img/getting-started/user-guide/136.png)
+   ![136](../../../static/img/usage/tools/tools-basic-guide/136.png)
 
 3. Click on **Tools** > **Options**.
 
-   ![137](../../../static/img/getting-started/user-guide/137.png)
+   ![137](../../../static/img/usage/tools/tools-basic-guide/137.png)
 
 4. Then look for **Miscellaneous** > Make sure the option **“Show Document Project”** is ticked.
 
-   ![138](../../../static/img/getting-started/user-guide/138.png)
+   ![138](../../../static/img/usage/tools/tools-basic-guide/138.png)
 
 5. During **sales and purchase** transactions, make sure you can **the project column**, then **update** accordingly.
 
-   ![139](../../../static/img/getting-started/user-guide/139.png)
+   ![139](../../../static/img/usage/tools/tools-basic-guide/139.png)
 
    When keying-in a transaction, some users will ask why is there a project at item detail and another beside the Customer. Duplicate tab?
 
    **What is the difference between More > Project >(Document Project) and Item Detail > Project (Item Project )?**
 
-   ![140](../../../static/img/getting-started/user-guide/140.png)
+   ![140](../../../static/img/usage/tools/tools-basic-guide/140.png)
 
-   ![141](../../../static/img/getting-started/user-guide/141.png)
+   ![141](../../../static/img/usage/tools/tools-basic-guide/141.png)
 
-   ![142](../../../static/img/getting-started/user-guide/142.png)
+   ![142](../../../static/img/usage/tools/tools-basic-guide/142.png)
 
    **The project feature is also available for GL > Cash Book Entry.**
 
@@ -390,7 +391,7 @@ This module allows the user to maintain the project accounting on a branch or de
 
 6. Filter by the date that you want to view for the P&L report, then if you want to perform a project-to-project comparison then choose **“Comparison – Project (6 columns)”**
 
-   ![143](../../../static/img/getting-started/user-guide/143.png)
+   ![143](../../../static/img/usage/tools/tools-basic-guide/143.png)
 
    :::note
 
@@ -410,15 +411,15 @@ This module allows the user to maintain the project accounting on a branch or de
 
       If you want to view the whole year figures, then you have to **change to “Current Year”**.
 
-      ![144](../../../static/img/getting-started/user-guide/144.png)
+      ![144](../../../static/img/usage/tools/tools-basic-guide/144.png)
 
 8. After changing the column options, you have to **tick the “Print Project Comparison”**, then the project tab will appear on the **right hand site**, you can select which project that you want to view then click on **Add**.
 
-   ![145](../../../static/img/getting-started/user-guide/145.png)
+   ![145](../../../static/img/usage/tools/tools-basic-guide/145.png)
 
 9. Click on **Apply** and you will see the result. The P&L report will compare each project that you select.
 
-   ![146](../../../static/img/getting-started/user-guide/146.png)
+   ![146](../../../static/img/usage/tools/tools-basic-guide/146.png)
 
 ## 5 Cents Rounding
 
@@ -434,9 +435,9 @@ Watch tutorial video here: [Youtube](https://www.youtube.com/watch?v=VSnX55l_3xw
 
 2. **Tick 5 Cents Rounding** for Sales Invoice/ Cash Sales
 
-   ![147](../../../static/img/getting-started/user-guide/147.png)
+   ![147](../../../static/img/usage/tools/tools-basic-guide/147.png)
 
-   ![148](../../../static/img/getting-started/user-guide/148.png)
+   ![148](../../../static/img/usage/tools/tools-basic-guide/148.png)
 
 ## Online Mobile Approval
 
@@ -446,17 +447,17 @@ For example : If we set Credit Limit over RM30,000 will required override
 
 1. A Dialog box will be prompted after *Save Invoice*, ***‘Do You want to override?’*** > Click ***Yes***
 
-    ![8](../../../static/img/start-online-mobile-approval/8.png)
+    ![8](../../../static/img/usage/tools/tools-basic-guide/8.png)
 
 2. Click on ***Online Approval***
 
-    ![9](../../../static/img/start-online-mobile-approval/9.png)
+    ![9](../../../static/img/usage/tools/tools-basic-guide/9.png)
 
    1. Tick the ID that you choose to get approval
 
    2. You can choose to send by **Whatsapp**, **Send by Email** or **Send by Whatsapp & Email**
 
-       ![10](../../../static/img/start-online-mobile-approval/10.png)
+       ![10](../../../static/img/usage/tools/tools-basic-guide/10.png)
 
 3. You will receive a message at **Whatsapp** message or **email sent by system**
 
@@ -464,13 +465,13 @@ For example : If we set Credit Limit over RM30,000 will required override
 
         You will receive a message > Click the link
 
-        ![11](../../../static/img/start-online-mobile-approval/11.png)
+        ![11](../../../static/img/usage/tools/tools-basic-guide/11.png)
 
    - **Senario 2 : Send By Email**
 
         You will receive an email > Click **'CLICK HERE FOR MORE ACTIONS'**
 
-        ![12](../../../static/img/start-online-mobile-approval/12.png)
+        ![12](../../../static/img/usage/tools/tools-basic-guide/12.png)
 
 4. Login **Gmail Address** that you set in maintain user **Open ID (Google)**
 
@@ -481,15 +482,15 @@ For example : If we set Credit Limit over RM30,000 will required override
 
     :::
 
-    ![13](../../../static/img/start-online-mobile-approval/13.png)
+    ![13](../../../static/img/usage/tools/tools-basic-guide/13.png)
 
 5. Enter your Gmail Password
 
-    ![14](../../../static/img/start-online-mobile-approval/14.png)
+    ![14](../../../static/img/usage/tools/tools-basic-guide/14.png)
 
 6. After Login Gmail you will see this window
 
-    ![15](../../../static/img/start-online-mobile-approval/15.png)
+    ![15](../../../static/img/usage/tools/tools-basic-guide/15.png)
 
 7. You can click on **Doc Detail** and **ScreenShot** to see the detail
 
@@ -499,7 +500,7 @@ For example : If we set Credit Limit over RM30,000 will required override
 
    3. **Reply** : You can left a message and click Approve or Reject
 
-        ![16](../../../static/img/start-online-mobile-approval/16.png)
+        ![16](../../../static/img/usage/tools/tools-basic-guide/16.png)
 
     :::info[note]
     After Approve or Reject you can go back SQL Accounting, you will see below possible scenario
@@ -513,7 +514,7 @@ For example : If we set Credit Limit over RM30,000 will required override
          >
          >c. Click **OK** to save that transaction
 
-         ![17](../../../static/img/start-online-mobile-approval/17.png)
+         ![17](../../../static/img/usage/tools/tools-basic-guide/17.png)
 
      - **Scenario 2 : Reject Override**
 
@@ -523,11 +524,11 @@ For example : If we set Credit Limit over RM30,000 will required override
          >
          >c. **OK** button is disabled after reject, click **Cancel**
 
-         ![18](../../../static/img/start-online-mobile-approval/18.png)
+         ![18](../../../static/img/usage/tools/tools-basic-guide/18.png)
 
          After Click Cancel System will Prompt back to this dialog box :
 
-         ![19](../../../static/img/start-online-mobile-approval/19.png)
+         ![19](../../../static/img/usage/tools/tools-basic-guide/19.png)
 
 ### When to use?
 
@@ -554,15 +555,15 @@ These **ALL** can use Online Approval for user :
 
 1. Tools > Maintain User
 
-    ![1](../../../static/img/start-online-mobile-approval/1.png)
+    ![1](../../../static/img/usage/tools/tools-basic-guide/111c.png)
 
 ### 2. Edit User
 
 1. Double click the user that you want to setting > Edit
 
-    ![2](../../../static/img/start-online-mobile-approval/2.png)
+    ![2](../../../static/img/usage/tools/tools-basic-guide/21.png)
 
-    ![3](../../../static/img/start-online-mobile-approval/3.png)
+    ![3](../../../static/img/usage/tools/tools-basic-guide/31.png)
 
 ### 3. Set Approval Person
 
@@ -578,7 +579,7 @@ These **ALL** can use Online Approval for user :
     If receive notification email and approve email is Gmail, do setting only at **3.OPEN ID (Google)** and leave **2.Email** column blank
     :::
 
-    ![4](../../../static/img/start-online-mobile-approval/4.png)
+    ![4](../../../static/img/usage/tools/tools-basic-guide/4.png)
 
     For Example :
 
@@ -591,7 +592,7 @@ These **ALL** can use Online Approval for user :
             2. Email : **Left as blank**
             ```
 
-            ![5](../../../static/img/start-online-mobile-approval/5.png)
+         ![5](../../../static/img/usage/tools/tools-basic-guide/51.png)
 
         - **Senario 2 : Use Different email to received notification and give approval**
 
@@ -603,7 +604,7 @@ These **ALL** can use Online Approval for user :
             1. Open ID (Google) : Put your gmail address XXXXXX@gmail.com
             2. Email : XXXXXX@estream.com
 
-            ![6](../../../static/img/start-online-mobile-approval/6.png)
+          ![6](../../../static/img/usage/tools/tools-basic-guide/61.png)
 
 ### 4. Setting SMTP
 
@@ -627,17 +628,17 @@ These **ALL** can use Online Approval for user :
 8. Your Email Sender Name
 9. Afte done setting click Save
 
-    ![7](../../../static/img/start-online-mobile-approval/7.png)
+    ![7](../../../static/img/usage/tools/tools-basic-guide/71.png)
 
 ## Maintain Journal
 
 * Journal is mostly utilized to categorize document kinds while analyzing reports by journal.
 
-![ch51](../../../static/img/getting-started/user-guide/ch51.png)
+![maintain-journal](../../../static/img/usage/tools/tools-basic-guide/maintain-journal.png)
 
 ### Create New Journal
 
-![ch52](../../../static/img/getting-started/user-guide/ch52.jpg)
+![maintain-journal-entry](../../../static/img/usage/tools/tools-basic-guide/maintain-journal-entry.jpg)
 
 | Field Name  | Explanation & Properties                                                                 |
 |-------------|------------------------------------------------------------------------------------------|
@@ -649,20 +650,20 @@ These **ALL** can use Online Approval for user :
 
 1. Lets said you have create a new Journal named "Sales-DN". See below screenshot.
 
-![ch53](../../../static/img/getting-started/user-guide/ch53.jpg)
+![maintain-journal-sales-dn](../../../static/img/usage/tools/tools-basic-guide/maintain-journal-sales-dn.jpg)
 
 2. You have to set the Journal at Tools | Options...
 3. At the General Ledger tab, you can link the Journal to a default Journal.
 4. For example, "Sales-DN" Journal link to a default Journal "Customer Debit Note". See below screenshot.
 
-![ch54](../../../static/img/getting-started/user-guide/ch54.jpg)
+![options-gl-cust-dn](../../../static/img/usage/tools/tools-basic-guide/options-gl-cust-dn.jpg)
 
 ## Reporting by Journal 
 
 GL | Print Journal of Transaction Listing...See below screenshot :
 
-![ch55](../../../static/img/getting-started/user-guide/ch55.jpg)
-![ch56](../../../static/img/getting-started/user-guide/ch56.png)
+![journal-of-trans-list-journal](../../../static/img/usage/tools/tools-basic-guide/journal-of-trans-list-journal.jpg)
+![print-journal-of-trans-list](../../../static/img/usage/tools/tools-basic-guide/print-journal-of-trans-list.png)
 
 2. You can select the Journal lookup as shown in the above screenshot.
 3. System will list out the double entry posted from the Sales/Customer Debit Note.
@@ -673,13 +674,13 @@ GL | Print Journal of Transaction Listing...See below screenshot :
   >For example the document detail font size is 10, see the below screenshot:
   >
 
-![ch57](../../../static/img/getting-started/user-guide/ch57.jpg)
+![invoice-with-style](../../../static/img/usage/tools/tools-basic-guide/invoice-with-style.jpg)
 
 ### Create New Style
 
-![ch58](../../../static/img/getting-started/user-guide/ch58.png)
+![maintain-style](../../../static/img/usage/tools/tools-basic-guide/maintain-style.png)
 
-![ch59](../../../static/img/getting-started/user-guide/ch59.png)
+![maintain-style-entry](../../../static/img/usage/tools/tools-basic-guide/maintain-style-entry.png)
 
 | Field Name         | Explanation & Properties                                                         |
 |--------------------|----------------------------------------------------------------------------------|
@@ -696,13 +697,13 @@ GL | Print Journal of Transaction Listing...See below screenshot :
 
 Browse mode in Maintain Style. See the below screenshot:
 
-![ch60](../../../static/img/getting-started/user-guide/ch60.jpg)
+![maintain-scripts](../../../static/img/usage/tools/tools-basic-guide/maintain-scripts.jpg)
 
 ### Create New Commission Script
 
 1. Click on NEW. See the below screemshot.
 
-![ch62](../../../static/img/getting-started/user-guide/ch62.png)
+![maintain-comission-scripts](../../../static/img/usage/tools/tools-basic-guide/maintain-comission-scripts.png)
 
 | Field Name   | Explanation                              |
 |--------------|------------------------------------------|
@@ -740,11 +741,11 @@ end;
 2. It is very useful when you are trying to apply the reports by an Agent.
 3. You can create/edit the agent or sales person code here.
 
-![ch63](../../../static/img/getting-started/user-guide/ch63.png)
+![maintain-agent](../../../static/img/usage/tools/tools-basic-guide/maintain-agent.png)
 
 ### Create New Agent 
 
-![ch64](../../../static/img/getting-started/user-guide/ch64.jpg)
+![maintain-agent-entry](../../../static/img/usage/tools/tools-basic-guide/maintain-agent-entry.jpg)
 
 | Field Name   | Explanation & Properties |
 |--------------|---------------------------|
@@ -762,13 +763,13 @@ end;
 >3. You can create/edit the area or country code here.
 >
 
-![ch65](../../../static/img/getting-started/user-guide/ch65.jpg)
+![maintain-area](../../../static/img/usage/tools/tools-basic-guide/maintain-area.jpg)
 
 ### Create New Area
 
 * Below is Area entry form 
 
-![ch66](../../../static/img/getting-started/user-guide/ch66.jpg)
+![maintain-area-entry](../../../static/img/usage/tools/tools-basic-guide/maintain-area-entry.jpg)
 
 ## Maintain Withholding Tax
 
@@ -787,7 +788,7 @@ Menu : Tools | Maintain Withholding Tax...
 | **Tax Account (DR)** | Set to Withholding Tax Expense account       | At GL\Maintain Account, create the Withholding Tax Expense account under **Expenses** |
 | **Tax Account (CR)** | Set to Withholding Tax Payable account       | At GL\Maintain Account, create the Withholding Tax Payable account under **Current Liabilities** |
 
-![ch67](../../../static/img/getting-started/user-guide/ch67.jpg)
+![withholding-tax](../../../static/img/usage/tools/tools-basic-guide/withholding-tax.jpg)
 3. Click on Save.
 
 ## Maintain Company Category
@@ -797,13 +798,13 @@ Menu: Tools | Maintain Company Category...
 2. It is very useful when you are try to apply the reports by Company Category.
 3. You can create/edit the Company Category or sales person code here.
 
-![ch68](../../../static/img/getting-started/user-guide/ch68.jpg)
+![maintain-company-category](../../../static/img/usage/tools/tools-basic-guide/maintain-company-category.jpg)
 
 ### Create New Company CAtegory
 
 * Screenshot below is the Company Category entry form.
 
-![ch69](../../../static/img/getting-started/user-guide/ch69.jpg)
+![maintain-company-category-entry](../../../static/img/usage/tools/tools-basic-guide/maintain-company-category-entry.jpg)
 
 | Field Name  | Explanation & Properties                         |
 |-------------|--------------------------------------------------|
@@ -815,7 +816,7 @@ Menu: Tools | Maintain Company Category...
 
 * You can link the Company Category to the Customer or Supplier.
 
-![ch70](../../../static/img/getting-started/user-guide/ch70.jpg)
+![cust-cate-supp-cate](../../../static/img/usage/tools/tools-basic-guide/cust-cate-supp-cate.jpg)
 
 Reports by Company Category 
 
@@ -876,7 +877,7 @@ Reports by Company Category
 
 2. Example of Print Customer Aging Report screenshot.
 
-![ch71](../../../static/img/getting-started/user-guide/ch71.jpg)
+![cust-aging-report](../../../static/img/usage/tools/tools-basic-guide/cust-aging-report.jpg)
 
 ## Maintain Shipper
 
@@ -885,11 +886,11 @@ Menu: Tools | Maintain Shipper...
 1. To maintain the shipper profile such as **name**, **address**, **phone**, **account**, etc. It is easy to trace the shipper name who ship the goods or service.
 2. Sometimes, you can use as "**Global Delivery**" where you can apply to both sales / purchase documents.
 
-![ch72](../../../static/img/getting-started/user-guide/ch72.jpg)
+![shipper](../../../static/img/usage/tools/tools-basic-guide/shipper.jpg)
 
 ### Create New Shipper
 
-![ch73](../../../static/img/getting-started/user-guide/ch73.jpg)
+![shipper-entry](../../../static/img/usage/tools/tools-basic-guide/shipper-entry.jpg)
 
 <details>
   <summary><b>Shipper Fields</b></summary>
@@ -912,14 +913,14 @@ Menu: Tools | Maintain Shipper...
 1. Both Sales / Purchase documents, you can select the shipper by clicking on the **MORE** tab (LEFT side bar)
 2. Example of Sales Delivery Order screenshot
 
-![ch74](../../../static/img/getting-started/user-guide/ch74.jpg)
+![shipper](../../../static/img/usage/tools/tools-basic-guide/shipper.jpg)
 
 ### Report by Shipper
 
 1. You can apply the Sales report by Shipper, especially the reports from **Sales | Print Sales Price History**.
 2. Example of Sales Price History report screenshot
 
-![ch75](../../../static/img/getting-started/user-guide/ch75.jpg)
+![sales-report-by-shipper](../../../static/img/usage/tools/tools-basic-guide/sales-report-by-shipper.jpg)
 
 ## Maintain Tariff
 
@@ -933,7 +934,7 @@ Click [here](https://ezhs.customs.gov.my/) to search the tariff code list from K
 
 ### Create New Tariff
 
-![ch76](../../../static/img/getting-started/user-guide/ch76.jpg)
+![tariff](../../../static/img/usage/tools/tools-basic-guide/tariff.jpg)
 
 | **Field Name** | **Explanation** | **Properties** |
   |----------------|-----------------|----------------|
@@ -947,7 +948,7 @@ Click [here](https://ezhs.customs.gov.my/) to search the tariff code list from K
 
 > All questions regarding who created, edited, or deleted the data, and when, can be answered through the Print Audit Trails. 
 
-![ch77](../../../static/img/getting-started/user-guide/ch77.jpg)
+![audit-trail](../../../static/img/usage/tools/tools-basic-guide/audit-trail.jpg)
 
 | Field Name | Explanation & Properties |
 |------------|---------------------------|
@@ -962,7 +963,7 @@ Click [here](https://ezhs.customs.gov.my/) to search the tariff code list from K
 
   > If you wish to audit the Sales/Purchase/Stock documents details, you must enable this "Post Audit Trail for Stock/Sales/Purchase Detail". See below screenshot:
 
-  ![ch78](../../../static/img/getting-started/user-guide/ch78.jpg)
+  ![options-miscellaneous](../../../static/img/usage/tools/tools-basic-guide/options-miscellaneous.jpg)
 
   ## Analyse Data Integrity
 
@@ -1023,26 +1024,26 @@ b. Reposting (Optional)
 2. Recommended to run at the server side.
 :::
 
-  ![ch79](../../../static/img/getting-started/user-guide/ch79.jpg)
+  ![analyse-data-integrity](../../../static/img/usage/tools/tools-basic-guide/analyse-data-integrity.jpg)
 
   ### To Start Analyse
 
 1. Tick the Analyse Items required to analyse, otherwise skip this step 1.
 2. Click on Start Analyse.
 
-![ch80](../../../static/img/getting-started/user-guide/ch80.jpg)
+![analyse-data-integrity-start](../../../static/img/usage/tools/tools-basic-guide/analyse-data-integrity-start.jpg)
 
 3. Prompt the message to inform you the total tasks ticked has analyse completed.
 
-![ch81](../../../static/img/getting-started/user-guide/ch81.jpg)
+![analyse-data-integrity-complete-message](../../../static/img/usage/tools/tools-basic-guide/analyse-data-integrity-complete-message.jpg)
 
 4. You can copy the analyse log detail by click on Copy to Clipboard.
 
-![ch82](../../../static/img/getting-started/user-guide/ch82.jpg)
+![analyse-data-integrity-log-detail](../../../static/img/usage/tools/tools-basic-guide/analyse-data-integrity-log-detail.jpg)
 
 5. Open notepad or Microsoft Words. Paste it.
 
-![ch83](../../../static/img/getting-started/user-guide/ch83.jpg)
+![analyse-data-integrity-log-paste-notepad](../../../static/img/usage/tools/tools-basic-guide/analyse-data-integrity-log-paste-notepad.jpg)
 
 ## Print Bar Code (Direct Printer)
 
@@ -1050,7 +1051,7 @@ b. Reposting (Optional)
 
 * To print the bar code label using Special Bar Code Printer for the items created in Maintain Stock Item.
 
-![ch164](../../../static/img/getting-started/user-guide/ch164.jpg)
+![print-label](../../../static/img/usage/tools/tools-basic-guide/print-label.jpg)
 
 ### Bar Code Printer Setting 
 
@@ -1058,7 +1059,7 @@ b. Reposting (Optional)
 
 1. Insert the new barcode printer setting and template.
 
-![ch165](../../../static/img/getting-started/user-guide/ch165.jpg)
+![print-label-template-settings](../../../static/img/usage/tools/tools-basic-guide/print-label-template-settings.jpg)
 
 2. Click on OK to exit.
 
@@ -1067,7 +1068,7 @@ b. Reposting (Optional)
 1. Click on the arrow key-down beside the Print button. See the screenshot below.
 2. You can choose either Print to Printer (barcode printer) or Print To File (output as text file).
 
-![ch166](../../../static/img/getting-started/user-guide/ch166.jpg)
+![print-label-print-to](../../../static/img/usage/tools/tools-basic-guide/print-label-print-to.jpg)
 
 ## Print Bar Code (Windows Printer)
 
@@ -1075,45 +1076,45 @@ b. Reposting (Optional)
 
 * To print the bar code label using Windows Printer for the items created in Maintain Stock Item.
 
-![ch167](../../../static/img/getting-started/user-guide/ch167.jpg)
+![bar-code](../../../static/img/usage/tools/tools-basic-guide/bar-code.jpg)
 
 ### Update Item Bar Code Listing 
 
 1. At first, you can update the item bar code in the Maintain Stock Item.
 
-![ch168](../../../static/img/getting-started/user-guide/ch168.jpg)
+![bar-code-same-as-in-item](../../../static/img/usage/tools/tools-basic-guide/bar-code-same-as-in-item.jpg)
 
 2. Click on + button to insert the items. See the screenshot below.
 
-![ch169](../../../static/img/getting-started/user-guide/ch169.jpg)
+![plus-button-bar-code](../../../static/img/usage/tools/tools-basic-guide/plus-button-bar-code.jpg)
 
 3. Click the SAVE button to save the item bar code listing. Type a file name (eg. BarCode_Items_31122015) to save. See the screenshot below.
 
-![ch170](../../../static/img/getting-started/user-guide/ch170.jpg)
+![save-button-bar-code](../../../static/img/usage/tools/tools-basic-guide/plus-button-bar-code.jpg)
 
 4. Message prompted. Click OK.
 
-![ch171](../../../static/img/getting-started/user-guide/ch171.jpg)
+![save-bar-code](../../../static/img/usage/tools/tools-basic-guide/save-bar-code.jpg)
 
 ### Load the Previous Item Bar Code Listing 
 
 1. Click on a Carbinet button to load from the previous file for item bar code listing (eg.BarCode_Items_31122015). Click on OPEN.
 
-![ch172](../../../static/img/getting-started/user-guide/ch172.jpg)
+![cabinet-button-bar-code](../../../static/img/usage/tools/tools-basic-guide/cabinet-button-bar-code.jpg)
 
 2. Confirmation message prompted. Click on OK to load it. Click on NO' to cancel it.
 
-![ch173](../../../static/img/getting-started/user-guide/ch173.jpg)
+![confirmation-message](../../../static/img/usage/tools/tools-basic-guide/confirmation-message.jpg)
 
 3. Message Load success prompted. Click on OK to proceed.
 
-![ch174](../../../static/img/getting-started/user-guide/ch174.jpg)
+![load-success](../../../static/img/usage/tools/tools-basic-guide/load-success.jpg)
 
 ### Preview/Print the Bar Code Level
 
 1. Click on Preview or Printer (to skip the preview).
 
-![ch175](../../../static/img/getting-started/user-guide/ch175.jpg)
+![preview-button](../../../static/img/usage/tools/tools-basic-guide/preview-button.jpg)
 
 2. After the preview, click on Printer button to print.
 
@@ -1121,35 +1122,35 @@ b. Reposting (Optional)
 
 1. Click on the Report Name. See the screenshot below.
 
-![ch176](../../../static/img/getting-started/user-guide/ch176.jpg)
+![click-report-name](../../../static/img/usage/tools/tools-basic-guide/click-report-name.jpg)
 
 2. To change the paper unit measurement. Click on Report | Units, choose to Millimeters.
 
-![ch177](../../../static/img/getting-started/user-guide/ch177.jpg)
+![report-unit-mm](../../../static/img/usage/tools/tools-basic-guide/report-unit-mm.jpg)
 
 3. To change the paper size. Click on **File | Page Setup...**
 
-![ch178](../../../static/img/getting-started/user-guide/ch178.jpg)
+![file-pagesetup](../../../static/img/usage/tools/tools-basic-guide/file-pagesetup.jpg)
 
 4. Click on Paper Size tab, change the Width and Height to 35 and 25 respectively (mm), eg. the label paper size is 35mm x 25mm.
 
-![ch179](../../../static/img/getting-started/user-guide/ch179.jpg)
+![paper-size](../../../static/img/usage/tools/tools-basic-guide/paper-size.jpg)
 
 5. Check the Layout tab to make sure the Columns set to value = 1.
 
-![ch180](../../../static/img/getting-started/user-guide/ch180.jpg)
+![page-setup-layout-tab](../../../static/img/usage/tools/tools-basic-guide/page-setup-layout-tab.jpg)
 
 6. Check the Margin tab as well to make sure all (Top, Bottom, Left, Right) are set to value = 0 . Click OK to exit Page Setup.
 
-![ch181](../../../static/img/getting-started/user-guide/ch181.jpg)
+![page-setup-margin-tab](../../../static/img/usage/tools/tools-basic-guide/page-setup-margin-tab.jpg)
 
 7. To fix label each page contains 1 barcode of an item. Right click on Detail band, select Position.
 
-![ch182](../../../static/img/getting-started/user-guide/ch182.jpg)
+![detail-position](../../../static/img/usage/tools/tools-basic-guide/detail-position.jpg)
 
 8. Set Print Count to value = 1. Click OK to confirm.
 
-![ch183](../../../static/img/getting-started/user-guide/ch183.jpg)
+![position-print-count](../../../static/img/usage/tools/tools-basic-guide/position-print-count.jpg)
 
 9. Save the report with **another name**.
 
@@ -1169,35 +1170,35 @@ Settings for the following:
 6. Customer
 7. Supplier
 
-![ch184](../../../static/img/getting-started/user-guide/ch184.png)
+![tools-options](../../../static/img/usage/tools/tools-basic-guide/tools-options.png)
 
 
 ### General
 
  * Automation Server Registration - Use to register/communicate to the external application via Windows platform.
 
- ![ch185](../../../static/img/getting-started/user-guide/ch185.jpg)
+ ![options-general](../../../static/img/usage/tools/tools-basic-guide/options-general.jpg)
 
 ### Bar Code
 
 * To define the cash drawer setting with a compatible device, eg. cash drawer.
 
-![ch186](../../../static/img/getting-started/user-guide/ch186.jpg)
+![options-barcode-cashdrawer](../../../static/img/usage/tools/tools-basic-guide/options-barcode-cashdrawer.jpg)
 
 * To define the barcode setting with a compatible device, eg. barcode printer.
 
-![ch187](../../../static/img/getting-started/user-guide/ch187.jpg)
+![options-barcode-barcodes](../../../static/img/usage/tools/tools-basic-guide/options-barcode-barcodes.jpg)
 
 ### Miscellaneous
 
 Others setting.
 
-![ch188](../../../static/img/getting-started/user-guide/ch188.jpg)
+![options-miscellaneous-](../../../static/img/usage/tools/tools-basic-guide/options-miscellaneous-.jpg)
 
 #### To set the display format
    - To understand the display format. See the below picture:
 
-![ch189](../../../static/img/getting-started/user-guide/ch189.jpg)
+![display-format](../../../static/img/usage/tools/tools-basic-guide/display-format.jpg)
 
 | Numbering Type              | Display Format     | Example |
 |-----------------------------|--------------------|---------|
@@ -1218,51 +1219,51 @@ Others setting.
 - d. Sames Disc;
 - e. Same Tax Code.
 
-![ch190](../../../static/img/getting-started/user-guide/ch190.jpg)
+![merge-itemcode](../../../static/img/usage/tools/tools-basic-guide/merge-itemcode.jpg)
 
 #### Prompt Negative Stock Quantity Dialog Box
 
 * Tick this option the system will prompt alert message if the stock below quantity on hand or below re-order level or below minimum quantity in the sales documents.
 
-![ch191](../../../static/img/getting-started/user-guide/ch191.jpg)
+![stock-quantity-control](../../../static/img/usage/tools/tools-basic-guide/stock-quantity-control.jpg)
 
 #### Show Document Project
 
 1. Tick this option to enable to select the document project.
 2. See the example in the screenshot below.
 
-![ch192](../../../static/img/getting-started/user-guide/ch192.jpg)
+![document-project](../../../static/img/usage/tools/tools-basic-guide/document-project.jpg)
 
 #### Runtime Stock Costing Calculation for Stock Document
 
 1. To enable to execute the costing calculation when print the stock documents reports (report name ended with Actual Cost) in the Stock Issue, Stock Adjustment and Stock Transfer (available in multiple warehouse module).
 2. See the example of stock issue as shown in the screenshot below.
 
-![ch193](../../../static/img/getting-started/user-guide/ch193.jpg)
+![stock-issue](../../../static/img/usage/tools/tools-basic-guide/stock-issue.jpg)
 
 #### Prompt Duplicate Cheque Number
 
  - To alert a message if duplicate cheque number are try to save in Payment Voucher/Official Receipt.
 
- ![ch194](../../../static/img/getting-started/user-guide/ch194.jpg)
+ ![duplicate-cheque-num](../../../static/img/usage/tools/tools-basic-guide/duplicate-cheque-num.jpg)
 
  #### Use Doc Date For Acceptable Transactions Date Checking
 
  1. System will use document date instead of post date to check and allow to save the document based on the allow date set in Maintain Acceptable Transaction Date.
 2. For instance, the document date = 01/01/2016 and post date = 17/02/2016. System will not allow to save this document fall outside the acceptable transaction date (ie. 01/02/2016 - 29/02/2016). See the screenshot below.
 
- ![ch195](../../../static/img/getting-started/user-guide/ch195.jpg)
+ ![trans-date-out](../../../static/img/usage/tools/tools-basic-guide/trans-date-out.jpg)
 
 ### Post Audit Trail for Stock/Sales/Purchase Detail
    - To audit log the changes has been made in Sales and Purchase detail.
 
-![ch196](../../../static/img/getting-started/user-guide/ch196.jpg)
+![audit-sales-and-purchase](../../../static/img/usage/tools/tools-basic-guide/audit-sales-and-purchase.jpg)
 
 ### Default UOM
 
 - Default the base UOM when create new item in Maintain Stock Item.
 
-![ch197](../../../static/img/getting-started/user-guide/ch197.jpg)
+![options-mis-default-uom](../../../static/img/usage/tools/tools-basic-guide/options-mis-default-uom.jpg)
 
 
 ### Unit Price
@@ -1271,29 +1272,29 @@ Others setting.
 
 - Sales
 
-![ch198](../../../static/img/getting-started/user-guide/ch198.jpg)
+![options-unitprice-sales](../../../static/img/usage/tools/tools-basic-guide/options-unitprice-sales.jpg)
 
 - Purchase
 
-![ch199](../../../static/img/getting-started/user-guide/ch199.jpg)
+![options-unitprice-purchase](../../../static/img/usage/tools/tools-basic-guide/options-unitprice-purchase.jpg)
 
 - Stock
 
-![ch200](../../../static/img/getting-started/user-guide/ch200.jpg)
+![options-unitprice-stock](../../../static/img/usage/tools/tools-basic-guide/options-unitprice-stock.jpg)
 
  - Cash Sales
 
-![ch201](../../../static/img/getting-started/user-guide/ch201.jpg)
+![options-unitprice-cash-sales](../../../static/img/usage/tools/tools-basic-guide/options-unitprice-cash-sales.jpg)
 
 - Cash Purchase
 
-![ch202](../../../static/img/getting-started/user-guide/ch202.jpg)
+![options-unitprice-cash-purchase](../../../static/img/usage/tools/tools-basic-guide/options-unitprice-purchase.jpg)
 
 ### General Ledger (GL)
 
  * It is important to define the setting correctly in the new database created.
 
-![ch203](../../../static/img/getting-started/user-guide/ch203.jpg)
+![options-gl](../../../static/img/usage/tools/tools-basic-guide/options-gl.jpg)
 
 **Financial Start Period**
    To define the company Financial Start Date, eg. 01/01/2016 (system will be notified New Financial Start Date at 1st January every year).
@@ -1329,7 +1330,7 @@ Others setting.
 1. To classify the transactions into the Journal created in Maintain Journal. Usually leave it as default.
 2. It is very useful for applying the Journal of Transactions Listing and Summary report.
 
-![ch204](../../../static/img/getting-started/user-guide/ch204.jpg)
+![options-default-general](../../../static/img/usage/tools/tools-basic-guide/options-default-general.jpg)
 
 3. Below is the default journal list:-
 
@@ -1353,33 +1354,33 @@ Others setting.
 ### Customer 
 * It is important to define the Customer setting in the new database created.
 
-![ch205](../../../static/img/getting-started/user-guide/ch205.jpg)
+![options-cust](../../../static/img/usage/tools/tools-basic-guide/options-cust.jpg)
 
 **Default Control Account**
    Default control account when create new customer in Maintain Customer.
 
-![ch206](../../../static/img/getting-started/user-guide/ch206.jpg)
+![options-cust-def-cont-acc](../../../static/img/usage/tools/tools-basic-guide/options-cust-def-cont-acc.jpg)
 
 **Default Credit Terms**
    Default credit terms when create new customer in Maintain Customer.
 
-![ch207](../../../static/img/getting-started/user-guide/ch207.jpg)
+![options-cust-def-cred-terms](../../../static/img/usage/tools/tools-basic-guide/options-cust-def-cred-terms.jpg)
 
 **Default Credit Limit**
    Default credit limit value when create new customer in Maintain Customer.
 
-![ch208](../../../static/img/getting-started/user-guide/ch208.jpg)
+![options-cust-def-cred-limits](../../../static/img/usage/tools/tools-basic-guide/options-cust-def-cred-limits.jpg)
 
 **Default Output Tax**
    Default output tax code when create new customer/sales documents entry, eg. customer invoice, customer debit note, etc.
 
-![ch209](../../../static/img/getting-started/user-guide/ch209.jpg)
+![options-cust-def-output-tax](../../../static/img/usage/tools/tools-basic-guide/options-cust-def-output-tax.jpg)
 
  #### **Customer Account Code Format**
    1. To Define the customer code format.
    2. Format explanation as per below.
 
-![ch210](../../../static/img/getting-started/user-guide/ch210.jpg)
+![cust-code-format](../../../static/img/usage/tools/tools-basic-guide/cust-code-format.jpg)
 
 | Ref | Code Format | Explanation                                                        |
 |-----|-------------|--------------------------------------------------------------------|
@@ -1417,7 +1418,7 @@ Others setting.
 "%.3s"-"(?i)\b(?!sykt\b|persatuan\b)(?![-.,\s]).{1,1}""%.4d"
 ```
 
-![ch211](../../../static/img/getting-started/user-guide/ch211.jpg)
+![cust-code-format-entry](../../../static/img/usage/tools/tools-basic-guide/cust-code-format-entry.jpg)
 
 **Example 1:**
    a. Customer Name: SYKT ALI
@@ -1440,12 +1441,12 @@ Others setting.
    c. Cust-Multi-F1-12 Mths Statement-Current,1 Mth,...
    d. Cust-Multi-F2-12 Mths Statement-Current,1 Mth,...
 
-![ch212](../../../static/img/getting-started/user-guide/ch212.jpg)
+![default-cust-aging-format](../../../static/img/usage/tools/tools-basic-guide/default-cust-aging-format.jpg)
 
 **Use Cash Sales No. for Payment Received**
    Use Cash Sales No as the official receipt no for cash sales only.
 
-![ch213](../../../static/img/getting-started/user-guide/ch213.jpg)
+![same-doc-no-cash-sales-offic-receipt](../../../static/img/usage/tools/tools-basic-guide/same-doc-no-cash-sales-offic-receipt.jpg)
 
 **Perform Tax / Local Amount Rounding**
 1. Choose a method to calculate the tax amount consistently.
@@ -1483,45 +1484,45 @@ B. One Cent Different: Tick
 **5 Cents Rounding (Sales Invoice)**
    This option will auto insert an items code **RTN5Cents** to adjust the total invoice amount if found the total amount not in simple rounding.
 
-![ch214](../../../static/img/getting-started/user-guide/ch214.jpg)
+![rounding](../../../static/img/usage/tools/tools-basic-guide/rounding.jpg)
 
 **5 Cents Rounding (Cash Sales)**
    This option will auto insert an items code **RTN5Cents** to adjust the total cash sales amount if found the total amount not in simple rounding.
 
-![ch215](../../../static/img/getting-started/user-guide/ch215.jpg)
+![adjust-cash-sales-amt](../../../static/img/usage/tools/tools-basic-guide/adjust-cash-sales-amt.jpg)
 
 <details>
    <summary>Supplier - click to expand</summary>
 
 - It is important to define the Supplier setting in the new database created.
 
-![ch216](../../../static/img/getting-started/user-guide/ch216.jpg)
+![options-supplier](../../../static/img/usage/tools/tools-basic-guide/options-supplier.jpg)
 
 **Default Control Account**
    Default control account when create new supplier in Maintain Supplier.
 
-![ch217](../../../static/img/getting-started/user-guide/ch217.jpg)
+![options-supplier-def-supp-acc](../../../static/img/usage/tools/tools-basic-guide/options-supplier-def-supp-acc.jpg)
 
 **Default Credit Terms**
    Default credit terms when create new supplier in Maintain Supplier.
 
-![ch218](../../../static/img/getting-started/user-guide/ch218.jpg)
+![options-supplier-def-cred-terms](../../../static/img/usage/tools/tools-basic-guide/options-supplier-def-cred-terms.jpg)
 
 **Default Credit Limit**
    Default credit limit value when create new supplier in Maintain Supplier.
 
-![ch219](../../../static/img/getting-started/user-guide/ch219.jpg)
+![options-supplier-def-cred-limit](../../../static/img/usage/tools/tools-basic-guide/options-supplier-def-cred-limit.jpg)
 
 **Default Input Tax**
    Default input tax code when create new supplier/purchase documents entry, eg. supplier invoice, supplier debit note, etc.
 
-![ch220](../../../static/img/getting-started/user-guide/ch220.jpg)
+![options-supplier-def-input-tax](../../../static/img/usage/tools/tools-basic-guide/options-supplier-def-input-tax.jpg)
 
 ### **Supplier Account Code Format**
    1. To Define the supplier code format.
    2. Format explanation as per below.
 
-![ch221](../../../static/img/getting-started/user-guide/ch221.jpg)
+![supp-code-format](../../../static/img/usage/tools/tools-basic-guide/supp-code-format.jpg)
 
 | Ref | Code Format | Explanation                                                  |
 |-----|-------------|--------------------------------------------------------------|
@@ -1558,7 +1559,7 @@ c. Supplier Code = **4001-AL01**
    "%.3s"-"(?i)\b(?!sykt\b|persatuan\b)(?![-.,\s]).{1,1}""%.4d"
    ```
 
-![ch222](../../../static/img/getting-started/user-guide/ch222.jpg)
+![supp-code-format-entry](../../../static/img/usage/tools/tools-basic-guide/supp-code-format-entry.jpg)
 
 Example 1:
 a. Supplier Name: SYKT TAN & SON
@@ -1579,12 +1580,12 @@ b. Supp-Multi-F2-06 Mths Statement-Current,1 Mth,...
 c. Supp-Multi-F1-12 Mths Statement-Current,1 Mth,...
 d. Supp-Multi-F2-12 Mths Statement-Current,1 Mth,...
 
-![ch223](../../../static/img/getting-started/user-guide/ch223.jpg)
+![def-supp-aging-format](../../../static/img/usage/tools/tools-basic-guide/def-supp-aging-format.jpg)
 
 **Use Cash Purchase No. for Payment Paid**
    Use Cash Purchase No as the payment voucher no for cash purchase only.
 
-![ch224](../../../static/img/getting-started/user-guide/ch224.jpg)
+![cp-num-same-as-voucher-num](../../../static/img/usage/tools/tools-basic-guide/cp-num-same-as-voucher-num.jpg)
 
 </details>
 
@@ -1596,7 +1597,7 @@ d. Supp-Multi-F2-12 Mths Statement-Current,1 Mth,...
 
 This Additional Module(DIY Fields & DIY Script Module)
 
-![ch225](../../../static/img/getting-started/user-guide/ch225.jpg)
+![maintain-diy](../../../static/img/usage/tools/tools-basic-guide/maintain-diy.jpg)
 
 | Function            | Description                                                       |
 |---------------------|-------------------------------------------------------------------|
@@ -1615,15 +1616,15 @@ Below is Example are doing following actions
 
 1. Right Click at User
 
-![ch226](../../../static/img/getting-started/user-guide/ch226.jpg)
+![new-field](../../../static/img/usage/tools/tools-basic-guide/new-field.jpg)
 
 2. Select New Field
 
-![ch227](../../../static/img/getting-started/user-guide/ch227.jpg)
+![diy-field-template](../../../static/img/usage/tools/tools-basic-guide/diy-field-template.jpg)
 
 3. Click **New** button
 
-![ch228](../../../static/img/getting-started/user-guide/ch228.jpg)
+![calc-field](../../../static/img/usage/tools/tools-basic-guide/calc-field.jpg)
 
 4. Enter any Description (eg Calc-Field) in the **Description** field (Only Alphanumeric & no spacing)
 5. Click the + button to add the New UDF Field & Enter/Select the option as above picture
@@ -1650,21 +1651,21 @@ Below is Example are doing following actions
 - Avoid create too many UDF field as it will reduce system performance & take longer time to save 1 data entry.
 :::
 
-![ch229](../../../static/img/getting-started/user-guide/ch229.jpg)
+![calc-field-select](../../../static/img/usage/tools/tools-basic-guide/calc-field-select.jpg)
 
 8. Select the Item just created (eg. Calc-Field)
 9. Click Ok button
 10. Right Click at User again
 
-![ch230](../../../static/img/getting-started/user-guide/ch230.jpg)
+![new-field](../../../static/img/usage/tools/tools-basic-guide/new-field.jpg)
 
 11. Select New Quick Form
 
-![ch231](../../../static/img/getting-started/user-guide/ch231.jpg)
+![diy-field-template](../../../static/img/usage/tools/tools-basic-guide/diy-field-template.jpg)
 
 12. Click New button
 
-![ch232](../../../static/img/getting-started/user-guide/ch232.jpg)
+![job-title](../../../static/img/usage/tools/tools-basic-guide/job-title.jpg)
 
 13. Enter any Description to be shown at Maintain User(eg Info) in the **Description** field (Only Alphanumeric & no spacing)
 14. Click Customize button (Icon 1)
@@ -1673,12 +1674,12 @@ Below is Example are doing following actions
 17. Click Save (Icon 4) after done
 18. Close the windows.
 
-![ch233](../../../static/img/getting-started/user-guide/ch233.jpg)
+![quickform-template](../../../static/img/usage/tools/tools-basic-guide/quickform-template.jpg)
 
 19. Select the Item just created (eg. Info)
 20. Click Ok button
 
-![ch234](../../../static/img/getting-started/user-guide/ch234.jpg)
+![field-and-quick-form](../../../static/img/usage/tools/tools-basic-guide/field-and-quick-form.jpg)
 
 21. Done.
 
@@ -1689,16 +1690,16 @@ Below is Example are doing following actions
 > override or customise the SQL System.
 > The Language use is **Pascal**
 
-![ch235](../../../static/img/getting-started/user-guide/ch235.jpg)
+![script](../../../static/img/usage/tools/tools-basic-guide/script.jpg)
 
 - Available forms to customise :
 
 | Form Type  | Example               | Description                                       |
 |------------|-----------------------|---------------------------------------------------|
-| Browse Form | ![ch236](../../../static/img/getting-started/user-guide/ch236.jpg) | Script Run/Execute when in Browse window form       |
-| Entry Form  | ![ch237](../../../static/img/getting-started/user-guide/ch237.jpg)  | Script Run/Execute when in Data Entry window form   |
-| Param Form  | ![ch238](../../../static/img/getting-started/user-guide/ch238.jpg)  | Script Run/Execute when at in Icon 1 (Seldom use)   |
-| Data Form   | ![ch239](../../../static/img/getting-started/user-guide/ch239.jpg)   | Script Run/Execute when at in Icon 2 (Frequently use) |
+| Browse Form | ![user](../../../static/img/usage/tools/tools-basic-guide/user.jpg) | Script Run/Execute when in Browse window form       |
+| Entry Form  | ![user-entry](../../../static/img/usage/tools/tools-basic-guide/user-entry.jpg)  | Script Run/Execute when in Data Entry window form   |
+| Param Form  | ![stock-physical-worksheet](../../../static/img/usage/tools/tools-basic-guide/stock-physical-worksheet.jpg)  | Script Run/Execute when at in Icon 1 (Seldom use)   |
+| Data Form   | ![stock-physical-worksheet](../../../static/img/usage/tools/tools-basic-guide/stock-physical-worksheet.jpg)   | Script Run/Execute when at in Icon 2 (Frequently use) |
 
 - Available Action/Event
 
@@ -1727,24 +1728,24 @@ Below is Example are doing following actions
 
 **Level : Advance**
 
-![ch240](../../../static/img/getting-started/user-guide/ch240.jpg)
+![diy-script-stockphysicalworksheet](../../../static/img/usage/tools/tools-basic-guide/diy-script-stockphysicalworksheet.jpg)
 
 1. Right Click at Stock Physical Worksheet - Data Form
 
-![ch241](../../../static/img/getting-started/user-guide/ch241.jpg)
+![new-script](../../../static/img/usage/tools/tools-basic-guide/new-script.jpg)
 
 2. Select New Script
 
-![ch242](../../../static/img/getting-started/user-guide/ch242.jpg)
+![event-onapply](../../../static/img/usage/tools/tools-basic-guide/event-onapply.jpg)
 
 3. Select OnApply
 4. Click OK button
 
-![ch243](../../../static/img/getting-started/user-guide/ch243.jpg)
+![diy-script-template](../../../static/img/usage/tools/tools-basic-guide/diy-script-template.jpg)
 
 5. Click New Button
 
-![ch244](../../../static/img/getting-started/user-guide/ch244.jpg)
+![script-stock-phy-worksheet](../../../static/img/usage/tools/tools-basic-guide/script-stock-phy-worksheet.jpg)
 
 6. Enter any description (eg Stock_Physical_Worksheet-DataForm-OnApply) in the Description field (Only Alphanumeric & no spacing)
 7. Copy below script & paste to the Script Field
@@ -1909,12 +1910,12 @@ end.
 8. Click Save (the Blue Disc Icon)
 9. Close the window.
 
-![ch245](../../../static/img/getting-started/user-guide/ch245.jpg)
+![script-select-stkphyworksheet](../../../static/img/usage/tools/tools-basic-guide/script-select-stkphyworksheet.jpg)
 
 10. Select the Item just created (eg. Stock_Physical_Worksheet-DataForm-OnApply)
 11. Click OK button
 
-![ch246](../../../static/img/getting-started/user-guide/ch246.jpg)
+![diy-script-stkphyworksheet](../../../static/img/usage/tools/tools-basic-guide/diy-script-stkphyworksheet.jpg)
 
 12. Click Stock | Print Stock Physical Worksheet | Apply
 
@@ -2094,7 +2095,7 @@ This is a paid module.
 - User can create DIY Fields either at Header Fields or Item Fields
 - In each Table had the below interface
 
-![ch247](../../../static/img/getting-started/user-guide/ch247.jpg)
+![table-sl-qt](../../../static/img/usage/tools/tools-basic-guide/table-sl-qt.jpg)
 
 | Name          | Description |
 |---------------|-------------|
@@ -2119,7 +2120,7 @@ Below is the example for Sales Invoice
 
  * **Add New Fields**
 
- ![ch248](../../../static/img/getting-started/user-guide/ch248.jpg)
+ ![sales-invoice-new-field](../../../static/img/usage/tools/tools-basic-guide/sales-invoice-new-field.jpg)
 
 1. At the left panel look for **Sales Invoice | Header Fields**
 2. Click the + Button on top to add New fields as above picture
@@ -2129,7 +2130,7 @@ Below is the example for Sales Invoice
 
  They are 2 ways to creating the Layout for new fields added.
 
- ![ch249](../../../static/img/getting-started/user-guide/ch249.jpg)
+ ![new-event-](../../../static/img/usage/tools/tools-basic-guide/new-event-.jpg)
 
  * **Advance Form Design**
 
@@ -2143,21 +2144,21 @@ Below is the example for Sales Invoice
 
 02. Select **New Advance Form Design**
 
- ![ch250](../../../static/img/getting-started/user-guide/ch250.jpg)
+ ![new-adv-form-design](../../../static/img/usage/tools/tools-basic-guide/new-adv-form-design.jpg)
 
 3. Enter the name (eg Freight Info) this will shown in the Sales Invoice Data Entry
 4. Click OK
 5. Click the **Freight Info** (name create at **Step 3** above) on the left panel
 
-![ch251](../../../static/img/getting-started/user-guide/ch251.jpg)
+![name-freight-info](../../../static/img/usage/tools/tools-basic-guide/name-freight-info.jpg)
 
-![ch252](../../../static/img/getting-started/user-guide/ch252.jpg)
+![standard](../../../static/img/usage/tools/tools-basic-guide/standard.jpg)
 
 * This Standard component is just for Fixed labeling or decoration
 
 * The detail of each button can be refer to [delphibasics](http://www.delphibasics.co.uk/Article.asp?Name=Standard)
 
-![ch253](../../../static/img/getting-started/user-guide/ch253.jpg)
+![data-controls](../../../static/img/usage/tools/tools-basic-guide/data-controls.jpg)
 
 * This Data Controls component is use for Variable data which can be use at Data Entry
 
@@ -2189,7 +2190,7 @@ Below is the example for Sales Invoice
 * Caption & set to the Caption you like (eg Container Number)
 * Font & set the Size to 12 or any size you prefer
 
-![ch254](../../../static/img/getting-started/user-guide/ch254.jpg)
+![caption-and-font](../../../static/img/usage/tools/tools-basic-guide/caption-and-font.jpg)
 
 8. Click the **Data Controls** Tab & select DBEdit button place on thee right panel
 9. In the **Object Inspector** look for
@@ -2197,7 +2198,7 @@ Below is the example for Sales Invoice
 * **DataField** & set to the UDF field name (normally is UDF_FieldName) (eg UDF_ContainerNo)
 * **Font** & set the **Size** to 12 or any size you prefer
 
-![ch255](../../../static/img/getting-started/user-guide/ch255.jpg)
+![datafield-font-size](../../../static/img/usage/tools/tools-basic-guide/datafield-font-size.jpg)
 
 10. Continue repeat Step 6 till Step 9 for rest of the UDF field.
 11. Click Save button after done.
@@ -2215,13 +2216,13 @@ Below is the example for Sales Invoice
 
 2. Select New Quick Form Design
 
-   ![ch256](../../../static/img/getting-started/user-guide/ch256.jpg)
+   ![newquick-form-info-freight](../../../static/img/usage/tools/tools-basic-guide/newquick-form-info-freight.jpg)
 
 3. Enter the name (eg Freight Info) this will shown in the Sales Invoice Data Entry
 4. Click OK
 5. Click the **Freight Info** (name create at **Step 3** above) on the left panel
 
-![ch257](../../../static/img/getting-started/user-guide/ch257.jpg)
+![container-num](../../../static/img/usage/tools/tools-basic-guide/container-num.jpg)
 
 6. Click Customise button.
 7. Drag the UDF Field from the **Available Item** dialog box & drop to Right Panel
@@ -2236,7 +2237,7 @@ Below is the example for Sales Invoice
 2. Click the + Button on top to add New fields as above picture
 3. Click Save button
 
-![ch258](../../../static/img/getting-started/user-guide/ch258.jpg)
+![right-click-descrp-field](../../../static/img/usage/tools/tools-basic-guide/right-click-descrp-field.jpg)
 
 1. Drag the UDF field from the Customization Dialog
 2. Drop it the column you wanted to shown (eg In between Description Column & Qty Column)
@@ -2257,41 +2258,41 @@ This function is use to **lock** the [Maintain DIY Module](#maintain-diy) so onl
 
 1. Enter account name or use default name. This will be shown in Google Authenticator list.
 
-![ch306](../../../static/img/getting-started/user-guide/ch306.jpg)
+![acc-name](../../../static/img/usage/tools/tools-basic-guide/acc-name.jpg)
 
 2. Enter a Access ID. This use by the system to pairing with the Google Authenticator.
 
-![ch307](../../../static/img/getting-started/user-guide/ch307.jpg)
+![access-id](../../../static/img/usage/tools/tools-basic-guide/access-id.jpg)
 
 3. Select the Device you wanted to use to Scan with.
 
-![ch308](../../../static/img/getting-started/user-guide/ch308.jpg)
+![device](../../../static/img/usage/tools/tools-basic-guide/device.jpg)
 
 4. Use the Google Authenticator to scan the QR barcode.
 5. Enter the Code generated by the Google Authenticator.
 6. Click Pair.
 
-![ch309](../../../static/img/getting-started/user-guide/ch309.jpg)
+![authenticator](../../../static/img/usage/tools/tools-basic-guide/authenticator.jpg)
 
 7. System will prompt below dialog if successfully pairing.
 
-![ch310](../../../static/img/getting-started/user-guide/ch310.jpg)
+![verification-code](../../../static/img/usage/tools/tools-basic-guide/verification-code.jpg)
 
 Each time user Click the [Maintain DIY](#maintain-diy) it will prompt below dialog for Verification Code.
 
-![ch311](../../../static/img/getting-started/user-guide/ch311.jpg)
+![enter-verification-code](../../../static/img/usage/tools/tools-basic-guide/enter-verification-code.jpg)
 
 #### Remove Locking
 
 1. Click Tools | DIY | DIY Authenticator....
 2. Enter the Verification Code.
 
-![ch312](../../../static/img/getting-started/user-guide/ch312.jpg)
+![enter-verification-code](../../../static/img/usage/tools/tools-basic-guide/enter-verification-code.jpg)
 
 3. System will prompt below option.
 4. Click Remove Access ID.
 
-![ch313](../../../static/img/getting-started/user-guide/ch313.jpg)
+![operation](../../../static/img/usage/tools/tools-basic-guide/operation.jpg)
 
 | **Option Name**      | **Properties**                                |
 |-----------------------|-----------------------------------------------|
@@ -2301,7 +2302,7 @@ Each time user Click the [Maintain DIY](#maintain-diy) it will prompt below dial
 
 5. System will prompt below dialog if successfully unlock
 
-![ch314](../../../static/img/getting-started/user-guide/ch314.jpg)
+![protection-removed](../../../static/img/usage/tools/tools-basic-guide/protection-removed.jpg)
 
 :::warning 
 Make sure you had keep few copy of QRCode as once you lost all we not able to retrieve back the Access ID

@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: FAQ
 description: FAQ related to Asset
-slug: /usage/Asset/AssetFAQ
+slug: /usage/asset/assetFaq/AssetFAQ
 tags: ["SQL Account", "Asset", "FAQ"]
 ---
 
@@ -14,7 +14,7 @@ __Menu: Asset | Process Depreciation...__
 
     You are allow to process Asset Opening Depreciation BEFORE System Conversation Date.
 
-![assetDepr](../../../static/img/asset/assetDepr.jpg)
+![assetDepr](../../../static/img/usage/asset/assetFaq/assetDepr.jpg)
 
 :::note Tips:
 A - FIRST acquire date of the asset
@@ -27,15 +27,15 @@ __Menu: Asset | Maintain Asset Item...__
 
 1. At Maintain Asset Item, click Preview button.
 
-![previewAsset](../../../static/img/asset/previewAsset.jpg)
+![previewAsset](../../../static/img/usage/asset/assetFaq/previewAsset.jpg)
 
 2. For instance, the **Out of Balance** result get from the comparison between Asset Opening Balance and GL Maintain Opening Balance.
 
-![Opening](../../../static/img/asset/Opening.jpg)
+![Opening](../../../static/img/usage/asset/assetFaq/Opening.jpg)
 
 3. With the **Asset Opening Breakdown** in the report, it helps you to ensure the asset data inputs are correctly recorded in Maintain Asset Item.
 
-![assetBreakdown](../../../static/img/asset/assetBreakdown.jpg)
+![assetBreakdown](../../../static/img/usage/asset/assetFaq/assetBreakdown.jpg)
 
 ## I have posted the depreciation until December 2021. How to record my new asset?
 
@@ -43,7 +43,7 @@ __Menu: Asset | Maintain Asset Item...__
 
 Maintain the Asset Item as below:
 
-![assetItem](../../../static/img/asset/assetItem.jpg)
+![assetItem](../../../static/img/usage/asset/assetFaq/assetItem.jpg)
 
 1. Key in the Cost as *Net Book Value* (as at 31/12/2021).
 2. Acquire Date, eg. 01/01/2022
@@ -58,7 +58,7 @@ Maintain the Asset Item as below:
 
 Maintain the Asset as below :
 
-![assetItem1](../../../static/img/asset/assetItem1.jpg)
+![assetItem1](../../../static/img/usage/asset/assetFaq/assetItem1.jpg)
 
 1. Key in the Cost as *Original Cost*
 2. Acquire Date set as *Original Purchase Date*
@@ -66,15 +66,15 @@ Maintain the Asset as below :
 4. Process Depreciation until 31/12/2021.
 
 5. Tick *Cancelled* to the Journal posted from Step 4
-![JE-cancellled](../../../static/img/asset/JE-cancellled.jpg)
+![JE-cancellled](../../../static/img/usage/asset/assetFaq/JE-cancellled.jpg)
 
 ## Somehow the depreciation value is different with my previous Journal, can I edit the depreciation value calculated in Maintain Asset Item?
 
 Yes, it is allowed to change the depreciation value in Maintain Asset Item (Depreciation Schedule).
 
-![assetAmount](../../../static/img/asset/assetAmount.jpg)
+![assetAmount](../../../static/img/usage/asset/assetFaq/assetAmount.jpg)
 
-![deprValue](../../../static/img/asset/deprValue.jpg)
+![deprValue](../../../static/img/usage/asset/assetFaq/deprValue.jpg)
 
 ## Can the amortization of Intangible Assets like license use in Asset Module?
 
@@ -87,7 +87,7 @@ For **Intangible Asset** (eg. goodwill, license), the **amortization calculation
 
 Yes, can. Asset import function available in SQL Account version 5.2022.948.826
 
-Refer to [Import-Asset Master List](/usage/Asset/Basic%20Guide#importing-asset-master-list)
+Refer to [Import-Asset Master List](/usage/asset/assetBasicGuide/Basic%20Guide#importing-asset-master-list)
 
 ## How to handle additional cost for the Fixed Asset?
 
@@ -107,18 +107,18 @@ Create new asset code to handle additional cost, eg.
 
 1. Copy the existing asset code.
 
-![copyAsset](../../../static/img/asset/copyAsset.jpg)
+![copyAsset](../../../static/img/usage/asset/assetFaq/copyAsset.jpg)
 
 2. Create new asset.
 3. Click on More | Paste Asset Item.
 
-![pasteAsset](../../../static/img/asset/pasteAsset.jpg)
+![pasteAsset](../../../static/img/usage/asset/assetFaq/pasteAsset.jpg)
 
 4. *Change the asset code* by inserted any characters to differentiate it
     - Acquire date = Date incurred additional cost
     - Cost = Additional Cost
 
-![deprRate](../../../static/img/asset/deprRate.jpg)
+![deprRate](../../../static/img/usage/asset/assetFaq/deprRate.jpg)
 
 ## Cost in Maintain Asset Item should key-in as local currency or original currency (eg. purchase in USD)?
 

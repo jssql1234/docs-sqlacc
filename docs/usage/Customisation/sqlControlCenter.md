@@ -63,7 +63,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
 *Menu: Sales | Invoice...*
 
-![shipping-CustomerInvoice](../../../static/img/sqlControlCenter/shipping-CustomerInvoice.jpg)
+![shipping-CustomerInvoice](../../../static/img/miscellaneous/sqlControlCenter/shipping-CustomerInvoice.jpg)
 
 1. Select Customer Code
 2. Select Item Code
@@ -73,13 +73,13 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 6. Enter Exchange Rate (if have)
 7. Click More tab to enter extra/others Information
 
-![invoice-More](../../../static/img/sqlControlCenter/invoice-More.jpg)
+![invoice-More](../../../static/img/miscellaneous/sqlControlCenter/invoice-More.jpg)
 
 #### Profit & Loss By Document
 
 *Menu: Sales | Print Profit and Loss By Document...*
 
-![printProfit&LossByDoc](../../../static/img/sqlControlCenter/printProfit&LossByDoc.png)
+![printProfit&LossByDoc](../../../static/img/miscellaneous/sqlControlCenter/printProfit&LossByDoc.png)
 
 1. Select Invoice Listing & Range Date
 2. Tick Group by Customer Code
@@ -140,11 +140,11 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
 *Menu: Stock | Maintain Stock Item...*
 
-![stockItemClaimRate](../../../static/img/sqlControlCenter/stockItemClaimRate.jpg)
+![stockItemClaimRate](../../../static/img/miscellaneous/sqlControlCenter/stockItemClaimRate.jpg)
 
 1. Item Code to be create - Voucher => For Claim use (eg 1 point = RM 0.01)
 
-![stockItemVoucherRate](../../../static/img/sqlControlCenter/stockItemVoucherRate.jpg)
+![stockItemVoucherRate](../../../static/img/miscellaneous/sqlControlCenter/stockItemVoucherRate.jpg)
 
 2. For each item code enter the Voucher Rate (eg 0.5 point = RM 1)
 
@@ -167,7 +167,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
     This is the center or Ledger for all Point IN & OUT.
 
-![extraDeliveryOrder](../../../static/img/sqlControlCenter/extraDeliveryOrder.jpg)
+![extraDeliveryOrder](../../../static/img/miscellaneous/sqlControlCenter/extraDeliveryOrder.jpg)
 
 | **Field**       | **Description**                                                                 |
 |------------------|---------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 Below is example in Sales Invoice with Voucher Claim
 *Menu: Sales | Invoice...*
 
-![utdPoint](../../../static/img/sqlControlCenter/utdPoint.jpg)
+![utdPoint](../../../static/img/miscellaneous/sqlControlCenter/utdPoint.jpg)
 
 1. Enter all Information (eg Company Code, Date, ItemCode, etc) as norm for Normal Sales (i.e. Add Point).
 2. Select itemcode Voucher.
@@ -202,7 +202,7 @@ Below is example in Sales Invoice with Voucher Claim
 In here user can do adjustment for the point for each Customer.
 1. Click Update Button
 
-![updateExtraDO](../../../static/img/sqlControlCenter/updateExtraDO.jpg)
+![updateExtraDO](../../../static/img/miscellaneous/sqlControlCenter/updateExtraDO.jpg)
 
 2. Untick this if you wanted to Add the point
 3. Enter the Point to Add/Reduce.
@@ -213,7 +213,7 @@ In here user can do adjustment for the point for each Customer.
 
     Here is for user to print the Bonus Statement or UnClaim Voucher Listing report
 
-![bonusStatement](../../../static/img/sqlControlCenter/bonusStatement.jpg)
+![bonusStatement](../../../static/img/miscellaneous/sqlControlCenter/bonusStatement.jpg)
 
 1. Select Extra Delivery Order Listing & Range Date
 2. Tick Customer Code
@@ -245,49 +245,49 @@ Branch Control Setting is done to prevent branch user from selecting Customer, P
 
 - Authorising each branch users to have the accessibility to their respective branch, SQL will automatically assign transactions created by the user to a specific branch to prevent human mistakes. Account entries, stock warehouse will automatically be posted to the appropriate branch.
 
-![project&Location](../../../static/img/sqlControlCenter/project&Location.png)
+![project&Location](../../../static/img/miscellaneous/sqlControlCenter/project&Location.png)
 
 ### Customer List
 
 - The user can only select/access the customer information for the own branch and is not permitted to post transactions for any other branch. You can avoid information being shared to other branches at data entry staff’s level.
 
-![custList](../../../static/img/sqlControlCenter/custList.png)
+![custList](../../../static/img/miscellaneous/sqlControlCenter/custList.png)
 
 ### Agent / Area List
 
 - Automatically set the default agent/area code based on user login to ease the user's instead of requiring manual selection.
 
-![agent&Area](../../../static/img/sqlControlCenter/agent&Area.png)
+![agent&Area](../../../static/img/miscellaneous/sqlControlCenter/agent&Area.png)
 
 ### Stock Item List
 
 - The user only able to select the list of item code belong to their branch.
 
-![itemCode](../../../static/img/sqlControlCenter/itemCode.png)
+![itemCode](../../../static/img/miscellaneous/sqlControlCenter/itemCode.png)
 
 ### Payment Method
 
 - Restrict payment methods for each branch to prevent human error and posting to unnecessary accounts.
 
-![payMethods](../../../static/img/sqlControlCenter/payMethods.png)
+![payMethods](../../../static/img/miscellaneous/sqlControlCenter/payMethods.png)
 
 ### Reporting
 
 - Stay on top of your financial and operational transactions across all your branches with SQL. You can monitor all transactions happening in each branch. with this information, you can identify which branch is the most profitable and which branch that needs to monitor closely.
 
-![reporting](../../../static/img/sqlControlCenter/reporting.png)
+![reporting](../../../static/img/miscellaneous/sqlControlCenter/reporting.png)
 
 ### Profit & Loss Project
 
 - By consolidating headquarter accounts with branch accounts, SQL allows for the viewing of consolidated balance sheets, profit and loss accounts by authorised users to evaluate the company’s overall performance. Bosses are able to drill down to the transactions of each branch individually.
 
-![P&L-Project](../../../static/img/sqlControlCenter/P&L-Project.png)
+![P&L-Project](../../../static/img/miscellaneous/sqlControlCenter/P&L-Project.png)
 
 ## One Time Setting
 
 *Menu: Tools | Maintain User...*
 
-![branchControlSettings](../../../static/img/sqlControlCenter/branchControlSettings.jpg)
+![branchControlSettings](../../../static/img/miscellaneous/sqlControlCenter/branchControlSettings.jpg)
 
 Here are the guidelines to set **Branch Control Setting**
 1. **MUST** Logon as **ADMIN** account
@@ -324,7 +324,7 @@ The setting can only function within the range of **1 to 4**.
 Tick the **Lock Customer** Option and filtered customer list by area, enter as 1 in Filter Customers by. Enter Area code such as KL, JB, and SG in the allowable list column. User prefer to search for Customer Code, enter as 1 if would like to search Customer Column.
 :::
 
-![filterCustBy](../../../static/img/sqlControlCenter/filterCustBy.jpg)
+![filterCustBy](../../../static/img/miscellaneous/sqlControlCenter/filterCustBy.jpg)
 
 ### Purchase
 
@@ -355,7 +355,7 @@ The setting can only function within the range of **1 to 4**.
 Tick the Lock Supplier option and filter supplier list by agent, enter as 2 in Filter Suppliers by. Enter Agent code, such as YUKI, in the allowable list column, and user prefer to search for supplier code, enter as 1 in Search Supplier Column.
 :::
 
-![filterSuppliersBy](../../../static/img/sqlControlCenter/filterSuppliersBy.jpg)
+![filterSuppliersBy](../../../static/img/miscellaneous/sqlControlCenter/filterSuppliersBy.jpg)
 
 ### Item Code
 
@@ -385,7 +385,7 @@ The setting can only function within the range of **1 to 3**.
 Tick the Lock Item Code option and filter by item code. Enter item codes, such as BOM-02/Red, ER/Lamp, and ISCT, in the column, and search for item descriptions by item code.
 :::
 
-![lockItemCode](../../../static/img/sqlControlCenter/lockItemCode.jpg)
+![lockItemCode](../../../static/img/miscellaneous/sqlControlCenter/lockItemCode.jpg)
 
 ### General Setting
 
@@ -398,13 +398,13 @@ Tick the Lock Item Code option and filter by item code. Enter item codes, such a
 Tick the Lock Project option. Tick IsSearchProjectCode to allow searching by project code, and enter project codes, such as P1 and P2, in the column for search.
 :::
 
-![lockProject](../../../static/img/sqlControlCenter/lockProject.jpg)
+![lockProject](../../../static/img/miscellaneous/sqlControlCenter/lockProject.jpg)
 
 ## Assignment : To Create the Unit Price Calculation
 - Create the DIY field such as UDF_mUnitPrice in Sales documents (eg. sales invoice)
 - Purpose: User will key-in the base unit price to convert into new unit price based on the UOM rate in Maintain Stock Item.
 
-![1](../../../static/img/sqlControlCenter/1wl.png)
+![udf-unit-price](../../../static/img/miscellaneous/sqlControlCenter/udf-unit-price.png)
 
 - Calculation for Unit Price := UDF_mUnitPrice x Rate
 
@@ -419,7 +419,7 @@ Tick the Lock Project option. Tick IsSearchProjectCode to allow searching by pro
 |-------------|-----------|------|---------|---------------|----------------|---------------|------------------|
 | mUnitPrice  | Float     | 10   | 2       | UDF_mUnitPrice| FALSE (Untick) | BLANK         | #,0.00;-#,0.00   |
 
-![2](../../../static/img/sqlControlCenter/2wl.png)
+![item-fields-unit-price](../../../static/img/miscellaneous/sqlControlCenter/item-fields-unit-price.png)
 
 05. Click Save.
 06. Update operation successful message. Click OK.
@@ -430,18 +430,18 @@ Tick the Lock Project option. Tick IsSearchProjectCode to allow searching by pro
 02. At the left panel look for Sales Invoice .
 03. Right Click the Sales Invoice.
 
-![3](../../../static/img/sqlControlCenter/3wl.png)
+![new-event](../../../static/img/miscellaneous/sqlControlCenter/new-event.png)
 
 04. Select New Event.
 
-![4](../../../static/img/sqlControlCenter/4wl.png)
+![event-properties](../../../static/img/miscellaneous/sqlControlCenter/event-properties.png)
 
 05. Enter any name (eg Calc) in the Name field (Only Alphanumeric & no spacing).
 06. Select OnGridColumnValueChanged for Event field.
 07. Click OK.
 08. Click the Calc (name create at Step 5 above) on the left panel.
 
-![5](../../../static/img/sqlControlCenter/5wl.png)
+![ongrid-column-value-changed](../../../static/img/miscellaneous/sqlControlCenter/ongrid-column-value-changed.png)
 
 09. Copy below script & paste to the Right Panel (Script Section).
 
@@ -467,20 +467,19 @@ Avoid update the same existing field name Unit Price. You have to create differe
 02. Edit the item code ANT.
 03. Insert additional UOM with different RATE, eg. 1 CARTON = 12 UNITS and 1 BOX = 60 UNITS.
 
-![6](../../../static/img/sqlControlCenter/6wl.png)
+![item-code-ant](../../../static/img/miscellaneous/sqlControlCenter/item-code-ant.png)
 
 
 04. Create new sales invoice from Sales | Invoice...
 05. Call out the columns name UDF_mUnitPrice and Rate.
 
-![7](../../../static/img/sqlControlCenter/7wl.png)
-
+![columns-udf-rate](../../../static/img/miscellaneous/sqlControlCenter/columns-udf-rate.png)
 
 06. Insert and select the item code ANT.
 07. Select the UOM to CARTON. Rate will be changed to 12.
 08. Input the value into UDF_mUnitPrice. U/Price will be calculated from your DIY script formula (UDF_mUnitPrice x Rate).
 
-![8](../../../static/img/sqlControlCenter/8wl.png)
+![input-values-for-udf](../../../static/img/miscellaneous/sqlControlCenter/input-values-for-udf.png)
 
 ## Assignment : How to get the data from Master Table into entry form?
 - Create the DIY fields such as UDF_PCS, UDF_CTN in Maintain Stock Item; and
@@ -508,7 +507,7 @@ Avoid update the same existing field name Unit Price. You have to create differe
 | PCS  | Float     | 10   | 2       | UDF_PCS   | FALSE (Untick) | BLANK         | #,0.00;-#,0.00       |
 | CTN  | Float     | 10   | 2       | UDF_CTN   | FALSE (Untick) | BLANK         | #,0.00;-#,0.00       |
 
-![9](../../../static/img/sqlControlCenter/9wl.png)
+![stock-item-fields](../../../static/img/miscellaneous/sqlControlCenter/stock-item-fields.png)
 
 05. Click Save.
 06. Update operation successful message. Click OK.
@@ -522,7 +521,7 @@ Avoid update the same existing field name Unit Price. You have to create differe
 | Price | Float     | 10   | 2       | UDF_Price  | FALSE (Untick) | BLANK         | #,0.00;-#,0.00       |
 | Rate  | Float     | 10   | 2       | UDF_Rate   | FALSE (Untick) | BLANK         | #,0.00;-#,0.00       |
 
-![10](../../../static/img/sqlControlCenter/10wl.png)
+![sales-salesinvoice-itemfields](../../../static/img/miscellaneous/sqlControlCenter/sales-salesinvoice-itemfields.png)
 
 11. Click Save.
 12. Update operation successful message. Click OK.
@@ -534,24 +533,22 @@ Avoid update the same existing field name Unit Price. You have to create differe
 03. Right click on te Stock Item.
 04. Select New Quick Form Design.
 
-![28](../../../static/img/sqlControlCenter/28wl.png)
+![newquickformdesign](../../../static/img/miscellaneous/sqlControlCenter/newquickformdesign.png)
 
 05. Enter the new name as EXTRA. Click OK.
 
-![11](../../../static/img/sqlControlCenter/11wl.png)
+![new-name-quickformdesign](../../../static/img/miscellaneous/sqlControlCenter/new-name-quickformdesign.png)
 
 06. Click on the EXTRA follow by Customize button.
 07. Drag the UDF_CTN adn UDF_PCS from right to the place marked X. See the screenshot below.
 
-![12](../../../static/img/sqlControlCenter/12wl.png)
+![stock-stockitem-newfield-will-be-here](../../../static/img/miscellaneous/sqlControlCenter/stock-stockitem-newfield-will-be-here.png)
 
 08. Both the UDF fields will be under the Root. Click CLOSE.
 
-![13](../../../static/img/sqlControlCenter/13wl.png)
-
 09. Click SAVE.
 
-![14](../../../static/img/sqlControlCenter/14wl.png)
+![createquickform-save](../../../static/img/miscellaneous/sqlControlCenter/createquickform-save.png)
 
 10. DONE.
 
@@ -560,18 +557,18 @@ Avoid update the same existing field name Unit Price. You have to create differe
 02. At the left panel look for Sales Invoice .
 03. Right Click the Sales Invoice.
 
-![15](../../../static/img/sqlControlCenter/15wl.png)
+![new-event-salesinvoice](../../../static/img/miscellaneous/sqlControlCenter/new-event-salesinvoice.png)
 
 04. Select New Event.
 
-![16](../../../static/img/sqlControlCenter/16wl.png)
+![event-properties-salesinvoice](../../../static/img/miscellaneous/sqlControlCenter/event-properties-salesinvoice.png)
 
 05. Enter any name (eg Calc) in the Name field (Only Alphanumeric & no spacing).
 06. Select OnGridColumnValueChanged for Event field.
 07. Click OK.
 08. Click the Calc (name create at Step 5 above) on the left panel.
 
-![17](../../../static/img/sqlControlCenter/17wl.png)
+![sales-salesinvoice-ongrid](../../../static/img/miscellaneous/sqlControlCenter/sales-salesinvoice-ongrid.png)
 
 09. Copy below script & paste to the Right Panel (Script Section).
 
@@ -635,24 +632,24 @@ Avoid update the same existing field name Unit Price and "Rate". You have to cre
 02. Create a new item code called PEN.
 03. Update the UOM tab. See the screenshot below.
 
-![18](../../../static/img/sqlControlCenter/18wl.png)
+![uomtab](../../../static/img/miscellaneous/sqlControlCenter/uomtab.png)
 
 04. Click on EXTRA tab.
 05. Input the UDF_CTN and UDF_PCS value.
 
-![19](../../../static/img/sqlControlCenter/19wl.png)
+![extratab](../../../static/img/miscellaneous/sqlControlCenter/extratab.png)
 
 06. Create new sales invoice from Sales | Invoice...
 05. Call out the columns name UDF_Price and UDF_Rate.
 
-![20](../../../static/img/sqlControlCenter/20wl.png)
+![udfprice-udfrate](../../../static/img/miscellaneous/sqlControlCenter/udfprice-udfrate.png)
 
 06. Insert and select the item code PEN.
 07. Select the UOM to CTN.
 08. UDF_Price will be changed to 50.00 (based on the UDF_CTN set for PEN).
 09. Input the value into UDF_Rate. U/Price will be calculated from your DIY script formula (UDF_Price x UDF_Rate).
 
-![21](../../../static/img/sqlControlCenter/21wl.png)
+![valuesfor-udfprice-udfrate](../../../static/img/miscellaneous/sqlControlCenter/valuesfor-udfprice-udfrate.png)
 
 ## Assignment : How to get Outstanding IV amount & show below the Browse button at Sales Invoice?
 - This assignment no need to create any DIY fields
@@ -665,18 +662,18 @@ Avoid update the same existing field name Unit Price and "Rate". You have to cre
 02. At the left panel look for Sales Invoice .
 03. Right Click the Sales Invoice.
 
-![22](../../../static/img/sqlControlCenter/22wl.png)
+![newevent-salesinvoice](../../../static/img/miscellaneous/sqlControlCenter/newevent-salesinvoice.png)
 
 04. Select New Event.
 
-![23](../../../static/img/sqlControlCenter/23wl.png)
+![name-event-new](../../../static/img/miscellaneous/sqlControlCenter/name-event-new.png)
 
 05. Enter any name (eg Calc) in the Name field (Only Alphanumeric & no spacing).
 06. Select OnOpen for Event field.
 07. Click OK.
 08. Click the Calc (name create at Step 5 above) on the left panel.
 
-![24](../../../static/img/sqlControlCenter/24wl.png)
+![sales-salesinvoice-onopencalc](../../../static/img/miscellaneous/sqlControlCenter/sales-salesinvoice-onopencalc.png)
 
 09. Copy below script & paste to the Right Panel (Script Section).
 
@@ -769,12 +766,12 @@ end.
 ## Result Test
 01. Create a new sales invoice, eg. Invoice Amount = Rm1060.00
 
-![25](../../../static/img/sqlControlCenter/25wl.png)
+![new-salesinvoice-with-amount](../../../static/img/miscellaneous/sqlControlCenter/new-salesinvoice-with-amount.png)
 
 02. Make a payment amount = Rm636.00 and knock-off with the invoice created in step 01.
 
-![26](../../../static/img/sqlControlCenter/26wl.png)
+![payment](../../../static/img/miscellaneous/sqlControlCenter/payment.png)
 
 03. You can get the document outstanding balance (Rm1060.00 - Rm636.00 = Rm424.00) at Sales Invoice.
 
-![27](../../../static/img/sqlControlCenter/27wl.png)
+![outstanding-balance-sales-invoice](../../../static/img/miscellaneous/sqlControlCenter/outstanding-balance-sales-invoice.png)

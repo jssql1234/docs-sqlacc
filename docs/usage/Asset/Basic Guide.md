@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Guide
 description: A guide on Asset
-slug: /usage/Asset/Basic Guide
+slug: /usage/asset/assetBasicGuide/Basic Guide
 tags: ["SQL Account", "Usage", "Submission"]
 ---
 
@@ -12,7 +12,7 @@ tags: ["SQL Account", "Usage", "Submission"]
 This is a **paid module**.
 :::
 
-![assetTab](../../../static/img/asset/assetTab.png)
+![assetTab](../../../static/img/usage/asset/assetBasicGuide/assetTab.png)
 
 ## Maintain Asset Group
 
@@ -23,11 +23,11 @@ Group the asset items based on the following considerations.
     a. Type of assets, eg. Motor Vehicle, Furniture, etc;
     b. GL Account mapping.
 
-![assetGrp](../../../static/img/asset/assetGrp.jpg)
+![assetGrp](../../../static/img/usage/asset/assetBasicGuide/assetGrp.jpg)
 
 ### Asset Group
 
-![assetGrp2](../../../static/img/asset/assetGrp2.jpg)
+![assetGrp2](../../../static/img/usage/asset/assetBasicGuide/assetGrp2.jpg)
 
 | **Field Name**         | **Explanation & Properties**                                                                 |
 |-------------------------|-----------------------------------------------------------------------------------------------|
@@ -46,11 +46,11 @@ __Menu: Asset | Asset Item...__
 
 Add new asset items.
 
-![addAssetItem](../../../static/img/asset/addAssetItem.jpg)
+![addAssetItem](../../../static/img/usage/asset/assetBasicGuide/addAssetItem.jpg)
 
 ### Asset Item
 
-![assetItems](../../../static/img/asset/assetItems.jpg)
+![assetItems](../../../static/img/usage/asset/assetBasicGuide/assetItems.jpg)
 
 | **Field Name**          | **Field Type**   | **Length** | **Explanation**                                                                 |
 |--------------------------|------------------|------------|---------------------------------------------------------------------------------|
@@ -77,12 +77,12 @@ Add new asset items.
 
 2. Click Generate button.
 
-![deprSchedule](../../../static/img/asset/deprSchedule.jpg)
+![deprSchedule](../../../static/img/usage/asset/assetBasicGuide/deprSchedule.jpg)
 
 ### Project
     Set the depreciation allocation by Project (for Departmental/Cost Center purpose).
 
-![deprScheduleP1](../../../static/img/asset/deprScheduleP1.jpg)
+![deprScheduleP1](../../../static/img/usage/asset/assetBasicGuide/deprScheduleP1.jpg)
 
 ### History 
 
@@ -91,17 +91,17 @@ Add the important remarks in the asset history. For instances:
     b. asset has send for repair or service...
     c. asset has destroyed by flood
 
-![deprHistory](../../../static/img/asset/deprHistory.jpg)
+![deprHistory](../../../static/img/usage/asset/assetBasicGuide/deprHistory.jpg)
 
 ### Photo 
     Add the asset photo.
 
-![assetPhoto](../../../static/img/asset/assetPhoto.jpg)
+![assetPhoto](../../../static/img/usage/asset/assetBasicGuide/assetPhoto.jpg)
 
 ### Attachments
     Add the attachments for an asset
 
-![assetAttach](../../../static/img/asset/assetAttach.jpg)
+![assetAttach](../../../static/img/usage/asset/assetBasicGuide/assetAttach.jpg)
 
 ## Process Depreciation
 
@@ -109,7 +109,7 @@ __Menu: Asset | Process Depreciation...__
 
 ### Asset Depreciation 
 
-![assetDateRange](../../../static/img/asset/assetDateRange.jpg)
+![assetDateRange](../../../static/img/usage/asset/assetBasicGuide/assetDateRange.jpg)
 
 1. Select the process date range.
 
@@ -120,7 +120,7 @@ __Menu: Asset | Process Depreciation...__
 
 2. Select the Process Date.
 
-![assetProcessDate](../../../static/img/asset/assetProcessDate.jpg)
+![assetProcessDate](../../../static/img/usage/asset/assetBasicGuide/assetProcessDate.jpg)
 
 :::note Tips:
 Journal Voucher date will follow this Process Date.
@@ -130,7 +130,7 @@ Journal Voucher date will follow this Process Date.
 4. Click Process.
 5. Preview the assets depreciation value and Net Book Value (NBV) before post to Journal Voucher. Click Save to post it.
 
-![assetNBV](../../../static/img/asset/assetNBV.jpg)
+![assetNBV](../../../static/img/usage/asset/assetBasicGuide/assetNBV.jpg)
 
 ## Open Depreciation
 
@@ -138,7 +138,7 @@ __Menu: Asset | Open Depreciation...__
 
     Open to view the historical Depreciation Listing.
 
-![deprList](../../../static/img/asset/deprList.jpg)
+![deprList](../../../static/img/usage/asset/assetBasicGuide/deprList.jpg)
 
 ## Asset Disposal
 
@@ -156,7 +156,7 @@ __Menu: Asset | Asset Disposal...__
 8. Select Agent. Default follow Asset Item.
 9. Select Area. Default follow Asset Item.
 
-![assetDisposal](../../../static/img/asset/assetDisposal.jpg)
+![assetDisposal](../../../static/img/usage/asset/assetBasicGuide/assetDisposal.jpg)
 
 
 ### General Tab
@@ -167,27 +167,27 @@ __Menu: Asset | Asset Disposal...__
 4. **(Gain)/Loss** workout automatically.
 5. Gain/Loss Account default follow from Maintain Asset. May change the **(Gain)/Loss Account** if necessary.
 
-![generalTab-asset](../../../static/img/asset/generalTab-asset.jpg)
+![generalTab-asset](../../../static/img/usage/asset/assetBasicGuide/generalTab-asset.jpg)
 
 ### More Tab
     Enter detailed **Note**.
-![moreTab-asset](../../../static/img/asset/moreTab-asset.jpg)
+![moreTab-asset](../../../static/img/usage/asset/assetBasicGuide/moreTab-asset.jpg)
 
 ### Attachments
     Add more attachment files
-![attachmentsTab-asset](../../../static/img/asset/attachmentsTab-asset.jpg)
+![attachmentsTab-asset](../../../static/img/usage/asset/assetBasicGuide/attachmentsTab-asset.jpg)
 
 ## Print Yearly Depreciation
 
 __Menu: Asset | Print Yearly Depreciation...__
 
-![yearlyDepr](../../../static/img/asset/yearlyDepr.jpg)
+![yearlyDepr](../../../static/img/usage/asset/assetBasicGuide/yearlyDepr.jpg)
 
 ## Print Yearly Analysis
 
 __Menu: Asset | Print Asset Analysis...__
 
-![assetAnalysis](../../../static/img/asset/assetAnalysis.jpg)
+![assetAnalysis](../../../static/img/usage/asset/assetBasicGuide/assetAnalysis.jpg)
 
 ### Reports Selection
 
@@ -198,28 +198,28 @@ Quarterly (4 quarters)
 Half Yearly (First Half and 2nd Half)
 Yearly (5 Years)
 
-![assetAnalysis-Report](../../../static/img/asset/assetAnalysis-Report.jpg)
+![assetAnalysis-Report](../../../static/img/usage/asset/assetBasicGuide/assetAnalysis-Report.jpg)
 
 ### Asset Analysis vs GL Balance Sheet Report 
 
 1. At GL | Print Balance Sheet Statement..., choose the Balance Sheet Format : **This Year - 3 columns**
 2. At Asset | Print Asset Analysis..., choose Report: **Yearly (5 columns)**
 
-![balanceSheet-vs-assetAnalysis](../../../static/img/asset/balanceSheet-vs-assetAnalysis.jpg)
+![balanceSheet-vs-assetAnalysis](../../../static/img/usage/asset/assetBasicGuide/balanceSheet-vs-assetAnalysis.jpg)
 
 ## Print Asset Disposal Listing
 
 __Menu: Asset | Print Asset Disposal Listing...__
 
-![assetDisposalList](../../../static/img/asset/assetDisposalList.jpg)
+![assetDisposalList](../../../static/img/usage/asset/assetBasicGuide/assetDisposalList.jpg)
 
 ## Importing Asset Master List
 
 ### Preparation for Asset Master Import Excel Template 
 
-Download the [Asset Master Template](https://download.sql.com.my/customer/Asset/Asset_Master_Import.xlsx)
+Download the [Asset Master Template](https://download.sql.com.my/customer/asset/assetBasicGuide/Asset_Master_Import.xlsx)
 
-![assetImport](../../../static/img/asset/assetImport.jpg)
+![assetImport](../../../static/img/usage/asset/assetBasicGuide/assetImport.jpg)
 
 ### Asset Master Template (xlsx)
 
@@ -330,7 +330,7 @@ Download the [Asset Master Template](https://download.sql.com.my/customer/Asset/
 
 **Example**
 
-![assetImport-faItemOpf](../../../static/img/asset/assetImport-faItemOpf.jpg)
+![assetImport-faItemOpf](../../../static/img/usage/asset/assetBasicGuide/assetImport-faItemOpf.jpg)
 
 **4.FA.ITEM.OPF.Project(Maintain Asset Item-Project)**
 
@@ -358,13 +358,13 @@ __Menu: File | Import | Excel Files...__
 
 1. Click Open folder button.
 
-![filesImportButton](../../../static/img/asset/filesImportButton.jpg)
+![filesImportButton](../../../static/img/usage/asset/assetBasicGuide/filesImportButton.jpg)
 
 2. Select the Asset Template excel file...
 
 3. Click Execute (Direct Import). Click Verify if you wish to verify the excel data before import.
 
-![filesImportExecute](../../../static/img/asset/filesImportExecute.jpg)
+![filesImportExecute](../../../static/img/usage/asset/assetBasicGuide/filesImportExecute.jpg)
 
 
 :::note NOTE:
