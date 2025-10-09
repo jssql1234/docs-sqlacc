@@ -16,15 +16,15 @@ This is an additional module.
 
 1. Go to Production -> Select the report
 
-![1](../../../static/img/getting-started/user-guide/production/report/jj1.png)
+![1](../../../static/img/usage/production/report/navigate_job_order_listing.png)
 
 2. Select the Document Master Details
 
-![2](../../../static/img/getting-started/user-guide/production/report/jj2.png)
+![2](../../../static/img/usage/production/report/job_order_listing_master_details.png)
 
 3. Select the Document Details
 
-![3](../../../static/img/getting-started/user-guide/production/report/jj3.png)
+![3](../../../static/img/usage/production/report/job_order_listing_document_details.png)
 
 4. Press Apply Button
 
@@ -32,13 +32,13 @@ This is an additional module.
 
 - Example of job order listing report.
 
-![4](../../../static/img/getting-started/user-guide/production/report/jj4.png)
+![4](../../../static/img/usage/production/report/job_order_listing_example.png)
 
 ### Print Document Style
 
 Tick relevant check boxes.
 
-![5](../../../static/img/getting-started/user-guide/production/report/jj5.png)
+![5](../../../static/img/usage/production/report/job_order_listing_print_document_style.png)
 
 |**Field Name**| **Explanation**|
 |---|---|
@@ -51,15 +51,15 @@ Tick relevant check boxes.
 
 1. Go to Production -> Select the report
 
-![6](../../../static/img/getting-started/user-guide/production/report/jj6.png)
+![6](../../../static/img/usage/production/report/navigate_outstanding_production_document_listing.png)
 
 2. Select Outstanding Sales Order or Outstanding Job Order
 
-![7](../../../static/img/getting-started/user-guide/production/report/jj7.png)
+![7](../../../static/img/usage/production/report/outstanding_production_document_listing_report_type.png)
 
 3. Select how you want to filter your report
 
-![8](../../../static/img/getting-started/user-guide/production/report/jj8.png)
+![8](../../../static/img/usage/production/report/outstanding_production_document_listing_filter.png)
 
 4. Tick the relevant options
 
@@ -75,11 +75,11 @@ Tick relevant check boxes.
 
 - Example of oustanding job order listing report.
 
-![9](../../../static/img/getting-started/user-guide/production/report/jj9.png)
+![9](../../../static/img/usage/production/report/outstanding_job_order_listing_report.png)
 
 - Example of outstanding sales order listing report.
 
-![10](../../../static/img/getting-started/user-guide/production/report/jj10.png)
+![10](../../../static/img/usage/production/report/outstanding_sales_order_listing_report.png)
 
 ## Print BOM Relation
 
@@ -87,19 +87,19 @@ Tick relevant check boxes.
 
 1. Go to Production -> Select the report
 
-![11](../../../static/img/getting-started/user-guide/production/report/jj11.png)
+![11](../../../static/img/usage/production/report/navigate_bom_relation.png)
 
 2. Select the Item Code
 
-![12](../../../static/img/getting-started/user-guide/production/report/jj12.png)
+![12](../../../static/img/usage/production/report/bom_relation_select_item.png)
 
 3. Press Apply
 
-![13](../../../static/img/getting-started/user-guide/production/report/jj13.png)
+![13](../../../static/img/usage/production/report/bom_relation_click_apply.png)
 
 4. Preview the report
 
-![14](../../../static/img/getting-started/user-guide/production/report/jj14.png)
+![14](../../../static/img/usage/production/report/bom_relation_example.png)
 
 ## Print BOM Listing
 
@@ -107,15 +107,15 @@ Tick relevant check boxes.
 
 1. Go to Production -> Select the report
 
-![15](../../../static/img/getting-started/user-guide/production/report/jj15.png)
+![15](../../../static/img/usage/production/report/navigate_bom_listing.png)
 
 2. This is the browse screen
 
-![16](../../../static/img/getting-started/user-guide/production/report/jj16.png)
+![16](../../../static/img/usage/production/report/bom_listing_browse.png)
 
 3. Select document type
 
-![17](../../../static/img/getting-started/user-guide/production/report/jj17.png)
+![17](../../../static/img/usage/production/report/bom_listing_document_type.png)
 
 4. Tick relevant options
 
@@ -124,17 +124,17 @@ Tick relevant check boxes.
 |Print Document Style| Tick this print all documents in this list as individual documents|
 |Include Cancelled Document | Tick this checkbox to include cancelled documents in the listing|
 
-![18](../../../static/img/getting-started/user-guide/production/report/jj18.png)
+![18](../../../static/img/usage/production/report/bom_listing_print_document_style.png)
 
 5. Filter your document listing
 
-![19](../../../static/img/getting-started/user-guide/production/report/jj19.png)
+![19](../../../static/img/usage/production/report/bom_listing_filter.png)
 
 6. Press Apply Button
 
 7. Preview the report. Press "detail" icon to see the detailed item information for each document
 
-![20](../../../static/img/getting-started/user-guide/production/report/jj20.png)
+![20](../../../static/img/usage/production/report/bom_listing_example.png)
 
 ## Print BOM Material Usage
 
@@ -142,19 +142,19 @@ Tick relevant check boxes.
 
 1. Go to Production -> Select the report
 
-![21](../../../static/img/getting-started/user-guide/production/report/jj21.png)
+![21](../../../static/img/usage/production/report/navigate_bom_material_usage.png)
 
 2. Filter by selecting the sub item, location, stock group, batch and category
 
-![22](../../../static/img/getting-started/user-guide/production/report/jj22.png)
+![22](../../../static/img/usage/production/report/bom_material_usage_filter.png)
 
 3. Press Apply Button
 
-![23](../../../static/img/getting-started/user-guide/production/report/jj23.png)
+![23](../../../static/img/usage/production/report/bom_material_usage_apply.png)
 
 4. Preview the report
 
-![24](../../../static/img/getting-started/user-guide/production/report/jj24.png)
+![24](../../../static/img/usage/production/report/bom_material_usage_example.png)
 
 ## Print BOM Planner
 
@@ -162,19 +162,19 @@ Tick relevant check boxes.
 
 1. Go to Production -> Select the report
 
-![25](../../../static/img/getting-started/user-guide/production/report/jj25.png)
+![25](../../../static/img/usage/production/report/navigate_bom_planner.png)
 
-![26](../../../static/img/getting-started/user-guide/production/report/jj26.png)
+![26](../../../static/img/usage/production/report/bom_planner.png)
 
 2. Filter by selecting the BOM Code or BOM template
 
-![27](../../../static/img/getting-started/user-guide/production/report/jj27.png)
+![27](../../../static/img/usage/production/report/bom_planner_filter.png)
 
 3. Press Apply Button
 
 4. Preview the report
 
-![28](../../../static/img/getting-started/user-guide/production/report/jj28.png)
+![28](../../../static/img/usage/production/report/bom_planner_example.png)
 
 ## Print BOM Wastage Report
 
@@ -182,20 +182,20 @@ Tick relevant check boxes.
 
 1. Go to Production -> Select the report
 
-![29](../../../static/img/getting-started/user-guide/production/report/jj29.png)
+![29](../../../static/img/usage/production/report/navigate_bom_wastage.png)
 
-![30](../../../static/img/getting-started/user-guide/production/report/jj30.png)
+![30](../../../static/img/usage/production/report/bom_wastage.png)
 
 2. Set the date period, and select if you want to se Stock Assembly or Stock disassembly
 
-![31](../../../static/img/getting-started/user-guide/production/report/jj31.png)
+![31](../../../static/img/usage/production/report/bom_wastage_select_date_range.png)
 
 3. Filter based on project , stock group, item, location, and batch
 
-![32](../../../static/img/getting-started/user-guide/production/report/jj32.png)
+![32](../../../static/img/usage/production/report/bom_wastage_filter.png)
 
 4. Press Apply Button
 
 5. Preview the report
 
-![33](../../../static/img/getting-started/user-guide/production/report/jj33.png)
+![33](../../../static/img/usage/production/report/bom_wastage_example.png)
