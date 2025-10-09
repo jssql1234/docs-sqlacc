@@ -16,7 +16,7 @@ This due to changing SQLAccounting Coding Structure to cater future Changes in T
 
 You will get below error when you preview the report.
 
-![1](../../../../static/img/others/yc6-upgrade.jpg)
+![fr3-report-problem](../../../../static/img/usage/general/others/upgrade721-tax-fr3report/fr3-report-problem.jpg)
 
 ## Solution
 
@@ -24,7 +24,7 @@ You will get below error when you preview the report.
 2. Scroll down & look for **procedure SetUp;**
 3. Replace this script with below script
 
-![2](../../../../static/img/others/yc7-upgrade.jpg)
+![fr3-report-solution1](../../../../static/img/usage/general/others/upgrade721-tax-fr3report/fr3-report-solution1.jpg)
 
 ```pascal
 SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt, Sum(CAST(LocalAmount AS REAL)) LocalAmount '+
@@ -36,12 +36,12 @@ AddDataSet('GSTAmt', ['Tax', 'TaxRate', 'LocalTaxAmt', 'LocalAmount'])
 
 4. Click on **Subreport1** tab
 
-![3](../../../../static/img/others/yc8-upgrade.jpg)
+![fr3-report-solution2](../../../../static/img/usage/general/others/upgrade721-tax-fr3report/fr3-report-solution2.jpg)
 
 5. Double Click the Tax Rate memo
 6. Replace this script with below script
 
-![4](../../../../static/img/others/yc9-upgrade.jpg)
+![fr3-report-solution3](../../../../static/img/usage/general/others/upgrade721-tax-fr3report/fr3-report-solution3.jpg)
 
 ```pascal
 [IIF(Trim(<GSTAmt."TaxRate">)='',<GSTAmt."Tax">,<GSTAmt."Tax"> +' @ ' + <GSTAmt."TaxRate">)]

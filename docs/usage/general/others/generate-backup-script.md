@@ -21,14 +21,14 @@ This command line backup script is only applicable for **Windows 7 & above** onl
 1. To generate backup script for all the databases under the selected database group.
 2. Right click the database group that you want to generate backup script.
 
-![1](../../../../static/img/getting-started/general/yc1-general.jpg)
+![generate-backup-script-grp](../../../../static/img/usage/general/others/generate-backup-script/generate-backup-script-grp.jpg)
 
 ### Generate Backup Script in Database Item
 
 1. To generate backup script for single database
 2. Right click the database that you want to generate backup script
 
-![2](../../../../static/img/getting-started/general/yc2-general.jpg)
+![generate-backup-script-item](../../../../static/img/usage/general/others/generate-backup-script/generate-backup-script-item.jpg)
 
 ### Generate Backup Script
 
@@ -40,7 +40,7 @@ This command line backup script is only applicable for **Windows 7 & above** onl
 6. **Test Email**: Click to test whether email sent successfully to receiver email accounts
 7. **Copy**: The command text will be automatically copy to your clipboard, it is ready to paste in window Task Scheduler (there is a shortcut "Launch Window Task Scheduler")
 
-![3](../../../../static/img/getting-started/general/yc3-general.jpg)
+![generate-backup-script-step1](../../../../static/img/usage/general/others/generate-backup-script/generate-backup-script-step1.jpg)
 
 #### Email setting for TMNet
 
@@ -63,9 +63,9 @@ This command line backup script is only applicable for **Windows 7 & above** onl
     2. [Google AppPassword](https://myaccount.google.com/apppasswords)
 :::
 
-![4](../../../../static/img/getting-started/general/yc4-general.jpg)
+![generate-backup-script-step2](../../../../static/img/usage/general/others/generate-backup-script/generate-backup-script-step2.jpg)
 
-![5](../../../../static/img/getting-started/general/yc5-general.jpg)
+![generate-backup-script-step3](../../../../static/img/usage/general/others/generate-backup-script/generate-backup-script-step3.jpg)
 
 #### Email setting for Yahoo! Mail
 
@@ -92,54 +92,54 @@ Unsupported
 1. Click window menu **Start -> Accessories -> System Tools -> Task Scheduler**
 2. Click **Action -> Create Basic Task**
 
-![6](../../../../static/img/getting-started/general/yc6-general.jpg)
+![add-task-to-scheduler-1](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-1.jpg)
 
 3. Enter Task name
 
-![7](../../../../static/img/getting-started/general/yc7-general.jpg)
+![add-task-to-scheduler-2](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-2.jpg)
 
 4. Click next, choose when you want to trigger the task (e.g Daily)
 
-![8](../../../../static/img/getting-started/general/yc8-general.jpg)
+![add-task-to-scheduler-3](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-3.jpg)
 
 5. Click next, choose the start date and start time and recur every 1 day
 
-![9](../../../../static/img/getting-started/general/yc9-general.jpg)
+![add-task-to-scheduler-4](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-4.jpg)
 
 6. Click next, choose **Start a Program**
 
-![10](../../../../static/img/getting-started/general/yc10-general.jpg)
+![add-task-to-scheduler-5](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-5.jpg)
 
 7. Click next, paste all the backup script text that you copied just now into ****"Program/Script"**
 
-![11](../../../../static/img/getting-started/general/yc11-general.jpg)
+![add-task-to-scheduler-6](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-6.jpg)
 
 8. Set the Start in(optional) path to the Exe folder (eg. **C:\Estream\SQL Accounting**)
 9. Click next, a dialog prompted and click **Yes**
 
-![12](../../../../static/img/getting-started/general/yc12-general.jpg)
+![add-task-to-scheduler-7](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-7.jpg)
 
 10. Click **Next**
 11. Tick the option **Open the Properties dialog for this task when I click Finish**
 
-![13](../../../../static/img/getting-started/general/yc13-general.jpg)
+![add-task-to-scheduler-8](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-8.jpg)
 
 12. Click **Finish**
 13. Select the option **Run whether user is logged on or not**
 
-![14](../../../../static/img/getting-started/general/yc14-general.jpg)
+![add-task-to-scheduler-9](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-9.jpg)
 
 14. Click **Triggers** tab at top then click **Edit...** button
 
-![15](../../../../static/img/getting-started/general/yc15-general.jpg)
+![add-task-to-scheduler-10](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-10.jpg)
 
 15. Change the time to run
 
-![16](../../../../static/img/getting-started/general/yc16-general.jpg)
+![add-task-to-scheduler-11](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-11.jpg)
 
 16. Click OK 2 times
 
-![17](../../../../static/img/getting-started/general/yc17-general.jpg)
+![add-task-to-scheduler-12](../../../../static/img/usage/general/others/generate-backup-script/add-task-to-scheduler-12.jpg)
 
 17. Enter the window **User Name & Password**
 18. Click **Ok**

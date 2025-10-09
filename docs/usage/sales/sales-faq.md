@@ -53,7 +53,7 @@ tags: ["SQL Account", "Sales", "FAQ"]
 
 2. Don't have big currency value like Indonesia country.
 
-![3](../../../static/img/usage/sales/sales-faq/error-msg-sales-price-history/yc1-sales-price-history.jpg)
+![sales-price-history-issue](../../../static/img/usage/sales/sales-faq/error-msg-sales-price-history/sales-price-history-issue.jpg)
 
 ### Solution
 
@@ -63,4 +63,4 @@ tags: ["SQL Account", "Sales", "FAQ"]
 
 3. Change the **Currency Rate** the display format to **#,0.0000** (represent 4 decimals).
 
-![4](../../../static/img/usage/sales/sales-faq/error-msg-sales-price-history/yc2-sales-price-history.jpg)
+![sales-price-history-solution](../../../static/img/usage/sales/sales-faq/error-msg-sales-price-history/sales-price-history-solution.jpg)

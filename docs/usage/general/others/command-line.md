@@ -16,20 +16,20 @@ The switches are case-sensitive.
 
 ### Command switches
 
-![27](../../../../static/img/getting-started/general/yc27-general.png)
+![command-switches](../../../../static/img/usage/general/others/command-line/command-switches.png)
 
 ### General switches
 
-![28](../../../../static/img/getting-started/general/yc28-general.png)
+![general-switches](../../../../static/img/usage/general/others/command-line/general-switches.png)
 
 ### Unit testing switches
 
-![29](../../../../static/img/getting-started/general/yc29-general.png)
+![unit-testing-switches](../../../../static/img/usage/general/others/command-line/unit-testing-switches.png)
 
 ### Backup switches
 
-![30](../../../../static/img/getting-started/general/yc30-general.png)
+![backup-switches](../../../../static/img/usage/general/others/command-line/backup-switches.png)
 
 ### E-mail switches
 
-![31](../../../../static/img/getting-started/general/yc31-general.png)
+![email-switches](../../../../static/img/usage/general/others/command-line/email-switches.png)
