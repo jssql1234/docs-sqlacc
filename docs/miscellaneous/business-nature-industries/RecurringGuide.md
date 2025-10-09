@@ -3,7 +3,7 @@ sidebar_position: 3
 id: recurring-guide
 title: Recurring Guide
 description: Guide on Recurring
-slug: /business-nature-industries/recurring-guide
+slug: /miscellaneous/recurring-guide
 tags: ["Sample Recurring", "Company"]
 ---
 
@@ -201,13 +201,13 @@ The Item Code List is filter by Stock Group Code LIKE MAINTENANCE%
 
 Quotation - SQFT
 
-![ch350](../../../static/img/business-nature-industries/sample-recurring-company/ch350.jpg)
+![recurring-quotation](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/recurring-quotation.jpg)
 
 Quotation - Utilities - Price Range
 
 Below Example is for Price Range Water Reading
 
-![ch351](../../../static/img/business-nature-industries/sample-recurring-company/ch351.jpg)
+![recurring-quotation-2](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/recurring-quotation-2.jpg)
 
 1. Tick Use Price Range
 2. Select Item Code (eg WATER for Water Reading)
@@ -314,7 +314,7 @@ eg
 * Lead Time => 0: Both, 1: Rebate Only, 2: Min Charge Only
 * For MinCharge make sure it had Value else set at 1
 
-![ch352](../../../static/img/business-nature-industries/sample-recurring-company/ch352.jpg)
+![ch352](../../../static/img/miscellaneous/business-nature-industries/sample-recurring-company/ch352.jpg)
 
 :::success How System calculate Min. Qty for Min. Charge?
 * Using above example => Min. Qty := 5 / 0.3121 = 16.0205
@@ -324,7 +324,7 @@ eg
 ### Customer Payment
 
 *Menu: Customer | Customer Payment...*
-* Auto Generate Sales DN for overdue IV if UDF_PostDN (in [DIY Fields](/usage/Tools-New/Tools#maintain-diy)) Default Value is set to True (Default is False)
+* Auto Generate Sales DN for overdue IV if UDF_PostDN (in [DIY Fields](../../../usage/Tools/Tools#maintain-diy)) Default Value is set to True (Default is False)
 * Only Knock-off to DN will not regenerate DN again if overdue
 * Formula for Age
 
@@ -374,7 +374,7 @@ if Age < DaysInAMonth(edDueDate.Date) then
 Unit Price := Rate/365 * Outstanding amount (Excluding GST)
 ```
 
-![ch353](../../../static/img/business-nature-industries/sample-recurring-company/ch353.jpg)
+![custDueDocListing](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/custDueDocListing.jpg)
 
 1. Set the Date to generate Overdue
 2. Tick the following option
@@ -402,7 +402,7 @@ For more accurate calculation for Unit Price, try set the Unit Price to 4 Decima
 
 Base on the parameter selected & result shown in the grid
 
-![ch354](../../../static/img/business-nature-industries/sample-recurring-company/ch354.jpg)
+![salesDocList](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/salesDocList.jpg)
 
 ### Batch Delete Document
 
@@ -443,11 +443,11 @@ Below is example to Copy from Invoice to Invoice
 
 Generating Maintenance - SQFT
 
-![ch355](../../../static/img/business-nature-industries/sample-recurring-company/ch355.jpg)
+![maintainCust](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/maintainCust.jpg)
 
 1. Click 1. Gen/B button.
 
-![ch356](../../../static/img/business-nature-industries/sample-recurring-company/ch356.jpg)
+![custList](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/custList.jpg)
 
 2. Untick any Customer you don't wanted to Generate
 3. Select the Item Code.
@@ -472,7 +472,7 @@ is shown at Browse Screen before Click the Gen/B button
 
 #### Generating Maintenance
 
-![ch357](../../../static/img/business-nature-industries/sample-recurring-company/ch357.jpg)
+![quotMaintainence](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/quotMaintainence.jpg)
 
 1. Enter/Change the Description to be shown in Sales Invoice & Customer Statement
 2. Enter/Change the Date & Terms & other Information in Detail
@@ -481,7 +481,7 @@ is shown at Browse Screen before Click the Gen/B button
 5. Click Save button.
 6. Click 3. Generate Bill button.
 
-![ch358](../../../static/img/business-nature-industries/sample-recurring-company/ch358.jpg)
+![custGenerate](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/custGenerate.jpg)
 
 1. Untick any Customer you don't wanted to Generate
 2. Click Ok button to generate
@@ -491,7 +491,7 @@ is shown at Browse Screen before Click the Gen/B button
 
 #### Generating Meter Reading
 
-![ch359](../../../static/img/business-nature-industries/sample-recurring-company/ch359.jpg)
+![meterReading](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/meterReading.jpg)
 
 1. Enter/Change the Description to be shown in Sales Invoice & Customer Statement
 2. Enter/Change the **Date & Terms** & other Information in Detail
@@ -500,7 +500,7 @@ is shown at Browse Screen before Click the Gen/B button
 5. Click Save button.
 6. Click **3. Generate Bill** button.
 
-![ch360](../../../static/img/business-nature-industries/sample-recurring-company/ch360.jpg)
+![tick](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/tick.jpg)
 
 1. Untick any Customer you don't wanted to Generate
 2. Enter the Current Reading for each Customer
@@ -517,7 +517,7 @@ Just click Yes to avoid keep prompt again
 
 *Menu: Customer | Customer Payment...*
 
-![ch361](../../../static/img/business-nature-industries/sample-recurring-company/ch361.jpg)
+![custPaymentEntry](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/custPaymentEntry.jpg)
 
 Below is example for **Generating Due Interest** from Customer Payment
 
@@ -526,7 +526,7 @@ Below is example for **Generating Due Interest** from Customer Payment
 3. Enter & Select the DN Information
 4. Click **0. Show Due IV/DN...** button
 
-![ch362](../../../static/img/business-nature-industries/sample-recurring-company/ch362.jpg)
+![dueInterest](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/dueInterest.jpg)
 
 5. May untick which don't wanted to include the Due Interest Calculation.
 6. Click **Post DN** Button to Post/Generate Due Interest DN
@@ -583,7 +583,7 @@ It use
     Yes can just Create & set the Code as zProfile for Agent and/or Terms
 
 
-![ch363](../../../static/img/business-nature-industries/sample-recurring-company/ch363.jpg)
+![zProfile](../../../static/img/miscellaneous/business-nature-industries/recurringGuide/zProfile.jpg)
 
 ### Why at Maintain Customer Gen/B I can't select the Itemcode? 
 
