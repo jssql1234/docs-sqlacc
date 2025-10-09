@@ -76,7 +76,7 @@ Download Path for [7 Zip](https://www.7-zip.org/download.html)
 * Make sure install the right one or else you cannot find 7 zip to Extract.
 :::
 
-![1](../../../static/img/getting-started/user-guide/wl46.png)
+![1](../../../static/img/getting-started/ubs/restore-step3.png)
 
 3. After extract the backup file or restore the backup file then in SQL Account Software you have to Create New Database and logon into the new company.
 Video Link may refer below : https://www.youtube.com/watch?v=H7C14DzLyPE
@@ -87,22 +87,22 @@ Video Link may refer below : https://www.youtube.com/watch?v=H7C14DzLyPE
 Here are the step-by-step guide to importing master data:-
 
 1. Go to File | Data Import | UBS Account and select the UBS Account database folder.
-![2](../../../static/img/getting-started/user-guide/wl47.png)
+![2](../../../static/img/getting-started/ubs/importmd-step1-1.png)
 Info :
 - Account which mean import COA, Maintain Customer, Maintain Supplier, Agent, Area, Term, Project, Currency and Customer & Supplier Outstanding
 - Stock which mean import Stock Group, Stock Category, Stock Location, Stock Price Tag, Stock Item, Sales Invoice History, Sales Delivery Order History, Purchase Invoice History.
 - Assign the UBS Account & UBS Stock backup folder accordingly with click on “Select Folder” then click Connect, first of all you must import Chart of Account.Tick Chart of Account and Execute.
 
-![3](../../../static/img/getting-started/user-guide/wl48.png)
+![3](../../../static/img/getting-started/ubs/importmd-step1-2.png)
 - Once you have done import Chart of Account, it’s prompt an message that successful and you have to do few setting according to the message.
-![4](../../../static/img/getting-started/user-guide/wl49.png)
+![4](../../../static/img/getting-started/ubs/importmd-step1-3.png)
 
 - Go to GL | Maintain Account and check the trade debtor/creditor control account, bank account & etc. if they exist and their respective Special Account Type is correct.
 - Go to Tools | Options | Customer and change the Default Control Account. Repeat the same for Supplier.
-![5](../../../static/img/getting-started/user-guide/wl50.png)
+![5](../../../static/img/getting-started/ubs/importmd-step1-4.png)
 
 - Go to Tools | Options | General Ledger and set the Default Account accordingly
-![6](../../../static/img/getting-started/user-guide/wl51.png)
+![6](../../../static/img/getting-started/ubs/importmd-step1-5.png)
 
 - Now, go back to File | Data Import | UBS Account and import the remaining master data - Agent, Area, Project, Terms, Currency, Customer and Supplier Master Account
 - Click Execute and wait for the import to complete.
@@ -111,7 +111,7 @@ Video link may refer below : https://youtu.be/H7C14DzLyPE?t=1m26s
 #### Import Stock Master Data
 1. Go to File | Data Import | UBS Stock.
 
-![6](../../../static/img/getting-started/user-guide/wl52.png)
+![7](../../../static/img/getting-started/ubs/importsmd-step1.png)
 
 2. Select the UBS Stock database folder.
 - Tick Stock Group, Category, Location, Price Tag.
@@ -119,11 +119,11 @@ Video link may refer below : https://youtu.be/H7C14DzLyPE?t=1m26s
 Please make sure user have purchase those module before import!
 :::
 
-![7](../../../static/img/getting-started/user-guide/wl53.png)
+![8](../../../static/img/getting-started/ubs/importsmd-step2-1.png)
 
 - When import stock item code, make sure you have choose others option as below :
 
-![8](../../../static/img/getting-started/user-guide/wl54.png)
+![9](../../../static/img/getting-started/ubs/importsmd-step2-2.png)
 
 :::caution
 *Also pay attention to the options below where you can choose to import extra Stock Item data such as UOM with Rate < 1, Stock Opening Balance & etc.
@@ -131,7 +131,7 @@ Please make sure user have purchase those module before import!
 
 **If you want to import Stock Customer & Supplier price:**
 
-![9](../../../static/img/getting-started/user-guide/wl55.png)
+![10](../../../static/img/getting-started/ubs/importsmd-step2-3.png)
 
 :::caution
 this feature only available in version 737 and above. 
@@ -149,7 +149,7 @@ The following steps are required if you are importing opening balance or current
 2. If current transactions involve GST tax code, go to GST | Start GST Now to activate GST module.
 3. To minimize any pop-up dialog during import:-
 - **Go to Tools | Options | Unit Price. For all tabs (Sales, Purchase, Stock, Cash Sales & Cash Purchase), under the Option column, change all to blank** as shown below:-
-![10](../../../static/img/getting-started/user-guide/wl56.png)
+![11](../../../static/img/getting-started/ubs/prepare-step3.png)
 
 - Go to **Tools | Options | Miscellaneous and untick Prompt Negative Stock Quantity Dialog Box and Prompt Duplicate Cheque Number**
 - **Logout and login as the new user you created.**
@@ -170,7 +170,7 @@ The following steps are required if you are importing opening balance or current
 4. Login SQL Account, make sure you have insert season code for this database, and Start GST feature in SQL Account Software
 5. Now, go to File | Data Import | UBS Stock. Under Stock Item, tick the Price History - XXX options you wish to import.
 
-![11](../../../static/img/getting-started/user-guide/wl57.png)
+![12](../../../static/img/getting-started/ubs/sales-step5.png)
 
 **may refer below : https://www.youtube.com/watch?v=s0GR8MDF5J4**
 
@@ -200,7 +200,7 @@ Video link may refer below : https://youtu.be/s0GR8MDF5J4?t=1m57s
 This is because after year end cut off UBS will auto generate a new folder for old financial cut off period.
 :::
 - After select folder, under Customer/Supplier Master Account, tick the Opening Customer/Supplier - XXX options you wish to import.
-![12](../../../static/img/getting-started/user-guide/wl58.png)
+![13](../../../static/img/getting-started/ubs/after-year-end.png)
 
 - You may tick all the opening at the same time. (Customer Payment takes longer time to import in).
 - Note : After done. May compare Customer Aging with UBS :
@@ -214,21 +214,21 @@ Video link may refer below : https://youtu.be/s0GR8MDF5J4?t=2m54s
 1. Go to File | Data Import | UBS Stock and select the UBS Stock database folder.
 2. Under Stock Item, tick the Current Transaction - XXX options that you wish to import.
 3. Click Execute and wait for the import to complete.
-![13](../../../static/img/getting-started/user-guide/wl59.png)
+![14](../../../static/img/getting-started/ubs/current-trans.png)
 
-**Import Sales & Purchase Current Transaction**
+**Import AP,AR,GL Current Transaction**
 1. Go to File | Data Import | UBS Stock and select the UBS Stock database folder.
 2. Under Stock Item, tick the Current Transaction - XXX options that you wish to import.
 3. Click Execute and wait for the import to complete.
 4. Repeat the same steps for options under Supplier Current Transaction and GL Current Transaction.
 
-![14](../../../static/img/getting-started/user-guide/wl60.png)
+![15](../../../static/img/getting-started/ubs/ap-ar-gl-trans.png)
 **Troubleshooting**
 1. First, it is best to tick and import one item at a time and perform backup before importing the next item.
 2. This is what you can do if the import process stopped halfway because of some error:-
 3. First, you can click "Copy log to clipboard" button and paste it into a notepad or just copy the last line of the log manually
 
-![15](../../../static/img/getting-started/user-guide/wl61.png)
+![16](../../../static/img/getting-started/ubs/troubleshoot.png)
 
 - Then, you can skip the record with error as shown below:-
 1. Highlight the item you're importing
@@ -237,11 +237,11 @@ Video link may refer below : https://youtu.be/s0GR8MDF5J4?t=2m54s
 
 **Sales & Purchase**
 
-![16](../../../static/img/getting-started/user-guide/wl62.png)
+![17](../../../static/img/getting-started/ubs/snp.png)
 
 **GL, AR & AP**
 
-![17](../../../static/img/getting-started/user-guide/wl63.png)
+![18](../../../static/img/getting-started/ubs/gl-ar-ap.png)
 
 :::caution
 - Please double check all data imported into SQL Account from UBS.
