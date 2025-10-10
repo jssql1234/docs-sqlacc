@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: GST 
 description: GST
-slug: /usage/GST/GST/GST
+slug: /usage/GST_and_SST/GST
 tags: ["SQL Account", "Usage", "GST"]
 ---
 
@@ -1535,7 +1535,7 @@ With this **GST-Ledger-Vs-GST-03** report, you can very easy identify out the re
 
 ### Foreign Currency Exchange Rate
 
-1. Always update the currency exchange rate at Tools | [Maintain Currency](/usage/Tools/Tools#maintain-currency).
+1. Always update the currency exchange rate at Tools | [Maintain Currency](/usage/tools/guide#maintain-currency).
 2. Critical cost on output tax if bill in foreign currency to local customer:
 
 | Currency | Status     | Exchange Rate | Amount   | Local Amount | Output Tax |

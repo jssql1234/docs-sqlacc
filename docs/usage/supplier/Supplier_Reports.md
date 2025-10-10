@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Reports
 description: MyInvois onboarding process
-slug: /usage/supplier/Supplier Reports
+slug: /usage/supplier/Reports
 tags: ["SQL Account", "Reports"]
 ---
 

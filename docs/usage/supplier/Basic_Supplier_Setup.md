@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
-title: Guide
+title: Setup
 description: Basic Supplier Setup
-slug: /usage/supplier/Basic Setup/Basic Supplier Setup
+slug: /usage/supplier/Setup
 tags: ["SQL Account", "Usage", "Supplier"]
 ---
 
@@ -95,11 +95,11 @@ This setting set the supplier who has supply the taxable goods under the Sales T
 | **Field Name** | **Explanation & Properties** |
 |----------------|-------------------------------|
 | Tariff         | • Add tariff code of taxable goods to be sold in exemption.  |
-|                | • Lookup: [Maintain Tariff](/usage/Tools/Tools#maintain-tariff)  |
+|                | • Lookup: [Maintain Tariff](/usage/Tools/guide#maintain-tariff)  |
 |                | • Related Topic: [Maintain Stock Item → Main Header](/usage/stock/stock-guide#maintain-stock-item) |
 | Tax            | • Select an appropriate tax code that falls under the Person Exempted in **Schedule C ONLY** (must be declared in SST-02). |
 |                | • Schedule C tax code: PEC1, PEC2, PEC3, PEC4, PEC5 |
-|                | • Lookup: [Maintain Tax](/usage/GST/GST/GST#maintain-tax) |
+|                | • Lookup: [Maintain Tax](/usage/GST_and_SST/GST#maintain-tax) |
 
 #### Bank Account
 
@@ -674,7 +674,7 @@ Sample of supplier statement screenshot below.
 
 ### Basic Entry
 
-Assume that you have create the [Customer Contra](/usage/Customer/Customer#customer-contra). You will found the same contra no. appeared in the Supplier Contra.
+Assume that you have create the [Customer Contra](/usage/customer/guide#customer-contra). You will found the same contra no. appeared in the Supplier Contra.
 1. Highlight the Contra No to edit. Click on Edit button.
 2. See the Supplier Contra entry form screenshot below.
 
@@ -695,7 +695,7 @@ Assume that you have create the [Customer Contra](/usage/Customer/Customer#custo
 
 :::note TIPS
 
-To ensure the contra account has set properly. [Contra Account](/usage/Tools/Tools#options)
+To ensure the contra account has set properly. [Contra Account](/usage/tools/guide#options)
 
 :::
 
