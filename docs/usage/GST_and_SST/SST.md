@@ -947,7 +947,7 @@ Applicable to same service provider under:
 
 ### Quick Setup for Tariff Code
 
-1. Create the tariff code applicable to your product at [Maintain Tariff](/usage/Tools-New/Tools#maintain-tariff).
+1. Create the tariff code applicable to your product at [Maintain Tariff](/usage/Tools/Tools#maintain-tariff).
 
 ![SST_Tariff_Code_1](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-1.jpg)
 
@@ -955,7 +955,7 @@ Applicable to same service provider under:
 
 ![SST_Tariff_Code_2](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-2.jpg)
 
-3. For exemption certificate case (under Schedule A, B, C), a tariff and tax code (SEA, SEB, SEC1, SEC2, SEC3, SEC4, SEC5) should set in [Maintain Customer](/usage/Customer%20New/Customer#maintain-customer) and [Maintain Supplier](/usage/supplier/Basic%20Setup/Basic%20Supplier%20Setup#maintain-supplier) (Tariff code setting under Tax Tab).
+3. For exemption certificate case (under Schedule A, B, C), a tariff and tax code (SEA, SEB, SEC1, SEC2, SEC3, SEC4, SEC5) should set in [Maintain Customer](/usage/Customer/Customer#maintain-customer) and [Maintain Supplier](/usage/supplier/Basic%20Setup/Basic%20Supplier%20Setup#maintain-supplier) (Tariff code setting under Tax Tab).
 
 ![SST_Tariff_Code_3](../../../static/img/usage/gst-and-sst/sst/SST-QuickSetupForTariffCode-3.jpg)
 
