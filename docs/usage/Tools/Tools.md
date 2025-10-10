@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Guide
 description: Maintenance
-slug: /usage/Tools/Tools
+slug: /usage/tools/guide
 tags: ["SQL Account", "Usage", "Tools"]
 ---
 
@@ -314,7 +314,7 @@ Customer Invoice **invoice billing in USD**, but **payment paid in your local RM
 :::note
 Customer Invoice **billing in USD, Payment paid in your Foreign USD Bank**
 
-*([Advance Currency](../../../usage/Tools/ToolsFAQ#advanced-currency-module) modules required)*
+*([Advance Currency](/usage/tools/faq#advanced-currency-module) modules required)*
 :::
 
    1. Go to Tools > Maintain Payment > edit your USD Bank
@@ -2308,4 +2308,4 @@ Each time user Click the [Maintain DIY](#maintain-diy) it will prompt below dial
 Make sure you had keep few copy of QRCode as once you lost all we not able to retrieve back the Access ID
 :::
 
-> More Customisations at [SQL Control Center](/Customisation/sqlControlCenter)
+> More Customisations at [SQL Control Center](/usage/customisation/sqlControlCenter)

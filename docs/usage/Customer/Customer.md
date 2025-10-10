@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Guide
 description: Customer workflow
-slug: /usage/Customer/Customer
+slug: /usage/customer/guide
 tags: ["SQL Account", "Usage", "Customer"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: SQL Control Center
 description: Customisations in SQL Control Center
-slug: /Customisation/sqlControlCenter
+slug: /usage/customisation/sqlControlCenter
 tags: ["SQL Account"]
 ---
 

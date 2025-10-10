@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: FAQ
 description: FAQ related to Asset
-slug: /usage/asset/assetFaq/AssetFAQ
+slug: /usage/asset/faq
 tags: ["SQL Account", "Asset", "FAQ"]
 ---
 
@@ -87,7 +87,7 @@ For **Intangible Asset** (eg. goodwill, license), the **amortization calculation
 
 Yes, can. Asset import function available in SQL Account version 5.2022.948.826
 
-Refer to [Import-Asset Master List](/usage/asset/assetBasicGuide/Basic%20Guide#importing-asset-master-list)
+Refer to [Import-Asset Master List](/usage/asset/guide#importing-asset-master-list)
 
 ## How to handle additional cost for the Fixed Asset?
 

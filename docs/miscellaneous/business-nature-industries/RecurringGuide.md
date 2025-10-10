@@ -324,7 +324,7 @@ eg
 ### Customer Payment
 
 *Menu: Customer | Customer Payment...*
-* Auto Generate Sales DN for overdue IV if UDF_PostDN (in [DIY Fields](../../../usage/Tools/Tools#maintain-diy)) Default Value is set to True (Default is False)
+* Auto Generate Sales DN for overdue IV if UDF_PostDN (in [DIY Fields](/usage/tools/guide#maintain-diy)) Default Value is set to True (Default is False)
 * Only Knock-off to DN will not regenerate DN again if overdue
 * Formula for Age
 

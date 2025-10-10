@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: FAQ
 description: Solution for Sales
-slug: /usage/sales/sales-faq
+slug: /usage/sales/faq
 tags: ["SQL Account", "Sales", "FAQ"]
 ---
 

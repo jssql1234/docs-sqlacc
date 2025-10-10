@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Guide
 description: Sales work flow
-slug: /usage/sales/sales
+slug: /usage/sales/guide
 tags: ["SQL Account", "Usage", "Sales"]
 ---
 

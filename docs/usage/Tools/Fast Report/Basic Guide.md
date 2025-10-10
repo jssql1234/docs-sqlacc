@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Basic Guide
 description: How to do custom reports 
-slug: /usage/Tools/Fast Report/Basic Guide
+slug: /usage/tools/fast-report/guide
 tags: ["SQL Account", "Usage", "Tools"]
 ---
 

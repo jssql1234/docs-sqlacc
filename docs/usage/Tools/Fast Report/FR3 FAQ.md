@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: FR3 FAQ
 description: How to do custom reports
-slug: /usage/Tools/Fast Report/FR3 FAQ
+slug: /usage/tools/fast-report/faq
 tags: ["SQL Account", "Usage", "Tools"]
 ---
 
