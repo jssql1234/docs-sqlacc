@@ -10,11 +10,11 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 1. **Report Object**
 
-    ![1](../../../../static/img/report/fastReport-basicGuide/1.png)
+    ![1](../../../../static/img/usage/tools/fastReport-basicGuide/1.png)
 
 2. **Align Toolbar**
 
-    ![2](../../../../static/img/report/fastReport-basicGuide/2.png)
+    ![2](../../../../static/img/usage/tools/fastReport-basicGuide/2.png)
 
 ## Sales Inovice Bands
 
@@ -41,11 +41,11 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 2. Sample Layout in Design Mode
 
-    ![3](../../../../static/img/report/fastReport-basicGuide/3.png)
+    ![3](../../../../static/img/usage/tools/fastReport-basicGuide/3.png)
 
 3. Sample Layout on Preview Mode
 
-    ![4](../../../../static/img/report/fastReport-basicGuide/4.png)
+    ![4](../../../../static/img/usage/tools/fastReport-basicGuide/4.png)
 
 4. Print Position
 
@@ -69,11 +69,11 @@ tags: ["SQL Account", "Usage", "Tools"]
 
       1. Click on ***Group Footer*** -> Click on ***Properties*** -> ***Events*** Tab -> Double Click on ***OnbeforePrint*** event name
 
-            ![5](../../../../static/img/report/fastReport-basicGuide/5.png)
+            ![5](../../../../static/img/usage/tools/fastReport-basicGuide/5.png)
 
       2. Adjust the value
 
-            ![6](../../../../static/img/report/fastReport-basicGuide/6.png)
+            ![6](../../../../static/img/usage/tools/fastReport-basicGuide/6.png)
 
 5. Stop Position vs Print Count
 
@@ -87,11 +87,11 @@ tags: ["SQL Account", "Usage", "Tools"]
 
       1. Right click ***DetailData1*** -> Click on ***Events*** Tab -> Double click ***onAfterCalcHeight*** name
 
-            ![7](../../../../static/img/report/fastReport-basicGuide/7.png)
+            ![7](../../../../static/img/usage/tools/fastReport-basicGuide/7.png)
 
       2. Setting the stop position
 
-            ![8](../../../../static/img/report/fastReport-basicGuide/8.png)
+            ![8](../../../../static/img/usage/tools/fastReport-basicGuide/8.png)
 
             :::tip[SMALL TIPS]
             1. Set Either Print Count or Stop Position
@@ -101,7 +101,7 @@ tags: ["SQL Account", "Usage", "Tools"]
 
       3. Sample on Print Position / Stop Position
 
-            ![9](../../../../static/img/report/fastReport-basicGuide/9.png)
+            ![9](../../../../static/img/usage/tools/fastReport-basicGuide/9.png)
 
 ## How to design Simple Sales Invoice?
 
@@ -112,31 +112,31 @@ tags: ["SQL Account", "Usage", "Tools"]
 
    1. Click on Picture Object
 
-        ![10](../../../../static/img/report/fastReport-basicGuide/10.png)
+        ![10](../../../../static/img/usage/tools/fastReport-basicGuide/10.png)
 
    2. Place on Report Page
 
-        ![11](../../../../static/img/report/fastReport-basicGuide/11.png)
+        ![11](../../../../static/img/usage/tools/fastReport-basicGuide/11.png)
 
       - **Fix Picture**
 
          1. Click on Load
 
-            ![12](../../../../static/img/report/fastReport-basicGuide/12.png)
+            ![12](../../../../static/img/usage/tools/fastReport-basicGuide/12.png)
 
          2. Select the Picture on your local drive
 
-         3. Click on ![tick](../../../../static/img/report/fastReport-basicGuide/tick.png)
+         3. Click on ![tick](../../../../static/img/usage/tools/fastReport-basicGuide/tick.png)
 
-            ![13](../../../../static/img/report/fastReport-basicGuide/13.png)
+            ![13](../../../../static/img/usage/tools/fastReport-basicGuide/13.png)
 
          4. Adjust to the desire size
 
-            ![14](../../../../static/img/report/fastReport-basicGuide/14.png)
+            ![14](../../../../static/img/usage/tools/fastReport-basicGuide/14.png)
 
       - **Capture Picture from Report Dataset**
 
-            ![15](../../../../static/img/report/fastReport-basicGuide/15.png)
+            ![15](../../../../static/img/usage/tools/fastReport-basicGuide/15.png)
 
 2. **Text Memo**
 
@@ -144,19 +144,19 @@ tags: ["SQL Account", "Usage", "Tools"]
 
       1. Click on Text Memo
 
-          ![16](../../../../static/img/report/fastReport-basicGuide/16.png)
+          ![16](../../../../static/img/usage/tools/fastReport-basicGuide/16.png)
 
       2. Place on Report Page
 
       3. Enter Text : Email
 
-            ![17](../../../../static/img/report/fastReport-basicGuide/17.png)
+            ![17](../../../../static/img/usage/tools/fastReport-basicGuide/17.png)
 
       4. Repeat Step i & ii
 
       5. Select Document_CompanyBranch -> Email Expression
 
-            ![18](../../../../static/img/report/fastReport-basicGuide/18.png)
+            ![18](../../../../static/img/usage/tools/fastReport-basicGuide/18.png)
 
 3. **Rich Text Object**
 
@@ -164,13 +164,13 @@ tags: ["SQL Account", "Usage", "Tools"]
 
    1. Click on RichText Object
 
-        ![19](../../../../static/img/report/fastReport-basicGuide/19.png)
+        ![19](../../../../static/img/usage/tools/fastReport-basicGuide/19.png)
 
    2. Place on Report Page
 
    3. Select Main -> Note
 
-        ![20](../../../../static/img/report/fastReport-basicGuide/20.png)
+        ![20](../../../../static/img/usage/tools/fastReport-basicGuide/20.png)
 
 4. **System Text**
 
@@ -178,25 +178,25 @@ tags: ["SQL Account", "Usage", "Tools"]
 
         1. Click on System Text Object
 
-            ![21](../../../../static/img/report/fastReport-basicGuide/21.png)
+            ![21](../../../../static/img/usage/tools/fastReport-basicGuide/21.png)
 
         2. Place on the Report Page
 
         3. Select Aggregate value
 
-            ![22](../../../../static/img/report/fastReport-basicGuide/22.png)
+            ![22](../../../../static/img/usage/tools/fastReport-basicGuide/22.png)
 
 5. **Draw Line**
 
    1. Click on Line
 
-      ![23](../../../../static/img/report/fastReport-basicGuide/23.png)
+      ![23](../../../../static/img/usage/tools/fastReport-basicGuide/23.png)
 
    2. Place on the Report Page
 
    3. Draw a line
 
-      ![24](../../../../static/img/report/fastReport-basicGuide/24.png)
+      ![24](../../../../static/img/usage/tools/fastReport-basicGuide/24.png)
 
 6. **Center Horizontally in Band**
 
@@ -206,13 +206,13 @@ tags: ["SQL Account", "Usage", "Tools"]
 
      2. Click on Center Horizontally In Band
 
-         ![25](../../../../static/img/report/fastReport-basicGuide/25.png)
+         ![25](../../../../static/img/usage/tools/fastReport-basicGuide/25.png)
 
 7. **Align Left / Middle / Right**
 
    1. Click on the multiple Object to Align as same alignment. System will follow the first object as alignment
 
-      ![26](../../../../static/img/report/fastReport-basicGuide/26.png)
+      ![26](../../../../static/img/usage/tools/fastReport-basicGuide/26.png)
 
 8. **Save the File**
 
@@ -222,30 +222,30 @@ tags: ["SQL Account", "Usage", "Tools"]
 
    Result:
 
-   ![27](../../../../static/img/report/fastReport-basicGuide/27.png)
+   ![27](../../../../static/img/usage/tools/fastReport-basicGuide/27.png)
 
 ## How to create the Subreport in Report?
 
 - Preview Invoice
 - Click on ***Report Name*** to enter to Design Mode
 
-   ![28](../../../../static/img/report/fastReport-basicGuide/28.png)
+   ![28](../../../../static/img/usage/tools/fastReport-basicGuide/28.png)
 
   1. Click on **Subreport Object**
 
-      ![29](../../../../static/img/report/fastReport-basicGuide/29.png)
+      ![29](../../../../static/img/usage/tools/fastReport-basicGuide/29.png)
 
      1. Place on Report Page you want to show.
 
-         ![30](../../../../static/img/report/fastReport-basicGuide/30.png)
+         ![30](../../../../static/img/usage/tools/fastReport-basicGuide/30.png)
 
   2. System will prompt a new blank page for Subreport
 
-      ![31](../../../../static/img/report/fastReport-basicGuide/31.png)
+      ![31](../../../../static/img/usage/tools/fastReport-basicGuide/31.png)
 
   3. Click on **Insert Band** to design the layout or insert the data
 
-      ![32](../../../../static/img/report/fastReport-basicGuide/32.png)
+      ![32](../../../../static/img/usage/tools/fastReport-basicGuide/32.png)
 
       *\*\*May refer 2.1 Understand Bands at Page 4 on what band to use*
 
@@ -255,23 +255,23 @@ tags: ["SQL Account", "Usage", "Tools"]
 
    1. Click on CheckBox object
 
-      ![33](../../../../static/img/report/fastReport-basicGuide/33.png)
+      ![33](../../../../static/img/usage/tools/fastReport-basicGuide/33.png)
 
    2. Place on the place you want to show.
 
-      ![34](../../../../static/img/report/fastReport-basicGuide/34.png)
+      ![34](../../../../static/img/usage/tools/fastReport-basicGuide/34.png)
 
    3. Press on the button
 
-      ![35](../../../../static/img/report/fastReport-basicGuide/35.png)
+      ![35](../../../../static/img/usage/tools/fastReport-basicGuide/35.png)
 
    4. Select the frame design
 
-      ![36](../../../../static/img/report/fastReport-basicGuide/36.png)
+      ![36](../../../../static/img/usage/tools/fastReport-basicGuide/36.png)
 
    5. Change to False
 
-      ![37](../../../../static/img/report/fastReport-basicGuide/37.png)
+      ![37](../../../../static/img/usage/tools/fastReport-basicGuide/37.png)
 
    6. Save the File
       1. File -> Save As -> Enter Report Name -> Save
@@ -279,17 +279,17 @@ tags: ["SQL Account", "Usage", "Tools"]
 
    Result :
 
-      ![38](../../../../static/img/report/fastReport-basicGuide/38.png)
+      ![38](../../../../static/img/usage/tools/fastReport-basicGuide/38.png)
 
 2. **Query to show Check Box either True to False**
 
    1. Click on CheckBox | Double Click OnBeforePrint
 
-        ![39](../../../../static/img/report/fastReport-basicGuide/39.png)
+        ![39](../../../../static/img/usage/tools/fastReport-basicGuide/39.png)
 
    2. Place a Query below
 
-        ![40](../../../../static/img/report/fastReport-basicGuide/40.png)
+        ![40](../../../../static/img/usage/tools/fastReport-basicGuide/40.png)
 
         Query:
 
@@ -307,21 +307,21 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 1. Insert Band | Select Overlay
 
-   ![41](../../../../static/img/report/fastReport-basicGuide/41.png)
+   ![41](../../../../static/img/usage/tools/fastReport-basicGuide/41.png)
 
 2. Insert Picture / Text to load in the water mark
 
-   ![42](../../../../static/img/report/fastReport-basicGuide/42.png)
+   ![42](../../../../static/img/usage/tools/fastReport-basicGuide/42.png)
 
 3. Overlay size can drag the same size as A4/Letter, and place the watermark on the position you want to show.
 
-   ![43](../../../../static/img/report/fastReport-basicGuide/43.png)
+   ![43](../../../../static/img/usage/tools/fastReport-basicGuide/43.png)
 
 4. File | Save As: Enter report name
 
 5. Preview and see the Result :
 
-   ![44](../../../../static/img/report/fastReport-basicGuide/44.png)
+   ![44](../../../../static/img/usage/tools/fastReport-basicGuide/44.png)
 
 ## Fast Report - Doing Simple Calculation
 
@@ -329,22 +329,22 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 1. Below is example using Sales Invoice to get Net Unit Price (after Discount)
 
-![netUnitPrice](../../../../static/img/report/fastReport-basicGuide/net-unit-price.jpg)
+![netUnitPrice](../../../../static/img/usage/tools/fastReport-basicGuide/net-unit-price.jpg)
 
 1. Click the Red A Icon.
 2. Click on the place to be print/shown.
 
-![memoABC](../../../../static/img/report/fastReport-basicGuide/memo-abc.jpg)
+![memoABC](../../../../static/img/usage/tools/fastReport-basicGuide/memo-abc.jpg)
 
 3. Click the ABC Icon
 
-![DocumentDetailExpression](../../../../static/img/report/fastReport-basicGuide/document-detail-expression.jpg)
+![DocumentDetailExpression](../../../../static/img/usage/tools/fastReport-basicGuide/document-detail-expression.jpg)
 
 4. Scroll and look for Document_Detail Pipeline/Section & Double click the field to Insert (eg Amount & Qty)
 5. Change the Expression or Formula here
 6. Click Ok button.
 
-![memoFormat&Category](../../../../static/img/report/fastReport-basicGuide/memo-format&Category.jpg)
+![memoFormat&Category](../../../../static/img/usage/tools/fastReport-basicGuide/memo-format&Category.jpg)
 
 7. Click Format tab
 8. Set Category to Number & Format to 1,234.50
@@ -390,13 +390,13 @@ There are 2 ways to Get the data directly from Database
 
 * At Sales Invoice to get Shelf field from Maintain Item
 
-![fr3GetShelfField](../../../../static/img/report/fastReport-basicGuide/fr3-get-shelf-field.jpg)
+![fr3GetShelfField](../../../../static/img/usage/tools/fastReport-basicGuide/fr3-get-shelf-field.jpg)
 
 1. Click the Red A Icon.
 2. Click on the place to be print/shown.
 3. Right Click the Memo.
 
-![rightClickMemo](../../../../static/img/report/fastReport-basicGuide/right-click-memo.jpg)
+![rightClickMemo](../../../../static/img/usage/tools/fastReport-basicGuide/right-click-memo.jpg)
 
 4. Select Stretch
 5. Click on Events tab
@@ -418,7 +418,7 @@ begin
 end;
 ```
 
-![fr3InsertCode](../../../../static/img/report/fastReport-basicGuide/fr3-insert-code.jpg)
+![fr3InsertCode](../../../../static/img/usage/tools/fastReport-basicGuide/fr3-insert-code.jpg)
 
 8. Scroll up till the top of the Code
 9. Enter below script at the First line
@@ -427,7 +427,7 @@ end;
 var pST_Item : pointer;
 ```
 
-![fr3InsertCode2](../../../../static/img/report/fastReport-basicGuide/fr3-insert-code2.jpg)
+![fr3InsertCode2](../../../../static/img/usage/tools/fastReport-basicGuide/fr3-insert-code2.jpg)
 
 10. Scroll down till the end of the Code
 11. Enter below script in between begin and end.
@@ -493,7 +493,7 @@ Below is Example are doing following actions
 
 > This function only available on Version 730 & above
 
-![pictureField](../../../../static/img/report/fastReport-basicGuide/picture-field.jpg)
+![pictureField](../../../../static/img/usage/tools/fastReport-basicGuide/picture-field.jpg)
 
 1. Click on Picture Icon (Below Red A icon)
 2. Click on the place to be print/shown.
@@ -515,7 +515,7 @@ begin
 end;
 ```
 
-![pictureFieldInsertCode](../../../../static/img/report/fastReport-basicGuide/picture-field-insert-code.jpg)
+![pictureFieldInsertCode](../../../../static/img/usage/tools/fastReport-basicGuide/picture-field-insert-code.jpg)
 
 6. Scroll up till the top of the Code
 7. Enter below script at the First line
@@ -523,7 +523,7 @@ end;
 ```pascal
 var pST_Item : pointer;
 ```
-![pictureFieldInsertCode2](../../../../static/img/report/fastReport-basicGuide/picture-field-insert-code2.jpg)
+![pictureFieldInsertCode2](../../../../static/img/usage/tools/fastReport-basicGuide/picture-field-insert-code2.jpg)
 
 8. Scroll down till the end of the Code
 9. Enter below script in between begin and end.
@@ -720,7 +720,7 @@ Below is Example doing following actions
 
 * Get data information From Stock Batch
 
-![maintainBatchInsertCode](../../../../static/img/report/fastReport-basicGuide/maintain-batch-insert-code.jpg)
+![maintainBatchInsertCode](../../../../static/img/usage/tools/fastReport-basicGuide/maintain-batch-insert-code.jpg)
 
 1. Click Code tab & scroll down look for procedure SetUp
 2. Copy below script & paste it between the begin & end; in procedure SetUp
@@ -736,7 +736,7 @@ Below is Example doing following actions
 4. Click File | Exit to exit the report design
 5. Click Design again in the report designer for the file just save on Steps 3 (eg Sales Invoice 7 (GST 2)-New)
 
-![maintainBatchOptions](../../../../static/img/report/fastReport-basicGuide/maintain-batch-options.jpg)
+![maintainBatchOptions](../../../../static/img/usage/tools/fastReport-basicGuide/maintain-batch-options.jpg)
 
 6. Click on Red A icon & click the place to print
 
@@ -753,7 +753,7 @@ Below is Example doing following actions
 
 * Get Supplier Bank information From Maintain Supplier for Supplier Payment Voucher
 
-![supplierBankInsertCode](../../../../static/img/report/fastReport-basicGuide/supplier-bank-insert-code.jpg)
+![supplierBankInsertCode](../../../../static/img/usage/tools/fastReport-basicGuide/supplier-bank-insert-code.jpg)
 
 1. Click Code tab & scroll down look for procedure SetUp
 2. Copy below script & paste it above the procedure SetUp
@@ -883,7 +883,7 @@ end;
 5. Click File | Exit to exit the report design
 6. Click Design again in the report designer for the file just save on Steps 4 (eg GL Payment Voucher - Detail - Full (GST)-v BankInfo)
 
-![supplierBankOptions](../../../../static/img/report/fastReport-basicGuide/supplier-bank-options.jpg)
+![supplierBankOptions](../../../../static/img/usage/tools/fastReport-basicGuide/supplier-bank-options.jpg)
 
 7. Click on Red A icon & click the place to print
 8. Select the option for following setting
@@ -891,7 +891,7 @@ end;
 * DataField : AccNo
 9. Repeat Step 7
 
-![supplierBankInsertCodeMemo](../../../../static/img/report/fastReport-basicGuide/supplier-bank-insert-code-memo.jpg)
+![supplierBankInsertCodeMemo](../../../../static/img/usage/tools/fastReport-basicGuide/supplier-bank-insert-code-memo.jpg)
 
 10. Copy below script & paste it in the Memo
 
@@ -918,7 +918,7 @@ Below is Example doing following actions :
 * Get data information (Tax, Tax rate, LocalAmount, LocalTaxAmt)
 * Group the data by Tax code
 
-![showGSTSummaryInsertCode](../../../../static/img/report/fastReport-basicGuide/show-gst-summary-insert-code.jpg)
+![showGSTSummaryInsertCode](../../../../static/img/usage/tools/fastReport-basicGuide/show-gst-summary-insert-code.jpg)
 
 1. Click Code tab & scroll down look for procedure SetUp
 2. Copy below script & paste it between the begin & end; in procedure SetUp
@@ -939,22 +939,22 @@ SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt,
 4. Click File | Exit to exit the report design
 5. Click Design again in the report designer for the file just save on Steps 3 (eg Sales Invoice 7 (GST 2)-New)
 
-![subreportIcon-subreport](../../../../static/img/report/fastReport-basicGuide/subreport-icon-subreport.jpg)
+![subreportIcon-subreport](../../../../static/img/usage/tools/fastReport-basicGuide/subreport-icon-subreport.jpg)
 
 6. Click Subreport Icon
 7. Click the place to print
 
-![insertBand-MasterData](../../../../static/img/report/fastReport-basicGuide/insert-band-master-data.jpg)
+![insertBand-MasterData](../../../../static/img/usage/tools/fastReport-basicGuide/insert-band-master-data.jpg)
 
 8. Click Insert Band icon
 9. Select Master Data
 
-![gstAmount](../../../../static/img/report/fastReport-basicGuide/gst-amount.jpg)
+![gstAmount](../../../../static/img/usage/tools/fastReport-basicGuide/gst-amount.jpg)
 
 10. In the Dataset select the New Pipeline created at Step 2 (eg GSTAmt) & Click Ok
 11. Repeat Steps 8 to add the Header & Footer
 
-![gstAmtOptions](../../../../static/img/report/fastReport-basicGuide/gst-amt-options.jpg)
+![gstAmtOptions](../../../../static/img/usage/tools/fastReport-basicGuide/gst-amt-options.jpg)
 
 12. Click on Red A icon & click the place to print
 13. Select the option for following setting
@@ -965,7 +965,7 @@ SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt,
 14. Repeat Step 12 & 13 for other but DataField change to LocalTaxAmt
 15. Click Sum Icon & click at the Footer
 
-![aggregateValue](../../../../static/img/report/fastReport-basicGuide/aggregate-value.jpg)
+![aggregateValue](../../../../static/img/usage/tools/fastReport-basicGuide/aggregate-value.jpg)
 
 16. Select Aggregate value & set the option as following setting :
 
@@ -977,11 +977,11 @@ SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt,
 17. Click Ok
 18. Repeat Step 16 & 17 for other but DataField change to LocalTaxAmt
 
-![displayFormat-gstSummary](../../../../static/img/report/fastReport-basicGuide/display-format-gst-summary.jpg)
+![displayFormat-gstSummary](../../../../static/img/usage/tools/fastReport-basicGuide/display-format-gst-summary.jpg)
 
 19. Right Click & select DisplayFormat
 
-![displayFormatOptions-gstSummary](../../../../static/img/report/fastReport-basicGuide/display-format-options-gst-summary.jpg)
+![displayFormatOptions-gstSummary](../../../../static/img/usage/tools/fastReport-basicGuide/display-format-options-gst-summary.jpg)
 
 20. Set the setting for following option :
 
@@ -997,7 +997,7 @@ SQL := 'SELECT Dockey, Tax, TaxRate, Sum(CAST(LocalTaxAmt AS REAL)) LocalTaxAmt,
 [IIF(Trim(<GSTAmt."TaxRate">)='',<GSTAmt."Tax">,<GSTAmt."Tax"> +' @ ' + <GSTAmt."TaxRate">)]
 ``` 
 
-![gstSummaryInsertCodeMemo](../../../../static/img/report/fastReport-basicGuide/gst-summary-insert-code-memo.jpg)
+![gstSummaryInsertCodeMemo](../../../../static/img/usage/tools/fastReport-basicGuide/gst-summary-insert-code-memo.jpg)
 
 25. Click OK.
 26. For Label, Click on Red A icon, click the place to print & enter the Decription
@@ -1034,7 +1034,7 @@ SQL := 'SELECT Dockey, Min(Seq) Seq, FromDocDate, FromDocNo FROM Document_Detail
 
 Below is Example will group all the Overtime by Code, Description, Rate & PayRate.
 
-![grpOvertimeInsertCode](../../../../static/img/report/fastReport-basicGuide/grp-overtime-insert-code.jpg)
+![grpOvertimeInsertCode](../../../../static/img/usage/tools/fastReport-basicGuide/grp-overtime-insert-code.jpg)
 
 1. Click Code tab & scroll look for begin & end.
 2. Copy below script & paste it above the begin & end.
@@ -1085,7 +1085,7 @@ SQL := 'SELECT DocKey, SUM(LocalAmount)*0.06 SVE FROM Document_Detail ' +
 5. Click Design again in the report designer for the file just save on Steps 3 (eg Sales Invoice 8 (SST 2)-New)
 6. Click on Red A icon & click the place to print
 
-![totalSVEInsertCode](../../../../static/img/report/fastReport-basicGuide/total-sve-insert-code.jpg)
+![totalSVEInsertCode](../../../../static/img/usage/tools/fastReport-basicGuide/total-sve-insert-code.jpg)
 
 7. Select the option for following setting
 Dataset : pl_TotSVE
@@ -1109,28 +1109,28 @@ DataField : SVE
 
 1. Place all the component (eg TfrxMemoView or TfrxRichView) as following
 
-![pasteComponents](../../../../static/img/report/fastReport-basicGuide/paste-components.jpg)
+![pasteComponents](../../../../static/img/usage/tools/fastReport-basicGuide/paste-components.jpg)
 
 2. Only TfrxMemoView component need to select Dataset & DataField
 
-![dataSet&DataFieldSelection](../../../../static/img/report/fastReport-basicGuide/data-set&data-field-selection.jpg)
+![dataSet&DataFieldSelection](../../../../static/img/usage/tools/fastReport-basicGuide/data-set&data-field-selection.jpg)
 
 3. For TfrxRichView component must leave it empty for Dataset & DataField
 
-![TfrxRichView-empty](../../../../static/img/report/fastReport-basicGuide/TfrxRich-view-empty.jpg)
+![TfrxRichView-empty](../../../../static/img/usage/tools/fastReport-basicGuide/TfrxRich-view-empty.jpg)
 
 4. For TfrxRichView double click & select the ABC icon & select the Data Field
 
-![selectDataField](../../../../static/img/report/fastReport-basicGuide/select-data-field.jpg)
+![selectDataField](../../../../static/img/usage/tools/fastReport-basicGuide/select-data-field.jpg)
 
 5. Click Tick icon after select the Field
 6. On each component(i.e. MmDesc, RichDesc3 & RichSN) set all the GapY to **0**
 
-![gapY-0](../../../../static/img/report/fastReport-basicGuide/gapY-0.jpg)
+![gapY-0](../../../../static/img/usage/tools/fastReport-basicGuide/gapY-0.jpg)
 
 7. Click on the Empty place (see icon 1 below)
 
-![emptySpaceRightClick](../../../../static/img/report/fastReport-basicGuide/empty-space-right-click.jpg)
+![emptySpaceRightClick](../../../../static/img/usage/tools/fastReport-basicGuide/empty-space-right-click.jpg)
 
 8. Double click OnBeforePrint (see icon 2 above)
 9. Enter below script
@@ -1162,7 +1162,7 @@ Fastest way to do (For Version 721 & above Only)
 
 If preview shown something like below, try adjust the component to by add 0.01 for Top field
 
-![compenentOverlap](../../../../static/img/report/fastReport-basicGuide/compenent-overlap.jpg)
+![compenentOverlap](../../../../static/img/usage/tools/fastReport-basicGuide/compenent-overlap.jpg)
 
 :::note Try Below Steps(in inch)
 - Set all component Height = 0.1
@@ -1175,14 +1175,14 @@ If preview shown something like below, try adjust the component to by add 0.01 f
 
 Make sure the compoents width not overlap to next field
 
-![componentWidth](../../../../static/img/report/fastReport-basicGuide/component-width.jpg)
+![componentWidth](../../../../static/img/usage/tools/fastReport-basicGuide/component-width.jpg)
 
 
 #### 3. Can my 2nd & 3rd field longer then 1st field?
 
 Yes , just tick the **Shift When Overlapped** option in right click for both 2nd & 3rd component
 
-![shift-when-overlapped](../../../../static/img/report/fastReport-basicGuide/shift-when-overlapped.jpg)
+![shift-when-overlapped](../../../../static/img/usage/tools/fastReport-basicGuide/shift-when-overlapped.jpg)
 
 </details>
 
@@ -1202,7 +1202,7 @@ In order to shown DownThenCross you need do some script as below.
 
 Below is example using GL Official Receipt
 
-![example-gl-official-receipt](../../../../static/img/report/fastReport-basicGuide/example-gl-official-receipt.jpg)
+![example-gl-official-receipt](../../../../static/img/usage/tools/fastReport-basicGuide/example-gl-official-receipt.jpg)
 
 1. Select DetailData Band
 2. Click Properties Tab
@@ -1213,7 +1213,7 @@ Below is example using GL Official Receipt
 | Columns      | Number of column(s) to shown |
 | ColumnWidth  | Width for each column        |
 
-![example-gl-official-receipt2](../../../../static/img/report/fastReport-basicGuide/example-gl-official-receipt2.jpg)
+![example-gl-official-receipt2](../../../../static/img/usage/tools/fastReport-basicGuide/example-gl-official-receipt2.jpg)
 
 4. Click Events Tab
 5. Double Click OnAfterPrint & enter below script
@@ -1247,7 +1247,7 @@ end;
 
 Below is example using Sales Cash Sales
 
-![example-sales-cash-sales](../../../../static/img/report/fastReport-basicGuide/example-sales-cash-sales.jpg)
+![example-sales-cash-sales](../../../../static/img/usage/tools/fastReport-basicGuide/example-sales-cash-sales.jpg)
 
 
 
@@ -1255,14 +1255,14 @@ Below is example using Sales Cash Sales
 <details>
   <summary>Continue from Previos Page - click to expand</summary>
 
-![continous-grp-header](../../../../static/img/report/fastReport-basicGuide/continous-grp-header.jpg)
+![continous-grp-header](../../../../static/img/usage/tools/fastReport-basicGuide/continous-grp-header.jpg)
 
 1. Click on Red A icon
 2. Click at the place to print/shown in the GroupHeader band
 3. Enter the text you like (eg Continue From Previous Page...)
 4. Change the Name (eg MmContinueT)
 
-![continous-grp-header2](../../../../static/img/report/fastReport-basicGuide/continous-grp-header2.jpg)
+![continous-grp-header2](../../../../static/img/usage/tools/fastReport-basicGuide/continous-grp-header2.jpg)
 
 5. Click Events tab
 6. Double Click OnBeforePrint and enter below script
@@ -1282,14 +1282,14 @@ end;
 <details>
   <summary>Continue Next Page - click to expand</summary>
 
-![footer-continue-next-page](../../../../static/img/report/fastReport-basicGuide/footer-continue-next-page.jpg)
+![footer-continue-next-page](../../../../static/img/usage/tools/fastReport-basicGuide/footer-continue-next-page.jpg)
 
 1. Click on Red A icon
 2. Click at the place to print/shown in the Footer band
 3. Enter the text you like (eg Continue Next Page...)
 4. Change the Name (eg MmContinueB)
 
-![footer-continue-next-page2](../../../../static/img/report/fastReport-basicGuide/footer-continue-next-page2.jpg)
+![footer-continue-next-page2](../../../../static/img/usage/tools/fastReport-basicGuide/footer-continue-next-page2.jpg)
 
 5. Click Events tab
 6. Double Click OnBeforePrint and enter below script
@@ -1370,7 +1370,7 @@ E-Mail Client (Batch)
 
 Below is example using Sales Invoice
 
-![batch-email](../../../../static/img/report/fastReport-basicGuide/batch-email.jpg)
+![batch-email](../../../../static/img/usage/tools/fastReport-basicGuide/batch-email.jpg)
 
 1. Click the Code Tab
 2. Enter below Script at the First line
@@ -1631,7 +1631,7 @@ end;
 ```
 </details>
 
-![batch-email-insert-code](../../../../static/img/report/fastReport-basicGuide/batch-email-insert-code.jpg)
+![batch-email-insert-code](../../../../static/img/usage/tools/fastReport-basicGuide/batch-email-insert-code.jpg)
 
 3. Scroll down look for procedure SetUp
 4. Copy below script & paste it between the begin & end; in procedure SetUp
@@ -1664,7 +1664,7 @@ __Menu: Sales | Quotation...__
 
 * SQL Accounting can E Mail by different Subject & E Mail Content by report name
 
-![batch-email-paste-quotation](../../../../static/img/report/fastReport-basicGuide/batch-email-paste-quotation.jpg)
+![batch-email-paste-quotation](../../../../static/img/usage/tools/fastReport-basicGuide/batch-email-paste-quotation.jpg)
 
 | Field Name                         | Description                     |
 |------------------------------------|---------------------------------|
@@ -1822,7 +1822,7 @@ __Menu: Human Resource | Employee...__
 Version 1.2020.182.158 & above
 * Only available in Version 1.2020.182.158 & above.
 
-![batch-email-paste-employee](../../../../static/img/report/fastReport-basicGuide/batch-email-paste-employee.jpg)
+![batch-email-paste-employee](../../../../static/img/usage/tools/fastReport-basicGuide/batch-email-paste-employee.jpg)
 
 | Field Name                  | Description                   |
 |-----------------------------|-------------------------------|
@@ -1836,7 +1836,7 @@ Version 1.2020.182.158 & above
 
 Version 1.2021.196.166 & above
 
-![new-employee-batch-email](../../../../static/img/report/fastReport-basicGuide/new-employee-batch-email.jpg)
+![new-employee-batch-email](../../../../static/img/usage/tools/fastReport-basicGuide/new-employee-batch-email.jpg)
 
 | Section Name      | Description                                             |
 |-------------------|---------------------------------------------------------|
@@ -2328,7 +2328,7 @@ __Menu: Sales | Invoice...__
 2. Select the Build-in/Customise **Fast Report** (eg Sales Invoice 7 (GST 2)-Email)
 3. Click **OK**
 
-![export-to-email](../../../../static/img/report/fastReport-basicGuide/export-to-email.jpg)
+![export-to-email](../../../../static/img/usage/tools/fastReport-basicGuide/export-to-email.jpg)
 
 5. Select either 1 of other following from the list
 - Export to E-Mail Client
@@ -2524,12 +2524,12 @@ end;
 ```
 </details>
 
-![a-icon](../../../../static/img/report/fastReport-basicGuide/a-icon.jpg)
+![a-icon](../../../../static/img/usage/tools/fastReport-basicGuide/a-icon.jpg)
 
 2. Click the Red A Icon.
 3. Click on the place to be print/shown.
 
-![memo-insert-code](../../../../static/img/report/fastReport-basicGuide/memo-insert-code.jpg)
+![memo-insert-code](../../../../static/img/usage/tools/fastReport-basicGuide/memo-insert-code.jpg)
 
 4. Enter below Script in the memo
 ```pascal
@@ -2539,7 +2539,7 @@ end;
 5. Click Ok button.
 6. Right Click the Memo
 
-![tick-stretch](../../../../static/img/report/fastReport-basicGuide/tick-stretch.jpg)
+![tick-stretch](../../../../static/img/usage/tools/fastReport-basicGuide/tick-stretch.jpg)
 
 7. Select Stretch
 8. File | Save As & enter New report Name after done.
@@ -2563,7 +2563,7 @@ From Version 849.768 & above user can Share the report to WhatsApp, Skype, Line 
 
 Below is example using Sales Invoice
 
-![sales-invoice-insert-code-procedure-setup](../../../../static/img/report/fastReport-basicGuide/sales-invoice-insert-code-procedure-setup.jpg)
+![sales-invoice-insert-code-procedure-setup](../../../../static/img/usage/tools/fastReport-basicGuide/sales-invoice-insert-code-procedure-setup.jpg)
 
 1. Click the Code Tab
 2. Scroll down look for procedure SetUp
@@ -2584,7 +2584,7 @@ SQL := 'SELECT B.Description As ReportName, B.Description3 As Body '+
 6. Click Design again in the report designer for the file just save on Steps 5 (eg Sales Invoice 8 (SST 2)-WhatApp)
 7. Click the Code Tab
 
-![sales-invoice-strfloatdef-insert-code](../../../../static/img/report/fastReport-basicGuide/sales-invoice-strfloatdef-insert-code.jpg)
+![sales-invoice-strfloatdef-insert-code](../../../../static/img/usage/tools/fastReport-basicGuide/sales-invoice-strfloatdef-insert-code.jpg)
 
 8. Scroll down look for function StrToFloatDef(const lFld:Variant):string
 9. Copy below script & paste it above the function
@@ -2617,7 +2617,7 @@ end;
 
 </details>
 
-![getidinfo-insert-code](../../../../static/img/report/fastReport-basicGuide/getidinfo-insert-code.jpg)
+![getidinfo-insert-code](../../../../static/img/usage/tools/fastReport-basicGuide/getidinfo-insert-code.jpg)
 
 10. Scroll up again look for function GetFldInfo(const AStr:String):String;
 11. Copy below script & paste it between the Add('plEMailTpl'); & end;
@@ -2634,7 +2634,7 @@ Menu: Sales | Quotation...
 
 SQL Accounting can Share message by different Content by report name
 
-![quot-no-whatsapp](../../../../static/img/report/fastReport-basicGuide/quot-no-whatsapp.jpg)
+![quot-no-whatsapp](../../../../static/img/usage/tools/fastReport-basicGuide/quot-no-whatsapp.jpg)
 
 | Field Name  | Description          |
 |-------------|----------------------|
@@ -2788,11 +2788,11 @@ __Menu: Sales | Invoice...__
 2. Select the Build-in/Customise Fast Report (eg Sales Invoice 8 (SST 2)-Email)
 3. Click OK
 
-![icons](../../../../static/img/report/fastReport-basicGuide/icons.jpg)
+![icons](../../../../static/img/usage/tools/fastReport-basicGuide/icons.jpg)
 
 5. Select WhatsApp icon PDF
 
-![whatsapp-messages-testing](../../../../static/img/report/fastReport-basicGuide/whatsapp-messages-testing.jpg)
+![whatsapp-messages-testing](../../../../static/img/usage/tools/fastReport-basicGuide/whatsapp-messages-testing.jpg)
 
 6. Enter the Mobile No
 7. Click Send

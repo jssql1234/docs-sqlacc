@@ -12,11 +12,11 @@ tags: ["SQL Account", "Usage", "Tools"]
 
 1. **Tools** > **Report Designer**
 
-   ![1](../../../../static/img/report/rtm-basic-guide/1.png)
+   ![1](../../../../static/img/usage/tools/rtm-basic-guide/1.png)
 
 2. Press on **IMPORT**
 
-   ![2](../../../../static/img/report/rtm-basic-guide/2.png)
+   ![2](../../../../static/img/usage/tools/rtm-basic-guide/2.png)
 
 3. Follow the steps below :
 
@@ -26,20 +26,20 @@ tags: ["SQL Account", "Usage", "Tools"]
 
    3. Press **OPEN**
 
-   ![3](../../../../static/img/report/rtm-basic-guide/3.png)
+   ![3](../../../../static/img/usage/tools/rtm-basic-guide/3.png)
 
 
 ## Simple Calculation
 * In Report Builder you can also do some simple calculation using the Variable (The Calculator Icon)
 
-![variable-to-double](../../../../static/img/report/rtm-basic-guide/variable-to-double.jpg)
+![variable-to-double](../../../../static/img/usage/tools/rtm-basic-guide/variable-to-double.jpg)
 
 1. Click on SubRptNorm: Document_Detail
 2. Select the Variable button (the Calculator icon)
 3. Click on the place to be print/shown.
 4. Click on Calc Tab
 
-![insert-code-in-oncalc](../../../../static/img/report/rtm-basic-guide/insert-code-in-oncalc.jpg)
+![insert-code-in-oncalc](../../../../static/img/usage/tools/rtm-basic-guide/insert-code-in-oncalc.jpg)
 
 5. Right click here & Select Event & find the component just now we had placed (eg Variable2)
 6. Click OnCalc
@@ -73,14 +73,14 @@ end;
 
     - At Sales Invoice to get Shelf field from Maintain Item
 
-![output-type](../../../../static/img/report/rtm-basic-guide/output-type.jpg)
+![output-type](../../../../static/img/usage/tools/rtm-basic-guide/output-type.jpg)
 
 1. Click on SubRptNorm: Document_Detail
 2. Select the Variable button (the Calculator icon)
 3. Click on the place to be print/shown.
 4. Click on Calc Tab
 
-![insert-code-in-oncalc-singlefield](../../../../static/img/report/rtm-basic-guide/insert-code-in-oncalc-singlefield.jpg)
+![insert-code-in-oncalc-singlefield](../../../../static/img/usage/tools/rtm-basic-guide/insert-code-in-oncalc-singlefield.jpg)
 
 5. Right click here & Select Event & find the component just now we had placed (eg Variable2)
 6. Click OnCalc
@@ -248,7 +248,7 @@ Below is Example doing following actions
 
 * Get data information From Stock Batch
 
-![calc-tab-insert-code](../../../../static/img/report/rtm-basic-guide/calc-tab-insert-code.jpg)
+![calc-tab-insert-code](../../../../static/img/usage/tools/rtm-basic-guide/calc-tab-insert-code.jpg)
 
 1. Click on Calc Tab
 2. Right click here & Select Module
@@ -259,7 +259,7 @@ Below is Example doing following actions
 **var**
    **SQL_Batch: String;**
 
-   ![event-oncreate-insert-code](../../../../static/img/report/rtm-basic-guide/event-oncreate-insert-code.jpg)
+   ![event-oncreate-insert-code](../../../../static/img/usage/tools/rtm-basic-guide/event-oncreate-insert-code.jpg)
 
 6. Select Events
 7. Select OnCreate
@@ -275,7 +275,7 @@ Below is Example doing following actions
 10. Click File | Exit to exit the report design
 11. Click Design again in the report designer for the file just save on Steps 9 (eg Sales Invoice 1)
 
-![pipeline-and-expdate](../../../../static/img/report/rtm-basic-guide/pipeline-and-expdate.jpg)
+![pipeline-and-expdate](../../../../static/img/usage/tools/rtm-basic-guide/pipeline-and-expdate.jpg)
 
 12. Click SubRptNorm:Document_Detail tab
 13. Click DBText icon
@@ -323,7 +323,7 @@ SQL_1 := 'SELECT DOCKEY, DTLKEY, SEQ, ROW_NUMBER() OVER (PARTITION BY DOCKEY ORD
 
   SetDataPipelineFieldLink(Document_Detail, plSQL_1, 'Dockey;Seq', 'Dockey;Seq');
 
-![program-function-insert-code](../../../../static/img/report/rtm-basic-guide/program-function-insert-code.jpg)
+![program-function-insert-code](../../../../static/img/usage/tools/rtm-basic-guide/program-function-insert-code.jpg)
 
 9. Select Programs
 10. Right Click | New Function
@@ -376,7 +376,7 @@ Below is Example doing following actions
 * Get data information (Tax, Tax rate, LocalAmount, LocalTaxAmt)
 * Group the data by Tax code
 
-![calctab-module-insert-variable](../../../../static/img/report/rtm-basic-guide/calctab-module-insert-variable.jpg)
+![calctab-module-insert-variable](../../../../static/img/usage/tools/rtm-basic-guide/calctab-module-insert-variable.jpg)
 
 1. Click on Calc Tab
 2. Right click here & Select Module
@@ -387,7 +387,7 @@ Below is Example doing following actions
 var
    SQL_6: String;
 
-![event-oncreate-insert-code-datafrom-available-pipeline](../../../../static/img/report/rtm-basic-guide/event-oncreate-insert-code-datafrom-available-pipeline.jpg)
+![event-oncreate-insert-code-datafrom-available-pipeline](../../../../static/img/usage/tools/rtm-basic-guide/event-oncreate-insert-code-datafrom-available-pipeline.jpg)
 
 6. Select Events
 7. Select OnCreate
@@ -406,7 +406,7 @@ SQL_6 := 'SELECT DocKey,  Tax, TaxRate, Sum(LocalAmount) LocalAmount, Sum(LocalT
 
 </details>
 
-![procedure-before-print-insert-code](../../../../static/img/report/rtm-basic-guide/procedure-before-print-insert-code.jpg)
+![procedure-before-print-insert-code](../../../../static/img/usage/tools/rtm-basic-guide/procedure-before-print-insert-code.jpg)
 
 9. Select Event Handlers
 10. Select procedure ReportBeforePrint
@@ -425,12 +425,12 @@ LocalSQL_SELECT(plSQL_6, SQL_6, 'Dockey;Tax'); //Create New pipeline
 13. Click File | Exit to exit the report design
 14. Click Design again in the report designer for the file just save on Steps 12 (eg 0Sales Cash Sales 3 (GST 1))
 
-![subreport-place](../../../../static/img/report/rtm-basic-guide/subreport-place.jpg)
+![subreport-place](../../../../static/img/usage/tools/rtm-basic-guide/subreport-place.jpg)
 
 15. Click Subreport icon
 16. Click the place you wanted to show/print
 
-![parentwidth-subreport-rightclick](../../../../static/img/report/rtm-basic-guide/parentwidth-subreport-rightclick.jpg)
+![parentwidth-subreport-rightclick](../../../../static/img/usage/tools/rtm-basic-guide/parentwidth-subreport-rightclick.jpg)
 
 17. Right click the Sub report
 18. Untick the ParentWitdh & manual adjust the sub report width to the width you wanted
@@ -438,7 +438,7 @@ LocalSQL_SELECT(plSQL_6, SQL_6, 'Dockey;Tax'); //Create New pipeline
 20. Scroll till end
 21. Click SubReport2:plSQL_6 tab
 
-![report-settings](../../../../static/img/report/rtm-basic-guide/report-settings.jpg)
+![report-settings](../../../../static/img/usage/tools/rtm-basic-guide/report-settings.jpg)
 
 22. Click Report & set the following setting
 - Title - Select
@@ -446,7 +446,7 @@ LocalSQL_SELECT(plSQL_6, SQL_6, 'Dockey;Tax'); //Create New pipeline
 - Header - UnSelect
 - Footer - UnSelect
 
-![variables-place](../../../../static/img/report/rtm-basic-guide/variables-place.jpg)
+![variables-place](../../../../static/img/usage/tools/rtm-basic-guide/variables-place.jpg)
 
 23. Click DBText icon
 24. Click the place you wanted to show/print (in between Title & Detail Band)
@@ -460,7 +460,7 @@ LocalSQL_SELECT(plSQL_6, SQL_6, 'Dockey;Tax'); //Create New pipeline
 32. Click the place you wanted to show/print (in between Title & Detail Band)
 33. Right Click the variable
 
-![variable-insert-code-right-click](../../../../static/img/report/rtm-basic-guide/variable-insert-code-right-click.jpg)
+![variable-insert-code-right-click](../../../../static/img/usage/tools/rtm-basic-guide/variable-insert-code-right-click.jpg)
 
 34. Copy below script & paste to here
 
@@ -548,7 +548,7 @@ LocalSQL_SELECT(plSQL_6, SQL_6, 'Dockey'); //Create New pipeline
 15. Click DBText icon
 16. Click the place you wanted to show/print at the Header
 
-![pipeline-field-place](../../../../static/img/report/rtm-basic-guide/pipeline-field-place.jpg)
+![pipeline-field-place](../../../../static/img/usage/tools/rtm-basic-guide/pipeline-field-place.jpg)
 
 17. Select plSQL_6 pipeline
 18. Select SVE field

@@ -16,7 +16,7 @@ In Memo, enter following syntax :
 [FormatFloat(',0.00;-,0.00;FOC ',<Document_Detail."UnitPrice">)]
 ```
 
-![0-foc-insert-code-memo](../../../../static/img/report/fast-report-faq/0-foc-insert-code-memo.png)
+![0-foc-insert-code-memo](../../../../static/img/usage/tools/fast-report-faq/0-foc-insert-code-memo.png)
 
 ### 2. How to change Cents to Sens in Document Currency Description ?
 
@@ -26,7 +26,7 @@ Syntax:
 [Document_Currency."Description"] : [StringReplace(CurrencyToLangWord(<Main."DocAmt">,<Profile."CurrencyLang">), 'CENTS', 'SENS', TRUE)]
 ```
 
-![46](../../../../static/img/report/fast-report-faq/46.png)
+![46](../../../../static/img/usage/tools/fast-report-faq/46.png)
 
 ### 3. How to convert More Description into RichTextToPlainText ?
 
@@ -36,15 +36,15 @@ Syntax :
 [RichTextToPlaintext(<Document_Detail."Description3">)]
 ```
 
-![47](../../../../static/img/report/fast-report-faq/47.png)
+![47](../../../../static/img/usage/tools/fast-report-faq/47.png)
 
-![48](../../../../static/img/report/fast-report-faq/48.png)
+![48](../../../../static/img/usage/tools/fast-report-faq/48.png)
 
 ### 4. How to change report paper size?
 
 File -> Page Setting ->
 
-![49](../../../../static/img/report/fast-report-faq/49.png)
+![49](../../../../static/img/usage/tools/fast-report-faq/49.png)
 
 ### 5. if Qty > 10, how to change text color to red and bold?
 
@@ -56,13 +56,13 @@ File -> Page Setting ->
 
 4. Expression value > 10
 
-   ![50](../../../../static/img/report/fast-report-faq/50.png)
+   ![50](../../../../static/img/usage/tools/fast-report-faq/50.png)
 
 5. Click on Font
 
    Can set for Font Type, Font Style, Size, Color or Effects
 
-   ![51](../../../../static/img/report/fast-report-faq/51.png)
+   ![51](../../../../static/img/usage/tools/fast-report-faq/51.png)
 
 6. Press **OK**
 
@@ -70,7 +70,7 @@ File -> Page Setting ->
 
 **Result** :
 
-![52](../../../../static/img/report/fast-report-faq/52.png)
+![52](../../../../static/img/usage/tools/fast-report-faq/52.png)
 
 ### 6. Why in Report I have placed at the position I want, but when preview it will show at bottom?
 
@@ -78,7 +78,7 @@ Right click on Memo, **unticked Shift** and **Unticked Shift when Overlapped**
 
 ### 7. How to Export PDF Logo that is blur ?
 
-![53](../../../../static/img/report/fast-report-faq/53.png)
+![53](../../../../static/img/usage/tools/fast-report-faq/53.png)
 
 ### 8. How to capture remark1 as url path?
 
@@ -86,18 +86,18 @@ In Memo properties :
 
 Hyperlink Expression added in the Data Field Name
 
-![54](../../../../static/img/report/fast-report-faq/54.png)
+![54](../../../../static/img/usage/tools/fast-report-faq/54.png)
 
 Result :
 
-![55](../../../../static/img/report/fast-report-faq/55.png)
+![55](../../../../static/img/usage/tools/fast-report-faq/55.png)
 
 ### 9. How to print Payslip to show AL or MC only ?
 
 1. Click on **SubReport3**
 
 2. Right click on **Leave MasterData Band**
-   ![56](../../../../static/img/report/fast-report-faq/56.png)
+   ![56](../../../../static/img/usage/tools/fast-report-faq/56.png)
 
 3. Click on Filter button
 
@@ -111,7 +111,7 @@ Result :
 
 6. Press OK
 
-   ![57](../../../../static/img/report/fast-report-faq/57.png)
+   ![57](../../../../static/img/usage/tools/fast-report-faq/57.png)
 
 ### 10. How to get Net Unit Price ?
 
@@ -131,7 +131,7 @@ Result :
 
  6. Preview and see the result
 
-   ![58](../../../../static/img/report/fast-report-faq/58.png)
+   ![58](../../../../static/img/usage/tools/fast-report-faq/58.png)
 
 ### 11. How to do if UOM = UNIT, Qty display without Decimal Point, else with 2 Decimal Point ?
 
@@ -145,13 +145,13 @@ Result :
      FormatFloat('#,0.00;-#,0.00 ', <Document_Detail."Qty">))]
      ```
 
-    ![59](../../../../static/img/report/fast-report-faq/59.png)
+    ![59](../../../../static/img/usage/tools/fast-report-faq/59.png)
 
  3. Press **OK**
 
  4. Result After Preview :
 
-    ![60](../../../../static/img/report/fast-report-faq/60.png)
+    ![60](../../../../static/img/usage/tools/fast-report-faq/60.png)
 
 ### 12. How to Get Supplier Bank in Payment Voucher?
 
@@ -163,33 +163,33 @@ Result :
      [<GetbankName(pl_SUPPLIERBANKACC."Bank">)]
      ```
 
-    ![61](../../../../static/img/report/fast-report-faq/61.png)
+    ![61](../../../../static/img/usage/tools/fast-report-faq/61.png)
 
 ### 13. How to change the Amount in Word to First Character to Upper Case only?
 
 Can use function NameCase
 
-![62](../../../../static/img/report/fast-report-faq/62.png)
+![62](../../../../static/img/usage/tools/fast-report-faq/62.png)
 
 Before :
 
-![63](../../../../static/img/report/fast-report-faq/63.png)
+![63](../../../../static/img/usage/tools/fast-report-faq/63.png)
 
 After :
 
-![64](../../../../static/img/report/fast-report-faq/64.png)
+![64](../../../../static/img/usage/tools/fast-report-faq/64.png)
 
 ## 14. Why is it not same when preview?
 
-![stacked-content-when-preview](../../../../static/img/report/fast-report-faq/stacked-content-when-preview.jpg)
+![stacked-content-when-preview](../../../../static/img/usage/tools/fast-report-faq/stacked-content-when-preview.jpg)
 
  Try Untick the Option **Shift** by right click the Memo
 
-![right-click-untick-shift](../../../../static/img/report/fast-report-faq/right-click-untick-shift.jpg)
+![right-click-untick-shift](../../../../static/img/usage/tools/fast-report-faq/right-click-untick-shift.jpg)
  
 ## 16. How to rename the component I use?
 
-![rename-memo](../../../../static/img/report/fast-report-faq/rename-memo.jpg)
+![rename-memo](../../../../static/img/usage/tools/fast-report-faq/rename-memo.jpg)
 
 01. Click the Red A Icon.
 02. Click on the place to be print/shown
@@ -197,13 +197,13 @@ After :
 
 ## 17. How to draw line for whole report?
 
-![draw-line](../../../../static/img/report/fast-report-faq/draw-line.jpg)
+![draw-line](../../../../static/img/usage/tools/fast-report-faq/draw-line.jpg)
 
 01. Click at empty place of outer report.
 02. At the **Object Inspector**, look for Frame & click the + sign
 03. Under the **Frame**, look for **Typ** & set to True for ftLeft, ftRight, ftTop & ftBottom.
 
-![draw-line-output](../../../../static/img/report/fast-report-faq/draw-line-output.jpg)
+![draw-line-output](../../../../static/img/usage/tools/fast-report-faq/draw-line-output.jpg)
 
 :::warning
 Make sure the **Paper Margin** for Top, Bottom, Left & Right not set to 0
@@ -211,48 +211,48 @@ Make sure the **Paper Margin** for Top, Bottom, Left & Right not set to 0
 
 ## 18. How to add spacing between 2 records?
 
-![spacing-2reports-height](../../../../static/img/report/fast-report-faq/spacing-2reports-height.jpg)
+![spacing-2reports-height](../../../../static/img/usage/tools/fast-report-faq/spacing-2reports-height.jpg)
 
 01. Right Click at **DetailData**.
 
-![add-child-band](../../../../static/img/report/fast-report-faq/add-child-band.jpg)
+![add-child-band](../../../../static/img/usage/tools/fast-report-faq/add-child-band.jpg)
 
 02. Select **Add child band**.
 03. At the **Object Inspector**, look for **Height** & set the gap Height you wanted
 
 ## 19. My More Description is very long & it shown page 1 empty & shown in page 2
 
-![grp-footer-issue](../../../../static/img/report/fast-report-faq/grp-footer-issue.jpg)
+![grp-footer-issue](../../../../static/img/usage/tools/fast-report-faq/grp-footer-issue.jpg)
 
 01. Right Click at **DetailData**.
 
-![right-click-allow-split](../../../../static/img/report/fast-report-faq/right-click-allow-split.jpg)
+![right-click-allow-split](../../../../static/img/usage/tools/fast-report-faq/right-click-allow-split.jpg)
 
 02. Select **Allow Split**.
 03. Click at **GroupFooter:GroupFooter1**.
 04. Double Click **OnBeforePrint**
 
-![on-before-print-remove-height-60](../../../../static/img/report/fast-report-faq/on-before-print-remove-height-60.jpg)
+![on-before-print-remove-height-60](../../../../static/img/usage/tools/fast-report-faq/on-before-print-remove-height-60.jpg)
 
 05. Remove **- 60**
 
-![navigate-to-onaftercalcheight](../../../../static/img/report/fast-report-faq/navigate-to-onaftercalcheight.jpg)
+![navigate-to-onaftercalcheight](../../../../static/img/usage/tools/fast-report-faq/navigate-to-onaftercalcheight.jpg)
 
 06. Click at **DetailData:DetailData1**.
 07. Double Click **OnAfterCalcHeight**
 
-![comment-if-tfrxdetaildata](../../../../static/img/report/fast-report-faq/comment-if-tfrxdetaildata.jpg)
+![comment-if-tfrxdetaildata](../../../../static/img/usage/tools/fast-report-faq/comment-if-tfrxdetaildata.jpg)
 
 08. Enter //
 
 
 ## 20. Show Note at Header
 
-![show-note-at-header](../../../../static/img/report/fast-report-faq/show-note-at-header.jpg)
+![show-note-at-header](../../../../static/img/usage/tools/fast-report-faq/show-note-at-header.jpg)
 
 01. Right Click at **GroupHeader:GroupHeader1**.
 
-![add-child-band-right-click](../../../../static/img/report/fast-report-faq/add-child-band-right-click.jpg)
+![add-child-band-right-click](../../../../static/img/usage/tools/fast-report-faq/add-child-band-right-click.jpg)
 
 02. Select **Add Child Band** & Select **Stretch**
 03. Adjust the Child band Height as you wanted
@@ -285,7 +285,7 @@ Make sure the **Paper Margin** for Top, Bottom, Left & Right not set to 0
 
 ## 22. How to print 2 pages in 1 A4?
 
-![print-2page-in-a4](../../../../static/img/report/fast-report-faq/print-2page-in-a4.jpg)
+![print-2page-in-a4](../../../../static/img/usage/tools/fast-report-faq/print-2page-in-a4.jpg)
 
 01. Click Margin Icon
 02. Adjust the **Height** to fit in 1 page
@@ -454,16 +454,16 @@ End;
 ### 16. How to make sure my report export to Excel as less column usage as possible?
 * Below is the guideline
 
-![less-column-usage-1](../../../../static/img/report/fast-report-faq/less-column-usage-1.jpg)
+![less-column-usage-1](../../../../static/img/usage/tools/fast-report-faq/less-column-usage-1.jpg)
 
 - Use align to Grid button
 
-![align-to-grid](../../../../static/img/report/fast-report-faq/align-to-grid.jpg)
+![align-to-grid](../../../../static/img/usage/tools/fast-report-faq/align-to-grid.jpg)
 
 - No gap between to component
 - Must Align between top & Bottom of component
 
-![diagonal-false](../../../../static/img/report/fast-report-faq/diagonal-false.jpg)
+![diagonal-false](../../../../static/img/usage/tools/fast-report-faq/diagonal-false.jpg)
 
 - Untick **Diagonal** when use Line
 - Avoid use Rich Text (TfrRichView)
@@ -474,17 +474,17 @@ End;
 This is because default Font is Tahoma is not support Unicode Font
 - Solution : Change the Font To **Microsft YaHei** in Report Designer
 
-![microsoft-yahei-font](../../../../static/img/report/fast-report-faq/microsoft-yahei-font.jpg)
+![microsoft-yahei-font](../../../../static/img/usage/tools/fast-report-faq/microsoft-yahei-font.jpg)
 
 ## 30. How to Maintain the QR Code Size with large Data?
 :::note  NOTE: It might unable to scan if size too small & data too large
 :::
 
-![untick-auto-size](../../../../static/img/report/fast-report-faq/untick-auto-size.jpg)
+![untick-auto-size](../../../../static/img/usage/tools/fast-report-faq/untick-auto-size.jpg)
 
 ## 31. How to Show Even Row with Color?
 
-![even-row-with-color-insert-code](../../../../static/img/report/fast-report-faq/even-row-with-color-insert-code.jpg)
+![even-row-with-color-insert-code](../../../../static/img/usage/tools/fast-report-faq/even-row-with-color-insert-code.jpg)
 
 ```sql
 if <Line#> mod 2 = 1 then
@@ -498,13 +498,13 @@ Only Available in Version 852 & above
 :::
 - [Video](https://download.sql.com.my/customer/Fairy/Steps-FR-FAQ-26.gif)
 
-![barcode-qrcode](../../../../static/img/report/fast-report-faq/barcode-qrcode.jpg)
+![barcode-qrcode](../../../../static/img/usage/tools/fast-report-faq/barcode-qrcode.jpg)
 
-![barcode-editor](../../../../static/img/report/fast-report-faq/barcode-editor.jpg)
+![barcode-editor](../../../../static/img/usage/tools/fast-report-faq/barcode-editor.jpg)
 
-![dclick-onbeforeprint](../../../../static/img/report/fast-report-faq/dclick-onbeforeprint.jpg)
+![dclick-onbeforeprint](../../../../static/img/usage/tools/fast-report-faq/dclick-onbeforeprint.jpg)
 
-![qrcode-insert-code](../../../../static/img/report/fast-report-faq/qrcode-insert-code.jpg)
+![qrcode-insert-code](../../../../static/img/usage/tools/fast-report-faq/qrcode-insert-code.jpg)
 
 ```sql
 procedure IRBM_QROnBeforePrint(Sender: TfrxComponent);
@@ -535,14 +535,14 @@ end;
 
 ## 34. How to set A5 size to print on A4 paper?
 
-![dclick-onbeforeprint-settings](../../../../static/img/report/fast-report-faq/dclick-onbeforeprint-settings.jpg)
+![dclick-onbeforeprint-settings](../../../../static/img/usage/tools/fast-report-faq/dclick-onbeforeprint-settings.jpg)
 
 01. Change paper size to A4
 02. Set the Margin
 03. Click ok **GroupFooter**: GroupFooter1
 04. Double Click **OnBeforePrint** Script
 
-![change-onbeforeprint-values](../../../../static/img/report/fast-report-faq/change-onbeforeprint-values.jpg)
+![change-onbeforeprint-values](../../../../static/img/usage/tools/fast-report-faq/change-onbeforeprint-values.jpg)
 
 05. Add the value
 
@@ -555,35 +555,35 @@ Height
 
 * Error
 
-![error-assertion-failure](../../../../static/img/report/fast-report-faq/error-assertion-failure.jpg)
+![error-assertion-failure](../../../../static/img/usage/tools/fast-report-faq/error-assertion-failure.jpg)
 
  * Solution
 
-![disable-code-using-curlybracket](../../../../static/img/report/fast-report-faq/disable-code-using-curlybracket.jpg)
+![disable-code-using-curlybracket](../../../../static/img/usage/tools/fast-report-faq/disable-code-using-curlybracket.jpg)
 
 ## How to Fix Report Tax Rate show A instead of 6% ?
 
-![1](../../../../static/img/report/fast-report-faq/1.png)
+![1](../../../../static/img/usage/tools/fast-report-faq/1.png)
 
 1. Preview the Report format, Click on blue color link and enter into Report Design.
 
-   ![2](../../../../static/img/report/fast-report-faq/2.png)
+   ![2](../../../../static/img/usage/tools/fast-report-faq/2.png)
 
 2. Check GST Summary using which Pipeline | This Report using plSQL_7.
 
-   ![3](../../../../static/img/report/fast-report-faq/3.png)
+   ![3](../../../../static/img/usage/tools/fast-report-faq/3.png)
 
 3. Click on Calc Tab.
 
-   ![4](../../../../static/img/report/fast-report-faq/4.png)
+   ![4](../../../../static/img/usage/tools/fast-report-faq/4.png)
 
 4. Click on Menu View | Select Module
 
-   ![5](../../../../static/img/report/fast-report-faq/5.png)
+   ![5](../../../../static/img/usage/tools/fast-report-faq/5.png)
 
 5. Click on Events | Click on Main:plSQL_0 | Look for SQL_7(Refer Step 2 to see which pipeline) | Insert TaxRate
 
-   ![6](../../../../static/img/report/fast-report-faq/6.png)
+   ![6](../../../../static/img/usage/tools/fast-report-faq/6.png)
 
    Query:
 
@@ -596,7 +596,7 @@ Height
 
 6. Click on Event Handler | Select Procedure ReportBeforePrint | Look for Pipeline SQL_7 | Insert TaxRate
 
-    ![7](../../../../static/img/report/fast-report-faq/7.png)
+    ![7](../../../../static/img/usage/tools/fast-report-faq/7.png)
 
     Query:
 
@@ -606,21 +606,21 @@ Height
 
 7. Click on SubReport1:plSQL_7 Tab
 
-    ![8](../../../../static/img/report/fast-report-faq/8.png)
+    ![8](../../../../static/img/usage/tools/fast-report-faq/8.png)
 
 8. Click on VarTax | Right Click | Select Calculation
 
-   ![9](../../../../static/img/report/fast-report-faq/9.png)
+   ![9](../../../../static/img/usage/tools/fast-report-faq/9.png)
 
 9. Amend the Query | Press OK
 
    - Before Amend:
 
-        ![10](../../../../static/img/report/fast-report-faq/10.png)
+        ![10](../../../../static/img/usage/tools/fast-report-faq/10.png)
 
    - After Amend:
 
-        ![11](../../../../static/img/report/fast-report-faq/11.png)
+        ![11](../../../../static/img/usage/tools/fast-report-faq/11.png)
 
    Query:
 
@@ -630,10 +630,10 @@ Height
 
 10. File | Save
 
-    ![12](../../../../static/img/report/fast-report-faq/12.png)
+    ![12](../../../../static/img/usage/tools/fast-report-faq/12.png)
 
 11. Close the report builder
 
 12. Preview again the same report format.
 
-    ![13](../../../../static/img/report/fast-report-faq/13.png)
+    ![13](../../../../static/img/usage/tools/fast-report-faq/13.png)
