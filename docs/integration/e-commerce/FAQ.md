@@ -19,6 +19,7 @@ As default , all the eCommerce Product Information will be kept in *Maintain Ite
 ## What is the Max Character that the System is allowed to Keep in Stock Alternative ?
 
 Max Character allow is
+
 - 30 (5.2021.913.805 & below)
 - 35 (5.2021.914.806 & above)
 
@@ -33,8 +34,9 @@ For **Shopee** it uses the following formula :
 ```math
 shipping fee = (escrow + refund) - product price - commission - service - transaction
 ```
- * For **Lazada** & **WooCommerce** it calculates directly from the platform field.
-    * It will **not post** if the Shipping fee is **pay by the buyer**
+
+ - For **Lazada** & **WooCommerce** it calculates directly from the platform field.
+- It will **not post** if the Shipping fee is **pay by the buyer**
 
 ## How to handle Serial Number ?
 
@@ -51,22 +53,22 @@ You can use **Project Code** for each Platform
 
 ## How does the system handles Opening Invoice ?
 
-* Users will need to fetch & post the last **1-2 months** orders (into sales invoice)
+- Users will need to fetch & post the last **1-2 months** orders (into sales invoice)
 
-* During load payment, if system detect have earlier system conversion date , it will prompt <span style={{ color: 'red' }}>red alert</span> please sync all, all you need to do is **right click**, **check** past invoice & **post** past invoice.
+- During load payment, if system detect have earlier system conversion date , it will prompt <span style={{ color: 'red' }}>red alert</span> please sync all, all you need to do is **right click**, **check** past invoice & **post** past invoice.
 
-* if future payment cycle have any adjustment related to past invoice, system will automatically update both SL_IV(itemise detail) & AR_IV (DocAmt).
+- if future payment cycle have any adjustment related to past invoice, system will automatically update both SL_IV(itemise detail) & AR_IV (DocAmt).
 
 ## Where to download the Statement for each Pplatform ?
 
 May refer link below :
-* [Lazada](https://sellercenter.lazada.com.my/seller/helpcenter/guide-to-view-the-fees-your-account-statement-8809.html?spm=a2a16.helpcenter-psc-article.articles-list.1.1af31e466syh4Y)
+- [Lazada](https://sellercenter.lazada.com.my/seller/helpcenter/guide-to-view-the-fees-your-account-statement-8809.html?spm=a2a16.helpcenter-psc-article.articles-list.1.1af31e466syh4Y)
 
-* [Shopee](https://seller.shopee.com.my/edu/article/1651)
+- [Shopee](https://seller.shopee.com.my/edu/article/1651)
 
 ## What or Which Transaction will be used for Setting ?
 
- ![ch344](../../../static/img/integration/e-commerce/different/ch344.png)
+ ![e-commerce-settings](../../../static/img/integration/e-commerce/different/e-commerce-settings.png)
 
  | **Field**    | **Description**                                                                 |
 |--------------|---------------------------------------------------------------------------------|
@@ -79,9 +81,9 @@ May refer link below :
 ## Where is the Help File for each PLatforms
 
 May refer to links below :
-* [Lazada](https://sellercenter.lazada.com.my/seller/helpcenter/)
-* [Shopee](https://seller.shopee.com.my/edu/home)
-* [WooCommerce](https://docs.woocommerce.com/)
+- [Lazada](https://sellercenter.lazada.com.my/seller/helpcenter/)
+- [Shopee](https://seller.shopee.com.my/edu/home)
+- [WooCommerce](https://docs.woocommerce.com/)
 
 ## Why non stock control item code transferable is set to False(untick) ?
 
@@ -91,18 +93,18 @@ This is because removing the non stock control item code so that it is shown in 
 
 This happens when user :
 
-* Forget to **Map** the Itemcode in SQL Accounting
-* The **SKU** in platform are **Deleted**
+- Forget to **Map** the Itemcode in SQL Accounting
+- The **SKU** in platform are **Deleted**
 
 - Solution: **Sync** the Product again & **Map** again for all missing itemcode
 
 ## How does the system handle Combo Peoduct in PLatforms ?
 
-* In SQL Accounting it use **BOM(Bill of Materials) Template** as Detail Itemcode to deduct.
+- In SQL Accounting it use **BOM(Bill of Materials) Template** as Detail Itemcode to deduct.
 
 - Below is Example Selling Mobile Phone with Power Bank :
 
-![ch345](../../../static/img/integration/e-commerce/different/ch345.png)
+![combo-product](../../../static/img/integration/e-commerce/different/combo-product.png)
 
 ## Why Expired Date COlumn keep showing Wrong Date even after relogin to the platform ?
 
@@ -111,7 +113,7 @@ Its due to your pc **system date time** is not correctly set...
 - Solution :
     1. Click Windows , search Date & Time Settings
     2. Make sure You select correct **Time zone**
-    ![ch346](../../../static/img/integration/e-commerce/different/ch346.png)
+    ![system-date-time](../../../static/img/integration/e-commerce/different/system-date-time.png)
     3. Click Sync
     4. Try Relogin the platform again in SQL Accounting
 
@@ -122,7 +124,7 @@ Its due to your pc **system date time** is not correctly set...
 
 ### How does the system post when Shipping Fees Charges is higher than Seller Paid Amount that causes the Escrow Amount becomes negative ?
 
-![ch347](../../../static/img/integration/e-commerce/different/ch347.png)
+![e-commerce-order-detail](../../../static/img/integration/e-commerce/different/e-commerce-order-detail.png)
 
 System will Post to **Sales CN** and set Qty in Negative (In the **Order Tab**).
 When Load in Income statement(.xls) files into **Payment Tab**, system will auto post to **Customer Refund**.
@@ -131,7 +133,7 @@ When Load in Income statement(.xls) files into **Payment Tab**, system will auto
 
 This usually happens when Buyer is not at Home after a few attempts sent and seller decided to cancel the Order.
 
-![ch348](../../../static/img/integration/e-commerce/different/ch348.png)
+![cancelled-order](../../../static/img/integration/e-commerce/different/cancelled-order.png)
 
 ### How System handle Payment Withdraw ?
 
@@ -143,7 +145,7 @@ This usually happens when Buyer is not at Home after a few attempts sent and sel
 
 Try redownload again from shopee as shopee had updated the format.
 
-![ch349](../../../static/img/integration/e-commerce/different/ch349.png)
+![payments-date-incorrect](../../../static/img/integration/e-commerce/different/payments-date-incorrect.png)
 
 </details>
 
@@ -168,6 +170,7 @@ When load payment, once release amount is in **negative**, system will **delete 
 When **2nd payment(Adjustment)**, if the amount is in negative, append to CN and Refund, if in positive, will raise Invoice(Adjustment value) and Payment.
 
 ### Why the Invoice Amount is changes once Payment is loaded?
+
 It is due to Shipping Fee updated.
 Lazada actual Shipping Fee only known **after Payment** is Loaded.
 
