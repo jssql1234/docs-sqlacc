@@ -152,37 +152,37 @@ You cannot amend the documents anymore where the FINAL SST return has generated.
 
 1. Sales Tax (Accrual Basis)
 
-   ![des-sst-posting-1](../../../static/img/usage/gst-and-sst/sst/sst-posting-1.png)
+   ![des-sst-posting-img1](../../../static/img/usage/gst-and-sst/sst/sst-posting-img1.png)
 
 2. Service Tax (Payment Basis)
 
    In SST 2.0, the service tax is due and payable when payment is received for any taxable service.
 
-      ![des-sst-posting-2](../../../static/img/usage/gst-and-sst/sst/sst-posting-2.png)
+      ![des-sst-posting-img2](../../../static/img/usage/gst-and-sst/sst/sst-posting-img2.png)
 
    1. Issue sales invoice with service tax 6%, date 31/10/2018, Amount RM 1,000.00 & Tax Amount RM 60.00.
 
-      ![des-sst-posting-3](../../../static/img/usage/gst-and-sst/sst/sst-posting-3.png)
+      ![des-sst-posting-img3](../../../static/img/usage/gst-and-sst/sst/sst-posting-img3.png)
 
    2. Process SST Return from 01/09/2018 to 31/10/2018. Total Tax Payable is RM 0. Due to no payment is receive for the invoices issued.
 
-      ![des-sst-posting-4](../../../static/img/usage/gst-and-sst/sst/sst-posting-4.png)
+      ![des-sst-posting-img4](../../../static/img/usage/gst-and-sst/sst/sst-posting-img4.png)
 
    3. Payment is received on 05/11/2018, knocked-off on IV-00111.
 
-      ![des-sst-posting-5](../../../static/img/usage/gst-and-sst/sst/sst-posting-5.png)
+      ![des-sst-posting-img5](../../../static/img/usage/gst-and-sst/sst/sst-posting-img5.png)
 
    4. Process second cycle of taxable period, the tax payable will be capture as payment is received.
 
-      ![des-sst-posting-6](../../../static/img/usage/gst-and-sst/sst/sst-posting-6.png)
+      ![des-sst-posting-img6](../../../static/img/usage/gst-and-sst/sst/sst-posting-img6.png)
 
    5. SQL Account will auto Credit to SST- Deferred Tax account during invoice issue but no payment. Once payment is received, a Debit will be auto reversed at SST-Deferred Tax Account.
 
-      ![des-sst-posting-7](../../../static/img/usage/gst-and-sst/sst/sst-posting-7.png)
+      ![des-sst-posting-img7](../../../static/img/usage/gst-and-sst/sst/sst-posting-img7.png)
 
    6. the taxable amount of RM 1,000.00 and Tax Amount of RM 60.00 will also capture in SST-02 Part B2, number 11c.
 
-      ![des-sst-posting-8](../../../static/img/usage/gst-and-sst/sst/sst-posting-8.png)
+      ![des-sst-posting-img8](../../../static/img/usage/gst-and-sst/sst/sst-posting-img8.png)
 
 ## Sales Tax Legislation (SaTL)
 
@@ -629,7 +629,7 @@ Submission to sales tax office at applicants’ place of business.
 
 Illustration:
 
-![des-sst-drawback-1](../../../static/img/usage/gst-and-sst/sst/sst-drawback-1.png)
+![des-sst-drawback-1](../../../static/img/usage/gst-and-sst/sst/sst-drawback-img1.png)
 
 ### Penalty for late payment of tax
 
