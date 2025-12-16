@@ -104,7 +104,7 @@ Use the Repack action to repack specific items in the order after cancellation o
 
 When a buyer initiates a return, the order moves to the **To Return** tab for seller approval.
 
-**Return Processing Options:**
+**Return Processing Options:** May vary based on reason details
 
 | Option                | Description                                |
 | --------------------- | ------------------------------------------ |
@@ -238,13 +238,26 @@ When you've made an offer and are awaiting buyer response, you can still modify 
 
 ![TikTok Order Detail](../../../../static/img/xstore/order-details/tiktok/order-detail.png)
 
+The order information section displays:
+
+| Section              | Details                                   |
+| -------------------- | ----------------------------------------- |
+| **Order Details**    | Order ID, Order status, Payment method    |
+| **Buyer Details**    | Customer name and shipping address        |
+| **Payment Details**  | Payment method, Currency and Payment time |
+| **Shipping Details** | Carrier information                       |
+
 ### Cancel Order Info
 
 ![TikTok Cancel Order Info](../../../../static/img/xstore/order-details/tiktok/cancel-order-info.png)
 
+Displays cancellation details including the cancel reason and initiator when an order has been cancelled.
+
 ### Return Order Info
 
 ![TikTok Return Order Info](../../../../static/img/xstore/order-details/tiktok/return-order-info.png)
+
+Displays return request details including the return reason, status, and refund amount when a buyer initiates a return.
 
 ---
 
