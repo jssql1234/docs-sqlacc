@@ -110,35 +110,39 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Stores"]
 
     ![17](../../../static/img/xstore/stores/select-tiktok.png)
 
-3. Select and input tiktok account credentials
+3. Select your account type to start the authorization process
 
-4. Click Confirm to Install
+    ![18](../../../static/img/xstore/stores/tiktok-selectAcc.png)
 
-    ![18](../../../static/img/xstore/stores/tiktok-login.png)
+4. Select and input tiktok account credentials
 
-5. Review the data-sharing permissions and tick the checkbox to acknowledge
+5. Click Confirm to Install
 
-6. Click Authorize
+    ![19](../../../static/img/xstore/stores/tiktok-login.png)
 
-    ![19](../../../static/img/xstore/stores/tiktok-credentials.png)
+6. Review the data-sharing permissions and tick the checkbox to acknowledge
 
-7. Click Done to complete the setup
+7. Click Authorize
 
-    ![20](../../../static/img/xstore/stores/tiktok-auth.png)
+    ![20](../../../static/img/xstore/stores/tiktok-credentials.png)
 
-8. After successful linking
+8. Click Done to complete the setup
+
+    ![21](../../../static/img/xstore/stores/tiktok-auth.png)
+
+9. After successful linking
 
     - A success message will appear
 
     - The linked store will be added to the Data table.
 
-        ![21](../../../static/img/xstore/stores/link-tiktok.png)
+        ![22](../../../static/img/xstore/stores/link-tiktok.png)
 
 > 📌**If store authorization expires, click the link icon (🔗) to re-link the store or click Link Store**
 
-![22](../../../static/img/xstore/stores/store-expired.png)
+![23](../../../static/img/xstore/stores/store-expired.png)
 
-### Additional Features
+## Additional Features
 
 | Features                 | Description                                                                  |
 | ------------------------ | ------------------------------------------------------------------------ |
