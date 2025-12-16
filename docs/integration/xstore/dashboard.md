@@ -39,7 +39,7 @@ Select the visualization format that best suits your needs:
 
 This section provides a financial overview of your transactions.
 
-![Layout Controls](../../../static/img/estore/dashboard/dashboard-2.png)
+![Layout Controls](../../../static/img/xstore/dashboard/dashboard-2.png)
 
 ### Key Metrics
 - **Total Transactions**: The total number of payment transactions within the selected period.
@@ -65,7 +65,7 @@ Choose how to aggregate your payment data:
 
 The Orders section offers a comprehensive breakdown of your order processing status and sources.
 
-![Layout Controls](../../../static/img/estore/dashboard/dashboard-3.png)
+![Layout Controls](../../../static/img/xstore/dashboard/dashboard-3.png)
 
 ### Order Metrics
 - **Total Orders**: Cumulative count of orders received.
@@ -93,7 +93,7 @@ A detailed list showing the count of orders in each stage of the fulfillment pro
 
 Monitor your inventory health and product performance.
 
-![Layout Controls](../../../static/img/estore/dashboard/dashboard-4.png)
+![Layout Controls](../../../static/img/xstore/dashboard/dashboard-4.png)
 
 ### Inventory Metrics
 - **Total Products**: The total number of unique products in your catalog.
@@ -111,7 +111,7 @@ Monitor your inventory health and product performance.
 
 Manage the connectivity and distribution of your sales channels.
 
-![Layout Controls](../../../static/img/estore/dashboard/dashboard-5.png)
+![Layout Controls](../../../static/img/xstore/dashboard/dashboard-5.png)
 
 ### Store Metrics
 - **Total Stores**: The total number of e-commerce stores integrated.
