@@ -31,7 +31,7 @@ The Order Management interface is organized into tabs representing each stage of
 | --------------------- | ------------------------------------------------------------------ |
 | **Search**            | Find orders by **Order ID** or **Store Name** using the search bar |
 | **Date Range**        | Filter orders by creation date using the date picker               |
-| **Column Visibility** | Click the eye icon to show/hide specific table columns             |
+| **Column Visibility** | Click the column icon to show/hide specific table columns          |
 
 ---
 
@@ -144,7 +144,13 @@ Once orders reach **Shipped**, **Delivered**, or **Completed** status:
 
    > The orders posted will match the current tab's status. For example, clicking **Post Order** on the Shipped tab posts only shipped orders.
 
-2. **Status History** – Click the history icon next to the Post Order button to view order posting history and status
+2. **Status** – Click the **icon next to the Post Order button** to view order posting history and status
+
+   | Icon Colour | Status     |
+   | ----------- | ---------- |
+   | 🔵 Blue     | Processing |
+   | 🟢 Green    | Success    |
+   | 🔴 Red      | Failed     |
 
 3. **Archived Orders** – Turn on the switch to view orders that have been posted to SQL Account.  
    Note\*: if orders is updated after posted, it will be moved back to **non archived** page.
