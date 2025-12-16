@@ -28,17 +28,15 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Inventory"]
 
    ![4](../../../static/img/xstore/inventory/mapping-product-1.png)
 
-   ![5](../../../static/img/xstore/inventory/mapping-product-2.png)
-
    :::info
    **Ecommerce Products** are mapped to **Stock Item UOM**.
    :::
 
 4. To unmap products, select them and click **Unmap**
 
-   ![6](../../../static/img/xstore/inventory/unmap-product-1.png)
+   ![5](../../../static/img/xstore/inventory/unmap-product-1.png)
 
-   ![7](../../../static/img/xstore/inventory/unmap-product-2.png)
+   ![6](../../../static/img/xstore/inventory/unmap-product-2.png)
 
 ## Stocks Page
 
@@ -69,7 +67,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Inventory"]
    Ensure your store is mapped to the correct stock item location, or mapped items won't appear.
    :::
 
-### Update Quantity
+<!-- ### Update Quantity
 
 1. Click the **+/-** icon to update the ecommerce platform product quantity
 
@@ -77,4 +75,4 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Inventory"]
 
    :::info
    The ecommerce platform quantity is based on the current quantity of stock items in the location mapped to your store.
-   :::
+   ::: -->
