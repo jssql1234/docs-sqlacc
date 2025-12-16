@@ -16,7 +16,10 @@ The Settings module consists of three main sections to help you manage your orga
 
 ### Overview
 
-View and update your organization's information, including business details and API configurations.
+View and update your company's information, including business details and API configurations.
+:::info
+Check out our [Setup Guide](/integration/xstore/setup#step-1-create-company) for detailed instructions on creating your company profile.
+:::
 
 ![Company Overview](../../../static/img/xstore/settings/company-overview.png)
 
@@ -39,7 +42,9 @@ Configure your SQL Account API access by setting up:
 - Secret key
 
 ![Company Information](../../../static/img/xstore/settings/company-information.png)
-[Learn more about SQL Account configuration](/integration/xstore/setup#step-3-configure-company-settings)
+:::info
+For more details on SQL Account configuration, see our [Setup Guide](/integration/xstore/setup#step-3-configure-company-settings).
+:::
 
 #### Update Company Logo
 
@@ -148,11 +153,11 @@ User IDs appear in the users table. Ask the person you want to invite to copy th
 
 After sending, you'll see a status summary showing:
 
-| Status     | Meaning                                       |
-| ---------- | --------------------------------------------- |
-| ✅ Success | Invitation sent successfully                  |
-| ℹ️ Exist   | User already has an invitation or is a member |
-| ❌ Failed  | Invitation could not be sent                  |
+| Status     | Meaning                         |
+| ---------- | ------------------------------- |
+| ✅ Success | Invitation sent successfully    |
+| ℹ️ Exist   | User already joined the company |
+| ❌ Failed  | Invitation could not be sent    |
 
 ![Invitation Status](../../../static/img/xstore/settings/user-invitation-status.png)
 
@@ -169,25 +174,20 @@ Click **Pending Invitations** to switch to the pending list view.
 
 ### Accepting Invitations
 
+Recipients receive an email with an invitation link.
+
 :::tip Invitation with User ID
 Users invited by User ID join the company immediately without needing to accept an invitation.
 :::
 
-Recipients receive an email with an invitation link.
-
-- **Existing users** are redirected directly to the Company List page
-- **New users** are redirected to the acceptance page to create an account
-
 ![Invitation Email](../../../static/img/xstore/settings/user-invitation-email.png)
-
-**Acceptance methods for new users:**
 
 **Option 1: Sign in with Passkey**
 
 Log in using a Passkey and redirect to the Company List page.
 
 :::info Prerequisite
-You must register a Passkey before using this method to accept the invitation.
+You must register an user account with passkey before using this method to accept the invitation.
 :::
 
 ![Accept with Passkey](../../../static/img/xstore/settings/user-invitation-accept-passkey.png)
@@ -195,8 +195,6 @@ You must register a Passkey before using this method to accept the invitation.
 **Option 2: Sign up with Email**
 
 Register a new account, log in automatically, and redirect to the Company List page.
-
-[Learn more about company setup](/integration/xstore/setup#step-1-create-company)
 
 ![Accept with Email](../../../static/img/xstore/settings/user-invitation-accept-email.png)
 
