@@ -41,7 +41,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Setup"]
 
     ![6](../../../static/img/xstore/setup/link-store.png)
 
-> 📌 For detailed instructions on linking store, navigate to **Integration > XStore > Stores**
+> 📌 For detailed instructions on linking store, navigate to **Integration > XStore > [Stores](./stores.md)** 
 
 ### Auto-Sync Behavior
 - After linking, the system **automatically syncs the past 3 days** of product, order, and payment data.
@@ -104,7 +104,7 @@ Sync stock items from SQL Account for **product mapping** and **quantity control
 
     1. **Sync All**, or
 
-    2. Select items using checkboxes and click **Sync Selected**
+    2. Tick checkboxes and click **Sync Selected**
 
         ![16](../../../static/img/xstore/setup/select-stockSync.png)
 
@@ -122,7 +122,7 @@ If platform data failed to sync during store linking, you can sync manually
 
     ![18](../../../static/img/xstore/setup/product-sidebar.png)
 
-2. Click **Sync Product**
+2. Click (**⟲**) icon
 
     ![19](../../../static/img/xstore/setup/sync-product.png)
 
@@ -140,7 +140,7 @@ If platform data failed to sync during store linking, you can sync manually
 
     ![21](../../../static/img/xstore/setup/order-sidebar.png)
 
-2. Click **Sync Order**
+2. Click (**⟲**) icon
 
     ![22](../../../static/img/xstore/setup/sync-order.png)
 
@@ -174,7 +174,7 @@ If platform data failed to sync during store linking, you can sync manually
 
     ![26](../../../static/img/xstore/setup/payment-sidebar.png)
 
-2. Click **Sync Payment**
+2. Click (**⟲**) icon
 
     ![27](../../../static/img/xstore/setup/sync-payment.png)
 
