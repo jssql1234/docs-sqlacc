@@ -5,7 +5,7 @@
 
 <div align="center">
     <article style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-        <p align="center"><img width="300" src="static/img/account-logo.png" /></p>
+        <p align="center"><img width="300" src="/static/img/account-logo.png" /></p>
         <h1 style="width: 100%; text-align: center;">SQL Account Documentation</h1>
     </article>
 </div>
