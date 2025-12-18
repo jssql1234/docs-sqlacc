@@ -46,9 +46,9 @@ If your company has multiple users, upgrade the server first before upgrading in
 
 1. **Download SQL Latest version and save it to desktop , double click the installer**
 
-    :::success[INFO]
-    get the latest version installer from your service consultant
-    :::
+   :::success[INFO]
+   get the latest version installer from your service consultant
+   :::
 
    ![7](../../static/img/getting-started/upgrade-sql/7.png)
 
@@ -86,4 +86,4 @@ If your company has multiple users, upgrade the server first before upgrading in
 
 10. Click **Yes** to upgrade your database > Done
 
-   ![15](../../static/img/getting-started/upgrade-sql/16.png)
+![15](../../static/img/getting-started/upgrade-sql/16.png)

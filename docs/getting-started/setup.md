@@ -141,11 +141,11 @@ tags: ["SQL Account", "Getting Started", "Setup"]
 
 ## Create New Group
 
-1. Click on "**Back to Database Group**"
+1. Click on "**Back to Database Group**".
 
    ![create-new-group-1](../../static/img/getting-started/setup/create-new-group-1.png)
 
-2. Click **Create Group**
+2. Click **Create Group**.
 
    ![create-new-group-2](../../static/img/getting-started/setup/create-new-group-2.png)
 
@@ -156,9 +156,8 @@ tags: ["SQL Account", "Getting Started", "Setup"]
 5. Select the **Database Folder** & click Ok.
 
    :::info
-      **Group**: Default location is at `C:\estream\SQLAccounting\Share`
-
-      **Database**: Default location is at `C:\estream\SQLAccounting\DB`
+   **Group**: Default location is at `C:\estream\SQLAccounting\Share`
+   **Database**: Default location is at `C:\estream\SQLAccounting\DB`
    :::
 
    ![create-new-group-3](../../static/img/getting-started/setup/create-new-group-3.png)

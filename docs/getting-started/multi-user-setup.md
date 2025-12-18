@@ -14,90 +14,69 @@ For a multi-user scenario, a separated database server is recommended. It will s
 
 ### Firebird Installation
 
-   1. Visit [download page](http://www.sql.com.my/support/downloads) to download `Firebird`.
+1. Visit [download page](http://www.sql.com.my/support/downloads) to download `Firebird`.
 
-   2. If Window System Type is 64 Bits, please download `Firebird 3.0.x` **64 bit (x64)**
+2. If Window System Type is 64 Bits, please download `Firebird 3.0.x` **64 bit (x64)**
 
-      ![1](../../static/img/getting-started/multiuser-setup/1.png)
+   ![1](../../static/img/getting-started/multiuser-setup/1.png)
 
-   3. Run Firebird setup | Press **Ok** | Select **I accept the agreement** | Click 5 times **Next** | Make sure it is "**Run Firebird in SuperServer Mode**"
+3. After downloading the Firebird executable, run it. Press **OK** to open the Terms and Conditions interface, check **I accept the agreement**, and click **Next**. Continue clicking **Next** until you reach the screen shown below. Ensure that the **Run Firebird in SuperServer Mode** option is selected, and that all other options are deselected.
 
-      ![2](../../static/img/getting-started/multiuser-setup/2.png)
+   ![2](../../static/img/getting-started/multiuser-setup/2.png)
 
-   4. Leave it blank to use default password of master key.
+4. Leave it blank to use default password, and click **Next**.
 
-      ![3](../../static/img/getting-started/multiuser-setup/3.png)
+   ![3](../../static/img/getting-started/multiuser-setup/3.png)
 
-   5. Click on **Next** | **Install** | **Next** | Click on **Finish** to complete
+5. Continue with the setup until you reach the screen with a button **Finish**. Click on the button to complete.
 
 ### Network Setup
 
 1. Window Firewall
 
-   1. Control Panel | Window Firewall | Advanced Settings | Inbound Rules | New Rules
-
-   2. Select Port | Next | TCP | Specific Local Port = 3050 | Next | Next | Next
-
-   3. Name = Firebird | Finish
+   1. In windows, search for **Control Panel**, open it. Next, navigate to **Window Firewall** > **Advanced Settings** > **Inbound Rules**, select **New Rules**.
+   2. Among the options, select **Port**. Click _Next_.
+   3. Select **TCP**, for the **Specific Local Port**, fill in **3050**. Click _Next_ continuosly until you reach the screen to give it a name.
+   4. Name it **Firebird** and click _Finish_.
 
 2. Network and Sharing Center
 
-   1. Control Panel | Network and Sharing Center | Change Advanced sharing Settings
+   1. In windows, search for **Control Panel**, run it. Navigate to **Network and Sharing Center** > **Change Advanced Sharing Settings**.
+   2. Configure each settings as follows:
 
-   2. Network Discovery
-
-      - Turn on Network Discovery
-
-   3. File and Printer Sharing
-
-      - Turn on sharing so anyone with network access can read and write files in the public folders
-
-   4. Public Folder Sharing
-
-      - Turn on Sharing so anyone with network access can read and write files in the Public folders
-
-   5. File Sharing Connection
-
-      - Use 128-bit encryption to help protect file sharing connections(recommended)
-
-   6. Password Protected Sharing
-
-      - Turn off password protected sharing
+   | Settings                   | Action                                                                                      |
+   | -------------------------- | ------------------------------------------------------------------------------------------- |
+   | Network Discovery          | Switch on                                                                                   |
+   | File and Printer Sharing   | Switch on to allow others on the network to access shared files and printers on this device |
+   | Public Folder Sharing      | Switch on to allow others on the network to read write files in Public folders              |
+   | File Sharing Connection    | Use 128-bit encryption for devices that support it for enhanced security                    |
+   | Password Protected Sharing | Switch off                                                                                  |
 
 3. Share the SQL Account or Payroll Folder
 
-   1. My Computer | Go to C:\eStream\SQLAccounting\Share or Go to C:\eStream\SQL Payroll\Share | Right Click | Properties | Sharing Tab | Advanced Sharing | Tick Share this Folder | Click Permissions | Tick Full Control | Press OK until the end.
-
-   2. Click on **Security** Tab | Click **Advanced** | Click on **Change Permissions** | Click **Add** Button | At empty Box enter : Everyone | Press **OK** | Tick **Allow Full Control** | Press **OK** until the end.
+   1. Search **explorer** in windows, run it. Go to your share folder (e.g. `C:\eStream\SQLAccounting\Share` or `C:\eStream\SQL Payroll\Share`), right click on it and select **Properties**. It has a few tabs, navigate to **Sharing** > **Advanced Sharing**. Tick **Share this Folder**, click on **Permissions** and select **Full Control**. Press **OK** to close the **Permission** dialog box.
+   2. Next, navigate to the **Security** tab, click on **Advanced**. In the advanced window, click on **Change Permissions** follow by the **Add** Button. In the empty box enter, type **Everyone** and press **OK**. Besides, tick **Allow Full Control** and press **OK** to close the window.
 
 4. Install SQL Account or Payroll
 
-   1. Run SQL Account or Payroll Setup | Click **Next** | Choose **I Select the Agreement** | Click **Next**
+   1. After downloading the executable, double click on it to run.
+   2. Follow on the dialog, adjust according to your environment.
+   3. After finish installed, open the application. Click on **Create Group** > **DCF Group**. Give it a name and save.
+   4. Next, configure the **Database Engine** to be **Firebird Server** and click **Test Connection**, if you see a blue color message, it means the setup succeed.
+   5. Scan through the rest of settings. After confirmed click **OK**.
 
-   2. Amend to C:\eStream\SQLAccounting or C:\eStream\SQL Payroll | Click Next | 3 times | Install | Click Finish
-
-   3. Create Group | Click **DCF Group** | Click **Save** Button
-
-   4. Database Engine = Firebird Server | Click **Test Connection**, if the status shown in blue color, press **OK**
-
-   5. Double check your settings as below and click **OK**
-
-   :::info
-      Default Database Username is **SYSDBA**, Database Password is **MASTERKEY**
-   :::
-
-      ![4](../../static/img/getting-started/multiuser-setup/4.png)
+   ![4](../../static/img/getting-started/multiuser-setup/4.png)
 
 ## Client PC Setup
 
-   1. Run SQL Account or Payroll Setup | Click **Next** | Choose **I Select the Agreement** | Click **Next** 4 times | **Install** | Click **Finish**
+1. In client pc, we will also need to install the application. Repeat the installation steps and execute it after installed.
 
-   2. **Add Group** | Click **DCF File**
+2. Click on **Add Group** > **DCF File**.
 
-   3. Select Share folder (At Step 4)| Select Default DCF
+3. Select the DCF file from the public share folder created in previous step.
 
-      ![5](../../static/img/getting-started/multiuser-setup/5.png)
+   ![5](../../static/img/getting-started/multiuser-setup/5.png)
 
-      ![6](../../static/img/getting-started/multiuser-setup/6.png)
+   ![6](../../static/img/getting-started/multiuser-setup/6.png)
 
-   4. Click on Firebird icon and Logon as usual.
+4. Click on firebird icon and login as usual.
