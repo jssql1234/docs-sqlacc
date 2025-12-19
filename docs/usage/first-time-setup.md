@@ -12,7 +12,7 @@ tags: ["SQL Account", "Usage", "Setup"]
 Watch the tutorial video here: [YouTube](https://www.youtube.com/watch?v=yH8VfNGjEr0&feature=youtu.be)
 :::
 
-1. **Tools** | **Options**
+1. **Tools** → **Options**
 
     ![tools-options](../../static/img/usage/first-time-setup/tools-options.png)
 
@@ -78,7 +78,7 @@ Watch the tutorial video here: [YouTube](https://www.youtube.com/watch?v=yH8VfNG
 
 ### Maintain Tariff
 
-Go to **Tools** | **Maintain tariff** | **New**
+Go to **Tools** → **Maintain tariff** → **New**
 
 Insert your product tariff code here. You can also look up your product tariff code using the Malaysia Customs [JKDM HS Explorer](https://ezhs.customs.gov.my/)
 
@@ -86,7 +86,7 @@ Insert your product tariff code here. You can also look up your product tariff c
 
 ## Company Profile
 
-1. Go to **File** | **Company Profile**
+1. Go to **File** → **Company Profile**
 
    Fill in your company particulars. If the company is subject to both sales and service tax, enter the Sales Tax and Service Tax numbers.
 
