@@ -1,386 +1,349 @@
 ---
 sidebar_position: 1
 title: Guide
-description: Customer workflow
+description: Customer workflow and management in SQL Account
 slug: /usage/customer/guide
-tags: ["SQL Account", "Usage", "Customer"]
+tags: ["SQL Account", "Usage", "Customer", "AR"]
 ---
 
-## Customer Work Flow (Account Receivable)
+## Customer Guide (Account Receivable)
 
-Example of **Customer (AR)** process work flow aligned with SQL Account flow:
+The **Customer (AR)** module allows you to manage customer profiles, track outstanding balances, and process payments.
 
-![42](../../../static/img/usage/customer/customerBasicGuide/42.png)
+## Customer Workflow
 
-**AR = Account Receivable**.
+The following diagram illustrates the standard Customer (AR) process workflow in SQL Account:
 
-* To maintain customer profile data such as addresses, phone numbers, fax, email, contact persons, credit limits, credit terms, etc. In other words, it is your customer contacts list.
+![customer-workflow](../../../static/img/usage/customer/guide/customer-workflow.png)
 
-![maintain-cust](../../../static/img/usage/customer/customerBasicGuide/maintain-cust.png)
+**AR (Account Receivable)** is used to maintain customer profile data, including addresses, contact details, credit limits, and terms.
 
-## Create New Customer
-
-* Click the **NEW** button.
-
-1. **Customer** | **Maintain Customer** | **New**
-
-2. Enter the customer’s name and other information accordingly.
-
-![newCust](../../../static/img/usage/customer/customerBasicGuide/new-cust.png)
-
-* Enter your customer's details
-
-![custEntry](../../../static/img/usage/customer/customerBasicGuide/cust-entry.png)
-
-* You may input the following fields:
-
-| **Field Name** | **Explanation & Properties** |
-|-----------------|------------------------------|
-| **Company** | • Input the customer billing company name.<br />• **Field type:** Alphanumerical<br />• **Length:** 100 |
-| **Description 2** (underline below *Company*) | • An optional field where you can enter Chinese translated name, former company name, company register no, etc.<br />• **Field type:** Alphanumerical<br />• **Length:** 100 |
-| **Control A/c** | • Select an appropriate Customer Control Account to be posted to GL when customer documents are created.<br />• **Field type:** Lookup from Maintain Accounts (Special Type: Customer Control Account)<br />• **Length:** 10 |
-| **Code** | • AUTO/MANUAL generate the Customer Code.<br />• **Field type:** Alphanumerical<br />• **Length:** 10 |
-| **Cust Category** | • Categorize your customer for reporting purpose.<br />• **Field type:** Lookup from Maintain Company Category<br />• **Length:** 15 |
+![maintain-cust](../../../static/img/usage/customer/guide/maintain-cust.png)
 
 ## Maintain Customer
 
-### General
+To create a new customer record:
 
-![custGeneral](../../../static/img/usage/customer/customerBasicGuide/cust-general.png)
+1. Go to **Customer** → **Maintain Customer**.
+2. Click the **New** button.
 
-| **Field Name** | **Explanation & Properties** |
-|----------------|------------------------------|
-| **Branch Name** | • You may maintain multiple sets of addresses by differentiating the Branch Name.<br />Default Branch Name: BILLING<br />**Field type:** Alphanumerical<br />**Length:** 100 |
-| **Address (4 lines)** | • Input the company addresses.<br />**Field type:** Alphanumerical<br />**Length:** 40 (each line) |
-| **Attention** | • Input the contact person.<br />**Field type:** Alphanumerical<br />**Length:** 70 |
-| **Phone 1 & 2** | • Input the telephone number(s).<br />**Field type:** Alphanumerical<br />**Length:** 30 |
-| **Fax 1 & 2** | • Input the fax number(s).<br />**Field type:** Alphanumerical<br />**Length:** 30 |
-| **Email** | • Input the email address.<br />**Field type:** Alphanumerical<br />**Length:** 60 |
-| **Area** | • Select a default Area.<br />**Field type:** Lookup from Maintain Area<br />**Length:** 10 |
-| **Agent** | • Select a default Agent.<br />**Field type:** Lookup from Maintain Agent<br />**Length:** 10 |
-| **Currency** | • Select a default Currency.<br />**Field type:** Lookup from Maintain Currency<br />**Length:** 6 |
-| **Credit Terms** | • Select a default Terms.<br />**Field type:** Lookup from Maintain Terms<br />**Length:** 10 |
-| **Credit Limit** | • Set the credit limit (for non-Advance Credit Control module).<br />**Field type:** Numeric |
-| **Statement** | • Select a default statement type: Open Item or Brought Forward.<br />**Brought Forward:** Summary Statement<br/>**Open Item:** Detail Statement<br />**Field type:** Option<br />**Default:** Open Item |
-| **Aging On** | • Select a default Aging type: Invoice Date or Due Date.<br />**Invoice Date:** based on IV Date<br />**Due Date:** based on after due date (terms)<br />**Field type:** Option<br />**Default:** Invoice Date |
-| **Price Tag** | • Set the price tag to the items.<br />**Field type:** Lookup from Maintain Stock Price Tag<br />**Length:** 10 |
+   ![new-cust](../../../static/img/usage/customer/guide/new-cust.png)
 
-1. You can categorize your customers into different groups such as category, agents, area. How to create a new agent/ area? Refer to the step below:
+3. Enter the customer's details in the entry screen.
 
-   ![custGroup](../../../static/img/usage/customer/customerBasicGuide/cust-group.png)
+   ![cust-entry](../../../static/img/usage/customer/guide/cust-entry.png)
 
-2. You can also insert more than one billing / delivery addresses (unlimited)
+### Key Fields in Maintain Customer
 
-3. There are different options for viewing customer aging and customer statement
+| Field Name | Explanation & Properties |
+| :--- | :--- |
+| **Company** | The customer's billing company name. (Alphanumeric, Max 100 chars) |
+| **Description 2** | Optional field for translated names, former names, or registration numbers. (Alphanumeric, Max 100 chars) |
+| **Control A/c** | The GL Control Account for posting customer documents. (Lookup from Maintain Accounts) |
+| **Code** | The unique Customer Code (can be auto-generated or manual). |
+| **Cust Category** | Used to categorize customers for reporting purposes. |
 
-:::note
+## Customer Profile Tabs
 
-1. Customer Statement
+### General Tab
 
-* Brought Forward: Summary Statement
+The **General** tab contains primary contact and credit information.
 
-* Open Item: Detail Statement
+![cust-general](../../../static/img/usage/customer/guide/cust-general.png)
 
-2. Customer Aging
+| Field Name | Description |
+| :--- | :--- |
+| **Branch Name** | Used to maintain multiple addresses (Default: BILLING). |
+| **Address** | The company's billing or delivery address (4 lines). |
+| **Attention** | The primary contact person. |
+| **Phone / Fax** | Contact numbers for the customer. |
+| **Email** | The customer's email address for correspondence. |
+| **Area / Agent** | Default Area and Agent for sales tracking and reporting. |
+| **Currency** | The default transaction currency for this customer. |
+| **Credit Terms** | The default payment terms (e.g., 30 Days). |
+| **Credit Limit** | The maximum credit allowed (for basic credit control). |
+| **Statement** | **Brought Forward** (Summary) or **Open Item** (Detailed). |
+| **Aging On** | Calculate aging based on **Invoice Date** or **Due Date**. |
+| **Price Tag** | Assign a specific price level to the customer. |
 
-* Invoice Date: based on IV Date
+### Note Tab
 
-* Due Date: Based on after due date (terms)
+The **Note** tab is used for internal remarks and tracking account status.
+
+![cust-note](../../../static/img/usage/customer/guide/cust-note.png)
+
+| Field Name | Description |
+| :--- | :--- |
+| **Account Open Date** | The date the account was created. |
+| **Remark** | Internal notes that appear in **Inquiry** → **Account Inquiry**. |
+| **Reg No.** | New and old company registration numbers. |
+| **Biz Nature** | The customer's industry or business type. |
+| **Note** | A rich-text field for detailed knowledge base entries (supports **Date Stamp**). |
+| **Status** | **Active**, **Inactive**, **Suspend**, **Prospect**, or **Pending**. |
+
+:::info Account Status Definitions
+
+- **Active**: Full access to documents and statements.
+- **Inactive**: Cannot create documents or print statements.
+- **Suspend**: Cannot create documents but can print statements.
+- **Prospect/Pending**: Can create documents and print statements.
 
 :::
 
-### Note
+### Tax Tab
 
-![custNote](../../../static/img/usage/customer/customerBasicGuide/cust-note.png)
+Configure tax-related settings and exemptions for the customer.
 
-| **Field Name** | **Explanation & Properties** |
-|----------------|------------------------------|
-| **Account Open Date** | • Represents the creation date of the account.<br />**Field type:** Date |
-| **Remark** | • A note that will appear in Inquiry → Account Inquiry.<br />**Example:** "Check payment refer to Ms Lee (012-345 67890)".<br />**Field type:** Alphanumerical<br />**Length:** 80 |
-| **Reg No. (new)** | • Company’s new registration number.<br />**Field type:** Alphanumerical<br />**Length:** 80 |
-| **Reg No. (old)** | • Use the magnifying icon to search for the old registration number.<br />**Field type:** Alphanumerical<br />**Length:** 80 |
-| **Biz Nature** | • Customer’s business nature.<br />**Example:** Chemical Manufacturing, Car Service, etc.<br />**Field type:** Alphanumerical<br />**Length:** 100 |
-| **Note** | • Used to record the customer knowledge base.<br />Supports **Date Stamp** feature for tracking.<br />**Field type:** Alphanumerical<br />**Length:** Rich Text |
-| **Status** | • Indicates the operational state of the customer account:<br />- **Active** → Can create official documents and print Customer Statement.<br />- **Inactive** → Cannot create official documents and cannot print Customer Statement.<br />- **Suspend** → Cannot create official documents but can print Customer Statement.<br />- **Prospect** → Can create official documents and print Customer Statement.<br />- **Pending** → Can create official documents and print Customer Statement. |
+![cust-tax](../../../static/img/usage/customer/guide/cust-tax.png)
 
-### Tax
-
-![custTax](../../../static/img/usage/customer/customerBasicGuide/cust-tax.png)
-
-| **Field Name** | **Explanation & Properties** |
-|-----------------|------------------------------|
-| **Default Tax** | • Select a default tax code based on customer. |
-| **Tax Area** | • Not applicable to Malaysia/Singapore. |
-| **Sales Tax Area** | • Enter the company’s Sales Tax Number. |
-| **Service Tax Area** | • Enter the company’s Service Tax Number. |
-| **Exemption No** | • Enter the Sales Tax Exemption number received from customer.<br />**Field type:** Alphanumerical<br />**Length:** 50 |
-| **Expiry Date** | • Set the expiry date for tax exemption.<br />• The customer will be tax exempted before the expiry date.<br />**Field type:** Date |
+| Field Name | Description |
+| :--- | :--- |
+| **Default Tax** | The default tax code applied to this customer's transactions. |
+| **Sales/Service Tax No** | The customer's SST registration numbers. |
+| **Exemption No** | The Sales Tax Exemption number provided by the customer. |
+| **Expiry Date** | The date when the tax exemption expires. |
 
 ### Tariff Code Setting
 
-* This setting set to customer who has supply the taxable goods under the Sales Tax (Person Exempted from Payment of Tax) Order 2018.
+This section is for customers who supply taxable goods under the Sales Tax (Person Exempted from Payment of Tax) Order 2018.
 
-| **Field Name** | **Explanation & Properties** |
-|-----------------|------------------------------|
-| **Tariff** | • Add tariff code of taxable goods to be sold in exemption.<br />• You can find your tariff code at [https://ezhs.customs.gov.my/](https://ezhs.customs.gov.my/)<br />**Lookup:** Maintain Tariff<br />**Related Topic:** [Maintain Stock Item → Main Header](../../usage/stock/stock-guide#maintain-stock-item) |
-| **Tax** | • Select an appropriate tax code that falls under the Person Exempted in Schedule A, B, and C.<br />**Schedule A tax code:** SE<br />**Schedule B tax code:** SEB<br />**Schedule C tax codes:** SEC1, SEC2, SEC3, SEC4, SEC5<br />**Lookup:** Maintain Tax |
+| Field Name | Description |
+| :--- | :--- |
+| **Tariff** | Add tariff codes for exempted goods. Find codes at [ezhs.customs.gov.my](https://ezhs.customs.gov.my/). |
+| **Tax** | Select the appropriate exemption tax code (e.g., SE, SEB, SEC1-5). |
 
-* Press **SAVE** button once you are done
+Click **Save** once all information is entered.
 
-After Saving, you should see all your customer's information on this screen.
-
-![custAfterSave](../../../static/img/usage/customer/customerBasicGuide/cust-after-save.png)
+![cust-after-save](../../../static/img/usage/customer/guide/cust-after-save.png)
 
 ## Customer Code Format
 
-* Customer code are generated AUTOMATICALLY after pressing the SAVE button.
+Customer codes are unique identifiers. You can configure how they are automatically generated.
 
->IMPORTANT :
->
->1. Every customer code is unique.
->2. If the system found there is a duplicate code trying to save, users will be notified with a warning message.
->See screenshot below.
->
+:::warning Duplicate Codes
+If you attempt to save a duplicate code, the system will display a warning message.
+:::
 
-![custDuplicatedCode](../../../static/img/usage/customer/customerBasicGuide/cust-duplicated-code.png)
+![cust-duplicated-code](../../../static/img/usage/customer/guide/cust-duplicated-code.png)
 
-* You can set the customer code format via Tools | Options...(Customer). See screenshot below.
+### Configuring Code Formats
 
-![custCodeFormat](../../../static/img/usage/customer/customerBasicGuide/cust-code-format.png)
+Go to **Tools** → **Options** → **Customer** to set the code format.
 
-* Explanation of the Customer Code Format:
+![cust-code-format](../../../static/img/usage/customer/guide/cust-code-format.png)
 
-![custCodeFormatExplain](../../../static/img/usage/customer/customerBasicGuide/cust-code-format-explain.png)
+**Format Explanation:**
 
-* For Example
+![cust-code-format-explain](../../../static/img/usage/customer/guide/cust-code-format-explain.png)
 
-| Company Name | Customer Control Acc | Format        | Result       |
-|--------------|-----------------------|---------------|--------------|
-| ABCD SDN BHD | 301-000              | %.1s-%.1s%.1d | 3-A-1        |
-| ABCD SDN BHD | 301-000              | %.2s-%.2s%.2d | 30-AB-01     |
-| ABCD SDN BHD | 301-000              | %.3s-%.3s%.3d | 301-ABC-001  |
-| ABCD SDN BHD | 301-000              | %.4s-%.4s%.4d | 301--ABCD-0001 |
+**Examples:**
+
+| Company Name | Control Acc | Format | Result |
+| :--- | :--- | :--- | :--- |
+| ABCD SDN BHD | 301-000 | `%.1s-%.1s%.1d` | 3-A-1 |
+| ABCD SDN BHD | 301-000 | `%.2s-%.2s%.2d` | 30-AB-01 |
+| ABCD SDN BHD | 301-000 | `%.3s-%.3s%.3d` | 301-ABC-001 |
+| ABCD SDN BHD | 301-000 | `%.4s-%.4s%.4d` | 301-ABCD-0001 |
 
 ## Advance Credit Control
 
-> This is a **paid module**.
-
-* Credit Control is used to manage the customer outstanding within the specific overdue and credit limit given. See screenshot below.
-
-![custCreditControl](../../../static/img/usage/customer/customerBasicGuide/cust-credit-control.png)
-
->IMPORTANT :
->
->1. Depends on the user access rights to the Customer Credit Control.
->2. Override credit limit can be granted in the user access control.
->
-
-### Credit/Overdue Limit
-
-* Credit limit is the limit to set based on the total outstanding.
-* Overdue limit is the limit to set based on the overdue outstanding only.
-* Tick "Add PD Cheque to Credit Limit" to include any post dated payment to increase the credit limit.
-
-### Exceed Credit/Overdue Limit
-
-:::note Credit Control
-Can be applied to the following document types:
-
-1. QT - Quotation
-2. SO - Sales Order
-3. DO - Delivery Order
-4. IV - Sales Invoice
-5. CS - Cash Sales
-6. DN - Debit Note
+:::info Paid Module
+This is a premium module that requires a separate license.
 :::
 
-* You have to tick "Apply To" in order to set the further action (e.g. unblock, block or override) to control the exceed credit and overdue limit. See screenshot below:
+**Credit Control** is used to manage customer outstanding balances within specific overdue and credit limits.
 
-![credContAction](../../../static/img/usage/customer/customerBasicGuide/cred-cont-action.png)
+![cust-credit-control](../../../static/img/usage/customer/guide/cust-credit-control.png)
 
-| Control Type          | Action   | ALLOW EXCEED        |
-|-----------------------|----------|---------------------|
-| Exceed Credit Limit   | Unblock  | YES                 |
-| Exceed Credit Limit   | Block    | NO                  |
-| Exceed Credit Limit   | Override | PASSWORD REQUIRED   |
-| Exceed Overdue Limit  | Unblock  | YES                 |
-| Exceed Overdue Limit  | Block    | NO                  |
-| Exceed Overdue Limit  | Override | PASSWORD REQUIRED   |
+:::note Access Rights
 
-:::note
->**Unblock** – No restrictions
->
->**Block** – Blocked for all users
->
->**Override** – Certain users which have access rights can key in their username & password to override.
->
->**Suspended** – Blocked with suspended message
->
+- Access to Credit Control settings depends on user permissions.
+- The ability to override credit limits can be granted in **User Access Control**.
+
 :::
 
-### Suspended
+### Credit and Overdue Limits
 
-* You have to tick "Apply To" any document type in order to tick the SUSPENDED.
-* At the same time, you can enter the suspended message to prompt the user when they try to save the document. See screenshot below:
+- **Credit Limit**: Set based on the total outstanding balance.
+- **Overdue Limit**: Set based only on the overdue outstanding balance.
+- **Add PD Cheque to Credit Limit**: Check this to include post-dated payments when calculating the available credit limit.
 
-![suspend-CreditControl](../../../static/img/usage/customer/customerBasicGuide/suspend-credit-control.png)
+### Exceeding Limits
+
+Credit Control can be applied to the following document types:
+
+1. **QT** - Quotation
+2. **SO** - Sales Order
+3. **DO** - Delivery Order
+4. **IV** - Sales Invoice
+5. **CS** - Cash Sales
+6. **DN** - Debit Note
+
+To control actions when limits are exceeded, check the **Apply To** box for the relevant document type and select an action:
+
+![cred-cont-action](../../../static/img/usage/customer/guide/cred-cont-action.png)
+
+| Control Type | Action | Allow Exceed |
+| :--- | :--- | :--- |
+| **Exceed Credit Limit** | **Unblock** | Yes |
+| **Exceed Credit Limit** | **Block** | No |
+| **Exceed Credit Limit** | **Override** | Password Required |
+| **Exceed Overdue Limit** | **Unblock** | Yes |
+| **Exceed Overdue Limit** | **Block** | No |
+| **Exceed Overdue Limit** | **Override** | Password Required |
+
+**Action Definitions:**
+
+- **Unblock**: No restrictions applied.
+- **Block**: Document cannot be saved by any user.
+- **Override**: Authorized users can enter their credentials to proceed.
+- **Suspended**: Blocked with a custom suspension message.
+
+### Suspension Message
+
+You can set a custom message to appear when a customer's account is suspended.
+
+![suspend-creditcontrol](../../../static/img/usage/customer/guide/suspend-credit-control.png)
 
 ## Customer Invoice
 
-### Customer Invoice vs Sales Invoice
+### Customer Invoice vs. Sales Invoice
 
-The differences between a Customer Invoice and a Sales Invoice are as follows:
+| Customer Invoice | Sales Invoice |
+| :--- | :--- |
+| Shows only GL account codes; does not track Qty or Unit Price. | Linked to Stock and Account modules. Tracks Qty and Unit Price. |
+| Used for non-stock billing. | Recommended for stock-related billing. |
 
-|**Customer Invoice**| **Sales Invoice**|
-|---|---|
-|• Shows only the accounts code and does not show Qty / Unit Price.| • Linked to the stock and account modules. Hence, we advise users who need to key in stock items to use Sales Invoice. Once the information in the Sales Invoice is updated, the information in the Customer Invoice will automatically be updated by the system.|
+![cust-invoice-entry](../../../static/img/usage/customer/guide/cust-invoice-entry.png)
 
-![custInvoiceEntry](../../../static/img/usage/customer/customerBasicGuide/cust-invoice-entry.png)
+### Creating a Customer Invoice
 
-### Create a new Customer Invoice
+1. Go to **Customer** → **Customer Invoice** → **New**.
+2. Select the **Customer Code**.
+3. Enter the transaction details and amount.
+4. Click **Save**.
 
-   1. **Customer** | **Customer Invoice** | **New**
-
-   2. Select **Customer Code** | insert transaction and amount.
-
-   3. **Save**
-
-        ![saveCustInvoiceEntry](../../../static/img/usage/customer/customerBasicGuide/save-cust-invoice-entry.png)
+   ![save-cust-invoice-entry](../../../static/img/usage/customer/guide/save-cust-invoice-entry.png)
 
 ## Customer Payment
 
-### Local Bank Payment
+### Processing a Payment
 
-   :::info
-   Watch tutorial video here: [Youtube](https://www.youtube.com/watch?v=IjHX5ys846I&feature=youtu.be)
-   :::
+:::tip Video Tutorial
+Watch the tutorial here: [YouTube](https://www.youtube.com/watch?v=IjHX5ys846I)
+:::
 
-   1. **Customer** | **Customer Payment** | **New**
+1. Go to **Customer** → **Customer Payment** → **New**.
+2. Select the **Customer**.
+3. Select the **Payment Method** (Bank/Cash) and enter the **Cheque No** if applicable.
+4. Enter the **Payment Amount**.
+5. Check the corresponding invoices or debit notes to **knock off** (match) the payment.
+6. Click **Save**.
 
-   2. Select your **Customer**
+   ![processing-payment](../../../static/img/usage/customer/guide/processing-payment.png)
 
-   3. Select the **bank for your account and cheque no** if applicable
+### Post-Dated Cheques (PDC)
 
-   4. Key in the **customer payment amount**
+1. Locate the payment and click **Edit**.
+2. Right-click on the **Customer Payment** header and select **Set Posting Date**.
 
-   5. **Tick the corresponding invoice/debit note to be knocked off**
+   ![pdc-set-posting-date](../../../static/img/usage/customer/guide/pdc-set-posting-date.png)
 
-    ![45](../../../static/img/usage/customer/customerBasicGuide/45.png)
+   ![pdc-show-posting-date](../../../static/img/usage/customer/guide/pdc-show-posting-date.png)
 
-### Post Dated Cheque
+### Bounced Cheques
 
-   1. Search for the payment that you want to edit, click on **Edit**, right click on Customer Payment, you will see **Set Posting Date**
+1. Locate the payment and click **Edit**.
+2. Right-click on the **Customer Payment** header and select **Bounced Status**.
 
-   ![46](../../../static/img/usage/customer/customerBasicGuide/46.png)
+   ![set-bounced-payment](../../../static/img/usage/customer/guide/set-bounced-payment.png)
 
-   ![47](../../../static/img/usage/customer/customerBasicGuide/47.png)
+   ![set-bounced-payment-2](../../../static/img/usage/customer/guide/set-bounced-payment-2.png)
 
-### Bounced Cheque
+3. The system will automatically revert the payment and update the ledger.
 
-   1. Search for the payment that you want to edit, click on **Edit**, right click on Customer Payment, you will see **Bounced Status**
-
-      ![48](../../../static/img/usage/customer/customerBasicGuide/48.png)
-
-      ![49](../../../static/img/usage/customer/customerBasicGuide/49.png)
-
-      After bounced, system will auto revert the payment out, you can view your ledger.
-
-      ![50](../../../static/img/usage/customer/customerBasicGuide/50.png)
+   ![set-bounced-payment-3](../../../static/img/usage/customer/guide/set-bounced-payment-3.png)
 
 ## Customer Credit Note
 
-If the situation involves return stock from customer, please do Sales Credit Note and knock off it in Customer Credit Note as below step.
+### With Stock Return
 
-1. **Customer** | **Customer Credit Note**
+If the customer is returning stock, use a **Sales Credit Note** first, then knock it off in **Customer Credit Note**.
 
-2. **Edit** | Click **Yes**
+1. Go to **Customer** → **Customer Credit Note**.
+2. Click **Edit** and confirm with **Yes**.
+3. Knock off the relevant documents.
 
-3. **Knocked off accordingly**.
+   ![cn-stock-return](../../../static/img/usage/customer/guide/cn-stock-return.png)
 
-   ![51](../../../static/img/usage/customer/customerBasicGuide/51.png)
+### Without Stock Return (e.g., Discounts)
 
-   If it does not involve with returned stock, e.g. discount given with
+1. Go to **Customer** → **Customer Credit Note** → **New**.
+2. Select the **Customer** and the **GL Account**.
+3. Enter the **Amount** and knock off the relevant invoices.
+4. Click **Save**.
 
-   1. **Customer** | **Customer Credit Note** | **New CN**
-
-   2. **New** | Select **Customer** | Select **GL Account** | **Amount**
-
-   3. **Knocked off accordingly**.
-
-   ![52](../../../static/img/usage/customer/customerBasicGuide/52.png)
+   ![cn-no-stock-return](../../../static/img/usage/customer/guide/cn-no-stock-return.png)
 
 ## Customer Refund
 
-You can use this document to refund a customer. You can knock off with Customer Payment or Credit Note which have unapplied amounts.
+Use this to refund a customer by knocking off unapplied payments or credit notes.
 
-1. **Customer** | **Customer Refund**.
+1. Go to **Customer** → **Customer Refund** → **New**.
+2. Select the **Customer** and **Payment Method**.
+3. Enter the **Refund Amount**.
+4. Knock off the unapplied payment or credit note and click **Save**.
 
-2. Choose the **Customer** | Select your **Payment Method** | **Enter your Refund Amount**
-
-3. **Knock off the payment or credit note and save**.
-
-    ![54](../../../static/img/usage/customer/customerBasicGuide/54.png)
+   ![customer-refund](../../../static/img/usage/customer/guide/customer-refund.png)
 
 ## Customer Contra
 
-If you have a customer who is also a supplier, you may want to offset the outstanding customer and supplier invoices. This is known as a **contra entry**. You can offset the two invoices by using Customer Contra and Supplier Contra. This means that when you record the invoices as being paid, it will not affect your current bank account balance.
+A **Contra Entry** is used to offset outstanding balances when a company is both a customer and a supplier.
 
->**Scenario:**
->
->If you have an outstanding sales invoice for RM200 and a purchase invoice for RM150 for the same customer or company, the actual amount owed to you is RM50 and the contra entry amount is RM150.
+> **Scenario:**
+> You have a Sales Invoice for RM200 and a Purchase Invoice for RM150 for the same company. The contra amount is RM150, leaving a net balance of RM50.
 
-### Make sure you have a valid `Contra Account`
+### Setup: Contra Account
 
-1. **Tools** | **Options**
+1. Go to **Tools** → **Options**.
 
-    ![1](../../../static/img/usage/customer/customerBasicGuide/1.png)
+   ![tools-option](../../../static/img/usage/customer/guide/tools-option.png)
+2. Select **General Ledger** and ensure a valid **Contra Account** is selected.
 
-2. **General Ledger** | Make sure you have selected a valid Contra Account
+   ![set-contra-account](../../../static/img/usage/customer/guide/set-contra-account.png)
 
-    ![2](../../../static/img/usage/customer/customerBasicGuide/2.png)
+### Processing a Contra Entry
 
-### Contra Entry
+1. Go to **Customer** → **Customer Contra** → **New**.
 
-   1. Go **Customer** | **Customer Contra**
+   ![customer-contra](../../../static/img/usage/customer/guide/customer-contra.png)
 
-      ![3](../../../static/img/usage/customer/customerBasicGuide/3.png)
+   ![customer-contra-new](../../../static/img/usage/customer/guide/customer-contra-new.png)
 
-   2. Press on **NEW**
+2. Fill in the corresponding details
+   1. Select the **Customer Code**.
+   2. Enter the **Contra Amount**.
+   3. Knock off the Sales Invoice
+   4. Click **Save**.
+   5. Note the **Contra Number** generated by the system.
 
-      ![4](../../../static/img/usage/customer/customerBasicGuide/4.png)
+   ![customer-contra-entry](../../../static/img/usage/customer/guide/customer-contra-entry.png)
 
-        2a. Select your Customer Code
+3. Go to **Supplier** → **Supplier Contra**.
 
-        2b. Enter your Contra Amount
+   ![6](../../../static/img/usage/customer/guide/6.png)
 
-        2c. Knock off your Invoice
+4. Locate the same **Contra Number** and click **Edit**.
+5. Select the **Supplier**.
+6. Ensure the **Contra Amount** matches the Customer Contra.
+7. Knock off the Purchase Invoice and click **Save**.
 
-        2d. Press on **SAVE** Button
+   ![7](../../../static/img/usage/customer/guide/7.png)
 
-        ![5](../../../static/img/usage/customer/customerBasicGuide/5.png)
+   ![8](../../../static/img/usage/customer/guide/8.png)
 
-   3. The system will automatically generate a Contra Number, jot down the number and go to **Supplier | Supplier Contra** to edit it.
+**Result:**
 
-      ![6](../../../static/img/usage/customer/customerBasicGuide/6.png)
-
-   4. Look for the Same Contra Number (refer step 2e), EDIT it.
-
-    ![7](../../../static/img/usage/customer/customerBasicGuide/7.png)
-
-      4a. Select your **Supplier**
-
-      4b. Enter Contra Amount (Must be same as Customer Contra Amount)
-
-      4c. Knock off your Supplier Invoice
-
-      4d. Press on **SAVE** Button
-
-      ![8](../../../static/img/usage/customer/customerBasicGuide/8.png)
-
-After you post the contra entry:
-
-* The outstanding amount on the sales invoice is RM50.
-
-* The purchase invoice is fully knock off.
-
-* When you receive the RM50, you can record this against the sales invoice using your normal Customer Payment entry.
+- The Sales Invoice balance is reduced (e.g., to RM50).
+- The Purchase Invoice is fully settled.
+- The remaining RM50 can be settled via a standard **Customer Payment**.

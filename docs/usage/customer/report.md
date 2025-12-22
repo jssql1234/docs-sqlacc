@@ -3,129 +3,117 @@ sidebar_position: 2
 title: Reports
 description: All kind of customer reports and it's purpose
 slug: /usage/customer/report
-tags: ["SQL Account", "Usage", "Customer"]
+tags: ["SQL Account", "Usage", "Customer", "Reports"]
 ---
 
 ## Print Customer Document Listing
 
-* View all customer transactions (Invoices, Payments, Credit Notes, Debit Notes, Refunds, Contras).
-* Batch print or email documents.
-* The payment details for each document are displayed at the bottom of the screen.
+The **Print Customer Document Listing** allows you to view all customer transactions, including Invoices, Payments, Credit Notes, Debit Notes, Refunds, and Contras. It is also used for batch printing or emailing documents.
 
-![printCustDocList](../../../static/img/usage/customer/customerReport/print-cust-doc-list.png)
+1. Go to **Customer** → **Print Customer Document Listing**.
 
-* Select which Document listing you want to see. Follow the image:
+    ![printCustDocList](../../../static/img/usage/customer/report/print-cust-doc-list.png)
 
-![docListType](../../../static/img/usage/customer/customerReport/doc-list-type.png)
+2. Select the **Document Type** you wish to view (e.g., Invoice, Payment).
 
-* Click Apply Button
+    ![docListType](../../../static/img/usage/customer/report/doc-list-type.png)
 
-![docListApply](../../../static/img/usage/customer/customerReport/doc-list-apply.png)
+3. Click **Apply**.
 
-* Click Preview & Listing Report
+    ![docListApply](../../../static/img/usage/customer/report/doc-list-apply.png)
 
-![docListPreview](../../../static/img/usage/customer/customerReport/doc-list-preview.png)
+4. Click **Preview** to view the listing report.
 
-* Example of customer invoice listing report
+    ![docListPreview](../../../static/img/usage/customer/report/doc-list-preview.png)
 
-![custInvoiceListReport](../../../static/img/usage/customer/customerReport/cust-invoice-list-report.png)
+**Example of Customer Invoice Listing Report:**
+
+![custInvoiceListReport](../../../static/img/usage/customer/report/cust-invoice-list-report.png)
 
 ### Print Document Style
 
-* Tick relevant checkboxes
+- Check the **Print Document Style** box.
 
-![tickPrintDocStyle](../../../static/img/usage/customer/customerReport/tick-print-doc-style.png)
+    ![tickPrintDocStyle](../../../static/img/usage/customer/report/tick-print-doc-style.png)
 
-| Field Name                | Explanation                                           |
-|----------------------------|-------------------------------------------------------|
-| Print Document Style       | Tick this checkbox to print out bulk report or send batch email |
-| Include Cancelled Documents| Tick this checkbox to include cancelled documents in the listing |
+| Field Name | Description |
+| :--- | :--- |
+| **Print Document Style** | Enables bulk printing or batch emailing of the actual documents (not just the list). |
+| **Include Cancelled Documents** | Includes documents marked as cancelled in the listing. |
 
-* If you tick **Print Document Style** , you will see that you will be able to choose customer invoice report format.
+1. Once enabled, you can select the specific **Report Format** for the documents.
 
-![custInvoiceReportFormat](../../../static/img/usage/customer/customerReport/cust-invoice-report-format.png)
-![custInvoiceReportFormat2](../../../static/img/usage/customer/customerReport/cust-invoice-report-format2.png)
+    ![custInvoiceReportFormat](../../../static/img/usage/customer/report/cust-invoice-report-format.png)
+    ![custInvoiceReportFormat2](../../../static/img/usage/customer/report/cust-invoice-report-format2.png)
 
 ### Group/Sort by
 
-* You can filter your documents based on Customer, Agent, Area, Currency, Project and Company Category
+You can refine your report by filtering and grouping data.
 
-![GrpBy-which](../../../static/img/usage/customer/customerReport/grp-by-which.png)
+- **Filters**: Filter by Customer, Agent, Area, Currency, Project, or Company Category.
+    ![GrpBy-which](../../../static/img/usage/customer/report/grp-by-which.png)
 
-* You can use the Group/Sort By table to choose how you want to group your report listing
+- **Group/Sort By**: Choose how to organize the data (e.g., by Customer Code).
+    ![grp-sortBy](../../../static/img/usage/customer/report/grp-sort-by.png)
+    ![grpByCustName](../../../static/img/usage/customer/report/grp-by-cust-name.png)
 
-![grp-sortBy](../../../static/img/usage/customer/customerReport/grp-sort-by.png)
-
-* For example, you can group the report by "Customer Code"
-
-![grpByCustName](../../../static/img/usage/customer/customerReport/grp-by-cust-name.png)
-
-* Select the Listing Report
-
-![ListingReport](../../../static/img/usage/customer/customerReport/listing-report.png)
-
-* Here is an example of the report
-
-![custInvoiceListingreport](../../../static/img/usage/customer/customerReport/cust-invoice-listing-report.png)
+- **Listing Report**: Select the desired listing format before previewing.
+    ![ListingReport](../../../static/img/usage/customer/report/listing-report.png)
 
 ## Print Customer Balance Report
 
-* Print Customer Balance Report allows you to **see all the customer's balance**.
+This report provides a summary of **outstanding balances for all customers** as of a specific date.
 
-![printCustBalanceReport](../../../static/img/usage/customer/customerReport/print-cust-balance-report.png)
+1. Go to **Customer** → **Print Customer Balance Report**.
 
-* Select the date period for the balance report
+    ![printCustBalanceReport](../../../static/img/usage/customer/report/print-cust-balance-report.png)
 
-![datePeriod](../../../static/img/usage/customer/customerReport/date-period.png)
+2. Select the **Date** or period for the report.
 
-* You can filter the report by selecting the customer, agent, area, project of the transaction
+    ![datePeriod](../../../static/img/usage/customer/report/date-period.png)
 
-![custBalanceFilter](../../../static/img/usage/customer/customerReport/cust-balance-filter.png)
+3. Apply filters such as **Customer**, **Agent**, or **Area** if needed.
 
-* For example, filtering by customer name, we selected one company: ALPHA & BETA COMPUTER
+    ![custBalanceFilter](../../../static/img/usage/customer/report/cust-balance-filter.png)
+    ![custBalanceApplyFilter](../../../static/img/usage/customer/report/cust-balance-apply-filter.png)
 
-![custBalanceApplyFilter](../../../static/img/usage/customer/customerReport/cust-balance-apply-filter.png)
+4. Click the **[+]** icon to expand a row and view transaction details for a specific customer.
 
-* You can click on the small + icon to expand the row and see the transactions details.
+    ![plusIconToExpand](../../../static/img/usage/customer/report/plus-icon-to-expand.png)
 
-![plusIconToExpand](../../../static/img/usage/customer/customerReport/plus-icon-to-expand.png)
+5. Click **Preview** to generate the report.
 
-* Press the Preview icon to preview and print the report
-
-![previewCustBalance](../../../static/img/usage/customer/customerReport/preview-cust-balance.png)
+    ![previewCustBalance](../../../static/img/usage/customer/report/preview-cust-balance.png)
 
 ## Print Customer Due Document Listing
 
-Customer Due Document allows you to print reminder letters for customers with outstanding amounts.
+The **Customer Due Document Listing** is primarily used to identify overdue amounts and generate **Reminder Letters**.
 
-1. **Filter by Date, Document** (Invoice, Debit Note, Credit Note, Contra)
+1. Go to **Customer** → **Print Customer Due Document Listing**.
+2. Filter by **Date** and **Document Type** (Invoice, Debit Note, etc.).
+3. Select whether to show **Overdue** or **Undue** documents.
+4. Click **Apply**.
 
-2. Overdue or Undue document.
+    ![cust-due-doc-list-apply](../../../static/img/usage/customer/report/cust-due-doc-list-apply.png)
 
-3. System can generate by group and give you a summary on each group (group/sort by)
+### Generating Reminder Letters
 
-4. **Apply**.
+1. In the **Group / Sort by** section, ensure **Customer Code** is checked.
+2. Click **Apply**.
 
-    ![cust-due-doc-list-apply](../../../static/img/usage/customer/customerReport/cust-due-doc-list-apply.png)
+    ![grp-sort-by-customer-code](../../../static/img/usage/customer/report/grp-sort-by-customer-code.png)
 
-5. If you want to **print a reminder letter, make sure you tick the customer code under “Group / Sort by”** and **Apply**.
+3. Click **Preview** and select the **Cust Overdue Letter** format.
 
-    ![grp-sort-by-customer-code](../../../static/img/usage/customer/customerReport/grp-sort-by-customer-code.png)
+    ![cust-overdue-letter](../../../static/img/usage/customer/report/cust-overdue-letter.png)
+    ![print-overdue-letter](../../../static/img/usage/customer/report/print-overdue-letter.png)
 
-6. Preview the report and you will see **Cust Overdue Letter**, choose your preferred format.
+## Customer Analysis By Document
 
-    ![cust-overdue-letter](../../../static/img/usage/customer/customerReport/cust-overdue-letter.png)
+This report provides a high-level analysis of all customer-related documents, showing totals for Invoices, Credit Notes, Payments, and more.
 
-    ![print-overdue-letter](../../../static/img/usage/customer/customerReport/print-overdue-letter.png)
+1. Go to **Customer** → **Print Customer Analysis By Document**.
+2. Filter by **Document Date** and other optional fields.
+3. Click **Apply**.
 
-7. Customer Analysis By Document
-
-    This report is used to analyse all customer documents. You can check total Invoice, Credit Note, Debit Note, Payment and the rest of the document amount.
-
-8. **Customer** > **Print Customer Analysis By Document**
-
-9. Filter by Document Date and any others optional field to display.
-
-10. **Apply**
-
-    ![cust-analysis-by-doc-apply](../../../static/img/usage/customer/customerReport/cust-analysis-by-doc-apply.png)
+    ![cust-analysis-by-doc-apply](../../../static/img/usage/customer/report/cust-analysis-by-doc-apply.png)

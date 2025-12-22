@@ -1,334 +1,320 @@
 ---
 sidebar_position: 3
 title: FAQ
-description: Customer Frequently Ask Questions
-slug: /usage/customer/customerFaq/faq
-tags: ["SQL Account", "Usage", "Customer","faq"]
+description: Frequently asked questions and troubleshooting for Customer (AR) management.
+slug: /usage/customer/faq
+tags: ["SQL Account", "Usage", "Customer", "FAQ"]
 ---
 
-## Bounce Payment for different currency
+## Bounced Payments in Foreign Currencies
 
 ### Customer Invoice
 
-Invoice amount USD 100 | Rate 3.00 | Local net total = RM300
+**Example:** Invoice amount **USD 100** | Rate **3.00** | Local Net Total = **RM 300**
 
-![1](../../../static/img/usage/customer/customerFaq/bounce-payment/1.png)
+![1](../../../static/img/usage/customer/faq/bounce-payment/1.png)
 
-#### Situation 1: Received payment RM330, so Gain RM30
+#### Scenario 1: Payment Received at a Higher Rate (Gain)
 
-![2](../../../static/img/usage/customer/customerFaq/bounce-payment/2.png)
+**Example:** Received **RM 330** (Gain of **RM 30**).
 
-Please follow the steps below to do the bounce payment:
+![2](../../../static/img/usage/customer/faq/bounce-payment/2.png)
 
-1. **Issue a Customer Debit Note as the previous invoice that had issue.**
+To process the bounced payment:
 
-    ![3](../../../static/img/usage/customer/customerFaq/bounce-payment/3.png)
+1. **Issue a Customer Debit Note**: Create a Debit Note to reverse the original invoice amount.
 
-2. **Issue a payment voucher to credit out the amount that already knock off.**
+    ![3](../../../static/img/usage/customer/faq/bounce-payment/3.png)
 
-    ![4](../../../static/img/usage/customer/customerFaq/bounce-payment/4.png)
+2. **Issue a Payment Voucher**: Create a Payment Voucher to credit out the amount that was previously knocked off.
 
-#### Situation 2: Received payment RM270, so Loss RM30
+    ![4](../../../static/img/usage/customer/faq/bounce-payment/4.png)
 
-![5](../../../static/img/usage/customer/customerFaq/bounce-payment/5.png)
+#### Scenario 2: Payment Received at a Lower Rate (Loss)
 
-Please follow the steps below to do the bounce payment:
+**Example:** Received **RM 270** (Loss of **RM 30**).
 
- 1. **Issue a Customer Debit Note as the previous invoice that had issue.**
+![5](../../../static/img/usage/customer/faq/bounce-payment/5.png)
 
-     ![6](../../../static/img/usage/customer/customerFaq/bounce-payment/6.png)
+To process the bounced payment:
 
- 2. **Issue a payment voucher to credit out the amount that already knock off.**
+1. **Issue a Customer Debit Note**: Create a Debit Note to reverse the original invoice amount.
 
-     ![7](../../../static/img/usage/customer/customerFaq/bounce-payment/7.png)
+     ![6](../../../static/img/usage/customer/faq/bounce-payment/6.png)
+
+2. **Issue a Payment Voucher**: Create a Payment Voucher to credit out the amount that was previously knocked off.
+
+     ![7](../../../static/img/usage/customer/faq/bounce-payment/7.png)
 
 ### Supplier Invoice
 
-Supplier Invoice amount USD100 | Rate 3.00 | Local net total = RM300
+**Example:** Supplier Invoice amount **USD 100** | Rate **3.00** | Local Net Total = **RM 300**
 
-![8](../../../static/img/usage/customer/customerFaq/bounce-payment/8.png)
+![8](../../../static/img/usage/customer/faq/bounce-payment/8.png)
 
-#### Situation 1: Make payment RM330, so Loss RM30
+#### Scenario 1: Payment Made at a Higher Rate (Loss)
 
-![9](../../../static/img/usage/customer/customerFaq/bounce-payment/9.png)
+**Example:** Made payment of **RM 330** (Loss of **RM 30**).
 
-Please follow the steps below to do the bounce payment:
+![9](../../../static/img/usage/customer/faq/bounce-payment/9.png)
 
- 1. **Issue a Supplier Debit Note as the previous invoice that had issue.**
+To process the bounced payment:
 
-     ![10](../../../static/img/usage/customer/customerFaq/bounce-payment/10.png)
+1. **Issue a Supplier Debit Note**: Create a Debit Note to reverse the original invoice amount.
 
- 2. **Issue an Official receipt to debit the amount that already knock off.**
+     ![10](../../../static/img/usage/customer/faq/bounce-payment/10.png)
 
-     ***Put USD30 into loss GL account because we need to paid more USD30 to supplier,but we loss USD**.
+2. **Issue an Official Receipt**: Create an Official Receipt to debit the amount that was previously knocked off.
 
-     ![11](../../../static/img/usage/customer/customerFaq/bounce-payment/11.png)
+     :::info
+     Assign the **USD 30** difference to a **Loss on Foreign Exchange** GL account.
+     :::
 
-#### Situation 2: Make payment RM270, so Gain RM30
+     ![11](../../../static/img/usage/customer/faq/bounce-payment/11.png)
 
-![12](../../../static/img/usage/customer/customerFaq/bounce-payment/12.png)
+#### Scenario 2: Payment Made at a Lower Rate (Gain)
 
-Please follow the steps below to do the bounce payment:
+**Example:** Made payment of **RM 270** (Gain of **RM 30**).
 
- 1. **Issue a Supplier Debit Note as the previous invoice that had issue.**
+![12](../../../static/img/usage/customer/faq/bounce-payment/12.png)
 
-     ![13](../../../static/img/usage/customer/customerFaq/bounce-payment/13.png)
+To process the bounced payment:
 
- 2. **Issue an Official receipt to debit the amount that already knock off.**
+1. **Issue a Supplier Debit Note**: Create a Debit Note to reverse the original invoice amount.
 
-     **\*Put USD -30 into gain GL account because we pay less USD30 to supplier,but we gain USD30.**
+     ![13](../../../static/img/usage/customer/faq/bounce-payment/13.png)
 
-     ![14](../../../static/img/usage/customer/customerFaq/bounce-payment/14.png)
+2. **Issue an Official Receipt**: Create an Official Receipt to debit the amount that was previously knocked off.
 
-## Foreign Customer Unrealised Gain Loss
+     :::info
+     Assign the **USD -30** difference to a **Gain on Foreign Exchange** GL account.
+     :::
 
-### Customer | Print Customer Aging Report
+     ![14](../../../static/img/usage/customer/faq/bounce-payment/14.png)
 
-![1](../../../static/img/usage/customer/customerFaq/foreign/1.png)
+## Unrealized Foreign Exchange Gain/Loss
 
-1. Select Date
+### Posting Unrealized Gain/Loss
 
-2. Select Foreign Customer
+1. Go to **Customer** → **Print Customer Aging Report**.
 
-3. Select UnRealised Gain Loss report
+    ![1](../../../static/img/usage/customer/faq/foreign/1.png)
 
-4. Click Apply
+2. Select the **Date**.
+3. Select the **Foreign Customer**.
+4. Select the **Unrealized Gain Loss** report format.
+5. Click **Apply**.
 
-    ![2](../../../static/img/usage/customer/customerFaq/foreign/2.png)
+    ![2](../../../static/img/usage/customer/faq/foreign/2.png)
 
-5. Click Preview, system will prompt a dialog to let you enter currency rate
+6. Click **Preview**. A dialog will prompt you to enter the currency rate.
+7. Enter the **Closing Currency Rate** and click **OK**.
 
-6. Enter **closing currency rate** | Click OK
+    ![3](../../../static/img/usage/customer/faq/foreign/3.png)
 
-    ![3](../../../static/img/usage/customer/customerFaq/foreign/3.png)
+8. The system will display the report with the auto-calculated **Unrealized Gain/Loss Amount**.
 
-7. System will show the report with the auto-calculated UnRealised Gain/Loss Amount
+    ![4](../../../static/img/usage/customer/faq/foreign/4.png)
 
-    ![4](../../../static/img/usage/customer/customerFaq/foreign/4.png)
+9. Click **Post_DNCN_Adjustment**.
 
-8. Click Post_DNCN_Adjustment
+    ![5](../../../static/img/usage/customer/faq/foreign/5.png)
 
-    ![5](../../../static/img/usage/customer/customerFaq/foreign/5.png)
+10. A "Posting Done" message will appear.
 
-9. Show Posting Done...
+    ![6](../../../static/img/usage/customer/faq/foreign/6.png)
 
-    ![6](../../../static/img/usage/customer/customerFaq/foreign/6.png)
-
-10. Go to Customer Credit Note / Customer Debit Note to check the document posted.
+11. Go to **Customer Credit Note** or **Customer Debit Note** to verify the posted adjustment.
 
 :::note
 
-1. Same step for supplier.
-
-2. For more info, may go to the [Youtube](https://www.youtube.com/watch?v=PnLYx8ophIQ) link
+- The same steps apply to **Suppliers**.
+- For more information, watch the tutorial on [YouTube](https://www.youtube.com/watch?v=PnLYx8ophIQ).
 
 :::
 
-## Bank Deposit
+## Bank Deposit Management
 
-Opening Bank Deposit can be done when you are banking in 2 or more cheques at a time in a same transaction slip. After it is done, the transaction will be displayed in grouped form at bank reconciliation for you to reconcile.
+**Bank Deposit** is used when banking in two or more cheques in a single transaction slip. This groups the transactions in the **Bank Reconciliation** screen for easier matching.
 
-### Steps to open bank deposit
+### Steps to Create a Bank Deposit
 
-1. Firstly, point to **“Customer”** tab and select **“Customer Payment”**.
+1. Go to **Customer** → **Customer Payment**.
 
-    ![1](../../../static/img/usage/customer/customerFaq/open-bank-deposit/1.png)
+    ![1](../../../static/img/usage/customer/faq/open-bank-deposit/1.png)
 
-2. Click on **“New”** 
+2. Click **New**.
 
-    ![2](../../../static/img/usage/customer/customerFaq/open-bank-deposit/2.png)
+    ![2](../../../static/img/usage/customer/faq/open-bank-deposit/2.png)
 
-3. Right click at the blank space, and you will see a panel displayed with *“Open Bank Deposit”* for you to select. Click on **“Open Bank Deposit”**
+3. Right-click in the blank space of the entry grid and select **Open Bank Deposit**.
 
-    ![3](../../../static/img/usage/customer/customerFaq/open-bank-deposit/3.png)
+    ![3](../../../static/img/usage/customer/faq/open-bank-deposit/3.png)
 
-4. Click on **“New”**
+4. Click **New**.
 
-    ![4](../../../static/img/usage/customer/customerFaq/open-bank-deposit/4.png)
+    ![4](../../../static/img/usage/customer/faq/open-bank-deposit/4.png)
 
-5. You will come to this interface. Enter the transaction slip number, select the correct date and account.
-    ![5](../../../static/img/usage/customer/customerFaq/open-bank-deposit/5.png)
-    ![6](../../../static/img/usage/customer/customerFaq/open-bank-deposit/6.png)
+5. Enter the **Transaction Slip Number**, select the **Date**, and choose the **Bank Account**.
 
-6. Click **“Search”**. System will search for customer payment within the selected date.
+    ![5](../../../static/img/usage/customer/faq/open-bank-deposit/5.png)
+    ![6](../../../static/img/usage/customer/faq/open-bank-deposit/6.png)
 
-    ![7](../../../static/img/usage/customer/customerFaq/open-bank-deposit/7.png)
+6. Click **Search**. The system will find customer payments within the selected date range.
 
-    ![8](../../../static/img/usage/customer/customerFaq/open-bank-deposit/8.png)
+    ![7](../../../static/img/usage/customer/faq/open-bank-deposit/7.png)
+    ![8](../../../static/img/usage/customer/faq/open-bank-deposit/8.png)
 
-7. Tick on the payments which are made under the same transaction. Then, click **“OK”**.
+7. Check the payments included in the same transaction slip and click **OK**.
 
-    ![9](../../../static/img/usage/customer/customerFaq/open-bank-deposit/9.png)
+    ![9](../../../static/img/usage/customer/faq/open-bank-deposit/9.png)
 
-8. You will see the selected payments displayed in the panel. If you have wrongly selected the payment, you can always remove it by clicking on the “-“button. Click **“Save”**.
+8. The selected payments will appear in the panel. You can remove incorrect entries using the **[-]** button. Click **Save**.
 
-    ![10](../../../static/img/usage/customer/customerFaq/open-bank-deposit/10.png)
+    ![10](../../../static/img/usage/customer/faq/open-bank-deposit/10.png)
 
-9. Point to **“GL”** and click into **“Bank Reconciliation”**.
+### Reconciling the Bank Deposit
 
-    ![11](../../../static/img/usage/customer/customerFaq/open-bank-deposit/11.png)
+1. Go to **GL** → **Bank Reconciliation**.
 
-10. Click on **“New”**.
+    ![11](../../../static/img/usage/customer/faq/open-bank-deposit/11.png)
 
-    ![12](../../../static/img/usage/customer/customerFaq/open-bank-deposit/12.png)
+2. Click **New**.
 
-11. Then, you will come to this panel. Select the bank statement date (When the bank statement is received). Make sure that you have selected the correct account.
+    ![12](../../../static/img/usage/customer/faq/open-bank-deposit/12.png)
 
-    ![13](../../../static/img/usage/customer/customerFaq/open-bank-deposit/13.png)
+3. Select the **Bank Statement Date** and the correct **Bank Account**.
 
-12. Select the correct display period (including the date of the bank deposit opening made). Key in Bank Statement Bank Closing according to the bank statement you received. Click **“Apply”**.
+    ![13](../../../static/img/usage/customer/faq/open-bank-deposit/13.png)
 
-    ![14](../../../static/img/usage/customer/customerFaq/open-bank-deposit/14.png)
+4. Set the **Display Period** (ensure it includes the bank deposit date). Enter the **Bank Closing Balance** from your statement and click **Apply**.
 
-13. You will see the cheques from **“Opening Bank Deposit”** will be displayed together in a row with the total amount added up together. Then, click **“Save”**.
+    ![14](../../../static/img/usage/customer/faq/open-bank-deposit/14.png)
 
-    ![15](../../../static/img/usage/customer/customerFaq/open-bank-deposit/15.png)
+5. The cheques from the **Bank Deposit** will be displayed as a single row with the total amount. Check the row and click **Save**.
 
-### Opening Bank Deposit at Cash Book Entry
+    ![15](../../../static/img/usage/customer/faq/open-bank-deposit/15.png)
 
-“Opening Bank Deposit” can also be done at cash book entry. Firstly, point to **“GL”** and select **“Cash Book Entry”**.
+### Bank Deposit via Cash Book Entry
 
-    ![16](../../../static/img/usage/customer/customerFaq/open-bank-deposit/16.png)
+You can also create a bank deposit through the Cash Book.
 
-Click on **“New”**
+1. Go to **GL** → **Cash Book Entry**.
 
-    ![17](../../../static/img/usage/customer/customerFaq/open-bank-deposit/17.png)
+    ![16](../../../static/img/usage/customer/faq/open-bank-deposit/16.png)
 
-Then, right click at the blank space beside Payment Voucher, you will see **“Open Bank Deposit”** for you to select.
+2. Click **New**.
 
-    ![18](../../../static/img/usage/customer/customerFaq/open-bank-deposit/18.png)
+    ![17](../../../static/img/usage/customer/faq/open-bank-deposit/17.png)
 
-## Payment Guide
+3. Right-click in the blank space next to the **Payment Voucher** tab and select **Open Bank Deposit**.
 
-### Customer Payment Scenario
+    ![18](../../../static/img/usage/customer/faq/open-bank-deposit/18.png)
 
-|#|Customer Pay| You Receive|
-|---|---|---|
-|1|RM|RM|
-|2|USD|RM|
-|3|USD|USD|
-|4|USD|SGD|
+## Multi-Currency Payment Guide
+
+### Customer Payment Scenarios
+
+| # | Customer Currency | Payment Received In |
+| :--- | :--- | :--- |
+| 1 | RM | RM |
+| 2 | USD | RM |
+| 3 | USD | USD |
+| 4 | USD | SGD |
 
 #### 1. Customer Paid in RM & Payment Received in RM
 
-1. First step to know the customer for currency RM by default is with “----“ sign.
+1. Verify the customer's currency is set to RM (indicated by `----`).
+   Go to **Customer** → **Maintain Customer**.
 
-    **Customer > Maintain Customer**
+    ![1](../../../static/img/usage/customer/faq/payment-guide/1.png)
 
-    ![1](../../../static/img/usage/customer/customerFaq/payment-guide/1.png)
+2. Create the Invoice.
+   Go to **Sales** → **Invoice**.
 
-2. Customer order and proceed to Invoice
+    ![2](../../../static/img/usage/customer/faq/payment-guide/2.png)
 
-    **Sales > Invoice**
+3. Process the Payment.
+   Go to **Customer** → **Customer Payment**.
 
-    ![2](../../../static/img/usage/customer/customerFaq/payment-guide/2.png)
-
-3. Proceed to Payment
-
-    **Customer > Payment**
-
-    ![3](../../../static/img/usage/customer/customerFaq/payment-guide/3.png)
-
-Make sure the above step for Customer in RM currency, payment in default is RM currency also.
+    ![3](../../../static/img/usage/customer/faq/payment-guide/3.png)
 
 #### 2. Customer Paid in USD & Payment Received in RM
 
 :::note
-Refer to  Step 1 in [Scenario 1](#1-customer-paid-in-rm--payment-received-in-rm) to know if the customer using USD currency.
+Refer to Scenario 1 to verify if the customer is using USD.
 :::
 
-1. Check the local amount and net total. Is it different with the previous one? If yes, proved that the document amount is in USD currency.
+1. Check the **Local Amount** and **Net Total**. If they differ, the document is in a foreign currency (e.g., USD).
+   Go to **Sales** → **Invoice**.
 
-   **Sales > Invoice**
+    ![4](../../../static/img/usage/customer/faq/payment-guide/4.png)
 
-    ![4](../../../static/img/usage/customer/customerFaq/payment-guide/4.png)
+2. Process the Payment.
+   Go to **Customer** → **Customer Payment**.
 
-2. Proceed to Payment
+    ![5](../../../static/img/usage/customer/faq/payment-guide/5.png)
 
-    **Customer > Payment**
-
-    ![5](../../../static/img/usage/customer/customerFaq/payment-guide/5.png)
-
-    - 2A. Currency rate for knocking off the payment (System auto calculate)
-
-    - 2B. Payment Amount made in RM (Note: This payment amount is based on Bank payment method currency) **[check on Tools >     Maintain payment method to know more!]**
-
-    - 2C. Bank payment method, make sure you choose the correct bank.
-
-    - 2D. This pay amount you can either put it on your desire amount and check on the 2A, you’ll notice that currency rate will change once you try to knock off the amount.
+    - **2A. Currency Rate**: The rate used for knocking off the payment (auto-calculated).
+    - **2B. Payment Amount**: The amount received in RM (based on the Bank payment method currency).
+    - **2C. Payment Method**: Select the correct bank account.
+    - **2D. Pay Amount**: You can enter the desired amount; the currency rate (2A) will update when you knock off the invoice.
 
 #### 3. Customer Paid in USD & Payment Received in USD
 
-1. For this case where customer currency is USD and payment also in USD, there’ll be a few more step to do.
+1. **Setup**:
+    1. Maintain a USD Bank account in the General Ledger (**GL** → **Maintain Account**).
+    2. Assign the USD currency to the payment method (**Tools** → **Maintain Payment Method**).
 
-    1. you need to maintain a USD Bank in GL Account (**GL > Maintain Account**) where this will be the bank you’ll be getting your
-    payment in.
+    ![6](../../../static/img/usage/customer/faq/payment-guide/6.png)
 
-    2. After maintained the GL Account, go to **Tools > Maintain Payment Method** to assign the currency of the
-    payment method in the particular bank.
+2. Create the Invoice (USD currency).
+   Go to **Sales** → **Invoice**.
 
-    ![6](../../../static/img/usage/customer/customerFaq/payment-guide/6.png)
+    ![7](../../../static/img/usage/customer/faq/payment-guide/7.png)
 
-2. After maintained payment method, we can proceed to do transaction for cases similar (USD Currency on Invoice).
-
-    **Sales > Invoice**
-
-    ![7](../../../static/img/usage/customer/customerFaq/payment-guide/7.png)
-
-3. Proceed to Payment
-
-    **Customer > Payment**
+3. Process the Payment.
+   Go to **Customer** → **Customer Payment**.
 
     :::info
     The currency rate in the top-right corner can only be edited if the customer's currency matches the payment currency.
     :::
 
-    ![8](../../../static/img/usage/customer/customerFaq/payment-guide/8.png)
+    ![8](../../../static/img/usage/customer/faq/payment-guide/8.png)
 
-   1. Now, this rate can be changed as the currency rate change according to the currency rate
+   1. **Rate**: Update the rate according to the current market value.
+   2. **Payment Method**: Select the USD payment method.
+   3. **Paid Amount**: Enter the amount of USD received.
+   4. **Local Amount**: Auto-calculated as `Paid Amount × Currency Rate`.
+   5. **IV Amount**: This follows the foreign currency amount, not the local amount.
 
-   2. Select the correct payment method in order to allow USD payment knocking off USD Invoice
+    If the currency rate differs from the Invoice rate, the system will prompt a message showing the **Gain/Loss on Foreign Exchange** upon saving.
 
-   3. Paid amount will be the amount of USD you receive
-
-   4. Local amount is the amount of conversion of (paid amount x currency rate at the moment)
-
-   5. This IV amount will always be following the currency amount not local amount.
-
-    After confirming all the related info is correct may save it. If your currency rate is different from the one stated in the Invoice, a message should prompt out defining your gain/loss on foreign exchange.
-
-    ![9](../../../static/img/usage/customer/customerFaq/payment-guide/9.png)
+    ![9](../../../static/img/usage/customer/faq/payment-guide/9.png)
 
     :::note
-    If your Invoice currency is stated 3.5 at the moment, and when your customer pay to you on 3.6 rate, the system will auto calculate the amount of gain/loss you actually got from this transaction and show to you the amount when you click save. Above prompt dialog will appear.
+    If the Invoice rate was 3.5 and the payment rate is 3.6, the system will auto-calculate and display the gain/loss when you click **Save**.
     :::
 
 #### 4. Customer Paid in USD & Payment Received in SGD
 
-For customer on USD and receiving payment on different currency you just need to main the payment method.
+For customers using USD where payment is received in a different foreign currency (e.g., SGD), ensure the corresponding payment method is maintained. Refer to Scenario 3 for setup instructions.
 
-:::note
-How to maintain payment method? – Refer to [Scenario 3](#3-customer-paid-in-usd--payment-received-in-usd)
-:::
+## Sales Commission Reports
 
-## Payment Listing Commission
+### Setting Up Commission Scripts
 
-### Guideline: Commission Report
-
-1. Go to **Tools > Maintain Commission Script > New** to add in the commission
-   script. Fill in the Code and Description.
+1. Go to **Tools** → **Maintain Commission Script** → **New**. Enter a **Code** and **Description**.
 
     :::note
-    Maintain Commission Script requires additional module
+    This feature requires the **Maintain Commission Script** module.
     :::
 
-    ![1](../../../static/img/usage/customer/customerFaq/comm/1.png)
+    ![1](../../../static/img/usage/customer/faq/comm/1.png)
+    ![2](../../../static/img/usage/customer/faq/comm/2.png)
+    ![3](../../../static/img/usage/customer/faq/comm/3.png)
 
-    ![2](../../../static/img/usage/customer/customerFaq/comm/2.png)
-
-    ![3](../../../static/img/usage/customer/customerFaq/comm/3.png)
-
-    Default commission script:
+    **Default Commission Script Example:**
 
     ```pascal
     procedure CalculateCommission(AKODocAmt, AAge: variant; var Value: variant);
@@ -340,142 +326,138 @@ How to maintain payment method? – Refer to [Scenario 3](#3-customer-paid-in-us
         else if AAge < 30 then
             Value := AKODocAmt * 0.02
         else
-            Value := AKODocAmt * 0.05005;
+            Value := AKODocAmt * 0.005;
     end;
     ```
 
-2. Change the value highlighted as below according to commission rate for agent and Save.
+2. Update the commission rates and age brackets in the script as needed, then click **Save**.
 
-   ![4](../../../static/img/usage/customer/customerFaq/comm/4.png)
+   ![4](../../../static/img/usage/customer/faq/comm/4.png)
 
-    1. Value 10, 20, 30 = Age
+    - **Age Brackets**: 10, 20, 30 days.
+    - **Rates**: 0.05 (5%), 0.03 (3%), etc.
 
-    2. Value 0.05, 0.03, 0.02, 0.005 = Commission Rate
+3. Assign the script to an agent.
+   Go to **Tools** → **Maintain Agent**.
 
-3. Go to **Tools > Maintain Agent** and select the agent that need to load the commission script.
+    ![5](../../../static/img/usage/customer/faq/comm/5.png)
 
-    ![5](../../../static/img/usage/customer/customerFaq/comm/5.png)
+4. In the **Attachment** tab, select the commission script and click **Save**.
 
-4. At the attachment tab, add in the commission script by selecting it as shown below and click Save after adding the script.
+    ![6](../../../static/img/usage/customer/faq/comm/6.png)
 
-    ![6](../../../static/img/usage/customer/customerFaq/comm/6.png)
+5. Generate the report.
+   Go to **Customer** → **Print Customer Document Listing**.
+   - Select **Document Type**: **Customer Payment Listing**.
+   - **Group By**: **Agent**.
+   - Click **Apply**.
+   - Preview using the **Cust Local - Payment Listing - Collection Report** format.
 
-5. Go to **Customer > Print Customer Document Listing**, select **Document Type** as **Customer Payment Listing**, group by Agent and apply. Preview the result with **Cust Local - Payment Listing - Collection Report**.
+    ![7](../../../static/img/usage/customer/faq/comm/7.png)
+    ![8](../../../static/img/usage/customer/faq/comm/8.png)
+    ![9](../../../static/img/usage/customer/faq/comm/9.png)
 
-    ![7](../../../static/img/usage/customer/customerFaq/comm/7.png)
+## Post-Dated and Bounced Cheques
 
-    ![8](../../../static/img/usage/customer/customerFaq/comm/8.png)
+### Post-Dated Cheques (PDC)
 
-    ![9](../../../static/img/usage/customer/customerFaq/comm/9.png)
+A post-dated cheque is written for a future date.
 
-## Post-dated & Bounced Cheque
+1. Go to **Customer** → **Customer Payment**.
 
-### Post-dated Cheque
+    ![1](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/1.png)
 
-Post-dated cheque is a cheque written by the drawer (payer) for a date in the future.
+2. Click **New**.
 
-1. Firstly, go to **Customer > Customer Payment**.
+    ![2](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/2.png)
 
-    ![1](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/1.png)
+3. Create the payment and knock off the corresponding invoice. Ensure the bank account and amount are correct.
 
-2. Click on **New** to create a new customer payment.
+    ![3](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/3.png)
 
-    ![2](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/2.png)
+4. Right-click in the blank space next to the **Customer Payment** header and select **Set Posting Date**.
 
-3. As usual, create a customer payment and tick to knock off the corresponding invoice. Make sure the bank account and amount is correct.
+    ![4](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/4.png)
 
-    ![3](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/3.png)
+5. Select the actual **Posting Date** of the cheque and click **OK**.
 
-4. To set the payment as a post-dated cheque, simply point the cursor to the blank space beside **Customer Payment** and right click. Click into **Set Posting Date**.
+    ![5](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/5.png)
+    ![6](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/6.png)
 
-    ![4](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/4.png)
+6. The posting date will now be displayed. Click **Save**.
 
-5. Select the actual posting date of the cheque (e.g., 16th of July 2015). Then, click **OK**.
+    ![7](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/7.png)
 
-    ![5](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/5.png)
+7. In the **Ledger Report**, the transaction will appear under the specified posting date.
 
-    ![6](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/6.png)
+    ![8](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/8.png)
 
-6. Now, you will see the posting date is clearly stated in the system. Click **Save**.
+8. To view all PDCs, go to **Customer Reports** → **Print Customer Post Dated Cheque Listing**.
 
-    ![7](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/7.png)
+    ![9](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/9.png)
 
-7. From ledger report, by selecting the posting date and corresponding account, you will see that the document date and transaction is clearly stated.
+9. Select the **Payment Date** (not the posting date) and click **Apply**.
 
-    ![8](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/8.png)
+    ![10](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/10.png)
+    ![11](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/11.png)
 
-8. To view the listing of post-dated cheques. Go to **Customer Reports** and select **Print Customer Post Dated Cheque Listing**.
+### Bounced Cheques
 
-    ![9](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/9.png)
+A bounced cheque is one that cannot be processed due to insufficient funds or errors.
 
-9. Select the date of the payment made (NOT the cheque posting date), and click **Apply**. (You can filter the search by payment method, customer, agent and etc. before clicking **Apply**)
+1. Go to **Customer** → **Customer Payment**.
 
-    ![10](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/10.png)
+    ![12](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/12.png)
 
-10. Upon clicking the **Apply** button, a list of post-dated cheque will be displayed
+2. Locate and double-click the bounced payment document.
 
-    ![11](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/11.png)
-
-### Bounced Cheque
-
-A bounced cheque is a cheque that cannot be processed because the payer has insufficient funds or written wrong / incomplete information on the cheque.
-
-1. Firstly, go to **Customer** and click into **Customer Payment**.
-
-    ![12](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/12.png)
-
-2. Select the bounced cheque customer payment. Double click into the document.
-
-    ![13](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/13.png)
+    ![13](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/13.png)
 
 3. Click **Edit**.
 
-    ![14](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/14.png)
+    ![14](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/14.png)
 
-4. To set the payment as a bounced cheque, simply point the cursor to the blank space beside **Customer Payment** and right click. Click into **Bounced Status**.
+4. Right-click in the blank space next to the **Customer Payment** header and select **Bounced Status**.
 
-    ![15](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/15.png)
+    ![15](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/15.png)
 
-5. Tick in checkbox to bounce the payment. And set the bounce date. (For this case, the cheque is posted on 16th of July 2015, thus the bounce date should be later that 16th of July 2015). Click **OK**.
+5. Check the **Bounced** box and set the **Bounce Date** (must be on or after the posting date). Click **OK**.
 
-    ![16](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/16.png)
+    ![16](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/16.png)
 
-6. The cheque will then be labelled as bounced, and the bounce date will be clearly stated. Then click **Save**.
+6. The document will be labeled as bounced. Click **Save**.
 
-    ![17](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/17.png)
+    ![17](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/17.png)
 
-7. From ledger report, by selecting the bounce date and the corresponding account, you can clearly see the transaction is bounced.
+7. The **Ledger Report** will reflect the bounced transaction on the specified date.
 
-    ![18](../../../static/img/usage/customer/customerFaq/post-dated-bounced-cheque/18.png)
+    ![18](../../../static/img/usage/customer/faq/post-dated-bounced-cheque/18.png)
 
-## MyKad Reader
+## MyKad Integration
 
-### Read Customer Info using MyKad Reader
+### Reading Customer Info via MyKad
 
-1. Link your Smart Card Reader to your computer.
+1. Connect your **Smart Card Reader** to your computer. The reader will show a red light when connected.
 
-2. The reader will display a red light when successfully linked to your computer.
+    ![1](../../../static/img/usage/customer/faq/read-mykad/1.png)
 
-    ![1](../../../static/img/usage/customer/customerFaq/read-mykad/1.png)
+2. Insert the MyKad into the reader. A blue light indicates a successful read.
 
-3. Put MyKad into reader
+    ![2](../../../static/img/usage/customer/faq/read-mykad/2.png)
 
-4. The reader will display a blue light when it successfully reads your MyKad.
+3. In SQL Account, go to **Customer** → **Maintain Customer** → **New**.
+4. Click **Read MyKad**.
 
-    ![2](../../../static/img/usage/customer/customerFaq/read-mykad/2.png)
+    ![3](../../../static/img/usage/customer/faq/read-mykad/3.png)
 
-5. Open your SQL Accounting New Customer Profile > ***Read MyKad***
+5. Select the **Reader Device** and click **Read Card**.
 
-    ![3](../../../static/img/usage/customer/customerFaq/read-mykad/3.png)
+    ![4](../../../static/img/usage/customer/faq/read-mykad/4.png)
 
-6. Select ***Reader Devices*** > ***Click Read Card***
+6. Click **Read MyKad**.
 
-    ![4](../../../static/img/usage/customer/customerFaq/read-mykad/4.png)
+    ![5](../../../static/img/usage/customer/faq/read-mykad/5.png)
 
-7. Click ***Read MyKad***
+7. The system will automatically populate the **Name**, **Address**, and **ID Number**.
 
-    ![5](../../../static/img/usage/customer/customerFaq/read-mykad/5.png)
-
-8. The system will automatically fill in MyKad details ***(NAME , ADDRESS , ID Number)***
-
-    ![6](../../../static/img/usage/customer/customerFaq/read-mykad/6.png)
+    ![6](../../../static/img/usage/customer/faq/read-mykad/6.png)
