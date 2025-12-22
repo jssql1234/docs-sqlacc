@@ -951,11 +951,11 @@ SST tax code mapping to SST-02.
 
    ![des-sst-quick-setup-for-tariff-code-1](../../../static/img/usage/gst-and-sst/sst/sst-quick-setup-for-tariff-code-1.jpg)
 
-2. Pick a tariff code for an items at [Maintain Stock Item](../../usage/stock/stock-guide#maintain-stock-item).
+2. Pick a tariff code for an items at [Maintain Stock Item](../../usage/stock/guide#maintain-stock-item).
 
    ![des-sst-quick-setup-for-tariff-code-2](../../../static/img/usage/gst-and-sst/sst/sst-quick-setup-for-tariff-code-2.jpg)
 
-3. For exemption certificate case (under Schedule A, B, C), a tariff and tax code (SEA, SEB, SEC1, SEC2, SEC3, SEC4, SEC5) should set in [Maintain Customer](../../usage/customer/guide#maintain-customer) and [Maintain Supplier](../../usage/supplier/Setup#maintain-supplier) (Tariff code setting under Tax Tab).
+3. For exemption certificate case (under Schedule A, B, C), a tariff and tax code (SEA, SEB, SEC1, SEC2, SEC3, SEC4, SEC5) should set in [Maintain Customer](../../usage/customer/guide#maintain-customer) and [Maintain Supplier](../../usage/supplier/guide#maintain-supplier) (Tariff code setting under Tax Tab).
 
    ![des-sst-quick-setup-for-tariff-code-3](../../../static/img/usage/gst-and-sst/sst/sst-quick-setup-for-tariff-code-3.jpg)
 

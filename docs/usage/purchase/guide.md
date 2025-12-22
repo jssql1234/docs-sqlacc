@@ -6,155 +6,149 @@ slug: /usage/purchase/guide
 tags: ["SQL Account", "Usage", "Purchase", "Guide"]
 ---
 
-## Purchase Work Flow
+## Purchase Workflow
 
-Example of sales process work flow aligned with SQL Account flow:
+Example of the purchase process workflow aligned with the SQL Account flow:
 
 ![sales-process-workflow](../../../static/img/usage/purchase/guide/sales-process-workflow.png)
 
 ## Purchase Request
 
-Purchase Request is an internal document used within a company between departments to request a purchase or product.
+A Purchase Request is an internal document used within a company to request products or services between departments.
 
-For example, you want to purchase more office supplies. You must submit a Purchase Request to the purchasing department.
+For example, if you need to purchase office supplies, you must submit a Purchase Request to the purchasing department.
 
 ![purchase-request](../../../static/img/usage/purchase/guide/purchase-request.png)
 
 ![purchase-request-details](../../../static/img/usage/purchase/guide/purchase-request-details.png)
 
-1. **Purchase | Purchase Request | New**
+1. Go to **Purchase > Purchase Request > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item Code and details** (e.g., Qty, Unit Cost)
+3. Insert the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
-4. **Write a description to explain your Purchase Request**
+4. Enter a description to explain the **Purchase Request**.
 
    ![purchase-request-data-entry](../../../static/img/usage/purchase/guide/purchase-request-data-entry.png)
 
-5. **Click the Save button once you are done. Below is the example of the entry created.**
+5. Click **Save** once you are done. Below is an example of the created entry:
 
    ![purchase-request-example-entry](../../../static/img/usage/purchase/guide/purchase-request-example-entry.png)
 
 ## Purchase Order
 
-Purchase Order is a document that is issued by the purchasing department when placing an order with their supplier.
+A Purchase Order is a document issued by the purchasing department when placing an order with a supplier.
 
-A purchase order document contains the details (quantity, unit price) of the items that want to be purchased.
+It contains details such as quantity and unit price for the items being purchased.
 
 ![purchase-order](../../../static/img/usage/purchase/guide/purchase-order.png)
 
 ![purchase-order-details](../../../static/img/usage/purchase/guide/purchase-order-details.png)
 
-1. **Purchase | Purchase Order | New**
+1. Go to **Purchase > Purchase Order > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item**
+3. Insert the items:
 
-   1. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+   1. Enter the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
       :::info
-
-      You can navigate the search column by using the “TAB” button on your keyboard. It will apply to all drop down tables.
-
+      You can navigate the search columns using the **TAB** key on your keyboard. This applies to all dropdown tables.
       :::
 
-   2. **Click on the show/hide/move column icon to customize your column layout**.
+   2. Click the **Show/Hide/Move Column** icon to customize your column layout.
 
-   3. If you want to key in the discount amount, you may tick the discount field by following step 3b and update the discount field. You can key in multiple levels of discount as shown by the picture attached.
+   3. To enter a discount amount, enable the **Discount** field using the method in step 3b. You can enter multiple levels of discounts as shown in the image below.
 
-4. **Write a description to explain your purchase order**
+4. Enter a description for your **Purchase Order**.
 
    ![purchase-order-data-entry](../../../static/img/usage/purchase/guide/purchase-order-data-entry.png)
 
-5. **Click the Save button once you are done. Below is the example of the entry created:**
+5. Click **Save** once you are done. Below is an example of the created entry:
 
    ![purchase-order-example-entry](../../../static/img/usage/purchase/guide/purchase-order-example-entry.png)
 
-### More : Project
+### Project
 
-There are 2 types of project you need to be take note:
+There are two types of projects to note:
 
-1.Document Project
+1. **Document Project**: To set a project for the entire document, go to the **MORE** section on the **left sidebar**.
 
-2.Detail Project
+2. **Detail Project**: To set a project for individual items, add the **Project** column using the **Field Chooser**.
 
-For **document project**, you need to point to **MORE** section **(on the left sidebar)**.
-
-For **detail project**, you have to add the **project** column from the Field Chooser.
-
-![detail-project](../../../static/img/usage/purchase/guide/detail-project.png)
+   ![detail-project](../../../static/img/usage/purchase/guide/detail-project.png)
 
 ### Attachment
 
-You can use this feature to attach external PDF, excel, word documents and image files.
+Use this feature to attach external PDF, Excel, Word documents, or image files.
 
 ![attachment](../../../static/img/usage/purchase/guide/attachment.png)
 
-1. Go to the left of the screen and click "Attachment"
+1. Click **Attachment** on the left sidebar.
 
-2. Click the small black arrow at the link icon
+2. Click the small black arrow next to the **Link** icon.
 
-3. Select ‘Attach files to Local Drive’ and choose the file from your computer to attach
+3. Select **Attach files to Local Drive** and choose the file from your computer.
 
 ### Note
 
-1. Click on the Note section (on the LEFT side bar).
+1. Click the **Note** section on the **left sidebar**.
 
-2. RIGHT click it, you will see the Rich Text Editor pop-up.
+2. **Right-click** inside the section to open the **Rich Text Editor**.
 
-3. You can start typing the note. See the example screenshot below.
+3. Enter your notes as needed. See the example below.
 
-4. Click on the X button to save and exit the Rich Text Editor.
+4. Click the **X** button to save and exit the editor.
 
-5. You will get prompted the ‘Save changes?’ message. Click YES to save it.
+5. A **Save changes?** prompt will appear. Click **Yes** to save.
 
 ![note](../../../static/img/usage/purchase/guide/note.png)
 
-### How to preview report
+### How to Preview a Report
 
-To preview the report, you may click on the preview button and select the format you wish to print.
+To preview a report, click the **Preview** button and select your desired format.
 
 ![select-report](../../../static/img/usage/purchase/guide/select-report.png)
 
-### How to send report via Whatsapp
+### How to Send a Report via WhatsApp
 
 ![send-report-via-whatsapp](../../../static/img/usage/purchase/guide/send-report-via-whatsapp.png)
 
-A QR code will appear on the screen. Scan the QR code with your Whatsapp's Whatsapp Web function.
+A QR code will appear on the screen. Scan it using the **WhatsApp Web** function in your WhatsApp mobile app.
 
 ## Goods Received
 
-Goods Received is a document issued after receiving a delivery as proof of the order receipt.
+A Goods Received Note (GRN) is issued after receiving a delivery as proof of receipt.
 
 ![goods-received](../../../static/img/usage/purchase/guide/goods-received.png)
 
 ![goods-received-details](../../../static/img/usage/purchase/guide/goods-received-details.png)
 
-1. **Purchase | Goods Receive | New**
+1. Go to **Purchase > Goods Received > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item Code and details (e.g. Qty, Unit Cost)**
+3. Enter the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
-4. **Write a description to explain your Goods Receive**
+4. Enter a description for the **Goods Received** note.
 
    ![goods-received-data-entry](../../../static/img/usage/purchase/guide/goods-received-data-entry.png)
 
-5. **Click the Save button once you are done. Below is the example of the entry created:**
+5. Click **Save** once you are done. Below is an example of the created entry:
 
 ![goods-received-example-entry](../../../static/img/usage/purchase/guide/goods-received-example-entry.png)
 
-### Transfer From PO To DO
+### Transfer from PO to GRN
 
-1. **Purchase | Goods Receive | New**
+1. Go to **Purchase > Goods Received > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Right Click on G/R Note title**, select **Transfer from Purchase Order**, tick the document that you wish to transfer
+3. **Right-click on the G/R Note title** and select **Transfer from Purchase Order**. Select the documents you wish to transfer.
 
-4. **Save** the Goods Received Note
+4. **Save** the Goods Received Note.
 
 ![goods-received-transfer-from-po](../../../static/img/usage/purchase/guide/goods-received-transfer-from-po.png)
 
@@ -164,319 +158,298 @@ Goods Received is a document issued after receiving a delivery as proof of the o
 This is an additional module.
 :::
 
-Landing Cost is to handle the cost to the warehouse that is not billed by the same supplier. In other words, it is an additional cost to increase your stock cost. This cost depends on the company and whether they want to add in or not. For instance, if you buy a product from Supplier A but it is shipped by Transport company B, you must enter the transport charges as a landing cost to increase your product cost.
+**Landing Cost** handles costs associated with getting goods to the warehouse that are not billed by the same supplier (e.g., freight, insurance, or handling fees). These costs are added to your stock cost. For example, if you buy a product from Supplier A but it is shipped by Transport Company B, you enter the transport charges as a landing cost to increase your product's cost.
 
 ![landing-cost-1](../../../static/img/usage/purchase/guide/landing-cost-1.png)
 
-How to set Landing Cost?
+#### How to set up Landing Cost
 
-Follow the below image:
+Follow the steps shown in the image below:
 
 ![landing-cost-2](../../../static/img/usage/purchase/guide/landing-cost-2.png)
 
-1. **Landing Cost 1** = Key your Landing Cost to this column.(This cost will not take into the account.)
-2. **Landing Cost 2** = If you have a different calculation than Landing Cost 1, you may enter your value to this column.
-3. Click on + Button to select the cost allocated.
+1. **Landing Cost 1**: Enter your landing cost in this column. (This value is for reference and may not be included in all calculations).
+2. **Landing Cost 2**: If you have a different calculation than Landing Cost 1, enter the value here.
+3. Click the **+** button to select the cost allocation method.
 
 ![cost-allocated-by-subtotal](../../../static/img/usage/purchase/guide/cost-allocated-by-subtotal.png)
 
-***Formula for Cost Allocated By SubTotal***
+##### Formula for Cost Allocated By Subtotal
 
-- Formula : Item Subtotal / Document Subtotal * Landing Cost1
+- **Formula**: `(Item Subtotal / Document Subtotal) * Landing Cost 1`
 
 ![formula-subtotal](../../../static/img/usage/purchase/guide/formula-subtotal.png)
 
 :::info
+**Example:**
 
-   Item 1 = A/B * C
-
-   Landing Cost1 (D) = 50.00 / 1949.00 * 200 = 5.13
-
-   Item 2
-
-   Landing Cost (D) = 1899.00 / 1949.00 * 200 = 194.87
+- **Formula**: `(Item Subtotal / Document Subtotal) * Landing Cost 1`
+- **Item 1**: `(50.00 / 1949.00) * 200 = 5.13`
+- **Item 2**: `(1899.00 / 1949.00) * 200 = 194.87`
 
 :::
 
 ![stock-card-check-cost](../../../static/img/usage/purchase/guide/stock-card-check-cost.png)
 
 :::info
+**How to calculate Unit Cost (e.g., 5.51):**
 
-   How to get unit cost = 5.51?
-
-   Formula : Product Unit Cost + Item Landing Cost1 / Item Qty
-
-   Formula : 5 + (5.13 / 10) = 5.51
+- **Formula**: `Product Unit Cost + (Item Landing Cost 1 / Item Qty)`
+- **Calculation**: `5 + (5.13 / 10) = 5.51`
 
 :::
 
-***Formula for Cost Allocated By Qty***
+##### Formula for Cost Allocated By Qty
 
-- Formula : Item Qty / Document Qty * Landing Cost1
+- **Formula**: `(Item Qty / Document Qty) * Landing Cost 1`
 
 ![cost-allocated-by-quantity](../../../static/img/usage/purchase/guide/cost-allocated-by-quantity.png)
 
 ![formula-quantity](../../../static/img/usage/purchase/guide/formula-quantity.png)
 
 :::info
+**Example:**
 
-   Item 1 : 10 / 11 * 200 = 181.81
-
-   Item 2 : 1 / 11 * 200 = 18.18
+- **Item 1**: `(10 / 11) * 200 = 181.81`
+- **Item 2**: `(1 / 11) * 200 = 18.18`
 
 :::
 
-***Stock Card Report Outcome:***
+**Stock Card Report Outcome:**
 
 :::info
 
-   *Item ANT : unit cost will be 23.18, how to get 23.18 ?
-
-   Unit Cost + (Landing Cost1 / Qty) = 5 + (181.82 / 10) = 23.18
-
-   *Item LCLIP : Unit Cost will be 1917.18
-
-   Unit Cost + (Landing Cost1 / Qty) = 1899 + (18.18 / 1) = 1917.18
+- **Item ANT**: Unit cost will be **23.18**.
+  - `Unit Cost + (Landing Cost 1 / Qty) = 5 + (181.82 / 10) = 23.18`
+- **Item LCLIP**: Unit cost will be **1917.18**.
+  - `Unit Cost + (Landing Cost 1 / Qty) = 1899 + (18.18 / 1) = 1917.18`
 
 :::
 
-***Formula for Cost Allocated By Smallest Qty***
+##### Formula for Cost Allocated By Smallest Qty
 
-- Formula : Item Qty *Rate/ Sum(Qty* Rate) * Landing Cost1
+- **Formula**: `(Item Qty * Rate) / Sum(Qty * Rate) * Landing Cost 1`
 
 ![cost-allocated-by-smallest-quantity](../../../static/img/usage/purchase/guide/cost-allocated-by-smallest-quantity.png)
 
 ![formula-smallest-quantity](../../../static/img/usage/purchase/guide/formula-smallest-quantity.png)
 
 :::info
+**Example:**
 
-   Item 1 : 10 * 12 = 120 / 121 = 198.35
-
-   Item 2 : 1 * 1 = 1 / 121 = 1.65
+- **Item 1**: `(10 * 12) / 121 * 200 = 198.35`
+- **Item 2**: `(1 * 1) / 121 * 200 = 1.65`
 
 :::
 
-***Stock Card Report Outcome***
+**Stock Card Report Outcome:**
 
 :::info
 
-   Item 1 : Unit cost for ANT = [Unit Price + (Item Landing Cost1 / Item Qty)] / ItemRate = [30 + (198.35 / 10)] / 12 = 4.15
-
-   Item 2 : Unit cost for LCLIP = [Unit Price + (Item Landing Cost1 / Item Qty)] / ItemRate = 1899 + 1.65 = 1900.65
+- **Item 1 (ANT)**: Unit cost = `[Unit Price + (Item Landing Cost 1 / Item Qty)] / Item Rate`
+  - `[30 + (198.35 / 10)] / 12 = 4.15`
+- **Item 2 (LCLIP)**: Unit cost = `Unit Price + (Item Landing Cost 1 / Item Qty)`
+  - `1899 + 1.65 = 1900.65`
 
 :::
 
-That seed will grow to be a peach tree. You may wish for an apple or an orange, but you will get a peach.
-
 ## Purchase Invoice
 
-You can key in the Purchase Invoice after your Purchase Order has been approved and the goods have been received.
+You can enter a Purchase Invoice after your Purchase Order has been approved and the goods have been received.
 
 ![purchase-invoice](../../../static/img/usage/purchase/guide/purchase-invoice.png)
 
-1. **Purchase | Purchase Invoice | New**
+1. Go to **Purchase > Purchase Invoice > New**.
 
    ![purchase-invoice-data-entry](../../../static/img/usage/purchase/guide/purchase-invoice-data-entry.png)
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item**
+3. Insert the items:
 
-   1. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+   1. Enter the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
    :::info
-
-      You can navigate the search column by using the "TAB" button on your keyboard. It will apply to all drop down tables.
-
+   You can navigate the search columns using the **TAB** key on your keyboard. This applies to all dropdown tables.
    :::
 
    ![search-supplier-column](../../../static/img/usage/purchase/guide/search-supplier-column.png)
 
-4. **Write a description to explain your Purchase Invoice**
+4. Enter a description for the **Purchase Invoice**.
 
-5. **Click the Save button once you are done.  Below is the example of the entry created:**
+5. Click **Save** once you are done. Below is an example of the created entry:
 
-***Double Entry will be:-***
+**Double Entry:**
 
 | Account            | DR (RM) | CR (RM) |
 |--------------------|---------|---------|
 | Purchase Account   | 500.00  |         |
 | Supplier Account   |         | 500.00  |
 
-### Transfer From DO
+### Transfer from GRN
 
-1. **Purchase | Purchase Invoice | New**
+1. Go to **Purchase > Purchase Invoice > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Right Click on Purchase Invoice title**, select Transfer from Goods Received, tick the document that you wish to transfer
+3. **Right-click on the Purchase Invoice title** and select **Transfer from Goods Received**. Select the documents you wish to transfer.
 
-4. **Save** the Purchase Invoice
+4. **Save** the Purchase Invoice.
 
 ![purchase-invoice-transfer-from-do](../../../static/img/usage/purchase/guide/purchase-invoice-transfer-from-do.png)
 
 ## Cash Purchase
 
-You can key in Cash Purchase after your Purchase Order has been approved and the goods have been received.
-
-Cash purchases are used for purchases that are paid for with cash and have no outstanding payment.
+Cash Purchases are used for transactions that are paid for immediately with cash, with no outstanding balance.
 
 ![cash-purchase](../../../static/img/usage/purchase/guide/cash-purchase.png)
 
-1. **Purchase | Cash Purchase | New**
+1. Go to **Purchase > Cash Purchase > New**.
 
    ![cash-purchase-data-entry](../../../static/img/usage/purchase/guide/cash-purchase-data-entry.png)
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item**
+3. Insert the items:
 
-   1. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+   1. Enter the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
    :::info
-
-      You can navigate the search column by using the "TAB" button on your keyboard. It will apply to all drop down tables.
-
+   You can navigate the search columns using the **TAB** key on your keyboard. This applies to all dropdown tables.
    :::
 
    ![search-supplier-column-2](../../../static/img/usage/purchase/guide/search-supplier-column-2.png)
 
-4. Write a description to explain your Cash Purchase
+4. Enter a description for the **Cash Purchase**.
 
-5. Click the **Save** button once you are done.
+5. Click **Save** once you are done.
 
 ![cash-purchase-example-entry](../../../static/img/usage/purchase/guide/cash-purchase-example-entry.png)
 
 ### Transfer From
 
-You can transfer your existing Purchase Order, Goods Receive Note, or Purchase Request to your Cash Sales.
+You can transfer existing Purchase Orders, Goods Received Notes, or Purchase Requests to a Cash Purchase.
 
-All you have to do is RIGHT-CLICK at the "Cash Purchase" title
+**Right-click on the Cash Purchase title** to select the source document.
 
 ![cash-purchase-transfer-from](../../../static/img/usage/purchase/guide/cash-purchase-transfer-from.png)
 
-### Payment Paid
+### Payment Details
 
-For cash purchases, you can select the payment method. and key in the payment amount.
+For Cash Purchases, you can select the payment method and enter the payment amount.
 
 ![cash-purchase-payment-paid-details](../../../static/img/usage/purchase/guide/cash-purchase-payment-paid-details.png)
 
 ![cash-purchase-payment-paid-payment-by](../../../static/img/usage/purchase/guide/cash-purchase-payment-paid-payment-by.png)
 
-You can also key in the Cheque No. and Bank Charges if there are any .
+You can also enter the **Cheque No.** and **Bank Charges** if applicable.
 
-Once you have **SAVED** your "Cash Purchase", The system will have created a Supplier payment document for you.
+Once you **Save** the Cash Purchase, the system automatically creates a Supplier Payment document.
 
 ![cash-purchase-generate-pv-number](../../../static/img/usage/purchase/guide/cash-purchase-generate-pv-number.png)
 
 ## Extra Goods Received
 
-Extra Goods Received is usually used by businesses where Invoices are issued before Goods Received.
+Extra Goods Received is typically used when invoices are issued before the goods are received.
 
-You would need an Invoice -> DO module in order to issue Extra Goods Received Note.
+:::note
+This requires the **Invoice > DO** module.
+:::
 
 ![navigate-extra-goods-received](../../../static/img/usage/purchase/guide/navigate-extra-goods-received.png)
 
-1. **Purchase | Extra Goods Receive | New**
+1. Go to **Purchase > Extra Goods Received > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+3. Enter the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
-4. **Write a description to explain your Extra Goods Receive**
+4. Enter a description for the **Extra Goods Received** note.
 
    ![extra-goods-received-data-entry](../../../static/img/usage/purchase/guide/extra-goods-received-data-entry.png)
 
-5. **Click the Save button once you are done.**
+5. Click **Save** once you are done.
 
-### Transfer From PI To EGR
+### Transfer from PI to EGR
 
-You can transfer your existing Purchase invoice or Cash Purchase.
+You can transfer from an existing Purchase Invoice or Cash Purchase.
 
-All you have to do is RIGHT-CLICK at the "Extra Goods Received" title.
+**Right-click on the Extra Goods Received title** to select the source document.
 
 ![extra-goods-received-transfer-from](../../../static/img/usage/purchase/guide/extra-goods-received-transfer-from.png)
 
 ## Purchase Debit Note
 
-Purchase Debit Note is used to increase your expense amount.
-
-Or to increase the amount of credit that you owe your supplier.
+A Purchase Debit Note is used to increase an expense amount or the amount owed to a supplier.
 
 ![purchase-debit-note](../../../static/img/usage/purchase/guide/purchase-debit-note.png)
 
-1. **Purchase | Purchase Debit Note | New**
+1. Go to **Purchase > Purchase Debit Note > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+3. Enter the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
-4. **Write a description to explain your Purchase Debit Note**
+4. Enter a description for the **Purchase Debit Note**.
 
    ![purchase-debit-note-data-entry](../../../static/img/usage/purchase/guide/purchase-debit-note-data-entry.png)
 
-5. **Click the Save button once you are done. Below is the example of the entry created:**
+5. Click **Save** once you are done. Below is an example of the created entry:
 
    ![purchase-debit-note-example-entry](../../../static/img/usage/purchase/guide/purchase-debit-note-example-entry.png)
 
-### Transfer From PI
+### Transfer from PI
 
-Instead of keying in a new document, you can transfer it from an existing Purchase Request or Purchase Order or Goods Received document.
+Instead of entering a new document, you can transfer from an existing Purchase Request, Purchase Order, or Goods Received document.
 
-All you have to do is RIGHT-CLICK at the "Purchase Debit Note" title.
+**Right-click on the Purchase Debit Note title** to select the source document.
 
 ![purchase-debit-note-transfer-from](../../../static/img/usage/purchase/guide/purchase-debit-note-transfer-from.png)
 
-## Purchase Returned
+## Purchase Return
 
-Purchase Return document is created when you return purchased goods to the supplier.
+A Purchase Return document is created when you return purchased goods to a supplier.
 
 ![purchase-returned](../../../static/img/usage/purchase/guide/purchase-returned.png)
 
-1. **Purchase | Purchase Returned | New**
+1. Go to **Purchase > Purchase Return > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+3. Enter the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
-4. **Write a description to explain your Purchase Return**
+4. Enter a description for the **Purchase Return**.
 
    ![purchase-returned-data-entry](../../../static/img/usage/purchase/guide/purchase-returned-data-entry.png)
 
-5. **Click the Save button once you are done. Below is the example of the entry created:**
+5. Click **Save** once you are done. Below is an example of the created entry:
 
 ![purchase-returned-example-entry](../../../static/img/usage/purchase/guide/purchase-returned-example-entry.png)
 
-### Transfer From PI To PDN
+### Transfer from PI to PRN
 
-Instead of keying in a new document, you can transfer it from an existing Purchase Invoice or Cash Purchase document.
+Instead of entering a new document, you can transfer from an existing Purchase Invoice or Cash Purchase document.
 
-All you have to do is RIGHT-CLICK at the "Purchase Return" title.
+**Right-click on the Purchase Return title** to select the source document.
 
 ![purchase-returned-transfer-from](../../../static/img/usage/purchase/guide/purchase-returned-transfer-from.png)
 
 ## Purchase Cancelled Note
 
-You can key in the Purchase Cancelled Note to remove any outstanding Purchase Orders.
+A Purchase Cancelled Note is used to remove any outstanding Purchase Orders.
 
 ![purchase-cancelled-note](../../../static/img/usage/purchase/guide/purchase-cancelled-note.png)
 
-1. **Purchase | Purchase Cancelled Note | New**
+1. Go to **Purchase > Purchase Cancelled Note > New**.
 
-2. **Select Supplier Code**
+2. Select the **Supplier Code**.
 
-3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
+3. Enter the **Item Code** and details (e.g., **Qty**, **Unit Cost**).
 
-4. **Write a description to explain your Purchase Cancelled Note**
+### Transfer from PO to PCN
 
-   ![purchase-cancelled-note-data-entry](../../../static/img/usage/purchase/guide/purchase-cancelled-note-data-entry.png)
+Instead of entering a new document, you can transfer from an existing Purchase Order.
 
-5. **Click the Save button once you are done.**
-
-### Transfer From PO To PCN
-
-Instead of keying in a new document, you can transfer it from an existing Purchase Invoice or Cash Purchase document.
-
-All you have to do is RIGHT-CLICK at the "Purchase Cancelled Note" title.
+**Right-click on the Purchase Cancelled Note title** to select the source document.
 
 ![purchase-cancelled-note-transfer-from](../../../static/img/usage/purchase/guide/purchase-cancelled-note-transfer-from.png)
