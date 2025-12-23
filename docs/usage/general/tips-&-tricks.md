@@ -11,7 +11,6 @@ tags: ["SQL Account", "Usage"]
 There are four methods to integrate or link with SQL Accounting
 
 - [Restful API](https://wiki.sql.com.my/wiki/Restful_API) (Recommended - For two way communication & SQL Public Connect User)
-- [SDK Live](/integration/sdk-live/basic-guide#documentation) (Recommended - For two way communication)
 - [SQL Acc XLS n MDB Import](../../miscellaneous/acc-xls-mdb-import) - XLS, XLSX, Json & CSV/TXT File (Format 2 - Bar(|),Comma(,),Semi Comma(;),Tilde(~))
 - [SQL XML Import](../../miscellaneous/import-export-guide.md) - XML File
 - [SQL Text Import](../../miscellaneous/text-import.md) - CSV/TXT File (Format 1 - Semi Comma (;) Only)
@@ -32,14 +31,12 @@ SQL Accounting has three environment setups. Below are the available method opti
     Data is hosted at the user's office.
 
     - [Restful API](https://wiki.sql.com.my/wiki/Restful_API)
-    - [SDK Live](https://wiki.sql.com.my/wiki/SDK_Live)
     - [SQL Acc XLS n MDB Import](../../miscellaneous/acc-xls-mdb-import)
 
 3. On Premise (Offline)
 
     Data is hosted at the user's office.
 
-    - [SDK Live](https://wiki.sql.com.my/wiki/SDK_Live)
     - [SQL Acc XLS n MDB Import](../../miscellaneous/acc-xls-mdb-import)
     - [SQL Accounting](https://www.sql.com.my/download/demo/sqlacc-setup.exe)
     - [Firebird 64 bit](https://github.com/FirebirdSQL/firebird/releases/download/R3_0_7/Firebird-3.0.7.33374_1_x64.exe)
