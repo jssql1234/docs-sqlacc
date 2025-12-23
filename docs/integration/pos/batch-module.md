@@ -10,11 +10,8 @@ tags: ["SQL Account", "POS"]
 This feature is very useful and widely explore for alternative usage like:
 
 1. To trace the expiry dates of the goods.
-
 2. To differentiate goods by sizes, colours, etc.
-
 3. To trace goods from which production batch.
-
 4. and many more.
 
 :::
@@ -23,7 +20,7 @@ This feature is very useful and widely explore for alternative usage like:
 
 ## How to use Batch Module in SQL Pos?
 
-1. To Maintain Batch, Open SQL Account -> Stock -> Maintain Batch -> New
+1. To Maintain Batch, Open SQL Account → Stock → Maintain Batch → New
 
 2. Fill in the batch details:
 
@@ -35,7 +32,7 @@ This feature is very useful and widely explore for alternative usage like:
 
     ![3](../../../static/img/integration/pos/batch-module/batch-module2.png)
 
-4. In SQL Pos -> Setting -> System -> Batch No. Module -> Tick **YES**
+4. In SQL Pos → Setting → System → Batch No. Module → Tick **YES**
 
     ![4](../../../static/img/integration/pos/batch-module/batch-module3.png)
 
@@ -43,8 +40,7 @@ This feature is very useful and widely explore for alternative usage like:
 
     ![5](../../../static/img/integration/pos/batch-module/batch-module4.png)
 
-6. When you print out the receipt, the receipt will show out your batch number.
-    The description for batch that prints out in receipt will follow the setting that you had done.
+6. When you print out the receipt, the receipt will show out your batch number. The description for batch that prints out in receipt will follow the setting that you had done.
 
     ![6](../../../static/img/integration/pos/batch-module/batch-module5.png)
 

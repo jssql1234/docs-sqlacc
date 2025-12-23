@@ -1,7 +1,8 @@
 ---
+sidebar_position: 4
 title: Shopee
 description: A guide on Shopee for SQL Account
-slug: /integration//ecommerce/shopee
+slug: /integration/ecommerce/shopee
 tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 ---
 
@@ -16,9 +17,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
     ![1](../../../static/img/integration/e-commerce/shopee/1.png)
 
     1. Enter **Description**
-
     2. Select **Platform**
-
     3. Click on **Link** Button
 
 3. Login Shopee Credential
@@ -37,7 +36,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 ## Configure E Commerce Setting
 
-1. GL -> Maintain Account
+1. GL → Maintain Account
 
    1. Create Shopee Payment Method
 
@@ -53,11 +52,11 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
        - It is up to company want to create under which category. Some of the Company will create under Cost of Goods Sold.
 
-2. Customer -> Maintain Customer
+2. Customer → Maintain Customer
 
    ![8](../../../static/img/integration/e-commerce/shopee/8.png)
 
-3. Stock -> Maintain Stock Group
+3. Stock → Maintain Stock Group
 
    Create Lazada Shipping / Transaction / Voucher / Discount Stock Group
 
@@ -71,7 +70,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
        - Repeat same step to create for Shipping and Transaction Fees Stock Group
 
-4. Stock -> Stock Item
+4. Stock → Stock Item
 
    1. Create Discount Stock Item
 
@@ -89,9 +88,9 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 ## Account Tab
 
-1. Click on '![39](../../../static/img/integration/banks/cloud-icon.png)'- > Shopee
+1. Click on '![39](../../../static/img/integration/banks/cloud-icon.png)'→ Shopee
 
-2. Click on Account Tab -> Double click on your account
+2. Click on Account Tab → Double click on your account
 
     ![13](../../../static/img/integration/e-commerce/shopee/13.png)
 
@@ -110,15 +109,14 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 1. Step to download product list from Shopee
 
-   1. Navigate to “My Products” under “Product” category.
+   1. Navigate to "My Products" under "Product" category.
 
-   2. Click on “Batch Tools” and select “Mass Update”
+   2. Click on "Batch Tools" and select "Mass Update"
 
        ![15](../../../static/img/integration/e-commerce/shopee/15.png)
 
-   3. Click on “Generate” to generate the product list.
-
-   4. Click on “Download” to get the generated product list.
+   3. Click on "Generate" to generate the product list.
+   4. Click on "Download" to get the generated product list.
 
        ![16](../../../static/img/integration/e-commerce/shopee/16.png)
 
@@ -126,7 +124,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 2. Fetch product
 
-   1. Click on Product Tab -> Click on Fetch Button -> System will return the message when fetching done.
+   1. Click on Product Tab → Click on Fetch Button → System will return the message when fetching done.
 
        ![17](../../../static/img/integration/e-commerce/shopee/17.png)
 
@@ -134,7 +132,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
        ![18](../../../static/img/integration/e-commerce/shopee/18.png)
 
-       If you decide to use the same item code as Seller Sku, ticked on select All records -> press on Post button for the first time so system will remember the settings.
+       If you decide to use the same item code as Seller Sku, ticked on select All records → press on Post button for the first time so system will remember the settings.
 
        ![19](../../../static/img/integration/e-commerce/shopee/19.png)
 
@@ -172,7 +170,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 3. Fetch Order
 
-     1. Select Date Range -> Click on Refresh Order
+     1. Select Date Range → Click on Refresh Order
 
          ![26](../../../static/img/integration/e-commerce/shopee/26.png)
 
@@ -186,11 +184,11 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 4. Post Order
 
-     1. Click on the status you want to post the order, let us take an example on Completed Status -> Ticked all -> Click on Post
+     1. Click on the status you want to post the order, let us take an example on Completed Status → Ticked all → Click on Post
 
          ![29](../../../static/img/integration/e-commerce/shopee/29.png)
 
-     2. If you did not tick on any order when do the posting, system will raise a message: You have not selected any order. Would you like to select all? If you would like to post all -> Press Yes
+     2. If you did not tick on any order when do the posting, system will raise a message: You have not selected any order. Would you like to select all? If you would like to post all → Press Yes
 
          ![30](../../../static/img/integration/e-commerce/shopee/30.png)
 
@@ -229,7 +227,6 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
              ![33](../../../static/img/integration/e-commerce/shopee/33.png)
 
          2. Click on Item Code Drop Down, user can manually map the item code
-
          3. Click on Post
 
 6. Order Details
@@ -278,7 +275,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
          ![38](../../../static/img/integration/e-commerce/shopee/38.png)
 
-     2. Sales -> Invoice
+     2. Sales → Invoice
 
          ![39](../../../static/img/integration/e-commerce/shopee/39.png)
 
@@ -294,13 +291,13 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
          = RM 11.75
 
-     4. Sales -> Credit Note
+     4. Sales → Credit Note
 
         CN will be posting return product without Shipping and Transaction fees.
 
         ![40](../../../static/img/integration/e-commerce/shopee/40.png)
 
-        **Customer -> Customer Credit Note**
+        **Customer → Customer Credit Note**
 
         ![41](../../../static/img/integration/e-commerce/shopee/41.png)
 
@@ -308,7 +305,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
         System will auto knockoff the Invoice.
         :::
 
-        **Customer -> Customer Invoice**
+        **Customer → Customer Invoice**
 
         ![42](../../../static/img/integration/e-commerce/shopee/42.png)
 
@@ -328,11 +325,11 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 10. Print
 
-     1. Click on Order No -> Print
+     1. Click on Order No → Print
 
          ![46](../../../static/img/integration/e-commerce/shopee/46.png)
 
-     2. Select Report -> Press OK
+     2. Select Report → Press OK
 
          ![47](../../../static/img/integration/e-commerce/shopee/47.png)
 
@@ -346,18 +343,15 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 1. Step to download statement from Shopee
 
-    1. Navigate to “My Income” under “Finance” category.
-
-    2. Switch to “Released” tab under “Income Details”
-
-    3. Click on “Export” button and finally “Download” the file.
+    1. Navigate to "My Income" under "Finance" category.
+    2. Switch to "Released" tab under "Income Details"
+    3. Click on "Export" button and finally "Download" the file.
 
         ![49](../../../static/img/integration/e-commerce/shopee/49.png)
 
 2. Posting Payment
 
-    1. Select Payment Tab -> Select Account (Only if you have more than 1 store)
-
+    1. Select Payment Tab → Select Account (Only if you have more than 1 store)
     2. Click Load Excel
 
         ![50](../../../static/img/integration/e-commerce/shopee/50.png)
@@ -390,7 +384,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
         ![55](../../../static/img/integration/e-commerce/shopee/55.png)
 
-        **Customer -> Customer Payment**
+        **Customer → Customer Payment**
 
             ![56](../../../static/img/integration/e-commerce/shopee/56.png)
 
@@ -408,7 +402,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
         Both way had to manually reverse out from Shopee Bank Account.
 
-    3. GL -> Cash Book Entry -> New OR
+    3. GL → Cash Book Entry → New OR
 
         ![58](../../../static/img/integration/e-commerce/shopee/58.png)
 
@@ -422,7 +416,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
 
 2. How to do if i want to split Lazada and Shopee Sales?
 
-    - Can set by project under Tools -> Maintain Project.
+    - Can set by project under Tools → Maintain Project.
 
 3. How to handle Serial Number?
 

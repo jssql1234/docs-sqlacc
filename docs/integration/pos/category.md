@@ -8,11 +8,11 @@ tags: ["SQL Account", "POS"]
 
 ## Steps and Instructions
 
-### Go to setting | POS Screen | Touch Mode | press OK
+### Go to setting → POS Screen → Touch Mode → press OK
 
 ![1](../../../static/img/integration/pos/category/category-steps.png)
 
-### Select Category | New | Example : Vegetable
+### Select Category → New → Example: Vegetable
 
 ![2](../../../static/img/integration/pos/category/category-steps1.png)
 

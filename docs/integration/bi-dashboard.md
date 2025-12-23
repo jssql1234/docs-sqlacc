@@ -5,9 +5,9 @@ slug: /integration/bi-dashboard
 tags: ["SQL Accounting", "BI Dashboard", "Integration"]
 ---
 
-## Prerequisite
-
-Contact your SQL Service Consultant to register your email with SQL for BI Dashboard usage.
+:::info
+To start with BI Dashboard, contact your SQL Service Consultant for the service registration.
+:::
 
 ## First Time Login
 
@@ -19,15 +19,15 @@ Contact your SQL Service Consultant to register your email with SQL for BI Dashb
 
     ![2](../../static/img/integration/bi-dashboard/2.png)
 
-3. Check your mailbox, and click on Sign in to SQL B.I Dashboard
+3. Check your mailbox, and click on "Sign in to SQL B.I Dashboard"
 
     ![3](../../static/img/integration/bi-dashboard/3.png)
 
-4. Enter your registered email & click sign in
+4. Enter your registered email and click sign in
 
     ![4](../../static/img/integration/bi-dashboard/4.png)
 
-5. Enter your name & click save
+5. Next, enter your name and click save
 
     ![5](../../static/img/integration/bi-dashboard/5.png)
 
@@ -43,6 +43,6 @@ Contact your SQL Service Consultant to register your email with SQL for BI Dashb
 
     ![8](../../static/img/integration/bi-dashboard/8.png)
 
-9. Dashboard login successfully
+9. Login to dashboard
 
     ![9](../../static/img/integration/bi-dashboard/9.png)

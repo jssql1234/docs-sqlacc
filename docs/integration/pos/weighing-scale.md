@@ -8,8 +8,8 @@ tags: ["SQL Account", "POS"]
 
 ## Maintain Stock Item
 
-- Item Code must be 7 Character(Cannot more and less)
-- First 2 Characters of Item Code must Fix, mostly use 88 or 99
+- Item Code must be 7 Character (cannot more and less)
+- First 2 Characters of Item Code must be fixed, mostly use 88 or 99
 - Remaining 5 digit is Item Code Running Number
 
     Example:
@@ -30,9 +30,9 @@ You are recommend to create all the item code first
 
 ## IN SQL POS Setting
 
-1. Others Tab
+1. Navigate to "Others" Tab
 
-2. Scale Barcode Set to Price
+2. Set "Scale Barcode" to Price
 
     ![2](../../../static/img/integration/pos/weighing-scale/sql-pos-setting.png)
 
@@ -61,65 +61,63 @@ You are recommend to create all the item code first
 7. Close & Save the Setting
 
     :::caution
-    **Every time you have added NEW with item code, you have to repeat for Step no 2**
+    Whenever you add a new item code, you must repeat from the Step 2.
     :::
 
-    In Stock Item, for the items have fulfil the criteria will auto ticked with Price Revert Quantity and Barcode with Price.
+    In Stock Item, for the items which have fulfill the criteria, Price Revert Quantity and Barcode with Price will be auto ticked.
 
     ![7](../../../static/img/integration/pos/weighing-scale/sql-pos-setting5.png)
 
-## Step to update Price to weighing scale
+## Step to update price to weighing scale
 
-1. Stock Item | Right click on More | Select Export to Scale Machine
+1. Navigate to Stock Item, right click on More and select Export to Scale Machine
 
     ![8](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale.png)
 
-2. Here is the model able to support by SQL POS
+2. The following is the model supported by SQL POS
 
     ![9](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale1.png)
 
-3. Select Model | Tick Assign Export FileName
+3. Select Model and tick Assign Export FileName
 
     - Assign Export FileName = C:\ITUnicode\PLU.TXP
 
     ![10](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale2.png)
 
-4. Click Button Pooling.
+4. Click Button Pooling
 
-    - System will run the program C:\Program Files\RLS100\RLS1000.EXE **(Please make sure RONGTA Pooling program is installed)**
+    - System will run the program `C:\Program Files\RLS100\RLS1000.EXE` **(Please make sure RONGTA Pooling program is installed)**
 
 5. System will auto open RLS1000 Program
 
     ![11](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale3.png)
 
-6. File | FSetting
+6. Next, go to File > FSetting
 
     ![12](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale4.png)
 
-    - Set Exported folder C:\ITUnicode\
-    - Directory of Work : C:\ITUnicode\
+    - Exported folder: `C:\ITUnicode\`
+    - Directory of Work: `C:\ITUnicode\`
 
     ![17](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale5.png)
 
-7. Click on Confirm
+7. Click Confirm
 
 8. Setting for RLS1000
+
+    :::info
+    You can use CMD to ping with the Scale IP address, make sure able to ping successfully first
+    :::
 
     - Department Name = Scale 1
     - Scale Name = Scale 1
     - Scale IP = 192.168.0.x
-
-    :::info
-    You can use CMD to ping with the Scale IP Add, make sure able to ping
-    successfully first
-    :::
-
     - Plu_file = PLU.TXP
 
     ![13](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale6.png)
 
     :::note
-    Above example is 2 weighing scale
+    Example above involves 2 weighing scale
     :::
 
 9. Click Green arrow button to Pooling latest selling price into scale Machine.
@@ -130,22 +128,16 @@ You are recommend to create all the item code first
 
     ![15](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale8.png)
 
-11. Status mention OK mean is connected
+11. Status mention OK mean is connected.
 
     ![16](../../../static/img/integration/pos/weighing-scale/update-price-weighing-scale9.png)
 
-    :::note
-    **After setting for first time, when there is the price to update to weighing scale, you just have to refer to Step 3.1 & 3.4 & 3.9 & 3.10**
-    :::
-
-Now you can test to Scan the barcode in POS, check system able to capture the correct price and Qty?
-
-If everything’s is correct, then will be fine.
+After finish the above, test the Scan the barcode function in POS system, check and confirm if system able to capture the correct price and qty.
 
 :::info
 Testing on weighing scale
 
-- If item code is 8800010, then number 10 represent this item, in weighing scale
+- If item code is 8800010, then number 10 represent this item, in weighing scale.
 Keypad, press 1 & 0, to measure, label will print out automatically.
 - If print out label is empty(weighing scale have the item description), mostly is headline problem, need to refer back to Scale vendor.
 

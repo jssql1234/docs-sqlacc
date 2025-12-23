@@ -35,9 +35,9 @@ For a multi-user scenario, a separated database server is recommended. It will s
 1. Window Firewall
 
    1. In windows, search for **Control Panel**, open it. Next, navigate to **Window Firewall** > **Advanced Settings** > **Inbound Rules**, select **New Rules**.
-   2. Among the options, select **Port**. Click _Next_.
-   3. Select **TCP**, for the **Specific Local Port**, fill in **3050**. Click _Next_ continuosly until you reach the screen to give it a name.
-   4. Name it **Firebird** and click _Finish_.
+   2. Among the options, select **Port**. Click *Next*.
+   3. Select **TCP**, for the **Specific Local Port**, fill in **3050**. Click *Next* continuosly until you reach the screen to give it a name.
+   4. Name it **Firebird** and click *Finish*.
 
 2. Network and Sharing Center
 

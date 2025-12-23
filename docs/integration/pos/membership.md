@@ -22,7 +22,7 @@ tags: ["SQL Account", "POS"]
 
     ![3](../../../static/img/integration/pos/membership/membership-setting2.png)
 
-4. In setting \> pos screen \> pos title command, add \<check voucher\> \& \<member history\>
+4. In setting > pos screen > pos title command, add \<check voucher> & \<member history>
 
     ![4](../../../static/img/integration/pos/membership/membership-setting3.png)
 
@@ -34,7 +34,7 @@ tags: ["SQL Account", "POS"]
 
 ![6](../../../static/img/integration/pos/membership/select-members.png)
 
-1. When payment, point entitled for this bill will show at bottom, if you want to redeem voucher / point, then can also click on the voucher button
+1. When payment, point entitled for this bill will show at bottom, if you want to redeem voucher/point, then can also click on the voucher button
 
     ![7](../../../static/img/integration/pos/membership/select-members1.png)
 
@@ -76,7 +76,7 @@ tags: ["SQL Account", "POS"]
 
     ![14](../../../static/img/integration/pos/membership/check-member-history.png)
 
-2. All point gained / redeemed will be display, you can preview / print
+2. All point gained/redeemed will be display, you can preview/print
 
     ![15](../../../static/img/integration/pos/membership/check-member-history1.png)
 
@@ -86,7 +86,7 @@ tags: ["SQL Account", "POS"]
 
     ![16](../../../static/img/integration/pos/membership/set-birthday-discount.png)
 
-2. Example today is ALI Bday, when Ali purchase thing from you, during payment, system will auto prompt its Ali birthday, and a 20% discount will be entitled
+2. Example today is ALI Birthday, when Ali purchase thing from you, during payment, system will auto prompt its Ali birthday, and a 20% discount will be entitled
 
     ![17](../../../static/img/integration/pos/membership/set-birthday-discount1.png)
 
@@ -101,23 +101,18 @@ tags: ["SQL Account", "POS"]
     ![19](../../../static/img/integration/pos/membership/generate-voucher1.png)
 
     :::tip Example
-    This example will show generate voucher by redeem point, example this customer available point
-    balance is 52,510, if you generate voucher amount is RM 10, system will auto calculate able to
-    generate 5 x RM 10 voucher, if you generate RM 20 voucher, system will auto calculate able to
-    generate 2 x RM 20 voucher based on the available point balance. In this example, I generate RM 10
-    voucher, system auto generated 5 x RM 10 vouchers, you can click on the print icon on right panel,
-    to print the voucher.
+    This example will show generate voucher by redeem point, example this customer available point balance is 52,510, if you generate voucher amount is RM 10, system will auto calculate able to generate 5 x RM 10 voucher, if you generate RM 20 voucher, system will auto calculate able to generate 2 x RM 20 voucher based on the available point balance. In this example, I generate RM 10voucher, system auto generated 5 x RM 10 vouchers, you can click on the print icon on right panel to print the voucher.
     :::
 
     ![20](../../../static/img/integration/pos/membership/generate-voucher2.png)
 
-    So next time when this customer come purchase, during payment, if they provide you the voucher, you can scan / key in the voucher code
+    So next time when this customer come purchase, during payment, if they provide you the voucher, you can scan/key in the voucher code
 
-2. Click on **voucher** , during payment
+2. Click on **voucher**
 
     ![21](../../../static/img/integration/pos/membership/generate-voucher3.png)
 
-3. Scan the voucher code / manual search the voucher number, example customer given 3 vouchers, scan / search all the vouchers, click confirm voucher
+3. Scan the voucher code/manual search the voucher number, example customer given 3 vouchers, scan/search all the vouchers, click confirm voucher
 
     ![22](../../../static/img/integration/pos/membership/generate-voucher4.png)
 
@@ -125,7 +120,7 @@ tags: ["SQL Account", "POS"]
 
     ![23](../../../static/img/integration/pos/membership/generate-voucher5.png)
 
-### Generate Free Voucher?
+### Generate free voucher?
 
 1. Go to stock item, click on more > generate voucher > new
 
@@ -141,7 +136,7 @@ tags: ["SQL Account", "POS"]
 
     ![26](../../../static/img/integration/pos/membership/access-right-generate-voucher1.png)
 
-### Set default all members / selected member has a percentage discount on bill?
+### Set default all members/selected member has a percentage discount on bill
 
 1. In SQL Account, go to stock > maintain stock price tag > create the price tag
 
@@ -155,13 +150,13 @@ tags: ["SQL Account", "POS"]
 
     ![29](../../../static/img/integration/pos/membership/set-member-discount2.png)
 
-### Assign member with price tag?
+### Assign member with price tag
 
 1. In SQL POS, during create new member, you can add tag the customer below which group.
 
     ![30](../../../static/img/integration/pos/membership/assign-member-price-tag.png)
 
-2. Choose this member below to which group
+2. Choose this member below to which group.
 
     ![31](../../../static/img/integration/pos/membership/assign-member-price-tag1.png)
 

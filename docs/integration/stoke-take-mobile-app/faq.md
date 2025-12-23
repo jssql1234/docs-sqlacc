@@ -6,9 +6,7 @@ slug: /stock-take-mobile-app/faq
 tags: ["SQL Account", "Stock","FAQ"]
 ---
 
-## Stock Take
-
-### How to Reset/Start New Batch/Job of Stock Take?
+## How to Reset/Start New Batch/Job of Stock Take?
 
 In SQL Accounting
 

@@ -1,4 +1,5 @@
 ---
+sidebar_position: 6
 title: WooCommerce
 description: A guide on WooCommerce for SQL Account
 slug: /integration/ecommerce/woocommerce
@@ -16,9 +17,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "WooCommerce"]
     ![1](../../../static/img/integration/e-commerce/woo/1.png)
 
     1. Enter **Description**
-
     2. Select **Platform**
-
     3. Click on **Link** Button
 
         ![2](../../../static/img/integration/e-commerce/woo/2.png)
@@ -89,7 +88,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "WooCommerce"]
 
 ## Account Tab
 
- 1. Click on ![39](../../../static/img/integration/banks/cloud-icon.png) - > Woocommerce
+ 1. Click on ![39](../../../static/img/integration/banks/cloud-icon.png) → Woocommerce
 
  2. Click on Account Tab > Double click on your account
 
@@ -109,15 +108,15 @@ tags: ["SQL Account", "Integration", "e-Commerce", "WooCommerce"]
 
  1. Step to download Product list from WooCommerce
 
-     1. Click on “Products” Tab, then click on “All Products”
+     1. Click on "Products" Tab, then click on "All Products"
 
          ![16](../../../static/img/integration/e-commerce/woo/16.png)
 
-     2. Click on the “Export” button
+     2. Click on the "Export" button
 
          ![17](../../../static/img/integration/e-commerce/woo/17.png)
 
-     3. Click “Generate CSV” once the export file has been generated. You will receive a file in .csv format.
+     3. Click "Generate CSV" once the export file has been generated. You will receive a file in .csv format.
 
          ![18](../../../static/img/integration/e-commerce/woo/18.png)
 
@@ -187,7 +186,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "WooCommerce"]
 
 4. Post Order
 
-     1. Click on the status you want to post the order, let us take an example on Completed - > Ticked all > Click on Post
+     1. Click on the status you want to post the order, let us take an example on Completed → Ticked all > Click on Post
 
          ![32](../../../static/img/integration/e-commerce/woo/32.png)
 
@@ -228,7 +227,6 @@ tags: ["SQL Account", "Integration", "e-Commerce", "WooCommerce"]
              ![37](../../../static/img/integration/e-commerce/woo/37.png)
 
          2. Ticked on the record you want to post
-
          3. Click on Post
 
 6. Sales Invoice
@@ -249,7 +247,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "WooCommerce"]
 
          ![41](../../../static/img/integration/e-commerce/woo/41.png)
 
-     2. Tick which orders key you want to post to sales credit note. If post is successful, the verify status should show “Success”. You can see a Sales credit Note has been created in Sales | Credit Note
+     2. Tick which orders key you want to post to sales credit note. If post is successful, the verify status should show "Success". You can see a Sales credit Note has been created in Sales | Credit Note
 
          ![42](../../../static/img/integration/e-commerce/woo/42.png)
 
@@ -260,5 +258,4 @@ tags: ["SQL Account", "Integration", "e-Commerce", "WooCommerce"]
          ![44](../../../static/img/integration/e-commerce/woo/44.png)
 
      4. In the customer credit note, The CN knocks off the outstanding amount of the Invoice.
-
      5. Meaning the invoice has been cancelled off and there is not outstanding payment.

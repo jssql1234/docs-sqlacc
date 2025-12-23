@@ -1,4 +1,5 @@
 ---
+sidebar_position: 5
 title: Tiktok
 description: A guide on Tiktok for SQL Account
 slug: /integration/ecommerce/tiktok
@@ -16,10 +17,8 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
     ![1](../../../static/img/integration/e-commerce/tiktok/1.png)
 
-    1. Enter **Description “Tik Tok”**
-
+    1. Enter **Description "Tik Tok"**
     2. Select **Platform**
-
     3. Click on **Link** Button
 
 3. Select Platform
@@ -38,11 +37,11 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
     ![5](../../../static/img/integration/e-commerce/tiktok/5.png)
 
-    - Once linking Successful, system will be returned status Linking Success Message.
+    - Once linking Successful, system will return status Linking Success Message.
 
 ## Configure E Commerce Setting
 
-1. GL -> Maintain Account
+1. GL → Maintain Account
 
    1. Create TikTok Voucher / Discount Account Under Sales Adjustment
 
@@ -54,24 +53,25 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
        - It is up to company want to create under which category. Some of the Company will create under Cost of Goods Sold.
 
-2. Customer -> Maintain Customer
+2. Customer → Maintain Customer
 
    ![8](../../../static/img/integration/e-commerce/tiktok/8.png)
 
-3. Stock -> Maintain Stock Group
+3. Stock → Maintain Stock Group
 
    Create TikTok Shipping / Transaction / Voucher / Discount Stock Group
 
    1. Create Discount Stock Group
 
        ![9](../../../static/img/integration/e-commerce/tiktok/9.png)
+
    2. Create Voucher Stock Group
 
        ![10](../../../static/img/integration/e-commerce/tiktok/10.png)
 
        - Repeat same step to create for Shipping and Transaction Fees Stock Group
 
-4. Stock -> Stock Item
+4. Stock → Stock Item
 
    1. Create Discount Stock Item
 
@@ -85,19 +85,19 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
 ## Account Tab
 
-1. Click on - > TikTok
+1. Click on → TikTok
 
     ![13](../../../static/img/integration/e-commerce/tiktok/13.png)
 
-2. Click on Account Tab -> Double click on your account
+2. Click on Account Tab → Double click on your account
 
    1. Mapping Code
 
     ![14](../../../static/img/integration/e-commerce/tiktok/14.png)
 
-## Product Tab : Fetch Product
+## Product Tab: Fetch Product
 
- 1. Click on Product Tab -> Click on Fetch Button -> System will return the message when fetching done.
+ 1. Click on Product Tab → Click on Fetch Button → System will return the message when fetching done.
 
      ![15](../../../static/img/integration/e-commerce/tiktok/15.png)
 
@@ -105,7 +105,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
      ![16](../../../static/img/integration/e-commerce/tiktok/16.png)
 
-     If you decide to use the same item code as Tiktok Shop Sku, click on select All records -> press on Post button for the first time so system will remember the settings.
+     If you decide to use the same item code as Tiktok Shop SKU, click on select All records → press on Post button for the first time so system will remember the settings.
 
      ![17](../../../static/img/integration/e-commerce/tiktok/17.png)
 
@@ -113,9 +113,9 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
      ![18](../../../static/img/integration/e-commerce/tiktok/18.png)
 
-     :::note
+    :::note
      Once you post successful, system will keep the ID in Stock Item as Alternative Item
-     :::
+    :::
 
      ![19](../../../static/img/integration/e-commerce/tiktok/19.png)
 
@@ -133,13 +133,13 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
     ![22](../../../static/img/integration/e-commerce/tiktok/22.png)
 
-    :::info
+   :::info
     Each order number will be posted once. You can delete the Invoice if you want to repost.
-    :::
+   :::
 
 3. Fetch Order
 
-   1. Select Date Range -> Click on Refresh Order
+   1. Select Date Range → Click on Refresh Order
 
        ![23](../../../static/img/integration/e-commerce/tiktok/23.png)
 
@@ -151,11 +151,11 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
 4. Post Order
 
-     1. Click on the status you want to post the order, let us take an example on Delivered Status -> Ticked all -> Click on Post
+     1. Click on the status you want to post the order, let us take an example on Delivered Status → Ticked all → Click on Post
 
          ![25](../../../static/img/integration/e-commerce/tiktok/25.png)
 
-     2. If you did not tick on any order when do the posting, system will raise a message: You have not selected any order. Would you like to select all? If you would like to post all -> Press Yes
+     2. If you did not tick on any order when do the posting, system will raise a message: You have not selected any order. Would you like to select all? If you would like to post all → Press Yes
 
          ![26](../../../static/img/integration/e-commerce/tiktok/26.png)
 
@@ -205,7 +205,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
 7. Status – Others than Default POST Action
 
-     - Beside the post button, press the black triangle, and select “Post” to post it to sales invoice.
+     - Beside the post button, press the black triangle, and select "Post" to post it to sales invoice.
 
          ![33](../../../static/img/integration/e-commerce/tiktok/33.png)
 
@@ -215,7 +215,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
 1. Step to Download statement from TikTok
 
-     1. Click on Seller Center -> Finance Tab on left menu -> Settled Records -> Export
+     1. Click on Seller Center → Finance Tab on left menu → Settled Records → Export
 
          ![35](../../../static/img/integration/e-commerce/tiktok/35.png)
 
@@ -241,11 +241,9 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
              ![39](../../../static/img/integration/e-commerce/tiktok/39.png)
 
-             :::note
-
+            :::note
              TikTok required you to sync all order before can posting payment due to have to tally with bank recon.
-
-             :::
+            :::
 
      6. Once you check all the order have been posting (without empty Invoice No), click on Post
 
@@ -263,15 +261,15 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
          - System will auto do the knockoff
 
-             :::note
+            :::note
              Same Payment Transaction Date will be posting as 1 Customer Payment.
-             :::
+            :::
 
          ![43](../../../static/img/integration/e-commerce/tiktok/43.png)
 
          ![44](../../../static/img/integration/e-commerce/tiktok/44.png)
 
-     10. If the Order No starts with “ 7 ”, it is an adjustment, SQL System will combine the transactions that start with number “ 7 ” of the same date and post into 1 invoice (description : Tiktok Adjustment) using the SQL Systems current running number.
+     10. If the Order No starts with "7", it is an adjustment, SQL System will combine the transactions that start with number "7" of the same date and post into 1 invoice (description: Tiktok Adjustment) using the SQL Systems current running number.
 
          ![45](../../../static/img/integration/e-commerce/tiktok/45.png)
 
@@ -285,13 +283,12 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
     - It is advisable user to create one Location called Ecommerce, use the stock transfer from location A to Ecommerce, Location B to Ecommerce, in Ecommerce | Shopee | Account | Location set to Ecommerce.
 
-2. Error sending data : (12002) The operation timed out.
+2. Error sending data: (12002) The operation timed out.
 
-    1. User Internet unstable. Please check your internet connection. May try on others wifi or using mobile data.
+    - User Internet unstable. Please check your internet connection. May try on others wifi or using mobile data.
+    - TikTok server down, please try again later.
 
-    2. TikTok server down, please try again later.
-
-3. Fetch Order raise error : E097 : Offset and limit sum 5100 must less than 5000, request id : 2101235d16xxxx
+3. Fetch Order raise error (E097: Offset and limit sum 5100 must less than 5000, request id: 2101235d16xxxx)
 
     ![48](../../../static/img/integration/e-commerce/tiktok/48.png)
 
@@ -307,4 +304,4 @@ tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
 
     ![50](../../../static/img/integration/e-commerce/tiktok/50.png)
 
-    - Error appears after click Fetch. Solution, close your TikTok tab in SQL Account -> re-open it -> click “Fetch” button again
+    - Error appears after click Fetch. Solution, close your TikTok tab in SQL Account → re-open it → click "Fetch" button again

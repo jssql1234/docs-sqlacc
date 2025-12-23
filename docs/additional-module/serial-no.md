@@ -45,7 +45,7 @@ tags: ["SQL Account", "Additional Module"]
 
       ![5](../../static/img/additional-module/serial-no/5.png)
 
-   4. When completed, a dialog with status "_Done_" will pop, click Ok and you will be all set.
+   4. When completed, a dialog with status "*Done*" will pop, click Ok and you will be all set.
 
       ![6](../../static/img/additional-module/serial-no/6.png)
 
@@ -69,7 +69,7 @@ tags: ["SQL Account", "Additional Module"]
 
 3. In **Delivery Order**
 
-   1. Go to **Sales** > **Delivery Order**, and click _Add_
+   1. Go to **Sales** > **Delivery Order**, and click *Add*
 
       ![10](../../static/img/additional-module/serial-no/10.png)
 
@@ -102,9 +102,9 @@ Group Stock
 
    - Enable this right to enforce that the **serial no** matches the **qty**.
    - For example, 2 qty = 2 serial no.
-   - When this right is enabled, _Print Outstanding Serial Numbers_ will yield no result.
+   - When this right is enabled, *Print Outstanding Serial Numbers* will yield no result.
 
 2. Allow Non-Existent Serial No.
 
    - Enable this right to allow **non-existent serial no** for issued serial no.
-   - When this right is enabled, _Print Stock Serial No Conflict_ will yield no result.
+   - When this right is enabled, *Print Stock Serial No Conflict* will yield no result.

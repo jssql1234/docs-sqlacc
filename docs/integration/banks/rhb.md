@@ -17,17 +17,17 @@ tags: ["SQL Account", "Integration", "Bank", "RHB", "Bank Reconciliation"]
 
    ![1](../../../static/img/integration/banks/rhb/1.png)
 
-2. Click `Create Sample Database` -> `OK`.
+2. Click `Create Sample Database` → `OK`.
 
    ![2](../../../static/img/integration/banks/rhb/2.png)
 
 ### Maintain Bank Account in SQL
 
-1. Select `GL menu` - > `Maintain Account`
+1. Select `GL menu` → `Maintain Account`
 
    ![4](../../../static/img/integration/banks/rhb/4.png)
 
-2. Select `CASH AT BANK` -> `New`
+2. Select `CASH AT BANK` → `New`
 
    ![5](../../../static/img/integration/banks/rhb/5.png)
 
@@ -39,7 +39,7 @@ tags: ["SQL Account", "Integration", "Bank", "RHB", "Bank Reconciliation"]
 
 ### Link RHB Reflex Account
 
-1. Select `Banking menu` - > `RHB Reflex`
+1. Select `Banking menu` → `RHB Reflex`
 
    ![7](../../../static/img/integration/banks/rhb/7.png)
 
@@ -47,7 +47,7 @@ tags: ["SQL Account", "Integration", "Bank", "RHB", "Bank Reconciliation"]
 
    ![8](../../../static/img/integration/banks/rhb/8.png)
 
-3. Tick acknowledgement box - > click `Next`
+3. Tick acknowledgement box → click `Next`
 
    ![9](../../../static/img/integration/banks/rhb/9.png)
 
@@ -92,7 +92,7 @@ User is required to unlink RHB Reflex account if:
 
 Steps to unlink:
 
-   1. Select ![39](../../../static/img/integration/banks/cloud-icon.png) -> `RHB Reflex`
+   1. Select ![39](../../../static/img/integration/banks/cloud-icon.png) → `RHB Reflex`
 
       ![36](../../../static/img/integration/banks/rhb/36.png)
 
@@ -104,7 +104,7 @@ Steps to unlink:
 
 ## Bank Balance Inquiry
 
-1. Select `Banking menu` -> `Bank Balance Inquiry`
+1. Select `Banking menu` → `Bank Balance Inquiry`
 
    ![17](../../../static/img/integration/banks/rhb/17.png)
 
@@ -116,7 +116,7 @@ Steps to unlink:
 
 ## Bank Reconciliation
 
-1. Select `GL menu` - > `Bank Reconciliation` -> click `New`
+1. Select `GL menu` → `Bank Reconciliation` → click `New`
 
    ![33](../../../static/img/integration/banks/rhb/33.png)
 
@@ -139,15 +139,17 @@ Steps to unlink:
    C. Click `Match` when both are matched
 
    :::note
+
    - Transaction initiated from SQL is will be matched automatically.
    - RHB bank statement update at 8am daily.
+
    :::
 
 ## Payment
 
 ### Maintain Supplier Details
 
-1. Select `Supplier menu` - > `Maintain Supplier`
+1. Select `Supplier menu` → `Maintain Supplier`
 
    ![19](../../../static/img/integration/banks/rhb/19.png)
 
@@ -159,7 +161,7 @@ Steps to unlink:
 
    ![21](../../../static/img/integration/banks/rhb/21.png)
 
-4. Select `Bank Account` - > click `+`
+4. Select `Bank Account` → click `+`
 
    ![22](../../../static/img/integration/banks/rhb/22.png)
 
@@ -201,15 +203,15 @@ Steps to unlink:
 
 ### RHB 3rd Party Transfer (RHB to RHB)
 
-1. Select `Supplier` -> `Supplier Payment` -> click `New`
+1. Select `Supplier` → `Supplier Payment` → click `New`
 
    ![26](../../../static/img/integration/banks/rhb/26.png)
 
-2. Select Supplier Code : created in Maintain Supplier
+2. Select Supplier Code: created in Maintain Supplier
 
-3. Select Supplier Bank : RHB crediting bank account
+3. Select Supplier Bank: RHB crediting bank account
 
-4. Select Payment By : RHB bank account
+4. Select Payment By: RHB bank account
 
 5. Select Date (Payment date)
 
@@ -236,15 +238,15 @@ Steps to unlink:
 
 ### Payment - IBG
 
-1. Select `Supplier` -> `Supplier Payment` -> click `New`
+1. Select `Supplier` → `Supplier Payment` → click `New`
 
    ![26](../../../static/img/integration/banks/rhb/26.png)
 
-2. Select Supplier Code : created in Maintain Supplier
+2. Select Supplier Code: created in Maintain Supplier
 
-3. Select Supplier Bank : Non RHB crediting bank account
+3. Select Supplier Bank: Non RHB crediting bank account
 
-4. Select Payment By : RHB bank account
+4. Select Payment By: RHB bank account
 
 5. Select IBG payment mode.
 
@@ -272,15 +274,15 @@ Steps to unlink:
 
 ### Payment – Instant Transfer
 
-1. Select `Supplier` -> `Supplier Payment` -> click `New`
+1. Select `Supplier` → `Supplier Payment` → click `New`
 
    ![26](../../../static/img/integration/banks/rhb/26.png)
 
-2. Select Supplier Code : created in Maintain Supplier
+2. Select Supplier Code: created in Maintain Supplier
 
-3. Select Supplier Bank : Non RHB crediting bank account
+3. Select Supplier Bank: Non RHB crediting bank account
 
-4. Select Payment By : RHB bank account
+4. Select Payment By: RHB bank account
 
 5. Select `Instant Transfer` payment mode.
 
@@ -312,15 +314,15 @@ Steps to unlink:
 
 DuitNow transfer via proxy is supported includes IC Number, Business Registration Number & Mobile Number.
 
-1. Select `Supplier` -> `Supplier Payment` -> click `New`
+1. Select `Supplier` → `Supplier Payment` → click `New`
 
    ![26](../../../static/img/integration/banks/rhb/26.png)
 
-2. Select Supplier Code : created in Maintain Supplier
+2. Select Supplier Code: created in Maintain Supplier
 
-3. Select Supplier Bank : DuitNow
+3. Select Supplier Bank: DuitNow
 
-4. Select Payment By : RHB bank account
+4. Select Payment By: RHB bank account
 
 5. Select Date (Payment date)
 
@@ -348,15 +350,15 @@ DuitNow transfer via proxy is supported includes IC Number, Business Registratio
 
 ### Payment – JomPay
 
-1. Select `Supplier` -> `Supplier Payment` -> click `New`
+1. Select `Supplier` → `Supplier Payment` → click `New`
 
    ![26](../../../static/img/integration/banks/rhb/26.png)
 
-2. Select Supplier Code : created in Maintain Supplier
+2. Select Supplier Code: created in Maintain Supplier
 
-3. Select Supplier Bank : JomPAY
+3. Select Supplier Bank: JomPAY
 
-4. Select Payment By : RHB bank account
+4. Select Payment By: RHB bank account
 
 5. Select Date (Payment date)
 
@@ -405,11 +407,11 @@ To perform payment status update, click on the green icon.
 
 ### SQL Accounting Enquiries
 
-Tel : +603 7890 1299 (Sales)
+Tel: +603 7890 1299 (Sales)
 
-Tel : +603 7890 1300 (Support)
+Tel: +603 7890 1300 (Support)
 
-Fax : +603 5886 9913
+Fax: +603 5886 9913
 
 ### RHB Reflex User Linking User Guide
 
