@@ -11,21 +11,23 @@ tags: ["SQL Account", "SQL Account API", "Secret Key"]
 
 > API secret key allow the user/application to access SQL Account API Service in a secured channel.
 
+:::warning[Important Note]
+    Once an `API Secret Key` is generated for a user, that user will no longer be able to login on SQL Account directly. The user will be used solely for `SQL Account API Service`. We recommend to create a new user for the API usage.
+:::
+
 1. In SQL Account, go to `Tools` > `Maintain User...` > `Detail`
 
-2. In the window, click on `More` > `API Secret Key`
+2. Create a new user by clicking `New`, name it "API user"
+
+3. Next, highlight on the new user, click on `More` > `API Secret Key`
 
     ![1](../../../static/img/integration/sql-account-api/setup-configuration/1.png)
 
-3. Click on `Generate API Secret Key`
-
-    :::warning[Important Note]
-    Once an `API Secret Key` is generated for a user, that user will no longer be able to login on SQL Account directly. The user will be used solely for `SQL Account API Service`. We recommend to create a new user for the API usage.
-    :::
+4. Click on `Generate API Secret Key`
 
     ![2](../../../static/img/integration/sql-account-api/setup-configuration/2.png)
 
-4. New `Access key` and `Secret Key` will be generated and shown in the screen. Make sure to copy and save them immediately in a secure location.
+5. New `Access key` and `Secret Key` will be generated and shown in the screen. Make sure to copy and save them immediately in a secure location.
 
     :::info[Tip]
     For security purpose, **API Secret Key** can only be retrieved at the time of generated. If you lose it, you can `revoke` and `generate` a new API Secret Key.
