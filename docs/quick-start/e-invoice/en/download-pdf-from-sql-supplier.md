@@ -1,8 +1,7 @@
 ---
-sidebar_position: 2
 title: Download PDF from SQL supplier
 description: How to download pdf from SQL supplier in SQL Accounting
-slug: /quick-start/e-invoice/how-to-download-pdf-from-sql-supplier
+slug: /quick-start/e-invoice/en/how-to-download-pdf-from-sql-supplier
 tags: ["E Invoice"]
 hide_title: true
 hide_table_of_contents: true

@@ -1,6 +1,4 @@
 ---
-sidebar_position: 1
-title: Table of contents
 hide_title: true
 hide_table_of_contents: true
 slug: /quick-start/gl/cash-book-entry
@@ -10,7 +8,7 @@ form_name: TfmGLCB
 import {TOC} from '@src/components/toc.js';
 
 <TOC
-dataEntryList = {[
+englishList = {[
 {
   "text": "Create Payment Voucher",
   "link": "./create-cash-book-entry-payment-voucher",
@@ -23,13 +21,26 @@ dataEntryList = {[
 },
 {
   "text": "How To Self Billed Via Payment Voucher",
-  "link": "../e-invoice/how-to-self-billed-via-payment-voucher",
+  "link": "../e-invoice/en/how-to-self-billed-via-payment-voucher",
   "videoId": "S27uXKVaD5M"
 },
 {
   "text": "How to Test E Invoice Validation",
-  "link": "../e-invoice/how-to-test-e-invoice-validation",
+  "link": "../e-invoice/en/how-to-test-e-invoice-validation",
   "videoId": "AKLkzWVApLY"
+}
+]}
+
+chineseList = {[
+{
+  "text": "通过付款凭证开具的自开电子发票",
+  "link": "../e-invoice/zh/how-to-self-billed-via-payment-voucher",
+  "videoId": "tA48mmbim4s"
+},
+{
+  "text": "测试电子发票验证",
+  "link": "../e-invoice/zh/how-to-test-e-invoice-validation",
+  "videoId": "G_hrS8JWwDo"
 }
 ]}
 />

@@ -1,6 +1,4 @@
 ---
-sidebar_position: 1
-title: Table of contents
 hide_title: true
 hide_table_of_contents: true
 slug: /quick-start/customer/customer-payment
@@ -10,7 +8,7 @@ form_name: TfmARPM
 import {TOC} from '@src/components/toc.js';
 
 <TOC
-dataEntryList = {[
+englishList = {[
 {
   "text": "Create Customer Payment in Local Currency",
   "link": "./create-customer-payment-in-local-currency",

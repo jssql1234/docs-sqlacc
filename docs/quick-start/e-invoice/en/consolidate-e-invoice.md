@@ -1,8 +1,7 @@
 ---
-sidebar_position: 2
-title: Batch Submit E-Invoice
-description: How to batch submit E-Invoice in SQL Accounting
-slug: /quick-start/e-invoice/how-to-batch-submit-e-invoice
+title: Consolidate E-Invoice
+description: How to Consolidate E-Invoice in SQL Accounting
+slug: /quick-start/e-invoice/en/how-to-consolidate-e-invoice
 tags: ["E Invoice"]
 hide_title: true
 hide_table_of_contents: true
@@ -13,5 +12,5 @@ import '@src/css/sidebar.css';
 import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout
-    videoId="X9cMxTRuNno"
+    videoId="HbXue9dcpQs"
 />

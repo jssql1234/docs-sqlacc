@@ -1,8 +1,6 @@
 ---
-sidebar_position: 1
-title: Activate MyInvois Request
-description: How to activate MyInvois Request in SQL Accounting
-slug: /quick-start/e-invoice/how-to-activate-myinvois-request
+title: 合并电子发票
+slug: /quick-start/e-invoice/zh/how-to-consolidate-e-invoice
 tags: ["E Invoice"]
 hide_title: true
 hide_table_of_contents: true
@@ -13,5 +11,5 @@ import '@src/css/sidebar.css';
 import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout
-    videoId="mDzVrqbXwI0"
+    videoId="edxORZrOjS4"
 />

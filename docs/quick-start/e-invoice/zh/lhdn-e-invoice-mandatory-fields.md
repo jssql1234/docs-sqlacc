@@ -1,8 +1,6 @@
 ---
-sidebar_position: 2
-title: Batch Import E-Invoice
-description: How to batch import E-Invoice in SQL Accounting
-slug: /quick-start/e-invoice/how-to-batch-import-e-invoice
+title: LHDN电子发票必填资料
+slug: /quick-start/e-invoice/zh/lhdn-e-invoice-mandatory-fields
 tags: ["E Invoice"]
 hide_title: true
 hide_table_of_contents: true
@@ -13,5 +11,5 @@ import '@src/css/sidebar.css';
 import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout
-    videoId="K_p98wYEH7c"
+    videoId="OYgWwOi1jmY"
 />

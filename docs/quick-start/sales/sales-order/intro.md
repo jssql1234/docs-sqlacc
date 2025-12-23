@@ -1,6 +1,4 @@
 ---
-sidebar_position: 1
-title: Table of contents
 hide_title: true
 hide_table_of_contents: true
 slug: /quick-start/sales/sales-order
@@ -10,7 +8,7 @@ form_name: TfmSLSO
 import {TOC} from '@src/components/toc.js';
 
 <TOC
-dataEntryList = {[
+englishList = {[
 {
   "text": "Create Sales Order",
   "link": "./create-sales-order",

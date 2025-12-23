@@ -1,8 +1,7 @@
 ---
-sidebar_position: 2
 title: Self Billed Via Payment Voucher
 description: How to self billed via payment voucher in SQL Accounting
-slug: /quick-start/e-invoice/how-to-self-billed-via-payment-voucher
+slug: /quick-start/e-invoice/en/how-to-self-billed-via-payment-voucher
 tags: ["E Invoice"]
 hide_title: true
 hide_table_of_contents: true
