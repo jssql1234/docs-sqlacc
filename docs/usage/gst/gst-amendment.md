@@ -1,15 +1,17 @@
 ---
 sidebar_position: 5
-title: Amendment
-description: Amendment on GST - 03
+title: Adjustment
+description: Adjustment on GST system
 slug: /usage/gst/gst-amendment
 tags: ["SQL Account", "Usage", "GST"]
 ---
 
+## GST - 03 Amendment
+
 For those company who might asked and self report to RMCD for the GST-03 amendment. It could be because of applying wrong tax code or others reasons.
 Therefore, this guide will explain the features to perform amendment on the particular GST-03 and re-submit via TAP website.
 
-## Notification On GST 03 Return Amendment
+### Notification On GST 03 Return Amendment
 
 In accordance with **Regulation 69 of the GST Regulation 2014**, with **effect from 23 August 2016**, rules on return amendments are follows:
 
@@ -18,8 +20,6 @@ In accordance with **Regulation 69 of the GST Regulation 2014**, with **effect f
   3. Amendment after the period stated in PARA 2 above are subject to approval by GST Officer.
   4. Amendment can be made through TAP but are subject to approval by GST Officer.
   5. Return amendments which are not approved by GST Officer is considered invalid and previous return made before the amendment will be accepted.
-
-## GST - 03 Amendment
 
 ### Amendment
 
@@ -114,3 +114,108 @@ In accordance with **Regulation 69 of the GST Regulation 2014**, with **effect f
 2. Right and **unlock** it.
 
    ![des-gst03-amendment-unlock-gst03-for-amendment-1](../../../static/img/usage/gst-and-sst/gst/gst03-amendment-unlock-gst03-for-amendment-1.jpg)
+
+## Adjustment to negative value in GST-03
+
+1. Negative value in 5a5b and 6a6b.
+2. TAP system not accept negative value.
+
+![des-adjustment-to-negative-value-in-gst03-1](../../../static/img/usage/gst-and-sst/gst/adjustment-to-negative-value-in-gst03-1.png)
+
+### Negative in 5a5b
+
+1. **Output Tax (Negative)**
+
+   | GST-03 | Value  |
+   |--------|--------|
+   | 5a     | -2,000 |
+   | 5b     | -120   |
+
+2. **Journal Adjustment:**
+
+   | GL Code  | Tax      | Tax Rate | Local DR | Local CR | Local DR(Tax) | Local CR(Tax) | GST-03               |
+   |----------|----------|----------|----------|----------|---------------|---------------|----------------------|
+   | GST-103  |**AJP-OA**| 6%       | 2,000    |          | 2,120         |               | **6a = 0, 6b = 120** |
+   | GST-103  | **SR**   | 6%       |          | 2,000    |               | 2,120         | **5a = 0, 5b = 0**   |
+
+   ![des-adjustment-to-negative-value-in-gst03-negative-in-5a5b-1](../../../static/img/usage/gst-and-sst/gst/adjustment-to-negative-value-in-gst03-negative-in-5a5b-1.jpg)
+
+### Negative in 6a6b
+
+1. **Input Tax (Negative)**
+
+   | Items | Value  |
+   |-------|--------|
+   | 6a    | -1,000 |
+   | 6b    | -60    |
+
+2. **Journal Adjustment:**
+
+   | GL Code  | Tax      | Tax Rate | Local DR | Local CR | Local DR(Tax) | Local CR(Tax) | GST-03              |
+   |----------|----------|----------|----------|----------|---------------|---------------|---------------------|
+   | GST-103  | **TX**   | **6%**   | 1,000    |          | 1,060         |               | **6a = 0, 6b = 0**  |
+   | GST-103  |**AJS-OA**| **6%**   |          | 1,000    |               | 1,060         | **5a = 0, 5b = 60** |
+
+To set the tax year and longer period adjustment (LPA).
+
+## Set Tax Year
+
+1. Highlight the final taxable period to be set as your **First Tax Year**, eg. final taxable period 01 Dec - 31 Dec 2016.
+
+   ![des-gst-set-tax-year-set-tax-year-1](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-set-tax-year-1.jpg)
+
+2. Double click on the GST Returns highlight in step 1.
+3. System will prompt you a dialog box.
+4. Tick on the **Tax Year** to set a tax year point. See the screenshot below.
+
+   ![des-gst-set-tax-year-set-tax-year-2](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-set-tax-year-2.jpg)
+
+5. Click **Save**.
+
+   ![des-gst-set-tax-year-set-tax-year-3](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-set-tax-year-3.jpg)
+
+6. You can insert a column **Tax Year**, eg. Tax Year point set at 31 Dec 2016.
+
+   ![des-gst-set-tax-year-set-tax-year-4](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-set-tax-year-4.jpg)
+
+   :::note **Note:**
+
+   You can direct set the tax year without delete/purge the GST Returns.
+
+   :::
+
+## Longer Period Adjustment (LPA)
+
+Declaration of annual adjustment amount:
+
+- Regulation 43 – in a GST Return for the second taxable period next following the longer period.
+For example,
+Assumed the tax year set on 31 Dec 2016, LPA should be declared in:
+
+   1) For **monthly taxable period** , the second taxable period is **Feb 2017** and the submission is before or on 31/3/2017
+   2) For **quarterly taxable period**, the second taxable period is **Apr-Jun 2017** and the submission is before or on 31/7/2017
+
+### GST Returns
+
+1. Process the GST Return.For example, process the **Second Taxable Period** (01/02/2017 - 28/02/2017).
+2. LPA will tick automatically.(**if you have set the tax year**)
+
+   ![des-gst-set-tax-year-gst-returns-1](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-gst-returns-1.jpg)
+
+3. Suggested period to be adjusted for LPA.
+
+   ![des-gst-set-tax-year-gst-returns-2](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-gst-returns-2.jpg)
+
+   :::note **Note:**
+
+   User allow to overwrite the suggested period for Longer Period.
+
+   :::
+
+4. You can insert the **LPA Date From** and **LPA Date To** columns to check.
+
+   ![des-gst-set-tax-year-gst-returns-3](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-gst-returns-3.jpg)
+
+### GST Listing - Mixed Supplies
+
+For report printing [refer to this link.](../../usage/gst/gst-report.md#longer-period-adjustment-lpa)
