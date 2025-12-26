@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 4
 title: Gift & Deemed Supply
 description: GST gift and deemed supply
 slug: /usage/gst/gst-gift-and-deemed-supply
