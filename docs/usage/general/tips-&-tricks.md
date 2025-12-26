@@ -10,7 +10,8 @@ tags: ["SQL Account", "Usage"]
 
 There are four methods to integrate or link with SQL Accounting
 
-- [Restful API](https://wiki.sql.com.my/wiki/Restful_API) (Recommended - For two way communication & SQL Public Connect User)
+- [Restful API](../../integration/sql-account-api/setup-configuration.md) (Recommended - For two way communication & SQL Public Connect User)
+- [Clipboard Excel Import](../../miscellaneous/clipboard-import.md) (Easy for non-savvy users)
 - [SQL Acc XLS n MDB Import](../../miscellaneous/acc-xls-mdb-import) - XLS, XLSX, Json & CSV/TXT File (Format 2 - Bar(|),Comma(,),Semi Comma(;),Tilde(~))
 - [SQL XML Import](../../miscellaneous/import-export-guide.md) - XML File
 - [SQL Text Import](../../miscellaneous/text-import.md) - CSV/TXT File (Format 1 - Semi Comma (;) Only)

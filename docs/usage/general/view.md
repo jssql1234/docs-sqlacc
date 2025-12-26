@@ -24,17 +24,17 @@ The Application Theme allows users to change the application's skin/layout to th
 
 ## Show Chart
 
-`View | Show Chart`
+**View > Show Chart**:
 
 This function displays sales and purchase price history data in chart form.
 
-1. Open Sales or Purchase Price History via `Sales | Print Sales Price History` or `Purchase | Print Purchase Price History`.
+1. Open Sales or Purchase Price History via **Sales > Print Sales Price History** or **Purchase > Print Purchase Price History**.
 
 2. Highlight the data in the grids.
 
     ![show-chart-step-2](../../../static/img/usage/general/tips-tricks/show-chart-step2.png)
 
-3. Click on `View | Show Chart`.
+3. Click on **View > Show Chart**.
 
 4. A dialog prompts three chart types (Bar Chart, Line Chart, Pie Chart). See the screenshot below.
 
@@ -44,15 +44,15 @@ Data transform into the chart depends on the data highlighted in the Sales/Purch
 
 ## Sales Price History (Shift+Ctrl+S)
 
-`View | Sales Price History...`
+**View > Sales Price History...**:
 
 This function provides a quick check of an item's sales price history while creating sales, purchase, or stock documents.
 
-`Shift + Ctrl + S`
+Shorcut key: **Shift + Ctrl + S**
 
 1. As long as you have highlighted the item code (e.g., in Maintain Stock Item or while creating sales/purchase documents).
 
-2. Press Shift + Ctrl + S to open the Sales Price History for the item.
+2. Press **Shift + Ctrl + S** to open the Sales Price History for the item.
 
     ![sales-ph-step-2](../../../static/img/usage/general/tips-tricks/sales-ph-step2.png)
 
@@ -72,15 +72,15 @@ Sales Price History is always enabled to quickly view the price history for cust
 
 ## Purchase Price History (Shift+Ctrl+P)
 
-`View | Purchase Price History...`
+**View > Purchase Price History...**
 
 This function provides a quick check of an item's purchase price history while creating sales, purchase, or stock documents.
 
-`Shift + Ctrl + P`
+Shorcut key: **Shift + Ctrl + P**
 
 1. As long as you have highlighted the item code (e.g., in Maintain Stock Item or while creating sales/purchase documents).
 
-2. Press Shift + Ctrl + P to open the Purchase Price History for the item.
+2. Press **Shift + Ctrl + P** to open the Purchase Price History for the item.
 
     ![purchase-ph-step-2](../../../static/img/usage/general/tips-tricks/purchase-ph-step2.png)
 
@@ -100,15 +100,15 @@ Purchase Price History is always enabled to quickly view price history for suppl
 
 ## Available Stock Balance (Ctrl+F11)
 
-`View | Available Stock Balance...`
+**View > Available Stock Balance...**
 
 This function provides a quick check of stock status while creating sales, purchase, or stock documents.
 
-`Ctrl+F11`
+Shorcut key: **Ctrl+F11**
 
 1. As long as you have highlighted the item code (e.g., in Maintain Stock Item or while creating sales/purchase documents).
 
-2. Press Ctrl+F11 - Available Stock Balance....
+2. Press **Ctrl+F11** - Available Stock Balance....
 
     ![stock-bal-step-2](../../../static/img/usage/general/tips-tricks/stock-bal-step2.png)
 
@@ -149,11 +149,11 @@ Available Stock Balance is always enabled to quickly view stock status.
 
 ## Price Tag (Ctrl+T)
 
-`View | Price Tag...`
+**View > Price Tag...**:
 
 This function quickly displays the price tag settings for an item.
 
-`Ctrl + T`
+Shorcut key: **Ctrl + T**
 
 1. As long you are highlight the item code, eg. at Maintain Stock Item or during the sales/purchase documents creation.
 2. Press Ctrl + T to check the Price Tag... for the item.
@@ -164,7 +164,7 @@ Price Tag is always enabled to quickly view price tag information for the item.
 
 ## Stock Item Picture
 
-`View | Stock Item Picture`
+**View > Stock Item Picture**:
 
 This function displays the picture of the selected stock item.
 
@@ -177,13 +177,13 @@ Stock Item Picture always turns-on to quickly view the picture of the stock item
 
 ## Stock Item Search (F9)
 
-`View | Stock Item Search`
+**View > Stock Item Search**:
 
 This function is to quickly search for the items by entering a keyword. It is easy to apply the item found into the sales/purchase/stock documents.
 
 ![stock-item-search](../../../static/img/usage/general/tips-tricks/stock-item-search.png)
 
-`F9`
+Shorcut key: **F9**
 
 1. Enter a keyword to search for items.
 
@@ -205,11 +205,11 @@ Item Search is always enabled to help find items when creating documents.
 
 ## Advance Search (Ctrl+F)
 
-`Edit | Find`
+**Edit > Find**:
 
 This function finds records by selected field(s) and parameters.
 
-`Ctrl + F`
+Shorcut key: **Ctrl + F**
 
 ![advance-search](../../../static/img/usage/general/tips-tricks/advance-search.png)
 

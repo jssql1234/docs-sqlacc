@@ -8,7 +8,9 @@ tags: ["SQL Account", "Usage", "Tools","Currency","Module"]
 
 ## Can I set my first year financial period longer than 12 months (e.g., 18 months)?
 
-Yes. You can set your first financial period for more than 12 months (e.g., from 1st July 2014 to 31st December 2015). --> [learn more here](#set-first-year-account-more-than-12-months)
+Yes. You can set your first financial period for more than 12 months (e.g., from 1st July 2014 to 31st December 2015).
+
+[learn more here](#set-first-year-account-more-than-12-months)
 
 ## DIY Fields FAQ
 
@@ -19,11 +21,11 @@ Yes. You can set your first financial period for more than 12 months (e.g., from
 
 **Yes** , but with the following condition
 
-* Only available in Advance Form Design
+* Only available in **Advance Form Design**
 * The Data will change/run base on the last selected Record in the Detail Grid
 
-1. Open the Form you want to Add (eg Sales | Sales Invoice)
-2. Open the [Advance form](/usage/tools/guide#advance-form-design)
+1. Open the Form you want to Add (eg Sales > Sales Invoice)
+2. Open the **Advance form**
 3. Design as usual except you need to select **DataSource**
 
     ![main-form](../../../static/img/usage/tools/tools-faq/main-form.jpg)
@@ -37,11 +39,11 @@ Yes. You can set your first financial period for more than 12 months (e.g., from
 Steps :
 
 1. Open the Form you want to Add (eg Sales | Sales Delivery Order)
-2. Open The Advance form [Advance form](/usage/tools/guide#advance-form-design)
+2. Open the Advance form
 3. Design as usual for Label
 4. For the UDF you wanted to have option
 
-![componentpalette-datacontrols](../../../static/img/usage/tools/tools-faq/componentpalette-datacontrols.jpg)
+    ![componentpalette-datacontrols](../../../static/img/usage/tools/tools-faq/componentpalette-datacontrols.jpg)
 
 </details>
 
@@ -58,7 +60,7 @@ Steps :
 You are advised to set your financial start period and system conversion date as below.
 :::
 
-### Setup
+**Setup**:
 
 1. Go Tools > Option > General Ledger
 
@@ -150,7 +152,7 @@ Yes, via [Advanced Currency](#advanced-currency-module) Module and [Gain/Loss se
 
 One Cent (0.01$) difference Rounding(Local Currency Fields) for all AR/SL(Subsidiary Ledger) Documents
 
-### Setup
+**Setup**:
 
 1. Go to Tools > Option > Customer
 
@@ -238,40 +240,31 @@ Go to menu : **Tools > Options…** click on **Password Policy**.
 **PV0615/001** is actually (**PVmmyy/001**)
 :::
 
-### Steps and Instructions
+1. Tools > Maintain Document No
+2. Create New or amend from the existing
 
- **Step 1**
+    ![1](../../../static/img/usage/tools/tools-faq/1e.png)
 
-Tools > Maintain Document No
+    :::caution
+    make sure the format is follow the sample attached
+    :::
 
- **Step 2**
+3. Select to reset the running no. either Monthly / Yearly / Never.
 
-Create New or amend from the existing
+    ![2](../../../static/img/usage/tools/tools-faq/2e.png)
 
-![1](../../../static/img/usage/tools/tools-faq/1e.png)
+    ![3](../../../static/img/usage/tools/tools-faq/3e.png)
 
- :::caution
-make sure the format is follow the sample attached
- :::
+    :::info
+    We can also set default running no at for default payment method
+    :::
 
- **Step 3**
+4. Go to tools > Maintain Payment Method
 
-![2](../../../static/img/usage/tools/tools-faq/2e.png)
+    ![4](../../../static/img/usage/tools/tools-faq/4e.png)
 
-![3](../../../static/img/usage/tools/tools-faq/3e.png)
+    ![5](../../../static/img/usage/tools/tools-faq/5e.png)
 
-:::info
-We can also set default running no at for default payment method
-:::
-
- **Step 4**
-
-Go to tools > Maintain Payment Method
-
-![4](../../../static/img/usage/tools/tools-faq/4e.png)
-
-![5](../../../static/img/usage/tools/tools-faq/5e.png)
-
-:::info note
-vice versa for Official Receipt
-:::
+    :::info note
+    vice versa for Official Receipt
+    :::

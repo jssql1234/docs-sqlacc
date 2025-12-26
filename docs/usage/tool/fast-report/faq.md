@@ -54,13 +54,13 @@ File -> Page Setting ->
 
 4. Expression value > 10
 
-   ![50](../../../../static/img/usage/tools/fast-report-faq/50.png)
+    ![50](../../../../static/img/usage/tools/fast-report-faq/50.png)
 
 5. Click on Font
 
-   Can set for Font Type, Font Style, Size, Color or Effects
+    Can set for Font Type, Font Style, Size, Color or Effects
 
-   ![51](../../../../static/img/usage/tools/fast-report-faq/51.png)
+    ![51](../../../../static/img/usage/tools/fast-report-faq/51.png)
 
 6. Press **OK**
 
@@ -84,11 +84,11 @@ In Memo properties :
 
 Hyperlink Expression added in the Data Field Name
 
-  ![54](../../../../static/img/usage/tools/fast-report-faq/54.png)
+![54](../../../../static/img/usage/tools/fast-report-faq/54.png)
 
 Result :
 
-  ![55](../../../../static/img/usage/tools/fast-report-faq/55.png)
+![55](../../../../static/img/usage/tools/fast-report-faq/55.png)
 
 ## 9. How to print Payslip to show AL or MC only ?
 
@@ -96,15 +96,17 @@ Result :
 
 2. Right click on **Leave MasterData Band**
 
-   ![56](../../../../static/img/usage/tools/fast-report-faq/56.png)
+    ![56](../../../../static/img/usage/tools/fast-report-faq/56.png)
 
 3. Click on Filter button
 
 4. Enter the expression :
 
-         ```pascal
-     (<Leave."LeaveType"> ='AL') OR (<Leave."LeaveType"> ='MC')
-         ```
+    ```pascal
+
+    (<Leave."LeaveType"> ='AL') OR (<Leave."LeaveType"> ='MC')
+
+    ```
 
 5. Press OK
 
@@ -114,53 +116,59 @@ Result :
 
 ## 10. How to get Net Unit Price ?
 
- 1. Click on **Memo Text**
+1. Click on **Memo Text**
 
- 2. Place on **Document Detail Band**
+2. Place on **Document Detail Band**
 
- 3. Drag data field from right to left box :
+3. Drag data field from right to left box :
 
             ```pascal
-     [<Document_Detail."Amount"> / <Document_Detail."Qty">]
-             ```
 
- 4. Press OK
+    [<Document_Detail."Amount"> / <Document_Detail."Qty">]
 
- 5. Adjust the position
+    ```
 
- 6. Preview and see the result
+4. Press OK
+
+5. Adjust the position
+
+6. Preview and see the result
 
     ![58](../../../../static/img/usage/tools/fast-report-faq/58.png)
 
 ## 11. How to do if UOM = UNIT, Qty display without Decimal Point, else with 2 Decimal Point ?
 
- 1. Click On Memo Text
+1. Click On Memo Text
 
- 2. Copy the below syntax and Paste into Memo:
+2. Copy the below syntax and Paste into Memo:
 
             ```pascal
-     [IIF(<Document_Detail."UOM"> = 'UNIT'>,
-     FormatFloat('#,0;-#,0 ', <Document_Detail."Qty">) ,
-     FormatFloat('#,0.00;-#,0.00 ', <Document_Detail."Qty">))]
-            ```
+
+    [IIF(<Document_Detail."UOM"> = 'UNIT'>,
+    FormatFloat('#,0;-#,0 ', <Document_Detail."Qty">) ,
+    FormatFloat('#,0.00;-#,0.00 ', <Document_Detail."Qty">))]
+
+    ```
 
     ![59](../../../../static/img/usage/tools/fast-report-faq/59.png)
 
- 3. Press **OK**
+3. Press **OK**
 
- 4. Result After Preview :
+4. Result After Preview :
 
     ![60](../../../../static/img/usage/tools/fast-report-faq/60.png)
 
 ## 12. How to Get Supplier Bank in Payment Voucher?
 
- 1. Click on Memo
+1. Click on Memo
 
- 2. Paste this syntax inside Memo
+2. Paste this syntax inside Memo
 
             ```pascal
-     [<GetbankName(pl_SUPPLIERBANKACC."Bank">)]
-            ```
+
+    [<GetbankName(pl_SUPPLIERBANKACC."Bank">)]
+
+    ```
 
     ![61](../../../../static/img/usage/tools/fast-report-faq/61.png)
 
@@ -182,7 +190,7 @@ After :
 
 ![stacked-content-when-preview](../../../../static/img/usage/tools/fast-report-faq/stacked-content-when-preview.jpg)
 
- Try Untick the Option **Shift** by right click the Memo
+Try Untick the Option **Shift** by right click the Memo
 
 ![right-click-untick-shift](../../../../static/img/usage/tools/fast-report-faq/right-click-untick-shift.jpg)
 
@@ -190,17 +198,17 @@ After :
 
 ![rename-memo](../../../../static/img/usage/tools/fast-report-faq/rename-memo.jpg)
 
-01. Click the Red A Icon.
-02. Click on the place to be print/shown
-03. At the **Object Inspector**, look for **Name** & change the Name as you like (Only Alphanumeric & no spacing)
+1. Click the Red A Icon.
+2. Click on the place to be print/shown
+3. At the **Object Inspector**, look for **Name** & change the Name as you like (Only Alphanumeric & no spacing)
 
 ## 17. How to draw line for whole report?
 
 ![draw-line](../../../../static/img/usage/tools/fast-report-faq/draw-line.jpg)
 
-01. Click an empty place of outer report.
-02. At the **Object Inspector**, look for Frame & click the + sign
-03. Under the **Frame**, look for **Typ** & set to True for ftLeft, ftRight, ftTop & ftBottom.
+1. Click an empty place of outer report.
+2. At the **Object Inspector**, look for Frame & click the + sign
+3. Under the **Frame**, look for **Typ** & set to True for ftLeft, ftRight, ftTop & ftBottom.
 
 ![draw-line-output](../../../../static/img/usage/tools/fast-report-faq/draw-line-output.jpg)
 
@@ -276,7 +284,7 @@ Make sure the **Paper Margin** for Top, Bottom, Left & Right not set to 0
 
             ```sql
         [FormatFloat(<Option."StockQuantityDisplayFormat">,
-        IIF(Trim(<AdjRound."LocalAmount">)<>'0', 
+        IIF(Trim(<AdjRound."LocalAmount">)<>'0',
               GetTotal('Qty')-1,
               GetTotal('Qty'))
         )]
@@ -286,14 +294,14 @@ Make sure the **Paper Margin** for Top, Bottom, Left & Right not set to 0
 
 ![print-2page-in-a4](../../../../static/img/usage/tools/fast-report-faq/print-2page-in-a4.jpg)
 
-01. Click Margin Icon
-02. Adjust the **Height** to fit in 1 page
-03. Select **Apply to all pages**
-04. Click Ok
-05. Set the **Zoom** to 100% and/or Page Within
-06. Click Print Icon
-07. Set **Print Mode** to Scale & **Print on Sheet** to A4
-08. Click Ok to print
+1. Click Margin Icon
+2. Adjust the **Height** to fit in 1 page
+3. Select **Apply to all pages**
+4. Click Ok
+5. Set the **Zoom** to 100% and/or Page Within
+6. Click Print Icon
+7. Set **Print Mode** to Scale & **Print on Sheet** to A4
+8. Click Ok to print
 
 ## 23. How to Load Notes/More Description to TfrRichView using script?
 
@@ -302,7 +310,7 @@ Just add below script on the TfrRichView OnBeforePrint
     ```sql
     procedure Rich1OnBeforePrint(Sender: TfrxComponent);
     var slOutput : TStringList;
-        M: TMemoryStream;    
+        M: TMemoryStream;
     begin
       slOutput := TStringList.Create;
       M := TMemoryStream.Create;
@@ -310,10 +318,10 @@ Just add below script on the TfrRichView OnBeforePrint
         slOutput.Text := <plST_Item."Note">; //The Note/More Description field
         slOutput.SaveToStream(M);
         M.Position := 0;
-        Rich1.RichEdit.Lines.LoadFromStream(M); //eg The TfrRichView name is Rich1 
+        Rich1.RichEdit.Lines.LoadFromStream(M); //eg The TfrRichView name is Rich1
       finally
         slOutput.Free;
-        M.Free;  
+        M.Free;
       end;
     end;
     ```
@@ -326,7 +334,7 @@ Try use **Export to Excel Table (XML)** option & untick the Option **WYSIWYG**
 
 ### How if data is Zero(0) and I wanted to be printed as - and some space on the back?
 
-A  : Just Enter as Follow code:-
+A : Just Enter as Follow code:-
 
     ```pascal
     [FormatFloat(',0.00;-,0.00;-   ',<Main."Amount">)]
@@ -334,7 +342,7 @@ A  : Just Enter as Follow code:-
 
 ### How to set a given string as this 123456121234 to show as 123456-12-1234?
 
-A  : Just Enter as Follow code:-
+A : Just Enter as Follow code:-
 
     ```pascal
     [FormatMaskText('000000-00-0000;0;',<Employee."NewIC">)]
@@ -342,7 +350,7 @@ A  : Just Enter as Follow code:-
 
 ### How to set displayformat follow the option for Grand Total?
 
-A  : Just Enter as Follow code:-
+A : Just Enter as Follow code:-
 
     ```pascal
     [FormatFloat(<Option."StockQuantityDisplayFormat">, SUM(<Main."TotalQty">,MasterData1))]
@@ -356,7 +364,7 @@ OR
 
 ### How to set displayformat BlankWhenZero or Hide Zeros if using FormatFloat function?
 
-A  : Just set the display format at Tools | Options | Misc to
+A : Just set the display format at Tools | Options | Misc to
 
     ```pascal
     #,0.00;-#,0.00; ;
@@ -364,11 +372,11 @@ A  : Just set the display format at Tools | Options | Misc to
 
 OR
 
-A  : Just Enter as Follow code :-
+A : Just Enter as Follow code :-
 
     ```pascal
-    [IIF(SimpleRoundTo(<Document_Detail."Qty">*<Document_Detail."UnitPrice">,-2) <> 0, 
-        FormatFloat(<Option."AccountingValueDisplayFormat">, 
+    [IIF(SimpleRoundTo(<Document_Detail."Qty">*<Document_Detail."UnitPrice">,-2) <> 0,
+        FormatFloat(<Option."AccountingValueDisplayFormat">,
         SimpleRoundTo(<Document_Detail."Qty">*<Document_Detail."UnitPrice">,-2)), '')]
     ```
 
@@ -421,8 +429,8 @@ Use Line will result in
     3
     ```
 
-01. Select **System Text**
-02. Enter as **Line** in the Text field
+1. Select **System Text**
+2. Enter as **Line** in the Text field
 
 ## 27. Can I do a running Total for each footer?
 
@@ -440,10 +448,10 @@ It can't batch Printing (i.e. will keep increasing)
 
 For example,
 
-| Items   | Qty | Unit Price | Amount |
-|---------|-----|------------|--------|
-| RM-001  | 20  | 100        | 2000   |
-| RM-002  | 40  | 200        | 8000   |
+| Items  | Qty | Unit Price | Amount |
+| ------ | --- | ---------- | ------ |
+| RM-001 | 20  | 100        | 2000   |
+| RM-002 | 40  | 200        | 8000   |
 
 Expected result:
 
@@ -489,7 +497,7 @@ This is because default Font is Tahoma is not support Unicode Font
 
 ## 31. How to Maintain the QR Code Size with large Data?
 
-:::note  NOTE: It might be unable to scan if size too small & data too large
+:::note NOTE: It might be unable to scan if size too small & data too large
 :::
 
 ![untick-auto-size](../../../../static/img/usage/tools/fast-report-faq/untick-auto-size.jpg)
@@ -543,13 +551,15 @@ Only Available in Version 852 & above
 
 - Just add the script on procedure GroupHeader2OnBeforePrint
 
-         ```sql
+           ```sql
+
     procedure GroupHeader2OnBeforePrint(Sender: TfrxComponent);
     begin
     ...
-      Memo69.Text := <Main."DocNo">; //Add your script
+    Memo69.Text := <Main."DocNo">; //Add your script
     end;
-         ```
+
+    ```
 
 ## 35. How to set A5 size to print on A4 paper?
 
@@ -585,32 +595,32 @@ Height
 
 1. Preview the Report format, Click on blue color link and enter into Report Design.
 
-   ![2](../../../../static/img/usage/tools/fast-report-faq/2.png)
+    ![2](../../../../static/img/usage/tools/fast-report-faq/2.png)
 
 2. Check GST Summary using which Pipeline | This Report using plSQL_7.
 
-   ![3](../../../../static/img/usage/tools/fast-report-faq/3.png)
+    ![3](../../../../static/img/usage/tools/fast-report-faq/3.png)
 
 3. Click on Calc Tab.
 
-   ![4](../../../../static/img/usage/tools/fast-report-faq/4.png)
+    ![4](../../../../static/img/usage/tools/fast-report-faq/4.png)
 
 4. Click on Menu View | Select Module
 
-   ![5](../../../../static/img/usage/tools/fast-report-faq/5.png)
+    ![5](../../../../static/img/usage/tools/fast-report-faq/5.png)
 
 5. Click on Events | Click on Main:plSQL_0 | Look for SQL_7(Refer Step 2 to see which pipeline) | Insert TaxRate
 
-   ![6](../../../../static/img/usage/tools/fast-report-faq/6.png)
+    ![6](../../../../static/img/usage/tools/fast-report-faq/6.png)
 
-   Query:
+    Query:
 
-            ```sql
-        SQL_7 := 'SELECT DocKey, Tax, TaxRate, Sum(LocalAmount) LocalAmount, Sum(Qty) Qty, Sum(LocalTaxAmt) localTaxAmt, Description '+
-            'FROM Document_Detail ' +
-            'Where Tax &lt;> ''''' +
-            'GROUP BY Dockey, Tax, TaxRate';
-            ```
+             ```sql
+         SQL_7 := 'SELECT DocKey, Tax, TaxRate, Sum(LocalAmount) LocalAmount, Sum(Qty) Qty, Sum(LocalTaxAmt) localTaxAmt, Description '+
+             'FROM Document_Detail ' +
+             'Where Tax &lt;> ''''' +
+             'GROUP BY Dockey, Tax, TaxRate';
+             ```
 
 6. Click on Event Handler | Select Procedure ReportBeforePrint | Look for Pipeline SQL_7 | Insert TaxRate
 
@@ -628,23 +638,23 @@ Height
 
 8. Click on VarTax | Right Click | Select Calculation
 
-   ![9](../../../../static/img/usage/tools/fast-report-faq/9.png)
+    ![9](../../../../static/img/usage/tools/fast-report-faq/9.png)
 
 9. Amend the Query | Press OK
 
-   - Before Amend:
+    - Before Amend:
 
         ![10](../../../../static/img/usage/tools/fast-report-faq/10.png)
 
-   - After Amend:
+    - After Amend:
 
         ![11](../../../../static/img/usage/tools/fast-report-faq/11.png)
 
-   Query:
+    Query:
 
-        ```pascal
-        Value := plsql_7.getfieldvalue('Tax') + ' @ ' + plsql_7.getfieldvalue('TaxRate');
-        ```
+         ```pascal
+         Value := plsql_7.getfieldvalue('Tax') + ' @ ' + plsql_7.getfieldvalue('TaxRate');
+         ```
 
 10. File | Save
 

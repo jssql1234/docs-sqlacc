@@ -149,7 +149,7 @@ tags: ["SQL Account", "Usage", "Tools"]
       2. Place it on the Report Page
 
       3. Enter Text : Email
- 
+
             ![17](../../../../static/img/usage/tools/fastReport-basicGuide/17.png)
 
       4. Repeat Steps i & ii
@@ -409,7 +409,7 @@ There are 2 ways to Get the data directly from the Database
       //Get Shelf From ST_Item
       if Trim(<Document_Detail."ItemCode">) <> '' then
         V := CacheQuery_GetValue(pST_Item, [<Document_Detail."ItemCode">], 'Shelf');
-        
+
       if not VarIsNull(V) then
         Memo18.Text := V else
         Memo18.Text := '';
@@ -458,7 +458,7 @@ Below is Example are doing following actions
       V := Null;
       //Get RefCost*Qty
       if Trim(<Document_Detail."ItemCode">) <> '' then
-        V := CacheQuery_GetValue(pST_Item_UOM, [<Document_Detail."ItemCode">, <Document_Detail."UOM">], 'RefCost');        
+        V := CacheQuery_GetValue(pST_Item_UOM, [<Document_Detail."ItemCode">, <Document_Detail."UOM">], 'RefCost');
 
       if not VarIsNull(V) then
         V := V * <Document_Detail."Qty"> else
@@ -1328,58 +1328,58 @@ end;
 
   E-Mail Client
 
-  - Pros
+- Pros
 
-    - User still can change the E-Mail address, Subject & body (E-Mail Content) before Sent
-    - Send E-Mail will keep in the Client E-Mail
-    - Support HTML format
-    - Can Attach more then 1 format
-    - Can use without E-Mail Script
+  - User still can change the E-Mail address, Subject & body (E-Mail Content) before Sent
+  - Send E-Mail will keep in the Client E-Mail
+  - Support HTML format
+  - Can Attach more then 1 format
+  - Can use without E-Mail Script
 
-  - Cons
+- Cons
 
-    - Not easy to setup
-    - Only For Single Document E-Mail
-    - Attachment only Support pdf, Excel & HTML format
+  - Not easy to setup
+  - Only For Single Document E-Mail
+  - Attachment only Support pdf, Excel & HTML format
 
   E-Mail Client (Batch)
 
-  - Pros
-    - Can use for Batch & Single Document E-Mail
-    - Send E-Mail will keep in the Client E-Mail
+- Pros
+  - Can use for Batch & Single Document E-Mail
+  - Send E-Mail will keep in the Client E-Mail
 
-  - Cons
+- Cons
 
-    - Not easy to setup
-    - Only support pdf attachment
-    - E-Mail Content only support plain text
-    - User can't change the E-Mail address, Subject & body (E-Mail Content) before Sent
-    - Must load the E-Mail Script
+  - Not easy to setup
+  - Only support pdf attachment
+  - E-Mail Content only support plain text
+  - User can't change the E-Mail address, Subject & body (E-Mail Content) before Sent
+  - Must load the E-Mail Script
 
   E-Mail (Native)
 
-  - Pros
+- Pros
 
-    - Easy to Setup
-    - Support many attachment format
-    - User still can change the E-Mail address, Subject & body (E-Mail Content) before Sent
-    - Can use without E-Mail Script
+  - Easy to Setup
+  - Support many attachment format
+  - User still can change the E-Mail address, Subject & body (E-Mail Content) before Sent
+  - Can use without E-Mail Script
 
-  - Cons
+- Cons
 
-    - No record is keeped for Sended E-Mail
-    - Only For Single Document E-Mail
-    - E-Mail Content only support plain text
-    - Only support Single Attachment
+  - No record is keeped for Sended E-Mail
+  - Only For Single Document E-Mail
+  - E-Mail Content only support plain text
+  - Only support Single Attachment
 
-  ### Requirements
+### Requirements
 
-  - Fast Report
-  - Client E-Mail (eg Mozilla Thunderbird-Recommended) for E-Mail Client & E-Mail Client (Batch) Only
-  - An E-Mail Account (eg GMail)
-  - SQL Accounting Version 731 & above
+- Fast Report
+- Client E-Mail (eg Mozilla Thunderbird-Recommended) for E-Mail Client & E-Mail Client (Batch) Only
+- An E-Mail Account (eg GMail)
+- SQL Accounting Version 731 & above
 
-  ### Setting
+### Setting
 
   Below is example using Sales Invoice
 
@@ -1648,8 +1648,8 @@ end;
 
     ![batch-email-insert-code](../../../../static/img/usage/tools/fastReport-basicGuide/batch-email-insert-code.jpg)
 
-  3. Scroll down look for procedure SetUp
-  4. Copy below script & paste it between the begin & end; in procedure SetUp
+  1. Scroll down look for procedure SetUp
+  2. Copy below script & paste it between the begin & end; in procedure SetUp
 
       ```pascal
       SQL := 'SELECT B.Description As ReportName, B.Description2 As Subject, B.Description3 As Body, '+
@@ -1662,22 +1662,22 @@ end;
         .GetDBData(SQL);
       ```
 
-  5. Click File | Save As... to save the file (eg Sales Invoice 7 (GST 2)-Email)
-  6. Click File | Exit to exit the report design
-  7. Click Design again in the report designer for the file just save on Steps 5 (eg Sales Invoice 7 (GST 2)-Email)
-  8. Click the Code Tab
-  9. Remove the // at the First line of the Script
-  10. Click File | Save to save the file
-  11. Click File | Exit to exit the report design
+  3. Click File | Save As... to save the file (eg Sales Invoice 7 (GST 2)-Email)
+  4. Click File | Exit to exit the report design
+  5. Click Design again in the report designer for the file just save on Steps 5 (eg Sales Invoice 7 (GST 2)-Email)
+  6. Click the Code Tab
+  7. Remove the // at the First line of the Script
+  8. Click File | Save to save the file
+  9. Click File | Exit to exit the report design
 
-  ### Quotation
+### Quotation
 
   <details>
     <summary>Quotation - click to expand</summary>
 
   **Menu: Sales | Quotation...**
 
-  - SQL Accounting can E Mail by different Subject & E Mail Content by report name
+- SQL Accounting can E Mail by different Subject & E Mail Content by report name
 
   ![batch-email-paste-quotation](../../../../static/img/usage/tools/fastReport-basicGuide/batch-email-paste-quotation.jpg)
 
@@ -1695,8 +1695,8 @@ end;
   1. Create New Quotation
   2. Copy below Sample E-Mail Template
 
-  <details>
-    <summary>Sample E-Mail Template - click to expand</summary>
+      <details>
+        <summary>Sample E-Mail Template - click to expand</summary>
 
       ```pascal
       <?xml version="1.0" standalone="yes"?>
@@ -1812,12 +1812,12 @@ end;
       </DATAPACKET>
       ```
 
-    </details>
+      </details>
 
-3. Right Click at the empty space below the Browse button
-4. Select Paste Quotation
-5. Set the Quot No to EMAIL
-6. Click Save after done change the E-Mail Subject/Content/Body & other fields
+  3. Right Click at the empty space below the Browse button
+  4. Select Paste Quotation
+  5. Set the Quot No to EMAIL
+  6. Click Save after done change the E-Mail Subject/Content/Body & other fields
 
 </details>
 
@@ -1857,17 +1857,17 @@ Version 1.2021.196.166 & above
 
 ![new-employee-batch-email](../../../../static/img/usage/tools/fastReport-basicGuide/new-employee-batch-email.jpg)
 
-| Section Name      | Description                                             |
-|-------------------|---------------------------------------------------------|
-| [CC]              | CC E-Mail Address                                       |
-| [BCC]             | BCC E-Mail Address                                      |
-| [PDFFileName]     | PDF FileName                                            |
-| [Subject]         | E-Mail Subject                                          |
-| [Body]            | E-Mail Content/Body                                     |
-| [GlobalPassword]  | Global PDF Password                                     |
-| [PrivatePassword] | For Each Employee Private/Individual PDF Password        |
-| EmployeeCode=Password | Example: For employee code `0004` with password `test 123` → `0004="test 123"` |
-| [UseName2]        | To use Employee Name 2 as password. Available in Version **1.2021.206.174 & above**. `1 = Enable`, `0 = Disable` |
+| Section Name            | Description                                             |
+|-------------------------|---------------------------------------------------------|
+| [CC]                    | CC E-Mail Address                                       |
+| [BCC]                   | BCC E-Mail Address                                      |
+| [PDFFileName]           | PDF FileName                                            |
+| [Subject]               | E-Mail Subject                                          |
+| [Body]                  | E-Mail Content/Body                                     |
+| [GlobalPassword]        | Global PDF Password                                     |
+| [PrivatePassword]       | For Each Employee Private/Individual PDF Password        |
+| [EmployeeCode=Password] | Example: For employee code `0004` with password `test 123` → `0004="test 123"` |
+| [UseName2]              | To use Employee Name 2 as password. Available in Version **1.2021.206.174 & above**. `1 = Enable`, `0 = Disable` |
 
 :::warning
 or Version 1.2021.196.166 & above

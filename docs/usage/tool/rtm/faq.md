@@ -51,13 +51,9 @@ Just Enter as Follow code:-
 
 ```vb
 Procedure DBTxtDocNoOnGetText(var Text: String);
-
 begin
-
   Delete(Text, 1, 3);
-
   Text := Text;
-
 end;
 ```
 
@@ -71,15 +67,11 @@ Just Enter as Follow code:-
     <summary>Code</summary>
 
 ```pascal
-        Procedure DBTxtDocNoOnGetText(var Text: String);
-
-        begin
-
+    Procedure DBTxtDocNoOnGetText(var Text: String);
+    begin
         Delete(Text, 3, 1);
-
         Text := Text;
-
-        end;
+    end;
 ```
 
 </details>
@@ -99,11 +91,8 @@ Just Enter as Follow code in the DisplayFormat:-
 
 ```pascal
 Procedure DBTxtDocNoOnGetText(var Text: String);
-
 begin
-
   Text := SubStrOfDelimitedStr(Text, 0, 1, '-');
-
 end;
 ```
 
@@ -118,11 +107,8 @@ end;
 
 ```pascal
 Procedure DBTxtDocNoOnGetText(var Text: String);
-
 begin
-
   Text := SubStrOfDelimitedStr(Text, 1, 1, '-');
-
 end;
 ```
 
@@ -141,13 +127,9 @@ procedure DetailBeforePrint;
 var d, s : string;
 
 begin
-
   s := Option.GetFieldValue('AccountingValueDisplayFormat');
-
   d := ValueOfSemiColonStr(s, 1)+';'+ ValueOfSemiColonStr(s, 0);
-
   DBTxtC4.DisplayFormat := d;
-
 end;
 ```
 
@@ -162,13 +144,9 @@ Below is Example :
 
 ```pascal
 procedure DBTxtTaxOnGetText(var Text:String);
-
 begin
-
   if Trim(plSQL_1.GetFieldValue('TaxAmt')) = '' then
-
     Text := '0.00' ;
-
 end;
 ```
 
@@ -185,11 +163,8 @@ procedure VarSumDROnCalc(var Value : Variant);
 var V : string;
 
 begin
-
   V := FormatFloat(Option.GetFieldValue('AccountingValueDisplayFormat'), DBCalcSCR.Value);
-
   Value := Option.GetFieldValue('LocalCurrencySymbol') + ' ' + V;
-
 end;
 ```
 
@@ -206,13 +181,9 @@ procedure Variable1OnCalc(var Value : Variant);
 var lDT : Variant;
 
 begin
-
   //Example deduct 1.5 hrs
-
   lDT := CurrentDateTime-0.0625; //(1.5/24)
-
-  Value := FormatDateTime('dd/MM/yyyy hh:mm AM/PM', lDT);
-
+  Value := FormatDateTime('dd/MM/yyyy hh:mm AM/PM', lDT)
 end;
 ```
 

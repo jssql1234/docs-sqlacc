@@ -76,7 +76,7 @@ I have selected "Group by Document No" in Sales Profit and Loss by Document. How
 
 ![delete-layout-2](../../../static/img/usage/general/grid-layout/reset-layout/delete-layout-2.png)
 
-If your screen looks like the one above , select the **layout | press DELETE | SAVE**
+If your screen looks like the one above , select the **layout > press DELETE > SAVE**
 
 ## Save and Manage Layout
 
@@ -86,7 +86,7 @@ If your screen looks like the one above , select the **layout | press DELETE | S
 
     ![13](../../../static/img/usage/general/grid-layout/save-manage-layout/call-out-hidden-field.png)
 
-2. **Right-click on the grid** (for example, right-click the “Description” column) and select **Grid Layout | Save Layout**.
+2. **Right-click on the grid** (for example, right-click the “Description” column) and select **Grid Layout > Save Layout**.
 
     ![save-layout-1](../../../static/img/usage/general/grid-layout/save-manage-layout/save-layout-1.png)
 
@@ -96,7 +96,7 @@ If your screen looks like the one above , select the **layout | press DELETE | S
 
 ### How to assign this layout to others users?
 
-1. After saving your layout, **right-click on the grid** (for example, right-click the “Description” column) and select **Grid Layout | Manage Layout**.
+1. After saving your layout, **right-click on the grid** (for example, right-click the “Description” column) and select **Grid Layout > Manage Layout**.
 
     ![manage-layout](../../../static/img/usage/general/grid-layout/save-manage-layout/manage-layout.png)
 
@@ -118,7 +118,7 @@ If your screen looks like the one above , select the **layout | press DELETE | S
 
 ### How to disable users access right to go field chooser and customize layout ?
 
-1. Go **Tools | Maintain User**
+1. Go **Tools > Maintain User**
 
     ![access-control-1](../../../static/img/usage/general/grid-layout/save-manage-layout/access-control-1.png)
 
@@ -126,7 +126,7 @@ If your screen looks like the one above , select the **layout | press DELETE | S
 
     ![access-control-2](../../../static/img/usage/general/grid-layout/save-manage-layout/access-control-2.png)
 
-3. Click on **More | Access Control**
+3. Click on **More > Access Control**
 
     ![access-control-3](../../../static/img/usage/general/grid-layout/save-manage-layout/access-control-3.png)
 

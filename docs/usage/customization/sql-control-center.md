@@ -1,7 +1,7 @@
 ---
 title: SQL Control Center
 description: Customisations in SQL Control Center
-slug: /usage/customisation/sqlControlCenter
+slug: /usage/customisation/control-center
 tags: ["SQL Account"]
 ---
 
@@ -19,47 +19,11 @@ This Customisation is the simple calculation for the Shipping/Forwarding company
 
 [Video](https://www.youtube.com/watch?v=LPoz1h3hyvQ)
 
-### History New/Updates/Changes (S/F)
-
-14 May 2025
-
-* Use Maintain Currency for Currency Symbol & Currency Rate for detail UDF
-05 Feb 2016
-
-* Fixed TaxInvoice-Fowarding2 batch print Tax summary mixing together
-* Fixed Quotation & Debit Note OnBeforeSave Script Seq not correct.
-04 Jan 2016
-
-* Fixed TaxInvoice-Fowarding2 Title missing Tax word
-
-07 Dec 2015
-
-Fixed Sales Local - Invoice Listing - Level 1 Ent column some shown empty when 0.
-02 Nov 2015
-
-* Fix Seq Error
-* Fix TaxInvoice-Fowarding2 format show A instead Tax Rate
-
-20 Oct 2015
-
-* Fix Transfer Document TaxAmt calculate incorrectly if using UDF_ExRate \<> 1
-* Fix Partial Transfer Qty TaxAmt calculate incorrectly
-
-19 Oct 2015
-
-* Fix upgrade to Version 721 error.
-* Fix Transfer Document TaxAmt calculate incorrectly
-
-14 Oct 2015
-
-* Fix 0Sales Local - Invoice Listing - Level 1 margin not correct
-* Convert DocRef3 to UDF_EntCost for 0Sales Local - Invoice Listing - Level 1 Ent column
-
 ### Settings (S/F)
 
 #### Maintain User (S/F)
 
-*Menu: Tools | Maintain User...*
+*Menu: Tools > Maintain User...*
 
 Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : Sales
 
@@ -67,7 +31,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
 #### Invoice
 
-*Menu: Sales | Invoice...*
+*Menu: Sales > Invoice...*
 
 ![shipping-CustomerInvoice](../../../static/img/miscellaneous/sqlControlCenter/shipping-CustomerInvoice.jpg)
 
@@ -83,7 +47,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
 #### Profit & Loss By Document
 
-*Menu: Sales | Print Profit and Loss By Document...*
+*Menu: Sales > Print Profit and Loss By Document...*
 
 ![printProfit&LossByDoc](../../../static/img/miscellaneous/sqlControlCenter/printProfit&LossByDoc.png)
 
@@ -99,20 +63,20 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 This Customisation is to calculate/maintain the Point/Bonus
 
 * Pros
-      - Able to set Claim Rate (i.e. 1 Point = How many RM eg 1 Point = RM0.01 so enter as 0.01)
-      - Able to set Point Rate by item code (i.e. RM1 = How many point eg RM1 = 1 so enter as 1)
-      - Point Rate can be calculate by Amount and/or Qty
-      - Able to Claim like Voucher as Discount
-      - Able to Claim Item
-      - Claim Point Rate can be change runtime
+  * Able to set Claim Rate (i.e. 1 Point = How many RM eg 1 Point = RM0.01 so enter as 0.01)
+  * Able to set Point Rate by item code (i.e. RM1 = How many point eg RM1 = 1 so enter as 1)
+  * Point Rate can be calculate by Amount and/or Qty
+  * Able to Claim like Voucher as Discount
+  * Able to Claim Item
+  * Claim Point Rate can be change runtime
 
 * Cons
-      - Unable to handle the cancel & Delete Invoice - Manually deduct the point using Update Button on Extra DO
-      - If the customer no transaction within the month it unable to Generate Statement
-      - No Auto Deduct Expiry Point - manually deduct the point using Update Button on Extra DO
-      - Able to handle 2 decimal Point only
-      - Batch Insert no checking (i.e. User may over deduct the point)
-      - User had to manually Adjust for Opening after the Year End Purging had done.
+  * Unable to handle the cancel & Delete Invoice - Manually deduct the point using Update Button on Extra DO
+  * If the customer no transaction within the month it unable to Generate Statement
+  * No Auto Deduct Expiry Point - manually deduct the point using Update Button on Extra DO
+  * Able to handle 2 decimal Point only
+  * Batch Insert no checking (i.e. User may over deduct the point)
+  * User had to manually Adjust for Opening after the Year End Purging had done.
 
 [Sample Database](https://www.sql.com.my/document/ACC%20BK-%5BBonusVoucherPoint%5D.zip)
 
@@ -137,13 +101,13 @@ This Customisation is to calculate/maintain the Point/Bonus
 
 #### Maintain User (BPS)
 
-*Menu: Tools | Maintain User...*
+*Menu: Tools > Maintain User...*
 
 Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : Sales
 
 #### Maintain Item
 
-*Menu: Stock | Maintain Stock Item...*
+*Menu: Stock > Maintain Stock Item...*
 
 ![stockItemClaimRate](../../../static/img/miscellaneous/sqlControlCenter/stockItemClaimRate.jpg)
 
@@ -155,7 +119,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
 ***Sales Invoice***
 
-*Menu: Sales | Invoice...*
+*Menu: Sales > Invoice...*
 
     This applicable also at Sales Debit Note, Sales Cash Sales & Sales Credit Note
 
@@ -168,7 +132,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 
 ***Extra Delivery Order***
 
-*Menu: Sales | Extra Delivery Order...*
+*Menu: Sales > Extra Delivery Order...*
 
     This is the center or Ledger for all Point IN & OUT.
 
@@ -187,7 +151,7 @@ Untick the Access Right for Prompt Replace Unit Price Dialog under the Group : S
 ***Sales Invoice***
 
 Below is example in Sales Invoice with Voucher Claim
-*Menu: Sales | Invoice...*
+*Menu: Sales > Invoice...*
 
 ![utdPoint](../../../static/img/miscellaneous/sqlControlCenter/utdPoint.jpg)
 
@@ -203,7 +167,7 @@ Below is example in Sales Invoice with Voucher Claim
 
 ***Extra Delivery Order***
 
-*Menu: Sales | Extra Delivery Order...*
+*Menu: Sales > Extra Delivery Order...*
 
 In here user can do adjustment for the point for each Customer.
 
@@ -217,7 +181,7 @@ In here user can do adjustment for the point for each Customer.
 
 #### Extra Delivery Order Listing
 
-*Menu: Sales | Print Sales Document Listing...*
+*Menu: Sales > Print Sales Document Listing...*
 
     Here is for user to print the Bonus Statement or UnClaim Voucher Listing report
 
@@ -293,7 +257,7 @@ Branch Control Setting is done to prevent branch user from selecting Customer, P
 
 ## One Time Setting
 
-*Menu: Tools | Maintain User...*
+*Menu: Tools > Maintain User...*
 
 ![branchControlSettings](../../../static/img/miscellaneous/sqlControlCenter/branchControlSettings.jpg)
 
@@ -422,7 +386,7 @@ Tick the Lock Project option. Tick IsSearchProjectCode to allow searching by pro
 
 ### Insert DIY Field (Unit Price Calculation)
 
-1. Click Tools | DIY | SQL Control Center...
+1. Click Tools > DIY > SQL Control Center...
 2. At the left panel look for Sales Invoice.
 3. Point to Items Fields.
 4. On the right panel, insert the DIY field as per the TABLE below.
@@ -439,7 +403,7 @@ Tick the Lock Project option. Tick IsSearchProjectCode to allow searching by pro
 
 ### Insert DIY Script (Unit Price Calculation)
 
-1. Click Tools | DIY | SQL Control Center...
+1. Click Tools > DIY > SQL Control Center...
 2. At the left panel look for Sales Invoice .
 3. Right Click the Sales Invoice.
 
@@ -477,13 +441,13 @@ Avoid update the same existing field name Unit Price. You have to create differe
 
 ### Result Test (Unit Price Calculation)
 
-1. Go to Stock | Maintain Stock Item...
+1. Go to Stock > Maintain Stock Item...
 2. Edit the item code ANT.
 3. Insert additional UOM with different RATE, eg. 1 CARTON = 12 UNITS and 1 BOX = 60 UNITS.
 
     ![item-code-ant](../../../static/img/miscellaneous/sqlControlCenter/item-code-ant.png)
 
-4. Create new sales invoice from Sales | Invoice...
+4. Create new sales invoice from Sales > Invoice...
 5. Call out the columns name UDF_mUnitPrice and Rate.
 
     ![columns-udf-rate](../../../static/img/miscellaneous/sqlControlCenter/columns-udf-rate.png)
@@ -516,8 +480,8 @@ Avoid update the same existing field name Unit Price. You have to create differe
 
 ### Insert DIY Field (Master Data)
 
-1. Click Tools | DIY | SQL Control Center...
-2. At the left panel look for Stock | Stock Item .
+1. Click Tools > DIY > SQL Control Center...
+2. At the left panel look for Stock > Stock Item .
 3. Point to Stock Items Fields.
 4. On the right panel, insert the new field as per the table below.
 
@@ -531,7 +495,7 @@ Avoid update the same existing field name Unit Price. You have to create differe
 5. Click Save.
 6. Update operation successful message. Click OK.
 7. Next...
-8. At the left panel look for Sales | Sales Invoice.
+8. At the left panel look for Sales > Sales Invoice.
 9. Point to Items Fields.
 10. On the right panel, insert the new field as per the table below.
 
@@ -548,8 +512,8 @@ Avoid update the same existing field name Unit Price. You have to create differe
 
 ### Create Quick Form (Master Data)
 
-1. Click Tools | DIY | SQL Control Center...
-2. At the left panel look for Stock | Stock Item .
+1. Click Tools > DIY > SQL Control Center...
+2. At the left panel look for Stock > Stock Item .
 3. Right click on te Stock Item.
 4. Select New Quick Form Design.
 
@@ -655,7 +619,7 @@ Avoid update the same existing field name Unit Price. You have to create differe
 
 ### Result Test (Master Data)
 
-1. Go to Stock | Maintain Stock Item...
+1. Go to Stock > Maintain Stock Item...
 2. Create a new item code called PEN.
 3. Update the UOM tab. See the screenshot below.
 
@@ -666,7 +630,7 @@ Avoid update the same existing field name Unit Price. You have to create differe
 
     ![extratab](../../../static/img/miscellaneous/sqlControlCenter/extratab.png)
 
-6. Create new sales invoice from Sales | Invoice...
+6. Create new sales invoice from Sales > Invoice...
 7. Call out the columns name UDF_Price and UDF_Rate.
 
     ![udfprice-udfrate](../../../static/img/miscellaneous/sqlControlCenter/udfprice-udfrate.png)
@@ -687,7 +651,7 @@ Avoid update the same existing field name Unit Price. You have to create differe
 
 ### Insert DIY Script (Outstanding Amount)
 
-1. Click Tools | DIY | SQL Control Center...
+1. Click Tools > DIY > SQL Control Center...
 2. At the left panel look for Sales Invoice .
 3. Right Click the Sales Invoice.
 
