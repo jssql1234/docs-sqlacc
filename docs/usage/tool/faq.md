@@ -137,16 +137,16 @@ You are advised to set your financial start period and system conversion date as
  **Why does my system show error when applying exchange rate in payment?**
 
 These questions goes to one solution , which is
-[Advanced Currency Module](/usage/tools/faq#advanced-currency-module)
+[Advanced Currency Module](#advanced-currency-module)
 :::
 
 ## Can I auto-post exchange gain/loss when using foreign banks?
 
-Yes, via [Advanced Currency](#advanced-currency-module) Module and [Gain/Loss setup](../../usage/tools/guide#payment-from-foreign-customer)
+Yes, via [Advanced Currency](#advanced-currency-module) Module and [Gain/Loss setup](./guide#payment-from-foreign-customer)
 
-**What is SQL Global Price Change and when should I use it?** → [SQL Global Price Change](/usage/tools/guide#sql-global-price-change)
+**What is SQL Global Price Change and when should I use it?** → [SQL Global Price Change](./guide#sql-global-price-change)
 
-**Can I update prices for only specific stock groups or categories?** → [SQL Global Price Change by category](/usage/tools/guide#sql-global-price-change)
+**Can I update prices for only specific stock groups or categories?** → [SQL Global Price Change by category](./guide#sql-global-price-change)
 
 ## How to do Customer One Cent Rounding ?
 

@@ -11,105 +11,6 @@ This Customisation is for simple calculation for the management property which n
 
 [Sample Database](https://download.sql.com.my/customer/Fairy/ACC%20BK-%5BRecurring%5D.zip)
 
-## History New/Updates/Changes
-
-02 Jun 2025
-
-Add Option to Post as IV for Customer Due & Payment.
-23 Jan 2025
-
-Add Use Full Age Option for Late Charge Qty in Customer Due Listing.
-Enable Save Setting for Customer Due Listing using Note Field for ItemCode OVERDUE.
-Enable Recurring without Filter by Company Category
-Add 0Sales Debit Note 9-Late Charges format.
-Add 0Sales Invoice 8 (SST 2)-Aging-Recurring-Maintenance format.
-Add 0Sales Invoice 8 (SST 2)-Aging-Recurring-Meter format.
-Add 0Sales Invoice 8 (SST 2)-Aging-Recurring-Meter-PrcRange format.
-Add 0Sales Invoice 8 (SST 2)-Recurring-Meter-PrcRange format.
-Exclude posting if amount = 0 when generate DN.
-
-11 Aug 2022
-
-Add Tick/UnTick All Option for Gen/B In Maintain Customer.
-Fix sometime prompt error when using Price Range.
-Add With 5 Cents Rounding Options for Customer Due Listing.
-Add T.O/S Amt label (Total Outstanding Amount) in Sales Invoice.
-Fixed Header Description for Total Amount Not Correctly Sum when using Price Range.
-Add Prompt for Open Sales Invoice after done Posting.
-Add With 5 Cents Rounding & With DN Options for Customer Payment.
-Add Prompt for Open Sales Debit Note after done Posting.
-Add UDF_LastReading & UDF_CurrReading at Sales Invoice for Price Range use.
-Fixed Error due to system override when using Min Charge only for utilities.
-Fixed Display Format for utilities should be in 4 decimal point
-Enable Optional to use Maintain Customer Agent & Terms when using zProfile code for Agent & Terms
-Fixed SQLAcc auto exit when Click Generate in Lastest SQL Acc Version.
-15 Apr 2019
-
-Add Option Include Zero Qty for Utilities
-Fixed Unable Recurring For Document Listing after upgrade to 776
-Fixed Utilities will shown Discount 1 when PriceTag discount is empty
-22 Mar 2019
-
-Add Process Status on Recurring SQFT in Maintain Customer
-Fixed Min. Charge not working for Lead Time 0 & 1
-28 Jan 2019
-
-Move Footer Count to Company Name
-Increase Form width to 1024
-Remove all Tax Code in Sample Data
-Add Use Doc Tax Code option for Doc Listing
-Allow Multi range price for Utility
-04 Oct 2018
-
-Fixed Amount not correct if Qty = Min Charge Amt Qty
-15 Aug 2018
-
-Reduce the Doc & Item Project Length at Customer Payment
-Set to 0 if using both Rebate & Min Charge if below Min Charge amount
-11 Jul 2018
-
-Allow more then 1 Stock Group for SQFT in Maintain Customer
-Add UDF_UseSQFT in QT Detail - True Qty = UDF_BuildUp(Maintain Customer)
-Add UDF_UseARPrice in QT Detail - True UnitPrice = UDF_UPSQFT(Maintain Customer)
-Add Last Payment Date, Amount & Outstanding Information in Invoice Detail Screen
-Add Document & Item Project selection Posting for Customer Due
-15 Feb 2018
-
-Generate by SQFT by Customer
-Add Cust Local - Payment Listing (GST 1) - Knock Off Doc No Set - Cross
-Add Sales Customer Price History - ItemCode - Cross
-Allow to change Header Description for DN Overdue
-Set Default TaxRate 0% for Payment DN overdue
-21 Mar 2017
-
-Change Header Description for Posting DN to Late Payment Charges for
-25 Jan 2017
-
-Add Pre-Post DN at Customer Payment.
-Add Sales Document Listing Recurring.
-16 Sep 2016
-
-Fixed access violation error if No Record Found prompt.
-12 Jan 2016
-
-Enable GAS Reading
-25 Dec 2015
-
-* Add 0Sales Invoice 7 (GST 2)-Recurring-Maintenance Report
-* Add 0Sales Invoice 7 (GST 2)-Recurring-Meter Report
-* Enable GAS Reading
-* Allow Select Multi DocNo Set for Different Reading
-* Fixed bug LeadTime=0 - Will being override by Rebate when is below Min Charge (i.e. will set to 0 if less then Min Charge)
-* Fixed Cust Statement 06 Mths 1 Report Not shown Address 1 & take too much space at footer
-26 Sep 2015
-
-* Remove 5 Cent rounding Script & use build in 5 Cent rounding
-* Fixed Customise Statement report not follow company profile information
-* Set Customer Payment UDF_PostDN Default Value = False
-12 Aug 2015
-
-* Fixed Posting Overdue DN should excluding the GST amount from the calculation
-
 ## Modules Required
 
 * General Ledger, Customer, Supplier
@@ -119,7 +20,7 @@ Enable GAS Reading
 * Multiple Pricing (Price Tag)
 * Multiple Document Number Set
 
-## Tutotial Video
+## Tutorial Video
 
 [Recurring](https://www.youtube.com/watch?v=DLShuxExZi8&t=27s)
 
@@ -327,7 +228,7 @@ eg
 
 *Menu: Customer | Customer Payment...*
 
-* Auto Generate Sales DN for overdue IV if UDF_PostDN (in [DIY Fields](../../usage/tools/guide#maintain-diy)) Default Value is set to True (Default is False)
+* Auto Generate Sales DN for overdue IV if UDF_PostDN (in [DIY Fields](../../usage/tool/guide.md#maintain-diy)) Default Value is set to True (Default is False)
 * Only Knock-off to DN will not regenerate DN again if overdue
 * Formula for Age
 

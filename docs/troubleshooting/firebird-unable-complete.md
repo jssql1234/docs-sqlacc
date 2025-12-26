@@ -12,7 +12,7 @@ tags: ["SQL Account", "Troubleshooting", "Firebird"]
 
 ### 1. Firebird not installed in main PC/Server
 
-Install the firebird in main PC/Server. Click to [Firebird](docs/getting-started/multi-user-setup.md#firebird-installation) installation guide.
+Install the firebird in main PC/Server. Click to [Firebird](../getting-started/multi-user-setup.md#firebird-installation) installation guide.
 
 ### 2. Invalid IP address of main PC/Server
 

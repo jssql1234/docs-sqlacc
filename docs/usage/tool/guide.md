@@ -394,7 +394,7 @@ _([Advance Currency](../../usage/tools/faq#advanced-currency-module) module requ
 
 4. **OR & PV Number Set**: Set the default running document number for the particular payment method (optional).
 
-5. **Bank Info**: Enables you to set Giro info and make payments through Giro (refer to the [Interbank Giro](docs/additional-module/interbank-giro.md) topic for more details).
+5. **Bank Info**: Enables you to set Giro info and make payments through Giro (refer to the [Interbank Giro](../../additional-module/interbank-giro.md) topic for more details).
 
     ![132](../../../static/img/usage/tools/tools-basic-guide/132.png)
 
