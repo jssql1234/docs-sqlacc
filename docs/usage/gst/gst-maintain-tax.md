@@ -1,18 +1,16 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Maintain Tax
 description: GST maintain tax
 slug: /usage/gst/gst-maintain-tax
 tags: ["SQL Account", "Usage", "GST"]
 ---
 
-## Maintain Tax
-
 - This to Maintain all the available tax given by Government or user can self add or modified
 
 ![des-gst-maintain-tax-1](../../../static/img/usage/gst-and-sst/gst/gst-maintain-tax-1.jpg)
 
-### Create New Tax
+## Create New Tax
 
 - Screenshot below is the Maintain Tax entry form.
 
@@ -38,7 +36,7 @@ tags: ["SQL Account", "Usage", "GST"]
 | Tax Inclusive    | - Checked: Default is Tax Inclusive.                                                                                    |
 |                  | - UnChecked: Default is Tax Exclusive.                                                                                  |
 
-### Use of Tax
+## Use of Tax
 
 - You can set the tax as default at the following
         1. GL | Maintain Account...
@@ -51,7 +49,7 @@ tags: ["SQL Account", "Usage", "GST"]
 
 ![des-gst-maintain-tax-use-of-tax-1](../../../static/img/usage/gst-and-sst/gst/gst-maintain-tax-use-of-tax-1.jpg)
 
-### Default System Tax Seq
+## Default System Tax Seq
 
 Default System Tax Seq are as follow
 
