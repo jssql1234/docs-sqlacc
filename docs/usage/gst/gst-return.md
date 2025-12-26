@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-title: Return
+sidebar_position: 2
+title: GST Return
 description: GST return
 slug: /usage/gst/gst-return
 tags: ["SQL Account", "Usage", "GST"]
@@ -430,7 +430,7 @@ This refer to the following types according to **GST (Exempt Supplies) Order 201
 2. **Financial Services (IES):-**
    1. Interest income from deposits placed with a financial institution in Malaysia
    2. Interest received from loans provided to employees (factoring receivables)
-   3. [Realized foreign exchange gains](../../usage/gst/gst-item12.md)
+   3. [Realized foreign exchange gains](gst-treatment.md#gst-03-item-12-es--ies)
 
 3. **Goods (ES):-**
    1. Residential properties

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_position: 9
 title: System Migration
 description: GST system migration
 slug: /usage/gst/gst-system-migration
@@ -134,9 +134,11 @@ This guide will teach you the way to handle the past outstanding documents for C
 1. Select the date range. See screenshot below.
 
    1. Monthly (eg. 01/02/2016 - 29/02/2016)
+
       ![des-how-to-enter-gst-past-documents-gst-returns-1](../../../static/img/usage/gst-and-sst/gst/how-to-enter-gst-past-documents-gst-returns-1.jpg)
 
    2. Quarterly (eg. 01/02/2016 - 30/04/2016)
+   
       ![des-how-to-enter-gst-past-documents-gst-returns-2](../../../static/img/usage/gst-and-sst/gst/how-to-enter-gst-past-documents-gst-returns-2.jpg)
 
 2. Click to **Process**.

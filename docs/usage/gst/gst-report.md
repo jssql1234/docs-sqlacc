@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_position: 10
 title: Reports
 description: General GST Report Info
 slug: /usage/gst/gst-report

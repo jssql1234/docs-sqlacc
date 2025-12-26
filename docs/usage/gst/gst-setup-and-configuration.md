@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
-title: Setup and Information
-description: GST setup and related information
-slug: /usage/gst/gst-setup-and-information
+title: Setup & Configuration
+description: GST setup and related configuration
+slug: /usage/gst/gst-setup-and-configuration
 tags: ["SQL Account", "Usage", "GST"]
 ---
 

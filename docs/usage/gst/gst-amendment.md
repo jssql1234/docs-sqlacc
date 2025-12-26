@@ -1,7 +1,7 @@
 ---
-sidebar_position: 5
-title: Adjustment
-description: Adjustment on GST system
+sidebar_position: 8
+title: Amendment
+description: Amendment on GST system
 slug: /usage/gst/gst-amendment
 tags: ["SQL Account", "Usage", "GST"]
 ---
@@ -156,66 +156,67 @@ In accordance with **Regulation 69 of the GST Regulation 2014**, with **effect f
    | GST-103  | **TX**   | **6%**   | 1,000    |          | 1,060         |               | **6a = 0, 6b = 0**  |
    | GST-103  |**AJS-OA**| **6%**   |          | 1,000    |               | 1,060         | **5a = 0, 5b = 60** |
 
-To set the tax year and longer period adjustment (LPA).
+## GST Sales/Purchase Deferred Tax Journal Adjustment
 
-## Set Tax Year
+1. Double entry adjustment for the balance of GST Sales / Purchase Deferred Tax (Bad Debt Relief) AFTER 29 December 2018.
+2. Add the adjustment amount into Final GST Return (amendment).
 
-1. Highlight the final taxable period to be set as your **First Tax Year**, eg. final taxable period 01 Dec - 31 Dec 2016.
+   ![des-sales-purchase-deferred-tax-journal-adjustment-1](../../../static/img/usage/gst-and-sst/gst/sales-purchase-deferred-tax-journal-adjustment-1.jpg)
 
-   ![des-gst-set-tax-year-set-tax-year-1](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-set-tax-year-1.jpg)
+### How to check the Sales / Purchase Bad Debt Recovered Amount after Final GST Returns?
 
-2. Double click on the GST Returns highlight in step 1.
-3. System will prompt you a dialog box.
-4. Tick on the **Tax Year** to set a tax year point. See the screenshot below.
+1. Select a date **AFTER** the Final GST Return Date, eg. 28/02/2019.
 
-   ![des-gst-set-tax-year-set-tax-year-2](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-set-tax-year-2.jpg)
+   ![des-check-bad-debt-relief-after-final-gst-returns-1](../../../static/img/usage/gst-and-sst/gst/check-bad-debt-relief-after-final-gst-returns-1.jpg)
 
-5. Click **Save**.
+2. Choose **Process As Draft**.
 
-   ![des-gst-set-tax-year-set-tax-year-3](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-set-tax-year-3.jpg)
+   ![des-check-bad-debt-relief-after-final-gst-returns-2](../../../static/img/usage/gst-and-sst/gst/check-bad-debt-relief-after-final-gst-returns-2.jpg)
 
-6. You can insert a column **Tax Year**, eg. Tax Year point set at 31 Dec 2016.
+3. Click on **GST Return Draft** and **Print GST Listing**.
+4. Filter the **Tax Date** (ie. greater than or equal to 30 December 2018).
 
-   ![des-gst-set-tax-year-set-tax-year-4](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-set-tax-year-4.jpg)
+   ![des-check-bad-debt-relief-after-final-gst-returns-3](../../../static/img/usage/gst-and-sst/gst/check-bad-debt-relief-after-final-gst-returns-3.jpg)
 
-   :::note **Note:**
+   > **SL-AJS-BD** : Sales Bad Debt Recovered (Output Tax).
+   > **PH-AJP-BD** : Purchase Bad Debt Recovered (Input Tax).
 
-   You can direct set the tax year without delete/purge the GST Returns.
+### Adjustment for GST Sales Deferred Tax (SL-AJS-BD)
 
-   :::
+![des-adjustment-for-gst-sales-deferred-tax-1](../../../static/img/usage/gst-and-sst/gst/adjustment-for-gst-sales-deferred-tax-1.jpg)
 
-## Longer Period Adjustment (LPA)
+1. Based on the **GST Listing (Draft)**, post the GST Bad Debt Recovered double entry using **Journal Entry**.
 
-Declaration of annual adjustment amount:
+   | GL Code    | GL Description            | Local DR | Local CR | Add to Final GST-03  |
+   |------------|---------------------------|----------|----------|----------------------|
+   | GST-202    | GST - Sales Deferred Tax  | 3,600    |          |                      |
+   | GST-KASTAM | GST - Payable (KASTAM)    |          | 3,600    | 5(b), 18             |
 
-- Regulation 43 – in a GST Return for the second taxable period next following the longer period.
-For example,
-Assumed the tax year set on 31 Dec 2016, LPA should be declared in:
+2. Amend the Final GST Return (Aug 2018) at TAP.
+3. Add the amount into
+    a. 5(b)
+    b. 18
 
-   1) For **monthly taxable period** , the second taxable period is **Feb 2017** and the submission is before or on 31/3/2017
-   2) For **quarterly taxable period**, the second taxable period is **Apr-Jun 2017** and the submission is before or on 31/7/2017
+### Adjustment for GST Purchase Deferred Tax (PH-AJP-BD)
 
-### GST Returns
+![des-adjustment-for-gst-purchase-deferred-tax-1](../../../static/img/usage/gst-and-sst/gst/adjustment-for-gst-purchase-deferred-tax-1.jpg)
 
-1. Process the GST Return.For example, process the **Second Taxable Period** (01/02/2017 - 28/02/2017).
-2. LPA will tick automatically.(**if you have set the tax year**)
+1. Based on the **GST Listing (Draft)**, post the GST Bad Debt Recovered double entry using **Journal Entry**.
 
-   ![des-gst-set-tax-year-gst-returns-1](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-gst-returns-1.jpg)
+   | GL Code     | GL Description              | Local DR | Local CR | Add to Final GST-03  |
+   |-------------|-----------------------------|----------|----------|----------------------|
+   | GST-KASTAM  | GST - Payable (KASTAM)      | 600      |          | 6(b)                 |
+   | GST-102     | GST - Purchase Deferred Tax |          | 600      |                      |
 
-3. Suggested period to be adjusted for LPA.
+2. Amend the Final GST Return (Aug 2018) at TAP.
+3. Add the amount into
+    a. 6(b)
 
-   ![des-gst-set-tax-year-gst-returns-2](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-gst-returns-2.jpg)
+### Payment to RMCD (Tax Journal Adjustment)
 
-   :::note **Note:**
+Made payment to RMCD, use **Cash Book Entry (PV)**.
 
-   User allow to overwrite the suggested period for Longer Period.
-
-   :::
-
-4. You can insert the **LPA Date From** and **LPA Date To** columns to check.
-
-   ![des-gst-set-tax-year-gst-returns-3](../../../static/img/usage/gst-and-sst/gst/gst-set-tax-year-gst-returns-3.jpg)
-
-### GST Listing - Mixed Supplies
-
-For report printing [refer to this link.](../../usage/gst/gst-report.md#longer-period-adjustment-lpa)
+| GL Code    | GL Description                        | Local DR | Local CR |
+|------------|---------------------------------------|----------|----------|
+| GST-KASTAM | GST - Payable (KASTAM) - Net Balance  | 3,000    |          |
+| BANK       | Bank Name                             |          | 3,000    |

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 title: Settlement with RMCD
 description: GST settlement with RMCD
 slug: /usage/gst/gst-rmcd
