@@ -21,15 +21,15 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Inventory"]
    ![3](../../../static/img/xstore/inventory/map-dialog-overview.png)
 
    :::info
-   Use the **Filter Button** to narrow your **Platform Products View**, or use the **Search Bar** to find specific ecommerce products and stock items.
+   Use the **Filter Button** to narrow your **Platform Products View**, or use the **Search Bar** to find specific e-commerce products and stock items.
    :::
 
-3. Select ecommerce products synced from various platforms and map them to stock items synced from SQL Account
+3. Select e-commerce products synced from various platforms and map them to stock items synced from SQL Account
 
    ![4](../../../static/img/xstore/inventory/mapping-product-1.png)
 
    :::info
-   **Ecommerce Products** are mapped to **Stock Item UOM**.
+   **e-commerce Products** are mapped to **Stock Item UOM**.
    :::
 
 4. To unmap products, select them and click **Unmap**
@@ -69,10 +69,10 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Inventory"]
 
 <!-- ### Update Quantity
 
-1. Click the **+/-** icon to update the ecommerce platform product quantity
+1. Click the **+/-** icon to update the e-commerce platform product quantity
 
    ![12](../../../static/img/xstore/inventory/update-quantity.png)
 
    :::info
-   The ecommerce platform quantity is based on the current quantity of stock items in the location mapped to your store.
+   The e-commerce platform quantity is based on the current quantity of stock items in the location mapped to your store.
    ::: -->

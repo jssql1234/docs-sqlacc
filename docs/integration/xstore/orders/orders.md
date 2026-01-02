@@ -153,7 +153,7 @@ Once orders reach **Shipped**, **Delivered**, or **Completed** status:
    | 🔴 Red      | Failed     |
 
 3. **Archived Orders** – Turn on the switch to view orders that have been posted to SQL Account.  
-   Note\*: if orders is updated after posted, it will be moved back to **non archived** page.
+   Note\*: If orders are updated after posting, they will be moved back to the **non-archived** page.
 
 ---
 
