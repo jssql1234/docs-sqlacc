@@ -70,10 +70,10 @@ The Orders section offers a comprehensive breakdown of your order processing sta
 ### Order Metrics
 - **Total Orders**: Cumulative count of orders received.
 - **To Ship**: Number of orders currently pending shipment.
-- **Orders Today**: Count of orders received in the current day.
+- **Orders Today**: Number of orders received in the current day.
 
 ### Orders by Status
-A detailed list showing the count of orders in each stage of the fulfillment process:
+A detailed list showing the number of orders in each stage of the fulfillment process:
 - **New Order**
 - **To Process**
 - **To Ship**

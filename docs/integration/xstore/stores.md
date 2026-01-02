@@ -34,7 +34,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Stores"]
 
     ![5](../../../static/img/xstore/stores/lazada-credentials.png)
 
-6. Confirm the Authorization
+6. Click authorize 
 
     ![6](../../../static/img/xstore/stores/lazada-authorize.png)
 
@@ -42,7 +42,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Stores"]
 
     - A success message will appear
 
-    - The linked store will be added to the Data table.
+    - The linked store will be added to the data table.
 
         ![7](../../../static/img/xstore/stores/link-lazada.png)
 
@@ -98,7 +98,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Stores"]
 
     - A success message will appear
 
-    - The linked store will be added to the Data table.
+    - The linked store will be added to the data table.
 
         ![16](../../../static/img/xstore/stores/link-shopeeMain.png)
 
@@ -134,7 +134,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Stores"]
 
     - A success message will appear
 
-    - The linked store will be added to the Data table.
+    - The linked store will be added to the data table.
 
         ![22](../../../static/img/xstore/stores/link-tiktok.png)
 
