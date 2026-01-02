@@ -6,7 +6,7 @@ slug: /integration/xstore/setup
 tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Setup"]
 ---
 
-<div align="justify"> This guide walks you through the complete setup of the **SQL X-Store** App — from creating a company to syncing data from **E-commerce platforms** and **SQL Account**.</div>
+This guide walks you through the complete setup of the **SQL X-Store** App — from creating a company to syncing data from **E-commerce platforms** and **SQL Account**.
 
 
 ## Step 1: Create Company
@@ -31,7 +31,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Setup"]
 
 ## Step 2: Link Store
 
-<div align="justify"> Connect E-commerce stores to sync **store**, **product**, **order**, and **payment** data.</div>
+Connect E-commerce stores to sync **store**, **product**, **order**, and **payment** data.
 
 1. Click **Stores** in the sidebar
 
@@ -66,7 +66,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Setup"]
 
 ## Step 4: Code Mapping
 
-<div align="justify">Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Account to map codes such as **Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer** codes for invoice posting to SQL Account.</div>
+Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Account. Use these codes to map codes such as **Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer** codes for invoice posting to SQL Account.
 
 1. Click **Stores** in the sidebar
 
