@@ -187,7 +187,7 @@ Users invited by User ID join the company immediately without needing to accept 
 Log in using a Passkey and redirect to the Company List page.
 
 :::info Prerequisite
-You must register an user account with passkey before using this method to accept the invitation.
+You must register a user account with a passkey before using this method to accept the invitation.
 :::
 
 ![Accept with Passkey](../../../static/img/xstore/settings/user-invitation-accept-passkey.png)
