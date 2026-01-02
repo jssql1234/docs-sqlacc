@@ -45,7 +45,7 @@ Each e-commerce platform has unique order detail layouts and available actions. 
 The order information section displays:
 
 | Section              | Details                                     |
-| -------------------- | ------------------------------------------- |
+|----------------------|---------------------------------------------|
 | **Order Details**    | Order ID, Shop ID, Payment Method           |
 | **Payment Details**  | Currency, Payment Time                      |
 | **Shipment Details** | Provider type, Shipping type, address, etc. |
@@ -107,7 +107,7 @@ When a buyer initiates a return, the order moves to the **To Return** tab for se
 **Return Processing Options:** May vary based on reason details
 
 | Option                | Description                                |
-| --------------------- | ------------------------------------------ |
+|-----------------------|--------------------------------------------|
 | **Refund Only**       | Issue refund without requiring item return |
 | **Return and Refund** | Refund after receiving returned item       |
 | **Reject Refund**     | Decline the refund request with evidence   |
@@ -134,7 +134,7 @@ During **"Buyer Return Item"** status:
 
 To reject a refund request:
 
-1. Provide a rejection reason
+1. Provide a reason for rejection
 2. Upload supporting evidence
 3. Submit for platform review
 
@@ -155,7 +155,7 @@ After processing, the status changes to **Refund Pending** while Lazada processe
 The order information section displays:
 
 | Section              | Details                                   |
-| -------------------- | ----------------------------------------- |
+|----------------------|-------------------------------------------|
 | **Buyer Details**    | Customer username, user ID and address    |
 | **Payment Details**  | Payment method, Currency and Payment time |
 | **Shipment Details** | Carrier information                       |
@@ -202,7 +202,7 @@ Sellers can accept or reject the buyer's cancellation request.
 
 ![Shopee Refund Only](../../../../static/img/xstore/order-details/shopee/buyer-refund-only.png)
 
-When a buyer requests **Refund Only**, review the request and choose to approve or reject.
+When a buyer requests **Refund Only**, review the request and choose between approving or rejecting.
 
 **2. Return and Refund (Buyer's Offer)**
 
@@ -211,7 +211,7 @@ When a buyer requests **Refund Only**, review the request and choose to approve 
 When the latest offer is from the buyer, you can:
 
 | Action           | Description                       |
-| ---------------- | --------------------------------- |
+|------------------|-----------------------------------|
 | **Create Offer** | Counter with a new offer amount   |
 | **Accept Offer** | Accept the buyer's proposed terms |
 | **Dispute**      | Escalate to Shopee for resolution |
@@ -241,7 +241,7 @@ When you've made an offer and are awaiting buyer response, you can still modify 
 The order information section displays:
 
 | Section              | Details                                   |
-| -------------------- | ----------------------------------------- |
+|----------------------|-------------------------------------------|
 | **Order Details**    | Order ID, Order status, Payment method    |
 | **Buyer Details**    | Customer name and shipping address        |
 | **Payment Details**  | Payment method, Currency and Payment time |

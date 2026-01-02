@@ -24,7 +24,7 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Inventory"]
    Use the **Filter Button** to narrow your **Platform Products View**, or use the **Search Bar** to find specific e-commerce products and stock items.
    :::
 
-3. Select e-commerce products synced from various platforms and map them to stock items synced from SQL Account
+3. Select e-commerce products synced from various platforms and then a stock item synced from SQL Account to map them together
 
    ![4](../../../static/img/xstore/inventory/mapping-product-1.png)
 
