@@ -3,6 +3,7 @@
     "position": 8,
     "link": {
         "type": "generated-index",
+        "slug": "/usage/stock-category",
         "description": "Stock usage guide"
     }
 }

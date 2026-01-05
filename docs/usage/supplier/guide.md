@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: Basic Supplier Setup
 slug: /usage/supplier/guide
-tags: ["SQL Account", "Usage", "Supplier"]
+tags: ["Account Payable", "Supplier Management", "Transactions"]
 ---
 
 ## Maintain Supplier

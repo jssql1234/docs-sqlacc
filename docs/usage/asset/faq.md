@@ -3,7 +3,7 @@ sidebar_position: 2
 title: FAQ
 description: FAQ related to Asset
 slug: /usage/asset/faq
-tags: ["SQL Account", "Asset", "FAQ"]
+tags: ["Troubleshooting", "Depreciation", "Asset Management"]
 ---
 
 ## How to process Asset Opening and tally with the GL Maintain Opening Balance

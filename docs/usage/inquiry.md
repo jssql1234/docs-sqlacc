@@ -3,7 +3,7 @@ sidebar_position: 13
 title: Inquiry
 description: Inquiry guideline
 slug: /usage/inquiry
-tags: ["SQL Account", "Usage", "Inquiry"]
+tags: ["Account Analysis", "Power Search"]
 ---
 
 ## Account Inquiry

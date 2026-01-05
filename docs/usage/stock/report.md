@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Reports
 description: Stock Report
 slug: /usage/stock/report
-tags: ["SQL Account", "Usage", "Inventory", "Stock", "Report"]
+tags: ["Reports", "Inventory Management", "Stock Control"]
 ---
 
 ## Print Stock Document Listing

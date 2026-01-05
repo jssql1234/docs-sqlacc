@@ -3,7 +3,7 @@ sidebar_position: 6
 title: Reports
 description: A guide on Production Report
 slug: /usage/production/report
-tags: ["SQL Account", "Usage", "Production", "Report"]
+tags: ["Reports", "Manufacturing", "Job Orders"]
 ---
 
 :::note

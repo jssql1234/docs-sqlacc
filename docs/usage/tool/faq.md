@@ -3,7 +3,7 @@ sidebar_position: 2
 title: FAQ
 description: Frequently Asked Questions in Tools
 slug: /usage/tools/faq
-tags: ["SQL Account", "Usage", "Tools","Currency","Module"]
+tags: ["Troubleshooting", "Configuration", "System Setup"]
 ---
 
 ## Can I set my first year financial period longer than 12 months (e.g., 18 months)?

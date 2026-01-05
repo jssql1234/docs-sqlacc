@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: A guide on Asset
 slug: /usage/asset/guide
-tags: ["SQL Account", "Usage", "Submission"]
+tags: ["Fixed Assets", "Asset Management", "Depreciation"]
 ---
 
 ## Asset

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: Components and Functions in Tools
 slug: /usage/tools/guide
-tags: ["SQL Account", "Usage", "Tools"]
+tags: ["System Configuration", "User Management", "Tools"]
 ---
 
 ## Maintain User

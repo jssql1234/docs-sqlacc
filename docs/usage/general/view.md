@@ -3,7 +3,7 @@ sidebar_position: 1
 title: View
 description: A guide about View for SQL Account
 slug: /usage/general/view
-tags: ["SQL Account", "Usage", "View"]
+tags: ["Keyboard Shortcuts", "View Options", "Quick Access"]
 ---
 
 ## Tabbed Docking

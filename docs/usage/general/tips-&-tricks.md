@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Tips & Tricks
 description: Other Info
 slug: /usage/general/tips-&-tricks
-tags: ["SQL Account", "Usage"]
+tags: ["Integration", "SDK", "Data Import"]
 ---
 
 ## SQL Accounting Linking

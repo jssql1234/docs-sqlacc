@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: Stock Guide
 slug: /usage/stock/guide
-tags: ["SQL Account", "Usage", "Inventory", "Stock"]
+tags: ["Inventory Management", "Stock Control", "Product Setup"]
 ---
 
 ## Maintain Stock Group

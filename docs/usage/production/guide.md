@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Guide
 description: A guideline for Job Order
 slug: /usage/production/guide
-tags: ["SQL Account", "Usage", "Production", "Job Order", "Guide"]
+tags: ["BOM","Manufacturing", "Job Orders", "Production Management"]
 ---
 
 :::note

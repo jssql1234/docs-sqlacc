@@ -2,8 +2,8 @@
 sidebar_position: 2
 title: Reports
 description: MyInvois onboarding process
-slug: /usage/supplier/Reports
-tags: ["SQL Account", "Reports"]
+slug: /usage/supplier/report
+tags: ["Reports", "Account Payable", "Supplier Management"]
 ---
 
 ## Print Supplier Document (InterBank GIRO) Listing

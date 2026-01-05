@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Reports
 description: Sales Report guideline
 slug: /usage/sales/report
-tags: ["SQL Account", "Sales", "Sales Report"]
+tags: ["Reports", "Sales Management", "Document Management"]
 ---
 
 ## Print Sales Document Listing

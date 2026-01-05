@@ -3,7 +3,7 @@ sidebar_position: 3
 title: FAQ
 description: Stock FAQ
 slug: /usage/stock/faq
-tags: ["SQL Account", "Usage", "Inventory", "Stock","FAQ"]
+tags: ["Troubleshooting", "Barcode", "Configuration"]
 ---
 
 ## Barcode
