@@ -3,7 +3,7 @@ sidebar_position: 111
 title: Settings
 description: A guide on Settings
 slug: /integration/estore/settings
-tags: ["SQL Account", "Integration", "e-Commerce", "EStore", "Settings"]
+tags: ["e-Commerce", "X-Store", "Settings"]
 ---
 
 The Settings module consists of three main sections to help you manage your organization:

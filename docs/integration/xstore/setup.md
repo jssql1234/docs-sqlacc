@@ -3,11 +3,10 @@ sidebar_position: 113
 title: Setup
 description: A guide to set up SQL X-Store App
 slug: /integration/xstore/setup
-tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Setup"]
+tags: ["e-Commerce", "X-Store", "Setup"]
 ---
 
 <div align="justify"> This guide walks you through the complete setup of the **SQL X-Store** App — from creating a company to syncing data from **E-commerce platforms** and **SQL Account**.</div>
-
 
 ## Step 1: Create Company
 
@@ -41,9 +40,10 @@ tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Setup"]
 
     ![6](../../../static/img/xstore/setup/link-store.png)
 
-> 📌 For detailed instructions on linking store, navigate to **Integration > XStore > [Stores](./stores.md)** 
+> 📌 For detailed instructions on linking store, navigate to **Integration > XStore > [Stores](./stores.md)**
 
 ### Auto-Sync Behavior
+
 - After linking, the system **automatically syncs the past 3 days** of product, order, and payment data.
 - Sync actions are locked for **10 minutes** to prevent overload.
 - After 10 minutes, manual sync becomes available.
@@ -152,7 +152,7 @@ If platform data failed to sync during store linking, you can sync manually
 
             ![23](../../../static/img/xstore/setup/select-syncDate.png)
 
-        2. Tick checkboxes to select stores 
+        2. Tick checkboxes to select stores
 
         3. Click **Sync Selected**
 
@@ -178,7 +178,7 @@ If platform data failed to sync during store linking, you can sync manually
 
     ![27](../../../static/img/xstore/setup/sync-payment.png)
 
-3. A dialog will open: 
+3. A dialog will open:
 
     1. Sync with **Date Filter**
 

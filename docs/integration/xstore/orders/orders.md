@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Order
 description: Guide to managing orders in XStore
 slug: /integration/xstore/orders
-tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Orders"]
+tags: ["e-Commerce", "X-Store", "Orders"]
 ---
 
 The **Order** module allows you to view, process, and manage orders from all your connected e-commerce platforms (Lazada, Shopee, TikTok, etc.) in one centralized location.
