@@ -3,6 +3,7 @@
     "position": 3,
     "link": {
         "type": "generated-index",
-        "description": "Database operations"
+        "description": "Database operations",
+        "slug": "/getting-started/database-category"
     }
 }

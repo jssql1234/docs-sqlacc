@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Setup
 description: Setup SQL Account for first time
 slug: /getting-started/setup
-tags: ["SQL Account", "Getting Started", "Setup"]
+tags: ["Getting Started", "Setup","Installation","License Activation","New Database","Database Group"]
 ---
 
 ## Installation
