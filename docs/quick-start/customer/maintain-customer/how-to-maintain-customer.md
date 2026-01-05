@@ -1,8 +1,8 @@
 ---
 title: How To Maintain Customer
 description: How to maintain customer in SQL Accounting
-slug: /quick-start/customer/how-to-maintain-customer
-tags: ["Customer"]
+slug: /quick-start/customer/maintain-customer/how-to-maintain-customer
+tags: ["Customer", "Maintain Customer"]
 hide_title: true
 hide_table_of_contents: true
 sidebar_class_name: hidden-sidebar-items

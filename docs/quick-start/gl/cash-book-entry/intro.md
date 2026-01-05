@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/gl/cash-book-entry
+slug: /quick-start/gl/cash-book-entry/intro
 form_name: TfmGLCB
 ---
 

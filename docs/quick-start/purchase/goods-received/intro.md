@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/purchase/goods-received
+slug: /quick-start/purchase/goods-received/intro
 form_name: TfmPHGR
 ---
 

@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/customer/customer-deposit
+slug: /quick-start/customer/customer-deposit/intro
 form_name: TfmARDP
 ---
 

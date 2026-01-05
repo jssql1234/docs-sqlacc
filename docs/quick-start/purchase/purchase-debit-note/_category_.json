@@ -3,7 +3,8 @@
     "position": 6,
     "link": {
         "type": "doc",
-        "id": "quick-start/purchase/purchase-debit-note/intro"
+        "id": "quick-start/purchase/purchase-debit-note/intro",
+        "slug": "/quick-start/purchase/purchase-debit-note-category"
     },
     "collapsible": false
 }

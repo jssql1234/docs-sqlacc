@@ -2,7 +2,7 @@
 title: Setup Company Profile
 description: How to setup company profile in SQL Accounting
 slug: /quick-start/company-profile/setup-company-profile
-tags: ["SQL Account", "Usage", "Setup"]
+tags: ["Company Profile", "Setup"]
 hide_title: true
 hide_table_of_contents: true
 sidebar_class_name: hidden-sidebar-items

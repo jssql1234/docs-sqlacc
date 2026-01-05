@@ -1,8 +1,8 @@
 ---
 title: How To Process Customer Contra
 description: How to process customer contra in SQL Accounting
-slug: /quick-start/customer/how-to-process-customer-contra
-tags: ["Customer"]
+slug: /quick-start/customer/customer-contra/process-customer-contra
+tags: ["Customer", "Contra"]
 hide_title: true
 hide_table_of_contents: true
 sidebar_class_name: hidden-sidebar-items

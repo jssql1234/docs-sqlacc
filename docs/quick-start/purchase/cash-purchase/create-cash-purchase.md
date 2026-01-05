@@ -3,8 +3,8 @@ title: Create Cash Purchase
 hide_title: true
 hide_table_of_contents: true
 description: How to create cash purchase in SQL Accounting
-slug: /quick-start/purchase/create-cash-purchase
-tags: ["Purchase"]
+slug: /quick-start/purchase/cash-purchase/create-cash-purchase
+tags: ["Purchase", "Cash"]
 sidebar_class_name: hidden-sidebar-items
 ---
 

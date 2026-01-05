@@ -3,7 +3,8 @@
     "position": 4,
     "link": {
         "type": "doc",
-         "id": "quick-start/purchase/purchase-invoice/intro"
+        "id": "quick-start/purchase/purchase-invoice/intro",
+        "slug": "/quick-start/purchase/purchase-invoice-category"
     },
     "collapsible": false
 }

@@ -3,7 +3,8 @@
     "position": 1,
     "link": {
         "type": "doc",
-        "id": "quick-start/company-profile/intro"
+        "id": "quick-start/company-profile/intro",
+        "slug": "/quick-start/company-profile-category"
     },
     "collapsible": false
 }

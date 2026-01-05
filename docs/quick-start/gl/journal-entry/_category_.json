@@ -3,7 +3,8 @@
     "position": 3,
     "link": {
         "type": "doc",
-        "id": "quick-start/gl/journal-entry/intro"
+        "id": "quick-start/gl/journal-entry/intro",
+        "slug": "/quick-start/gl/journal-entry-category"
     },
     "collapsible": false
 }

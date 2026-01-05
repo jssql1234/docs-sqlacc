@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/gl/gl-acc
+slug: /quick-start/gl/gl-acc/intro
 form_name: TfmGLAccount
 ---
 

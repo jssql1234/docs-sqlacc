@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/customer/customer-contra
+slug: /quick-start/customer/customer-contra/intro
 form_name: TfmARCT
 ---
 

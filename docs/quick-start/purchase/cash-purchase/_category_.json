@@ -3,7 +3,8 @@
     "position": 5,
     "link": {
         "type": "doc",
-        "id": "quick-start/purchase/cash-purchase/intro"
+        "id": "quick-start/purchase/cash-purchase/intro",
+        "slug": "/quick-start/purchase/cash-purchase-category"
     },
     "collapsible": false
 }

@@ -3,7 +3,8 @@
     "position": 8,
     "link": {
         "type": "doc",
-         "id": "quick-start/purchase/purchase-cancelled-note/intro"
+        "id": "quick-start/purchase/purchase-cancelled-note/intro",
+        "slug": "/quick-start/purchase/purchase-cancelled-note-category"
     },
     "collapsible": false
 }

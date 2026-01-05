@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/purchase/purchase-order
+slug: /quick-start/purchase/purchase-order/intro
 form_name: TfmPHPO
 ---
 

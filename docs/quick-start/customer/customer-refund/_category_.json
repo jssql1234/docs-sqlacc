@@ -3,7 +3,8 @@
     "position": 3,
     "link": {
         "type": "doc",
-        "id": "quick-start/customer/customer-refund/intro"
+        "id": "quick-start/customer/customer-refund/intro",
+        "slug": "/quick-start/customer/customer-refund-category"
     },
     "collapsible": false
 }

@@ -3,8 +3,8 @@ title: Create Customer Payment In Local Currency
 hide_title: true
 hide_table_of_contents: true
 description: How to process customer payment in local currency in SQL Accounting
-slug: /quick-start/customer/create-customer-payment-in-local-currency
-tags: ["Customer"]
+slug: /quick-start/customer/customer-payment/customer-payment-in-local
+tags: ["Customer", "Payment", "Local"]
 sidebar_class_name: hidden-sidebar-items
 ---
 

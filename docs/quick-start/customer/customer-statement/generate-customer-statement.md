@@ -1,8 +1,8 @@
 ---
 title: How To Generate Customer Statement
 description: How to generate customer statement in SQL Accounting
-slug: /quick-start/customer/how-to-generate-customer-statement
-tags: ["Customer"]
+slug: /quick-start/customer/customer-statement/generate-customer-statement
+tags: ["Customer", "Statement"]
 hide_title: true
 hide_table_of_contents: true
 sidebar_class_name: hidden-sidebar-items

@@ -1,8 +1,8 @@
 ---
 title: MyInvois Transaction
 description: How to use MyInvois Transaction in SQL
-slug: /quick-start/cloud/how-to-use-myinvois-transaction
-tags: ["E-Invoice"]
+slug: /quick-start/cloud/myinvois-transaction/myinvois-transaction
+tags: ["Cloud", "E-Invoice"]
 hide_title: true
 hide_table_of_contents: true
 sidebar_class_name: hidden-sidebar-items

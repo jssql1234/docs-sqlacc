@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/customer/customer-due-document
+slug: /quick-start/customer/customer-due-document/intro
 form_name: TrfmARDueDocument
 ---
 

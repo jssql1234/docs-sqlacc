@@ -3,8 +3,8 @@ title: Create Customer Payment In Foreign Currency
 hide_title: true
 hide_table_of_contents: true
 description: How to process customer payment in foreign currency in SQL Accounting
-slug: /quick-start/customer/create-customer-payment-in-foreign-currency
-tags: ["Customer"]
+slug: /quick-start/customer/customer-payment/customer-payment-in-foreign
+tags: ["Customer", "Payment", "Foreign"]
 sidebar_class_name: hidden-sidebar-items
 ---
 

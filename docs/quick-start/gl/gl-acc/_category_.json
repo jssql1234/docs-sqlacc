@@ -3,7 +3,8 @@
     "position": 1,
     "link": {
         "type": "doc",
-        "id": "quick-start/gl/gl-acc/intro"
+        "id": "quick-start/gl/gl-acc/intro",
+        "slug": "/quick-start/gl/gl-acc-category"
     },
     "collapsible": false
 }

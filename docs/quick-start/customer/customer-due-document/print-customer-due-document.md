@@ -1,8 +1,8 @@
 ---
 title: How To Print Customer Due Document
 description: How to print customer due document in SQL Accounting
-slug: /quick-start/customer/how-to-print-customer-due-document
-tags: ["Customer"]
+slug: /quick-start/customer/customer-due-document/print-customer-due-document
+tags: ["Customer", "Due Documnent"]
 hide_title: true
 hide_table_of_contents: true
 sidebar_class_name: hidden-sidebar-items

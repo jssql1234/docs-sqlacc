@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/gl/bank-reconciliation
+slug: /quick-start/gl/bank-reconciliation/intro
 form_name: TfmGLBankRecon
 ---
 

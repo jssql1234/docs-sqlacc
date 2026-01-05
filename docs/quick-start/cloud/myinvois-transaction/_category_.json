@@ -3,7 +3,8 @@
     "position": 1,
     "link": {
         "type": "doc",
-        "id": "quick-start/cloud/myinvois-transaction/intro"
+        "id": "quick-start/cloud/myinvois-transaction/intro",
+        "slug": "/quick-start/cloud/myinvois-transaction-category"
     },
     "collapsible": false
 }

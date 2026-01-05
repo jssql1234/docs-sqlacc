@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/customer/customer-refund
+slug: /quick-start/customer/customer-refund/intro
 form_name: TfmARCF
 ---
 

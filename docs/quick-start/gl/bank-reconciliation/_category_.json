@@ -3,7 +3,8 @@
     "position": 4,
     "link": {
         "type": "doc",
-        "id": "quick-start/gl/bank-reconciliation/intro"
+        "id": "quick-start/gl/bank-reconciliation/intro",
+        "slug": "/quick-start/gl/bank-reconciliation-category"
     },
     "collapsible": false
 }

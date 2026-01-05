@@ -3,7 +3,8 @@
     "position": 3,
     "link": {
         "type": "doc",
-         "id": "quick-start/purchase/goods-received/intro"
+        "id": "quick-start/purchase/goods-received/intro",
+        "slug": "/quick-start/purchase/goods-received-category"
     },
     "collapsible": false
 }

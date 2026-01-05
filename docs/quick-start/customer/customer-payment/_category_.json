@@ -3,7 +3,8 @@
     "position": 2,
     "link": {
         "type": "doc",
-        "id": "quick-start/customer/customer-payment/intro"
+        "id": "quick-start/customer/customer-payment/intro",
+        "slug": "/quick-start/customer/customer-payment-category"
     },
     "collapsible": false
 }

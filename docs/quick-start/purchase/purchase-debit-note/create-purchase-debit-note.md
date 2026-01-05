@@ -3,8 +3,8 @@ title: Create Purchase Debit Note
 hide_title: true
 hide_table_of_contents: true
 description: How to create purchase debit note in SQL Accounting
-slug: /quick-start/purchase/create-purchase-debit-note
-tags: ["Purchase"]
+slug: /quick-start/purchase/purchase-debit-note/create-purchase-debit-note
+tags: ["Purchase", "Debit Note"]
 sidebar_class_name: hidden-sidebar-items
 ---
 

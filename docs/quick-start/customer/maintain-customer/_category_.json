@@ -3,7 +3,8 @@
     "position": 1,
     "link": {
         "type": "doc",
-        "id": "quick-start/customer/maintain-customer/intro"
+        "id": "quick-start/customer/maintain-customer/intro",
+        "slug": "/quick-start/customer/maintain-customer-category"
     },
     "collapsible": false
 }

@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/cloud/myinvois-transaction
+slug: /quick-start/cloud/myinvois-transaction/intro
 form_name: TfmMyInvois_Trans
 ---
 

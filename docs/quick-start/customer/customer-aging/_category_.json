@@ -3,7 +3,8 @@
     "position": 6,
     "link": {
         "type": "doc",
-        "id": "quick-start/customer/customer-aging/intro"
+        "id": "quick-start/customer/customer-aging/intro",
+        "slug": "/quick-start/customer/customer-aging-category"
     },
     "collapsible": false
 }

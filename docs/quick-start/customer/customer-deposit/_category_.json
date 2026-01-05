@@ -3,7 +3,8 @@
     "position": 4,
     "link": {
         "type": "doc",
-        "id": "quick-start/customer/customer-deposit/intro"
+        "id": "quick-start/customer/customer-deposit/intro",
+        "slug": "/quick-start/customer/customer-deposit-category"
     },
     "collapsible": false
 }

@@ -3,6 +3,7 @@
     "position": 3,
     "link": {
         "type": "generated-index",
-        "description": "Learn on Customer in SQL Account"
+        "description": "Learn on Customer in SQL Account",
+        "slug": "/quick-start/customer-category"
     }
 }

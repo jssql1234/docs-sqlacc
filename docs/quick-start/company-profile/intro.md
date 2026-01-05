@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/company-profile
+slug: /quick-start/company-profile/intro
 form_name: "{E0653098-62D0-4A0C-9CBB-B0FFA3AB497C}"
 ---
 

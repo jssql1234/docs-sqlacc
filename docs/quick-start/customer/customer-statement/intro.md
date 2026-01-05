@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/customer/customer-statement
+slug: /quick-start/customer/customer-statement/intro
 form_name: TrfmARStatement
 ---
 

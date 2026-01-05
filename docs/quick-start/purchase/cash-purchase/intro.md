@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/purchase/cash-purchase
+slug: /quick-start/purchase/cash-purchase/intro
 form_name: TfmPHCP
 ---
 

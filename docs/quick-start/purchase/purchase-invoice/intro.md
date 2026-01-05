@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/purchase/purchase-invoice
+slug: /quick-start/purchase/purchase-invoice/intro
 form_name: TfmPHPI
 ---
 

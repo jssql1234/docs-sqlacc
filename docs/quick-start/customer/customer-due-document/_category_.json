@@ -3,7 +3,8 @@
     "position": 8,
     "link": {
         "type": "doc",
-        "id": "quick-start/customer/customer-due-document/intro"
+        "id": "quick-start/customer/customer-due-document/intro",
+        "slug": "/quick-start/customer/customer-due-document-category"
     },
     "collapsible": false
 }

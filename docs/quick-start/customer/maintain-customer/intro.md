@@ -1,7 +1,7 @@
 ---
 hide_title: true
 hide_table_of_contents: true
-slug: /quick-start/customer/maintain-customer
+slug: /quick-start/customer/maintain-customer/intro
 form_name: TfmARCustomer
 ---
 

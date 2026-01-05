@@ -3,7 +3,8 @@
     "position": 2,
     "link": {
         "type": "doc",
-        "id": "quick-start/gl/cash-book-entry/intro"
+        "id": "quick-start/gl/cash-book-entry/intro",
+        "slug": "/quick-start/gl/cash-book-entry-category"
     },
     "collapsible": false
 }
