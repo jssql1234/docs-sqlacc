@@ -99,7 +99,7 @@ This setting set the supplier who has supply the taxable goods under the Sales T
 |                | • Related Topic: [Maintain Stock Item → Main Header](../../usage/stock/guide#maintain-stock-item)                    |
 | Tax            | • Select an appropriate tax code that falls under the Person Exempted in **Schedule C ONLY** (must be declared in SST-02). |
 |                | • Schedule C tax code: PEC1, PEC2, PEC3, PEC4, PEC5                                                                        |
-|                | • Lookup: [Maintain Tax](../../usage/gst-and-sst/gst#maintain-tax)                                                         |
+|                | • Lookup: [Maintain Tax](../../usage/gst/gst-maintain-tax.md)                                                         |
 
 #### Bank Account
 
