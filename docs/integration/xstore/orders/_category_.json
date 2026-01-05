@@ -1,8 +1,9 @@
 {
-    "label": "Orders",
+    "label": "Order",
     "position": 109,
     "link": {
         "type": "generated-index",
-        "description": "A guide on Orders module"
+        "slug": "/integration/x-store/orders-category",
+        "description": "A guide on Order module"
     }
 }

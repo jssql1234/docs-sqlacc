@@ -2,6 +2,7 @@
     "label": "X-Store",
     "link": {
         "type": "generated-index",
+        "slug": "/integration/x-store-category",
         "description": "Omnichannel commerce platform and integrations"
     }
 }

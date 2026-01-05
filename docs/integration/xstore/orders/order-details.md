@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Order Detail
 description: Guide to managing order details and actions in XStore
 slug: /integration/xstore/order-details
-tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Order Detail"]
+tags: ["e-Commerce", "X-Store", "Order Detail"]
 ---
 
 The **Order Detail** module allows you to view individual order information and perform actions such as cancellations, returns, and refunds.

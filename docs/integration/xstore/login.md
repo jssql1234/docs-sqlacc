@@ -3,7 +3,7 @@ sidebar_position: 105
 title: Sign In
 description: A guide on Sign In
 slug: /integration/xstore/login
-tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Sign In"]
+tags: ["e-Commerce", "X-Store", "Sign In"]
 ---
 
 :::info

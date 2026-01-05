@@ -3,7 +3,7 @@ sidebar_position: 110
 title: Payments
 description: A guide on Payments
 slug: /integration/xstore/payments
-tags: ["SQL Account", "Integration", "e-Commerce", "XStore", "Payments"]
+tags: ["e-Commerce", "X-Store", "Payments"]
 ---
 
 The **Manage Payments** page allows you to view and manage all payment details. The number below the table shows the **total number** of transactions or orders in the data table based on the view options.
