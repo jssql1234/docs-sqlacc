@@ -3,7 +3,7 @@ title: Item Template
 sidebar_position: 4
 description: A guide to item template for SQL POS System
 slug: /integration/pos/item-template
-tags: ["SQL Account", "POS"]
+tags: ["POS", "Item", "Template"]
 ---
 
 ## SQL Account

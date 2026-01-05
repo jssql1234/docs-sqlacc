@@ -3,7 +3,7 @@ title: POS - Weighing Scale
 sidebar_position: 10
 description: A guide to setup Weighing Scale for SQL POS System
 slug: /integration/pos/weighing-scale
-tags: ["SQL Account", "POS"]
+tags: ["POS", "Item", "Weighing Scale"]
 ---
 
 ## Maintain Stock Item

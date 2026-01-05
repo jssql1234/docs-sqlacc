@@ -3,7 +3,7 @@ sidebar_position: 6
 title: WooCommerce
 description: A guide on WooCommerce for SQL Account
 slug: /integration/ecommerce/woocommerce
-tags: ["SQL Account", "Integration", "e-Commerce", "WooCommerce"]
+tags: ["e-Commerce", "WooCommerce"]
 ---
 
 ## Maintain Cloud Account

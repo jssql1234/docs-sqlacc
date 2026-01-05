@@ -3,8 +3,8 @@ sidebar_position: 1
 id: stock-take
 title: Stock Take App
 description: Stock Take application guide
-slug: /stock-take-mobile-app/stock-take
-tags: ["SQL Account", "Stock"]
+slug: /integration/stock-take-mobile-app/stock-take
+tags: ["Stock Take", "Stock", "Setup"]
 ---
 
 ## Introduction

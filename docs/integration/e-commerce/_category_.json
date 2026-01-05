@@ -2,6 +2,7 @@
     "label": "E-Commerce",
     "link": {
         "type": "generated-index",
+        "slug": "/integration/e-commerce-category",
         "description": "E-Commerce Integration"
     }
 }

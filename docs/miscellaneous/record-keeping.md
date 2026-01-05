@@ -2,7 +2,7 @@
 title: Record Keeping
 description: Record keeping details
 slug: /miscellaneous/record-keeping
-tags: ["SQL Account","Record Keeping"]
+tags: ["Record Keeping"]
 ---
 
 Criteria to kept the records are:

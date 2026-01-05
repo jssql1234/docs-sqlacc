@@ -4,7 +4,7 @@ id: document-item-flow
 title: Document Item Flow
 description: A quick guide on Document Item Flow for SQL Account
 slug: /miscellaneous/document-item-flow
-tags: ["SQL Account", "Document", "Item flow"]
+tags: ["Document", "Item flow"]
 ---
 
 <!-- # Document Item Flow -->

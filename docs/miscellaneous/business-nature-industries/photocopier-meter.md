@@ -3,7 +3,7 @@ sidebar_position: 2
 id: photocopier-meter
 title: Photocopier Meter
 description: A guide to get price of photocopier meter in quotation
-slug: /business-nature-industries/photocopier-meter
+slug: /miscellaneous/business-nature-industries/photocopier-meter
 tags: ["Photocopier Meter"]
 ---
 

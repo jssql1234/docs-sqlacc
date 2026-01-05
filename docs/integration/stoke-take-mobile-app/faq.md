@@ -2,8 +2,8 @@
 sidebar_position: 3
 title: FAQ
 description: Stock Take FAQ
-slug: /stock-take-mobile-app/faq
-tags: ["SQL Account", "Stock","FAQ"]
+slug: /integration/stock-take-mobile-app/faq
+tags: ["Stock Take", "Stock", "FAQ"]
 ---
 
 ## How to Reset/Start New Batch/Job of Stock Take?

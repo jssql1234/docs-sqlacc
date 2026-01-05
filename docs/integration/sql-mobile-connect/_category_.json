@@ -3,6 +3,7 @@
     "position": 1,
     "link": {
         "type": "generated-index",
+        "slug": "/integration/sql-mobile-connect-category",
         "description": "A quick guide on SQL Mobile Connect for SQL Account"
     }
 }

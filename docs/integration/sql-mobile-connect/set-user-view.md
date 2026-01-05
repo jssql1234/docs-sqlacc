@@ -3,8 +3,8 @@ sidebar_position: 3
 id: set-user-view
 title: Set User View
 description: A guide to set user view for SQL Mobile Connect
-slug: /sql-mobile-connect/set-user-view
-tags: ["SQL Account", "SQL Mobile Connect", "Setup", "User View", "View Template"]
+slug: /integration/sql-mobile-connect/set-user-view
+tags: ["SQL Mobile Connect", "Setup", "User View", "View Template"]
 ---
 
 ## Set User View

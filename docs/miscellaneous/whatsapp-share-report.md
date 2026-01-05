@@ -4,7 +4,7 @@ id: whatsapp-share-report
 title: Whatsapp Share - Report
 description: A quick guide on Whatsapp Share - Report for SQL Account
 slug: /miscellaneous/whatsapp-share-report
-tags: ["SQL Account", "Whatsapp", "Report"]
+tags: ["Whatsapp", "Report"]
 ---
 
 <!-- ![1](../../static/img/miscellaneous/whatsapp-share-report/1.png) -->

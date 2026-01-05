@@ -2,7 +2,7 @@
 title: RHB Reflex
 description: RHB Reflex Premium Plus Linking integration
 slug: /integration/banks/rhb
-tags: ["SQL Account", "Integration", "Bank", "RHB", "Bank Reconciliation"]
+tags: ["Bank", "RHB", "Bank Reconciliation", "Payment"]
 ---
 
 ## Linking Setup

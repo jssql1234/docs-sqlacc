@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Introduction
 description: A guide to system requirements for SQL POS System
 slug: /integration/pos/introduction
-tags: ["SQL Account", "POS"]
+tags: ["POS", "System requirement", "System"]
 ---
 
 ![1](../../../static/img/integration/pos/intro/pos.png)

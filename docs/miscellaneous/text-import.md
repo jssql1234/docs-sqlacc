@@ -4,7 +4,7 @@ id: text-import-utility
 title: Text Import Utility Guide
 description: A quick guide on Text Import Utility for SQL Account
 slug: /miscellaneous/text-import
-tags: ["SQL Account", "Text", "Import"]
+tags: ["Text", "Import", "Guide"]
 ---
 
 ## Text Import Step

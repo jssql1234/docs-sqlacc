@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Lazada
 description: A guide on Lazada for SQL Account
 slug: /integration/ecommerce/lazada
-tags: ["SQL Account", "Integration", "e-Commerce", "Lazada"]
+tags: ["e-Commerce", "Lazada"]
 ---
 
 ## Maintain Cloud Account

@@ -3,7 +3,7 @@ sidebar_position: 2
 title: EasyStore
 description: A guide on EasyStore for SQL Account
 slug: /integration/ecommerce/easystore
-tags: ["SQL Account", "Integration", "e-Commerce", "EasyStore"]
+tags: ["e-Commerce", "EasyStore"]
 ---
 
 ## Maintain Cloud Account

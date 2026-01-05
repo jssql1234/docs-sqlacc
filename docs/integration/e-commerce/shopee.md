@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Shopee
 description: A guide on Shopee for SQL Account
 slug: /integration/ecommerce/shopee
-tags: ["SQL Account", "Integration", "e-Commerce", "Shopee"]
+tags: ["e-Commerce", "Shopee"]
 ---
 
 ## Maintain Cloud Account
