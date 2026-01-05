@@ -270,7 +270,7 @@ GST-03 item 16 Capital Goods Acquired = Rm75,000.
    | Machinery        | 63,000.00 |           |
    | Oversea supplier |           | 63,000.00 |
 
-2. When it comes to the forwarder bill after declaring the import goods, you must follow our GST Import Goods guideline. Refer to this link [1](../../usage/gst-and-sst/gst#gst-treatment-import-goods-im).
+2. When it comes to the forwarder bill after declaring the import goods, you must follow our GST Import Goods guideline. Refer to this link [1](../../usage/gst/gst-treatment.md#import-goods-im).
 
 3. You just have to select Fixed Asset Account at the item line updated from the GST Imports screen. (**Don't worry, Rm75,000 fixed asset will not post into your account book**). See the screenshot attached.
 
