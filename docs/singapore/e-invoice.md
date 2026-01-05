@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: InvoiceNow GST
 description: A guide for E-Invoicing for Singapore SQL User
-slug: /singapore/invoicenow
+slug: /singapore/invoice-now
 tags: ["SQL Account", "Singapore", "InvoiceNow"]
 ---
 
