@@ -2,10 +2,9 @@
 id: db-shutdown
 title: Database Shutdown Error
 description: Fix database shutdown error for SQL Account
-slug: /troubleshoooting/fix-database-shutdown
-tags: ["SQL Account", "Troubleshooting"]
+slug: /troubleshooting/db-shutdown
+tags: ["Troubleshooting", "Database Shutdown"]
 ---
-
 ## Cause
 
 1. Database did not shutdown properly

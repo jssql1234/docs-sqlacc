@@ -2,10 +2,9 @@
 id: perf-speed-improve
 title: Performance Improvement for Domain Controller Service (Windows 2012 Server OS)
 description: A guide to performance improvement for Domain Controller Service (Windows Server OS) for SQL Account
-slug: /performance-improvement-for-domain-controller-service
-tags: ["SQL Account", "Troubleshooting"]
+slug: /troubleshooting/perf-speed-improve
+tags: ["Troubleshooting", "Performance Improvement"]
 ---
-
 ## Solution A (not recommended)
 
 1. Right click on the primary Hard Disc (eg. C:\), click to Properties\Hardware \Properties.

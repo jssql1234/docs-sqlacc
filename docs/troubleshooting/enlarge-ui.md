@@ -3,10 +3,9 @@ sidebar_position: 5
 id: enlarge-ui
 title: Enlarging UI Screen
 description: Enlarge UI screen in SQL Account
-slug: /troubleshooting/enlarge-ui-screen
-tags: ["SQL Account", "Troubleshooting", "Enlarge UI Screen"]
+slug: /troubleshooting/enlarge-ui
+tags: ["Troubleshooting", "Enlarge UI"]
 ---
-
 ## For Windows 10
 
 1. Right click on an empty area of your Desktop
