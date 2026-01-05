@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Multi User Setup
 description: Setup network sharing to enable multiple user access to single database server
 slug: /getting-started/multi-user-setup
-tags: ["SQL Account", "Getting Started", "Network Setting"]
+tags: ["Network Setting","Multi User","Setup Network","Client and Server"]
 ---
 
 For a multi-user scenario, a separated database server is recommended. It will serve as the main database for multiple users to access concurrently.

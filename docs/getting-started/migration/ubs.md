@@ -4,7 +4,7 @@ id: migrate-from-ubs
 title: Migrate from UBS
 description: Migrate from UBS
 slug: /getting-started/migration/ubs
-tags: ["SQL Account", "Migration"]
+tags: ["UBS", "Data Migration","Migration","Other Software"]
 ---
 
 ## Module that can be import from UBS

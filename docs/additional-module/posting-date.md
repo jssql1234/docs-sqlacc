@@ -2,7 +2,7 @@
 title: Posting Date
 description: A guide about posting date for SQL Account
 slug: /additional-module/posting-date
-tags: ["SQL Account", "Additional Module"]
+tags: ["Additional Module","Post Date","Posting Date"]
 ---
 
 ## Double Date

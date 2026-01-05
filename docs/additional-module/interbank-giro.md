@@ -2,7 +2,7 @@
 title: Supplier Payment Interbank GIRO
 description: Interbank GIRO
 slug: /additional-module/interbank-giro
-tags: ["SQL Account", "Additional Module"]
+tags: ["Interbank GIRO","Bank File Format","Supplier Bank Account","Print Supplier Document Listing", "Excel Format", "Additional Module"]
 ---
 ## Prerequisite
 

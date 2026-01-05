@@ -3,6 +3,7 @@
     "position": 5,
     "link": {
         "type": "generated-index",
-        "description": "Migrate from other accounting software."
+        "description": "Migrate from other accounting software.",
+        "slug": "/getting-started/migration-category"
     }
 }

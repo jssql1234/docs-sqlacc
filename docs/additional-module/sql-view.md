@@ -2,7 +2,7 @@
 title: SQL View Branch Control
 description: A guide about SQL View branch control for SQL Account
 slug: /additional-module/sql-view-branch-control
-tags: ["SQL Account", "Additional Module"]
+tags: ["Additional Module","Branch Control","Maintain DIY","View Template","SQL View"]
 ---
 
 ## Branch Control Module

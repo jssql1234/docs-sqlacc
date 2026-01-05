@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
+tags: ["SQL Account"]
 ---
 
 # Introduction

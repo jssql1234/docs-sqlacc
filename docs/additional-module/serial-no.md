@@ -2,7 +2,7 @@
 title: Serial No Module
 description: A guide about serial no module for SQL Account
 slug: /additional-module/serial-no
-tags: ["SQL Account", "Additional Module"]
+tags: ["Additional Module","Serial Number","Serial No","Maintain Stock Item","Serial No Report"]
 ---
 
 ## Instruction
