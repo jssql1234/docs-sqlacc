@@ -2,10 +2,9 @@
 id: maintain-diff-ver
 title: Maintain 2 different version in 1 PC
 description: A guide to maintain 2 different version in 1 PC for SQL Account
-slug: /maintain-2-different-version-in-1-PC
-tags: ["SQL Account", "Troubleshooting"]
+slug: /troubleshooting/maintain-diff-ver
+tags: ["Troubleshooting", "Maintain Different Versions"]
 ---
-
 ## Instruction to Setup
 
 For example: version 4 (728) and version 5 (743)

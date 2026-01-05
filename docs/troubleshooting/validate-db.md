@@ -2,8 +2,8 @@
 id: validate-db
 title: How to validate database with SQL Diagnosis Utility
 description: A guide to validate database using SQL Diagnosis Utility for SQL Account
-slug: /troubleshooting/validate-database-using-diagnosis-utility
-tags: ["SQL Account", "Troubleshooting"]
+slug: /troubleshooting/validate-db
+tags: ["Troubleshooting", "Validate Database"]
 ---
 ## Steps & Instruction
 

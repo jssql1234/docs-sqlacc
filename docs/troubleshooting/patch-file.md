@@ -2,10 +2,9 @@
 id: patch-file
 title: How to do Patch File using SQL Diagnosis Utility
 description: A guide to fix database shutdown error for SQL Account
-slug: /troubleshooting/how-to-do-patch-file-using-diagnosis-utility
-tags: ["SQL Account", "Troubleshooting"]
+slug: /troubleshooting/patch-file
+tags: ["Troubleshooting", "Patch File Guide"]
 ---
-
 ## Steps & Instruction
 
 :::note SITUATION

@@ -2,10 +2,9 @@
 id: reset-pwd-form
 title: Admin Password Reset
 description: Administrator password reset procedure
-slug: /troubleshooting/reset-password-form
-tags: ["SQL Account", "Troubleshooting"]
+slug: /troubleshooting/reset-pwd-form
+tags: ["Troubleshooting", "Reset Password Form"]
 ---
-
 ## Reset Admin Password
 
 In this guide, you will find the Reset Password Form for SQL Account.
