@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Lazada vs Shopee
 description: Difference between Shopee and Lazada order posting into SQL Account
 slug: /integration/ecommerce/lazada-vs-shopee
-tags: ["SQL Account", "Integration", "e-Commerce", "Posting order", "Shopee", "Lazada"]
+tags: ["e-Commerce", "Posting order", "Shopee", "Lazada"]
 ---
 
 ## Difference between Shopee and Lazada order posting into SQL Account

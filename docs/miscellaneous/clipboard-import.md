@@ -3,7 +3,7 @@ title: Clipboard Excel Import
 id: clipboard-import
 description: A guide about clipboard excel import for SQL Account
 slug: /miscellaneous/clipboard-import
-tags: ["SQL Account", 'Import']
+tags: ["Import", "Clipboard", "Excel"]
 form_name: TfmClipboardImport
 ---
 

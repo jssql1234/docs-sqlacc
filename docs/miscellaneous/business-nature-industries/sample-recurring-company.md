@@ -3,7 +3,7 @@ sidebar_position: 4
 id: sample-recurring-company
 title: Sample Recurring Company
 description: sample recurring company
-slug: /business-nature-industries/sample-recurring-company
+slug: /miscellaneous/business-nature-industries/sample-recurring-company
 tags: ["Sample Recurring", "Company"]
 ---
 

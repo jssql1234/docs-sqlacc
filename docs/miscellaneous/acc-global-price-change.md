@@ -4,7 +4,7 @@ id: acc-global-price-change
 title: Acc Global Price Change Guide
 description: A quick guide on Acc Global Price Change for SQL Account
 slug: /miscellaneous/acc-global-price-change
-tags: ["SQL Account", "Text", "Import"]
+tags: ["Text", "Import", "Price"]
 ---
 
 ## Import Program

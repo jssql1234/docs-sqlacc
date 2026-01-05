@@ -3,7 +3,7 @@ sidebar_position: 3
 title: SQL Acc Samsung Export
 description: SQL Acc Samsung Export
 slug: /miscellaneous/third-party-export/samsung-export
-tags: ["SQL Account","Samsung" , "Export"]
+tags: ["Samsung", "Export"]
 ---
 ## Introduction
 

@@ -4,7 +4,7 @@ id: import-list
 title: List of Accounting can be import to SQL Accounting
 description: List of Accounting can be import to SQL Accounting 
 slug: /miscellaneous/list-acc-import
-tags: ["SQL Account", "Export", "Import"]
+tags: ["Import", "Accounting"]
 ---
 
 

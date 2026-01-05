@@ -4,7 +4,7 @@ id: whatsapp-share
 title: Whatsapp Share - Coordination
 description: A quick guide on Whatsapp Share - Coordination for SQL Account
 slug: /miscellaneous/whatsapp-share
-tags: ["SQL Account", "Whatsapp"]
+tags: ["Whatsapp", "Coordinate", "Google Map"]
 ---
 
 ### 1. Coordinate

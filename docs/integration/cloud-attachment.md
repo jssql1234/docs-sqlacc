@@ -2,10 +2,10 @@
 title: Cloud Attachment
 description: Cloud attachment setup
 slug: /integration/cloud-attachment
-tags: ["SQL Account", "Integration", "Attachment"]
+tags: ["Cloud", "Attachment"]
 ---
 
-### Activation
+## Activation
 
    1. In SQL Account, navigate to **File > Company Profile...**
 
@@ -25,7 +25,7 @@ tags: ["SQL Account", "Integration", "Attachment"]
 
    6. After granted, your account is connected.
 
-### Add Cloud Attachment
+## Add Cloud Attachment
 
    1. Click on **Attachments**.
 

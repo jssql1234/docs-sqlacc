@@ -2,7 +2,7 @@
 title: AI EasyScan
 description: A guide about AI EasyScan for SQL Account
 slug: /miscellaneous/ai-easyscan
-tags: ["SQL Account"]
+tags: ["AI Easy Scan", "OCR", "Whatsapp"]
 form_name: TfmWhatsappScan
 ---
 
@@ -84,13 +84,25 @@ AI will assign the items with the following predefined account code when the inv
 
 ## Usage
 
-1. [Upload File to WhatsApp](#upload-file-to-whatsapp)
-2. [Check OCR Status](#check-ocr-status)
-3. [Group Files](#group-files)
-4. [Assign Doc Type and Category to File or Folder](#assign-doc-type-and-category-to-file-or-folder)
-5. [Create New Document](#create-new-document)
-6. [Attach File(s) or Folder(s) to Existing Document](#attach-files-or-folders-to-existing-document)
-7. [Check Posted File or Folder](#check-posted-file-or-folder)
+- [Pre-requisite](#pre-requisite)
+  - [Setup OCR Category](#setup-ocr-category)
+  - [Setup User Mobile Number](#setup-user-mobile-number)
+  - [Registration](#registration)
+- [Usage](#usage)
+  - [Upload File to WhatsApp](#upload-file-to-whatsapp)
+  - [Check OCR Status](#check-ocr-status)
+  - [Group Files](#group-files)
+  - [Assign Doc Type and Category to File or Folder](#assign-doc-type-and-category-to-file-or-folder)
+  - [Create New Document](#create-new-document)
+  - [Attach File(s) or Folder(s) to Existing Document](#attach-files-or-folders-to-existing-document)
+  - [Check Posted File or Folder](#check-posted-file-or-folder)
+- [Additional Information](#additional-information)
+  - [Edit Filename and Caption](#edit-filename-and-caption)
+  - [Batch Edit Doc Type and Caption](#batch-edit-doc-type-and-caption)
+  - [Switch System Layout](#switch-system-layout)
+  - [Multi Companies](#multi-companies)
+  - [Share File](#share-file)
+  - [Delete File](#delete-file)
 
 ### Upload File to WhatsApp
 

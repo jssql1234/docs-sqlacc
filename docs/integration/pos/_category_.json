@@ -2,6 +2,7 @@
     "label": "POS",
     "link": {
         "type": "generated-index",
+        "slug": "/integration/pos-category",
         "description": "SQL Account guide on SQL POS"
     }
 }

@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Tiktok
 description: A guide on Tiktok for SQL Account
 slug: /integration/ecommerce/tiktok
-tags: ["SQL Account", "Integration", "e-Commerce", "Tiktok"]
+tags: ["e-Commerce", "Tiktok"]
 ---
 
 

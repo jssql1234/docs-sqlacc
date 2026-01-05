@@ -4,7 +4,7 @@ id: acc-cash-register-import
 title: Acc Cash Register Import Guide
 description: A quick guide on Acc Global Price Change for SQL Account
 slug: /miscellaneous/acc-cash-register-import
-tags: ["SQL Account", "Text", "Import"]
+tags: ["Text", "Import"]
 ---
 
 ## Supported Model

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: SQL Acc Michelin Export
 description: SQL Acc Michelin Export
 slug: /miscellaneous/third-party-export/michelin-export
-tags: ["SQL Account","Michelin" , "Export"]
+tags: ["Michelin", "Export"]
 ---
 
 ## Introduction

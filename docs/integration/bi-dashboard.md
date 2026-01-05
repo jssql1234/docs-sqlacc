@@ -2,7 +2,7 @@
 title: BI Dashboard
 description: SQL Business Intelligence Dashboard
 slug: /integration/bi-dashboard
-tags: ["SQL Accounting", "BI Dashboard", "Integration"]
+tags: ["BI Dashboard"]
 ---
 
 :::info

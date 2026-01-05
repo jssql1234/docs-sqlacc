@@ -3,8 +3,8 @@ sidebar_position: 99
 id: sql-account-api-faq
 title: FAQ
 description: Frequently Asked Questions (FAQ) in SQL Accounting API
-slug: /sql-account-api/faq
-tags: ["SQL Account", "SQL Account API"]
+slug: /integration/sql-account-api/faq
+tags: ["SQL Account API", "API", "FAQ"]
 ---
 
 ## Error: Record has been changed by another user

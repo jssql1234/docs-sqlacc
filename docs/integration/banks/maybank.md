@@ -2,7 +2,7 @@
 title: Maybank
 description: Maybank2u linking integration
 slug: /integration/banks/maybank
-tags: ["SQL Account", "Linking", "Bank", "Maybank", "Bank Reconciliation"]
+tags: ["Bank", "Maybank", "Bank Reconciliation"]
 ---
 
 ## Update BRN Number

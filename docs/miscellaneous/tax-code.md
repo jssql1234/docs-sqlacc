@@ -2,7 +2,7 @@
 title: Tax Code
 description: List of tax code
 slug: /miscellaneous/tax-code
-tags: ["SQL Account","Tax Code"]
+tags: ["Tax Code", "SST"]
 ---
 
 

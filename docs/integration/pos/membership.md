@@ -3,7 +3,7 @@ title: Membership
 sidebar_position: 5
 description: A guide to setup membership for SQL POS System
 slug: /integration/pos/memebrship
-tags: ["SQL Account", "POS"]
+tags: ["POS", "Membership", "Voucher"]
 ---
 
 ## Setting

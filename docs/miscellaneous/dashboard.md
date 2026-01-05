@@ -4,7 +4,7 @@ id: sql-internal-dashboard
 title: Dashboard
 description: Internal dashboard info
 slug: /miscellaneous/internal-dashboard
-tags: ["SQL Account", "Dashboard"]
+tags: ["Dashboard", "Cash Flow", "Ratio Analysis", "Outstanding Orders", "Top Product", "P&L"]
 ---
 
 SQL Account has a dashboard built-in to visualize:

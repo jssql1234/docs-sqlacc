@@ -3,8 +3,8 @@ sidebar_position: 1
 id: on-premise-setup
 title: On-Premise Setup
 description: A guide to setup sql mobile connect on-premise
-slug: /sql-mobile-connect/on-premise-setup
-tags: ["SQL Account", "SQL Mobile Connect", "On-Premise Setup"]
+slug: /integration/sql-mobile-connect/on-premise-setup
+tags: ["SQL Mobile Connect", "On-Premise Setup"]
 ---
 
 ## Prerequisites

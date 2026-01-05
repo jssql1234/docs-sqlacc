@@ -4,7 +4,7 @@ id: photocopier
 title: Photocopier Guide
 description: A guide to use photocopier
 slug: /miscellaneous/business-nature-industries/PhotocopierGuide
-tags: ["Photocopier Meter"]
+tags: ["Photocopier", "Guide"]
 ---
 
 This Customisation is for the company who provide service on photocopier Machine

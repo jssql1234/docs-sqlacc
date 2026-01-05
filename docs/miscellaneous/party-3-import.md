@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Third Party Import
 description: A guide about Third Party Import for SQL Account
 slug: /miscellaneous/party-3-import
-tags: ["SQL Account", 'Import']
+tags: ["Import", "Third Party", "Mamee", "F&N", "Unilever", "Dryper", "SLPH"]
 ---
 
 ## Mamee

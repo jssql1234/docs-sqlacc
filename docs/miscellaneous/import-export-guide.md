@@ -4,7 +4,7 @@ id: import-export-guide
 title: XML Import & Export Guide
 description: A quick guide on Import and Export for SQL Account
 slug: /miscellaneous/import-export-guide
-tags: ["SQL Account", "Export", "Import"]
+tags: ["Export", "Import", "XML", "faq"]
 ---
 
 import '@src/css/sidebar.css';
