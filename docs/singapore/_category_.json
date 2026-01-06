@@ -3,6 +3,7 @@
     "position": 8,
     "link": {
         "type": "generated-index",
+        "slug": "/singapore",
         "description": "Special guideline for Singapore SQL user"
     }
 }
