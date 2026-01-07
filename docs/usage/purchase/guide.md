@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: A guideline for Purchase Data Entry
 slug: /usage/purchase/guide
-tags: ["SQL Account", "Usage", "Purchase", "Guide"]
+tags: ["Purchase Management", "Order Processing", "Inventory"]
 ---
 
 ## Purchase Workflow

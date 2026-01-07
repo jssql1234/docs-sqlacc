@@ -3,6 +3,7 @@
     "position": 3,
     "link": {
         "type": "generated-index",
+        "slug": "/usage/general-ledger-category",
         "description": "SQL Account GL Guide"
     }
 }

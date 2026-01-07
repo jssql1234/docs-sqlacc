@@ -3,7 +3,7 @@ sidebar_position: 3
 title: E-Invoice
 description: A guide on E-Invoice
 slug: /usage/myinvois/e-invoice
-tags: ["SQL Account", "Usage", "MyInvois", "E-Invoice", "Submission"]
+tags: ["E-Invoice", "Submission", "Compliance"]
 ---
 
 Submitting E-Invoices via SQL Account is seamless and integrates smoothly with your existing workflow.

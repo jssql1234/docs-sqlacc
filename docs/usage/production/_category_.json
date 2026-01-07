@@ -3,6 +3,7 @@
     "position": 9,
     "link": {
         "type": "generated-index",
+        "slug": "/usage/production-category",
         "description": "SQL Account Production Guide"
     }
 }

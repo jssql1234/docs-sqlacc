@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Mandatory Fields
 description: update fields for e-invoice usage
 slug: /usage/myinvois/mandatory-fields
-tags: ["SQL Account", "Usage", "MyInvois", "E-Invoice", "Customer", "Stock"]
+tags: ["E-Invoice", "Data Setup", "Configuration"]
 ---
 
 Before issuing an E-Invoice or self-billed E-Invoice, you need to make sure some mandatory fields are updated correctly.

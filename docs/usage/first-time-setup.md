@@ -3,7 +3,7 @@ sidebar_position: 1
 title: First Time Setup
 description: Setup financial year and start SST
 slug: /usage/first-time-setup
-tags: ["SQL Account", "Usage", "Setup"]
+tags: [ "Setup", "Tariff"]
 ---
 
 ## Financial Period & System Conversion Date

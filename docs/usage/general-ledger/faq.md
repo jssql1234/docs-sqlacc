@@ -3,7 +3,7 @@ sidebar_position: 3
 title: FAQ
 description: General Ledger FAQ Info
 slug: /usage/general-ledger/faq
-tags: ["SQL Account", "Usage", "FAQ"]
+tags: ["Troubleshooting", "Banking", "Financial Management"]
 ---
 
 ## Trial Balance Issues

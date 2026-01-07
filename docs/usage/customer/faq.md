@@ -3,7 +3,7 @@ sidebar_position: 3
 title: FAQ
 description: Frequently asked questions and troubleshooting for Customer (AR) management.
 slug: /usage/customer/faq
-tags: ["SQL Account", "Usage", "Customer", "FAQ"]
+tags: ["Troubleshooting", "Payments", "Currency Management"]
 ---
 
 ## Bounced Payments in Foreign Currencies

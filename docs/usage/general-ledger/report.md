@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Reports
 description: General Ledger Report Info
 slug: /usage/general-ledger/report
-tags: ["SQL Account", "Usage"]
+tags: ["Financial Reports", "Financial Statements", "Accounting"]
 ---
 
 ## Print Ledger Report

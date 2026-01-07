@@ -3,7 +3,7 @@ sidebar_position: 2
 title: FAQ
 description: Frequently Asked Questions in report builder
 slug: /usage/tools/rtm/faq
-tags: ["SQL Account", "Usage", "Tools"]
+tags: ["Troubleshooting", "RTM", "Report Design"]
 ---
 
 ## How to rename the component I use?

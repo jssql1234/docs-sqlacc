@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: General Ledger Info
 slug: /usage/general-ledger/guide
-tags: ["SQL Account", "Usage"]
+tags: ["Account Setup", "Transactions", "Banking"]
 ---
 
 ## Maintain Account

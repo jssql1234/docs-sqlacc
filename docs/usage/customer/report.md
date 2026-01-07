@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Reports
 description: All kind of customer reports and it's purpose
 slug: /usage/customer/report
-tags: ["SQL Account", "Usage", "Customer", "Reports"]
+tags: ["Reports", "Account Receivable", "Customer Management"]
 ---
 
 ## Print Customer Document Listing

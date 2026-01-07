@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: Sales work flow
 slug: /usage/sales/guide
-tags: ["SQL Account", "Usage", "Sales"]
+tags: ["Sales Management", "Order Processing", "Transactions"]
 ---
 
 ## Sales Workflow

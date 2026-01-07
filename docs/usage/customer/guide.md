@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: Customer workflow and management in SQL Account
 slug: /usage/customer/guide
-tags: ["SQL Account", "Usage", "Customer", "AR"]
+tags: ["Account Receivable", "Customer Management", "Transactions"]
 ---
 
 ## Customer Guide (Account Receivable)

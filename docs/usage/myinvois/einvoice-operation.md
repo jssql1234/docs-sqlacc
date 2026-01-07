@@ -3,7 +3,7 @@ sidebar_position: 4
 title: E-Invoice Operation
 description: A guide on E-Invoice Operation
 slug: /usage/myinvois/e-invoice-operation
-tags: ["SQL Account", "Usage", "MyInvois", "E-Invoice", "Submission"]
+tags: ["E-Invoice", "Operations", "Submission"]
 ---
 
 ## Submission

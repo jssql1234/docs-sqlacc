@@ -3,7 +3,7 @@ sidebar_position: 2
 title: FAQ
 description: Frequently Asked Questions in fast report
 slug: /usage/tools/fast-report/faq
-tags: ["SQL Account", "Usage", "Tools"]
+tags: ["Troubleshooting", "Report Design", "Configuration"]
 ---
 
 ## 1. When Unit price is 0, how to display it as Free of Charge (FOC) ?

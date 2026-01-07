@@ -3,7 +3,7 @@ sidebar_position: 3
 title: FAQ
 description: FAQ
 slug: /usage/purchase/faq
-tags: ["SQL Account", "Usage", "Purchase", "FAQ"]
+tags: ["Troubleshooting", "User Access", "Configuration"]
 ---
 
 ## 1. Why are the Unit Price and Subtotal missing in the Goods Received Note/Invoice even after granting "Show Cost" rights?
