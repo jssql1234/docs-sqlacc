@@ -66,13 +66,3 @@ tags: ["e-Commerce", "X-Store", "Inventory"]
    :::info
    Ensure your store is mapped to the correct stock item location, or mapped items won't appear.
    :::
-
-<!-- ### Update Quantity
-
-1. Click the **+/-** icon to update the e-commerce platform product quantity
-
-   ![12](../../../static/img/xstore/inventory/update-quantity.png)
-
-   :::info
-   The e-commerce platform quantity is based on the current quantity of stock items in the location mapped to your store.
-   ::: -->
