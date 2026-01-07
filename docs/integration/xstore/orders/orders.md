@@ -8,7 +8,7 @@ tags: ["e-Commerce", "X-Store", "Orders"]
 
 The **Order** module allows you to view, process, and manage orders from all your connected e-commerce platforms (Lazada, Shopee, TikTok, etc.) in one centralized location.
 
-![Order Management Page](../../../../static/img/xstore/orders/order-page.png)
+![order-management-page](../../../../static/img/xstore/orders/order-page.png)
 
 To access this page, navigate to **Orders** in the sidebar menu.
 
@@ -37,7 +37,7 @@ The Order Management interface is organized into tabs representing each stage of
 
 ## Order Statuses
 
-![Order Status Tabs](../../../../static/img/xstore/orders/order-statuses.png)
+![order-status-tabs](../../../../static/img/xstore/orders/order-statuses.png)
 
 Orders are categorized into the following status tabs:
 
@@ -62,7 +62,7 @@ The order processing flow moves through several stages. Different actions are av
 
 ### Step 1: Pack New Orders
 
-![Pack Orders](../../../../static/img/xstore/orders/pack-order.png)
+![pack-orders](../../../../static/img/xstore/orders/pack-order.png)
 
 1. Select orders by clicking the checkbox next to each order
 2. Click the **Pack** button
@@ -72,13 +72,13 @@ The order processing flow moves through several stages. Different actions are av
 
 ### Step 2: Process Orders for Shipping
 
-![To Process Tab](../../../../static/img/xstore/orders/order-to-process.png)
+![to-process-tab](../../../../static/img/xstore/orders/order-to-process.png)
 
 1. Select the orders you want to process by checking the boxes
 
 2. **Print Picking Documents:**
 
-   ![Picking List Options](../../../../static/img/xstore/orders/pickinglist-doc.png)
+   ![picking-list-options](../../../../static/img/xstore/orders/pickinglist-doc.png)
 
    Use the **Action** dropdown to print:
 
@@ -95,12 +95,12 @@ The order processing flow moves through several stages. Different actions are av
 
 Use this feature to quickly verify and ship orders by scanning.
 
-![Scan to Ship Interface](../../../../static/img/xstore/orders/scan-to-ship-empty.png)
+![scan-to-ship-interface](../../../../static/img/xstore/orders/scan-to-ship-empty.png)
 
 1. Click on the screen and scan the barcode from the picking list
 2. **Alternative:** Type the barcode number manually and press Enter
 
-![Scanned Orders](../../../../static/img/xstore/orders/scan-to-ship.png)
+![scanned-orders](../../../../static/img/xstore/orders/scan-to-ship.png)
 
 **Available Actions:**
 
@@ -111,9 +111,9 @@ Use this feature to quickly verify and ship orders by scanning.
 
 ### Step 4: Ship Orders & Print Documentation
 
-![To Ship Tab](../../../../static/img/xstore/orders/to-ship.png)
+![to-ship-tab](../../../../static/img/xstore/orders/to-ship.png)
 
-![Action Menu](../../../../static/img/xstore/orders/to-ship-action.png)
+![action-menu](../../../../static/img/xstore/orders/to-ship-action.png)
 
 **Available Actions:**
 
@@ -124,7 +124,7 @@ Use this feature to quickly verify and ship orders by scanning.
 
 **Seller Own Fulfillment (SOF):**
 
-![Mark as Delivered](../../../../static/img/xstore/orders/mark-as-delivered.png)
+![mark-as-delivered](../../../../static/img/xstore/orders/mark-as-delivered.png)
 
 If you handle delivery yourself:
 
@@ -136,7 +136,7 @@ If you handle delivery yourself:
 
 ### Step 5: Post Completed Orders to SQL Account
 
-![Completed Orders](../../../../static/img/xstore/orders/completed.png)
+![completed-orders](../../../../static/img/xstore/orders/completed.png)
 
 Once orders reach **Shipped**, **Delivered**, or **Completed** status:
 

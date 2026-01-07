@@ -20,7 +20,7 @@ The Order Details interface allows you to:
 - Perform order actions (cancel, return, refund)
 - Map order items to stock items
 
-![Order Detail Overview](../../../../static/img/xstore/order-details/order-detail-overview.png)
+![order-detail-overview](../../../../static/img/xstore/order-details/order-detail-overview.png)
 
 > **Quick Feature:** Use the mapping button to quickly link order items to your stock items directly from this page.
 
@@ -40,12 +40,12 @@ Each e-commerce platform has unique order detail layouts and available actions. 
 
 ### Order Detail Page
 
-![Lazada Order Detail](../../../../static/img/xstore/order-details/lazada/order-detail.png)
+![lazada-order-detail](../../../../static/img/xstore/order-details/lazada/order-detail.png)
 
 The order information section displays:
 
 | Section              | Details                                     |
-|----------------------|---------------------------------------------|
+| -------------------- | ------------------------------------------- |
 | **Order Details**    | Order ID, Shop ID, Payment Method           |
 | **Payment Details**  | Currency, Payment Time                      |
 | **Shipment Details** | Provider type, Shipping type, address, etc. |
@@ -53,23 +53,23 @@ The order information section displays:
 
 Order items are grouped by package and tracking ID.
 
-![Lazada Cancelled Order Item](../../../../static/img/xstore/order-details/lazada/cancelled-order-item.png)
+![lazada-cancelled-order-item](../../../../static/img/xstore/order-details/lazada/cancelled-order-item.png)
 
 > **Note:** Cancelled items display a red badge indicating the cancellation reason.
 
 ### Return Order Info
 
-![Lazada Return Order Info](../../../../static/img/xstore/order-details/lazada/return-order-info.png)
+![lazada-return-order-info](../../../../static/img/xstore/order-details/lazada/return-order-info.png)
 
 ### Cancel Order Info
 
-![Lazada Cancel Order Info](../../../../static/img/xstore/order-details/lazada/cancel-order-info.png)
+![lazada-cancel-order-info](../../../../static/img/xstore/order-details/lazada/cancel-order-info.png)
 
 ---
 
 ### Repack Order
 
-![Lazada Repack Order](../../../../static/img/xstore/order-details/lazada/repack-order.png)
+![lazada-repack-order](../../../../static/img/xstore/order-details/lazada/repack-order.png)
 
 **Available for:** Orders in the **To Process** tab
 
@@ -79,7 +79,7 @@ Use the Repack action to repack specific items in the order after cancellation o
 
 ### Cancel Order (Seller-Initiated)
 
-![Lazada Cancel Order Button](../../../../static/img/xstore/order-details/lazada/seller-cancel-order.png)
+![lazada-cancel-order-button](../../../../static/img/xstore/order-details/lazada/seller-cancel-order.png)
 
 **Available for:** Orders in **New Order**, **To Process**, or **To Ship** tabs
 
@@ -90,9 +90,9 @@ Use the Repack action to repack specific items in the order after cancellation o
 3. Choose the items to cancel
 4. Submit the cancellation request
 
-![Lazada Cancel Order Form](../../../../static/img/xstore/order-details/lazada/seller-cancel-order-form.png)
+![lazada-cancel-order-form](../../../../static/img/xstore/order-details/lazada/seller-cancel-order-form.png)
 
-![Lazada Cancel Order Warning](../../../../static/img/xstore/order-details/lazada/seller-cancel-order-form-warning.png)
+![lazada-cancel-order-warning](../../../../static/img/xstore/order-details/lazada/seller-cancel-order-form-warning.png)
 
 > **Warning:** Hover over the warning icon to see Lazada's cancellation policies and potential consequences on this order.
 
@@ -100,14 +100,14 @@ Use the Repack action to repack specific items in the order after cancellation o
 
 ### Return Order (Buyer-Initiated)
 
-![Lazada Return Order](../../../../static/img/xstore/order-details/lazada/buyer-return-order.png)
+![lazada-return-order](../../../../static/img/xstore/order-details/lazada/buyer-return-order.png)
 
 When a buyer initiates a return, the order moves to the **To Return** tab for seller approval.
 
 **Return Processing Options:** May vary based on reason details
 
 | Option                | Description                                |
-|-----------------------|--------------------------------------------|
+| --------------------- | ------------------------------------------ |
 | **Refund Only**       | Issue refund without requiring item return |
 | **Return and Refund** | Refund after receiving returned item       |
 | **Reject Refund**     | Decline the refund request with evidence   |
@@ -118,7 +118,7 @@ During **"Request Initiate"** status, process the refund directly to the buyer.
 
 **2. Return and Refund**
 
-![Lazada Confirm Return Receipt](../../../../static/img/xstore/order-details/lazada/buyer-return-order-confirm-return-receipt.png)
+![lazada-confirm-return-receipt](../../../../static/img/xstore/order-details/lazada/buyer-return-order-confirm-return-receipt.png)
 
 During **"Buyer Return Item"** status:
 
@@ -126,11 +126,11 @@ During **"Buyer Return Item"** status:
 2. Click **Confirm Return Receipt** when received
 3. Process the refund
 
-![Lazada Process Refund](../../../../static/img/xstore/order-details/lazada/buyer-return-order-process-refund.png)
+![lazada-process-refund](../../../../static/img/xstore/order-details/lazada/buyer-return-order-process-refund.png)
 
 **3. Reject Refund**
 
-![Lazada Reject Refund](../../../../static/img/xstore/order-details/lazada/buyer-return-order-reject.png)
+![lazada-reject-refund](../../../../static/img/xstore/order-details/lazada/buyer-return-order-reject.png)
 
 To reject a refund request:
 
@@ -140,7 +140,7 @@ To reject a refund request:
 
 **4. Refund Pending**
 
-![Lazada Refund Pending](../../../../static/img/xstore/order-details/lazada/buyer-return-order-refund-pending.png)
+![lazada-refund-pending](../../../../static/img/xstore/order-details/lazada/buyer-return-order-refund-pending.png)
 
 After processing, the status changes to **Refund Pending** while Lazada processes and reviews the refund.
 
@@ -150,12 +150,12 @@ After processing, the status changes to **Refund Pending** while Lazada processe
 
 ### Order Detail Page
 
-![Shopee Order Detail](../../../../static/img/xstore/order-details/shopee/order-detail.png)
+![shopee-order-detail](../../../../static/img/xstore/order-details/shopee/order-detail.png)
 
 The order information section displays:
 
 | Section              | Details                                   |
-|----------------------|-------------------------------------------|
+| -------------------- | ----------------------------------------- |
 | **Buyer Details**    | Customer username, user ID and address    |
 | **Payment Details**  | Payment method, Currency and Payment time |
 | **Shipment Details** | Carrier information                       |
@@ -163,21 +163,21 @@ The order information section displays:
 
 ### Return Order Info
 
-![Shopee Return Order Info](../../../../static/img/xstore/order-details/shopee/return-order-info.png)
+![shopee-return-order-info](../../../../static/img/xstore/order-details/shopee/return-order-info.png)
 
 ---
 
 ### Cancel Order (Seller-Initiated)
 
-![Shopee Cancel Order Button](../../../../static/img/xstore/order-details/shopee/seller-cancel-order.png)
+![shopee-cancel-order-button](../../../../static/img/xstore/order-details/shopee/seller-cancel-order.png)
 
 **Available for:** Orders in the **New Order** and **To Process** tabs
 
-![Shopee Cancel Order Form](../../../../static/img/xstore/order-details/shopee/seller-cancel-order-form.png)
+![shopee-cancel-order-form](../../../../static/img/xstore/order-details/shopee/seller-cancel-order-form.png)
 
 **Out of Stock Cancellation:**
 
-![Shopee Cancel Order Out of Stock](../../../../static/img/xstore/order-details/shopee/seller-cancel-order-outofstock.png)
+![shopee-cancel-order-out-of-stock](../../../../static/img/xstore/order-details/shopee/seller-cancel-order-outofstock.png)
 
 When selecting "Out of Stock" as the reason:
 
@@ -190,7 +190,7 @@ When selecting "Out of Stock" as the reason:
 
 ### Cancel Order (Buyer-Initiated)
 
-![Shopee Cancel Order Button](../../../../static/img/xstore/order-details/shopee/buyer-cancel-order.png)
+![shopee-cancel-order-button](../../../../static/img/xstore/order-details/shopee/buyer-cancel-order.png)
 
 Sellers can accept or reject the buyer's cancellation request.
 
@@ -200,35 +200,35 @@ Sellers can accept or reject the buyer's cancellation request.
 
 **1. Refund Only**
 
-![Shopee Refund Only](../../../../static/img/xstore/order-details/shopee/buyer-refund-only.png)
+![shopee-refund-only](../../../../static/img/xstore/order-details/shopee/buyer-refund-only.png)
 
 When a buyer requests **Refund Only**, review the request and choose between approving or rejecting.
 
 **2. Return and Refund (Buyer's Offer)**
 
-![Shopee Return Refund Action](../../../../static/img/xstore/order-details/shopee/buyer-return-refund-action.png)
+![shopee-return-refund-action](../../../../static/img/xstore/order-details/shopee/buyer-return-refund-action.png)
 
 When the latest offer is from the buyer, you can:
 
 | Action           | Description                       |
-|------------------|-----------------------------------|
+| ---------------- | --------------------------------- |
 | **Create Offer** | Counter with a new offer amount   |
 | **Accept Offer** | Accept the buyer's proposed terms |
 | **Dispute**      | Escalate to Shopee for resolution |
 
 **3. Return and Refund (Seller's Offer)**
 
-![Shopee Return Refund Order](../../../../static/img/xstore/order-details/shopee/buyer-return-refund.png)
+![shopee-return-refund-order](../../../../static/img/xstore/order-details/shopee/buyer-return-refund.png)
 
 When you've made an offer and are awaiting buyer response, you can still modify your offer.
 
 **Create Offer Form:**
 
-![Shopee Create Offer Form](../../../../static/img/xstore/order-details/shopee/buyer-return-refund-create-offer.png)
+![shopee-create-offer-form](../../../../static/img/xstore/order-details/shopee/buyer-return-refund-create-offer.png)
 
 **Dispute Form:**
 
-![Shopee Dispute Form](../../../../static/img/xstore/order-details/shopee/buyer-return-refund-dispute.png)
+![shopee-dispute-form](../../../../static/img/xstore/order-details/shopee/buyer-return-refund-dispute.png)
 
 ---
 
@@ -236,12 +236,12 @@ When you've made an offer and are awaiting buyer response, you can still modify 
 
 ### Order Detail Page
 
-![TikTok Order Detail](../../../../static/img/xstore/order-details/tiktok/order-detail.png)
+![tiktok-order-detail](../../../../static/img/xstore/order-details/tiktok/order-detail.png)
 
 The order information section displays:
 
 | Section              | Details                                   |
-|----------------------|-------------------------------------------|
+| -------------------- | ----------------------------------------- |
 | **Order Details**    | Order ID, Order status, Payment method    |
 | **Buyer Details**    | Customer name and shipping address        |
 | **Payment Details**  | Payment method, Currency and Payment time |
@@ -249,13 +249,13 @@ The order information section displays:
 
 ### Cancel Order Info
 
-![TikTok Cancel Order Info](../../../../static/img/xstore/order-details/tiktok/cancel-order-info.png)
+![tiktok-cancel-order-info](../../../../static/img/xstore/order-details/tiktok/cancel-order-info.png)
 
 Displays cancellation details including the cancel reason and initiator when an order has been cancelled.
 
 ### Return Order Info
 
-![TikTok Return Order Info](../../../../static/img/xstore/order-details/tiktok/return-order-info.png)
+![tiktok-return-order-info](../../../../static/img/xstore/order-details/tiktok/return-order-info.png)
 
 Displays return request details including the return reason, status, and refund amount when a buyer initiates a return.
 
@@ -263,11 +263,11 @@ Displays return request details including the return reason, status, and refund 
 
 ### Cancel Order (Seller-Initiated)
 
-![TikTok Cancel Order Button](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order.png)
+![tiktok-cancel-order-button](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order.png)
 
 **Available for:** Orders in the **New Order** and **To Process** tabs
 
-![TikTok Cancel Order Form](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order-form.png)
+![tiktok-cancel-order-form](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order-form.png)
 
 Select a cancellation reason and submit to cancel the order.
 
@@ -275,33 +275,33 @@ Select a cancellation reason and submit to cancel the order.
 
 ### Cancel Order (Buyer-Initiated)
 
-![TikTok Buyer Cancel Request](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order.png)
+![tiktok-buyer-cancel-request](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order.png)
 
 When a buyer requests cancellation, choose your response:
 
 **Approve Cancellation:**
 
-![TikTok Approve Cancellation](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order-approve.png)
+![tiktok-approve-cancellation](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order-approve.png)
 
 **Reject Cancellation:**
 
-![TikTok Reject Cancellation](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order-reject.png)
+![tiktok-reject-cancellation](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order-reject.png)
 
 ---
 
 ### Return Order (Buyer-Initiated)
 
-![TikTok Return Request](../../../../static/img/xstore/order-details/tiktok/buyer-return-order.png)
+![tiktok-return-request](../../../../static/img/xstore/order-details/tiktok/buyer-return-order.png)
 
 When a buyer initiates a return, review the request and respond:
 
 **Approve Return:**
 
-![TikTok Approve Return](../../../../static/img/xstore/order-details/tiktok/buyer-return-order-approve.png)
+![tiktok-approve-return](../../../../static/img/xstore/order-details/tiktok/buyer-return-order-approve.png)
 
 **Reject Return:**
 
-![TikTok Reject Return](../../../../static/img/xstore/order-details/tiktok/buyer-return-order-reject.png)
+![tiktok-reject-return](../../../../static/img/xstore/order-details/tiktok/buyer-return-order-reject.png)
 
 ---
 
