@@ -36,27 +36,3 @@ The **Manage Payments** page allows you to view and manage all payment details. 
 | **Date Range Filter**       | Select a **Start Date** and **End Date** (up to today) to filter transactions within the date range.                                                                                                                                    |
 | **Search by Order ID**      | Enter an **Order ID** in the search field to filter and display matching orders                                                                                                                                                         |
 | **Expand All**              | Click **Expand All** in the top-right to expand all transactions rows and reveal detailed breakdowns                                                                                                                                    |
-
-<!-- ## FAQ
-
-1. **What's the difference between "View by Payment" and "View by Order"?**
-
-   - **View by Payment** groups transactions by date, showing all orders and charges for each transaction date
-   - **View by Order** shows individual Platform Order IDs with their total amounts
-
-2. **Why are some amounts shown in red and others in green?**
-
-   - **Red (negative)** amounts represent deductions such as fees, charges, and commissions
-   - **Green (positive)** amounts represent income such as product sales, refunds received, or reversed charges
-
-3. **What does the number badge next to the transaction date mean?**
-
-   - The badge (e.g., "1", "3", "7") indicates how many orders were processed on that transaction date
-
-4. **How do I see the full breakdown of a transaction?**
-
-   - Click the chevron icon (`>`) next to any transaction date or order ID to expand and view all details
-
-5. **What is "Sync Payment" used for?**
-
-   - The Sync Payment button synchronizes payment data from your e-commerce platform -->

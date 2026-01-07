@@ -115,27 +115,3 @@ Here you can:
 - Create a new company
 
 ![company-overview](../../../static/img/xstore/login/company-overview.png)
-
-<!-- ## FAQ
-
-1. **What if I forgot which sign-in method I used?**
-
-   - Try the sign-in method you commonly use. If unsuccessful, try other available methods.
-
-2. **Can I use multiple sign-in methods for the same account?**
-
-   - Yes, you can link multiple sign-in methods to your account for convenience.
-
-3. **What if I didn't receive the verification email?**
-
-   - Check your spam/junk folder
-   - Ensure you entered the correct email address
-   - Wait a few minutes and try requesting a new verification link
-
-4. **Is passkey sign-in secure?**
-
-   - Yes, passkey is a modern authentication method that is more secure than traditional passwords.
-
-5. **Can I use Google Single Sign-On (SSO) with non-Gmail accounts?**
-
-   - No, Google Single Sign-On (SSO) is only supported for Gmail accounts. -->
