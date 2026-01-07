@@ -3,7 +3,7 @@ sidebar_position: 8
 title: Amendment
 description: Amendment on GST system
 slug: /usage/gst/gst-amendment
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "GST-03", "Amendment"]
 ---
 
 ## GST - 03 Amendment

@@ -3,7 +3,7 @@ sidebar_position: 9
 title: FAQ
 description: Solutions for SST
 slug: /usage/sst/faq
-tags: ["SQL Account", "SST", "FAQ"]
+tags: ["SST", "FAQ"]
 ---
 
 ## Can I Change the Service Tax Type to Accrual Basis?

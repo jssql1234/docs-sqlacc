@@ -3,7 +3,7 @@ sidebar_position: 8
 title: Tax Code
 description: Tax Code for Sales Tax & Service Tax and SST-02 Mapping
 slug: /usage/sst/tax-code
-tags: ["SQL Account", "SST", "Tax Code"]
+tags: ["SST", "Tax Code", "SST-02"]
 ---
 
 ## Tax Code and SST-02 Mapping

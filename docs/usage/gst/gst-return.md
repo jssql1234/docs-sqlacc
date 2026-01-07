@@ -3,7 +3,7 @@ sidebar_position: 2
 title: GST Return
 description: GST return
 slug: /usage/gst/gst-return
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "Return"]
 ---
 
 ## GST Return

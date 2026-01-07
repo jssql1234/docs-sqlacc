@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Gift & Deemed Supply
 description: GST gift and deemed supply
 slug: /usage/gst/gst-gift-and-deemed-supply
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "Gift", "Deemed Supply"]
 ---
 
 This guide will teach you to enter the gift and deemed supply in SQL Financial Accounting.

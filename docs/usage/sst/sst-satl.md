@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Sales Tax Legislation (SaTL)
 description: SaTL Information and Scope & Charge
 slug: /usage/sst/satl
-tags: ["SQL Account", "SST", "SaTL"]
+tags: ["SST", "SaTL", "Sales Tax", "Legislation"]
 ---
 
 ## Act

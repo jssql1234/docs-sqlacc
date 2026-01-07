@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Service Tax Legislation (SeTL)
 description: SeTL Information and Scope & Charge
 slug: /usage/sst/setl
-tags: ["SQL Account", "SST", "SeTL"]
+tags: ["SST", "SeTL", "Service Tax", "Legislation"]
 ---
 
 ## Act

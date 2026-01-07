@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Maintain Tax
 description: GST maintain tax
 slug: /usage/gst/gst-maintain-tax
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "Tax"]
 ---
 
 - This to Maintain all the available tax given by Government or user can self add or modified

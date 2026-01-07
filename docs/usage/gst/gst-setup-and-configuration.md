@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Setup & Configuration
 description: GST setup and related configuration
 slug: /usage/gst/gst-setup-and-configuration
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "Setup", "Configuration"]
 ---
 
 ## GST Count Down Timer
