@@ -3,7 +3,7 @@ sidebar_position: 6
 title: Operations & Accounting
 description: Invoicing, Adjustments, Posting
 slug: /usage/sst/operations-accounting
-tags: ["SQL Account", "SST", "Accounting", "Operations"]
+tags: ["SST", "Accounting", "Operations"]
 ---
 
 ## Invoices

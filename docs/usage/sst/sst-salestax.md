@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Sales Tax
 description: Sales Tax - Rules & Registration
 slug: /usage/sst/salestax
-tags: ["SQL Account", "SST", "Sales Tax"]
+tags: ["SST", "Sales Tax", "Tax"]
 ---
 
 ## Overview

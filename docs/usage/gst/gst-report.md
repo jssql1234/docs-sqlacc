@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Reports
 description: General GST Report Info
 slug: /usage/gst/gst-report
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "Report"]
 ---
 
 ## Print GST Listing

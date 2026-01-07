@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Overview
 description: SST Introduction & Overview
 slug: /usage/sst/overview
-tags: ["SQL Account", "Usage", "SST"]
+tags: ["SST", "Overview"]
 ---
 
 ## SST Introduction

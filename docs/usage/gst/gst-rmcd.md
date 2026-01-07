@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Settlement with RMCD
 description: GST settlement with RMCD
 slug: /usage/gst/gst-rmcd
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "RMCD", "Settlement"]
 ---
 
 1. Net GST Payable is the total GST amount to be paid to RMCD.

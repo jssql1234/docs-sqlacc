@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Service Tax
 description: Service Tax - Rules & Registration
 slug: /usage/sst/servicetax
-tags: ["SQL Account", "SST", "Service Tax"]
+tags: ["SST", "Service Tax", "Tax"]
 ---
 
 ## Overview

@@ -3,7 +3,7 @@ sidebar_position: 7
 title: SST Return & Miscellaneous
 description: Info that are related to SST Return, Miscellaneous, Penalty, Refund
 slug: /usage/sst/return-miscellaneous
-tags: ["SQL Account", "SST", "Return", "Miscellaneous"]
+tags: ["SST", "Return", "Miscellaneous"]
 ---
 
 ## Open SST Return

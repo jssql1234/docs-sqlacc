@@ -3,7 +3,7 @@ sidebar_position: 7
 title: Treatment
 description: GST Treatment
 slug: /usage/gst/gst-treatment
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "Treatment"]
 ---
 
 
@@ -775,7 +775,6 @@ Claim GST Input = Rm30,000.00
    | GST-101      | GST - Claimable     | TX       | 5,040.00 | 0.00     | June 2016 (**follow invoice date**) |
    | GST-201      | GST - Payable       | DS       | 0.00     | 5,040.00 | June 2016 (**follow invoice date**) |
 
-
 ## Set Tax Year
 
 1. Highlight the final taxable period to be set as your **First Tax Year**, eg. final taxable period 01 Dec - 31 Dec 2016.
@@ -837,7 +836,6 @@ Assumed the tax year set on 31 Dec 2016, LPA should be declared in:
 ### GST Listing - Mixed Supplies
 
 For report printing [refer to this link.](../../usage/gst/gst-report.md#longer-period-adjustment-lpa)
-
 
 ## Special-GST Treatment: Non-deductible Expenditure
 
