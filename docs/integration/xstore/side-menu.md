@@ -12,7 +12,7 @@ The side menu is the secondary navigation component for the e-Commerce integrati
 
 ![Side Menu](../../../static/img/xstore/sidemenu/sidemenu.png)
 
-#### Profile Actions
+## Profile Actions
 
 1. **User Profile** 👤
    - **Register Passkey** & **Manage Session**

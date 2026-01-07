@@ -6,7 +6,7 @@ slug: /integration/xstore/dashboard
 tags: ["e-Commerce", "X-Store", "Dashboard"]
 ---
 
-# Dashboard Overview
+## Dashboard Overview
 
 The **Dashboard** serves as the central hub for monitoring your e-commerce performance. It provides real-time insights into sales, orders, inventory, and store connectivity across all your integrated platforms.
 
@@ -45,7 +45,7 @@ Select the visualization format that best suits your needs:
 
 This section provides a financial overview of your transactions.
 
-![Layout Controls](../../../static/img/xstore/dashboard/dashboard-2.png)
+![layout-controls](../../../static/img/xstore/dashboard/dashboard-2.png)
 
 ### Key Metrics
 
@@ -72,7 +72,7 @@ Choose how to aggregate your payment data:
 
 The Orders section offers a comprehensive breakdown of your order processing status and sources.
 
-![Layout Controls](../../../static/img/xstore/dashboard/dashboard-3.png)
+![layout-controls](../../../static/img/xstore/dashboard/dashboard-3.png)
 
 ### Order Metrics
 
@@ -102,7 +102,7 @@ A detailed list showing the number of orders in each stage of the fulfillment pr
 
 Monitor your inventory health and product performance.
 
-![Layout Controls](../../../static/img/xstore/dashboard/dashboard-4.png)
+![layout-controls](../../../static/img/xstore/dashboard/dashboard-4.png)
 
 ### Inventory Metrics
 
@@ -122,7 +122,7 @@ Monitor your inventory health and product performance.
 
 Manage the connectivity and distribution of your sales channels.
 
-![Layout Controls](../../../static/img/xstore/dashboard/dashboard-5.png)
+![layout-controls](../../../static/img/xstore/dashboard/dashboard-5.png)
 
 ### Store Metrics
 
