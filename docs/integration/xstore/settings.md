@@ -18,10 +18,10 @@ The Settings module consists of three main sections to help you manage your orga
 
 View and update your company's information, including business details and API configurations.
 :::info
-Check out our [Setup Guide](/integration/xstore/setup#step-1-create-company) for detailed instructions on creating your company profile.
+Check out our [setup-guide](/integration/xstore/setup#step-1-create-company) for detailed instructions on creating your company profile.
 :::
 
-![Company Overview](../../../static/img/xstore/settings/company-overview.png)
+![company-overview](../../../static/img/xstore/settings/company-overview.png)
 
 ### Company Information
 
@@ -41,7 +41,7 @@ Configure your SQL Account API access by setting up:
 - Access key
 - Secret key
 
-![Company Information](../../../static/img/xstore/settings/company-information.png)
+![company-information](../../../static/img/xstore/settings/company-information.png)
 :::info
 For more details on SQL Account configuration, see our [Setup Guide](/integration/xstore/setup#step-3-configure-company-settings).
 :::
@@ -50,7 +50,7 @@ For more details on SQL Account configuration, see our [Setup Guide](/integratio
 
 Click on your current logo to upload a new one.
 
-![Logo Upload Flow](../../../static/img/xstore/settings/company-logo-upload-flow.png)
+![company-logo-upload-flow](../../../static/img/xstore/settings/company-logo-upload-flow.png)
 
 ### Editing Company Details
 
@@ -58,7 +58,7 @@ Click on your current logo to upload a new one.
 
 1. Click the **Update Company Details** button
 
-   ![Update Button](../../../static/img/xstore/settings/company-update-details-button.png)
+   ![company-update-details-button](../../../static/img/xstore/settings/company-update-details-button.png)
 
 2. Modify any of the following fields:
 
@@ -69,19 +69,19 @@ Click on your current logo to upload a new one.
 
 3. Click **Save** to apply changes
 
-   ![Update Details Page](../../../static/img/xstore/settings/company-update-details-page.png)
+   ![company-update-details-page](../../../static/img/xstore/settings/company-update-details-page.png)
 
 :::warning Validation Required
 You must provide valid email and phone number formats. Invalid entries will trigger a warning message.
 :::
 
-![Validation Warning](../../../static/img/xstore/settings/company-update-details-warning.png)
+![company-update-details-warning](../../../static/img/xstore/settings/company-update-details-warning.png)
 
 **Canceling Changes**
 
 If you click **Cancel** after making edits, you'll see a confirmation dialog. Click **Continue** to discard your changes.
 
-![Cancel Confirmation](../../../static/img/xstore/settings/company-update-details-cancel.png)
+![company-update-details-cancel](../../../static/img/xstore/settings/company-update-details-cancel.png)
 
 ## Users Settings
 
@@ -89,7 +89,7 @@ If you click **Cancel** after making edits, you'll see a confirmation dialog. Cl
 
 Manage your team members, including viewing, editing, inviting, and removing users.
 
-![User Management Overview](../../../static/img/xstore/settings/user-management-overview.png)
+![user-management-overview](../../../static/img/xstore/settings/user-management-overview.png)
 
 ### Active Users Table
 
@@ -104,7 +104,7 @@ The users table displays all team members with their name, ID (with copy functio
 | Status         | Active/Inactive status      |
 | Actions        | Remove user button          |
 
-![Users Table](../../../static/img/xstore/settings/user-management-table.png)
+![user-management-table](../../../static/img/xstore/settings/user-management-table.png)
 
 ### Editing User Details
 
@@ -115,7 +115,7 @@ You can modify a user's role and status directly in the table.
 3. Confirm your changes in the dialog
 4. Click **Continue** to apply (or **Cancel** to discard any unsaved modifications)
 
-![Update User](../../../static/img/xstore/settings/user-management-update.png)
+![user-management-update](../../../static/img/xstore/settings/user-management-update.png)
 
 ### Removing Users
 
@@ -123,7 +123,7 @@ You can modify a user's role and status directly in the table.
 2. Type `delete user` in the confirmation dialog
 3. Click **Continue** to remove the user
 
-![Remove User](../../../static/img/xstore/settings/user-management-remove-user.png)
+![user-management-remove-user](../../../static/img/xstore/settings/user-management-remove-user.png)
 
 ### Inviting New Users
 
@@ -139,7 +139,7 @@ You can modify a user's role and status directly in the table.
 User IDs appear in the users table. Ask the person you want to invite to copy their ID and send it to you.
 :::
 
-![Invitation Input](../../../static/img/xstore/settings/user-invitation-input.png)
+![user-invitation-input](../../../static/img/xstore/settings/user-invitation-input.png)
 
 #### Step 2: Assign Roles and Send
 
@@ -147,7 +147,7 @@ User IDs appear in the users table. Ask the person you want to invite to copy th
 2. Click **Send Invitation** to send all invitations
 3. Use **Clear All** to remove all pending invitations from the list
 
-![Send Invitation](../../../static/img/xstore/settings/user-invitation-send.png)
+![user-invitation-send](../../../static/img/xstore/settings/user-invitation-send.png)
 
 #### Step 3: Review Invitation Status
 
@@ -159,7 +159,7 @@ After sending, you'll see a status summary showing:
 | ℹ️ Exist   | User already joined the company |
 | ❌ Failed  | Invitation could not be sent    |
 
-![Invitation Status](../../../static/img/xstore/settings/user-invitation-status.png)
+![user-invitation-status](../../../static/img/xstore/settings/user-invitation-status.png)
 
 ### Managing Pending Invitations
 
@@ -170,7 +170,7 @@ Click **Pending Invitations** to switch to the pending list view.
 - Invitations expire after 24 hours
 - Expired invitations must be resent
 
-![Pending Invitations](../../../static/img/xstore/settings/user-invitation-pending-list.png)
+![user-invitation-pending-list](../../../static/img/xstore/settings/user-invitation-pending-list.png)
 
 ### Accepting Invitations
 
@@ -180,7 +180,7 @@ Recipients receive an email with an invitation link.
 Users invited by User ID join the company immediately without needing to accept an invitation.
 :::
 
-![Invitation Email](../../../static/img/xstore/settings/user-invitation-email.png)
+![user-invitation-email](../../../static/img/xstore/settings/user-invitation-email.png)
 
 **Option 1: Sign in with Passkey**
 
@@ -190,13 +190,13 @@ Log in using a Passkey and redirect to the Company List page.
 You must register a user account with a passkey before using this method to accept the invitation.
 :::
 
-![Accept with Passkey](../../../static/img/xstore/settings/user-invitation-accept-passkey.png)
+![user-invitation-accept-passkey](../../../static/img/xstore/settings/user-invitation-accept-passkey.png)
 
 **Option 2: Sign up with Email**
 
 Register a new account, log in automatically, and redirect to the Company List page.
 
-![Accept with Email](../../../static/img/xstore/settings/user-invitation-accept-email.png)
+![user-invitation-accept-email](../../../static/img/xstore/settings/user-invitation-accept-email.png)
 
 ## Permissions Settings
 
@@ -211,7 +211,7 @@ The roles table displays:
 - Updated by (user name)
 - Action buttons (Edit, Delete)
 
-![Permissions Overview](../../../static/img/xstore/settings/permissions-overview.png)
+![permissions-overview](../../../static/img/xstore/settings/permissions-overview.png)
 
 ### Editing Roles
 
@@ -220,7 +220,7 @@ The roles table displays:
 3. Click **Update Role**
 4. Confirm your changes by clicking **Continue**
 
-![Edit Role](../../../static/img/xstore/settings/permissions-role-edit.png)
+![permissions-role-edit](../../../static/img/xstore/settings/permissions-role-edit.png)
 
 ### Deleting Roles
 
@@ -231,13 +231,13 @@ The roles table displays:
 Roles can only be deleted if they're not assigned to any users. If the role is in use, you'll see a warning message.
 :::
 
-![Delete Role](../../../static/img/xstore/settings/permissions-role-delete.png)
+![permissions-role-delete](../../../static/img/xstore/settings/permissions-role-delete.png)
 
 ### Creating New Roles
 
 1. Click **Create Role** at the top right of the table
 
-   ![Create Role Button](../../../static/img/xstore/settings/permissions-role-create-button.png)
+   ![permissions-role-create-button](../../../static/img/xstore/settings/permissions-role-create-button.png)
 
 2. In the dialog:
    - Enter a role name
@@ -245,4 +245,4 @@ Roles can only be deleted if they're not assigned to any users. If the role is i
 3. Click **Create Role**
 4. Confirm by clicking **Continue**
 
-![Create Role Dialog](../../../static/img/xstore/settings/permissions-role-create-dialog.png)
+![permissions-role-create-dialog](../../../static/img/xstore/settings/permissions-role-create-dialog.png)
