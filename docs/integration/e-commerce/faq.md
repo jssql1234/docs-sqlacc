@@ -3,7 +3,7 @@ sidebar_position: 99
 title: FAQ
 description: FAQ in E Commerce for SQL Account
 slug: /integration/ecommerce/FAQ
-tags: ["SQL Account", "Integration", "e-Commerce"]
+tags: ["e-Commerce", "faq"]
 ---
 
 ## Where and How do System Keep the Product Information?

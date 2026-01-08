@@ -3,6 +3,7 @@
     "position": 16,
     "link": {
         "type": "generated-index",
+        "slug": "/usage/customization-category",
         "description": "SQL Account Customisation"
     }
 }

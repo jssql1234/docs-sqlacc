@@ -3,7 +3,7 @@ sidebar_position: 9
 title: System Migration
 description: GST system migration
 slug: /usage/gst/gst-system-migration
-tags: ["SQL Account", "Usage", "GST"]
+tags: ["GST", "System Migration"]
 ---
 
 ## Migration System Features
@@ -138,7 +138,7 @@ This guide will teach you the way to handle the past outstanding documents for C
       ![des-how-to-enter-gst-past-documents-gst-returns-1](../../../static/img/usage/gst-and-sst/gst/how-to-enter-gst-past-documents-gst-returns-1.jpg)
 
    2. Quarterly (eg. 01/02/2016 - 30/04/2016)
-   
+
       ![des-how-to-enter-gst-past-documents-gst-returns-2](../../../static/img/usage/gst-and-sst/gst/how-to-enter-gst-past-documents-gst-returns-2.jpg)
 
 2. Click to **Process**.

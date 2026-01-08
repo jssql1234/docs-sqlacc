@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Master Data
 description: Master data creation
 slug: /usage/master-data
-tags: ["SQL Account", "Usage"]
+tags: ["GL", "Tax"]
 ---
 
 ## General Ledger (Maintain Chart of Account)

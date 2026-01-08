@@ -3,6 +3,7 @@
     "position": 5,
     "link": {
         "type": "generated-index",
-        "description": "Additional modules for SQL Account"
+        "description": "Additional modules for SQL Account",
+        "slug": "/additional-module-category"
     }
 }

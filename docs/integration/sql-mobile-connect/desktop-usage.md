@@ -3,8 +3,8 @@ sidebar_position: 4
 id: desktop-usage
 title: Desktop Usage
 description: A guide to use SQL Mobile Connect in desktop browser
-slug: /sql-mobile-connect/desktop-usage
-tags: ["SQL Account", "SQL Mobile Connect", "Desktop"]
+slug: /integration/sql-mobile-connect/desktop-usage
+tags: ["SQL Mobile Connect", "Desktop"]
 ---
 
 1. Go to **Tools > Maintain User…**

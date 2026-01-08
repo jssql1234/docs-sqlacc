@@ -3,7 +3,7 @@ sidebar_label: MYOB
 title: Migrate from MYOB
 description: Migrate from MYOB
 slug: /getting-started/migration/myob
-tags: ["SQL Account", "Migration"]
+tags: ["MyOB", "Data Migration","Migration","Other Software"]
 ---
 
 ## Setup

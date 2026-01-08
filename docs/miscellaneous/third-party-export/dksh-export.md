@@ -3,7 +3,7 @@ sidebar_position: 2
 title: SQL Acc DKSH Export
 description: SQL Acc DKSH Export
 slug: /miscellaneous/third-party-export/dksh-export
-tags: ["SQL Account","DKSH" , "Export"]
+tags: ["DKSH", "Export"]
 ---
 
 ## Introduction

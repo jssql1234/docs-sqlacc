@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Guide
 description: How to do custom reports in fast report
 slug: /usage/tools/fast-report/guide
-tags: ["SQL Account", "Usage", "Tools"]
+tags: ["FR3", "Customization", "Reporting"]
 ---
 
 ## Understanding the Toolbar

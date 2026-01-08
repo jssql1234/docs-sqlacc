@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: InvoiceNow GST Operation
 description: A guide for E-Invoicing Operation for Singapore SQL User
-slug: /singapore/c5
+slug: /singapore/invoice-now-operation
 tags: ["SQL Account", "Singapore", "InvoiceNow", "Activation"]
 ---
 

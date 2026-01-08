@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Upgrade
 description: A guide to uninstall, reinstall, upgrade existing SQL
 slug: /getting-started/upgrade
-tags: ["SQL Account", "Getting Started", "Upgrade"]
+tags: ["Getting Started", "Upgrade", "Upgrade Version", "Software Update"]
 ---
 
 To upgrade SQL Account version, you will need to uninstall the existing version first, then only install the latest version.

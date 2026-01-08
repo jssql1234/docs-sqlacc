@@ -3,8 +3,8 @@ sidebar_position: 2
 id: setup-configuration
 title: Setup and Configuration
 description: A guide of SQL Account API setup and configuration
-slug: /sql-account-api/setup-configuration
-tags: ["SQL Account", "SQL Account API", "Secret Key"]
+slug: /integration/sql-account-api/setup-configuration
+tags: ["SQL Account API", "Secret Key"]
 ---
 
 ## Generate API Secret Key

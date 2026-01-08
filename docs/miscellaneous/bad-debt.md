@@ -2,7 +2,7 @@
 title: Bad Debt
 description: Bad debt details
 slug: /miscellaneous/bad-debt
-tags: ["SQL Account","Bad Debt"]
+tags: ["Bad Debt"]
 ---
 
 Bad debt refers to outstanding amount of sales tax from a person who is insolvent, and is irrecoverable from the person.

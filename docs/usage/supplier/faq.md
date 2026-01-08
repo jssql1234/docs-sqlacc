@@ -2,8 +2,8 @@
 sidebar_position: 3
 title: FAQ
 description: Supplier Frequently Asked Questions
-slug: /usage/supplier/FAQ
-tags: ["SQL Account", "Supplier", "FAQ"]
+slug: /usage/supplier/faq
+tags: [ "JomPay", "Bank Integration"]
 ---
 
 ## JOMPAY - How to add the Ref 2 (optional) in the bank payment file format?

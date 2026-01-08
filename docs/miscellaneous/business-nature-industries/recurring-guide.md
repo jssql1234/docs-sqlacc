@@ -3,8 +3,8 @@ sidebar_position: 3
 id: recurring-guide
 title: Recurring Guide
 description: Guide on Recurring
-slug: /miscellaneous/recurring-guide
-tags: ["Sample Recurring", "Company"]
+slug: /miscellaneous/business-nature-industries/recurring-guide
+tags: ["Recurring", "Guide"]
 ---
 
 This Customisation is for simple calculation for the management property which normally monthly charge Maintenance, Sinking Fund & etc.

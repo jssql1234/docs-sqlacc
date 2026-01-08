@@ -2,6 +2,7 @@
     "label": "Banks",
     "link": {
         "type": "generated-index",
+        "slug": "/integration/banks-category",
         "description": "Bank linking"
     }
 }

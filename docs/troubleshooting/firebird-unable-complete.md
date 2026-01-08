@@ -3,9 +3,8 @@ id: firebird-unable-complete
 title: Firebird Unable to complete network request to host name
 description: Solution for Firebird Unable to complete network request to host name
 slug: /troubleshooting/firebird-unable-complete
-tags: ["SQL Account", "Troubleshooting", "Firebird"]
+tags: ["Troubleshooting", "Firebird Connection Issue"]
 ---
-
 ![firebird-inactive](../../static/img/troubleshooting/firebird-unable-complete/firebird-inactive.jpg)
 
 ## Common Causes

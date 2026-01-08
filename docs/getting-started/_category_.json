@@ -3,6 +3,7 @@
     "position": 2,
     "link": {
         "type": "generated-index",
-        "description": "A quick getting started for SQL Account"
+        "description": "A quick getting started for SQL Account",
+        "slug": "/getting-started-category"
     }
 }

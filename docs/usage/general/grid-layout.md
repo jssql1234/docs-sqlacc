@@ -3,7 +3,7 @@ sidebar_position: 6
 title: Grid Layout
 description: A guide about Grid Layout for SQL Account
 slug: /usage/general/grid-layout
-tags: ["SQL Account", "General", "Layout"]
+tags: ["Grid Layout", "Report Configuration", "Customization"]
 ---
 
 ## Clear Sorting

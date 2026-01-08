@@ -2,7 +2,7 @@
 title: Backup & Restore
 description: Database backup & restore
 slug: /getting-started/database/backup-restore
-tags: ["SQL Account", "Getting Started", "Database"]
+tags: ["Database Backup","Database Restore","AI Cloud Backup","Local Backup"]
 ---
 
 SQL Account provides users with the option to backup their database into their local computer or a cloud drive storage. Users can perform backups as frequently as daily or weekly and have full ownership over their backups, allowing them to restore them at any time without additional charges.

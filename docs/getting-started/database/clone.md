@@ -2,7 +2,7 @@
 title: Clone
 description: Clone database to have a duplicated company account book
 slug: /getting-started/database/clone
-tags: ["SQL Account", "Getting Started", "Database"]
+tags: ["Clone Database","Copy Database"]
 ---
 
 Database clone will copy all maintenance files, such as the chart of accounts, customers, suppliers, stock groups, stock items, or even reports and scripts from an existing database to a new empty database.

@@ -2,8 +2,8 @@
 sidebar_position: 11
 title: FAQ
 description: SQL POS frequently-asked questions
-slug: /faq/sql-pos
-tags: ["SQL Account", "FAQ", "POS"]
+slug: /integration/pos/faq
+tags: ["FAQ", "POS"]
 ---
 ## General
 

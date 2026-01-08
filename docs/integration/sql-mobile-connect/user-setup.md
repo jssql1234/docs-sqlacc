@@ -3,8 +3,8 @@ sidebar_position: 2
 id: user-setup
 title: User Setup
 description: Complete guide to setting up SQL Mobile Connect users and configuring mobile devices
-slug: /sql-mobile-connect/user-setup
-tags: ["SQL Account", "SQL Mobile Connect", "User Setup", "Mobile App"]
+slug: /integration/sql-mobile-connect/user-setup
+tags: ["SQL Mobile Connect", "User Setup", "Mobile App", "Passkey"]
 ---
 
 This guide walks you through the complete process of setting up SQL Mobile Connect users and configuring the mobile application on user devices.

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Onboarding
 description: MyInvois onboarding process
 slug: /usage/myinvois/onboarding
-tags: ["SQL Account", "Usage", "MyInvois", "E-Invoice", "Onboarding"]
+tags: ["E-Invoice", "Setup", "Onboarding"]
 ---
 
 To streamline e-invoice submission through SQL Account, you need to go through a simple onboarding process.

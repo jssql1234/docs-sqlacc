@@ -2,7 +2,7 @@
 title: SQL Control Center
 description: Customisations in SQL Control Center
 slug: /usage/customisation/control-center
-tags: ["SQL Account"]
+tags: ["Customization", "SQL Control Center", "Scripting"]
 ---
 
 :::warning

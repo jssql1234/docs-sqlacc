@@ -3,6 +3,7 @@
     "position": 11,
     "link": {
         "type": "generated-index",
+        "slug": "/usage/sst-category",
         "description": "SST guide"
     }
 }

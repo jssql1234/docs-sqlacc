@@ -3,6 +3,7 @@
     "position": 7,
     "link": {
         "type": "generated-index",
-        "description": "Troubleshooting for SQL Account"
+        "description": "Troubleshooting for SQL Account",
+        "slug": "/troubleshooting-category"
     }
 }

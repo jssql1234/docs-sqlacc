@@ -2,10 +2,9 @@
 id: printer-driver
 title: Printer Driver
 description: Troubleshoot printer driver issue
-slug: /troubleshooting/printer-driver
-tags: ["SQL Account", "Troubleshooting"]
+slug: /troubleshooting/change-panasonic
+tags: ["Troubleshooting", "Change Panasonic Printer"]
 ---
-
 :::info
 If you're experiencing issues where the preview is fine but the printout is missing parts of the content or is out of position, follow these steps. If you have a different printer, you can use this guide as a reference to add the corresponding driver for your printer.
 :::
