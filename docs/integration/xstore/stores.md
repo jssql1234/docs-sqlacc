@@ -10,11 +10,11 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
 1. Click **Stores** in the sidebar
 
-    ![1](../../../static/img/xstore/stores/store-sidebar.png)
+    ![store-sidebar](../../../static/img/xstore/stores/store-sidebar.png)
 
 2. Click **Link Store**
 
-    ![2](../../../static/img/xstore/stores/link-store.png)
+    ![link-store](../../../static/img/xstore/stores/link-store.png)
 
 ## Lazada
 
@@ -22,21 +22,21 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
 2. Click the Link Store button
 
-    ![3](../../../static/img/xstore/stores/select-lazada.png)
+    ![select-lazada](../../../static/img/xstore/stores/select-lazada.png)
 
 3. Select Region
 
 4. Click Use Seller Login
 
-    ![4](../../../static/img/xstore/stores/lazada-login.png)
+    ![lazada-login](../../../static/img/xstore/stores/lazada-login.png)
 
 5. Login using Lazada credentials
 
-    ![5](../../../static/img/xstore/stores/lazada-credentials.png)
+    ![input-lazada-credentials](../../../static/img/xstore/stores/lazada-credentials.png)
 
 6. Click authorize 
 
-    ![6](../../../static/img/xstore/stores/lazada-authorize.png)
+    ![lazada-authorize](../../../static/img/xstore/stores/lazada-authorize.png)
 
 7. After successful linking
 
@@ -44,7 +44,7 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
     - The linked store will be added to the data table.
 
-        ![7](../../../static/img/xstore/stores/link-lazada.png)
+        ![link-lazada](../../../static/img/xstore/stores/link-lazada.png)
 
 ## Shopee
 
@@ -54,45 +54,45 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
 3. Click the Link Store button
 
-    ![8](../../../static/img/xstore/stores/select-shopee.png)
+    ![select-shopee](../../../static/img/xstore/stores/select-shopee.png)
 
 4. If Linking a **Shop Account**
 
     1. Enter shop account credentials
 
-        ![9](../../../static/img/xstore/stores/shopee-shopAcc.png)
+        ![shopee-shop-acc](../../../static/img/xstore/stores/shopee-shopAcc.png)
 
     2. Click Confirm Authorization
 
-        ![10](../../../static/img/xstore/stores/shopee-shopAuth.png)
+        ![shopee-shopAuth](../../../static/img/xstore/stores/shopee-shopAuth.png)
 
     3. Select the Authorization Period
 
     4. Click Confirm Authorization
 
-        ![11](../../../static/img/xstore/stores/shopee-storeAuthPeriod.png)
+        ![shopee-storeAuthPeriod](../../../static/img/xstore/stores/shopee-storeAuthPeriod.png)
 
 5. If Linking a **Main Account**
 
     1. Click Switch to Main Account
 
-        ![12](../../../static/img/xstore/stores/switch-mainAcc.png)
+        ![switch-main-acc](../../../static/img/xstore/stores/switch-mainAcc.png)
 
     2. Enter Main Account credentials
 
-        ![13](../../../static/img/xstore/stores/shopee-mainAcc.png)
+        ![shopee-mainAcc](../../../static/img/xstore/stores/shopee-mainAcc.png)
 
     3. Select the Shop and Merchant authorized for your App
 
     4. Click Confirm Authorization
 
-        ![14](../../../static/img/xstore/stores/shopee-mainAccAuth.png)
+        ![shopee-mainAccAuth](../../../static/img/xstore/stores/shopee-mainAccAuth.png)
 
     5. Select the Authorization Period
 
     6. Click Confirm Authorization
 
-        ![15](../../../static/img/xstore/stores/shopee-mainAuthPeriod.png)
+        ![shopee-mainAuthPeriod](../../../static/img/xstore/stores/shopee-mainAuthPeriod.png)
 
 6. After successful linking
 
@@ -100,7 +100,7 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
     - The linked store will be added to the data table.
 
-        ![16](../../../static/img/xstore/stores/link-shopeeMain.png)
+        ![link-shopeeMain](../../../static/img/xstore/stores/link-shopeeMain.png)
 
 ## Tiktok
 
@@ -108,27 +108,27 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
 2. Click the Link Store button
 
-    ![17](../../../static/img/xstore/stores/select-tiktok.png)
+    ![select-tiktok](../../../static/img/xstore/stores/select-tiktok.png)
 
 3. Select your account type to start the authorization process
 
-    ![18](../../../static/img/xstore/stores/tiktok-selectAcc.png)
+    ![tiktok-selectAcc](../../../static/img/xstore/stores/tiktok-selectAcc.png)
 
 4. Select and input tiktok account credentials
 
 5. Click Confirm to Install
 
-    ![19](../../../static/img/xstore/stores/tiktok-login.png)
+    ![tiktok-login](../../../static/img/xstore/stores/tiktok-login.png)
 
 6. Review the data-sharing permissions and tick the checkbox to acknowledge
 
 7. Click Authorize
 
-    ![20](../../../static/img/xstore/stores/tiktok-credentials.png)
+    ![input-tiktok-credentials](../../../static/img/xstore/stores/tiktok-credentials.png)
 
 8. Click Done to complete the setup
 
-    ![21](../../../static/img/xstore/stores/tiktok-auth.png)
+    ![tiktok-auth](../../../static/img/xstore/stores/tiktok-auth.png)
 
 9. After successful linking
 
@@ -136,11 +136,11 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
     - The linked store will be added to the data table.
 
-        ![22](../../../static/img/xstore/stores/link-tiktok.png)
+        ![link-tiktok](../../../static/img/xstore/stores/link-tiktok.png)
 
 > 📌**If store authorization expires, click the link icon (🔗) to re-link the store or click Link Store**
 
-![23](../../../static/img/xstore/stores/store-expired.png)
+![store-expired](../../../static/img/xstore/stores/store-expired.png)
 
 ## Additional Features
 
