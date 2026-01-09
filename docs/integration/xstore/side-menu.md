@@ -6,8 +6,6 @@ slug: /integration/xstore/side-menu
 tags: ["e-Commerce", "X-Store", "Side Menu"]
 ---
 
-# Side Menu Navigation
-
 The side menu is the secondary navigation component for the e-Commerce integration system.
 
 ![Side Menu](../../../static/img/xstore/sidemenu/sidemenu.png)

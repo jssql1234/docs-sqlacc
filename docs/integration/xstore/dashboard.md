@@ -8,128 +8,139 @@ tags: ["e-Commerce", "X-Store", "Dashboard"]
 
 ## Dashboard Overview
 
-The **Dashboard** serves as the central hub for monitoring your e-commerce performance. It provides real-time insights into sales, orders, inventory, and store connectivity across all your integrated platforms.
+The **Dashboard** is the main page where you can see how your stores are doing. It shows you latest information on sales, orders, stock, and if your stores are connected properly.
 
 ---
 
-### Date Range Filter
+### Date Filter
 
-Select a time period to view data for that specific range. Options include:
+![Date Filter](../../../static/img/xstore/dashboard/dashboard-1.png)
+
+Pick a time period to see its data. You can choose:
 
 - **Today**
 - **Last 3 Days**
 - **Last 7 Days**
 - **Last 1 Month**
 - **Last 2 Months**
-- **Last 3 Months** (Default)
+- **Last 3 Months** (Default view)
 
-### Metric Selection
+### Choose What to See
 
-Select the metric to display across all visualizations:
+![Choose What to See](../../../static/img/xstore/dashboard/dashboard-6.png)
 
-- **Amount**: Display the total transaction amounts for the selected time period (default view)
-- **Total**: Display the total transaction amounts for the selected time period (default view)
+Pick what kind of numbers you want to see:
+
+- **Amount**: Show the total money from sales for that time.
+- **Total**: Show the total number of sales for that time.
 
 ### Chart Types
 
-Select the visualization format that best suits your needs:
+![Chart Types](../../../static/img/xstore/dashboard/dashboard-7.png)
 
-- **Bar Chart**: Compare transaction amounts across different time periods with vertical bars
-- **Line Chart**: Visualize trends and patterns over time with a continuous line
-- **Pie Chart**: Show the distribution of transactions across different time periods
-- **Table**: View detailed numerical data in a structured table format for precise analysis
+Choose how you want the numbers to look:
+
+- **Bar Chart**: Shows numbers as vertical bars to compare different times.
+- **Line Chart**: Shows a line to see if sales are going up or down.
+- **Pie Chart**: Shows a circle divided into parts to see which time had more sales.
+- **Table**: Shows exact numbers in a list.
 
 ---
 
 ## Payments Section
 
-This section provides a financial overview of your transactions.
+This part shows you the money side of your business.
 
-![layout-controls](../../../static/img/xstore/dashboard/dashboard-2.png)
+![Payments Section](../../../static/img/xstore/dashboard/dashboard-2.png)
 
-### Key Metrics
+### Main Numbers
 
-- **Total Transactions**: The total number of payment transactions within the selected period.
-- **Total Transaction Amounts**: The cumulative value of all transactions.
-- **Avg Amount per Transaction**: The average value of a single transaction.
+- **Total Transactions**: Total number of payments received.
+- **Total Transaction Amounts**: Total amount of money from all payments.
+- **Avg Amount per Transaction**: The average money made from one sale.
 
-### Payment Graph
+### Payment Chart
 
-A visual representation of payment trends over time. You can customize the visualization using the controls in the top-right corner of the widget.
+A picture showing your payment trends. You can change how it looks using the buttons on the top-right.
 
-**Time Period Grouping**
+**Group by Time**
 
-Choose how to aggregate your payment data:
+![Group by Time](../../../static/img/xstore/dashboard/dashboard-8.png)
 
-- **Day**: View daily transaction totals, ideal for tracking day-to-day performance
-- **Week**: Aggregate data by week, useful for identifying weekly patterns and trends
-- **Month**: Group transactions by month, perfect for long-term analysis and reporting
+Choose how to bundle your payment data:
 
-> **Tip**: Combine different time periods with chart types to gain different insights. For example, use a line chart with daily grouping to spot short-term trends, or switch to monthly grouping with a bar chart for quarterly reviews.
+- **Day**: See total money for each day.
+- **Week**: See total money for each week.
+- **Month**: See total money for each month.
+
+> **Tip**: Try different chart types with different time groups. For example, use a line chart with "Day" to see small changes, or a bar chart with "Month" to see how you did over several months.
+
 ---
 
 ## Orders Section
 
-The Orders section offers a comprehensive breakdown of your order processing status and sources.
+This part shows you how many orders you have and where they come from.
 
-![layout-controls](../../../static/img/xstore/dashboard/dashboard-3.png)
+![Orders Section](../../../static/img/xstore/dashboard/dashboard-3.png)
 
-### Order Metrics
+### Order Numbers
 
-- **Total Orders**: Cumulative count of orders received.
-- **To Ship**: Number of orders currently pending shipment.
-- **Orders Today**: Number of orders received in the current day.
+- **Total Orders**: The total number of orders you have received.
+- **To Ship**: How many orders are waiting for you to send out.
+- **Orders Today**: How many orders you got today.
 
-### Orders by Status
-A detailed list showing the number of orders in each stage of the fulfillment process:
-- **New Order**
-- **To Process**
-- **To Ship**
-- **Shipped**
-- **Delivered**
-- **Completed**
 
-### Order Analytics
+### Order Details
 
-- **Orders by Store**: Showing the distribution of orders across your different connected stores (e.g., specific Lazada or Shopee stores).
-- **Orders by Region**: Displaying order volume by country or region (e.g., MY, SG).
-- **Orders by Platform**: Comparing performance across different e-commerce platforms (Lazada, Shopee, etc.).
-- **Orders Graph**: Illustrating the trend of order volume over the selected date range.
+![Order Details](../../../static/img/xstore/dashboard/dashboard-10.png)
+
+- **Orders by Store**: Shows which individual store (like a specific Lazada or Shopee store) is getting orders.
+- **Orders by Status**: Shows all orders status from all the stores.
+- **Orders by Region**: Shows which country or area the orders are coming from (like MY or SG).
+- **Orders by Platform**: Compare how many orders come from Lazada vs Shopee vs other sites.
+
+![Orders Chart](../../../static/img/xstore/dashboard/dashboard-13.png)
+
+- **Orders Chart**: A line or bar showing if you are getting more or fewer orders over time.
 
 ---
 
 ## Products Section
 
-Monitor your inventory health and product performance.
+Check your stock and how well your items are selling.
 
-![layout-controls](../../../static/img/xstore/dashboard/dashboard-4.png)
+![Products Section](../../../static/img/xstore/dashboard/dashboard-4.png)
 
-### Inventory Metrics
+### Stock Numbers
 
-- **Total Products**: The total number of unique products in your catalog.
-- **Total Stock Items**: The total quantity of stock available.
-- **Total Variants**: The count of product variations (e.g., size, color).
-- **Total Mapped Products**: The number (and ratio) of products successfully mapped between your e-commerce platforms and SQL Account.
+- **Total Products**: How many different types of items you sell.
+- **Total Stock Items**: The total count of all items you have ready to sell.
+- **Total Variants**: The count of different choices for items (like different sizes or colors).
+- **Total Mapped Products**: How many items are correctly linked between your online store and SQL Account.
 
-### Product Insights
+### Product Info
 
-- **Top Selling Products**: A ranked list of your best-performing items based on sales volume.
-- **Top Returned Products**: A list of products with the highest return rates, helping you identify potential quality or description issues.
+![Product Info](../../../static/img/xstore/dashboard/dashboard-11.png)
+
+- **Top Selling Products**: A list of your most popular items.
+- **Top Returned Products**: Items that customers send back most often. This helps you find problems with certain products.
 
 ---
 
 ## Stores Section
 
-Manage the connectivity and distribution of your sales channels.
+Manage your different selling channels.
 
-![layout-controls](../../../static/img/xstore/dashboard/dashboard-5.png)
+![Stores Section](../../../static/img/xstore/dashboard/dashboard-5.png)
 
-### Store Metrics
+### Store Numbers
 
-- **Total Stores**: The total number of e-commerce stores integrated.
-- **Active Stores**: The number of stores currently active and syncing data.
+- **Total Stores**: The total number of online stores you have connected.
+- **Active Stores**: How many stores are currently working and sharing data.
 
-### Store Distribution
+### Store Locations
 
-- **Stores by Platform**: Showing how many stores you have connected for each platform (Lazada, Shopee, TikTok).
-- **Stores by Region**: Displaying the geographic distribution of your stores (e.g., CO, MY, SG, TH, TW, US).
+![Store Locations](../../../static/img/xstore/dashboard/dashboard-12.png)
+
+- **Stores by Platform**: Shows how many stores you have for Lazada, Shopee, or TikTok and more.
+- **Stores by Region**: Shows where your stores are located (like MY, SG, and more).
