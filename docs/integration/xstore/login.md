@@ -1,11 +1,12 @@
 ---
 sidebar_position: 1
-title: Sign In
-description: A guide on Sign In
+title: Getting Started
+description: A guide to getting started
 slug: /integration/xstore/login
-tags: ["e-Commerce", "X-Store", "Sign In"]
+tags: ["e-Commerce", "X-Store", "Getting Started"]
 ---
 
+## Sign In
 :::info
 For detailed instructions, please refer to the [**Sign Up Section**](#sign-up) below.
 :::

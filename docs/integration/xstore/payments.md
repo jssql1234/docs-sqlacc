@@ -12,8 +12,6 @@ The **Manage Payments** page allows you to view and manage all payment details. 
 
 ## Data Table Features
 
-### Table Columns
-
 ![payment-details](../../../static/img/xstore/payments/payment-details.png)
 
 | Column                                                                   | Description                                                                     |
@@ -23,7 +21,7 @@ The **Manage Payments** page allows you to view and manage all payment details. 
 | **Currency**                                                             | The currency used (e.g., MYR)                                                   |
 | **Amount**                                                               | Total amount for the grouped row, or individual line item amounts when expanded |
 
-### Filter and Search Options
+## General Features
 
 ![payment-filter](../../../static/img/xstore/payments/payment-filter.png)
 
