@@ -6,13 +6,13 @@ slug: /integration/xstore/order-details
 tags: ["e-Commerce", "X-Store", "Order Detail"]
 ---
 
+## Overview
+
 The **Order Detail** module allows you to view individual order information and perform actions such as cancellations, returns, and refunds.
 
 To access this page, click the **document icon** on any order row.
 
----
-
-## Overview
+![order-detail-enter](../../../../static/img/xstore/order-details/order-detail-enter.png)
 
 The Order Details interface allows you to:
 
@@ -24,8 +24,6 @@ The Order Details interface allows you to:
 
 > **Quick Feature:** Use the mapping button to quickly link order items to your stock items directly from this page.
 
----
-
 ## Platform-Specific Guides
 
 Each e-commerce platform has unique order detail layouts and available actions. Select your platform below:
@@ -33,8 +31,6 @@ Each e-commerce platform has unique order detail layouts and available actions. 
 - [Lazada](#lazada)
 - [Shopee](#shopee)
 - [TikTok](#tiktok)
-
----
 
 ## Lazada
 
@@ -65,8 +61,6 @@ Order items are grouped by package and tracking ID.
 
 ![lazada-cancel-order-info](../../../../static/img/xstore/order-details/lazada/cancel-order-info.png)
 
----
-
 ### Repack Order
 
 ![lazada-repack-order](../../../../static/img/xstore/order-details/lazada/repack-order.png)
@@ -74,8 +68,6 @@ Order items are grouped by package and tracking ID.
 **Available for:** Orders in the **To Process** tab
 
 Use the Repack action to repack specific items in the order after cancellation of specific items.
-
----
 
 ### Cancel Order (Seller-Initiated)
 
@@ -95,8 +87,6 @@ Use the Repack action to repack specific items in the order after cancellation o
 ![lazada-cancel-order-warning](../../../../static/img/xstore/order-details/lazada/seller-cancel-order-form-warning.png)
 
 > **Warning:** Hover over the warning icon to see Lazada's cancellation policies and potential consequences on this order.
-
----
 
 ### Return Order (Buyer-Initiated)
 
@@ -144,8 +134,6 @@ To reject a refund request:
 
 After processing, the status changes to **Refund Pending** while Lazada processes and reviews the refund.
 
----
-
 ## Shopee
 
 ### Order Detail Page
@@ -164,8 +152,6 @@ The order information section displays:
 ### Return Order Info
 
 ![shopee-return-order-info](../../../../static/img/xstore/order-details/shopee/return-order-info.png)
-
----
 
 ### Cancel Order (Seller-Initiated)
 
@@ -186,15 +172,11 @@ When selecting "Out of Stock" as the reason:
 
 > **Note:** Cancelling with "Out of Stock" may reset the item quantity to 0 on the platform.
 
----
-
 ### Cancel Order (Buyer-Initiated)
 
 ![shopee-cancel-order-button](../../../../static/img/xstore/order-details/shopee/buyer-cancel-order.png)
 
 Sellers can accept or reject the buyer's cancellation request.
-
----
 
 ### Return Order (Buyer-Initiated)
 
@@ -230,8 +212,6 @@ When you've made an offer and are awaiting buyer response, you can still modify 
 
 ![shopee-dispute-form](../../../../static/img/xstore/order-details/shopee/buyer-return-refund-dispute.png)
 
----
-
 ## TikTok
 
 ### Order Detail Page
@@ -259,8 +239,6 @@ Displays cancellation details including the cancel reason and initiator when an 
 
 Displays return request details including the return reason, status, and refund amount when a buyer initiates a return.
 
----
-
 ### Cancel Order (Seller-Initiated)
 
 ![tiktok-cancel-order-button](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order.png)
@@ -270,8 +248,6 @@ Displays return request details including the return reason, status, and refund 
 ![tiktok-cancel-order-form](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order-form.png)
 
 Select a cancellation reason and submit to cancel the order.
-
----
 
 ### Cancel Order (Buyer-Initiated)
 
@@ -287,8 +263,6 @@ When a buyer requests cancellation, choose your response:
 
 ![tiktok-reject-cancellation](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order-reject.png)
 
----
-
 ### Return Order (Buyer-Initiated)
 
 ![tiktok-return-request](../../../../static/img/xstore/order-details/tiktok/buyer-return-order.png)
@@ -302,9 +276,3 @@ When a buyer initiates a return, review the request and respond:
 **Reject Return:**
 
 ![tiktok-reject-return](../../../../static/img/xstore/order-details/tiktok/buyer-return-order-reject.png)
-
----
-
-## Related
-
-- [Order Management](./orders) – Managing orders across all platforms
