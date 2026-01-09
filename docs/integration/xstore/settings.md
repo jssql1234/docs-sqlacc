@@ -1,5 +1,5 @@
 ---
-sidebar_position: 111
+sidebar_position: 7
 title: Settings
 description: A guide on Settings
 slug: /integration/estore/settings

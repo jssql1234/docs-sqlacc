@@ -1,5 +1,5 @@
 ---
-sidebar_position: 108
+sidebar_position: 4
 title: Inventory
 description: A guide on inventory
 slug: /integration/xstore/inventory

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 107
+sidebar_position: 3
 title: Stores
 description: Complete guide to link e-commerce stores and perform code mapping for product mapping and order posting
 slug: /integration/xstore/stores

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 105
+sidebar_position: 1
 title: Sign In
 description: A guide on Sign In
 slug: /integration/xstore/login

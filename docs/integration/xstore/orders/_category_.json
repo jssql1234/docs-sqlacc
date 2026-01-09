@@ -1,6 +1,6 @@
 {
     "label": "Order",
-    "position": 109,
+    "position": 5,
     "link": {
         "type": "generated-index",
         "slug": "/integration/x-store/orders-category",

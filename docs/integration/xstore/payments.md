@@ -1,5 +1,5 @@
 ---
-sidebar_position: 110
+sidebar_position: 6
 title: Payments
 description: A guide on Payments
 slug: /integration/xstore/payments
