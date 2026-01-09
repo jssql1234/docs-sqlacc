@@ -16,7 +16,7 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
     ![link-store](../../../static/img/xstore/stores/link-store.png)
 
-## Lazada
+### Lazada
 
 1. Select Lazada
 
@@ -46,7 +46,7 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
         ![link-lazada](../../../static/img/xstore/stores/link-lazada.png)
 
-## Shopee
+### Shopee
 
 1. Select Shopee
 
@@ -102,7 +102,7 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
         ![link-shopeeMain](../../../static/img/xstore/stores/link-shopeeMain.png)
 
-## Tiktok
+### Tiktok
 
 1. Select Tiktok
 
@@ -142,7 +142,11 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
 ![store-expired](../../../static/img/xstore/stores/store-expired.png)
 
-## Additional Features
+## General Features
+
+![general-features1](../../../static/img/xstore/stores/general-features1.png)
+
+![general-features2](../../../static/img/xstore/stores/general-features2.png)
 
 | Features                 | Description                                                                  |
 | ------------------------ | ------------------------------------------------------------------------ |

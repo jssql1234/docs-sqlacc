@@ -6,9 +6,11 @@ slug: /integration/xstore/setup
 tags: ["e-Commerce", "X-Store", "Setup"]
 ---
 
-<div align="justify"> This guide walks you through the complete setup of the **SQL X-Store** App — from creating a company to syncing data from **E-commerce platforms** and **SQL Account**.</div>
+## Configurations
 
-## Step 1: Create Company
+This guide walks you through the complete setup of the **SQL X-Store** App — from creating a company to syncing data from **E-commerce platforms** and **SQL Account**.
+
+### Step 1: Create Company
 
 1. Click **Create Company** in Company List page
 
@@ -28,7 +30,7 @@ tags: ["e-Commerce", "X-Store", "Setup"]
 
     ![company-profile](../../../static/img/xstore/setup/company-profile.png)
 
-## Step 2: Link Store
+### Step 2: Link Store
 
 <div align="justify"> Connect E-commerce stores to sync **store**, **product**, **order**, and **payment** data.</div>
 
@@ -42,13 +44,13 @@ tags: ["e-Commerce", "X-Store", "Setup"]
 
 > 📌 For detailed instructions on linking store, navigate to **Integration > XStore > [Stores](./stores.md)**
 
-### Auto-Sync Behavior
+ **Auto-Sync Behavior**
 
 - After linking, the system **automatically syncs the past 3 days** of product, order, and payment data.
 - Sync actions are locked for **10 minutes** to prevent overload.
 - After 10 minutes, manual sync becomes available.
 
-## Step 3: Configure Company Settings
+### Step 3: Configure Company Settings
 
 1. Click **Settings > Company** from the sidebar
 
@@ -64,7 +66,7 @@ tags: ["e-Commerce", "X-Store", "Setup"]
 
     ![input-key](../../../static/img/xstore/setup/input-key.png)
 
-## Step 4: Code Mapping
+### Step 4: Code Mapping
 
 <div align="justify">Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Account to map codes such as **Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer** codes for invoice posting to SQL Account.</div>
 
@@ -88,7 +90,7 @@ tags: ["e-Commerce", "X-Store", "Setup"]
 
     ![map-code-success](../../../static/img/xstore/setup/map-success.png)
 
-## Step 5: Sync Stock Items from SQL Account
+### Step 5: Sync Stock Items from SQL Account
 
 Sync stock items from SQL Account for **product mapping** and **quantity control**.
 
