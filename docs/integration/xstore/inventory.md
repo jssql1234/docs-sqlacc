@@ -6,7 +6,7 @@ slug: /integration/xstore/inventory
 tags: ["e-Commerce", "X-Store", "Inventory"]
 ---
 
-## Products Page
+## Products
 
 ### Map Products
 
@@ -38,7 +38,7 @@ tags: ["e-Commerce", "X-Store", "Inventory"]
 
    ![6](../../../static/img/xstore/inventory/unmap-product-2.png)
 
-## Stocks Page
+## Stocks
 
 ### Map Products to Specific Stock Items
 
