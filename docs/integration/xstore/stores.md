@@ -34,7 +34,7 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
     ![input-lazada-credentials](../../../static/img/xstore/stores/lazada-credentials.png)
 
-6. Click authorize 
+6. Click authorize
 
     ![lazada-authorize](../../../static/img/xstore/stores/lazada-authorize.png)
 
@@ -144,15 +144,13 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
 ## General Features
 
-![general-features1](../../../static/img/xstore/stores/general-features1.png)
+![general-features](../../../static/img/xstore/stores/general-features.png)
 
-![general-features2](../../../static/img/xstore/stores/general-features2.png)
-
-| Features                 | Description                                                                  |
-| ------------------------ | ------------------------------------------------------------------------ |
-| **Search**               | Search for stores by **store name** or **region**.                          |
-| **Pagination**           | Choose to display **50, 100, 150, or 200** records per page.                              |
-| **Collapse All**         | **Hide all** child-level details.                                     |
-| **Expand All**           | **Expand all** child-level details to view complete information at once.                                       |
-| **Sorting**              | Sort data in **ascending** or **descending** order.                                       |
-| **Column Visibility**    | **Show or hide** specific columns to customize the table view according to preference. |
+| Features                    | Description                                                                            |
+| ----------------------------| -------------------------------------------------------------------------------------- |
+| **1. Search**               | Search for stores by **store name** or **region**.                                     |
+| **2. Pagination**           | Choose to display **50, 100, 150, or 200** records per page.                           |
+| **3. Collapse All**         | **Hide all** child-level details.                                                      |
+| **4. Expand All**           | **Expand all** child-level details to view complete information at once.               |
+| **5. Sorting**              | Sort data in **ascending** or **descending** order.                                    |
+| **6. Column Visibility**    | **Show or hide** specific columns to customize the table view according to preference. |

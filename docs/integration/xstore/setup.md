@@ -32,7 +32,7 @@ This guide walks you through the complete setup of the **SQL X-Store** App — f
 
 ### Step 2: Link Store
 
-<div align="justify"> Connect E-commerce stores to sync **store**, **product**, **order**, and **payment** data.</div>
+Connect E-commerce stores to sync **store**, **product**, **order**, and **payment** data.
 
 1. Click **Stores** in the sidebar
 
@@ -44,7 +44,7 @@ This guide walks you through the complete setup of the **SQL X-Store** App — f
 
 > 📌 For detailed instructions on linking store, navigate to **Integration > XStore > [Stores](./stores.md)**
 
- **Auto-Sync Behavior**
+**Auto-Sync Behavior**
 
 - After linking, the system **automatically syncs the past 3 days** of product, order, and payment data.
 - Sync actions are locked for **10 minutes** to prevent overload.
@@ -68,7 +68,7 @@ This guide walks you through the complete setup of the **SQL X-Store** App — f
 
 ### Step 4: Code Mapping
 
-<div align="justify">Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Account to map codes such as **Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer** codes for invoice posting to SQL Account.</div>
+Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Account to map codes such as **Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer** codes for invoice posting to SQL Account.
 
 1. Click **Stores** in the sidebar
 
