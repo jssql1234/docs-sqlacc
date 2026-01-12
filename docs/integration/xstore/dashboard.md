@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 title: Dashboard
 description: A guide on Dashboard
 slug: /integration/xstore/dashboard

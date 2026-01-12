@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 3
 title: Side Menu
 description: A guide on Side Menu
 slug: /integration/xstore/side-menu

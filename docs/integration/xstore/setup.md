@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 2
 title: Setup
 description: A guide to set up SQL X-Store App
 slug: /integration/xstore/setup
