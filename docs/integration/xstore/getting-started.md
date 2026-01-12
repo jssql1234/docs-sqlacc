@@ -8,15 +8,13 @@ tags: ["e-Commerce", "X-Store", "Getting Started"]
 
 ## Sign In
 
-:::info
-For detailed instructions, please refer to the [**Sign Up Section**](#sign-up) below.
-:::
-
 If you already have an account, you can [sign in](https://x-store-demo.sql.com.my/login) using one of the following methods:
 
 - **Sign in with Passkey** - Use your registered passkey for quick and secure access
 - **Sign in with Email** - Enter your email address and click the verification link to sign in
 - **Google Single Sign-On (SSO)** - Sign in with your Google account (Gmail only). Click the Google button, select your Gmail account, and you'll be signed in automatically.
+
+For detailed instructions, please refer to the [Sign Up Section](#sign-up) below.
 
   ![login-overview](../../../static/img/xstore/getting-started/login-overview.png)
 
