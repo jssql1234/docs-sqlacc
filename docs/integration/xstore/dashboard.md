@@ -10,11 +10,9 @@ tags: ["e-Commerce", "X-Store", "Dashboard"]
 
 The **Dashboard** is the main page where you can see how your stores are doing. It shows you latest information on sales, orders, stock, and if your stores are connected properly.
 
----
-
 ### Date Filter
 
-![Date Filter](../../../static/img/xstore/dashboard/dashboard-1.png)
+![date-filter](../../../static/img/xstore/dashboard/dashboard-1.png)
 
 Pick a time period to see its data. You can choose:
 
@@ -27,7 +25,7 @@ Pick a time period to see its data. You can choose:
 
 ### Choose What to See
 
-![Choose What to See](../../../static/img/xstore/dashboard/dashboard-6.png)
+![choose-what-to-see](../../../static/img/xstore/dashboard/dashboard-6.png)
 
 Pick what kind of numbers you want to see:
 
@@ -36,7 +34,7 @@ Pick what kind of numbers you want to see:
 
 ### Chart Types
 
-![Chart Types](../../../static/img/xstore/dashboard/dashboard-7.png)
+![chart-types](../../../static/img/xstore/dashboard/dashboard-7.png)
 
 Choose how you want the numbers to look:
 
@@ -45,13 +43,11 @@ Choose how you want the numbers to look:
 - **Pie Chart**: Shows a circle divided into parts to see which time had more sales.
 - **Table**: Shows exact numbers in a list.
 
----
-
 ## Payments Section
 
 This part shows you the money side of your business.
 
-![Payments Section](../../../static/img/xstore/dashboard/dashboard-2.png)
+![payments-section](../../../static/img/xstore/dashboard/dashboard-2.png)
 
 ### Main Numbers
 
@@ -65,7 +61,7 @@ A picture showing your payment trends. You can change how it looks using the but
 
 **Group by Time**
 
-![Group by Time](../../../static/img/xstore/dashboard/dashboard-8.png)
+![group-by-time](../../../static/img/xstore/dashboard/dashboard-8.png)
 
 Choose how to bundle your payment data:
 
@@ -75,13 +71,11 @@ Choose how to bundle your payment data:
 
 > **Tip**: Try different chart types with different time groups. For example, use a line chart with "Day" to see small changes, or a bar chart with "Month" to see how you did over several months.
 
----
-
 ## Orders Section
 
 This part shows you how many orders you have and where they come from.
 
-![Orders Section](../../../static/img/xstore/dashboard/dashboard-3.png)
+![orders-section](../../../static/img/xstore/dashboard/dashboard-3.png)
 
 ### Order Numbers
 
@@ -92,24 +86,22 @@ This part shows you how many orders you have and where they come from.
 
 ### Order Details
 
-![Order Details](../../../static/img/xstore/dashboard/dashboard-10.png)
+![order-details](../../../static/img/xstore/dashboard/dashboard-10.png)
 
 - **Orders by Store**: Shows which individual store (like a specific Lazada or Shopee store) is getting orders.
 - **Orders by Status**: Shows all orders status from all the stores.
 - **Orders by Region**: Shows which country or area the orders are coming from (like MY or SG).
 - **Orders by Platform**: Compare how many orders come from Lazada vs Shopee vs other sites.
 
-![Orders Chart](../../../static/img/xstore/dashboard/dashboard-13.png)
+![orders-chart](../../../static/img/xstore/dashboard/dashboard-13.png)
 
 - **Orders Chart**: A line or bar showing if you are getting more or fewer orders over time.
-
----
 
 ## Products Section
 
 Check your stock and how well your items are selling.
 
-![Products Section](../../../static/img/xstore/dashboard/dashboard-4.png)
+![products-section](../../../static/img/xstore/dashboard/dashboard-4.png)
 
 ### Stock Numbers
 
@@ -120,18 +112,16 @@ Check your stock and how well your items are selling.
 
 ### Product Info
 
-![Product Info](../../../static/img/xstore/dashboard/dashboard-11.png)
+![product-info](../../../static/img/xstore/dashboard/dashboard-11.png)
 
 - **Top Selling Products**: A list of your most popular items.
 - **Top Returned Products**: Items that customers send back most often. This helps you find problems with certain products.
-
----
 
 ## Stores Section
 
 Manage your different selling channels.
 
-![Stores Section](../../../static/img/xstore/dashboard/dashboard-5.png)
+![stores-section](../../../static/img/xstore/dashboard/dashboard-5.png)
 
 ### Store Numbers
 
@@ -140,7 +130,7 @@ Manage your different selling channels.
 
 ### Store Locations
 
-![Store Locations](../../../static/img/xstore/dashboard/dashboard-12.png)
+![store-locations](../../../static/img/xstore/dashboard/dashboard-12.png)
 
 - **Stores by Platform**: Shows how many stores you have for Lazada, Shopee, or TikTok and more.
 - **Stores by Region**: Shows where your stores are located (like MY, SG, and more).

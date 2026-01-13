@@ -14,7 +14,7 @@ If you already have an account, you can [sign in](https://x-store-demo.sql.com.m
 - **Sign in with Email** - Enter your email address and click the verification link to sign in
 - **Google Single Sign-On (SSO)** - Sign in with your Google account (Gmail only). Click the Google button, select your Gmail account, and you'll be signed in automatically.
 
-For detailed instructions, please refer to the [Sign Up Section](#sign-up) below.
+For detailed instructions, please refer to the [sign up section](#sign-up) below.
 
   ![login-overview](../../../static/img/xstore/getting-started/login-overview.png)
 

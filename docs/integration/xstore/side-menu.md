@@ -8,7 +8,7 @@ tags: ["e-Commerce", "X-Store", "Side Menu"]
 
 The side menu is the secondary navigation component for the e-Commerce integration system.
 
-![Side Menu](../../../static/img/xstore/sidemenu/sidemenu.png)
+![side-menu](../../../static/img/xstore/sidemenu/sidemenu.png)
 
 ## Profile Actions
 
@@ -33,7 +33,7 @@ The side menu is the secondary navigation component for the e-Commerce integrati
 
 The User Profile page displays your account information and security settings.
 
-![User Profile](../../../static/img/xstore/sidemenu/sidemenu-1.png)
+![user-profile](../../../static/img/xstore/sidemenu/sidemenu-1.png)
 
 ### Profile Information
 
@@ -48,7 +48,7 @@ The User Profile page displays your account information and security settings.
 
 Manage your registered passkeys for secure authentication.
 
-![Passkeys](../../../static/img/xstore/sidemenu/sidemenu-2.png)
+![passkeys](../../../static/img/xstore/sidemenu/sidemenu-2.png)
 
 - Click **+ Create Passkey** to register a new passkey
 - View existing passkeys with actions menu
@@ -57,9 +57,9 @@ Manage your registered passkeys for secure authentication.
 
 View your active login sessions across different devices and browsers.
 
-![Passkeys](../../../static/img/xstore/sidemenu/sidemenu-8.png)
+![sessions](../../../static/img/xstore/sidemenu/sidemenu-8.png)
 
-![Passkeys](../../../static/img/xstore/sidemenu/sidemenu-3.png)
+![sessions-2](../../../static/img/xstore/sidemenu/sidemenu-3.png)
 
 ---
 
@@ -67,11 +67,11 @@ View your active login sessions across different devices and browsers.
 
 Edit your profile information from the User Profile page.
 
-![Update User Profile](../../../static/img/xstore/sidemenu/sidemenu-4.png)
+![update-user-profile](../../../static/img/xstore/sidemenu/sidemenu-4.png)
 
 ### Editable Fields
 
-![Update User Profile 2](../../../static/img/xstore/sidemenu/sidemenu-7.png)
+![update-user-profile-2](../../../static/img/xstore/sidemenu/sidemenu-7.png)
 
 Click **Save** to apply changes or **Cancel** to discard.
 
@@ -81,18 +81,18 @@ Click **Save** to apply changes or **Cancel** to discard.
 
 Create a new passkey for passwordless authentication.
 
-![Register New Passkey](../../../static/img/xstore/sidemenu/sidemenu-5.png)
+![register-new-passkey](../../../static/img/xstore/sidemenu/sidemenu-5.png)
 
 ### Steps to Register
 
 1. Click **+ Create Passkey** from the User Profile page
 2. Enter a **Passkey Name** (required, max 50 characters)
 
-	![Authentication Prompt](../../../static/img/xstore/sidemenu/sidemenu-9.png)
+![authentication-prompt](../../../static/img/xstore/sidemenu/sidemenu-9.png)
 
 3. Click **Register** to complete the process
 
-	![Authentication Prompt](../../../static/img/xstore/sidemenu/sidemenu-6.png)
+![authentication-prompt-2](../../../static/img/xstore/sidemenu/sidemenu-6.png)
 
 4. Choose where to save the passkey
 5. Follow your device's authentication prompt
