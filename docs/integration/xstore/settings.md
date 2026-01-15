@@ -18,7 +18,7 @@ The Settings module consists of three main sections to help you manage your orga
 
 View and update your company's information, including business details and API configurations.
 :::info
-Check out our [setup-guide](/integration/xstore/setup#step-1-create-company) for detailed instructions on creating your company profile.
+Check out our [setup-guide](../xstore/setup#step-1-create-company) for detailed instructions on creating your company profile.
 :::
 
 ![company-overview](../../../static/img/xstore/settings/company-overview.png)
@@ -43,7 +43,7 @@ Configure your SQL Account API access by setting up:
 
 ![company-information](../../../static/img/xstore/settings/company-information.png)
 :::info
-For more details on SQL Account configuration, see our [Setup Guide](/integration/xstore/setup#step-3-configure-company-settings).
+For more details on SQL Account configuration, see our [Setup Guide](../xstore/setup#step-3-configure-company-settings).
 :::
 
 #### Update Company Logo
