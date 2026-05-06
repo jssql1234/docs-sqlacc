@@ -2313,7 +2313,7 @@ This mode is only for users who know how to use Delphi.
     - **DBEdit**: For **String** data.
     - **DBRichEdit**: For **Memo** data.
     - **cxDBSpinEdit**: For **Currency**, **Float**, or **Integer** data.
-      :::
+    :::
 
 5. Click the **Standard** tab and select the **Label** button to place it on the right panel.
 6. In the **Object Inspector**, look for:

@@ -6,9 +6,8 @@ slug: /usage/customer/guide
 tags: ["Account Receivable", "Customer Management", "Transactions"]
 ---
 
-## Customer Guide (Account Receivable)
 
-The **Customer (AR)** module allows you to manage customer profiles, track outstanding balances, and process payments.
+The **Customer (AR)**  module allows you to manage account receivable, customer profiles, track outstanding balances, and process payments.
 
 ## Customer Workflow
 
