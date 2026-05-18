@@ -19,7 +19,7 @@ tags: ["SQL Mobile Connect", "On-Premise Setup"]
 Make sure to have a **dedicated public IP Address**.
 
 :::info[Check Public IP Address]
-You can using [SQL Connect Detector](https://connect.sql.com.my/document/private-cloud/requirements/sql-connect-detector#download) to check whether public IP is enabled by your ISP.
+You can use [SQL Connect Detector](https://docs.sql.com.my/sqlconnect/private-cloud/requirements/sql-connect-detector#download) to check whether public IP is enabled by your ISP.
 
 Make sure the last requirement **Port Forward?** is in <text style={{color: "#43a047"}}>**Green**</text>
 :::
