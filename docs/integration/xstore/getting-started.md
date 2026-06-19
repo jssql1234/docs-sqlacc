@@ -13,6 +13,7 @@ If you already have an account, you can [sign in](https://x-store.sql.com.my/log
 - **Sign in with Passkey** - Use your registered passkey for quick and secure access.
 - **Sign in with Email** - Enter your email address and click the verification link to sign in.
 - **Google Single Sign-On (SSO)** - Sign in with your Google account (Gmail only). Click the Google button, select your Gmail account, and you'll be signed in automatically.
+- **Microsoft Single Sign-On (SSO)** - Sign in with your Microsoft personal accounts. Click the Microsoft button, select your Microsoft account, and you'll be signed in automatically.
 
 For detailed instructions, please refer to the [sign up section](#sign-up) below.
 
@@ -83,7 +84,7 @@ For email-based registration:
 5. Check your email inbox for a verification link
 
    :::info
-   The verification link expires in 2 minutes.
+   The verification link expires in 24 hours.
    :::
 
    ![email-action](../../../static/img/xstore/getting-started/email-action.png)
@@ -92,9 +93,17 @@ For email-based registration:
 
    ![email-link](../../../static/img/xstore/getting-started/email-link.png)
 
-7. Your account is now successfully created
+7. Your account is now successfully created.
 
    ![email-verification](../../../static/img/xstore/getting-started/email-verification.png)
+
+   :::info
+   Didn't receive the email in time, or already clicked the verification link? No problem — just come back to this page and click **I've Verified My Email** to continue.
+
+   If you can't find the email, check your spam folder first. Otherwise, use **Resend Email** to get a new link, or **Change email address** if you'd like to use a different one. You can also choose a different sign-up method instead.
+   :::
+
+   ![email-reverify](../../../static/img/xstore/getting-started/email-reverify.png)
 
 8. Once successful, you'll be redirected to the **Company List** page
 
