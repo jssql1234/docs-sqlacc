@@ -276,3 +276,28 @@ View posted orders and repost orders to update invoices.
 3. You can view the status of the repost order operation by clicking the **History** icon button beside the **Repost Order** button.
 
    ![repost-history](../../../static/img/xstore/settings/repost-history.png)
+
+## Recalculate
+
+View untally orders and recalculate payout before updating invoices.
+
+![recalculate-overview](../../../static/img/xstore/settings/recalculate-overview.png)
+
+There are two tabs displayed in **Recalculate Payout** page:
+
+- **Untally Orders**: contains orders with untally payout only
+- **All Orders**: contains all completed orders from various platforms
+
+![recalculate-untally](../../../static/img/xstore/settings/recalculate-untally.png)
+
+1. You can multiselect the orders and click the **Recalculate Payout** button.
+
+   ![recalculate-action](../../../static/img/xstore/settings/recalculate-action.png)
+
+2. You can view the status of the recalculate payout operation by clicking the **History** icon button beside the **Recalculate Payout** button.
+
+   ![recalculate-history](../../../static/img/xstore/settings/recalculate-history.png)
+
+3. You can view the payments at the **Payment Module** if the payout recalculated successfully and become tally again.
+
+   ![recalculate-payment](../../../static/img/xstore/settings/recalculate-payment.png)
