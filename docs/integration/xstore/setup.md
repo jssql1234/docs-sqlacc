@@ -44,15 +44,17 @@ Connect E-commerce stores to sync **store**, **product**, **order**, and **payme
 
 > 📌 For detailed instructions on linking a store, navigate to **Integration > XStore > [Stores](./stores.md)**
 
+:::info
 **Auto-Sync Behavior**
 
 - After linking, the system **automatically syncs the past 3 days** of product, order, and payment data.
-- Sync actions are locked for **10 minutes** to prevent overload.
-- After 10 minutes, manual sync becomes available.
+<!-- - Sync actions are locked for **10 minutes** to prevent server overload. -->
+<!-- - After 10 minutes, manual sync becomes available. -->
+:::
 
-### Step 3: Configure Company Settings
+### Step 3: Configure SQL Account Settings
 
-1. Click **Settings > Company** from the sidebar
+1. Click **Settings > Company** in the sidebar
 
     ![company-sidebar](../../../static/img/xstore/setup/company-sidebar.png)
 
@@ -60,15 +62,17 @@ Connect E-commerce stores to sync **store**, **product**, **order**, and **payme
 
     ![add-key](../../../static/img/xstore/setup/add-key.png)
 
-3. Copy the **Access Key** and **Secret Key** from SQL Account and fill in both fields to enable SQL sync
-
-4. Click **Save**
+3. Copy the **Access Key** and **Secret Key** from SQL Account and paste them into the respective fields to enable SQL sync. Then, click **Test Connection**
 
     ![input-key](../../../static/img/xstore/setup/input-key.png)
 
+4. Click **Save**
+
+    ![save-key](../../../static/img/xstore/setup/save-key.png)
+
 ### Step 4: Code Mapping
 
-Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Account to map codes such as **Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer** codes for invoice posting to SQL Account.
+Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Account to map code types (**Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer**) required for posting invoices to SQL Account.
 
 1. Click **Stores** in the sidebar
 
@@ -80,13 +84,13 @@ Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Accou
 
 3. A dialog will open:
 
-    1. Select the **code type** from the dropdown
+    1. Select the **code type** from the dropdown menu
 
     2. Click **Map Codes**
 
         ![map-codes](../../../static/img/xstore/setup/map-codes.png)
 
-    3. To post orders to the SQL Account, a default code must be configured. Without it, orders that include unmapped products cannot be posted.
+    3. To post orders to SQL Account, a default code must be configured. Without it, orders that include unmapped products cannot be posted
 
         ![default-code](../../../static/img/xstore/setup/default-code.png)
 
@@ -94,7 +98,7 @@ Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Accou
 
         ![no-code](../../../static/img/xstore/setup/no-code.png)
 
-4. Click the **refresh** icon to get the latest code data.
+4. Click the **Refresh** icon to get the latest code data
 
     ![refresh-code](../../../static/img/xstore/setup/refresh-code.png)
 
@@ -103,11 +107,11 @@ Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Accou
 Sync stock items from SQL Account for **product mapping** and **quantity control**.
 
 :::info
-   If an item has been mapped in the **SQL Account E-Commerce module** (using an **Alternative Code**), the mapping information will be used to auto match with the corresponding SKU in X-Store. You do not need to perform the mapping action again in **[Stock](./inventory/stocks.md#map-products)**.
+   If an item has been mapped in the **SQL Account E-Commerce module** (using an **Alternative Code**), the mapping information will be used to automatically match the corresponding SKU in X-Store. You do not need to perform the mapping action again in **[Stock](./inventory/stocks.md#map-products)**.
 :::
 
 :::warning
-   Ensure your store is mapped to the correct stock item location, or mapped items won't appear.
+   Ensure your store is mapped to the correct stock item location; otherwise, mapped items will not appear in **Stock Detail**.
 :::
 
 1. Click **Inventory > Stocks** in the sidebar
@@ -118,21 +122,28 @@ Sync stock items from SQL Account for **product mapping** and **quantity control
 
     ![sync-stock](../../../static/img/xstore/setup/sync-stock.png)
 
-3. Choose sync method:
+3. A dialog will open:
 
-    1. **Sync All**, or
+    ![select-stockSync](../../../static/img/xstore/setup/select-stock-sync.png)
 
-    2. Tick checkboxes and click **Sync Selected**
+    1. Use the header checkbox to select all items, or select the checkboxes for the items you want to sync
+    2. Click **Sync Selected**
 
-        ![select-stockSync](../../../static/img/xstore/setup/select-stock-sync.png)
+4. The **Synced** count will increase after the items are synced successfully
 
-4. Synced stock items will appear in the Data Table
+    ![synced-stock](../../../static/img/xstore/setup/synced-stock.png)
+
+5. Synced stock items will appear in the Data Table
 
     ![stock-items](../../../static/img/xstore/setup/stock-items.png)
 
+:::info
+   Failed items can be retried individually. Learn more in **[Retry Sync](#retry-sync)**.
+:::
+
 ## Manual Sync
 
-If platform data failed to sync during store linking, you can sync manually.
+You can manually sync product, order, and payment data using the steps below.
 
 ### Sync Product Data
 
@@ -140,58 +151,53 @@ If platform data failed to sync during store linking, you can sync manually.
 
     ![product-sidebar](../../../static/img/xstore/setup/product-sidebar.png)
 
-2. Click (**⟲**) icon
+2. Click the **Sync** icon
 
     ![sync-product](../../../static/img/xstore/setup/sync-product.png)
 
 3. A dialog will open:
 
-    1. Tick checkboxes to select stores
+    ![select-product-sync](../../../static/img/xstore/setup/select-product-sync.png)
 
+    1. Select the checkboxes to choose stores
     2. Click **Sync Selected**
 
-        ![select-productSync](../../../static/img/xstore/setup/select-product-sync.png)
+4. A success message is displayed when the sync is completed. Then, click **Next Sync** to sync the next store.
 
-### Sync Order Data
+    ![product-nextSync](../../../static/img/xstore/setup/product-nextSync.png)
 
-1. Click **Orders** in the sidebar
+### Sync Order / Payment Data
+
+Order and Payment data are synced together using the same Sync Dialog. The dialog is accessible from both modules.
+
+1. Click **Orders** or **Payments** in the sidebar
 
     ![order-sidebar](../../../static/img/xstore/setup/order-sidebar.png)
 
-2. Click (**⟲**) icon
+2. Click the **Sync** icon
 
     ![sync-order](../../../static/img/xstore/setup/sync-order.png)
 
 3. A dialog will open:
 
-    1. Select **Sync Mode** and **Date** (default sync data from past 3 days)
+    ![select-order-sync](../../../static/img/xstore/setup/select-order-sync.png)
 
-        ![select-sync-date](../../../static/img/xstore/setup/select-sync-date.png)
+    1. Select a **Sync Mode**:
+       - **Sync by Created Date**: sync the orders based on the order creation date
+       - **Sync by Updated Date**: sync the orders based on the order's latest updated date
+    2. Set the **Date Range** for the data you want to sync. Use **Quick Select** to auto-fill common ranges
+    3. Select the checkboxes to choose stores
+    4. Click **Sync Selected** to start the sync
 
-    2. Tick checkboxes to select stores
+### Retry Sync
 
-    3. Click **Sync Selected**
+![retry-fail](../../../static/img/xstore/setup/retry-fail.png)
 
-        ![sync-selected](../../../static/img/xstore/setup/sync-selected.png)
+If any sync operation fails, you can retry it by:
 
-### Sync Payment Data
+1. Select the rows that you would like to retry
+2. Click **Retry Selected**
 
-1. Click **Payments** in the sidebar
-
-    ![payment-sidebar](../../../static/img/xstore/setup/payment-sidebar.png)
-
-2. Click (**⟲**) icon
-
-    ![sync-payment](../../../static/img/xstore/setup/sync-payment.png)
-
-3. A dialog will open:
-
-    1. Select **Sync Mode** and **Date** (default sync data from past 3 days)
-
-        ![select-sync-date](../../../static/img/xstore/setup/select-sync-date.png)
-
-    2. Tick checkboxes to select stores
-
-    3. Click **Sync Selected**
-
-        ![sync-selected](../../../static/img/xstore/setup/sync-selected.png)
+:::warning
+   Sync results are retained for 3 hours after syncing and will be automatically deleted afterward.
+:::

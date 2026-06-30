@@ -6,12 +6,13 @@ slug: /integration/xstore/settings
 tags: ["e-Commerce", "X-Store", "Settings"]
 ---
 
-The Settings module consists of three main sections to help you manage your organization:
+The Settings module consists of these main sections to help you manage your organization:
 
 - **Company** - Manage your organization's profile and configuration
 - **Users** - Control team member access and invitations
 - **Permissions** - Define roles and access control
-- **Repost** - Repost orders to adjust invoices
+- **Post Orders** - Post invoices for the orders to SQL Account
+- **Customize Template** - Customize Picking List Template
 
 ## Company
 
@@ -19,7 +20,7 @@ The Settings module consists of three main sections to help you manage your orga
 Check out our [Setup Guide](../xstore/setup#step-1-create-company) for detailed instructions on creating your company profile.
 :::
 
-View and update your company's information, including business details and API configurations.
+View and update your company information, including business details and API configurations.
 
 ![company-overview](../../../static/img/xstore/settings/company-overview.png)
 
@@ -48,22 +49,20 @@ Click on your current logo to upload a new one.
 For more details on SQL Account configuration, see our [Setup Guide](../xstore/setup#step-3-configure-company-settings).
 :::
 
-Configure your SQL Account API access by setting up:
+You may add your SQL Account configuration here:
 
-- Access key
-- Secret key
+1. System Conversion Date
+2. SQL Account Access Key and Secret Key
+
+You can click **Test Connection** to verify the connection with the SQL Account API service. A green dot indicates a successful connection, and clicking it will display the SQL Account API version. A red dot indicates a connection error, and clicking it will display the error message.
 
 ![company-keys](../../../static/img/xstore/settings/company-keys.png)
 
 #### Company Setting
 
-Enable specific company features such as enabling **Auto Synchronize Quantity to Platform**.
+Enable specific company features such as enabling **Auto Synchronize Quantity to Platform** and update your desired default **Post Order Option** whether to *Manual Post* or *Post All*.
 
 ![company-sync](../../../static/img/xstore/settings/company-sync.png)
-
-Set the **System Conversion Date** according to the date defined in SQL Account and click Save.
-
-![company-conversionDate](../../../static/img/xstore/settings/company-conversionDate.png)
 
 ### Editing Company Details
 
@@ -259,20 +258,72 @@ Roles can only be deleted if they're not assigned to any users. If the role is i
 
 ![permissions-role-create-dialog](../../../static/img/xstore/settings/permissions-role-create-dialog.png)
 
-## Repost
+## Post Order
 
-View posted orders and repost orders to update invoices.
+View orders in the Shipped, Delivered, or Completed state and post their invoices to SQL Account. This section has two tabs:
 
-![repost-overview](../../../static/img/xstore/settings/repost-overview.png)
+1. **Unposted Tab**: Orders that haven't been posted yet, or orders that were updated after their last posting date (i.e., the order's updated date is later than its posted date).
+2. **Posted Tab**: Orders that have already been posted and have no changes since.
 
-1. You can multiselect the orders and click the **Repost Order** button.
+![post-overview](../../../static/img/xstore/settings/post-overview.png)
 
-   ![repost-selection](../../../static/img/xstore/settings/repost-selection.png)
+You can change the View Options to see more order details, or use the filter options to narrow down which orders are displayed. By default, orders are filtered to those created within the last 30 days. You can include older orders by adjusting the filter options.
 
-2. Click **Continue** in the confirmation dialog to proceed or **Cancel** to discard operation.
+![post-view](../../../static/img/xstore/settings/post-view.png)
 
-   ![repost-confirmation](../../../static/img/xstore/settings/repost-confirmation.png)
+### Posting
 
-3. You can view the status of the repost order operation by clicking the **History** icon button beside the **Repost Order** button.
+1. Select the orders you want to post, then click **Post Selected**. To select every order that matches your current filters, click **Select all filtered items**.
 
-   ![repost-history](../../../static/img/xstore/settings/repost-history.png)
+   ![post-selection](../../../static/img/xstore/settings/post-selection.png)
+
+2. To post all orders matching your current filters in the **Unposted Tab** at once, click the dropdown next to **Post Selected** and choose **Post All**. You can also set your preferred posting option in advance under [Company Setting](#company-setting).
+
+   ![post-all](../../../static/img/xstore/settings/post-all.png)
+
+3. Clicking **Post Selected** opens a confirmation dialog. Check **Include Cancelled Orders** if you want cancelled orders posted along with the rest, then click **Continue** to proceed. Click **Cancel** to back out without posting.
+
+   ![post-confirmation](../../../static/img/xstore/settings/post-confirmation.png)
+
+4. A progress card shows the status of the posting process. If **Include Cancelled Orders** isn't selected, cancelled orders are shown as skipped. Orders still waiting to be processed are shown as queued.
+
+   ![post-progress](../../../static/img/xstore/settings/post-progress.png)
+
+5. Once posting completes, successfully posted orders move to the **Posted Tab** and their *Posted Date* is updated. Orders that fail to post stay in the current tab, with the failure reason shown in the **Post Status** column.
+
+   ![post-success](../../../static/img/xstore/settings/post-success.png)
+
+6. If an order fails to post with the reason *"Shop SKU not mapped to SQL Account stock item"*, open the order's details page to map the SKU accordingly.
+
+   ![post-map](../../../static/img/xstore/settings/post-map.png)
+
+### Failed Posting
+
+If any orders fail during the post order process, you can review them in the **Post Order Failed Results** dialog. Only failed results from the last post order process are shown, and they are kept for only **3 hours**. Once the underlying issue causing the failure has been resolved, you can repost those failed orders before they expire.
+
+1. Click **View Failed Results** to see orders that failed to post in the last post order process, along with their failure reasons.
+2. Filter orders by failure reason.
+3. Select the relevant orders individually, or use **Select all filtered items** to select every order with the matching failure reason.
+4. Repost selected orders.
+
+![post-failed](../../../static/img/xstore/settings/post-failed.png)
+
+## Customize Template
+
+Personalize the appearance and layout of **Picking List** according to requirements. Users can preview the template while making changes and adjust various template settings before saving it.
+
+1. Click **Settings > Customize Template** in the sidebar
+
+   ![customize-sidebar](../../../static/img/xstore/settings/customize-sidebar.png)
+
+2. Users can customize the template and click **Apply** to preview how the Picking List will look with their selected settings. Once satisfied with the changes, click **Save** to save the customized template settings.
+
+   ![customize-btn](../../../static/img/xstore/settings/customize-btn.png)
+
+3. A success message will be displayed after the customized template settings are saved successfully.
+
+   ![customize-success](../../../static/img/xstore/settings/customize-success.png)
+
+4. Certain essential information is required and cannot be hidden.
+
+   ![customize-required](../../../static/img/xstore/settings/customize-required.png)

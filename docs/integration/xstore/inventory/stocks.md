@@ -84,3 +84,25 @@ Mapping platform products to stock items allows you to manage stock and quantity
 4. Click the **Update** button to update the mapped products' quantity with the stock item's quantity
 
    ![update-quantity-dialog](../../../../static/img/xstore/stocks/update-quantity-dialog.png)
+
+## Delete Stock
+
+Users can delete a stock that is no longer required.
+
+:::important
+Before deleting a stock, make sure that there are **no product mappings** under the stock.
+:::
+
+1. Go to **Inventory > Stocks**
+
+2. Click the icon to delete.
+
+   ![delete-stock](../../../../static/img/xstore/stocks/delete-stock.png)
+
+3. A confirmation dialog will appear. Click **Continue**.
+
+   ![delete-stock-dialog](../../../../static/img/xstore/stocks/delete-stock-dialog.png)
+
+:::note
+Once the stock is deleted, all information associated with the stock will also be permanently deleted, including **Item UOM, Item BOM, Alternative Code, Barcode and Location Code**. Please make sure the stock and all its related information are no longer required before confirming the deletion.
+:::
