@@ -103,23 +103,39 @@ The order processing flow moves through several stages. Different actions are av
 
 ### Step 6: Post Orders to SQL Account
 
-![completed-orders](../../../../static/img/xstore/orders/completed.png)
-
 Once orders reach **Shipped**, **Delivered**, or **Completed** status, you may post orders to SQL Account:
 
-1. Select orders by clicking the checkbox next to each order
+1. The Post Order feature provides two posting modes:
 
-2. Click the **Post Order** button; a popup dialog will appear as shown below
-   
+   - **Post All** (default): Posts all available orders directly to SQL Account.
+
+   - **Manual Post**: Allows user to select specific orders to post.
+
+2. Click the dropdown button and select posting mode
+
+3. To post all orders, select Post All and click the **Post All** button
+
+   ![postAll-orders](../../../../static/img/xstore/orders/postAll.png)
+
+4. To post selected orders:
+
+   - Select Manual Post from the dropdown.
+
+   - Select orders by clicking the checkbox next to each order
+
+   ![manualPost-orders](../../../../static/img/xstore/orders/manualPost.png)
+
+5. Click the **Manual Post** button; a popup dialog will appear as shown below
+
    ![post-order-dialog](../../../../static/img/xstore/orders/post-order-dialog.png)
 
-3. Select **Include Cancelled Orders** to post the cancelled orders too
+6. Select **Include Cancelled Orders** to post the cancelled orders too
 
-4. Once the post order is complete, a toast notification will appear as shown below
-   
+7. Once the post order is complete, a toast notification will appear as shown below
+
    ![post-order-completed](../../../../static/img/xstore/orders/post-order-completed.png)
 
-5. Each order's post status can be checked in the table under the **Post Status** column:
+8. Each order's post status can be checked in the table under the **Post Status** column:
    - **Failed Reason:** there is some error when posting the order
    - **Posted Date:** the order had been posted before. May try to repost in **[Settings > Repost](../settings.md#repost)**
 
