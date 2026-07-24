@@ -59,7 +59,8 @@ The order processing flow moves through several stages. Different actions are av
 1. Select orders by clicking the checkbox next to each order
 2. Click the **To Ship** button
 3. Orders will move to the **To Ship** tab
-4. (Optional) Click the **Scan** icon to use the **Scan To Ship** feature for faster processing
+4. (Optional) Use **Stock Pick** feature to verify order items before shipping
+5. (Optional) Click the **Scan** icon to use the **Scan To Ship** feature for faster processing
 
 #### Print Picking Document
 
@@ -70,7 +71,51 @@ The order processing flow moves through several stages. Different actions are av
    - **Picking List:** Individual picking lists generated per order, including barcodes 
 2. The printed picking list can be used together with the **Scan To Ship** feature to speed up order fulfillment
 
-### Step 3: Scan To Ship (Optional)
+### Step 3: Stock Pick (Optional)
+
+Use **Stock Pick** to optionally verify order items before processing orders for shipping.
+
+![to-process-tab-stock-pick](../../../../static/img/xstore/orders/to-process-tab-stock-pick.png)
+
+1. Click the **Stock Pick** icon
+
+![stock-pick-empty](../../../../static/img/xstore/orders/stock-pick-empty.png)
+
+1. Click on the screen and scan the Order ID
+2. **Alternative:** Type the Order ID manually and press Enter
+
+![stock-pick-order](../../../../static/img/xstore/orders/stock-pick-order.png)
+
+![stock-pick-verification](../../../../static/img/xstore/orders/stock-pick-verification.png)
+1. Click on the screen and scan the barcode
+2. **Alternative:** Type the barcode number manually and press Enter
+3. **Alternative:** Type the quantity in the **Scanned Qty** field
+
+If the scanned quantity does not match the target quantity (status showing **Incomplete** or **Overscan**), but you have manually confirmed the order is correct:
+
+1. Click the **Complete Verification** button to mark the order as verified
+2. The verified order will appear in the verified order list as shown below
+
+   ![stock-pick-verified-orders-list](../../../../static/img/xstore/orders/stock-pick-verified-orders-list.png)
+
+3. Click **Proceed to Next Order** to continue; the order remains in the list until you proceed
+
+If the scanned items fully match, a success popup will appear and the verified order list will update automatically:
+
+![stock-pick-sucessful-verification-popup](../../../../static/img/xstore/orders/stock-pick-sucessful-verification-popup.png)
+
+1. Click **Proceed to Next Order** on the popup to reset and continue with the next order
+2. **Alternative:** Click **Review Current Order** to stay on the current order
+
+![stock-pick-to-ship-selection](../../../../static/img/xstore/orders/stock-pick-to-ship-selection.png)
+To move verified orders to **To Ship**:
+
+1. Select orders by clicking the checkbox next to each order
+2. Click the **To Ship** button
+
+![stock-pick-to-ship-result](../../../../static/img/xstore/orders/stock-pick-to-ship-result.png)
+
+### Step 4: Scan To Ship (Optional)
 
 ![scan-to-ship-interface](../../../../static/img/xstore/orders/scan-to-ship-empty.png)
 
@@ -84,7 +129,7 @@ The order processing flow moves through several stages. Different actions are av
 | **Print AWB**              | Print Air Waybills for selected orders |
 | **Print Courier Manifest** | Generate a manifest for courier pickup |
 
-### Step 4: To Ship
+### Step 5: To Ship
 
 ![to-ship-tab](../../../../static/img/xstore/orders/to-ship.png)
 
@@ -93,7 +138,7 @@ The order processing flow moves through several stages. Different actions are av
 | **Print AWB**              | Print Air Waybills for selected orders |
 | **Print Courier Manifest** | Generate a manifest for courier pickup |
 
-### Step 5: Self Deliver
+### Step 6: Self Deliver
 
 ![self-deliver-tab](../../../../static/img/xstore/orders/self-deliver.png)
 
@@ -101,7 +146,7 @@ The order processing flow moves through several stages. Different actions are av
 | -------------------------- | -------------------------------------- |
 | **Mark as Delivered**      | Mark the order as delivered            |
 
-### Step 6: Post Orders to SQL Account
+### Step 7: Post Orders to SQL Account
 
 Once orders reach **Shipped**, **Delivered**, or **Completed** status, you may post orders to SQL Account:
 
