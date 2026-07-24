@@ -1,8 +1,8 @@
 {
-    "label": "POS System",
+    "label": "X-Pos",
     "link": {
         "type": "generated-index",
-        "slug": "/usage/pos-category",
-        "description": "Learn on Pos System in SQL Account"
+        "slug": "/usage/x-pos-category",
+        "description": "Learn on X-Pos in SQL Account"
     }
 }

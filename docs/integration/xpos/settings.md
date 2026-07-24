@@ -47,7 +47,7 @@ These settings are identical to the options described in the [X-Pos Guide - Paym
 
 3. View payment method details
 
-    For details on payment method fields, see [X-Pos Guide - POS Payment Options](../../usage/integration/xpos/guide.md#pos-payment-options)
+    For details on payment method fields, see [X-Pos Guide - POS Payment Options](../../usage/xpos/guide.md#pos-payment-options)
 
     ![general-payment-method-3](../../../static/img/integration/xpos/setting/general-payment-method-3.png)
 
