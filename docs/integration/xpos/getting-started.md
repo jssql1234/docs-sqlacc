@@ -42,7 +42,7 @@ You can synchronize the data using any of the following methods:
 
    ![Enter the POS PIN to synchronize metadata](../../../static/img/integration/xpos/getting-started/sync-with-pin.png)
 
-### Method 2: Use a Backup File on a USB Drive
+<!-- ### Method 2: Use a Backup File on a USB Drive
 
 1. Connect the USB drive containing the backup file to the X-Pos Terminal device.
 2. In the **Sync Metadata using PIN** window, select **Try Other**.
@@ -57,9 +57,9 @@ You can synchronize the data using any of the following methods:
    :::note
    You can configure backups to be saved to a USB drive under X-Pos Terminal
    **Settings > Hardware > USB**.
-   :::
+   ::: -->
 
-### Method 3: Use a Local Export File
+### Method 2: Use a Local Export File
 
 Use this method when SQL Account and X-Pos Terminal are installed on the **same** Windows device.
 
