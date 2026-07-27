@@ -6,9 +6,7 @@ slug: /integration/xpos/terminal/settings
 tags: ["SQL Account", "Integration", "X-Pos", "Settings"]
 ---
 
-## Overview
-
-The **Settings** module is organised into five sections for configuring X-Pos Terminal.
+The **Settings** module is organised into five sections for configuring X-Pos Terminal
 
 | Section | Description |
 | --- | --- |
@@ -20,7 +18,11 @@ The **Settings** module is organised into five sections for configuring X-Pos Te
 
 :::note
 
-Select a section from the left menu, then select the required setting card. Use **Apply** to save changes. Where available, select **Restore Default** to return that setting page to its default configuration
+Select a section from the left menu, then select the required setting card. Use **Apply** to save changes
+
+- Some setting pages are **read-only**, as their values are synced from metadata
+- Some setting pages can be **edited locally**, and changes are saved directly on the terminal
+- Some setting pages can be **edited locally**, but clicking **Restore Default** will revert the values back to those **synced from metadata**, discarding any local changes
 
 :::
 
@@ -30,7 +32,7 @@ Select a section from the left menu, then select the required setting card. Use 
 
 Click **General → Payment**
 
-These settings are identical to the options described in the [X-Pos Guide - Payment](../../usage/xpos/guide.md#payment)
+These settings are identical to the options described in [X-Pos Guide - Payment](../../usage/xpos/guide.md#payment)
 
 ![general-payment-1](../../../static/img/integration/xpos/setting/general-payment-1.png)
 ![general-payment-2](../../../static/img/integration/xpos/setting/general-payment-2.png)
@@ -47,7 +49,7 @@ These settings are identical to the options described in the [X-Pos Guide - Paym
 
 3. View payment method details
 
-    For details on payment method fields, see [X-Pos Guide - POS Payment Options](../../usage/xpos/guide.md#pos-payment-options)
+    For details on payment method fields, please refer to the [X-Pos Guide - POS Payment Options](../../usage/xpos/guide.md#pos-payment-options)
 
     ![general-payment-method-3](../../../static/img/integration/xpos/setting/general-payment-method-3.png)
 
@@ -80,10 +82,16 @@ Click **Hardware → USB**
 3. Confirm that the drive status is detected
 4. Click **Save**
 
-For instructions on using a USB backup file to synchronize data, see [Getting Started - Method 2: Use a Backup File on a USB Drive](./getting-started.md#method-2-use-a-backup-file-on-a-usb-drive)
+<!-- For instructions on using a USB backup file to synchronize data, see [Getting Started - Method 2: Use a Backup File on a USB Drive](./getting-started.md#method-2-use-a-backup-file-on-a-usb-drive) -->
 
 ![hardware-usb-1](../../../static/img/integration/xpos/setting/hardware-usb-1.png)
 ![hardware-usb-2](../../../static/img/integration/xpos/setting/hardware-usb-2.png)
+
+:::note
+
+Once enabled, a backup zip file is saved to the **POS_Metadata** folder on the selected USB drive each time a sync is completed
+
+:::
 
 ### Receipt Printer
 
@@ -134,6 +142,14 @@ Click **Hardware → Customer Display**
 | **Summary Section** | Set the font colour and background colour for the sale summary |
 | **Advertisement Slide Section** | Select the media folder and slide rotation interval |
 
+:::note
+
+Once enabled, the configured **header**, **summary**, and **advertisement** content will display on the **second screen** for customers to view during checkout
+
+:::
+
+![hardware-customer-display-3](../../../static/img/integration/xpos/setting/hardware-customer-display-3.png)
+
 ### Weight Scale
 
 Click **Hardware → Weight Scale**
@@ -159,7 +175,7 @@ Click **Advanced → Sync From Local**
 2. Confirm that the folder is available to the terminal
 3. Click **Save**
 
-For instructions on synchronizing with a local export file, see [Getting Started - Method 3: Use a Local Export File](./getting-started.md#method-3-use-a-local-export-file)
+For instructions on synchronizing with a local export file, please refer to the [Getting Started - Method 2: Use a Local Export File](./getting-started.md#method-2-use-a-local-export-file)
 
 ![advanced-sync-local-1](../../../static/img/integration/xpos/setting/advanced-sync-local-1.png)
 ![advanced-sync-local-2](../../../static/img/integration/xpos/setting/advanced-sync-local-2.png)
@@ -211,11 +227,11 @@ Click **Advanced → Maintain Database**
 
     ![advanced-maintain-database-version-2](../../../static/img/integration/xpos/setting/advanced-maintain-database-version-2.png)
 
-:::note
+    :::note
 
-The current database version and the latest version are protected and cannot be deleted
+    The current database version and the latest version are protected and cannot be deleted
 
-:::
+    :::
 
 #### Backup Database
 
@@ -232,11 +248,15 @@ The current database version and the latest version are protected and cannot be 
 
     ![advanced-maintain-database-backup-3](../../../static/img/integration/xpos/setting/advanced-maintain-database-backup-3.png)
 
+5. The database zip file will be backup in the selected folder
+
+    ![advanced-maintain-database-backup-4](../../../static/img/integration/xpos/setting/advanced-maintain-database-backup-4.png)
+
 ### Report Designer
 
 Click **Advanced → Report Designer**
 
-Each report template can use a different printer
+Each report template can be assigned its own printer
 
 ![advanced-report-designer-1](../../../static/img/integration/xpos/setting/advanced-report-designer-1.png)
 ![advanced-report-designer-2](../../../static/img/integration/xpos/setting/advanced-report-designer-2.png)
@@ -256,13 +276,13 @@ Click **Shortcuts Configuration**
 | Section | Description |
 | --- | --- |
 | **Title Commands** | Configures commands displayed in the POS title area |
-| **Action Buttons** | Configures action buttons used during a transaction |
-| **Payment Shortcuts** | Configures shortcuts for payment methods during checkout |
-| **Default Shortcuts** | Displays the standard POS shortcut list |
+| **Action Buttons** | Configures action buttons available during transactions |
+| **Payment Shortcuts** | Configures quick-access shortcuts for checkout payment methods |
+| **Default Shortcuts** | Displays the standard list of system-default POS shortcuts |
 
 ### Presets
 
-Use **Presets** to select the command layout used in the Checkout screen
+Use **Presets** to select the command layout used in the **Classic** Checkout screen
 
 ![shortcut-configuration-preset](../../../static/img/integration/xpos/setting/shortcut-configuration-preset.png)
 
@@ -272,31 +292,62 @@ Use **Presets** to select the command layout used in the Checkout screen
 | **Complex** | **Clear Bill**, **Hold Bill**, **Hold Bill List**, **Search Bill**, **Print Last Receipt**, **Price Checker**, **Open Drawer**, and **Cash In/Out**. | **+1**, **-1**, **Quantity**, **Item Disc.**, **Price and UOM**, **Batch No.**, **Serial No.**, and **Item Template** |
 | **Custom** | Displays the active commands configured in **Title Commands** | Displays the active buttons configured in **Action Buttons** |
 
-### Configure a Shortcut
+### Configure Title Commands / Action Buttons
 
-1. Select **Title Commands**, **Action Buttons**, or **Payment Shortcuts**
-2. Select the command, action, or payment method to configure
-3. Enter the required **Shortcut Key**
-4. Set **Active** to make the shortcut available on the POS screen
-5. Use the **Up** or **Down** arrow to change the display order for Title Commands or Action Buttons
-6. Click **Apply** to save the changes
+1. Select **Title Commands** or **Action Buttons**
 
-![shortcut-configuration-2](../../../static/img/integration/xpos/setting/shortcut-configuration-2.png)
+    ![shortcut-configuration-action-1](../../../static/img/integration/xpos/setting/shortcut-configuration-action-1.png)
 
-Press **Backspace** in the **Shortcut Key** field to remove an assigned shortcut
+2. Click **+ Add** to create a new entry
 
-:::note
+    ![shortcut-configuration-action-2](../../../static/img/integration/xpos/setting/shortcut-configuration-action-2.png)
 
-A shortcut key can only be assigned to one command, action, or payment method
+3. Enter the **Seq**, **Display Name**, and **Value**, select a **Function**, enter the **Shortcut Key**, and set **Active** status
+
+    ![shortcut-configuration-action-3](../../../static/img/integration/xpos/setting/shortcut-configuration-action-3.png)
+
+4. Click **Apply** to save the changes
+
+    ![shortcut-configuration-action-4](../../../static/img/integration/xpos/setting/shortcut-configuration-action-4.png)
+
+:::tip
+
+- Click **- Remove** to delete an entry
+- Use the **Up** or **Down** arrow to adjust the display sequence
 
 :::
 
-### Default Shortcuts
+### Configure Payment Shortcuts
 
-Click **Export** to export the standard shortcut list for reference
+1. Select **Payment Shortcuts**
 
-![shortcut-configuration-default-1](../../../static/img/integration/xpos/setting/shortcut-configuration-default-1.png)
-![shortcut-configuration-default-2](../../../static/img/integration/xpos/setting/shortcut-configuration-default-2.png)
+    ![shortcut-configuration-payment-1](../../../static/img/integration/xpos/setting/shortcut-configuration-payment-1.png)
+
+2. Enter the **Shortcut Key** and set **Active** to enable or disable the shortcut on the POS screen
+
+    ![shortcut-configuration-payment-2](../../../static/img/integration/xpos/setting/shortcut-configuration-payment-2.png)
+
+3. Click **Apply** to save the changes
+
+    ![shortcut-configuration-payment-3](../../../static/img/integration/xpos/setting/shortcut-configuration-payment-3.png)
+
+:::note
+
+- Press **Backspace** in the **Shortcut Key** field to remove an assigned shortcut
+- A shortcut key can only be assigned to one command, action, or payment method
+
+:::
+
+### Export Default Shortcuts
+
+1. Select **Default Shortcuts**
+
+    ![shortcut-configuration-default-1](../../../static/img/integration/xpos/setting/shortcut-configuration-default-1.png)
+
+2. Click **Export** to export the standard list of system-default POS shortcuts for reference
+
+    ![shortcut-configuration-default-2](../../../static/img/integration/xpos/setting/shortcut-configuration-default-2.png)
+    ![shortcut-configuration-default-3](../../../static/img/integration/xpos/setting/shortcut-configuration-default-3.png)
 
 ## About
 
