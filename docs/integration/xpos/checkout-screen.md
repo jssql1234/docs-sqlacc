@@ -10,7 +10,7 @@ The Checkout screen is the primary workspace of the POS system where users perfo
 
 ## Common Checkout Screen Structure
 
-![classic-checkout](../../../static/img/xpos/checkout/classic-checkout.png)
+![classic-checkout](../../../static/img/integration/xpos/checkout/classic-checkout.png)
 
 All checkout layouts consist of several common functional areas:
 
@@ -41,7 +41,7 @@ The item entry and cart section is the main area where users manage items in the
 1. View stock item list
 2. Add item from the item list
 
-![item-list](../../../static/img/xpos/checkout/item-list.png)
+![item-list](../../../static/img/integration/xpos/checkout/item-list.png)
 
 **Cart Table**:
 
@@ -117,7 +117,7 @@ The payment section allows users to complete transactions using available paymen
 
 User can direct change the quantity of selected item
 
-![change-quantity](../../../static/img/xpos/checkout/change-qty.png)
+![change-quantity](../../../static/img/integration/xpos/checkout/change-qty.png)
 
 :::info
 Edit quantity to **0** will direct remove the item from the cart.
@@ -130,7 +130,7 @@ Edit quantity to **0** will direct remove the item from the cart.
 - **Reason**(optional): user can input the reason of discount
 - **New Subtotal**: displays the amount after discount
 
-  ![item-disc](../../../static/img/xpos/checkout/apply-disc.png)
+  ![item-disc](../../../static/img/integration/xpos/checkout/apply-disc.png)
 
 :::warning
 The discount amount cannot exceed the subtotal.
@@ -143,7 +143,7 @@ The discount amount cannot exceed the subtotal.
 - The **Selling Price** can be edited manually
 - **Reset** icon: restore the selling price to the refer price of the selected UOM.
 
-![change-price-uom](../../../static/img/xpos/checkout/change-priceuom.png)
+![change-price-uom](../../../static/img/integration/xpos/checkout/change-priceuom.png)
 
 ### Batch No.
 
@@ -151,7 +151,7 @@ The discount amount cannot exceed the subtotal.
 - Only **one batch number** can be assigned to each item row
 - For information on creating and maintaining batch numbers, refer to [Maintain Batch](../../usage/stock/guide.md)
 
-  ![batch-number](../../../static/img/xpos/checkout/batch-number.png)
+  ![batch-number](../../../static/img/integration/xpos/checkout/batch-number.png)
 
 ### Serial No.
 
@@ -164,7 +164,7 @@ To enable serial number tracking for a stock item:
 - Each serial-controlled item must have a serial number assigned
 - One serial number is required for **each quantity** of the item
 
-![serial-number](../../../static/img/xpos/checkout/serial-number.png)
+![serial-number](../../../static/img/integration/xpos/checkout/serial-number.png)
 
 ### Item Template
 
@@ -172,7 +172,7 @@ To enable serial number tracking for a stock item:
 - The quantity, selling price and selling price of each item are based on the item template configuration
 - For information on creating and maintaining batch numbers, refer to [Maintain Item Template](../../usage/stock/guide.md)
 
-![item-template](../../../static/img/xpos/checkout/item-template.png)
+![item-template](../../../static/img/integration/xpos/checkout/item-template.png)
 
 ### Hold Bill
 
@@ -180,7 +180,7 @@ To enable serial number tracking for a stock item:
 - **Print Hold Bill Receipt**: Enable this option to print a hold bill receipt after saving
 - User can temporarily save the current sales transaction and continue it later
 
-![hold-bill](../../../static/img/xpos/checkout/hold-bill.png)
+![hold-bill](../../../static/img/integration/xpos/checkout/hold-bill.png)
 
 ### Hold Bill List
 
@@ -193,7 +193,7 @@ To enable serial number tracking for a stock item:
 - Click a hold bill card to load the transaction back into the cart
 - Click the **Delete** icon to permanently remove the selected hold bill
 
-  ![hold-bill-list](../../../static/img/xpos/checkout/hold-bill-list.png)
+  ![hold-bill-list](../../../static/img/integration/xpos/checkout/hold-bill-list.png)
 
 ### Search Bill
 
@@ -209,14 +209,14 @@ To enable serial number tracking for a stock item:
 Void bill is not allowed for a new counter session.
 :::
 
-![search-bill](../../../static/img/xpos/checkout/search-bill.png)
+![search-bill](../../../static/img/integration/xpos/checkout/search-bill.png)
 
 ### Price Checker
 
 - Allows users to quickly check an item's available units of measure (UOM) and reference prices
 - Search for an item using its **Item Code** or **Barcode**.
 
-![price-checker](../../../static/img/xpos/checkout/price-checker.png)
+![price-checker](../../../static/img/integration/xpos/checkout/price-checker.png)
 
 ### Cash In/Out
 
@@ -226,7 +226,7 @@ Void bill is not allowed for a new counter session.
 - Enter the transaction amount and an optional remark before saving
 - All cash in/out transactions are recorded for audit and counter balancing purposes
 
-- ![cash-in-out](../../../static/img/xpos/checkout/cash-in-out.png)
+- ![cash-in-out](../../../static/img/integration/xpos/checkout/cash-in-out.png)
 
 ## Layouts
 
@@ -248,29 +248,29 @@ Each layout is designed to support different business environments and cashier w
   - Custom (displays the buttons configured in the settings)
 - No touch-specific affordances (no numpad, no inline qty steppers) — this is the traditional keyboard/mouse counter screen, built for a cashier who knows the shortcut keys
 
-- ![classic](../../../static/img/xpos/checkout/classic.png)
+- ![classic](../../../static/img/integration/xpos/checkout/classic.png)
 
 ### Numpad
 
 - Dedicated on-screen numeric keypad with an "Enter quantity" field — used for typing quantities without a physical keyboard
 
-- ![numpad](../../../static/img/xpos/checkout/numpad.png)
+- ![numpad](../../../static/img/integration/xpos/checkout/numpad.png)
 
 ### Catalogue
 
 - The only layout with a visual product grid: category tabs across the top of a scrollable tile grid, each tile showing image, name, and price — tap a tile to add it to the cart
 - Built for browsing/selecting items visually rather than scanning or searching by SKU
 
-- ![catalogue](../../../static/img/xpos/checkout/catalogue.png)
+- ![catalogue](../../../static/img/integration/xpos/checkout/catalogue.png)
 
 ### Simple Touch
 
 - No numpad. Instead, each cart row gets its own inline "−" and "+" buttons flanking the QTY value — tap to increment/decrement directly in the grid
 
-- ![simple-touch](../../../static/img/xpos/checkout/simpletouch.png)
+- ![simple-touch](../../../static/img/integration/xpos/checkout/simpletouch.png)
 
 ### Touch
 
 - No inline +/- steppers. Instead, tapping a row's QTY cell selects/highlights it (shown in blue), and an on-screen numpad appears bottom-right to type an exact new quantity straight into that cell
 
-- ![touch](../../../static/img/xpos/checkout/touch.png)
+- ![touch](../../../static/img/integration/xpos/checkout/touch.png)
