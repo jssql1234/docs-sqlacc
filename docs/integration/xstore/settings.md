@@ -48,10 +48,10 @@ Click on your current logo to upload a new one.
 For more details on SQL Account configuration, see our [Setup Guide](../xstore/setup#step-3-configure-company-settings).
 :::
 
-Configure your SQL Account API access by setting up:
+You may add your SQL Account configuration here:
 
-- Access key
-- Secret key
+1. System Conversion Date
+2. SQL Account Access key and Secret key
 
 ![company-keys](../../../static/img/xstore/settings/company-keys.png)
 
@@ -60,10 +60,6 @@ Configure your SQL Account API access by setting up:
 Enable specific company features such as enabling **Auto Synchronize Quantity to Platform**.
 
 ![company-sync](../../../static/img/xstore/settings/company-sync.png)
-
-Set the **System Conversion Date** according to the date defined in SQL Account and click Save.
-
-![company-conversionDate](../../../static/img/xstore/settings/company-conversionDate.png)
 
 ### Editing Company Details
 
@@ -273,6 +269,6 @@ View posted orders and repost orders to update invoices.
 
    ![repost-confirmation](../../../static/img/xstore/settings/repost-confirmation.png)
 
-3. You can view the status of the repost order operation by clicking the **History** icon button beside the **Repost Order** button.
+3. You can view the **Posted Date** and **Posted Message** in **Post Status** column.
 
    ![repost-history](../../../static/img/xstore/settings/repost-history.png)
