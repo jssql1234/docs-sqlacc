@@ -282,14 +282,13 @@ The buttons will be shown according to the **Return Type** and **Return Status**
 | Action              | Description                                        | 
 | ------------------- | -------------------------------------------------- | 
 | **Mark As Paid**    | Manually record an order as paid.                  | 
-| **Update Tracking** | Update carrier, tracking number, and tracking URL. | 
 | **Create Return**   | Initiate a return and refund for the buyer.        | 
 | **Cancel Order**    | Cancel the order.                                  | 
 
 #### Update Tracking
 
 :::info
-Available for all orders
+Available for fulfilled orders only
 :::
 
 ![shopify-update-tracking](../../../../static/img/xstore/order-details/shopify/seller-update-tracking.png)
@@ -306,20 +305,33 @@ Available for fulfilled orders only
 
 ![shopify-create-return-reason](../../../../static/img/xstore/order-details/shopify/seller-create-return-reason.png)
 
+
 Sellers can create a return and refund for specific items in an order.
 
 *   **Reason:** A return reason is required and can be selected from the dropdown menu.
 *   **Quantity:** Adjust the number of items being returned.
+*   **Return Shipping Fee:** The shipping fee that charge for returning the order.
+*   **Restocking Fee:** The fee percentage that charge for restocking the items.
 
-![shopify-create-return-refund-options](../../../../static/img/xstore/order-details/shopify/seller-create-return-refund.png)
+#### Process Return
 
-**Refund Options:**
-You can choose from three refund methods:
-1.  **No Refund:** Mark the return without issuing a refund.
-2.  **Refund Selected Item:** Refund only the cost of the items.
-3.  **Refund Selected Item with Shipping Cost:** Refund both the items and the shipping fee.
+| Type              | Description                                        | 
+| ------------------- | -------------------------------------------------- | 
+| **Open**          | The return is still open and can be processed.     | 
+| **Closed**        | The return is closed and cannot be processed.      | 
+| **Requested**     | The return is requested by buyer and can be processed.      | 
 
-Sellers can manually adjust the final refund amount. You can also choose whether to **restock** the items during this process.
+![shopify-process-return](../../../../static/img/xstore/order-details/shopify/seller-process-return.png)
+
+:::info
+Available for open type only for return orders
+:::
+
+User can enable the **restock tickbox** if the item is being returned and select the respective location
+
+* **Refund Allocation:** Within the Refund Allocation, User can type in the refund amount manually or let the system auto-allocate the amount based on the item details
+* **Notify Customer:** User can choose to email the customer about the return and refund
+
 
 #### Cancel Order
 
@@ -329,10 +341,12 @@ Available for orders that have not been fulfilled
 
 ![shopify-cancel-order](../../../../static/img/xstore/order-details/shopify/seller-cancel-order.png)
 
-1. Click the **Cancel Order** button at the top right corner
+1. Select the refund payment via which channel 
 2. Select the cancellation reason
-3. You can choose to notify the customer about the cancellation or process refund
-4. Submit the cancellation request
+3. Staff may leave a notes about the cancellation 
+4. Tick restock items if the item is returned and in good condition
+5. Choose to notify the customer about the cancellation or process refund
+6. Submit the cancellation request
 
 ### Return or Refund Order (Buyer-Initiated)
 
