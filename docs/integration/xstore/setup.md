@@ -151,6 +151,10 @@ You can manually sync product, order, and payment data using the steps below.
     1. Select the checkboxes to choose stores
     2. Click **Sync Selected**
 
+4. A success message is displayed when the sync is completed. Then, click **Next Sync** to sync the next store.
+
+    ![product-nextSync](../../../static/img/xstore/setup/product-nextSync.png)
+
 ### Sync Order Data
 
 1. Click **Orders** in the sidebar
@@ -181,7 +185,7 @@ You can manually sync product, order, and payment data using the steps below.
 
 3. A dialog will open:
 
-    ![select-order-sync](../../../static/img/xstore/setup/select-order-sync.png)
+    ![select-payment-sync](../../../static/img/xstore/setup/select-payment-sync.png)
 
     1. Select **Sync Mode** and **Date Range**. You can use **Quick Select** to choose a date range *(defaults to syncing data from the past 3 days)*
     2. Select the checkboxes to choose stores

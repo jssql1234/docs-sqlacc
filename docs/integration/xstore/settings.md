@@ -6,12 +6,13 @@ slug: /integration/xstore/settings
 tags: ["e-Commerce", "X-Store", "Settings"]
 ---
 
-The Settings module consists of three main sections to help you manage your organization:
+The Settings module consists of these main sections to help you manage your organization:
 
 - **Company** - Manage your organization's profile and configuration
 - **Users** - Control team member access and invitations
 - **Permissions** - Define roles and access control
 - **Repost** - Repost orders to adjust invoices
+- **Customize Template** - Customize Picking List Template
 
 ## Company
 
@@ -272,3 +273,23 @@ View posted orders and repost orders to update invoices.
 3. You can view the **Posted Date** and **Posted Message** in **Post Status** column.
 
    ![repost-history](../../../static/img/xstore/settings/repost-history.png)
+
+## Customize Template
+
+Personalize the appearance and layout of **Picking List** according to requirements. Users can preview the template while making changes and adjust various template settings before saving it.
+
+1. Click **Settings > Customize Template** in the sidebar
+
+   ![customize-sidebar](../../../static/img/xstore/settings/customize-sidebar.png)
+
+2. Users can customize the template and click **Apply** to preview how the Picking List will look with their selected settings. Once satisfied with the changes, click **Save** to save the customized template settings.
+
+   ![customize-btn](../../../static/img/xstore/settings/customize-btn.png)
+
+3. A success message will be displayed after the customized template settings are saved successfully.
+
+   ![customize-success](../../../static/img/xstore/settings/customize-success.png)
+
+4. Certain essential information is required and cannot be hidden.
+
+   ![customize-required](../../../static/img/xstore/settings/customize-required.png)
