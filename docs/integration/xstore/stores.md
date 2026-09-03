@@ -142,21 +142,11 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
     ![select-shopify](../../../static/img/xstore/stores/select-shopify.png)
 
-2. A dialog will open, allowing you to enter store credentials.
-
-3. Enter **Shop Domain** and click **Link Store**
-
-    ![shopify-shopname](../../../static/img/xstore/stores/shopify-shopname.png)
-
-4. You can obtain the domain via the store dashboard
-
-    ![shopify-domain](../../../static/img/xstore/stores/shopify-domain.png)
-
-5. The Shopify authorization page will open, where you can enter your account credentials or select an existing account to log in
+2. A new browser tab will open. On the Shopify page, select the account you want to link.
 
     ![shopify-selectAcc](../../../static/img/xstore/stores/shopify-selectAcc.png)
 
-6. After successful linking
+3. After successful linking
 
     - A success message will appear
 
@@ -204,11 +194,7 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
             ![woo-approve](../../../static/img/xstore/stores/woo-approve.png)
 
-        - After successful linking
-
-            a. A success message will appear
-
-                ![woo-success](../../../static/img/xstore/stores/woo-success.png)
+        - After successful linking, a success message will appear
 
     2. Link via Manual API Key Entry
 
@@ -278,6 +264,22 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 
 ![store-expired](../../../static/img/xstore/stores/store-expired.png)
 
+## Unlink Stores
+
+Users can unlink a store.
+
+1. Click the icon to unlink.
+
+    ![unlink-store](../../../static/img/xstore/stores/unlink-store.png)
+
+2. A confirmation dialog will appear. Click **Continue**.
+
+    ![unlink-confirm](../../../static/img/xstore/stores/unlink-confirm.png)
+
+:::important
+Unlinking store will stop all order and product operations. But, the store can be relinked later.
+:::
+
 ## General Features
 
 ![general-features](../../../static/img/xstore/stores/general-features.png)
@@ -286,7 +288,7 @@ tags: ["e-Commerce", "X-Store", "Stores"]
 | ----------------------------| -------------------------------------------------------------------------------------- |
 | **1. Refresh**              | Click the **refresh** icon to get the latest data.                                     |
 | **2. Search**               | Select a filter and input a value to search stores.                                    |
-| **3. Pagination**           | Choose to display **50, 100, 150, or 200** records per page.                           |
+| **3. Pagination**           | Choose to display **20, 30, 40, or 50** records per page.                           |
 | **4. Collapse All**         | **Hide all** child-level details.                                                      |
 | **5. Expand All**           | **Expand all** child-level details to view complete information at once.               |
 | **6. Sorting**              | Sort data in **ascending** or **descending** order.                                    |

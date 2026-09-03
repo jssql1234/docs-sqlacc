@@ -50,7 +50,7 @@ Connect E-commerce stores to sync **store**, **product**, **order**, and **payme
 - Sync actions are locked for **10 minutes** to prevent server overload.
 - After 10 minutes, manual sync becomes available.
 
-### Step 3: Configure Company Settings
+### Step 3: Configure SQL Account Settings
 
 1. Click **Settings > Company** in the sidebar
 
@@ -60,11 +60,13 @@ Connect E-commerce stores to sync **store**, **product**, **order**, and **payme
 
     ![add-key](../../../static/img/xstore/setup/add-key.png)
 
-3. Copy the **Access Key** and **Secret Key** from SQL Account and paste them into the respective fields to enable SQL sync
+3. Copy the **Access Key** and **Secret Key** from SQL Account and paste them into the respective fields to enable SQL sync. Then, click **Test Connection**
+
+    ![input-key](../../../static/img/xstore/setup/input-key.png)
 
 4. Click **Save**
 
-    ![input-key](../../../static/img/xstore/setup/input-key.png)
+    ![save-key](../../../static/img/xstore/setup/save-key.png)
 
 ### Step 4: Code Mapping
 
