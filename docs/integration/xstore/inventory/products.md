@@ -59,7 +59,7 @@ The **Create Product** feature allows you to publish new products to a specific 
 
     ![create-logistics](../../../../static/img/xstore/products/create-logistics.png)
 
-## Copy Listing
+<!-- ## Copy Listing
 
 **Copy Listing** allows you to duplicate an existing product to another store. This feature supports one-to-one cross-platform copying, making it faster and easier to create similar products across different stores and platforms.
 
@@ -68,7 +68,7 @@ The **Create Product** feature allows you to publish new products to a specific 
 
 ![copy-overview](../../../../static/img/xstore/products/copy-overview.png)
 
-![copy-details](../../../../static/img/xstore/products/copy-details.png)
+![copy-details](../../../../static/img/xstore/products/copy-details.png) -->
 
 ## Edit Product
 
