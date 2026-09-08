@@ -44,11 +44,13 @@ Connect E-commerce stores to sync **store**, **product**, **order**, and **payme
 
 > 📌 For detailed instructions on linking a store, navigate to **Integration > XStore > [Stores](./stores.md)**
 
+:::info
 **Auto-Sync Behavior**
 
 - After linking, the system **automatically syncs the past 3 days** of product, order, and payment data.
-- Sync actions are locked for **10 minutes** to prevent server overload.
-- After 10 minutes, manual sync becomes available.
+<!-- - Sync actions are locked for **10 minutes** to prevent server overload. -->
+<!-- - After 10 minutes, manual sync becomes available. -->
+:::
 
 ### Step 3: Configure SQL Account Settings
 
@@ -142,7 +144,7 @@ You can manually sync product, order, and payment data using the steps below.
 
     ![product-sidebar](../../../static/img/xstore/setup/product-sidebar.png)
 
-2. Click the **Sync** (**⟲**) icon
+2. Click the **Sync** icon
 
     ![sync-product](../../../static/img/xstore/setup/sync-product.png)
 
@@ -157,13 +159,15 @@ You can manually sync product, order, and payment data using the steps below.
 
     ![product-nextSync](../../../static/img/xstore/setup/product-nextSync.png)
 
-### Sync Order Data
+### Sync Order / Payment Data
 
-1. Click **Orders** in the sidebar
+Order and Payment data are synced together using the same Sync Dialog. The dialog is accessible from both modules.
+
+1. Click **Orders** or **Payments** in the sidebar
 
     ![order-sidebar](../../../static/img/xstore/setup/order-sidebar.png)
 
-2. Click the **Sync** (**⟲**) icon
+2. Click the **Sync** icon
 
     ![sync-order](../../../static/img/xstore/setup/sync-order.png)
 
@@ -171,37 +175,21 @@ You can manually sync product, order, and payment data using the steps below.
 
     ![select-order-sync](../../../static/img/xstore/setup/select-order-sync.png)
 
-    1. Select **Sync Mode** and **Date Range**. You can use **Quick Select** to choose a date range *(defaults to syncing data from the past 3 days)*
-    2. Select the checkboxes to choose stores
-    3. Click **Sync Selected**
-
-### Sync Payment Data
-
-1. Click **Payments** in the sidebar
-
-    ![payment-sidebar](../../../static/img/xstore/setup/payment-sidebar.png)
-
-2. Click the **Sync** (**⟲**) icon.
-
-    ![sync-payment](../../../static/img/xstore/setup/sync-payment.png)
-
-3. A dialog will open:
-
-    ![select-payment-sync](../../../static/img/xstore/setup/select-payment-sync.png)
-
-    1. Select **Sync Mode** and **Date Range**. You can use **Quick Select** to choose a date range *(defaults to syncing data from the past 3 days)*
-    2. Select the checkboxes to choose stores
-    3. Click **Sync Selected**
+    1. Select a **Sync Mode**:
+       - **Sync by Created Date**: sync the orders based on the order creation date
+       - **Sync by Updated Date**: sync the orders based on the order's latest updated date
+    2. Set the **Date Range** for the data you want to sync. Use **Quick Select** to auto-fill common ranges
+    3. Select the checkboxes to choose stores
+    4. Click **Sync Selected** to start the sync
 
 ### Retry Sync
 
 ![retry-fail](../../../static/img/xstore/setup/retry-fail.png)
 
-If any sync operation fails, you can retry it using the following buttons:
+If any sync operation fails, you can retry it by:
 
-1. **Retry**: Retry a single failed order or product
-2. **Retry Group**: Retry a group of orders or products that failed with the same error message
-3. **Retry All Failed**: Retry all failed orders or products
+1. Select the rows that you would like to retry
+2. Click **Retry Selected**
 
 :::warning
    Sync results are retained for 3 hours after syncing and will be automatically deleted afterward.
