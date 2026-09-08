@@ -299,12 +299,12 @@ You can change the View Options to see more order details, or use the filter opt
 
 ### Failed Posting
 
-1. Click **View Failed Results** to see orders that failed to post in the previous post process, along with their failure reasons.
-2. Filter orders by failure reason.
-3. Select the relevant orders individually, or use **Select all filtered items** to select every order with a matching failure reason.
-4. Repost selected orders.
+If any orders fail during the post order process, you can review them in the **Post Order Failed Results** dialog. Only failed results from the last post order process are shown, and they are kept for only **3 hours**. Once the underlying issue causing the failure has been resolved, you can repost those failed orders before they expire.
 
-This is useful once you've resolved the underlying cause of a failure and want to retry posting those orders.
+1. Click **View Failed Results** to see orders that failed to post in the last post order process, along with their failure reasons.
+2. Filter orders by failure reason.
+3. Select the relevant orders individually, or use **Select all filtered items** to select every order with the matching failure reason.
+4. Repost selected orders.
 
 ![post-failed](../../../static/img/xstore/settings/post-failed.png)
 
