@@ -118,17 +118,24 @@ Sync stock items from SQL Account for **product mapping** and **quantity control
 
     ![sync-stock](../../../static/img/xstore/setup/sync-stock.png)
 
-3. Choose a sync method:
+3. A dialog will open:
 
-    1. **Sync All**, or
+    ![select-stockSync](../../../static/img/xstore/setup/select-stock-sync.png)
 
-    2. Select the checkboxes and click **Sync Selected**
+    1. Use the header checkbox to select all items, or select the checkboxes for the items you want to sync
+    2. Click **Sync Selected**
 
-        ![select-stockSync](../../../static/img/xstore/setup/select-stock-sync.png)
+4. The **Synced** count will increase after the items are synced successfully
 
-4. Synced stock items will appear in the Data Table
+    ![synced-stock](../../../static/img/xstore/setup/synced-stock.png)
+
+5. Synced stock items will appear in the Data Table
 
     ![stock-items](../../../static/img/xstore/setup/stock-items.png)
+
+:::info
+   Failed items can be retried individually. Learn more in **[Retry Sync](#retry-sync)**.
+:::
 
 ## Manual Sync
 
