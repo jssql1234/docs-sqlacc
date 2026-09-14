@@ -8,6 +8,8 @@ form_name: TfmWhatsappScan
 
 SQL AI EasyScan enables users to manage transactions more efficiently by uploading invoices, bills, or receipts through WhatsApp. Using AI-powered data extraction, it automatically captures information from images, documents, and text, eliminating the need for manual data entry. Users can easily organize and attach the extracted information to the corresponding document types within SQL Account.
 
+AI EasyScan is only available for company databases activated using a valid license code. Please contact your agent for further assistance.
+
 ## Pre-requisite
 
 1. [Setup User Mobile Number](#setup-user-mobile-number)
