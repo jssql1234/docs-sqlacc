@@ -11,7 +11,7 @@ The **Settings** module is organised into five sections for configuring X-Pos Te
 | Section | Description |
 | --- | --- |
 | **General** | Configure payment behaviour, POS screen options, and counter-closing controls |
-| **Hardware** | Configure USB backup, receipt printer, barcode scanner, customer display, and weight scale |
+| **Hardware** | Configure USB backup, receipt printer, barcode scanner, payment provider, customer display, and weight scale |
 | **Advanced** | Configure local synchronisation, SQL Account posting, bill-number formats, report templates, and database maintenance |
 | **Shortcuts Configuration** | Assign keyboard shortcuts for title commands, action buttons, and payment methods |
 | **About** | Maintain company and location information |
@@ -129,6 +129,47 @@ Click **Hardware → Barcode Scanner**
 ![hardware-barcode-scanner-1](../../../static/img/integration/xpos/setting/hardware-barcode-scanner-1.png)
 ![hardware-barcode-scanner-2](../../../static/img/integration/xpos/setting/hardware-barcode-scanner-2.png)
 
+### Payment Provider
+
+Click **Hardware → Payment Provider**
+
+![hardware-payment-provider-1](../../../static/img/integration/xpos/setting/hardware-payment-provider-1.png)
+![hardware-payment-provider-2](../../../static/img/integration/xpos/setting/hardware-payment-provider-2.png)
+
+Configure the connection details for each payment provider used by the terminal. X-Pos supports **Fiuu**, **Adaptis**, and **Gkash**
+
+| Provider | Setting | Description |
+| --- | --- | --- |
+| **Fiuu** | **Communication Port** | COM port used by the Fiuu payment terminal |
+| **Adaptis** | **COM PORT / IP** | Selects whether the Adaptis terminal connects through a USB virtual COM port or the network |
+| **Adaptis** | **Communication Port** | COM port used when **COM PORT** is selected |
+| **Adaptis** | **IP Address** | Terminal IP address used when **IP** is selected. Enter the address without a port number; X-Pos uses port `33898` |
+| **Gkash** | **Gkash Merchant ID** | Merchant identifier supplied by Gkash |
+| **Gkash** | **Gkash Terminal ID** | Identifier of the Gkash payment terminal |
+| **Gkash** | **Gkash Signature Key** | Secret key used to authenticate Gkash payment requests |
+
+#### Configure and Test a Provider
+
+1. Enter the required settings for the provider
+2. Turn on the payment terminal and confirm that it is connected to the terminal or network
+3. Click **Test Connection** in the provider section
+4. Complete any instructions displayed by X-Pos or the payment terminal
+5. Confirm that the connection test is successful
+6. Click **Apply** to save the settings
+
+:::warning
+
+- Keep the **Gkash Signature Key** confidential
+- The Fiuu and Gkash connection tests create a temporary RM0.10 DuitNow request and cancel it. Do not approve or complete the test payment
+
+:::
+
+:::note
+
+Configuring this page does not assign a provider to a payment method. In SQL Account, assign **Fiuu**, **Adaptis**, or **Gkash** to the required payment method, then synchronise to the terminal
+
+:::
+
 ### Customer Display
 
 Click **Hardware → Customer Display**
@@ -139,7 +180,7 @@ Click **Hardware → Customer Display**
 | Section | Configuration |
 | --- | --- |
 | **Header Section** | Set the display title, logo, and font size |
-| **Summary Section** | Set the font colour and background colour for the sale summary |
+| **Summary Section** | Set the font colour and background colour for the sales summary |
 | **Advertisement Slide Section** | Select the media folder and slide rotation interval |
 
 :::note
@@ -157,13 +198,51 @@ Click **Hardware → Weight Scale**
 ![hardware-weight-scale-1](../../../static/img/integration/xpos/setting/hardware-weight-scale-1.png)
 ![hardware-weight-scale-2](../../../static/img/integration/xpos/setting/hardware-weight-scale-2.png)
 
+#### Live Weight Scale
+
+Use **Live Weight Scale** when a scale is connected directly to the terminal through a serial communication port
+
+1. Connect and turn on the scale
+2. Select its **Communication Port**
+3. Click **Test Connection**
+4. Confirm that X-Pos receives and displays a weight reading
+5. Click **Apply** to save the selected port
+
+:::note
+
+- The scale must support continuous serial output at **9600 baud, 8 data bits, no parity, 1 stop bit, and no flow control**
+- At checkout, select an item and click **Quantity → Read From Weight Scale**. Wait until the weight is stable, then click **Apply** to use the reading as the item quantity
+- **Read From Weight Scale** is only available when the Weight Scale setting is on and a communication port has been selected
+
+:::
+
+#### Weight Scale Format
+
+Use **Weight Scale Format** to define how X-Pos reads barcodes printed by a weighing scale
+
 | Setting | Description |
 | --- | --- |
-| **Prefix** | Beginning digits that identify a scale barcode |
-| **Item Code** | Start and end positions for the item code within the barcode |
-| **Decimal** | Decimal position for the encoded weight or price |
-| **Verify Check Digit** | Validates the barcode check digit |
-| **Weight Mode / Price Mode** | Defines whether the barcode contains a weight or a price value |
+| **Weight Mode** | Treats the scale value in the barcode as the item quantity |
+| **Price Mode** | Treats the scale value in the barcode as the item price and sets the quantity to 1 |
+| **Verify Check Digit** | Validates the final digit of a 13-digit EAN-13 barcode before accepting it |
+| **Prefix** | Beginning digits that identify the barcode as a scale barcode |
+| **Item Code - Start / End** | Positions containing the item-code portion. X-Pos combines the prefix and this portion to find the item barcode |
+| **Scale Barcode - Start / End** | Positions containing the encoded weight or price |
+| **Scale Barcode - Decimal** | Number of decimal places applied to the encoded scale value |
+
+For example, using the format shown in the sample for barcode `9912345005002`:
+
+- **Prefix** `99` identifies it as a scale barcode
+- **Item Code** positions 3–7 contain `12345`, so X-Pos searches for item barcode `9912345`
+- **Scale Barcode** positions 8–12 contain `00500`
+- With **Decimal** set to `3`, the scale value is `0.500` in Weight Mode
+- The final digit `2` is validated as the EAN-13 check digit when **Verify Check Digit** is selected
+
+:::tip
+
+The **Live Weight Scale** and **Weight Scale Format** sections can be used independently. A communication port is only required for live readings; barcode scanning uses the configured barcode format
+
+:::
 
 ## Advanced
 
@@ -362,7 +441,7 @@ Click **Send Test Mail** to verify the email address configured for the location
 
 | Section | Details |
 | --- | --- |
-| **Location Info** | Location code, description, email address, default project, and default price tag |
+| **Location Info** | Location code, description, email address, default project |
 | **Terminal Info** | Terminal code, description, and last synchronisation time |
 
 ### Company
