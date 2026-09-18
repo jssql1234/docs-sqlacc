@@ -6,14 +6,10 @@ slug: /integration/xpos/terminal/stock-item
 tags: ["SQL Account", "Integration", "X-Pos", "Stock Item"]
 ---
 
-The **Stock Item** page displays the stock items available in X-Pos Terminal.
-Use it to find an item and review its general information, customer prices, and
-batch numbers.
+The **Stock Item** page displays the stock items available in X-Pos Terminal. Use it to find an item and review its general information, customer prices, and batch numbers.
 
 :::info
-All data in the **Stock Item** module is synchronized from SQL Account and is
-view-only in X-Pos Terminal. To make changes, update the records in SQL Account,
-then select **Sync** in X-Pos Terminal.
+All data in the **Stock Item** module is synchronized from SQL Account and is view-only in X-Pos Terminal. To make changes, update the records in SQL Account, then select **Sync** in X-Pos Terminal.
 :::
 
 ## View Stock Items
@@ -36,13 +32,11 @@ The list can display the following information:
 | **Is Active** | Indicates whether the item is active. |
 | **Has Serial** | Indicates whether serial-number tracking is enabled for the item. |
 
-Use the horizontal scroll bar to view columns that are outside the visible
-area.
+Use the horizontal scroll bar to view columns that are outside the visible area.
 
 ### Find a Stock Item
 
-- Enter an item code, name, description, UOM, price, or barcode in the relevant
-  filter row to narrow the list.
+- Enter an item code, name, description, UOM, price, or barcode in the relevant filter row to narrow the list.
 - Use the search box above the list to scan or enter a barcode.
 - Select the **X** in the search box to clear the current search.
 
@@ -117,9 +111,7 @@ Select the **back arrow** beside the item name to return to the stock item list.
 
 **Menu: Stock Item → Item Template**
 
-The **Item Template** page displays predefined item packages or sets. Each
-template can contain several stock items with their own quantities and unit
-prices.
+The **Item Template** page displays predefined item packages or sets. Each template can contain several stock items with their own quantities and unit prices.
 
 > The Item Template module must be enabled, and templates must be maintained in
 > SQL Account before they can be synchronized to X-Pos Terminal.
@@ -156,25 +148,20 @@ Select **Close** to return to the Item Template list.
 
 **Menu: Stock Item → Print Barcode**
 
-Use the **Print Barcode** page to select stock items, choose a barcode layout,
-set the number of labels, preview the result, and send the labels to a barcode
-printer.
+Use the **Print Barcode** page to select stock items, choose a barcode layout, set the number of labels, preview the result, and send the labels to a barcode printer.
 
 ### Prepare the Barcode Labels
 
 ![Select a barcode template](../../../static/img/integration/xpos/stock-item/print-barcode.png)
 
-1. Set **Default Quantity**. This is the initial number of labels assigned to
-   each item added to the print list.
-2. Select a **Template** that matches the required barcode layout and label
-   size.
+1. Set **Default Quantity**. This is the initial number of labels assigned to each item added to the print list.
+2. Select a **Template** that matches the required barcode layout and label size.
 ![Items included in an item template](../../../static/img/integration/xpos/stock-item/print-barcode-template.png)
 3. Add items in either of these ways:
    - Scan or enter a barcode in the **Search / scan barcode** box.
    - Select **Add Item**, choose one or more items, and then select **Apply**.
 4. Check the item information and adjust **Print Qty** for each item.
-5. Select the bin icon under **Clear** to remove an item that should not be
-   printed.
+5. Select the bin icon under **Clear** to remove an item that should not be printed.
 6. Select **Print** to open the barcode preview.
 
 ### Add Multiple Items
@@ -187,8 +174,7 @@ In the **Select Item** window:
 
 1. Check the box beside each item to be added.
 2. Review the number of selected items at the bottom of the window.
-3. Select **Apply** to add them to the print list, or **Cancel** to close the
-   window without applying the selection.
+3. Select **Apply** to add them to the print list, or **Cancel** to close the window without applying the selection.
 
 > Can use the filter row to find the required items.
 
@@ -206,12 +192,9 @@ Before printing, confirm the information under **Barcode Settings**:
 | **Product Name** | The stock item name printed on the label. |
 | **Print Qty** | The number of labels to print for the item. |
 
-The **Barcode Preview** shows how the selected template will appear when
-printed. If multiple items were added, use the left and right arrows below the
-preview to check each label.
+The **Barcode Preview** shows how the selected template will appear when printed. If multiple items were added, use the left and right arrows below the preview to check each label.
 
-Select the required printer from the printer list, then select **Print
-Barcode**. Select **Cancel** to return without printing.
+Select the required printer from the printer list, then select **Print Barcode**. Select **Cancel** to return without printing.
 
 > Use an expiry-date template when an expiry date must appear on the barcode
 > label. Always check the preview and print quantity before printing.
@@ -220,10 +203,9 @@ Barcode**. Select **Cancel** to return without printing.
 
 **Menu: Stock Item → Weight Scale**
 
-The **Print Weight Scale** page displays stock item information prepared for
-use with a weighing scale.
+The **Print Weight Scale** page displays stock items prepared for export to a weighing scale. The list includes items whose barcode starts with the prefix configured under [Settings → Hardware → Weight Scale](./settings.md#weight-scale).
 
-![Weight-scale stock items](../../../static/img/integration/xpos/stock-item/weight-scale.png)
+![Weight-scale stock items](../../../static/img/integration/xpos/stock-item/weight-scale-1.png)
 
 | Column | Description |
 | --- | --- |
@@ -232,7 +214,7 @@ use with a weighing scale.
 | **Name** | The stock item name. |
 | **UOM** | The item's unit of measurement, such as KG. |
 | **Rate** | The UOM conversion rate maintained for the item. |
-| **Shelf** | The shelf or rack number maintained for the item, if any. |
+| **Shelf** | The shelf-time or expiry-day value exported to the weighing scale. |
 | **Ref Price** | The item's reference price. |
 | **REMARK1** | The item's first remark, if provided. |
 | **REMARK2** | The item's second remark, if provided. |
@@ -240,10 +222,24 @@ use with a weighing scale.
 ### Export Weight-Scale Items
 
 1. Review the weight-scale items displayed on the page.
-2. Use the filter row below the column headings to narrow the on-screen list if
-   required. The filter is for viewing only and does not affect the export.
-3. Select **Export Excel**. The system exports all weight-scale items that match
-   the prefix configured in **Settings**, including items hidden by the current
-   filter.
-4. The system generates `Rongta_RSL1000_PLU_Export.xls` for use with the Rongta
-   RLS1000 weighing scale.
+2. Enter the required **Shelf Time**.
+3. Click **Export**, then select an export format.
+   ![Select a weight-scale export format](../../../static/img/integration/xpos/stock-item/weight-scale-2.png) 
+   | Format | File extension | Details |
+   | --- | --- | --- |
+   | **Microsoft Excel 97-2003 Workbook** | `.xls` | Tab-delimited export with column headings. |
+   | **Microsoft Excel Workbook** | `.xlsx` | Excel workbook with column headings. |
+   | **Text file** | `.txt` | Text export using the selected separator and without column headings. |
+   | **CSV file** | `.csv` | Delimited export using the selected separator and without column headings. |
+4. In **Choose Export Fields**, configure the columns to be exported.
+   ![Configure weight-scale export fields](../../../static/img/integration/xpos/stock-item/weight-scale-3.png)
+   | Option | Description |
+   | --- | --- |
+   | **+ / −** | Adds or removes an export field. |
+   | **Up / Down** | Changes the field order in the exported file. |
+   | **Export Field** | Column name required by the weighing-scale import format. |
+   | **Mapping Field** | X-Pos value written to that column. Select **(None — use 0)** to export `0`. |
+   | **Is Active** | Includes or excludes the field without removing its configuration. |
+   | **Export Separator** | Sets the delimiter for `.txt` and `.csv` exports. Available options are comma, tab, semicolon, space, no delimiter, and a custom separator. |
+   | **Reset to default** | Restores the standard export fields, mappings, and order. |
+5. Click **Export**, select the destination folder, and save the file. The default filename is `WeightScale_Export` with the selected file extension.
