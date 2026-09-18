@@ -23,16 +23,16 @@ The **Counter Managament** module allows you to view counter summaries, handle c
     ![counter-management-2](../../../static/img/integration/xpos/counter-management/counter-management-2.png)
     ![counter-management-3](../../../static/img/integration/xpos/counter-management/counter-management-3.png)
 
-    | Section | Information available |
+    | Section | Information Available |
     | --- | --- |
     | **Counter Information** | Terminal ID, opening time, close time, counter report ID, opened by, closed by, and note |
-    | **Sales Summary** | Payment method, amount (RM), and transaction count |
-    | **Payment Summary** | Payment method, actual amount (RM), expected amount (RM), and difference (actual − expected) |
-    | **Deduction Summary** | Deduction type (return, bill discount, item discount, tax amount) and amount (RM) |
+    | **Sales Summary** | Payment method, currency, rate, amount (RM), and transaction count |
+    | **Payment Summary** | Payment method, currency, rate, actual amount (RM), expected amount (RM), and difference (actual − expected) |
+    | **Deduction Summary** | Deduction type (return, bill discount, item discount, tax amount) |
     | **Cash Summary** | Actual cash, cash sales, opening cash, cash in, cash out, total expected cash, and total variance |
-    | **Cash Flow Summary** | Time, user, amount (RM), and reason for each cash in/out transaction |
-    | **Hold Bill Summary** | ID, time, user, amount (RM), and remark for each held bill |
-    | **Void Bill Summary** | ID, time, user, amount (RM), and remark for each voided bill |
+    | **Cash Flow Summary** | Time, user, type, amount (RM), and reason for each cash in/out transaction |
+    | **Hold Bill Summary** | Time, user, amount (RM), and remark for each held bill |
+    | **Void Bill Summary** | Time, user, amount (RM), and remark for each voided bill |
 
 ### Print Batch Reports
 
@@ -48,7 +48,7 @@ The **Counter Managament** module allows you to view counter summaries, handle c
     | **By Counter** | Generates an individual close counter report for each counter within the date range, viewable one by one |
 
 3. Select the **Start Date** and **End Date**
-4. Select a **Template** (e.g., ` POS_CLOSECOUNTER_BYDATE `)
+4. Select a **Template** (e.g., ` POS Close Counter - By Date `)
 5. (Optional) Check **Send Report to Email** to email the reports. This requires an email to be configured first
 6. A **preview** of the report is shown on the right
 
@@ -56,7 +56,7 @@ The **Counter Managament** module allows you to view counter summaries, handle c
 
         ![print-batch-report-by-summary](../../../static/img/integration/xpos/counter-management/print-batch-report-by-summary.png)
 
-    - For **By Counter**, the preview shows each counter's report individually. Use **Previous** and **Next** to navigate between counters, indicated by the page counter (e.g., **1 of 2**)
+    - For **By Counter**, the preview shows each counter's report individually. Use **Previous** and **Next** to navigate between counters, indicated by the page counter (e.g., **1 of 7**)
 
         ![print-batch-report-by-counter](../../../static/img/integration/xpos/counter-management/print-batch-report-by-counter.png)
 
@@ -68,11 +68,11 @@ The **Counter Managament** module allows you to view counter summaries, handle c
 
     ![cash-management](../../../static/img/integration/xpos/counter-management/cash-management.png)
 
-2. Select **Cash In** or **Cash Out** using the toggle at the top of the form
+2. Select **Cash In / Cash Out** using the toggle at the top of the form
 3. Enter the **Amount**
 4. (Optional) Enter the **Reason**
 5. (Optional) Check **Open Cash Drawer** to trigger the physical cash drawer to open
-6. (Optional) Check **Print Cash In / Out Receipt** and select a template (e.g., ` POS_CASHINOUT `)
+6. (Optional) Check **Print Cash In / Out Receipt** and select a template (e.g., ` POS Cash In Out `)
 7. Click **Save** to confirm the transaction, or **Cancel** to discard it
 
     ![cash-in-out](../../../static/img/integration/xpos/counter-management/cash-in-out.png)
@@ -89,7 +89,7 @@ The **Counter Managament** module allows you to view counter summaries, handle c
 
 2. Count the amounts received and adjust the **Actual (RM)** amount for each payment method
 3. (Optional) Check **Send Report to Email** to email the report. This requires an email to be configured first
-4. (Optional) Check **Print Closing Summary Report** and select a template (e.g., ` POS_CLOSECOUNTER_BYID `)
+4. (Optional) Check **Print Closing Summary Report** and select a template (e.g., ` POS Close Counter - By ID `)
 5. Click **Proceed Close Counter** to close the counter, or **Cancel** to discard it
 
     ![close-counter-summary](../../../static/img/integration/xpos/counter-management/close-counter-summary.png)
@@ -106,7 +106,7 @@ The **Counter Managament** module allows you to view counter summaries, handle c
 
     ![print-counter-report](../../../static/img/integration/xpos/counter-management/print-counter-report.png)
 
-2. Select a **Template** (e.g., ` POS_CLOSECOUNTER_BYID `)
+2. Select a **Template** (e.g., ` POS Close Counter - By ID `)
 3. (Optional) Check **Send Report to Email** to email the report. This requires an email to be configured first
 4. Click **Print** to generate the report, or **Cancel** to discard the selection
 
@@ -133,7 +133,7 @@ The **Counter Managament** module allows you to view counter summaries, handle c
 
     ![payment-summary](../../../static/img/integration/xpos/counter-management/payment-summary.png)
 
-2. Adjust the **Actual (RM)** amount for the relevant payment method.
-3. Click **Save** to update the actual amounts or **Cancel** to discard the changes.
+2. Adjust the **Actual (RM)** amount for the relevant payment method
+3. Click **Save** to update the actual amounts or **Cancel** to discard the changes
 
     ![edit-payment-summary](../../../static/img/integration/xpos/counter-management/edit-payment-summary.png)
