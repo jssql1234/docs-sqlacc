@@ -47,6 +47,7 @@ The browse screen displays the profile code, description, and active status. The
 | **Default Customer Code** | Customer code used for POS cash sales when no customer is selected. |
 | **Default Price Tag** | Price tag used as the default selling price source. |
 | **Default Custom Item Code** | Item code used when a cashier enters a custom or non-catalogue item. |
+| **Default Promotion Item Code** | Item code used to group the promotion items. |
 | **Default Discount Item Code** | Item code used to post POS discounts. |
 | **Default Rounding Item Code** | Item code used to post rounding differences. |
 
@@ -148,11 +149,11 @@ Use **Maintain POS Payment Method** to configure the payment buttons available a
 
 | Field | Description |
 | --- | --- |
-| **Type** | Select the payment category: <br /> 1. Cash <br /> 2. Bank <br /> 3. Card <br /> 4. E-Wallet |
-| **Currency** | Select the payment currency. For foreign-currency payments, select the applicable currency; the displayed rate uses the current selling rate. |
+| **Type** | Select the payment category: <br /> 1. Cash <br /> 2. Card <br /> 3. E-Wallet (Scan) <br /> 4. E-Wallet (Duitnow) | 
 | **Sequence No** | Controls the payment method display order. Use consecutive numbers, such as `1`, `2`, and `3`. |
 | **Rounding** | Select **No rounding** or **5 cents rounding**. Use 5-cent rounding only when required for cash payments. |
 | **Print Receipt (pcs)** | Enter the number of receipt copies to print. A maximum of three copies is allowed. |
+| **Payment Provider** | Select the payment provider: <br /> 1. Not applicable <br /> 2. Fiuu <br /> 3. Gkash <br /> 4. Adaptis |
 | **Must Fill Ref. No** | Requires the cashier to enter a reference number before completing payment. This is useful for card, bank transfer, and e-wallet payments. |
 | **Kick Drawer** | Opens the cash drawer when this payment method is used. This option should normally be enabled only for cash payments. |
 | **Picture** | Optionally add an image or logo for the payment method. |
@@ -165,9 +166,10 @@ Click **Save** to save the payment method.
 
 | Payment Method | Type | GL Code | Suggested Setup |
 | --- | --- | --- | --- |
-| Cash | Cash | Cash-on-hand payment method | Set as active and default, assign sequence number `1`, and enable **Kick Drawer**. Enable 5-cent rounding only if applicable. |
-| Card terminal | Card | Card or bank clearing payment method | Set as active, require a reference number, assign sequence number `2`, and leave **Kick Drawer** cleared. |
-| E-wallet | E-Wallet | E-wallet clearing payment method | Set as active and assign sequence number `3`. Require a reference number when it is needed for reconciliation. |
+| Cash | Cash | Cash-on-hand payment method | Set as active and default and enable **Kick Drawer**. Enable 5-cent rounding only if applicable. |
+| Card terminal | Card | Card or bank clearing payment method | Set as active, require a reference number and leave **Kick Drawer** cleared. |
+| E-wallet (Scan) | E-Wallet (Scan) | Cashier scan QR Code presented by customer | Set as active and require a **reference number** when it is needed for reconciliation. |
+| E-wallet (Duitnow) | E-Wallet (Duitnow) | Cashier present QR Code to customer | Set as active and require a **reference number** when it is needed for reconciliation. |
 
 :::info[Payment Method Checklist]
 - Ensure every POS payment method is mapped to the correct **GL Code** before processing live sales.
@@ -319,12 +321,12 @@ The download process also creates a UUID when needed and updates the terminal's 
 
 ### Export masterdata for Multiple Terminals
 
-From the terminal browse screen, click **More** > **Export Data**.
+From the terminal browse screen, click **More** > **Sync Terminal**.
 
 ![Open Export Data](../../../static/img/usage/xpos/pos-masterdata-export-menu.png)
 
 1. Select one or more terminals in the export list.
-2. Click **Export**.
+2. Click **Sync Terminal**.
 3. Review the completion message for the number of successful uploads and any failed terminal codes.
 
 ![Select terminals to export](../../../static/img/usage/xpos/pos-masterdata-export-selection.png)
