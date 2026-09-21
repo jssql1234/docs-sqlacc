@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Report
 description: Report for X-Pos System
 slug: /usage/xpos/report
