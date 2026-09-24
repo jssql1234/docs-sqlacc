@@ -223,6 +223,8 @@ For example, terminal `COUNTER01` is bound to `COUNTER01_API`. The binding actio
 
 :::warning
 Do not use the system `ADMIN` account as the terminal API user.
+
+After the API is configured, the user will **NOT** be able to log in to the system.
 :::
 
 If the API user cannot be created, confirm that the application API host is configured and that your user has permission to maintain system users.
@@ -280,6 +282,8 @@ For example, terminal `COUNTER01` uses `COUNTER01_API`. The system binds the use
 
 :::warning
 Do not bind the `ADMIN` user. If the system reports that the API application is not configured, configure the application API host before trying again.
+
+After the API is configured, the user **will NOT be able to** log in to the system.
 :::
 
 ![Terminal API user field](../../../static/img/usage/xpos/pos-terminal-form.png)

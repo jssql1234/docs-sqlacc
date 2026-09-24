@@ -30,6 +30,14 @@ Check the following if binding fails:
 - The terminal code is valid and unique.
 - The system `ADMIN` account is not selected as the terminal API user.
 
+### Why can't I log in using an API user?
+
+Once a user account is configured for the API service, it can **NO** longer be used to log in to the system interactively.
+:::warning
+- Do not configure the `ADMIN` account as an API user. 
+- Always create or use a dedicated user account for the API service.
+:::
+
 ### Why are the wrong items or prices shown on the terminal?
 
 Check the terminal's assigned **Location** and **Settings** profile. Then save any changes and run **Sync Terminal** again.
