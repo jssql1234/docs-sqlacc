@@ -231,7 +231,7 @@ After the API is configured, the user will **NOT** be able to log in to the syst
 
 If the API user cannot be created, confirm that the application API host is configured and that your user has permission to maintain system users.
 
-[How to setup SQL Account API](/integration/sql-account-api/setup-configuration)
+[How to setup SQL Account API](../../integration/sql-account-api/setup-configuration)
 
 ### Sync Terminal
 

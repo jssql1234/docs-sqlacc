@@ -46,7 +46,7 @@ Click on your current logo to upload a new one.
 #### SQL Account Integration
 
 :::info
-For more details on SQL Account configuration, see our [Setup Guide](../xstore/setup#step-3-configure-company-settings).
+For more details on SQL Account configuration, see our [Setup Guide](../xstore/setup#step-3-configure-sql-account-settings).
 :::
 
 You may add your SQL Account configuration here:
