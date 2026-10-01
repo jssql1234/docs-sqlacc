@@ -34,7 +34,14 @@ Use **Maintain POS Promotion** to configure discounts and special offers for X-P
 
 The **General** tab controls where and when the promotion is available. It also displays a summary of all rules configured for the promotion.
 
-![General tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-general.png)
+   ![General tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-general.png)
+
+<details>
+   <summary>The promotion overview can be copied to the clipboard by clicking **More > Copy Promotion Overview**.</summary>
+
+   ![Copy Promotion Overview to Clipboard in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-general-copytoclipbrd.png)
+
+</details>
 
 ### Price Tags and Locations
 
@@ -69,7 +76,7 @@ The right side of the **General** tab summarizes the rules entered under **Min S
 
 Use **Min Spend** to apply a discount when the bill reaches a specified amount.
 
-![Minimum Spend tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-minspend.png)
+   ![Minimum Spend tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-minspend.png)
 
 | Field | Description |
 | --- | --- |
@@ -95,7 +102,7 @@ For example, enter `100` under **Min Spend**, `10%` under **Discount Value**, an
 
 Use **Item Based** to apply a discount directly to selected items.
 
-![Item Based tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-itembased.png)
+   ![Item Based tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-itembased.png)
 
 | Field | Description |
 | --- | --- |
@@ -123,7 +130,7 @@ For example, entering `5%` for an item priced at RM700 produces a discounted pri
 
 Use **Buy X Disc X** to define the items a customer must buy and the discount they receive.
 
-![Buy X Discount X tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-bxdx.png)
+   ![Buy X Discount X tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-bxdx.png)
 
 ### Discount Settings
 
@@ -160,7 +167,7 @@ Use the **Buy X Detail** section to define the qualifying items or categories.
 
 Use **Mix & Match** to create a promotion from a group of eligible items or categories.
 
-![Mix & Match tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-mnm.png)
+   ![Mix & Match tab in Maintain POS Promotion](../../../static/img/usage/xpos/pos-promo-mnm.png)
 
 | Field | Description |
 | --- | --- |
