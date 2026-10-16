@@ -260,14 +260,15 @@ Roles can only be deleted if they're not assigned to any users. If the role is i
 
 ## Post Order
 
-View orders in the Shipped, Delivered, or Completed state and post their invoices to SQL Account. This section has two tabs:
+View orders in the Shipped, Delivered, or Completed state and post their invoices to SQL Account. This section has three tabs:
 
-1. **Unposted Tab**: Orders that haven't been posted yet, or orders that were updated after their last posting date (i.e., the order's updated date is later than its posted date).
-2. **Posted Tab**: Orders that have already been posted and have no changes since.
+1. **Unposted** tab: Orders that have not been posted yet, or those updated after their last posting (that is, the order's transaction updated date is later than its posted date).
+2. **Posted** tab: Orders that have been posted and have not changed since.
+3. **Payment** tab: Shows all unposted and posted orders from a payment perspective. You can filter orders by settlement date in this tab.
 
 ![post-overview](../../../static/img/xstore/settings/post-overview.png)
 
-You can change the View Options to see more order details, or use the filter options to narrow down which orders are displayed. By default, orders are filtered to those created within the last 30 days. You can include older orders by adjusting the filter options.
+Use **View Options** to see more order details, or use the filter options to narrow down which orders are displayed. By default, only orders created within the last 30 days are shown. To include older orders, adjust the filter options.
 
 ![post-view](../../../static/img/xstore/settings/post-view.png)
 
@@ -277,36 +278,56 @@ You can change the View Options to see more order details, or use the filter opt
 
    ![post-selection](../../../static/img/xstore/settings/post-selection.png)
 
-2. To post all orders matching your current filters in the **Unposted Tab** at once, click the dropdown next to **Post Selected** and choose **Post All**. You can also set your preferred posting option in advance under [Company Setting](#company-setting).
+2. To post all orders matching your current filters in the **Unposted** tab at once, click the dropdown next to **Post Selected** and choose **Post All**. You can also set your preferred posting option in advance under [Company Setting](#company-setting).
 
    ![post-all](../../../static/img/xstore/settings/post-all.png)
 
-3. Clicking **Post Selected** opens a confirmation dialog. Check **Include Cancelled Orders** if you want cancelled orders posted along with the rest, then click **Continue** to proceed. Click **Cancel** to back out without posting.
+3. A confirmation dialog appears. Check **Include Cancelled Orders** if you want cancelled orders posted along with the rest, then click **Continue** to proceed. Click **Cancel** to exit without posting.
 
    ![post-confirmation](../../../static/img/xstore/settings/post-confirmation.png)
 
-4. A progress card shows the status of the posting process. If **Include Cancelled Orders** isn't selected, cancelled orders are shown as skipped. Orders still waiting to be processed are shown as queued.
+4. A progress card shows the status of the posting process. Orders still waiting to be processed are shown as *Queued*. If **Include Cancelled Orders** is not selected, cancelled orders are shown as *Skipped*.
 
    ![post-progress](../../../static/img/xstore/settings/post-progress.png)
 
-5. Once posting completes, successfully posted orders move to the **Posted Tab** and their *Posted Date* is updated. Orders that fail to post stay in the current tab, with the failure reason shown in the **Post Status** column.
+5. Once posting completes, successfully posted orders move to the **Posted** tab and their **Posted Date** is updated. Orders that fail to post remain in the current tab, with the failure reason shown in the **Post Status** column.
 
    ![post-success](../../../static/img/xstore/settings/post-success.png)
 
-6. If an order fails to post with the reason *"Shop SKU not mapped to SQL Account stock item"*, open the order's details page to map the SKU accordingly.
+6. If an order fails with the reason *"Shop SKU not mapped to SQL Account stock item"*, open the order's details page and map the SKU to the correct stock item.
 
    ![post-map](../../../static/img/xstore/settings/post-map.png)
 
 ### Failed Posting
 
-If any orders fail during the post order process, you can review them in the **Post Order Failed Results** dialog. Only failed results from the last post order process are shown, and they are kept for only **3 hours**. Once the underlying issue causing the failure has been resolved, you can repost those failed orders before they expire.
+If any orders fail during posting, you can review them in the **Post Order Failed Results** dialog.
 
-1. Click **View Failed Results** to see orders that failed to post in the last post order process, along with their failure reasons.
-2. Filter orders by failure reason.
-3. Select the relevant orders individually, or use **Select all filtered items** to select every order with the matching failure reason.
-4. Repost selected orders.
+:::note
+Only the failed results from the most recent posting process are shown, and they are kept for **3 hours**. Once the underlying issue has been resolved, repost the failed orders before they expire.
+:::
+
+1. Click **View Failed Results** to see the orders that failed in the most recent posting process, along with their failure reasons.
+2. Filter the orders by failure reason.
+3. Select the relevant orders individually, or click **Select all filtered items** to select every order with the matching failure reason.
+4. Click **Repost Selected** to post them again.
 
 ![post-failed](../../../static/img/xstore/settings/post-failed.png)
+
+### Terminate Posting
+
+If you selected the wrong orders or the posting is taking too long, you can terminate the process. This stops the entire posting run.
+
+1. Once a posting process starts, the **Terminate Process** button is enabled. Click it to begin termination.
+
+   ![terminate-overview](../../../static/img/xstore/settings/terminate-overview.png)
+
+2. Click **Confirm** to confirm termination, or click **Cancel** to exit without terminating.
+
+   ![terminate-confirmation](../../../static/img/xstore/settings/terminate-confirmation.png)
+
+3. Wait for termination to complete. This may take a moment, as the system first finishes the order currently being processed so that all progress made so far is saved. Remaining orders are marked as *Skipped*, and a *Post Order Process Terminated* toast appears at the bottom right of the screen.
+
+   ![terminate-success](../../../static/img/xstore/settings/terminate-success.png)
 
 ## Customize Template
 
