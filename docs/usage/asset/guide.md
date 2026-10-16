@@ -260,9 +260,8 @@ Download the [Asset Master Template](https://download.sql.com.my/customer/Asset/
 
 2. FA.ITEM.OPF (Maintain Asset Item)
 
-        | **Column**       | **Length**  | **Note**                                                                 |
-
-    |-------------------|-------------|--------------------------------------------------------------------------|
+    | **Column** | **Length** | **Note** |
+    | ----------------- | ------------- | ------------------------- |
     | **Code** | 20 | Asset Code, e.g., FF-0001. |
     | **Description** | 160 | Asset Description, e.g., Chairs, Table. |
     | **Asset Group** | 20 | Asset Group, e.g., Furniture. |
