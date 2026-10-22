@@ -6,7 +6,7 @@ slug: /integration/xpos/terminal/counter-management
 tags: ["SQL Account", "Integration", "X-Pos", "Counter Management"]
 ---
 
-The **Counter Managament** module allows you to view counter summaries, handle cash flows, close counters, and preview or print closed counter reports
+The **Counter Management** module allows you to view counter summaries, handle cash flows, close counters, and preview or print closed counter reports
 
 ## General Features
 
