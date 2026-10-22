@@ -32,11 +32,29 @@ The item entry and cart section is the main area where users manage items in the
 **Search Field**:
 
 1. Help key - can refer to **Main Menu** -> **Setting** -> **Shortcuts Configuration** -> **Default Shortcuts**
-2. Add item into the cart by scanning items using a barcode scanner
-3. Add item into the cart by entering the item code
-4. Assign promoter by entering the promoter code
+2. Add item into the cart by entering
+   - barcode
+   - item code
+   - serial number
+3. Assign promoter by entering the promoter code
 
-**Search Button**:
+If multiple items share the same serial number, a dialog box prompts the user to select the item from the list.
+
+![serial-number-item-list](../../../static/img/integration/xpos/checkout/serial-number-item-list.png)
+
+:::warning
+Users cannot add an item if the same serial number has already been assigned to that item in the cart.
+:::
+
+**Arrow Up Button (Shortcut key: Ctrl + Up)**:
+
+Move the item up one position in the sequence of item cart
+
+**Arrow Down Button (Shortcut key: Ctrl + Down)**:
+
+Move the item down one position in the sequence of item cart
+
+**Search Button (Shortcut key: Insert)**:
 
 1. View stock item list
 2. Add item from the item list
@@ -50,27 +68,45 @@ The item entry and cart section is the main area where users manage items in the
 | X               | Remove item from the cart            |
 | SKU             | Item code                            |
 | Name            | Item description                     |
+| Desc 2          | Item description                     |
+| Remark          | Item remark 1                        |
 | UOM             | Unit of measure                      |
-| Group           | Item template                        |
+| Group           | Item template / Promotion            |
 | Batch No.       | Batch number for inventory tracking  |
 | Serial No.      | Serial number for serialized items   |
 | Quantity        | Selling quantity                     |
 | Unit Price      | Selling price per unit               |
 | Discount        | Applied discount                     |
-| Discount Amount | Discount value                       |
+| Discount Amt    | Discount value                       |
 | Subtotal        | Item subtotal before tax calculation |
+| Tax             | Applied tax                          |
+| Tax Inclusive   | Whether the tax is inclusive         |
+| Tax Amt         | Tax value                            |
 | Net Price       | Final item amount                    |
 
 ### Sales Summary Section
 
 The sales summary section displays the current transaction calculation.
 
-| Field        | Description                                |
-| ------------ | ------------------------------------------ |
-| Subtotal     | Total amount after discount and before tax |
-| Tax          | Total tax amount applied                   |
-| Total Disc   | Total discount applied to the transaction  |
-| Total Amount | Final amount payable by customer           |
+| Field        | Description                                     |
+| ------------ | ----------------------------------------------- |
+| Subtotal     | Total amount after item discount and before tax |
+| Tax          | Total tax amount applied                        |
+| Bill Disc    | Total bill discount amount applied              |
+| Total Disc   | Total discount applied to the transaction       |
+| Total Amount | Final amount payable by customer                |
+
+Users can click this icon to open the Bill Discount dialog box
+
+![sales-summary](../../../static/img/integration/xpos/checkout/sales-summary.png)
+
+The promotion bill discount will be applied automatically if the user does not enter a manual bill discount.
+
+![promo-bill-disc](../../../static/img/integration/xpos/checkout/promo-bill-disc.png)
+
+If the user enters a manual bill discount, the promotion bill discount will be ignored.
+
+![manual-bill-disc](../../../static/img/integration/xpos/checkout/manual-bill-disc.png)
 
 ### Item Operation Buttons (Right side)
 
@@ -110,6 +146,12 @@ User can configure the shortcut key for the buttons in **Main Menu** -> **Settin
 ### Payment Section
 
 The payment section allows users to complete transactions using available payment methods.
+
+![single-payment](../../../static/img/integration/xpos/checkout/single-payment.png)
+
+User can click the **More Payment** button if the customer request for multipayment and the multipayment screen will shown as image below
+
+![multipayment](../../../static/img/integration/xpos/checkout/multipayment.png)
 
 ## Item and System Buttons
 
@@ -163,6 +205,12 @@ To enable serial number tracking for a stock item:
 
 - Each serial-controlled item must have a serial number assigned
 - One serial number is required for **each quantity** of the item
+- User can click the **Lookup** button to prompt the serial number dialog box
+- This dialog will show the available serial numbers for user to select 
+
+![serial-number-list](../../../static/img/integration/xpos/checkout/serial-number-list.png)
+
+- User can enter the serial number on the search field  
 
 ![serial-number](../../../static/img/integration/xpos/checkout/serial-number.png)
 
