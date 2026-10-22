@@ -32,11 +32,29 @@ The item entry and cart section is the main area where users manage items in the
 **Search Field**:
 
 1. Help key - can refer to **Main Menu** -> **Setting** -> **Shortcuts Configuration** -> **Default Shortcuts**
-2. Add item into the cart by scanning items using a barcode scanner
-3. Add item into the cart by entering the item code
-4. Assign promoter by entering the promoter code
+2. Add item into the cart by entering
+   - barcode
+   - item code
+   - serial number
+3. Assign promoter by entering the promoter code
 
-**Search Button**:
+If multiple items share the same serial number, a dialog box prompts the user to select the item from the list.
+
+![serial-number-item-list](../../../static/img/integration/xpos/checkout/serial-number-item-list.png)
+
+:::warning
+Users cannot add an item if the same serial number has already been assigned to that item in the cart.
+:::
+
+**Arrow Up Button (Shortcut key: Ctrl + Up)**:
+
+Move the item up one position in the sequence of item cart
+
+**Arrow Down Button (Shortcut key: Ctrl + Down)**:
+
+Move the item down one position in the sequence of item cart
+
+**Search Button (Shortcut key: Insert)**:
 
 1. View stock item list
 2. Add item from the item list
@@ -50,6 +68,7 @@ The item entry and cart section is the main area where users manage items in the
 | X               | Remove item from the cart            |
 | SKU             | Item code                            |
 | Name            | Item description                     |
+| Desc 2          | Item description                     |
 | UOM             | Unit of measure                      |
 | Group           | Item template                        |
 | Batch No.       | Batch number for inventory tracking  |
@@ -65,12 +84,21 @@ The item entry and cart section is the main area where users manage items in the
 
 The sales summary section displays the current transaction calculation.
 
-| Field        | Description                                |
-| ------------ | ------------------------------------------ |
-| Subtotal     | Total amount after discount and before tax |
-| Tax          | Total tax amount applied                   |
-| Total Disc   | Total discount applied to the transaction  |
-| Total Amount | Final amount payable by customer           |
+| Field        | Description                                     |
+| ------------ | ----------------------------------------------- |
+| Subtotal     | Total amount after item discount and before tax |
+| Tax          | Total tax amount applied                        |
+| Bill Disc    | Total bill discount amount applied              |
+| Total Disc   | Total discount applied to the transaction       |
+| Total Amount | Final amount payable by customer                |
+
+Users can click this icon to open the Bill Discount dialog box
+
+![sales-summary](../../../static/img/integration/xpos/checkout/sales-summary.png)
+
+![promo-bill-disc](../../../static/img/integration/xpos/checkout/promo-bill-disc.png)
+
+![manual-bill-disc](../../../static/img/integration/xpos/checkout/manual-bill-disc.png)
 
 ### Item Operation Buttons (Right side)
 
