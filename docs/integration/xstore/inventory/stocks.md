@@ -69,7 +69,7 @@ Mapping platform products to stock items allows you to manage stock and quantity
 
    ![multi-stock-item-auto-map-dialog](../../../../static/img/xstore/stocks/multi-stock-item-auto-map-dialog.png)
 
-## Update Quantity
+## Unmap Products
 
 1. Go to **Inventory > Stocks**
 
@@ -77,13 +77,84 @@ Mapping platform products to stock items allows you to manage stock and quantity
 
    ![single-stock-item-map](../../../../static/img/xstore/stocks/single-stock-item-map.png)
 
-3. Click the **+/-** icon
+3. Select the products you want to unmap by clicking the checkbox
 
-   ![update-quantity](../../../../static/img/xstore/stocks/update-quantity.png)
+4. Click the **Actions** button, then click **Unmap Product**
 
-4. Click the **Update** button to update the mapped products' quantity with the stock item's quantity
+   ![unmap-products](../../../../static/img/xstore/stocks/unmap-products.png)
 
-   ![update-quantity-dialog](../../../../static/img/xstore/stocks/update-quantity-dialog.png)
+5. The products will be removed from the **Mapped Products** list and a **Process completed** message will appear
+
+   ![unmap-result](../../../../static/img/xstore/stocks/unmap-result.png)
+
+## Update Price & Quantity
+
+1. Go to **Inventory > Stocks**
+
+2. Click the icon to view stock details
+
+   ![single-stock-item-map](../../../../static/img/xstore/stocks/single-stock-item-map.png)
+
+3. Select the products you want to update by clicking the checkbox
+
+4. Click the **Actions** button, then click **Update Price & Quantity**
+
+   ![update-price-quantity](../../../../static/img/xstore/stocks/update-price-quantity.png)
+
+5. Choose an option for **Update Price** and **Update Quantity**. Both are set to **None** by default, and at least one must be changed to continue
+
+   ![update-price-quantity-dialog](../../../../static/img/xstore/stocks/update-price-quantity-dialog.png)
+
+### Update Price
+
+| Option                 | Description                                                                  |
+| ---------------------- | ---------------------------------------------------------------------------- |
+| **None**               | The price will not be updated                                                |
+| **Inherit Stock Item** | All selected products are updated to the **Ref Price** of the selected UOM   |
+| **Manual**             | Set a new price based on the **Ref Price**, or type a price for each product |
+
+![update-price-inherit](../../../../static/img/xstore/stocks/update-price-inherit.png)
+
+![update-price-manual](../../../../static/img/xstore/stocks/update-price-manual.png)
+
+When **Manual** is selected, choose how the new price is set:
+
+| Option          | Description                                           |  
+| --------------- | ----------------------------------------------------- | 
+| **Increase**    | Adds the **Adj** percentage to the **Ref Price**      | 
+| **Decrease**    | Deducts the **Adj** percentage from the **Ref Price** | 
+| **Fixed Value** | Uses the price typed in the **Ref Price** field       | 
+
+1. For **Increase** and **Decrease**, type the percentage in **Adj** or click a preset (**5%**, **10%**, **15%** or **20%**)
+2. The result is shown as **Calculated Base Price** and in the **New Price** column
+3. (Optional) Type in the **New Price** column to use a different price for that particular product
+
+:::info
+**Manual** also updates the **Ref Price**. Prices typed in the **New Price** column will not change the **Ref Price**
+:::
+
+### Update Quantity
+
+| Option                 | Description                                                         |
+| ---------------------- | ------------------------------------------------------------------- |
+| **None**               | The quantity is not updated                                         |
+| **Inherit Stock Item** | Products are updated to the stock quantity of their mapped location |
+
+![update-quantity-inherit](../../../../static/img/xstore/stocks/update-quantity-inherit.png)
+
+:::info
+Products with an **unknown location** or **untracked quantity** will not be updated. 
+:::
+
+### Update Results
+
+1. Click **Apply** to update the selected products
+
+   ![update-price-quantity-apply](../../../../static/img/xstore/stocks/update-price-quantity-apply.png)
+
+2. The **Update Results** dialog will appear, showing how many products were updated, failed or skipped, along with the reason for any failures
+
+   ![update-price-quantity-results](../../../../static/img/xstore/stocks/update-price-quantity-results.png)
 
 ## Delete Stock
 
