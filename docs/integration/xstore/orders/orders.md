@@ -84,6 +84,7 @@ Use **Stock Pick** to optionally verify order items before processing orders for
 
 1. Click on the screen and scan the Order ID
 2. **Alternative:** Type the Order ID manually and press Enter
+3. **Alternative:** Click the **Camera** icon to scan the Order ID with your device camera (see [Scan with Camera](#scan-with-camera))
 
 ![stock-pick-order](../../../../static/img/xstore/orders/stock-pick-order.png)
 
@@ -91,7 +92,8 @@ Use **Stock Pick** to optionally verify order items before processing orders for
 
 1. Click on the screen and scan the barcode
 2. **Alternative:** Type the barcode number manually and press Enter
-3. **Alternative:** Type the quantity in the **Scanned Qty** field
+3. **Alternative:** Click the **Camera** icon to scan the barcode with your device camera (see [Scan with Camera](#scan-with-camera))
+4. **Alternative:** Type the quantity in the **Scanned Qty** field
 
 If the scanned quantity does not match the target quantity (status showing **Incomplete** or **Overscan**), but you have manually confirmed the order is correct:
 
@@ -110,12 +112,36 @@ If the scanned items fully match, a success popup will appear and the verified o
 2. **Alternative:** Click **Review Current Order** to stay on the current order
 
 ![stock-pick-to-ship-selection](../../../../static/img/xstore/orders/stock-pick-to-ship-selection.png)
+
 To move verified orders to **To Ship**:
 
 1. Select orders by clicking the checkbox next to each order
 2. Click the **To Ship** button
 
 ![stock-pick-to-ship-result](../../../../static/img/xstore/orders/stock-pick-to-ship-result.png)
+
+#### Scan with Camera
+
+If you do not have a hardware scanner, you can use your device camera to scan the Order ID and item barcodes.
+
+![stock-pick-camera-button](../../../../static/img/xstore/orders/stock-pick-camera-button.png)
+
+![stock-pick-camera-button-mobile](../../../../static/img/xstore/orders/stock-pick-camera-button-mobile.png)
+
+1. Click the **Camera** icon
+2. Allow camera access when your browser asks for permission
+
+   :::info
+   If you blocked the camera before, allow it in your browser's site settings, then click the **Camera** icon again.
+   :::
+
+![stock-pick-camera-scan](../../../../static/img/xstore/orders/stock-pick-camera-scan.png)
+
+3. Point the camera at the barcode and keep it inside the scanning box
+
+   :::info
+   The camera reads one barcode each time it is opened.
+   :::
 
 ### Step 4: Scan To Ship (Optional)
 

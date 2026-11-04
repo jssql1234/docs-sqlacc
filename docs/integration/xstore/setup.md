@@ -199,6 +199,7 @@ Order and Payment data are synced together using the same Sync Dialog. The dialo
     1. Select a **Sync Mode**:
        - **Sync by Created Date**: sync the orders based on the order creation date
        - **Sync by Updated Date**: sync the orders based on the order's latest updated date
+       - **Sync by Payment Date**: sync the orders based on the order's settlement date (Shopify and WooCommerce stores are disabled in this mode)
     2. Set the **Date Range** for the data you want to sync. Use **Quick Select** to auto-fill common ranges
     3. Select the checkboxes to choose stores
     4. Click **Sync Selected** to start the sync
