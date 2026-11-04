@@ -44,15 +44,16 @@ Orders are categorized into the following status tabs:
 
 The order processing flow moves through several stages. Different actions are available at each stage.
 
-### Step 1: Pack New Orders
+### Step 1: New Order > To Process
 
 ![pack-orders](../../../../static/img/xstore/orders/pack-order.png)
 
 1. Select orders by clicking the checkbox next to each order
-2. Click the **Pack** button
-3. Packed orders will move to the **To Process** tab
+2. Click the **Actions** button and select **To Process** (Pack)
+3. The selected orders will be packed and moved to the **To Process** tab
+4. (Optional) Select **To Ship** to move the orders straight to the [**To Ship**](#step-5-to-ship) tab for the next fulfilment step
 
-### Step 2: Process Orders for Shipping
+### Step 2: To Process > To Ship
 
 ![to-process-tab](../../../../static/img/xstore/orders/to-process.png)
 
@@ -68,7 +69,7 @@ The order processing flow moves through several stages. Different actions are av
 
 1. Click the **Print Picking List** button to generate the following:
    - **Picking List Summary:** A consolidated list of all order items for batch picking
-   - **Picking List:** Individual picking lists generated per order, including barcodes 
+   - **Picking List:** Individual picking lists generated per order, including barcodes
 2. The printed picking list can be used together with the **Scan To Ship** feature to speed up order fulfillment
 
 ### Step 3: Stock Pick (Optional)
@@ -153,9 +154,10 @@ To move verified orders to **To Ship**:
 
 | Feature                         | Description                                                                                             |
 |---------------------------------|---------------------------------------------------------------------------------------------------------|
-| **Search**                      | Find orders by **Order ID**, **Store Name**, **Package ID** or **Tracking Number** using the search bar |
+| **Search**                      | Find orders by **Order ID**, **Store**, **Package ID** or **Tracking Number** using the search bar      |
 | **Column Visibility**           | Click the leftmost button to show/hide specific table columns                                           |
 | **Filter by Platform**          | Displays orders based on platform filtered                                                              |
 | **Filter by Platform Status**   | Displays orders based on platform status filtered                                                       |
 | **Filter by Shipment Provider** | Displays orders based on shipment provider filtered                                                     |
-| **Date Range**                  | Filter orders by created or updated date using the date picker                                          |
+| **Created Date**                | Filter orders by created date using the date picker                                                     |
+| **Updated Date**                | Filter orders by updated date using the date picker                                                     |

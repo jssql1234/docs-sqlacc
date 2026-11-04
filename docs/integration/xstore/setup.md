@@ -102,6 +102,20 @@ Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Accou
 
     ![refresh-code](../../../static/img/xstore/setup/refresh-code.png)
 
+5. If users select China Merchant or Direct Shop to map codes, the Map Code dialog will appear in a different layout.
+
+6. Users can choose between the following options:
+
+    1. **All**: Select and map codes once to apply them across all stores (shared codes).
+
+    2. **Individual Store**: Select a specific store to map codes independently.
+
+    ![map-group-codes](../../../static/img/xstore/setup/map-group-codes.png)
+
+:::info
+   Location Code is shared across all stores to ensure accurate stock quantities.
+:::
+
 ### Step 5: Sync Stock Items from SQL Account
 
 Sync stock items from SQL Account for **product mapping** and **quantity control**.

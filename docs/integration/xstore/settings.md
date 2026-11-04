@@ -331,20 +331,36 @@ If you selected the wrong orders or the posting is taking too long, you can term
 
 ## Customize Template
 
-Personalize the appearance and layout of **Picking List** according to requirements. Users can preview the template while making changes and adjust various template settings before saving it.
+The customization feature provides two template options:
+
+- Picking List – Customize the appearance and information displayed on the Picking List.
+
+- AWB + Picking List – Customize the Picking List settings when generating both the Air Waybill (AWB) and Picking List.
 
 1. Click **Settings > Customize Template** in the sidebar
 
    ![customize-sidebar](../../../static/img/xstore/settings/customize-sidebar.png)
 
-2. Users can customize the template and click **Apply** to preview how the Picking List will look with their selected settings. Once satisfied with the changes, click **Save** to save the customized template settings.
+2. Select the customization type you want to configure
+
+   ![customize-types](../../../static/img/xstore/settings/customize-types.png)
+
+3. Customize the template and click **Apply** to preview how the Picking List will look with the selected settings. Once satisfied with the changes, click **Save** to save the customized template settings.
 
    ![customize-btn](../../../static/img/xstore/settings/customize-btn.png)
 
-3. A success message will be displayed after the customized template settings are saved successfully.
+4. When Customize AWB + Picking List is selected, an AWB Only toggle is available. This setting determines what will be generated when printing orders.
 
-   ![customize-success](../../../static/img/xstore/settings/customize-success.png)
+   - Enabled: Only AWB will be generated. The Picking List will not be included.
 
-4. Certain essential information is required and cannot be hidden.
+   - Disabled: Both the AWB and Picking List will be generated together. The Picking List will follow your saved customization settings.
+
+   :::note
+   Only the Picking List can be customized. The AWB layout and content cannot be modified through this customization feature.
+   :::
+
+   ![customize-awb](../../../static/img/xstore/settings/customize-awb.png)
+
+5. Certain essential information is required and cannot be hidden.
 
    ![customize-required](../../../static/img/xstore/settings/customize-required.png)

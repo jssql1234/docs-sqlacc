@@ -61,13 +61,41 @@ Mapping platform products to stock items allows you to manage stock and quantity
 
 1. Go to **Inventory > Stocks**
 
-2. Click the **Auto Mapping** button under the **Actions** button
+2. Click the **Auto Mapping** under the **Actions** button
 
    ![multi-stock-item-auto-map](../../../../static/img/xstore/stocks/multi-stock-item-auto-map.png)
 
-3. Confirm the mapping is correct, select the platform products, then click the **Auto Map** button to map
+3. A dialog will open and there are two tabs available:
 
-   ![multi-stock-item-auto-map-dialog](../../../../static/img/xstore/stocks/multi-stock-item-auto-map-dialog.png)
+   - **Unmapped Products**: Display products that do not currently have a stock code mapping.
+
+   - **Mapped Products**: Display products that already have a mapped stock code.
+
+   ![auto-map-tabs](../../../../static/img/xstore/stocks/auto-map-tabs.png)
+
+   ![auto-map-current-stock-codes](../../../../static/img/xstore/stocks/auto-map-current-stock-codes.png)
+
+4. Both tabs display the products together with their suggested Stock Code and UOM. Users can make changes if necessary by:
+
+   - Selecting a different Stock Code from the dropdown
+
+      ![auto-map-select-stock-code](../../../../static/img/xstore/stocks/auto-map-select-stock-code.png)
+
+   - Selecting the appropriate UOM
+
+      ![auto-map-select-uom](../../../../static/img/xstore/stocks/auto-map-select-uom.png)
+
+   :::info
+      UOM must be selected for successful auto-mapping. Products without a selected UOM will be skipped during the mapping process.
+   :::
+
+5. Review and confirm that the Stock Code and UOM are correct, then select the products you want to map and click the **Auto Map** button.
+
+   ![auto-map-button](../../../../static/img/xstore/stocks/auto-map-button.png)
+
+6. Click the Refresh icon to retrieve the latest product data and update the displayed information.
+
+   ![auto-map-refresh](../../../../static/img/xstore/stocks/auto-map-refresh.png)
 
 ## Update Quantity
 

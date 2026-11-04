@@ -16,10 +16,31 @@ The **Manage Payments** page allows you to view and manage all payment details. 
 
 | Column                                                                   | Description                                                                     |
 |--------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| **Transaction Date** (Payment view) / **Platform Order ID** (Order view) | The grouping field - by transaction date or order ID                            |
+| **Transaction Date** (Payment view) / **Order ID** (Order view)          | The grouping field - by transaction date or order ID                            |
 | **Description**                                                          | Details of each transaction line item                                           |
 | **Currency**                                                             | The currency used (e.g., MYR)                                                   |
-| **Amount**                                                               | Total amount for the grouped row, or individual line item amounts when expanded |
+| **Amount**                                                               | Amount of each individual transaction line item                                 |
+| **Total**                                                                | Combined total amount of all transaction line items within the grouped row      |
+
+## Export CSV Features
+
+Users can export monthly transaction data in CSV format.
+
+1. Click the **Export CSV** button
+
+    ![export-button](../../../static/img/xstore/payments/export-button.png)
+
+2. In the export dialog:
+
+    - Select a specific store from the dropdown, or leave the default selection as All Stores to export transactions from all stores.
+
+    - Select the desired month and year from the available options.
+
+    - Click **Export CSV** button to start the export.
+
+    ![export-dialog](../../../static/img/xstore/payments/export-dialog.png)
+
+3. A ZIP file will be downloaded containing separate daily CSV files for each day within the selected month.
 
 ## General Features
 
@@ -40,7 +61,7 @@ The **Manage Payments** page allows you to view and manage all payment details. 
 
 | Filter              | Description                                                                                                                         |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| **Group by Payment** | Displays transactions grouped by transaction date                                                                                  |
+| **Group by Payment**| Displays transactions grouped by transaction date                                                                                   |
 | **Group by Order**  | Displays individual orders grouped by Platform Order ID                                                                             |
 | **Store Name**      | Click the **All Stores** dropdown to choose a specific store, or leave as default to show all stores                                |
-| **Date Range**      | Select a **Start Date** and **End Date** (up to today) of transaction date to filter transactions within a date range               |
+| **Payment Date**    | Select a **Start Date** and **End Date** (up to today) of transaction date to filter transactions within a date range               |
