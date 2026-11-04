@@ -125,14 +125,6 @@ When **Manual** is selected, choose how the new price is set:
 | **Decrease**    | Deducts the **Adj** percentage from the **Ref Price** | 
 | **Fixed Value** | Uses the price typed in the **Ref Price** field       | 
 
-1. For **Increase** and **Decrease**, type the percentage in **Adj** or click a preset (**5%**, **10%**, **15%** or **20%**)
-2. The result is shown as **Calculated Base Price** and in the **New Price** column
-3. (Optional) Type in the **New Price** column to use a different price for that particular product
-
-:::info
-**Manual** also updates the **Ref Price**. Prices typed in the **New Price** column will not change the **Ref Price**
-:::
-
 ### Update Quantity
 
 | Option                 | Description                                                         |
