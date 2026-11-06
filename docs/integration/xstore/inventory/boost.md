@@ -8,6 +8,12 @@ tags: ["e-Commerce", "X-Store", "Inventory", "Boost Items"]
 
 The **Shopee Boost Items** page lets you manage boost items and track boost progress for each Shopee store. Every four hours, 5 random items from the boost list are boosted automatically.
 
+:::warning First-time users
+Make sure there are no manually boosted items in progress on Shopee before you add boost items to the list.
+
+If a manual boost is still running, the first automated boost for that store may fail. You will then need to wait 4 hours for the next round before your items can be boosted successfully.
+:::
+
 ![boost-overview](../../../../static/img/xstore/boost/boost-overview.png)
 
 ## Manage Boost Items
@@ -32,8 +38,8 @@ To boost the sales of specific items, add them to the boost list.
 :::info
 
 - New boost items are automatically given priority.
-- Each boost round randomly selects up to 5 priority items first.
-- Any remaining slots are filled randomly from normal items. If no items have priority, all selections are random.
+- Each boost round randomly selects up to 5 priority items first, any remaining slots are filled randomly from normal items.
+- If no items have priority, all selections are random.
 - Priority applies to one round only and is cleared once the item is selected for boosting.
 
 :::
