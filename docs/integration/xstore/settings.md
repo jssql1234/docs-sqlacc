@@ -51,16 +51,17 @@ For more details on SQL Account configuration, see our [Setup Guide](../xstore/s
 
 You may add your SQL Account configuration here:
 
-1. System Conversion Date
-2. SQL Account Access Key and Secret Key
+1. TimeZone
+2. System Conversion Date
+3. SQL Account Access Key and Secret Key
 
-You can click **Test Connection** to verify the connection with the SQL Account API service. A green dot indicates a successful connection, and clicking it will display the SQL Account API version. A red dot indicates a connection error, and clicking it will display the error message.
+You can click **Test Connection** to verify the connection with the SQL Account API service. A green dot indicates a successful connection, and clicking it will display the SQL Account API version. A red dot indicates a connection error, and clicking it will display the error message. The parentheses beside it display the time taken to connect to the SQL Account API.
 
 ![company-keys](../../../static/img/xstore/settings/company-keys.png)
 
 #### Company Setting
 
-Enable specific company features such as enabling **Auto Synchronize Quantity to Platform** and update your desired default **Post Order Option** whether to *Manual Post* or *Post All*.
+Enable specific company features, such as **Auto Synchronize Quantity to Platform**. You can also set your default **Post Order Option** to either *Manual Post* or *Post All*. In addition, you can choose which date is used as the **Post Date (Invoice & Credit Note)**: *Shipped Date*, *Created Date*, *Payment Date*.
 
 ![company-sync](../../../static/img/xstore/settings/company-sync.png)
 
@@ -278,7 +279,7 @@ Use **View Options** to see more order details, or use the filter options to nar
 
    ![post-selection](../../../static/img/xstore/settings/post-selection.png)
 
-2. To post all orders matching your current filters in the **Unposted** tab at once, click the dropdown next to **Post Selected** and choose **Post All**. You can also set your preferred posting option in advance under [Company Setting](#company-setting).
+2. To post all orders matching your current filters in the **Unposted** tab at once, click the dropdown next to **Post Selected** and choose **Post All**. You can also set your preferred posting option in advance under [Company Setting](#company-setting). In addition, the **Post Date (Invoice & Credit Note)** defaults to the order's *Shipped Date*. If you would like to use the order's *Created Date*, *Payment Date* or *Payment Date* instead, you can change it in [Company Setting](#company-setting) too.
 
    ![post-all](../../../static/img/xstore/settings/post-all.png)
 
@@ -302,7 +303,7 @@ Use **View Options** to see more order details, or use the filter options to nar
 
 If any orders fail during posting, you can review them in the **Post Order Failed Results** dialog.
 
-:::note
+:::info
 Only the failed results from the most recent posting process are shown, and they are kept for **3 hours**. Once the underlying issue has been resolved, repost the failed orders before they expire.
 :::
 
@@ -328,6 +329,18 @@ If you selected the wrong orders or the posting is taking too long, you can term
 3. Wait for termination to complete. This may take a moment, as the system first finishes the order currently being processed so that all progress made so far is saved. Remaining orders are marked as *Skipped*, and a *Post Order Process Terminated* toast appears at the bottom right of the screen.
 
    ![terminate-success](../../../static/img/xstore/settings/terminate-success.png)
+
+### Mark As Posted
+
+If you don't want an order in the **Unposted** tab to be posted, you can mark it as **Posted**. The order moves to the **Posted** tab without any further posting actions.
+
+1. Select the orders you want to mark as posted, then click **Mark As Posted**. In the confirmation dialog, click **Continue** to proceed or **Cancel** to exit.
+
+   ![mark-confirmation](../../../static/img/xstore/settings/mark-confirmation.png)
+
+2. The selected orders now appear in the **Posted** tab.
+
+   ![mark-success](../../../static/img/xstore/settings/mark-success.png)
 
 ## Customize Template
 
