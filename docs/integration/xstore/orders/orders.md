@@ -73,48 +73,79 @@ The order processing flow moves through several stages. Different actions are av
 
 ### Step 3: Stock Pick (Optional)
 
-Use **Stock Pick** to optionally verify order items before processing orders for shipping.
+Use **Stock Pick** to optionally verify package items before processing packages for shipping.
+
 
 ![to-process-tab-stock-pick](../../../../static/img/xstore/orders/to-process-tab-stock-pick.png)
 
-1. Click the **Stock Pick** icon
+1. In the **To Process** tab, click the **Stock Pick** icon
+
+#### Load an Order or Package
 
 ![stock-pick-empty](../../../../static/img/xstore/orders/stock-pick-empty.png)
 
-1. Click on the screen and scan the Order ID
-2. **Alternative:** Type the Order ID manually and press Enter
-3. **Alternative:** Click the **Camera** icon to scan the Order ID with your device camera (see [Scan with Camera](#scan-with-camera))
+1. Click on the screen and scan the **Order ID**/**Package ID** 
+2. **Alternative:** Type the **Order ID**/**Package ID** manually and press Enter
+3. **Alternative:** Click the **Camera** icon to scan it with your device camera (see [Scan with Camera](#scan-with-camera))
 
-![stock-pick-order](../../../../static/img/xstore/orders/stock-pick-order.png)
+What is loaded depends on what you scan:
+
+| Scanned                                     | Result                                       |
+| ------------------------------------------- | -------------------------------------------- |
+| **Package ID**                              | That package is loaded for verification      |
+| **Order ID** with one package to verify     | The package is loaded for verification       |
+| **Order ID** with multiple packages         | The **Select Package** popup appears         |
+
+![stock-pick-load-package](../../../../static/img/xstore/orders/stock-pick-load-package.png)
+
+![stock-pick-load-order](../../../../static/img/xstore/orders/stock-pick-load-order.png)
+
+![stock-pick-package-dialog](../../../../static/img/xstore/orders/stock-pick-package-dialog.png)
+
+#### Select Packages
+
+![stock-pick-select-package](../../../../static/img/xstore/orders/stock-pick-select-package.png)
+
+When the order has more than one package to verify:
+
+1. Select the packages you want to verify by clicking the checkbox next to each package, or click the Select All checkbox to select every package within the order
+2. Click **Continue**
+
+#### Verify Items
 
 ![stock-pick-verification](../../../../static/img/xstore/orders/stock-pick-verification.png)
 
-1. Click on the screen and scan the barcode
+1. Click on the screen and scan the item barcode
 2. **Alternative:** Type the barcode number manually and press Enter
 3. **Alternative:** Click the **Camera** icon to scan the barcode with your device camera (see [Scan with Camera](#scan-with-camera))
 4. **Alternative:** Type the quantity in the **Scanned Qty** field
 
-If the scanned quantity does not match the target quantity (status showing **Incomplete** or **Overscan**), but you have manually confirmed the order is correct:
+Each item may show one of the following statuses:
 
-1. Click the **Complete Verification** button to mark the order as verified
-2. The verified order will appear in the verified order list as shown below
+| Status         | Description                                           |
+| -------------- | ----------------------------------------------------- |
+| **Pending**    | The item has not been scanned yet                     |
+| **Matched**    | The scanned quantity matches the target quantity      |
+| **Incomplete** | The scanned quantity is less than the target quantity |
+| **Overscan**   | The scanned quantity is more than the target quantity |
 
-   ![stock-pick-verified-orders-list](../../../../static/img/xstore/orders/stock-pick-verified-orders-list.png)
+If the scanned quantity does not match the target quantity (status showing **Incomplete** or **Overscan**), but you have manually confirmed the package is correct:
 
-3. Click **Proceed to Next Order** to continue; the order remains in the list until you proceed
+1. Click the **Complete Verification** button to mark the package as verified
+2. The package is added to the **Verified Packages** list, and the next selected package is loaded (If you selected more than one package)
 
-If the scanned items fully match, a success popup will appear and the verified order list will update automatically:
+When all packages are verified, a success popup appears:
 
 ![stock-pick-sucessful-verification-popup](../../../../static/img/xstore/orders/stock-pick-sucessful-verification-popup.png)
 
-1. Click **Proceed to Next Order** on the popup to reset and continue with the next order
-2. **Alternative:** Click **Review Current Order** to stay on the current order
+1. Click **Proceed to Next Order/Package** to clear the screen and scan the next order or package
+2. **Alternative:** Close the popup to review the current package, then click **Proceed to Next Order/Package** at the bottom of the screen when you are done
 
-![stock-pick-to-ship-selection](../../../../static/img/xstore/orders/stock-pick-to-ship-selection.png)
+#### Move Verified Packages to To Ship
 
-To move verified orders to **To Ship**:
+![stock-pick-to-ship](../../../../static/img/xstore/orders/stock-pick-to-ship.png)
 
-1. Select orders by clicking the checkbox next to each order
+1. Select the packages you want to ship by clicking the checkbox next to each package, or click the header checkbox to select all
 2. Click the **To Ship** button
 
 ![stock-pick-to-ship-result](../../../../static/img/xstore/orders/stock-pick-to-ship-result.png)
