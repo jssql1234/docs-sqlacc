@@ -70,53 +70,7 @@ Connect E-commerce stores to sync **store**, **product**, **order**, and **payme
 
     ![save-key](../../../static/img/xstore/setup/save-key.png)
 
-### Step 4: Code Mapping
-
-Sync **Stock**, **Customer**, **Location**, and **Payment** codes from SQL Account to map code types (**Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer**) required for posting invoices to SQL Account.
-
-1. Click **Stores** in the sidebar
-
-    ![store-sidebar](../../../static/img/xstore/setup/store-sidebar.png)
-
-2. Click the icon of any store
-
-    ![store-config](../../../static/img/xstore/setup/store-config.png)
-
-3. A dialog will open:
-
-    1. Select the **code type** from the dropdown menu
-
-    2. Click **Map Codes**
-
-        ![map-codes](../../../static/img/xstore/setup/map-codes.png)
-
-    3. To post orders to SQL Account, a default code must be configured. Without it, orders that include unmapped products cannot be posted
-
-        ![default-code](../../../static/img/xstore/setup/default-code.png)
-
-    4. Select **No Default Code** to clear the previously selected default code.
-
-        ![no-code](../../../static/img/xstore/setup/no-code.png)
-
-4. Click the **Refresh** icon to get the latest code data
-
-    ![refresh-code](../../../static/img/xstore/setup/refresh-code.png)
-
-5. If users select China Merchant or Direct Shop to map codes, the Map Code dialog will appear in a different layout.
-
-6. Users can choose between the following options:
-
-    1. **All**: Select and map codes once to apply them across all stores (shared codes).
-
-    2. **Individual Store**: Select a specific store to map codes independently.
-
-    ![map-group-codes](../../../static/img/xstore/setup/map-group-codes.png)
-
-:::info
-   Location Code is shared across all stores to ensure accurate stock quantities.
-:::
-
-### Step 5: Sync Stock Items from SQL Account
+### Step 4: Sync Stock Items from SQL Account
 
 Sync stock items from SQL Account for **product mapping** and **quantity control**.
 
@@ -153,6 +107,54 @@ Sync stock items from SQL Account for **product mapping** and **quantity control
 
 :::info
    Failed items can be retried individually. Learn more in **[Retry Sync](#retry-sync)**.
+:::
+
+### Step 5: Code Mapping
+
+Code mapping links the required SQL Account codes to the corresponding codes used for [**Post Order**](settings.md#post-order). These include **Location**, **Project**, **Voucher**, **Discount**, **Shipping**, **Transaction**, **Payment**, and **Customer** codes.
+
+:::info
+   Ensure that the **Voucher**, **Discount**, **Shipping**, and **Transaction** codes have been synced in [**Step 4**](#step-4-sync-stock-items-from-sql-account) so that they are available in the dropdown menu.
+:::
+
+1. Click **Stores** in the sidebar
+
+    ![store-sidebar](../../../static/img/xstore/setup/store-sidebar.png)
+
+2. Click the icon of any store
+
+    ![store-config](../../../static/img/xstore/setup/store-config.png)
+
+3. A dialog will open:
+
+    1. Select the **code type** from the dropdown menu
+
+    2. Click **Map Codes**
+
+        ![map-codes](../../../static/img/xstore/setup/map-codes.png)
+
+    3. Optional: Configure a default stock code to use when posting unmapped order items.
+
+        ![default-code](../../../static/img/xstore/setup/default-code.png)
+
+    4. Select **No Default Code** to clear the previously selected default code.
+
+        ![no-code](../../../static/img/xstore/setup/no-code.png)
+
+4. Click the **Refresh** icon to get the latest code data
+
+    ![refresh-code](../../../static/img/xstore/setup/refresh-code.png)
+
+5. When mapping codes for **China Merchant** or **Direct Shop**, choose one of the following options:
+
+    1. **All**: Select and map codes once to apply them across all stores (shared codes).
+
+    2. **Individual Store**: Select a specific store to map codes independently.
+
+    ![map-group-codes](../../../static/img/xstore/setup/map-group-codes.png)
+
+:::info
+   Location Code is shared across all stores to ensure accurate stock quantities.
 :::
 
 ## Manual Sync
