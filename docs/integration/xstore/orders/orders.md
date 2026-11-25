@@ -53,7 +53,7 @@ The order processing flow moves through several stages. Different actions are av
 3. The selected orders will be packed and moved to the **To Process** tab
 4. (Optional) Select **To Ship** to move the orders straight to the [**To Ship**](#step-5-to-ship) tab for the next fulfilment step
 
-### Step 2: To Process > To Ship
+### Step 2: To Process > To Ship/Self Deliver
 
 ![to-process-tab](../../../../static/img/xstore/orders/to-process.png)
 

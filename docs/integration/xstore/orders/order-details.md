@@ -30,11 +30,11 @@ The Order Details interface allows you to:
 
 ![lazada-order-detail](../../../../static/img/xstore/order-details/lazada/order-detail.png)
 
-| Section            | Details                                                                                   |
-| -------------------| ------------------------------------------------------------------------------------------|
-| **Order Items**    | The item details in the order, including the status and shipping details                  |
-| **Order Details**  | Other order information, including payment details, shipping details, etc. |
-| **Summary**        | The summary payment information                                                           |
+| Section           | Description                                                        |
+| ----------------- | ------------------------------------------------------------------ |
+| **Order Items**   | Products in the order, including their status and shipping details |
+| **Order Details** | Buyer, payment, shipping, and billing information                  |
+| **Summary**       | Order charges, discounts, and totals                               |
 
 #### Return Order Info
 
@@ -223,43 +223,53 @@ When you've made an offer and are awaiting buyer response, you can still modify 
 
 ### Cancel Order (Seller-Initiated)
 
-:::info
-Available for orders in the **New Order** and **To Process** tabs
-:::
-
 ![tiktok-cancel-order-button](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order.png)
 
-1. Click the **Cancel Order** button at the top right corner
+1. In the upper-right corner, click the **More** icon and select **Cancel Order**
 
-2. Select the cancellation reason
+2. Select a cancellation reason. The estimated refund amount appears under **Refund allocation**
 
-  ![tiktok-cancel-order-form](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order-form.png)
+    ![tiktok-cancel-order-form](../../../../static/img/xstore/order-details/tiktok/seller-cancel-order-form.png)
 
-3. Submit the cancellation request
+3. Click **Continue** to submit the cancellation request
 
 ### Cancel Order (Buyer-Initiated)
 
 ![tiktok-buyer-cancel-request](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order.png)
 
 When a buyer requests cancellation, choose your response:
-  1. **Approve Cancellation:**
+1. **Approve Cancellation:**
 
     ![tiktok-approve-cancellation](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order-approve.png)
 
-  2. **Reject Cancellation:**
+2. **Reject Cancellation:**
 
     ![tiktok-reject-cancellation](../../../../static/img/xstore/order-details/tiktok/buyer-cancel-order-reject.png)
 
-### Return or Refund Order (Buyer-Initiated)
+### Refund Order (Seller-Initiated)
+
+![tiktok-refund-order-button](../../../../static/img/xstore/order-details/tiktok/seller-refund-order.png)
+
+1. In the upper-right corner, click the **More** icon and select **Refund Only**
+
+2. Select the items to refund and choose a refund reason
+
+3. Review the estimated amount under **Refund allocation**. To specify a different amount, enter it in **Refund owed**
+
+    ![tiktok-refund-order-form](../../../../static/img/xstore/order-details/tiktok/seller-refund-order-form.png)
+
+4. Click **Create Refund** to submit the refund request
+
+### Return Refund Order (Buyer-Initiated)
 
 ![tiktok-return-or-refund-request](../../../../static/img/xstore/order-details/tiktok/buyer-return-order.png)
 
 The buttons will be shown according to the **Return Type** and **Return Status**
-  1. **Reject Return or Refund:**
+1. **Reject Return or Refund:**
 
     ![tiktok-reject-return-or-refund](../../../../static/img/xstore/order-details/tiktok/buyer-return-order-reject.png)
 
-  2. **Approve Return:**
+2. **Approve Return:**
 
     ![tiktok-approve-return](../../../../static/img/xstore/order-details/tiktok/buyer-return-order-approve-return.png)
 
@@ -275,93 +285,134 @@ The buttons will be shown according to the **Return Type** and **Return Status**
 | **Order Details**  | Other order information, including payment details, shipping details, etc. |
 | **Summary**        | The summary payment information                                                           |
 
-### Order Actions
-
-![shopify-actions](../../../../static/img/xstore/order-details/shopify/order-actions.png)
-
-| Action              | Description                                        | 
-| ------------------- | -------------------------------------------------- | 
-| **Mark As Paid**    | Manually record an order as paid.                  | 
-| **Create Return**   | Initiate a return and refund for the buyer.        | 
-| **Cancel Order**    | Cancel the order.                                  | 
-
-#### Update Tracking
+### Mark Order as Paid 
 
 :::info
-Available for fulfilled orders only
+Available for **Unpaid** orders
 :::
 
-![shopify-update-tracking](../../../../static/img/xstore/order-details/shopify/seller-update-tracking.png)
+![mark-as-paid](../../../../static/img/xstore/order-details/shopify/mark-as-paid.png)
 
-Update the carrier name, tracking number, and shipment URL to keep the buyer informed.
+1. In the upper-right corner, click the **More** icon and select **Mark as Paid**
 
-#### Create Return
+2. Confirm your selection and request will be submitted
 
-:::info
-Available for fulfilled orders only
-:::
+### Fulfill Order
 
-![shopify-create-return](../../../../static/img/xstore/order-details/shopify/seller-create-return.png)
+You can fulfill Shopify orders from the [**Orders page**](./orders.md#step-2-to-process--to-shipself-deliver) or from the order details. Use the order details when you need to add carrier and tracking information.
 
-![shopify-create-return-reason](../../../../static/img/xstore/order-details/shopify/seller-create-return-reason.png)
+![shopify-fulfill-order](../../../../static/img/xstore/order-details/shopify/fulfill-order.png)
 
+1. Under **Shipping Details**, click the **More** icon and select **Fulfill Order**
 
-Sellers can create a return and refund for specific items in an order.
+2. Enter the **Shipping Carrier**, **Tracking Number**, and **Tracking URL**
 
-*   **Reason:** A return reason is required and can be selected from the dropdown menu.
-*   **Quantity:** Adjust the number of items being returned.
-*   **Return Shipping Fee:** The shipping fee that charge for returning the order.
-*   **Restocking Fee:** The fee percentage that charge for restocking the items.
+3. To add tracking information for another shipment, click **Add another tracking number**
 
-#### Process Return
+    ![shopify-fulfill-order-form](../../../../static/img/xstore/order-details/shopify/fulfill-order-form.png)
 
-| Type              | Description                                        | 
-| ------------------- | -------------------------------------------------- | 
-| **Open**          | The return is still open and can be processed.     | 
-| **Closed**        | The return is closed and cannot be processed.      | 
-| **Requested**     | The return is requested by buyer and can be processed.      | 
+4. Choose whether to send a notification to the customer
 
-![shopify-process-return](../../../../static/img/xstore/order-details/shopify/seller-process-return.png)
+5. Click **Fulfill Order** to submit the request
+
+After the order is fulfilled, you can change its carrier or tracking information. Under **Shipping Details**, click the **More** icon and select **Update Tracking**.
+
+![shopify-update-tracking](../../../../static/img/xstore/order-details/shopify/update-tracking.png)
+
+### Cancel Order (Seller-Initiated)
 
 :::info
-Available for open type only for return orders
-:::
-
-User can enable the **restock tickbox** if the item is being returned and select the respective location
-
-* **Refund Allocation:** Within the Refund Allocation, User can type in the refund amount manually or let the system auto-allocate the amount based on the item details
-* **Notify Customer:** User can choose to email the customer about the return and refund
-
-
-#### Cancel Order
-
-:::info
-Available for orders that have not been fulfilled
+Available for **Non Fulfilled** orders
 :::
 
 ![shopify-cancel-order](../../../../static/img/xstore/order-details/shopify/seller-cancel-order.png)
 
-1. Select the refund payment via which channel 
-2. Select the cancellation reason
-3. Staff may leave a notes about the cancellation 
-4. Tick restock items if the item is returned and in good condition
-5. Choose to notify the customer about the cancellation or process refund
-6. Submit the cancellation request
+1. In the upper-right corner, click the **More** icon and select **Cancel Order**
 
-### Return or Refund Order (Buyer-Initiated)
+2. Under **Refund Payments**, select how to issue the refund
 
-This section is available when a buyer requests a return or refund.
+3. Select a **Cancellation Reason**
+
+4. Optional: Enter additional information in **Staff Note**
+
+5. Select **Restock items** to add the cancelled items back to your inventory
+
+6. Choose whether to notify the customer by email
+
+    ![shopify-cancel-order-form](../../../../static/img/xstore/order-details/shopify/seller-cancel-order-form.png)
+
+7. Click **Cancel Order** to submit the request
+
+### Return Refund Order (Seller-Initiated)
+
+#### Create Return
+
+:::info
+Available for **Fulfilled** orders
+:::
+
+![shopify-create-return](../../../../static/img/xstore/order-details/shopify/seller-create-return.png)
+
+1. In the upper-right corner, click the **More** icon and select **Create Return**
+
+2. Select the items and quantities to return, then choose a return reason
+
+3. If applicable, enter the **Return shipping fee** and **Restocking fee**
+
+4. Review the **Expected refund** under **Summary**
+
+    ![shopify-create-return-form](../../../../static/img/xstore/order-details/shopify/seller-create-return-form.png)
+
+5. Click **Create Return** to submit the request
+
+#### Process Return
+
+![shopify-process-return](../../../../static/img/xstore/order-details/shopify/seller-process-return.png)
+
+1. On the **Return Order** card, click the **More** icon and select **Process Return**
+
+2. Select the items and quantities to process
+
+3. To add returned items back to your inventory, select **Restock at** and choose a location
+
+4. If applicable, enter the **Shipping refund** and update the amount under **Refund methods**
+
+    ![shopify-process-return-form](../../../../static/img/xstore/order-details/shopify/seller-process-return-form.png)
+
+5. Choose whether to notify the customer by email
+
+6. Review the refund details, then click **Process Return**
+
+To close the return without processing it, select **Close Return** from the **More** menu on the **Return Order** card.
+
+### Return Refund Order (Buyer-Initiated)
+
+A buyer's return or refund request appears on the **Return Order** card. Open the **More** menu and choose one of the following actions:
 
 ![shopify-return-request](../../../../static/img/xstore/order-details/shopify/buyer-request-return-refund.png)
 
-Sellers can choose from the following actions:
+#### Accept and Refund
 
-*   **Accept and Refund**: Approve the request and issue a full refund to the buyer
-*   **Decline Return**: Reject the request. This does not close the case, and the request may be resubmitted
-*   **Close Return**: Stop the return and refund process. No further action will be taken
+1. Select **Accept & refund** from the **More** menu
+
+2. Review the returned items and the amount under **Refund summary**
+
+3. Choose whether to notify the customer by email, then click **Accept & refund**
+
+    ![shopify-accept-return](../../../../static/img/xstore/order-details/shopify/buyer-accept-return.png)
+
+#### Decline Return
+
+1. Select **Decline return** from the **More** menu
+
+2. Select a **Decline Reason** and, optionally, enter a note for the customer
+
+3. Click **Confirm** to decline the request
+
+    ![shopify-reject-return](../../../../static/img/xstore/order-details/shopify/buyer-reject-return.png)
 
 :::info
-For buyer-initiated requests, the refund amount cannot be manually adjusted
+The refund amount for a buyer-initiated request cannot be adjusted manually.
 :::
 
 ## WooCommerce
@@ -380,25 +431,39 @@ For buyer-initiated requests, the refund amount cannot be manually adjusted
 
 ![woo-order-note](../../../../static/img/xstore/order-details/woocommerce/order-notes.png)
 
-This section allows the seller to add Private or Customer notes.
+Use **Order Notes** to add an internal note or send a note to the customer:
 
-### Order Actions
+1. Enter the note in **Add Note**
 
-![woo-order-action](../../../../static/img/xstore/order-details/woocommerce/order-actions.png)
+2. To make the note visible to the customer, select **Note to Customer**. Leave it cleared to save a private note
 
-| Actions            | Details                |
-| ------------------ | -----------------------|
-| **Cancel Order**   | Cancel a created order |
-| **Process Refund** | Refund an order        |
+3. Click **Add Note**
 
-#### Cancel Order:
+### Cancel Order (Seller-Initiated)
 
 :::info
 Available for **Pending**, **On Hold** and **Processing** orders
 :::
 
-![woo-seller-cancel-order](../../../../static/img/xstore/order-details/woocommerce/seller-cancel-order.png)
+![woo-order-action](../../../../static/img/xstore/order-details/woocommerce/order-actions.png)
 
-#### Process Refund:
+1. In the upper-right corner, click the **More** icon and select **Cancel Order**
 
-![woo-seller-create-refund](../../../../static/img/xstore/order-details/woocommerce/seller-create-refund.png)
+2. Click **Continue** to confirm the cancellation
+
+    ![woo-seller-cancel-order](../../../../static/img/xstore/order-details/woocommerce/seller-cancel-order.png)
+
+### Process Refund (Seller-Initiated)
+![woo-order-action](../../../../static/img/xstore/order-details/woocommerce/order-actions.png)
+
+1. In the upper-right corner, click the **More** icon and select **Process Refund**
+
+2. Enter the refund amount in **Offer Amount**, up to the displayed maximum payable amount
+
+3. Optional: Enter a reason and specify the quantity of each item to restock
+
+4. If applicable, select **API Refund**
+
+    ![woo-seller-create-refund](../../../../static/img/xstore/order-details/woocommerce/seller-create-refund.png)
+
+5. Click **Continue** to create the refund
